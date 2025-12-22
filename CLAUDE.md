@@ -152,6 +152,7 @@ Design tokens are defined in `app/globals.css` and extracted from Figma.
 ```css
 .text-gradient-cabana    /* Blue-to-green gradient text */
 .bg-section-dark         /* Dark section background */
+.bg-section-dark-2       /* Dark section background lighter */
 .bg-section-light        /* Light blue section background */
 .bg-section-slate        /* Slate section background */
 .icon-wrapper            /* Circular icon container */

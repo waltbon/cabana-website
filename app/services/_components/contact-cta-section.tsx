@@ -10,7 +10,7 @@ export function ContactCTASection() {
           {/* Headline */}
           <h2 className="max-w-3xl text-3xl font-bold leading-tight tracking-tight md:text-4xl lg:text-5xl">
             Ready to Start Your{" "}
-            <span className="text-[#0048ff]">Data Journey?</span>
+            <span className="text-cabana-blue">Data Journey?</span>
           </h2>
 
           {/* Description */}
@@ -23,7 +23,7 @@ export function ContactCTASection() {
           <Button
             asChild
             size="lg"
-            className="gap-2 rounded-lg bg-[#0048ff] px-8 hover:bg-[#0048ff]/90"
+            className="gap-2 rounded-lg bg-cabana-blue px-8 hover:bg-cabana-blue/90"
           >
             <Link href="/contact">Get in Touch</Link>
           </Button>

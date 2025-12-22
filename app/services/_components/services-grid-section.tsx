@@ -49,7 +49,7 @@ export function ServicesGridSection() {
             <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
               Solutions to Transform Your
               <br />
-              <span className="text-[#0048ff]">Business with Data</span>
+              <span className="text-cabana-blue">Business with Data</span>
             </h2>
 
             {/* Description */}

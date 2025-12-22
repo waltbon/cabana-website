@@ -35,7 +35,7 @@ const services = [
 
 export function SolutionSection() {
   return (
-    <Section className="bg-white py-24">
+    <Section className="light:bg-white dark:bg-section-dark-2 py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-12">
           {/* Section Header */}
@@ -49,7 +49,7 @@ export function SolutionSection() {
             <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
               Your End-to-End
               <br />
-              <span className="text-[#0048ff]">Data Partner</span>
+              <span className="text-cabana-blue">Data Partner</span>
             </h2>
 
             {/* Description */}

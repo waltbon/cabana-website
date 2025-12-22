@@ -42,7 +42,7 @@ export function StorySection() {
               {/* Headline */}
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
                 Small team,{" "}
-                <span className="text-[#0048ff]">Big Results</span>
+                <span className="text-cabana-blue">Big Results</span>
               </h2>
 
               {/* Description */}
@@ -58,7 +58,7 @@ export function StorySection() {
               <div>
                 <Button
                   asChild
-                  className="rounded-lg bg-[#0048ff] hover:bg-[#0048ff]/90"
+                  className="rounded-lg bg-cabana-blue hover:bg-cabana-blue/90"
                 >
                   <Link href="/contact">Let&apos;s Talk!</Link>
                 </Button>

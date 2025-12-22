@@ -59,7 +59,7 @@ export function HeroSection() {
           </p>
 
           {/* CTA Button */}
-          <Button asChild size="lg" className="mt-4 gap-2 rounded-lg bg-[#0048ff] px-6 hover:bg-[#0048ff]/90">
+          <Button asChild size="lg" className="mt-4 gap-2 rounded-lg bg-cabana-blue px-6 hover:bg-cabana-blue/90">
             <Link href="/contact">
               Start building!
               <ArrowRight className="size-4" />

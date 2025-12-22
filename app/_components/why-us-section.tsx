@@ -28,7 +28,7 @@ const reasons = [
 
 export function WhyUsSection() {
   return (
-    <Section className="bg-section-light py-24">
+    <Section className="light:bg-white dark:bg-section-dark-2 py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-12">
           {/* Left Column - Content */}
@@ -44,7 +44,7 @@ export function WhyUsSection() {
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
                 Why
                 <br />
-                <span className="text-[#0048ff]">Cabana Data?</span>
+                <span className="text-cabana-blue">Cabana Data?</span>
               </h2>
             </div>
 
@@ -67,7 +67,7 @@ export function WhyUsSection() {
 
             {/* CTA Buttons */}
             <div className="flex gap-3">
-              <Button asChild className="rounded-lg bg-[#0048ff] hover:bg-[#0048ff]/90">
+              <Button asChild className="rounded-lg bg-cabana-blue hover:bg-cabana-blue/90">
                 <Link href="/contact">Let&apos;s talk!</Link>
               </Button>
               <Button asChild variant="ghost" className="gap-2 rounded-lg">

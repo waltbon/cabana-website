@@ -3,9 +3,9 @@ import Link from "next/link";
 import Logo from "@/public/logo-horizontal-light.svg";
 import { MobileNav } from "@/components/nav/mobile-nav";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/theme/theme-toggle";
 import { cn } from "@/lib/utils";
 import { mainMenu } from "@/menu.config";
-import { siteConfig } from "@/site.config";
 
 export const Nav = ({ className, children, id }: NavProps) => {
   return (
@@ -44,6 +44,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
           <Button asChild className="hidden sm:flex">
             <Link href="https://dub.sh/next-wp">Get Started</Link>
           </Button>
+          <ThemeToggle />
           <MobileNav />
         </div>
       </div>

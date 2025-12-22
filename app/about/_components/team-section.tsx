@@ -91,7 +91,7 @@ export function TeamSection() {
                 >
                   <member.icon className="size-6 shrink-0 text-foreground" />
                   <div className="flex flex-col">
-                    <span className="font-semibold text-[#0048ff]">
+                    <span className="font-semibold text-cabana-blue">
                       {member.name}
                     </span>
                     <span className="text-sm text-muted-foreground">

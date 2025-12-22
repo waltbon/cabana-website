@@ -44,7 +44,7 @@ const alignmentClasses = {
 
 export function ProblemSection() {
   return (
-    <Section className="bg-section-light py-24">
+    <Section className="light:bg-section-light dark:bg-section-dark py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-12">
           {/* Section Header */}
@@ -58,7 +58,7 @@ export function ProblemSection() {
             <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
               Stop Reacting.
               <br />
-              <span className="text-[#0048ff]">Start Building.</span>
+              <span className="text-cabana-blue">Start Building.</span>
             </h2>
 
             {/* Description */}

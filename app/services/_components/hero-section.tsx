@@ -20,7 +20,7 @@ export function HeroSection() {
               <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-5xl">
                 Everything we do is
                 <br />
-                <span className="text-[#0048ff]">Data-Driven</span>
+                <span className="text-cabana-blue">Data-Driven</span>
               </h1>
 
               {/* Description */}
@@ -34,7 +34,7 @@ export function HeroSection() {
             <div className="flex gap-3">
               <Button
                 asChild
-                className="rounded-lg bg-[#0048ff] hover:bg-[#0048ff]/90"
+                className="rounded-lg bg-cabana-blue hover:bg-cabana-blue/90"
               >
                 <Link href="/contact">Let&apos;s talk!</Link>
               </Button>
@@ -48,13 +48,13 @@ export function HeroSection() {
           <div className="relative flex flex-1 items-center justify-center">
             <div className="relative size-80 md:size-96">
               {/* Outer circle */}
-              <div className="absolute inset-0 rounded-full border-2 border-[#0048ff]/20" />
+              <div className="absolute inset-0 rounded-full border-2 border-cabana-blue/20" />
               {/* Second circle */}
-              <div className="absolute inset-[10%] rounded-full border-2 border-[#0048ff]/30" />
+              <div className="absolute inset-[10%] rounded-full border-2 border-cabana-blue/30" />
               {/* Third circle */}
-              <div className="absolute inset-[25%] rounded-full border-2 border-[#0048ff]/50" />
+              <div className="absolute inset-[25%] rounded-full border-2 border-cabana-blue/50" />
               {/* Inner circle */}
-              <div className="absolute inset-[40%] rounded-full bg-[#0048ff]/10 border-2 border-[#0048ff]" />
+              <div className="absolute inset-[40%] rounded-full bg-cabana-blue/10 border-2 border-cabana-blue" />
             </div>
           </div>
         </div>

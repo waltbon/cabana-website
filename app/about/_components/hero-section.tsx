@@ -26,7 +26,7 @@ export function HeroSection() {
             <div>
               <Button
                 asChild
-                className="rounded-lg bg-[#0048ff] hover:bg-[#0048ff]/90"
+                className="rounded-lg bg-cabana-blue hover:bg-cabana-blue/90"
               >
                 <Link href="/contact">Let&apos;s Talk!</Link>
               </Button>

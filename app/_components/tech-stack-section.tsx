@@ -49,7 +49,7 @@ const techStack = [
 
 export function TechStackSection() {
   return (
-    <Section className="border-t border-dashed border-border bg-white py-24">
+    <Section className="border-t border-dashed border-border light:bg-white dark:bg-section-dark-2 py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-16">
           {/* Section Header */}

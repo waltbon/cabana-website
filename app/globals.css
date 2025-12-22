@@ -326,6 +326,10 @@
         background-color: #0f172a;
     }
 
+    .bg-section-dark-2 {
+        background-color: #1e212b;
+    }
+
     /* Icon wrapper styles */
     .icon-wrapper {
         background-color: #16364d;

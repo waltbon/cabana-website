@@ -18,7 +18,7 @@ export function CTASection() {
           <Button
             asChild
             size="lg"
-            className="gap-2 rounded-lg bg-[#0048ff] px-6 hover:bg-[#0048ff]/90"
+            className="gap-2 rounded-lg bg-cabana-blue px-6 hover:bg-cabana-blue/90"
           >
             <Link href="/contact">
               Start building!
