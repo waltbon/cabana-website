@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/logo-horizontal-light.svg";
 import { MobileNav } from "@/components/nav/mobile-nav";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
+import { ThemeLogo } from "@/components/theme/theme-logo";
 import { cn } from "@/lib/utils";
 import { mainMenu } from "@/menu.config";
 
@@ -21,14 +20,13 @@ export const Nav = ({ className, children, id }: NavProps) => {
           className="hover:opacity-75 transition-all flex gap-4 items-center"
           href="/"
         >
-          <Image
-            src={Logo}
-            alt="Logo"
-            loading="eager"
-            className="dark:invert"
+          <ThemeLogo
+            lightSrc="/logo-horizontal-light.svg"
+            darkSrc="/logo-horizontal-dark.svg"
+            alt="Cabana Data"
             width={182}
             height={50}
-          ></Image>
+          />
         </Link>
         {children}
         <div className="flex items-center gap-2">

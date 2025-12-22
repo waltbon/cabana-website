@@ -1,4 +1,5 @@
 import { Section, Container } from "@/components/craft";
+import Image from "next/image";
 
 // Pain point data
 const painPoints = [
@@ -9,6 +10,7 @@ const painPoints = [
       "Your data is siloed and disorganized. Your teams can't trust the numbers, and insights are buried, slowing down critical decisions.",
     iconSize: "sm" as const,
     alignment: "left" as const,
+    imageSrc: '/home/data-chaos.svg'
   },
   {
     id: 2,
@@ -17,6 +19,7 @@ const painPoints = [
       "You're held back by manual workarounds and off-the-shelf software that doesn't fit your unique needs, draining time and resources.",
     iconSize: "md" as const,
     alignment: "right" as const,
+    imageSrc: '/home/inefficient-process.svg'
   },
   {
     id: 3,
@@ -24,7 +27,8 @@ const painPoints = [
     description:
       "You know you need to adopt AI and modern technology to stay competitive, but you don't have a clear roadmap or the technical foundation to get there.",
     iconSize: "lg" as const,
-    alignment: "center" as const,
+    alignment: "left" as const,
+    imageSrc: '/home/uncertain-future.svg'
   },
 ];
 
@@ -37,15 +41,15 @@ const iconSizes = {
 
 // Alignment mapping
 const alignmentClasses = {
-  left: "items-start text-left",
-  right: "items-end text-right",
+  left: "items-start order-first",
+  right: "items-end order-last text-right",
   center: "items-center text-center",
 };
 
 export function ProblemSection() {
   return (
     <Section className="light:bg-section-light dark:bg-section-dark py-24">
-      <Container className="max-w-7xl px-6">
+      <Container className="max-w-7xl">
         <div className="flex flex-col items-center gap-12">
           {/* Section Header */}
           <div className="flex max-w-xl flex-col items-center gap-5 text-center">
@@ -73,34 +77,32 @@ export function ProblemSection() {
           <div className="relative mx-auto w-full max-w-2xl">
             {/* Vertical connecting line */}
             <div
-              className="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-[#16364d]/20"
-              aria-hidden="true"
-            />
+              className="absolute left-1/2 top-0 h-full w-2" aria-hidden="true">
+              <Image src="/home/line.svg" width={6} height={1} alt="line" />
+            </div>
 
             {/* Pain point items */}
-            <div className="relative flex flex-col gap-8">
+            <div className="relative flex flex-col gap-12">
               {painPoints.map((point) => (
-                <div
-                  key={point.id}
-                  className={`flex flex-col gap-5 ${alignmentClasses[point.alignment]}`}
-                >
-                  {/* Icon wrapper */}
-                  <div
-                    className={`icon-wrapper ${iconSizes[point.iconSize]} relative z-10`}
-                  />
+                <div key={point.id} className={`flex flex-row space-x-1`}>
+                  <div className={`flex flex-col gap-5 ${alignmentClasses[point.alignment]}`}>
 
-                  {/* Content */}
-                  <div
-                    className={`flex max-w-xs flex-col gap-2 ${
-                      point.alignment === "right" ? "md:ml-auto" : ""
-                    } ${point.alignment === "center" ? "mx-auto max-w-lg" : ""}`}
-                  >
-                    <h3 className="text-2xl font-semibold text-foreground">
-                      {point.title}
-                    </h3>
-                    <p className="text-base leading-relaxed text-muted-foreground">
-                      {point.description}
-                    </p>
+                    {/* Content */}
+                    <div
+                      className={`flex max-w-xs flex-col gap-2 ${point.alignment === "right" ? "md:ml-auto" : ""
+                        } "mx-auto max-w-lg`}
+                    >
+                      <h3 className="text-2xl font-semibold text-foreground">
+                        {point.title}
+                      </h3>
+                      <p className="text-base leading-relaxed text-muted-foreground">
+                        {point.description}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="mx-auto">
+                    <Image src={point.imageSrc} className="self-center text-center" width={150} height={100} alt={point.title} />
                   </div>
                 </div>
               ))}

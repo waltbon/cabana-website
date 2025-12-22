@@ -35,7 +35,7 @@ const services = [
 
 export function SolutionSection() {
   return (
-    <Section className="light:bg-white dark:bg-section-dark-2 py-24">
+    <Section className="bg-white dark:bg-section-dark-2 py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-12">
           {/* Section Header */}

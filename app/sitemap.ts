@@ -9,8 +9,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {
       url: `${siteConfig.site_domain}`,
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "monthly",
       priority: 1,
+    },
+    {
+      url: `${siteConfig.site_domain}/about`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.site_domain}/services`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.site_domain}/contact`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
     },
     {
       url: `${siteConfig.site_domain}/posts`,
@@ -19,25 +37,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
-      url: `${siteConfig.site_domain}/pages`,
+      url: `${siteConfig.site_domain}/posts/authors`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,
     },
     {
-      url: `${siteConfig.site_domain}/authors`,
+      url: `${siteConfig.site_domain}/posts/categories`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,
     },
     {
-      url: `${siteConfig.site_domain}/categories`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${siteConfig.site_domain}/tags`,
+      url: `${siteConfig.site_domain}/posts/tags`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,

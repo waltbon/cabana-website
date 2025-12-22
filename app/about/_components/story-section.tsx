@@ -11,7 +11,7 @@ export function StorySection() {
           {/* Left Column - Logo Ship Illustration */}
           <div className="relative hidden aspect-square w-full max-w-md lg:block">
             <Image
-              src="/logo-ship.svg"
+              src="/home/rocket.svg"
               alt="Cabana Data Logo Ship"
               fill
               className="object-contain"

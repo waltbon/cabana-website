@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Section, Container } from "@/components/craft";
 import { siteConfig } from "@/site.config";
+import { ThemeLogo } from "@/components/theme/theme-logo";
 
 // Social media icons as SVG components
 const LinkedInIcon = ({ className }: { className?: string }) => (
@@ -57,7 +57,7 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-background">
+    <footer className="bg-accent-800">
       <Section className="py-24">
         <Container className="max-w-7xl px-6">
           <div className="flex flex-col items-center gap-16">
@@ -65,12 +65,13 @@ export const Footer = () => {
             <div className="flex flex-col items-center gap-12">
               {/* Logo */}
               <Link href="/" className="block">
-                <Image
-                  src="/logo-vertical-light.svg"
+                <ThemeLogo
+                  lightSrc="/logo-vertical-light.svg"
+                  darkSrc="/logo-vertical-dark.svg"
                   alt={siteConfig.site_name}
                   width={151}
                   height={120}
-                  className="h-[120px] w-auto dark:invert"
+                  className="h-[120px] w-auto"
                 />
               </Link>
 
