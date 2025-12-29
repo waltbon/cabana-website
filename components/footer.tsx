@@ -114,7 +114,8 @@ export const Footer = () => {
 
           {/* Copyright */}
           <p className="mt-8 text-center text-base text-muted-foreground">
-            Copyright {currentYear} &copy; {siteConfig.site_domain.replace("https://", "")}
+            Copyright {currentYear} &copy; {siteConfig.site_domain.replace("https://", "")} <br />
+          <span className="text-xs text-center">San José, Costa Rica 🇨🇷</span>
           </p>
         </Container>
       </Section>

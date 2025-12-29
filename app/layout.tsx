@@ -1,6 +1,6 @@
 import "./globals.css";
 
-import { Inter as FontSans } from "next/font/google";
+import { Reddit_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 import { Footer } from "@/components/footer";
 import { Nav } from "./_components/nav";
 
-const font = FontSans({
+const font = Reddit_Sans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
