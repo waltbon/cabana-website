@@ -217,7 +217,7 @@ export function ContactFormSection() {
                           <FormControl>
                             <Input
                               type="tel"
-                              placeholder="+1 (555) 000-0000"
+                              placeholder="+506 000-0000"
                               {...field}
                             />
                           </FormControl>

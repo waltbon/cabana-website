@@ -27,7 +27,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
             width={182}
             height={50}
           />
-          <span className="text-xs -mb-3 -ml-3">from Costa Rica 🇨🇷</span>
+          <span className="text-xs -mb-3 -ml-3">Costa Rica 🇨🇷</span>
         </Link>
         {children}
         <div className="flex items-center gap-2">
@@ -41,9 +41,9 @@ export const Nav = ({ className, children, id }: NavProps) => {
             ))}
           </div>
           <Button asChild className="hidden sm:flex">
-            <Link href="https://dub.sh/next-wp">Get Started</Link>
+            <Link href="/contact">Get Started</Link>
           </Button>
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <MobileNav />
         </div>
       </div>

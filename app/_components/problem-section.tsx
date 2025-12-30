@@ -48,15 +48,15 @@ const alignmentClasses = {
 
 export function ProblemSection() {
   return (
-    <Section className="light:bg-section-light dark:bg-section-dark py-24">
+    <Section className="light:bg-section-light dark:bg-section-dark py-12">
       <Container className="max-w-7xl">
         <div className="flex flex-col items-center gap-12">
           {/* Section Header */}
-          <div className="flex max-w-xl flex-col items-center gap-5 text-center">
+          <div className="flex max-w-xl flex-col items-center gap-2 text-center">
             {/* Tagline */}
-            <span className="text-sm font-medium text-muted-foreground">
-              The problem.
-            </span>
+            <h4>
+              The problem
+            </h4>
 
             {/* Headline */}
             <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
@@ -77,7 +77,7 @@ export function ProblemSection() {
           <div className="relative mx-auto w-full max-w-2xl">
             {/* Vertical connecting line */}
             <div
-              className="absolute left-1/2 top-0 h-full w-2" aria-hidden="true">
+              className="hidden md:visible absolute left-1/2 top-0 h-full w-2" aria-hidden="true">
               <Image src="/home/line.svg" width={6} height={1} alt="line" />
             </div>
 

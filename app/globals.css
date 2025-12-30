@@ -299,6 +299,13 @@
         line-height: var(--heading-md-line-height);
         font-weight: 600;
     }
+
+    h4 {
+        font-size: var(--heading-sm-size);
+        line-height: var(--heading-sm-line-height);
+        font-weight: 500;
+        @apply uppercase text-muted-foreground;
+    }
 }
 
 /* ============================================

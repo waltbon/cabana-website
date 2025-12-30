@@ -35,15 +35,15 @@ const services = [
 
 export function SolutionSection() {
   return (
-    <Section className="bg-white dark:bg-section-dark-2 py-24">
+    <Section className="bg-white dark:bg-section-dark-2 py-12">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-12">
           {/* Section Header */}
           <div className="flex max-w-xl flex-col items-center gap-5 text-center">
             {/* Tagline */}
-            <span className="text-sm font-medium text-muted-foreground">
-              The solution.
-            </span>
+            <h4>
+              The solution
+            </h4>
 
             {/* Headline */}
             <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">

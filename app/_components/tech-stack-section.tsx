@@ -55,9 +55,9 @@ export function TechStackSection() {
           {/* Section Header */}
           <div className="flex max-w-xl flex-col items-center gap-5 text-center">
             {/* Tagline */}
-            <span className="text-sm font-medium text-muted-foreground">
-              The Tools.
-            </span>
+            <h4>
+              The Tools
+            </h4>
 
             {/* Headline */}
             <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">

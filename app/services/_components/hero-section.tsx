@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
   return (
-    <Section className="bg-slate-200 py-24">
+    <Section className="bg-slate-100 py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-16 lg:flex-row lg:items-center lg:gap-16">
           {/* Left Column - Content */}
@@ -12,9 +12,9 @@ export function HeroSection() {
             {/* Section Header */}
             <div className="flex flex-col gap-6">
               {/* Tagline */}
-              <span className="text-sm font-medium text-muted-foreground">
-                Our core services.
-              </span>
+              <h4>
+                Our core services
+              </h4>
 
               {/* Headline */}
               <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-5xl">

@@ -57,12 +57,12 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-accent-800">
-      <Section className="py-24">
+    <footer className="bg-gray-100">
+      <Section className="py-0">
         <Container className="max-w-7xl px-6">
-          <div className="flex flex-col items-center gap-16">
+          <div className="flex flex-col items-center gap-8">
             {/* Logo and Navigation */}
-            <div className="flex flex-col items-center gap-12">
+            <div className="flex flex-col items-center gap-8">
               {/* Logo */}
               <Link href="/" className="block">
                 <ThemeLogo

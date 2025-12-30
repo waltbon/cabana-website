@@ -36,9 +36,9 @@ export function WhyUsSection() {
             {/* Section Header */}
             <div className="flex flex-col gap-5">
               {/* Tagline */}
-              <span className="text-sm font-medium text-muted-foreground">
-                The Process.
-              </span>
+              <h4>
+                The Process
+              </h4>
 
               {/* Headline */}
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
