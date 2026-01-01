@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Transforma Tus Datos en Tu Próxima Gran Ventaja",
+      "description": "Cabana Data ayuda a las empresas a convertir datos desordenados en activos estratégicos con estrategia de datos, ingeniería y soluciones de IA de extremo a extremo."
+    },
+    "about": {
+      "title": "Nosotros",
+      "description": "Conoce al equipo de Cabana Data. Transformamos ideas y necesidades empresariales en soluciones impactantes basadas en datos."
+    },
+    "services": {
+      "title": "Servicios",
+      "description": "Estrategia y Consultoría de Datos, Ingeniería y Arquitectura de Datos, Desarrollo de Aplicaciones Personalizadas y Soluciones de IA y Machine Learning."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "description": "Obtén una sesión gratuita de 30 minutos de Estrategia de Datos con uno de nuestros líderes técnicos."
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Explora todos nuestros artículos sobre estrategia de datos, ingeniería e IA."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "getStarted": "Comenzar",
+    "costaRica": "Costa Rica",
+    "skipToContent": "Ir al contenido principal"
+  },
+  "hero": {
+    "tagline": "Construye con propósito",
+    "headline": "Tus datos son tu próxima",
+    "headlineHighlight": "Gran Ventaja",
+    "description": "Deja de luchar con datos desordenados y comienza a convertirlos en tu activo más poderoso.",
+    "cta": "¡Empieza ahora!"
+  },
+  "problem": {
+    "tagline": "El problema",
+    "headline": "Deja de Reaccionar.",
+    "headlineHighlight": "Empieza a Construir.",
+    "description": "Tienes los datos, pero no tienes el control. ¿Te suenan familiares estos desafíos?",
+    "items": {
+      "dataChaos": {
+        "title": "Caos de Datos",
+        "description": "Tus datos están aislados y desorganizados. Tus equipos no pueden confiar en los números y los insights están enterrados, ralentizando decisiones críticas."
+      },
+      "inefficientProcesses": {
+        "title": "Procesos Ineficientes",
+        "description": "Estás limitado por soluciones manuales y software genérico que no se ajusta a tus necesidades únicas, drenando tiempo y recursos."
+      },
+      "uncertainFuture": {
+        "title": "Futuro Incierto",
+        "description": "Sabes que necesitas adoptar IA y tecnología moderna para mantenerte competitivo, pero no tienes una hoja de ruta clara o la base técnica para llegar allí."
+      }
+    }
+  },
+  "solution": {
+    "tagline": "La solución",
+    "headline": "Tu Socio de Datos",
+    "headlineHighlight": "de Principio a Fin",
+    "description": "Desde la estrategia hasta la ejecución, proporcionamos la claridad y experiencia técnica para que tus datos trabajen para ti.",
+    "services": {
+      "dataStrategy": {
+        "title": "Estrategia y Consultoría de Datos",
+        "description": "Orientación estratégica para alinear tus iniciativas de datos con los objetivos empresariales."
+      },
+      "dataEngineering": {
+        "title": "Ingeniería y Arquitectura de Datos",
+        "description": "Construye pipelines de datos escalables e infraestructura eficiente."
+      },
+      "customDevelopment": {
+        "title": "Diseño y Desarrollo de Aplicaciones",
+        "description": "Soluciones personalizadas que aprovechan tus activos de datos."
+      },
+      "aiMl": {
+        "title": "Soluciones de IA y Machine Learning",
+        "description": "Implementa sistemas inteligentes que generan valor empresarial."
+      }
+    }
+  },
+  "whyUs": {
+    "tagline": "El Proceso",
+    "headline": "¿Por qué",
+    "headlineHighlight": "Cabana Data?",
+    "reasons": {
+      "strategic": {
+        "title": "Estratégicos y Técnicos",
+        "description": "Somos arquitectos, no solo programadores. Hablamos tanto de negocios como de tecnología para asegurar que cada solución sea técnicamente sólida y esté directamente vinculada a generar valor empresarial."
+      },
+      "googleCloud": {
+        "title": "Expertos en Google Cloud",
+        "description": "Como especialistas dedicados en GCP, aportamos experiencia élite y enfocada en BigQuery, Dataform y todo el stack de datos moderno para construir soluciones potentes, rentables y escalables."
+      },
+      "futureProof": {
+        "title": "Construido para el Futuro",
+        "description": "No entregamos soluciones a corto plazo. Construimos bases y aplicaciones preparadas para el futuro, diseñadas para crecer con tu negocio y apoyar tus metas más ambiciosas de IA y análisis."
+      }
+    },
+    "ctaTalk": "¡Hablemos!",
+    "ctaServices": "Ver Servicios"
+  },
+  "cta": {
+    "headline": "¿Listo para Transformar Tu",
+    "headlineHighlight": "Negocio con Datos?",
+    "button": "¡Empieza ahora!"
+  },
+  "footer": {
+    "links": {
+      "services": "Servicios",
+      "caseStudies": "Casos de Éxito",
+      "about": "Nosotros",
+      "blog": "Blog",
+      "contact": "Contacto"
+    },
+    "followUs": "Síguenos",
+    "social": {
+      "linkedin": "LinkedIn",
+      "twitter": "X (Twitter)"
+    },
+    "copyright": "Derechos reservados",
+    "location": "San José, Costa Rica"
+  },
+  "about": {
+    "hero": {
+      "headline": "Construyendo Software para",
+      "headlineHighlight": "Empresas",
+      "description": "Transformamos ideas y necesidades empresariales en soluciones impactantes basadas en datos que ayudan a las empresas a prosperar en la era digital.",
+      "cta": "¡Hablemos!"
+    },
+    "team": {
+      "tagline": "El equipo.",
+      "headline": "¡Conoce a nuestro increíble equipo!",
+      "description": "Somos un equipo de expertos en datos, desarrollo y diseño. Juntos, creamos soluciones audaces que conectan e inspiran.",
+      "roles": {
+        "techLead": "Líder Técnico",
+        "adminManager": "Gerente Administrativo",
+        "dataEngineer": "Ingeniero de Datos",
+        "developer": "Desarrollador",
+        "seniorDeveloper": "Desarrollador Senior",
+        "uxDesigner": "Diseñador UX/UI"
+      }
+    },
+    "story": {
+      "quote": "Hemos recorrido un largo camino. Todo comenzó con un solo desarrollador y un gran sueño",
+      "quoteAuthor": "Walter Bonilla",
+      "quoteRole": "El creador.",
+      "headline": "Equipo pequeño,",
+      "headlineHighlight": "Grandes Resultados",
+      "description": "Somos un equipo dedicado con propósito. Nuestro objetivo es ayudarte a convertirte en un negocio basado en datos y sobresalir en el mundo digital.",
+      "gotProject": "¿Tienes un proyecto?",
+      "cta": "¡Hablemos!"
+    }
+  },
+  "services": {
+    "hero": {
+      "tagline": "Nuestros servicios principales",
+      "headline": "Todo lo que hacemos está",
+      "headlineHighlight": "Basado en Datos",
+      "description": "Tenemos 4 niveles de servicios de datos para apoyar a tu empresa y permitirte tomar decisiones basadas en datos.",
+      "ctaTalk": "¡Hablemos!",
+      "ctaView": "Ver niveles de servicio"
+    },
+    "grid": {
+      "tagline": "La solución",
+      "headline": "Soluciones para Transformar Tu",
+      "headlineHighlight": "Negocio con Datos",
+      "description1": "Estás sentado sobre una mina de oro de datos. El desafío es convertirla en un activo estratégico que impulse el crecimiento, la eficiencia y la innovación.",
+      "description2": "Nuestros servicios están diseñados como un ecosistema de extremo a extremo para ayudarte en cada etapa de tu viaje de datos."
+    },
+    "faq": {
+      "tagline": "FAQ",
+      "headline": "Preguntas",
+      "headlineHighlight": "Frecuentes",
+      "description": "Obtén respuestas a preguntas comunes sobre nuestros servicios de datos y cómo podemos ayudar a tu negocio.",
+      "items": {
+        "whatServices": {
+          "question": "¿Qué servicios de datos ofrece Cabana Data?",
+          "answer": "Ofrecemos soluciones de datos de extremo a extremo que incluyen Estrategia y Consultoría de Datos, Ingeniería y Arquitectura de Datos, Desarrollo de Aplicaciones Personalizadas y Soluciones de IA y Machine Learning. Nuestros servicios están diseñados para ayudar a las empresas en cada etapa de su viaje de datos."
+        },
+        "projectDuration": {
+          "question": "¿Cuánto tiempo toma un proyecto típico de ingeniería de datos?",
+          "answer": "Los tiempos de los proyectos varían según la complejidad y el alcance. Un proyecto de pipeline de datos enfocado puede tomar de 4 a 8 semanas, mientras que implementaciones de plataformas de datos completas pueden extenderse varios meses. Trabajamos de cerca con los clientes para definir hitos realistas y entregar valor de manera incremental."
+        },
+        "cloudPlatforms": {
+          "question": "¿Trabajan con plataformas en la nube como AWS, GCP y Azure?",
+          "answer": "Sí, tenemos amplia experiencia en todas las principales plataformas en la nube, incluyendo Amazon Web Services (AWS), Google Cloud Platform (GCP) y Microsoft Azure. Ayudamos a los clientes a elegir la plataforma adecuada para sus necesidades e implementar soluciones de datos nativas en la nube."
+        },
+        "industries": {
+          "question": "¿A qué industrias sirven?",
+          "answer": "Trabajamos con empresas de diversas industrias, incluyendo tecnología, finanzas, salud, retail y manufactura. Nuestras soluciones de datos están adaptadas para cumplir con los requisitos regulatorios específicos y los desafíos empresariales de cada sector."
+        },
+        "security": {
+          "question": "¿Cómo aseguran la seguridad de datos y el cumplimiento?",
+          "answer": "La seguridad de datos es fundamental en nuestro enfoque. Implementamos las mejores prácticas de la industria para gobernanza de datos, encriptación, controles de acceso y registro de auditoría. También ayudamos a los clientes a cumplir con requisitos de cumplimiento incluyendo GDPR, HIPAA, SOC 2 y otras regulaciones relevantes."
+        }
+      }
+    },
+    "contactCta": {
+      "headline": "¿Listo para comenzar tu viaje de datos?",
+      "description": "Hablemos sobre cómo podemos ayudar a transformar tu negocio con datos.",
+      "cta": "Contáctanos"
+    }
+  },
+  "contact": {
+    "tagline": "El formulario.",
+    "headline": "¡Hablemos de Datos!",
+    "description": "Completa este formulario para obtener una sesión de 30 minutos de Estrategia de Datos con uno de nuestros líderes técnicos.",
+    "form": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo corporativo",
+      "phone": "Número de teléfono",
+      "position": "Cargo",
+      "referral": "¿Cómo nos conociste?",
+      "comments": "Comentarios adicionales para nuestro equipo",
+      "commentsPlaceholder": "Espacio para contarnos cómo podemos ayudarte con tus propias palabras...",
+      "pleaseSelect": "Por favor selecciona",
+      "privacy": "Al enviar este formulario, reconoces que Cabana Data procesará tu información personal de acuerdo con su política de privacidad",
+      "submit": "Envíame opciones de agenda",
+      "submitting": "Enviando...",
+      "submitAnother": "Enviar otra solicitud"
+    },
+    "positions": {
+      "ceo": "CEO / Fundador",
+      "cto": "CTO / Líder Técnico",
+      "cfo": "CFO / Finanzas",
+      "dataLead": "Líder de Datos / Gerente",
+      "developer": "Desarrollador / Ingeniero",
+      "analyst": "Analista de Datos",
+      "other": "Otro"
+    },
+    "referrals": {
+      "linkedin": "LinkedIn",
+      "google": "Búsqueda en Google",
+      "referral": "Referido",
+      "event": "Evento / Conferencia",
+      "other": "Otro"
+    },
+    "success": {
+      "title": "¡Gracias por contactarnos!",
+      "message": "Hemos recibido tu solicitud y te enviaremos opciones de agenda en breve."
+    },
+    "error": {
+      "title": "Algo salió mal",
+      "default": "Algo salió mal. Por favor intenta de nuevo."
+    },
+    "sidebar": {
+      "paragraph1": "Si convertirte en una empresa basada en datos se siente abrumador, esta sesión es para ti. El éxito con datos requiere una revisión completa de tu gente, procesos y tecnología.",
+      "paragraph2": "Conéctate con uno de nuestros expertos que evaluará tus desafíos específicos y trazará los pasos concretos para empoderar a tu equipo con toma de decisiones basada en datos.",
+      "notAboutData": "¿No es sobre datos?",
+      "connectLinkedIn": "Conéctate con nosotros en",
+      "linkedin": "LinkedIn."
+    }
+  },
+  "blog": {
+    "title": "Todos los Artículos",
+    "postsFound": "{count} artículo(s) encontrado(s)",
+    "search": "Buscar artículos...",
+    "filters": {
+      "allTags": "Todas las Etiquetas",
+      "allCategories": "Todas las Categorías",
+      "allAuthors": "Todos los Autores",
+      "noTags": "No se encontraron etiquetas",
+      "noCategories": "No se encontraron categorías",
+      "noAuthors": "No se encontraron autores",
+      "reset": "Restablecer Filtros"
+    },
+    "empty": "No se encontraron artículos",
+    "publishedBy": "Publicado {date} por"
+  },
+  "common": {
+    "readMore": "Leer más",
+    "learnMore": "Saber más",
+    "viewAll": "Ver todos",
+    "loading": "Cargando...",
+    "error": "Error",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior"
+  },
+  "languageSwitcher": {
+    "english": "English",
+    "spanish": "Español"
+  }
+}

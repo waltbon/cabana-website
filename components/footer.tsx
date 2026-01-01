@@ -1,7 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import { Section, Container } from "@/components/craft";
 import { siteConfig } from "@/site.config";
 import { ThemeLogo } from "@/components/theme/theme-logo";
+import { useTranslations } from "next-intl";
 
 // Social media icons as SVG components
 const LinkedInIcon = ({ className }: { className?: string }) => (
@@ -30,30 +33,31 @@ const XIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
-// Footer navigation links
-const footerLinks = [
-  { label: "Services", href: "/services" },
-  { label: "Case Studies", href: "/case-studies" },
-  { label: "About", href: "/about" },
-  { label: "Blog", href: "/posts" },
-  { label: "Contact", href: "/contact" },
+// Footer navigation link keys
+const footerLinkKeys = [
+  { key: "services", href: "/services" },
+  { key: "caseStudies", href: "/case-studies" },
+  { key: "about", href: "/about" },
+  { key: "blog", href: "/posts" },
+  { key: "contact", href: "/contact" },
 ];
 
 // Social media links
 const socialLinks = [
   {
-    label: "LinkedIn",
+    key: "linkedin",
     href: "https://linkedin.com/company/cabanadata",
     icon: LinkedInIcon,
   },
   {
-    label: "X (Twitter)",
+    key: "twitter",
     href: "https://x.com/cabanadata",
     icon: XIcon,
   },
 ];
 
 export const Footer = () => {
+  const t = useTranslations("footer");
   const currentYear = new Date().getFullYear();
 
   return (
@@ -77,13 +81,13 @@ export const Footer = () => {
 
               {/* Navigation Links */}
               <nav className="flex flex-wrap items-center justify-center gap-8">
-                {footerLinks.map((link) => (
+                {footerLinkKeys.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
                     className="text-base text-muted-foreground transition-colors hover:text-foreground"
                   >
-                    {link.label}
+                    {t(`links.${link.key}`)}
                   </Link>
                 ))}
               </nav>
@@ -94,16 +98,16 @@ export const Footer = () => {
 
             {/* Social Links */}
             <div className="flex flex-col items-center gap-6">
-              <p className="text-lg font-bold text-foreground">Follow us</p>
+              <p className="text-lg font-bold text-foreground">{t("followUs")}</p>
               <div className="flex items-center gap-5">
                 {socialLinks.map((social) => (
                   <a
-                    key={social.label}
+                    key={social.key}
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-foreground transition-colors hover:text-primary"
-                    aria-label={social.label}
+                    aria-label={t(`social.${social.key}`)}
                   >
                     <social.icon className="size-6" />
                   </a>
@@ -114,8 +118,9 @@ export const Footer = () => {
 
           {/* Copyright */}
           <p className="mt-8 text-center text-base text-muted-foreground">
-            Copyright {currentYear} &copy; {siteConfig.site_domain.replace("https://", "")} <br />
-          <span className="text-xs text-center">San José, Costa Rica 🇨🇷</span>
+            {t("copyright")} {currentYear} &copy;{" "}
+            {siteConfig.site_domain.replace("https://", "")} <br />
+            <span className="text-xs text-center">{t("location")} 🇨🇷</span>
           </p>
         </Container>
       </Section>

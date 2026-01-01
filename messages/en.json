@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Transform Your Data into Your Next Big Advantage",
+      "description": "Cabana Data helps enterprises turn messy data into strategic assets with end-to-end data strategy, engineering, and AI solutions."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Meet the Cabana Data team. We transform ideas and business needs into impactful, data-driven solutions."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Data Strategy & Consulting, Data Engineering & Architecture, Custom Application Development, and AI & Machine Learning Solutions."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get a free 30-minute Data Strategy Session with one of our tech leaders."
+    },
+    "blog": {
+      "title": "Blog Posts",
+      "description": "Browse all our blog posts about data strategy, engineering, and AI."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "costaRica": "Costa Rica",
+    "skipToContent": "Skip to main content"
+  },
+  "hero": {
+    "tagline": "Build with purpose",
+    "headline": "Your data is your next",
+    "headlineHighlight": "Big Advantage",
+    "description": "Stop wrestling with messy data and start making it your most powerful asset.",
+    "cta": "Start building!"
+  },
+  "problem": {
+    "tagline": "The problem",
+    "headline": "Stop Reacting.",
+    "headlineHighlight": "Start Building.",
+    "description": "You have the data, but you're not in control. Do any of these challenges sound familiar?",
+    "items": {
+      "dataChaos": {
+        "title": "Data Chaos",
+        "description": "Your data is siloed and disorganized. Your teams can't trust the numbers, and insights are buried, slowing down critical decisions."
+      },
+      "inefficientProcesses": {
+        "title": "Inefficient Processes",
+        "description": "You're held back by manual workarounds and off-the-shelf software that doesn't fit your unique needs, draining time and resources."
+      },
+      "uncertainFuture": {
+        "title": "Uncertain Future",
+        "description": "You know you need to adopt AI and modern technology to stay competitive, but you don't have a clear roadmap or the technical foundation to get there."
+      }
+    }
+  },
+  "solution": {
+    "tagline": "The solution",
+    "headline": "Your End-to-End",
+    "headlineHighlight": "Data Partner",
+    "description": "From strategy to execution, we provide the clarity and technical expertise to make your data work for you.",
+    "services": {
+      "dataStrategy": {
+        "title": "Data Strategy & Consulting",
+        "description": "Strategic guidance to align your data initiatives with business goals."
+      },
+      "dataEngineering": {
+        "title": "Data Engineering & Architecture",
+        "description": "Build scalable, efficient data pipelines and infrastructure."
+      },
+      "customDevelopment": {
+        "title": "Custom Application Design & Development",
+        "description": "Tailored solutions that leverage your data assets."
+      },
+      "aiMl": {
+        "title": "AI & Machine Learning Solutions",
+        "description": "Implement intelligent systems that drive business value."
+      }
+    }
+  },
+  "whyUs": {
+    "tagline": "The Process",
+    "headline": "Why",
+    "headlineHighlight": "Cabana Data?",
+    "reasons": {
+      "strategic": {
+        "title": "Strategic & Technical",
+        "description": "We are architects, not just coders. We speak both business and tech to ensure every solution is not only technically sound but also directly tied to driving business value."
+      },
+      "googleCloud": {
+        "title": "Google Cloud Experts",
+        "description": "As dedicated GCP specialists, we bring elite, focused expertise in BigQuery, Dataform, and the entire modern data stack to build solutions that are powerful, cost-effective, and scalable."
+      },
+      "futureProof": {
+        "title": "Built for the Future",
+        "description": "We don't deliver short-term fixes. We build future-proof foundations and applications designed to grow with your business and support your most ambitious AI and analytics goals."
+      }
+    },
+    "ctaTalk": "Let's talk!",
+    "ctaServices": "View Services"
+  },
+  "cta": {
+    "headline": "Ready to Transform Your",
+    "headlineHighlight": "Business with Data?",
+    "button": "Start building!"
+  },
+  "footer": {
+    "links": {
+      "services": "Services",
+      "caseStudies": "Case Studies",
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "followUs": "Follow us",
+    "social": {
+      "linkedin": "LinkedIn",
+      "twitter": "X (Twitter)"
+    },
+    "copyright": "Copyright",
+    "location": "San José, Costa Rica"
+  },
+  "about": {
+    "hero": {
+      "headline": "Building Software for",
+      "headlineHighlight": "Enterprises",
+      "description": "We transform ideas and business needs into impactful, data-driven solutions that help enterprises thrive in the digital age.",
+      "cta": "Let's Talk!"
+    },
+    "team": {
+      "tagline": "The team.",
+      "headline": "Get to know our amazing team!",
+      "description": "We are a team of data, development and design experts. Together, we create bold solutions that connect and inspire.",
+      "roles": {
+        "techLead": "Tech Lead",
+        "adminManager": "Admin Manager",
+        "dataEngineer": "Data Engineer",
+        "developer": "Developer",
+        "seniorDeveloper": "Senior Developer",
+        "uxDesigner": "UX/UI Designer"
+      }
+    },
+    "story": {
+      "quote": "We've come a long way. This all started with a single developer and a big dream",
+      "quoteAuthor": "Walter Bonilla",
+      "quoteRole": "The creator.",
+      "headline": "Small team,",
+      "headlineHighlight": "Big Results",
+      "description": "We are a dedicated team with purpose. Our goal is to help you become a data-driven business and excel in the digital world.",
+      "gotProject": "Got a project?",
+      "cta": "Let's Talk!"
+    }
+  },
+  "services": {
+    "hero": {
+      "tagline": "Our core services",
+      "headline": "Everything we do is",
+      "headlineHighlight": "Data-Driven",
+      "description": "We have 4 tiers of data services to support your company and enable you to make data-driven decisions.",
+      "ctaTalk": "Let's talk!",
+      "ctaView": "View service tiers"
+    },
+    "grid": {
+      "tagline": "The solution",
+      "headline": "Solutions to Transform Your",
+      "headlineHighlight": "Business with Data",
+      "description1": "You're sitting on a goldmine of data. The challenge is turning it into a strategic asset that drives growth, efficiency, and innovation.",
+      "description2": "Our services are designed as an end-to-end ecosystem to help you at every stage of your data journey."
+    },
+    "faq": {
+      "tagline": "FAQ",
+      "headline": "Frequently Asked",
+      "headlineHighlight": "Questions",
+      "description": "Get answers to common questions about our data services and how we can help your business.",
+      "items": {
+        "whatServices": {
+          "question": "What data services does Cabana Data offer?",
+          "answer": "We offer end-to-end data solutions including Data Strategy & Consulting, Data Engineering & Architecture, Custom Application Development, and AI & Machine Learning Solutions. Our services are designed to help businesses at every stage of their data journey."
+        },
+        "projectDuration": {
+          "question": "How long does a typical data engineering project take?",
+          "answer": "Project timelines vary based on complexity and scope. A focused data pipeline project might take 4-8 weeks, while comprehensive data platform implementations can span several months. We work closely with clients to define realistic milestones and deliver value incrementally."
+        },
+        "cloudPlatforms": {
+          "question": "Do you work with cloud platforms like AWS, GCP, and Azure?",
+          "answer": "Yes, we have deep expertise across all major cloud platforms including Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure. We help clients choose the right platform for their needs and implement cloud-native data solutions."
+        },
+        "industries": {
+          "question": "What industries do you serve?",
+          "answer": "We work with businesses across various industries including technology, finance, healthcare, retail, and manufacturing. Our data solutions are tailored to meet the specific regulatory requirements and business challenges of each sector."
+        },
+        "security": {
+          "question": "How do you ensure data security and compliance?",
+          "answer": "Data security is fundamental to our approach. We implement industry best practices for data governance, encryption, access controls, and audit logging. We also help clients meet compliance requirements including GDPR, HIPAA, SOC 2, and other relevant regulations."
+        }
+      }
+    },
+    "contactCta": {
+      "headline": "Ready to start your data journey?",
+      "description": "Let's discuss how we can help transform your business with data.",
+      "cta": "Get in touch"
+    }
+  },
+  "contact": {
+    "tagline": "The form.",
+    "headline": "Let's Talk Data!",
+    "description": "Fill out this form to get a 30-minute Data Strategy Session with one of our tech leaders.",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Corporate email",
+      "phone": "Phone number",
+      "position": "Job Position",
+      "referral": "How did you hear about us?",
+      "comments": "Additional comments for our team",
+      "commentsPlaceholder": "Space to let us know how can we help in your own words...",
+      "pleaseSelect": "Please select",
+      "privacy": "By submitting this form, you acknowledge that Cabana Data will process your personal information in accordance with their privacy policy",
+      "submit": "Send me scheduling options",
+      "submitting": "Sending...",
+      "submitAnother": "Submit another request"
+    },
+    "positions": {
+      "ceo": "CEO / Founder",
+      "cto": "CTO / Technical Lead",
+      "cfo": "CFO / Finance",
+      "dataLead": "Data Lead / Manager",
+      "developer": "Developer / Engineer",
+      "analyst": "Data Analyst",
+      "other": "Other"
+    },
+    "referrals": {
+      "linkedin": "LinkedIn",
+      "google": "Google Search",
+      "referral": "Referral",
+      "event": "Event / Conference",
+      "other": "Other"
+    },
+    "success": {
+      "title": "Thank you for reaching out!",
+      "message": "We've received your request and will send you scheduling options shortly."
+    },
+    "error": {
+      "title": "Something went wrong",
+      "default": "Something went wrong. Please try again."
+    },
+    "sidebar": {
+      "paragraph1": "If becoming a data-driven company feels daunting, this session is for you. Success with data requires a full review across your people, processes, and technology.",
+      "paragraph2": "Connect with one of our experts who will assess your specific challenges and map out the concrete steps to empower your team with data-driven decision-making.",
+      "notAboutData": "Not about Data?",
+      "connectLinkedIn": "Connect with us on",
+      "linkedin": "LinkedIn."
+    }
+  },
+  "blog": {
+    "title": "All Posts",
+    "postsFound": "{count} post(s) found",
+    "search": "Search posts...",
+    "filters": {
+      "allTags": "All Tags",
+      "allCategories": "All Categories",
+      "allAuthors": "All Authors",
+      "noTags": "No tags found",
+      "noCategories": "No categories found",
+      "noAuthors": "No authors found",
+      "reset": "Reset Filters"
+    },
+    "empty": "No posts found",
+    "publishedBy": "Published {date} by"
+  },
+  "common": {
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "loading": "Loading...",
+    "error": "Error",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "languageSwitcher": {
+    "english": "English",
+    "spanish": "Español"
+  }
+}
