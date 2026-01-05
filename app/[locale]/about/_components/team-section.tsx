@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import {
   Handshake,
@@ -8,6 +10,7 @@ import {
 } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { useTranslations } from "next-intl";
+import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
 // Team members data with role translation keys
 const teamMembers = [
@@ -30,27 +33,29 @@ export function TeamSection() {
           {/* Left Column - Title and Team Grid */}
           <div className="flex flex-1 flex-col gap-8">
             {/* Section Header */}
-            <div className="flex max-w-lg flex-col gap-5">
-              {/* Tagline */}
-              <span className="text-sm font-medium text-muted-foreground">
-                {t("tagline")}
-              </span>
+            <FadeIn>
+              <div className="flex max-w-lg flex-col gap-5">
+                {/* Tagline */}
+                <span className="text-sm font-medium text-muted-foreground">
+                  {t("tagline")}
+                </span>
 
-              {/* Headline */}
-              <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-                {t("headline")}
-              </h2>
+                {/* Headline */}
+                <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
+                  {t("headline")}
+                </h2>
 
-              {/* Description */}
-              <p className="text-base text-muted-foreground">
-                {t("description")}
-              </p>
-            </div>
+                {/* Description */}
+                <p className="text-base text-muted-foreground">
+                  {t("description")}
+                </p>
+              </div>
+            </FadeIn>
 
             {/* Team Grid */}
-            <div className="grid gap-6 sm:grid-cols-2">
+            <StaggerChildren className="grid gap-6 sm:grid-cols-2">
               {teamMembers.map((member) => (
-                <div key={member.id} className="flex items-center gap-4">
+                <StaggerItem key={member.id} className="flex items-center gap-4">
                   <member.icon className="size-6 shrink-0 text-foreground" />
                   <div className="flex flex-col">
                     <span className="font-semibold text-cabana-blue">
@@ -60,13 +65,13 @@ export function TeamSection() {
                       {t(`roles.${member.roleKey}`)}
                     </span>
                   </div>
-                </div>
+                </StaggerItem>
               ))}
-            </div>
+            </StaggerChildren>
           </div>
 
           {/* Right Column - Team Photo */}
-          <div className="relative aspect-[4/5] w-full max-w-xl overflow-hidden rounded-xl lg:flex-1">
+          <FadeIn direction="left" className="relative aspect-[4/5] w-full max-w-xl overflow-hidden rounded-xl lg:flex-1">
             <Image
               src="/about/team.svg"
               alt="Cabana Data Team"
@@ -74,7 +79,7 @@ export function TeamSection() {
               className="object-cover"
               priority
             />
-          </div>
+          </FadeIn>
         </div>
       </Container>
     </Section>

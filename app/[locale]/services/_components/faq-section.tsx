@@ -1,3 +1,5 @@
+"use client";
+
 import { Section, Container } from "@/components/craft";
 import { FAQSchema } from "@/components/seo/faq-schema";
 import {
@@ -7,6 +9,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { useTranslations } from "next-intl";
+import { FadeIn } from "@/components/animations";
 
 // FAQ keys for iteration
 const faqKeys = [
@@ -33,30 +36,34 @@ export function FAQSection() {
         <Container className="max-w-4xl px-6">
           <div className="flex flex-col items-center gap-12">
             {/* Section Header */}
-            <div className="flex max-w-xl flex-col items-center gap-5 text-center">
-              <h4>{t("tagline")}</h4>
-              <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-                {t("headline")}{" "}
-                <span className="text-cabana-blue">{t("headlineHighlight")}</span>
-              </h2>
-              <p className="text-base text-muted-foreground">
-                {t("description")}
-              </p>
-            </div>
+            <FadeIn>
+              <div className="flex max-w-xl flex-col items-center gap-5 text-center">
+                <h4>{t("tagline")}</h4>
+                <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
+                  {t("headline")}{" "}
+                  <span className="text-cabana-blue">{t("headlineHighlight")}</span>
+                </h2>
+                <p className="text-base text-muted-foreground">
+                  {t("description")}
+                </p>
+              </div>
+            </FadeIn>
 
             {/* FAQ Accordion */}
-            <Accordion type="single" collapsible className="w-full">
-              {faqKeys.map((key, index) => (
-                <AccordionItem key={key} value={`item-${index}`}>
-                  <AccordionTrigger className="text-left text-lg font-medium">
-                    {t(`items.${key}.question`)}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-base text-muted-foreground">
-                    {t(`items.${key}.answer`)}
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
+            <FadeIn delay={0.2} className="w-full">
+              <Accordion type="single" collapsible className="w-full">
+                {faqKeys.map((key, index) => (
+                  <AccordionItem key={key} value={`item-${index}`}>
+                    <AccordionTrigger className="text-left text-lg font-medium">
+                      {t(`items.${key}.question`)}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-base text-muted-foreground">
+                      {t(`items.${key}.answer`)}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </FadeIn>
           </div>
         </Container>
       </Section>

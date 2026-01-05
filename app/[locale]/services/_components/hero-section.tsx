@@ -1,7 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
+import { FadeIn } from "@/components/animations";
 
 export function HeroSection() {
   const t = useTranslations("services.hero");
@@ -15,37 +18,45 @@ export function HeroSection() {
             {/* Section Header */}
             <div className="flex flex-col gap-6">
               {/* Tagline */}
-              <h4>{t("tagline")}</h4>
+              <FadeIn>
+                <h4>{t("tagline")}</h4>
+              </FadeIn>
 
               {/* Headline */}
-              <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-5xl">
-                {t("headline")}
-                <br />
-                <span className="text-cabana-blue">{t("headlineHighlight")}</span>
-              </h1>
+              <FadeIn delay={0.1}>
+                <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-5xl">
+                  {t("headline")}
+                  <br />
+                  <span className="text-cabana-blue">{t("headlineHighlight")}</span>
+                </h1>
+              </FadeIn>
 
               {/* Description */}
-              <p className="max-w-lg text-lg text-muted-foreground">
-                {t("description")}
-              </p>
+              <FadeIn delay={0.2}>
+                <p className="max-w-lg text-lg text-muted-foreground">
+                  {t("description")}
+                </p>
+              </FadeIn>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex gap-3">
-              <Button
-                asChild
-                className="rounded-lg bg-cabana-blue hover:bg-cabana-blue/90"
-              >
-                <Link href="/contact">{t("ctaTalk")}</Link>
-              </Button>
-              <Button asChild variant="ghost" className="rounded-lg">
-                <Link href="#services">{t("ctaView")}</Link>
-              </Button>
-            </div>
+            <FadeIn delay={0.3}>
+              <div className="flex gap-3">
+                <Button
+                  asChild
+                  className="rounded-lg bg-cabana-blue hover:bg-cabana-blue/90"
+                >
+                  <Link href="/contact">{t("ctaTalk")}</Link>
+                </Button>
+                <Button asChild variant="ghost" className="rounded-lg">
+                  <Link href="#services">{t("ctaView")}</Link>
+                </Button>
+              </div>
+            </FadeIn>
           </div>
 
           {/* Right Column - Concentric Circles Graphic */}
-          <div className="relative flex flex-1 items-center justify-center">
+          <FadeIn direction="left" className="relative flex flex-1 items-center justify-center">
             <div className="relative size-80 md:size-96">
               {/* Outer circle */}
               <div className="absolute inset-0 rounded-full border-2 border-cabana-blue/20" />
@@ -56,7 +67,7 @@ export function HeroSection() {
               {/* Inner circle */}
               <div className="absolute inset-[40%] rounded-full bg-cabana-blue/10 border-2 border-cabana-blue" />
             </div>
-          </div>
+          </FadeIn>
         </div>
       </Container>
     </Section>

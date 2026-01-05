@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import { Section, Container } from "@/components/craft";
+import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
 // Tech stack logos
 const techStack = [
@@ -53,31 +56,32 @@ export function TechStackSection() {
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-16">
           {/* Section Header */}
-          <div className="flex max-w-xl flex-col items-center gap-5 text-center">
-            {/* Tagline */}
-            <h4>
-              The Tools
-            </h4>
+          <FadeIn>
+            <div className="flex max-w-xl flex-col items-center gap-5 text-center">
+              {/* Tagline */}
+              <h4>
+                The Tools
+              </h4>
 
-            {/* Headline */}
-            <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-              Our solution stack
-            </h2>
+              {/* Headline */}
+              <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
+                Our solution stack
+              </h2>
 
-            {/* Description */}
-            <p className="text-base text-muted-foreground">
-              Our preferred, but not limited tech stack
-            </p>
-          </div>
+              {/* Description */}
+              <p className="text-base text-muted-foreground">
+                Our preferred, but not limited tech stack
+              </p>
+            </div>
+          </FadeIn>
 
           {/* Logo Grid */}
           <div className="relative w-full overflow-hidden">
-            <div className="flex items-center justify-center gap-12 md:gap-16">
+            <StaggerChildren className="flex items-center justify-center gap-12 md:gap-16">
               {techStack.map((tech) => (
-                <div
+                <StaggerItem
                   key={tech.id}
                   className="flex shrink-0 items-center justify-center grayscale transition-all hover:grayscale-0"
-                  style={{ width: tech.width, height: tech.height }}
                 >
                   <Image
                     src={tech.logo}
@@ -86,9 +90,9 @@ export function TechStackSection() {
                     height={tech.height}
                     className="object-contain"
                   />
-                </div>
+                </StaggerItem>
               ))}
-            </div>
+            </StaggerChildren>
 
             {/* Right fade gradient */}
             <div

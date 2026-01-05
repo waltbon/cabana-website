@@ -1,6 +1,9 @@
+"use client";
+
 import { Database, Cloud, Code, Sparkles } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { useTranslations } from "next-intl";
+import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
 // Service configuration (non-translated data)
 const services = [
@@ -18,27 +21,29 @@ export function SolutionSection() {
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-12">
           {/* Section Header */}
-          <div className="flex max-w-xl flex-col items-center gap-5 text-center">
-            {/* Tagline */}
-            <h4>{t("tagline")}</h4>
+          <FadeIn>
+            <div className="flex max-w-xl flex-col items-center gap-5 text-center">
+              {/* Tagline */}
+              <h4>{t("tagline")}</h4>
 
-            {/* Headline */}
-            <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-              {t("headline")}
-              <br />
-              <span className="text-cabana-blue">{t("headlineHighlight")}</span>
-            </h2>
+              {/* Headline */}
+              <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
+                {t("headline")}
+                <br />
+                <span className="text-cabana-blue">{t("headlineHighlight")}</span>
+              </h2>
 
-            {/* Description */}
-            <p className="text-base text-muted-foreground">
-              {t("description")}
-            </p>
-          </div>
+              {/* Description */}
+              <p className="text-base text-muted-foreground">
+                {t("description")}
+              </p>
+            </div>
+          </FadeIn>
 
           {/* Services Grid */}
-          <div className="grid w-full max-w-4xl grid-cols-1 gap-12 md:grid-cols-2 md:gap-20">
+          <StaggerChildren className="grid w-full max-w-4xl grid-cols-1 gap-12 md:grid-cols-2 md:gap-20">
             {services.map((service) => (
-              <div
+              <StaggerItem
                 key={service.key}
                 className="flex flex-col items-center gap-5 text-center"
               >
@@ -56,9 +61,9 @@ export function SolutionSection() {
                     {t(`services.${service.key}.description`)}
                   </p>
                 </div>
-              </div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerChildren>
         </div>
       </Container>
     </Section>
