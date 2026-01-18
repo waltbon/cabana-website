@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 export const metadata: Metadata = {
   title: "Page Not Found",

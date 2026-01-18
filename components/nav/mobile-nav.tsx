@@ -2,8 +2,7 @@
 
 // React and Next Imports
 import * as React from "react";
-import Link, { LinkProps } from "next/link";
-import { useRouter } from "next/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 
 // Utility Imports
 import { Menu, ArrowRightSquare } from "lucide-react";
@@ -74,7 +73,8 @@ export function MobileNav() {
   );
 }
 
-interface MobileLinkProps extends LinkProps {
+interface MobileLinkProps {
+  href: string;
   onOpenChange?: (open: boolean) => void;
   children: React.ReactNode;
   className?: string;

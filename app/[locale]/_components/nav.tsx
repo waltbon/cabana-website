@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { MobileNav } from "@/components/nav/mobile-nav";
 import { Button } from "@/components/ui/button";
 import { ThemeLogo } from "@/components/theme/theme-logo";

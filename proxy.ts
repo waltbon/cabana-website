@@ -1,12 +1,8 @@
 import createMiddleware from "next-intl/middleware";
 import { NextRequest } from "next/server";
-import { locales, defaultLocale } from "./i18n/config";
+import { routing } from "./i18n/routing";
 
-const intlMiddleware = createMiddleware({
-  locales,
-  defaultLocale,
-  localePrefix: "as-needed",
-});
+const intlMiddleware = createMiddleware(routing);
 
 export function proxy(request: NextRequest) {
   return intlMiddleware(request);

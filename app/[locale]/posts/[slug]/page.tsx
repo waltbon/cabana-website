@@ -12,7 +12,7 @@ import { ArticleSchema } from "@/components/seo/article-schema";
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/site.config";
 
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -114,7 +114,7 @@ export default async function Page({
               Published {date} by{" "}
               {author.name && (
                 <span>
-                  <a href={`/posts/?author=${author.id}`}>{author.name}</a>{" "}
+                  <Link href={`/posts/?author=${author.id}`}>{author.name}</Link>{" "}
                 </span>
               )}
             </h5>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "@/i18n/navigation";
 import { Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -10,7 +10,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { locales, defaultLocale, type Locale } from "@/i18n/config";
+import { locales, type Locale } from "@/i18n/config";
 
 const localeNames: Record<Locale, string> = {
   en: "English",
@@ -24,31 +24,7 @@ export function LanguageSwitcher() {
 
   const switchLocale = (newLocale: Locale) => {
     if (newLocale === locale) return;
-
-    // Remove any existing locale prefix from the pathname
-    let pathWithoutLocale = pathname;
-    for (const loc of locales) {
-      if (pathname === `/${loc}`) {
-        pathWithoutLocale = "/";
-        break;
-      }
-      if (pathname.startsWith(`/${loc}/`)) {
-        pathWithoutLocale = pathname.slice(loc.length + 1);
-        break;
-      }
-    }
-
-    // Build the new path based on the target locale
-    let newPath: string;
-    if (newLocale === defaultLocale) {
-      // Default locale doesn't need prefix
-      newPath = pathWithoutLocale;
-    } else {
-      // Non-default locale needs prefix
-      newPath = `/${newLocale}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`;
-    }
-
-    router.push(newPath);
+    router.replace(pathname, { locale: newLocale });
   };
 
   return (

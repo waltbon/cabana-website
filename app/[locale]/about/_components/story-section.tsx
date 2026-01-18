@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";

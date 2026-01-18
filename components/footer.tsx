@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { Section, Container } from "@/components/craft";
 import { siteConfig } from "@/site.config";
 import { ThemeLogo } from "@/components/theme/theme-logo";
