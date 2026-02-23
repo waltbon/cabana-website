@@ -73,7 +73,7 @@ export function TeamSection() {
           {/* Right Column - Team Photo */}
           <FadeIn direction="left" className="relative aspect-[4/5] w-full max-w-xl overflow-hidden rounded-xl lg:flex-1">
             <Image
-              src="/about/team.svg"
+              src="/about/team.png"
               alt="Cabana Data Team"
               fill
               className="object-cover"
