@@ -1,0 +1,35 @@
+{
+  "image_description": {
+    "subject": {
+      "primary": "A meeting with people having multiple papers on the table"
+    },
+    "art_style": {
+      "technique": "Uniform Lines: Lines with a constant thickness from start to finish. This creates a dead or technical look, perfect for architectural blueprints or the isometric vector art in your second image.",
+      "line_quality": "Clean, constant-width, Parallel Curved",
+      "perspective": "Isometric / 3D volumetric representation"
+    },
+    "color_profile": {
+      "type": "Gradient",
+      "start_color": "#0000d3 (Dark blue)",
+      "end_color": "#57FF8F (cabana green)",
+      "background": "#FFFFFF (Pure White)",
+      "application": "Gradient applied"
+    },
+    "composition": {
+      "layout": "Asymmetrical / Floating",
+      "atmosphere": "Technical, airy, digital-minimalist",
+      "negative_space": "High"
+    },
+    "keywords": [
+      "3D modeling",
+      "tactile technology",
+      "vector illustration",
+      "wireframe geometry"
+    ],
+    "format": {
+      "aspect_ratio": "1:1",
+      "orientation": "landscape",
+      "dimensions": "1080x1080"
+    }
+  }
+}

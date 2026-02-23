@@ -101,7 +101,7 @@
     --color-popover-foreground: hsl(var(--popover-foreground));
 
     /* Brand Colors */
-    --color-cabana-blue: #0048ff;
+    --color-cabana-blue: #0000d3;
     --color-cabana-green: #57ff8f;
     --color-cabana-dark: #0f172a;
     --color-cabana-navy: #16364d;
@@ -207,7 +207,7 @@
         --popover-foreground: 222.2 47.4% 11.2%;
 
         /* Primary - Cabana Blue #0048ff */
-        --primary: 220 100% 50%;
+        --primary: 240 100% 41.4%;
         --primary-foreground: 210 40% 98%;
 
         /* Secondary */

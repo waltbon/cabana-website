@@ -6,6 +6,8 @@ import {
   ContactCTASection,
 } from "./_components";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
+import { ServiceWhySection } from "./_components/service-why-section";
+import { ServiceGetReadySection } from "./_components/service-get-ready-section";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -25,6 +27,8 @@ export default function ServicesPage() {
       />
       <HeroSection />
       <ServicesGridSection />
+      <ServiceWhySection />
+      <ServiceGetReadySection />
       <FAQSection />
       <ContactCTASection />
     </>

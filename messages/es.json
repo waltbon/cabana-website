@@ -25,6 +25,8 @@
     "home": "Inicio",
     "about": "Nosotros",
     "services": "Servicios",
+    "servicesOverview": "Todos los Servicios",
+    "dataStrategy": "Estrategia de Datos y Consultoría",
     "blog": "Blog",
     "contact": "Contacto",
     "getStarted": "Comenzar",
@@ -198,6 +200,121 @@
           "answer": "La seguridad de datos es fundamental en nuestro enfoque. Implementamos las mejores prácticas de la industria para gobernanza de datos, encriptación, controles de acceso y registro de auditoría. También ayudamos a los clientes a cumplir con requisitos de cumplimiento incluyendo GDPR, HIPAA, SOC 2 y otras regulaciones relevantes."
         }
       }
+    },
+    "dataStrategy": {
+      "problem": {
+        "tagline": "El problema.",
+        "headline": "Incertidumbre.",
+        "description": "¿Están tus datos listos para la IA? Escuchas sobre inteligencia artificial en todas partes, pero tu infraestructura de datos es una red enredada de sistemas heredados e información en silos. No sabes si tienes la base correcta para aprovechar el machine learning y corres el riesgo de quedarte atrás.",
+        "items": {
+          "decisions": {
+            "title": "¿Estás Tomando Decisiones a Ciegas?",
+            "description": "Tus equipos carecen de acceso a datos confiables y en tiempo real, lo que lleva a oportunidades perdidas y decisiones basadas en intuiciones en lugar de hechos. Tienes los datos en algún lugar, pero no puedes llevar los insights correctos a las personas correctas en el momento correcto."
+          },
+          "ideas": {
+            "title": "¿Tus Ideas Digitales Están Atascadas en el Pizarrón?",
+            "description": "Tienes una idea revolucionaria para un producto digital o aplicación, pero no sabes si es técnicamente viable, cómo alcanzarla o qué datos requerirá. El camino del concepto a un producto valioso impulsado por datos no está claro."
+          }
+        }
+      },
+      "process": {
+        "tagline": "El proceso.",
+        "headlineDark": "Tu",
+        "headlineBlue": "Base de Datos",
+        "steps": {
+          "discover": {
+            "title": "Descubrir y Alinear",
+            "description": "comenzamos con talleres profundos para entender tus objetivos de negocio, puntos de dolor y el panorama de datos existente."
+          },
+          "analyze": {
+            "title": "Analizar y Diagnosticar",
+            "description": "nuestros expertos realizan un análisis técnico exhaustivo de tus sistemas, calidad de datos y arquitectura para identificar los desafíos y oportunidades clave."
+          },
+          "strategize": {
+            "title": "Estrategizar y Hoja de Ruta",
+            "description": "sintetizamos nuestros hallazgos en un documento estratégico, entregando una hoja de ruta clara con iniciativas priorizadas, cronogramas e impacto estimado."
+          },
+          "empower": {
+            "title": "Empoderar y Ejecutar",
+            "description": "presentamos la estrategia final a tus partes interesadas y proporcionamos la orientación necesaria para que tu equipo ejecute el plan con confianza, o transite sin problemas hacia nuestros equipos de implementación."
+          }
+        }
+      },
+      "offerings": {
+        "tagline": "Los servicios.",
+        "headlineDark": "Servicios de",
+        "headlineBlue": "Estrategia de Datos y Consultoría",
+        "items": {
+          "aiReadiness": {
+            "title": "Evaluación de Preparación para IA",
+            "whatIsIt": "Una auditoría integral de todo tu ecosistema de datos—desde infraestructura y calidad de datos hasta habilidades del equipo—culminando en una hoja de ruta priorizada de casos de uso de IA de alto impacto.",
+            "whoIsItFor": "Empresas comprometidas con su viaje de IA que necesitan un plan estratégico claro para asegurar que su base sea sólida y que sus inversiones generen ROI."
+          },
+          "digitalFeasibility": {
+            "title": "Factibilidad de Producto Digital",
+            "whatIsIt": "Validamos tu idea de aplicación personalizada mapeando procesos clave, definiendo requisitos de datos y creando una hoja de ruta técnica y de producto, asegurando que tu visión sea alcanzable y esté configurada para el éxito.",
+            "whoIsItFor": "Empresas y emprendedores que quieren construir aplicaciones personalizadas basadas en datos y necesitan reducir el riesgo de su inversión con un plan técnico y estratégico sólido."
+          },
+          "dataHealthCheck": {
+            "title": "Diagnóstico de Datos",
+            "whatIsIt": "Un diagnóstico rápido de tu estado actual de datos, enfocado en identificar oportunidades inmediatas de optimización en BigQuery y problemas de calidad de datos que afectan el rendimiento.",
+            "whoIsItFor": "Empresas y equipos que quieren una forma de bajo riesgo y alto valor para explorar su panorama de datos y encontrar victorias rápidas."
+          },
+          "designThinking": {
+            "title": "Taller de Design Thinking",
+            "whatIsIt": "Una sesión colaborativa y práctica donde trabajamos con tu equipo para enmarcar problemas, entender las necesidades del usuario e idear soluciones innovadoras, alineando a todos los interesados en una visión común.",
+            "whoIsItFor": "Organizaciones que enfrentan desafíos complejos o que inician nuevos proyectos y necesitan asegurarse de que su solución sea centrada en el usuario, innovadora y resuelva el problema correcto desde el inicio."
+          }
+        }
+      },
+      "solution": {
+        "tagline": "La solución.",
+        "headlineDark": "Claridad Estratégica y",
+        "headlineBlue": "Hojas de Ruta Accionables",
+        "description": "Cerramos la brecha entre tus objetivos de negocio y los pasos técnicos necesarios para alcanzarlos. Nuestro enfoque colaborativo desmitifica los desafíos complejos de datos, entregando un plan claro y accionable adaptado a tus necesidades únicas.",
+        "imageAlt": "Solución de estrategia de datos"
+      },
+      "hero": {
+        "tagline": "El primer nivel.",
+        "headlineDark": "Estrategia de",
+        "headlineBlue": "Datos y Consultoría",
+        "description": "Deja de adivinar. Empieza a ganar. Construye un futuro basado en datos.",
+        "cta": "¡Hablemos!",
+        "imageAlt": "Estrategia de datos y consultoría"
+      }
+    },
+    "getReady": {
+      "headlineDark": "¿Listo para",
+      "headlineBlue": "Activar Tus Datos?",
+      "description": "Creamos una capa inteligente sobre tus sistemas existentes, desbloqueando el valor que ya tienes sin necesidad de reemplazar las herramientas que usas.",
+      "items": {
+        "discovery": {
+          "title": "Descubrimiento y Estrategia",
+          "description": "Comenzamos trazando una estrategia clara, asegurándonos de que cada paso técnico esté directamente vinculado a lograr tus objetivos de negocio más importantes."
+        },
+        "engineering": {
+          "title": "Ingeniería y Arquitectura",
+          "description": "Construimos la base técnica, conectando tus sistemas dispares y transformando la información fragmentada en una única fuente de verdad confiable."
+        },
+        "design": {
+          "title": "Diseño y Desarrollo",
+          "description": "Desarrollamos las aplicaciones personalizadas y los dashboards intuitivos que hacen que tus datos sean accesibles, interactivos y fáciles de usar para todo tu equipo."
+        },
+        "ai": {
+          "title": "Soluciones de IA y Machine Learning",
+          "description": "Activamos tus datos con IA, automatizando procesos y generando los insights predictivos que permiten tomar decisiones verdaderamente orientadas al futuro."
+        }
+      },
+      "cta": "¡Hablemos!",
+      "imageAlt": "Equipo colaborando en análisis de datos"
+    },
+    "why": {
+      "headlineBlue": "Tus Datos Ya Están Aquí.",
+      "headlineDark": "Solo Que No Los Estás Usando.",
+      "description1": "Tus insights más valiosos probablemente están atrapados ahora mismo dentro de los sistemas que usas cada día. Tu ERP contiene décadas de historial operativo, tu CRM almacena cada interacción con clientes, y tu equipo sigue invirtiendo tiempo en reportes manuales.",
+      "description2": "Estos datos son la clave para desbloquear un valor inmenso, pero para muchas empresas permanecen como un activo dormido—fragmentado, inaccesible y sin usar para la toma de decisiones críticas. Tienes las materias primas, pero no la fábrica para procesarlas.",
+      "cta": "¡Hablemos!",
+      "imageAlt": "Visualización de sistemas de datos"
     },
     "contactCta": {
       "headline": "¿Listo para comenzar tu viaje de datos?",

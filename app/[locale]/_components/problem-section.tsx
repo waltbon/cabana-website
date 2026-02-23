@@ -10,17 +10,17 @@ const painPoints = [
   {
     key: "dataChaos",
     alignment: "left" as const,
-    imageSrc: "/home/data-chaos.svg",
+    imageSrc: "/home/data-chaos.png",
   },
   {
     key: "inefficientProcesses",
     alignment: "right" as const,
-    imageSrc: "/home/inefficient-process.svg",
+    imageSrc: "/home/inefficient-process.png",
   },
   {
     key: "uncertainFuture",
     alignment: "left" as const,
-    imageSrc: "/home/uncertain-future.svg",
+    imageSrc: "/home/uncertain-future.png",
   },
 ];
 

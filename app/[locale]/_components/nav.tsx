@@ -1,3 +1,5 @@
+"use client";
+
 import { Link } from "@/i18n/navigation";
 import { MobileNav } from "@/components/nav/mobile-nav";
 import { Button } from "@/components/ui/button";
@@ -6,6 +8,15 @@ import { LanguageSwitcher } from "@/components/language-switcher";
 import { cn } from "@/lib/utils";
 import { mainMenu } from "@/menu.config";
 import { useTranslations } from "next-intl";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
+} from "@/components/ui/navigation-menu";
 
 export const Nav = ({ className, children, id }: NavProps) => {
   const t = useTranslations("nav");
@@ -34,13 +45,59 @@ export const Nav = ({ className, children, id }: NavProps) => {
         </Link>
         {children}
         <div className="flex items-center gap-2">
-          <div className="mx-2 hidden md:flex">
-            {Object.entries(mainMenu).map(([key, href]) => (
-              <Button key={href} asChild variant="ghost" size="sm">
-                <Link href={href}>{t(key)}</Link>
-              </Button>
-            ))}
-          </div>
+          <NavigationMenu className="mx-2 hidden md:flex">
+            <NavigationMenuList>
+              {Object.entries(mainMenu).map(([key, item]) => {
+                if (typeof item === "string") {
+                  return (
+                    <NavigationMenuItem key={key}>
+                      <NavigationMenuLink
+                        asChild
+                        className={navigationMenuTriggerStyle()}
+                      >
+                        <Link href={item}>{t(key)}</Link>
+                      </NavigationMenuLink>
+                    </NavigationMenuItem>
+                  );
+                }
+
+                return (
+                  <NavigationMenuItem key={key}>
+                    <NavigationMenuTrigger>{t(key)}</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                      <ul className="flex flex-col gap-0.5 p-2 w-56">
+                        <li>
+                          <NavigationMenuLink asChild>
+                            <Link
+                              href={item.href}
+                              className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                            >
+                              {t(`${key}Overview`)}
+                            </Link>
+                          </NavigationMenuLink>
+                        </li>
+                        <li className="my-1 h-px bg-border" />
+                        {Object.entries(item.children).map(
+                          ([childKey, childHref]) => (
+                            <li key={childKey}>
+                              <NavigationMenuLink asChild>
+                                <Link
+                                  href={childHref}
+                                  className="block rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground"
+                                >
+                                  {t(childKey)}
+                                </Link>
+                              </NavigationMenuLink>
+                            </li>
+                          )
+                        )}
+                      </ul>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                );
+              })}
+            </NavigationMenuList>
+          </NavigationMenu>
           <Button asChild className="hidden sm:flex">
             <Link href="/contact">{t("getStarted")}</Link>
           </Button>
@@ -51,4 +108,3 @@ export const Nav = ({ className, children, id }: NavProps) => {
     </nav>
   );
 };
-

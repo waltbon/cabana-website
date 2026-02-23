@@ -54,11 +54,38 @@ export function MobileNav() {
           <div className="flex flex-col space-y-3">
             <h3 className="text-small mt-6">Menu</h3>
             <Separator />
-            {Object.entries(mainMenu).map(([key, href]) => (
-              <MobileLink key={key} href={href} onOpenChange={setOpen}>
-                {key.charAt(0).toUpperCase() + key.slice(1)}
-              </MobileLink>
-            ))}
+            {Object.entries(mainMenu).map(([key, item]) => {
+              if (typeof item === "string") {
+                return (
+                  <MobileLink key={key} href={item} onOpenChange={setOpen}>
+                    {key.charAt(0).toUpperCase() + key.slice(1)}
+                  </MobileLink>
+                );
+              }
+              return (
+                <div key={key} className="flex flex-col gap-1">
+                  <MobileLink href={item.href} onOpenChange={setOpen}>
+                    {key.charAt(0).toUpperCase() + key.slice(1)}
+                  </MobileLink>
+                  <div className="flex flex-col gap-1 pl-4 border-l border-border ml-1">
+                    {Object.entries(item.children).map(
+                      ([childKey, childHref]) => (
+                        <MobileLink
+                          key={childKey}
+                          href={childHref}
+                          onOpenChange={setOpen}
+                          className="text-base text-muted-foreground"
+                        >
+                          {childKey
+                            .replace(/([A-Z])/g, " $1")
+                            .replace(/^./, (s) => s.toUpperCase())}
+                        </MobileLink>
+                      )
+                    )}
+                  </div>
+                </div>
+              );
+            })}
             <h3 className="text-small pt-6">Blog Menu</h3>
             <Separator />
             {Object.entries(contentMenu).map(([key, href]) => (

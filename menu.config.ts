@@ -1,8 +1,18 @@
-// Define the menu items
-export const mainMenu = {
+export type MenuChildren = Record<string, string>;
+
+export type MenuItem =
+  | string
+  | { href: string; children: MenuChildren };
+
+export const mainMenu: Record<string, MenuItem> = {
   home: "/",
   about: "/about",
-  services: "/services",
+  services: {
+    href: "/services",
+    children: {
+      dataStrategy: "/services/data-strategy",
+    },
+  },
   blog: "/posts",
   contact: "/contact",
 };

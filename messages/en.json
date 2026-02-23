@@ -25,6 +25,8 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
+    "servicesOverview": "All Services",
+    "dataStrategy": "Data Strategy & Consulting",
     "blog": "Blog",
     "contact": "Contact",
     "getStarted": "Get Started",
@@ -198,6 +200,121 @@
           "answer": "Data security is fundamental to our approach. We implement industry best practices for data governance, encryption, access controls, and audit logging. We also help clients meet compliance requirements including GDPR, HIPAA, SOC 2, and other relevant regulations."
         }
       }
+    },
+    "dataStrategy": {
+      "problem": {
+        "tagline": "The problem.",
+        "headline": "Uncertainty.",
+        "description": "Is Your Data Ready for AI? You're hearing about AI everywhere, but your data infrastructure is a tangled web of legacy systems and siloed information. You're unsure if you have the right foundation to capitalize on machine learning and risk being left behind.",
+        "items": {
+          "decisions": {
+            "title": "Are You Making Decisions in the Dark?",
+            "description": "Your teams lack access to reliable, real-time data, leading to missed opportunities and decisions based on gut feelings rather than facts. You have the data somewhere, but you can't get the right insights to the right people at the right time."
+          },
+          "ideas": {
+            "title": "Are Your Digital Ideas Stuck on the Whiteboard?",
+            "description": "You have a game-changing idea for a digital product or application, but you don't know if it's technically feasible, how to scope it, or what data it will require. The path from concept to a valuable, data-powered product is unclear."
+          }
+        }
+      },
+      "process": {
+        "tagline": "The process.",
+        "headlineDark": "Your",
+        "headlineBlue": "Data Foundation",
+        "steps": {
+          "discover": {
+            "title": "Discover & Align",
+            "description": "we start with in-depth workshops to understand your business goals, pain points, and existing data landscape."
+          },
+          "analyze": {
+            "title": "Analyze & Diagnose",
+            "description": "our experts conduct a thorough technical analysis of your systems, data quality, and architecture to identify key challenges and opportunities."
+          },
+          "strategize": {
+            "title": "Strategize & Roadmap",
+            "description": "we synthesize our findings into a strategic document, delivering a clear roadmap with prioritized initiatives, timelines, and estimated impact."
+          },
+          "empower": {
+            "title": "Empower & Execute",
+            "description": "we present the final strategy to your stakeholders and provide the guidance needed for your team to execute the plan with confidence, or transition seamlessly to our implementation teams."
+          }
+        }
+      },
+      "offerings": {
+        "tagline": "The services.",
+        "headlineDark": "Data",
+        "headlineBlue": "Strategy & Consulting Services",
+        "items": {
+          "aiReadiness": {
+            "title": "AI Readiness Assessment",
+            "whatIsIt": "A comprehensive audit of your entire data ecosystem—from infrastructure and data quality to team skills—culminating in a prioritized roadmap of high-impact AI use cases.",
+            "whoIsItFor": "Companies committed to their AI journey who need a clear, strategic plan to ensure their foundation is solid and their investments will deliver ROI."
+          },
+          "digitalFeasibility": {
+            "title": "Digital Product Feasibility",
+            "whatIsIt": "We validate your custom application idea by mapping core processes, defining data requirements, and creating a technical and product roadmap, ensuring your vision is achievable and set up for success.",
+            "whoIsItFor": "Businesses and entrepreneurs who want to build custom, data-driven applications and need to de-risk their investment with a solid technical and strategic plan."
+          },
+          "dataHealthCheck": {
+            "title": "Data Health Check",
+            "whatIsIt": "A rapid diagnostic of your current data state, focusing on identifying immediate BigQuery optimization opportunities and data quality issues that hinder performance.",
+            "whoIsItFor": "Companies and teams that want a low-risk, high-value way to test the waters, understand their data landscape, and find quick wins."
+          },
+          "designThinking": {
+            "title": "Design Thinking Workshop",
+            "whatIsIt": "A collaborative, hands-on session where we work with your team to frame problems, understand user needs, and ideate innovative solutions, aligning all stakeholders on a common vision.",
+            "whoIsItFor": "Organizations facing complex challenges or starting new projects that need to ensure their solution is user-centric, innovative, and solves the right problem from the start."
+          }
+        }
+      },
+      "solution": {
+        "tagline": "The solution.",
+        "headlineDark": "Strategic Clarity &",
+        "headlineBlue": "Actionable Roadmaps",
+        "description": "We bridge the gap between your business goals and the technical steps required to achieve them. Our collaborative approach demystifies complex data challenges, delivering a clear, actionable plan tailored to your unique needs.",
+        "imageAlt": "Data strategy solution"
+      },
+      "hero": {
+        "tagline": "The first tier.",
+        "headlineDark": "Data",
+        "headlineBlue": "Strategy & Consulting",
+        "description": "Stop Guessing. Start Winning. Build a Data-Driven Future.",
+        "cta": "Let's talk!",
+        "imageAlt": "Data strategy and consulting"
+      }
+    },
+    "getReady": {
+      "headlineDark": "Ready to",
+      "headlineBlue": "Activate Your Data?",
+      "description": "We create an intelligent layer on top of your existing systems, unlocking the value you already own without replacing the tools you use.",
+      "items": {
+        "discovery": {
+          "title": "Discovery & Strategy",
+          "description": "We start by mapping out a clear strategy, ensuring every technical step is tied directly to achieving your most important business goals."
+        },
+        "engineering": {
+          "title": "Engineering & Architecture",
+          "description": "We engineer the technical foundation, connecting your disparate systems and transforming siloed information into a single, reliable source of truth."
+        },
+        "design": {
+          "title": "Design & Development",
+          "description": "We build the custom applications and intuitive dashboards that make your data accessible, interactive, and easy for your entire team to use."
+        },
+        "ai": {
+          "title": "AI & Machine Learning Solutions",
+          "description": "We activate your data with AI, automating processes and generating the predictive insights that enable truly future-focused decisions."
+        }
+      },
+      "cta": "Let's talk!",
+      "imageAlt": "Team collaborating on data analytics"
+    },
+    "why": {
+      "headlineBlue": "Your Data is Already Here.",
+      "headlineDark": "You're Just Not Using It.",
+      "description1": "Your most valuable insights are likely trapped right now inside the systems you use every day. Your ERP holds decades of operational history, your CRM contains every customer interaction, and your team is still investing time in manual reports.",
+      "description2": "This data is the key to unlocking immense value, yet for many businesses, it remains a dormant asset—fragmented, inaccessible, and unused for critical decision-making. You have the raw materials, but not the factory to process them.",
+      "cta": "Let's talk!",
+      "imageAlt": "Data systems visualization"
     },
     "contactCta": {
       "headline": "Ready to start your data journey?",
