@@ -50,7 +50,7 @@ export function ServicesGridSection() {
                 className="flex flex-col items-center gap-5 text-center"
               >
                 {/* Icon Wrapper */}
-                <div className="icon-wrapper flex size-20 items-center justify-center">
+                <div className="icon-wrapper icon-wrapper-gradient flex size-20 items-center justify-center">
                   <service.icon className="size-12 text-slate-100" />
                 </div>
 

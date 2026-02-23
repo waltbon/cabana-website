@@ -77,7 +77,7 @@ export function ServiceGetReadySection() {
           <FadeIn direction="left" className="w-full shrink-0 lg:w-[45%]">
             <div className="relative aspect-square w-full overflow-hidden rounded-xl">
               <Image
-                src="/services/service-get-ready.png"
+                src="/services/service-why-section-1.png"
                 alt={t("imageAlt")}
                 fill
                 className="object-cover"

@@ -361,4 +361,8 @@
         width: 80px;
         height: 80px;
     }
+
+    .icon-wrapper-gradient {
+        background: linear-gradient(135deg, var(--color-cabana-blue), var(--color-cabana-green));
+    }
 }

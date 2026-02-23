@@ -1,0 +1,37 @@
+{
+  "image_description": {
+    "subject": {
+      "primary": "A serene, abstract landscape with rolling hills and distant geometric mountains"
+    },
+    "art_style": {
+      "technique": "Flat Vector Illustration: Smooth, layered shapes with soft transitions. Minimalist and unobtrusive to ensure UI text readability.",
+      "line_quality": "No outlines, seamless vector shapes, smooth and flowing curves",
+      "perspective": "Wide atmospheric landscape, flat frontal view with overlapping layers to create subtle depth"
+    },
+    "color_profile": {
+      "type": "Analogous Gradient",
+      "start_color": "#F0F4F8 (Cool Off-White/Light Gray for the sky)",
+      "end_color": "#4A90E2 (Calm Tech Blue for the foreground terrain)",
+      "background": "#FFFFFF (Pure White base)",
+      "application": "Soft gradient fills applied to the layered shapes, getting slightly darker towards the bottom"
+    },
+    "composition": {
+      "layout": "Horizontal stratification, lower-third focus for terrain, expansive open sky in the top two-thirds",
+      "atmosphere": "Calm, modern, professional, uncluttered",
+      "negative_space": "Very High (especially in the upper area to allow for web content and text overlays)"
+    },
+    "keywords": [
+      "UI background",
+      "vector landscape",
+      "minimalist mountains",
+      "web design asset",
+      "clean flat design",
+      "dashboard background"
+    ],
+    "format": {
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "dimensions": "1920x1080"
+    }
+  }
+}
