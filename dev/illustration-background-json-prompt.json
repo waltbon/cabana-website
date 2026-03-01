@@ -1,7 +1,8 @@
 {
   "image_description": {
     "subject": {
-      "primary": "A serene, abstract landscape with rolling hills and distant geometric mountains"
+      "primary": "A serene, abstract landscape with rolling hills and distant geometric mountains and some birds at the horizon",
+      "secondary": "Add a cabana at the right sorounded by a shining light"
     },
     "art_style": {
       "technique": "Flat Vector Illustration: Smooth, layered shapes with soft transitions. Minimalist and unobtrusive to ensure UI text readability.",

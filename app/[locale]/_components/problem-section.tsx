@@ -10,17 +10,17 @@ const painPoints = [
   {
     key: "dataChaos",
     alignment: "left" as const,
-    imageSrc: "/home/data-chaos.png",
+    imageSrc: "/home/problem-2.jpg",
   },
   {
     key: "inefficientProcesses",
     alignment: "right" as const,
-    imageSrc: "/home/inefficient-process.png",
+    imageSrc: "/home/data-chaos.png",
   },
   {
     key: "uncertainFuture",
     alignment: "left" as const,
-    imageSrc: "/home/uncertain-future.png",
+    imageSrc: "/home/problem-3.jpg",
   },
 ];
 
@@ -76,9 +76,9 @@ export function ProblemSection() {
                   direction={point.alignment === "left" ? "left" : "right"}
                   delay={index * 0.15}
                 >
-                  <div className={`flex flex-row space-x-1`}>
+                  <div className={`flex flex-row space-x-1 items-center`}>
                     <div
-                      className={`flex flex-col gap-5 ${alignmentClasses[point.alignment]}`}
+                      className={`flex flex-col ${alignmentClasses[point.alignment]}`}
                     >
                       {/* Content */}
                       <div
@@ -99,7 +99,7 @@ export function ProblemSection() {
                       <Image
                         src={point.imageSrc}
                         className="self-center text-center"
-                        width={150}
+                        width={230}
                         height={100}
                         alt={t(`items.${point.key}.title`)}
                       />

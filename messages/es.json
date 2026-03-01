@@ -34,72 +34,136 @@
     "skipToContent": "Ir al contenido principal"
   },
   "hero": {
-    "tagline": "Construye con propósito",
-    "headline": "Tus datos son tu próxima",
-    "headlineHighlight": "Gran Ventaja",
-    "description": "Deja de luchar con datos desordenados y comienza a convertirlos en tu activo más poderoso.",
-    "cta": "¡Empieza ahora!"
+    "tagline": "INGENIERÍA DE DATOS E IMPLEMENTACIÓN DE IA",
+    "headline": "IA que Funciona Comienza",
+    "headlineHighlight": "con Datos Preparados",
+    "description": "Construimos la infraestructura, pipelines y arquitectura que convierten datos dispersos en una base confiable—para que tus inversiones en IA realmente entreguen resultados",
+    "cta": "¡Explora nuestro enfoque!"
   },
   "problem": {
     "tagline": "El problema",
-    "headline": "Deja de Reaccionar.",
-    "headlineHighlight": "Empieza a Construir.",
-    "description": "Tienes los datos, pero no tienes el control. ¿Te suenan familiares estos desafíos?",
+    "headline": "Por qué la Mayoría de los",
+    "headlineHighlight": "Proyectos de IA se Detienen",
+    "description": "No es la tecnología. Es lo que hay debajo",
     "items": {
       "dataChaos": {
-        "title": "Caos de Datos",
-        "description": "Tus datos están aislados y desorganizados. Tus equipos no pueden confiar en los números y los insights están enterrados, ralentizando decisiones críticas."
+        "title": "Sistemas Desconectados",
+        "description": "Tus datos viven en seis herramientas distintas que no se comunican entre sí. Cada reporte requiere trabajo manual y nadie confía del todo en los números"
       },
       "inefficientProcesses": {
-        "title": "Procesos Ineficientes",
-        "description": "Estás limitado por soluciones manuales y software genérico que no se ajusta a tus necesidades únicas, drenando tiempo y recursos."
+        "title": "Sin una Fuente Única de Verdad",
+        "description": "Diferentes equipos usan diferentes definiciones. Ventas dice una cosa, finanzas dice otra. Las decisiones se retrasan mientras todos debaten cuál hoja de cálculo tiene razón"
       },
       "uncertainFuture": {
-        "title": "Futuro Incierto",
-        "description": "Sabes que necesitas adoptar IA y tecnología moderna para mantenerte competitivo, pero no tienes una hoja de ruta clara o la base técnica para llegar allí."
+        "title": "IA Sin Base",
+        "description": "Has invertido en herramientas de IA—o planeas hacerlo—pero sin datos limpios, estructurados y accesibles, no tienen nada sólido sobre qué trabajar"
       }
     }
   },
   "solution": {
-    "tagline": "La solución",
-    "headline": "Tu Socio de Datos",
-    "headlineHighlight": "de Principio a Fin",
-    "description": "Desde la estrategia hasta la ejecución, proporcionamos la claridad y experiencia técnica para que tus datos trabajen para ti.",
+    "tagline": "NUESTRO ENFOQUE",
+    "headline": "Del caos de datos a",
+    "headlineHighlight": "sistemas inteligentes",
+    "description": "Cada capa se construye sobre la anterior. Sin atajos, sin hype—solo el trabajo que hace que la IA realmente entregue resultados.",
+    "whatYouGet": "Qué obtienes:",
+    "outcome": "Resultado",
     "services": {
       "dataStrategy": {
         "title": "Estrategia y Consultoría de Datos",
-        "description": "Orientación estratégica para alinear tus iniciativas de datos con los objetivos empresariales."
+        "description": "Antes de construir cualquier cosa, nos aseguramos de que estés resolviendo el problema correcto. A través de talleres de descubrimiento y análisis técnico, mapeamos tu realidad actual, identificamos brechas y creamos una hoja de ruta accionable.",
+        "whatYouGetList": {
+          "wyg1": "Evaluación de Preparación para IA",
+          "wyg2": "Diagnóstico de Datos",
+          "wyg3": "Estudio de Factibilidad de Producto Digital",
+          "wyg4": "Talleres de Design Thinking"
+        },
+        "outcome": "Claridad sobre qué construir, por qué y en qué orden"
       },
       "dataEngineering": {
         "title": "Ingeniería y Arquitectura de Datos",
-        "description": "Construye pipelines de datos escalables e infraestructura eficiente."
+        "description": "Conectamos tus sistemas y construimos la infraestructura que convierte datos fragmentados en una única fuente de verdad confiable. Construido sobre Google Cloud Platform con BigQuery y Dataform como núcleo.",
+        "whatYouGetList": {
+          "wyg1": "Diseño e implementación de data warehouse",
+          "wyg2": "Pipelines ETL/ELT automatizados",
+          "wyg3": "Integración de datos en tiempo real",
+          "wyg4": "Arquitectura escalable y rentable"
+        },
+        "outcome": "Datos limpios, accesibles y confiables—listos para impulsar decisiones y aplicaciones"
       },
       "customDevelopment": {
-        "title": "Diseño y Desarrollo de Aplicaciones",
-        "description": "Soluciones personalizadas que aprovechan tus activos de datos."
+        "title": "Aplicaciones y Dashboards Personalizados",
+        "description": "Los datos solo tienen valor si las personas pueden usarlos. Construimos aplicaciones y dashboards a medida que hacen que tus datos sean accesibles, interactivos y accionables en toda tu organización.",
+        "whatYouGetList": {
+          "wyg1": "Plataformas operativas y herramientas internas",
+          "wyg2": "Dashboards interactivos y reportes",
+          "wyg3": "Automatización de flujos de trabajo",
+          "wyg4": "Aplicaciones construidas con Next.js, React y Angular"
+        },
+        "outcome": "Tu equipo toma decisiones más rápidas y mejores con datos que realmente puede acceder"
       },
       "aiMl": {
-        "title": "Soluciones de IA y Machine Learning",
-        "description": "Implementa sistemas inteligentes que generan valor empresarial."
+        "title": "Agentes de AI y Sistemas Inteligentes",
+        "description": "Con una base sólida en su lugar, la IA finalmente puede cumplir su promesa. Implementamos sistemas inteligentes que automatizan procesos, descubren insights y habilitan la toma de decisiones predictiva.",
+        "whatYouGetList": {
+          "wyg1": "Automatización de procesos con IA",
+          "wyg2": "Integración de LLMs y funcionalidades de IA",
+          "wyg3": "Analítica predictiva",
+          "wyg4": "Enrutamiento inteligente y recomendaciones"
+        },
+        "outcome": "IA que funciona—porque está construida sobre infraestructura de datos diseñada para soportarla"
       }
     }
   },
   "whyUs": {
-    "tagline": "El Proceso",
-    "headline": "¿Por qué",
-    "headlineHighlight": "Cabana Data?",
-    "reasons": {
-      "strategic": {
-        "title": "Estratégicos y Técnicos",
-        "description": "Somos arquitectos, no solo programadores. Hablamos tanto de negocios como de tecnología para asegurar que cada solución sea técnicamente sólida y esté directamente vinculada a generar valor empresarial."
+    "eyebrow": "CÓMO TRABAJAMOS",
+    "headline": "Sin cajas negras. Sin sorpresas.",
+    "subhead": "Sabrás qué estamos haciendo, por qué y qué viene después—en cada etapa.",
+    "whatHappens": "Qué sucede:",
+    "youReceive": "Recibes:",
+    "phases": {
+      "phase1": {
+        "badge": "Fase 1",
+        "title": "Descubrimiento y Diagnóstico",
+        "duration": "Duración típica: 2–3 semanas",
+        "description": "Comenzamos entendiendo tu estado actual—tus sistemas, tus datos, tus puntos de dolor y tus objetivos. Sin suposiciones, sin saltar a soluciones.",
+        "item1": "Entrevistas con stakeholders",
+        "item2": "Revisión del entorno técnico",
+        "item3": "Evaluación de calidad de datos",
+        "item4": "Documentación del estado actual",
+        "outcome": "Un panorama claro de dónde estás y qué es posible."
       },
-      "googleCloud": {
-        "title": "Expertos en Google Cloud",
-        "description": "Como especialistas dedicados en GCP, aportamos experiencia élite y enfocada en BigQuery, Dataform y todo el stack de datos moderno para construir soluciones potentes, rentables y escalables."
+      "phase2": {
+        "badge": "Fase 2",
+        "title": "Estrategia y Hoja de Ruta",
+        "duration": "Duración típica: 1–2 semanas",
+        "description": "Con base en lo que aprendemos, diseñamos un camino práctico hacia adelante. Priorizamos victorias rápidas junto con trabajo fundacional, para que veas valor desde temprano.",
+        "item1": "Diseño de arquitectura de solución",
+        "item2": "Plan de implementación por fases",
+        "item3": "Estimaciones de esfuerzo y tiempo",
+        "item4": "Identificación de riesgos",
+        "outcome": "Una hoja de ruta accionable con hitos y prioridades claras."
       },
-      "futureProof": {
-        "title": "Construido para el Futuro",
-        "description": "No entregamos soluciones a corto plazo. Construimos bases y aplicaciones preparadas para el futuro, diseñadas para crecer con tu negocio y apoyar tus metas más ambiciosas de IA y análisis."
+      "phase3": {
+        "badge": "Fase 3",
+        "title": "Construcción e Implementación",
+        "duration": "Duración según el alcance",
+        "description": "Ejecutamos en sprints enfocados con revisiones regulares. Tendrás visibilidad del progreso y podrás ajustar prioridades sobre la marcha.",
+        "item1": "Ciclos de desarrollo iterativo",
+        "item2": "Actualizaciones semanales de progreso",
+        "item3": "Pruebas y validación continua",
+        "item4": "Documentación durante la construcción",
+        "outcome": "Entregables funcionales—no solo planes."
+      },
+      "phase4": {
+        "badge": "Fase 4",
+        "title": "Lanzamiento y Entrega",
+        "duration": "Duración típica: 1–2 semanas",
+        "description": "No desaparecemos después del despliegue. Capacitamos a tu equipo, documentamos todo y nos aseguramos de que puedas operar de forma independiente.",
+        "item1": "Despliegue en producción",
+        "item2": "Sesiones de capacitación al equipo",
+        "item3": "Documentación completa",
+        "item4": "Transferencia de conocimiento",
+        "outcome": "Una solución que es tuya y puedes mantener—sin dependencia forzada."
       }
     },
     "ctaTalk": "¡Hablemos!",

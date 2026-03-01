@@ -34,72 +34,136 @@
     "skipToContent": "Skip to main content"
   },
   "hero": {
-    "tagline": "Build with purpose",
-    "headline": "Your data is your next",
-    "headlineHighlight": "Big Advantage",
-    "description": "Stop wrestling with messy data and start making it your most powerful asset.",
-    "cta": "Start building!"
+    "tagline": "DATA ENGINEERING & AI IMPLEMENTATION",
+    "headline": "AI that Works Starts",
+    "headlineHighlight": "with Data that's Ready",
+    "description": "We build the infrastructure, pipelines, and architecture that turn scattered data into a reliable foundation—so your AI investments actually deliver",
+    "cta": "Explore our approach!"
   },
   "problem": {
     "tagline": "The problem",
-    "headline": "Stop Reacting.",
-    "headlineHighlight": "Start Building.",
-    "description": "You have the data, but you're not in control. Do any of these challenges sound familiar?",
+    "headline": "Why most AI",
+    "headlineHighlight": "Projects stall",
+    "description": "It's not the technology. It's what's underneath",
     "items": {
       "dataChaos": {
-        "title": "Data Chaos",
-        "description": "Your data is siloed and disorganized. Your teams can't trust the numbers, and insights are buried, slowing down critical decisions."
+        "title": "Disconnected Systems",
+        "description": "Your data lives in six different tools that don't talk to each other. Every report requires manual work, and no one fully trusts the numbers"
       },
       "inefficientProcesses": {
-        "title": "Inefficient Processes",
-        "description": "You're held back by manual workarounds and off-the-shelf software that doesn't fit your unique needs, draining time and resources."
+        "title": "No Single Source of Truth",
+        "description": "Different teams use different definitions. Sales says one thing, finance says another. Decisions get delayed while people argue over whose spreadsheet is right"
       },
       "uncertainFuture": {
-        "title": "Uncertain Future",
-        "description": "You know you need to adopt AI and modern technology to stay competitive, but you don't have a clear roadmap or the technical foundation to get there."
+        "title": "AI Without a Foundation",
+        "description": "You've invested in AI tools—or you're planning to—but without clean, structured, accessible data, they have nothing solid to work with"
       }
     }
   },
   "solution": {
-    "tagline": "The solution",
-    "headline": "Your End-to-End",
-    "headlineHighlight": "Data Partner",
-    "description": "From strategy to execution, we provide the clarity and technical expertise to make your data work for you.",
+    "tagline": "OUR APPROACH",
+    "headline": "From data chaos to",
+    "headlineHighlight": "intelligent systems",
+    "description": "Each layer builds on the last. No shortcuts, no hype—just the work that makes AI actually deliver.",
+    "whatYouGet": "What you get:",
+    "outcome": "Outcome",
     "services": {
       "dataStrategy": {
         "title": "Data Strategy & Consulting",
-        "description": "Strategic guidance to align your data initiatives with business goals."
+        "description": "Before building anything, we make sure you're solving the right problem. Through discovery workshops and technical analysis, we map your current reality, identify gaps, and create an actionable roadmap.",
+        "whatYouGetList": {
+          "wyg1": "AI Readiness Assessment",
+          "wyg2": "Data Health Check",
+          "wyg3": "Digital Product Feasibility Study",
+          "wyg4": "Design Thinking Workshops"
+        },
+        "outcome": "Clarity on what to build, why, and in what order"
       },
       "dataEngineering": {
         "title": "Data Engineering & Architecture",
-        "description": "Build scalable, efficient data pipelines and infrastructure."
+        "description": "We connect your systems and build the infrastructure that turns fragmented data into a single, reliable source of truth. Built on Google Cloud Platform with BigQuery and Dataform at the core.",
+        "whatYouGetList": {
+          "wyg1": "Data warehouse design and implementation",
+          "wyg2": "Automated ETL/ELT pipelines",
+          "wyg3": "Real-time data integration",
+          "wyg4": "Scalable, cost-effective architecture"
+        },
+        "outcome": "Clean, accessible, trustworthy data—ready to power decisions and applications"
       },
       "customDevelopment": {
-        "title": "Custom Application Design & Development",
-        "description": "Tailored solutions that leverage your data assets."
+        "title": "Custom Applications & Dashboards",
+        "description": "Data is only valuable if people can use it. We build tailored applications and dashboards that make your data accessible, interactive, and actionable across your organization.",
+        "whatYouGetList": {
+          "wyg1": "Operational platforms and internal tools",
+          "wyg2": "Interactive dashboards and reporting",
+          "wyg3": "Workflow automation",
+          "wyg4": "Applications built on Next.js, React, and Angular"
+        },
+        "outcome": "Your team makes faster, better decisions with data they can actually access"
       },
       "aiMl": {
-        "title": "AI & Machine Learning Solutions",
-        "description": "Implement intelligent systems that drive business value."
+        "title": "AI & Intelligent Systems",
+        "description": "With a solid foundation in place, AI can finally deliver on its promise. We implement intelligent systems that automate processes, surface insights, and enable predictive decision-making.",
+        "whatYouGetList": {
+          "wyg1": "Process automation with AI",
+          "wyg2": "LLM integration and AI-powered features",
+          "wyg3": "Predictive analytics",
+          "wyg4": "Intelligent routing and recommendations"
+        },
+        "outcome": "AI that works—because it's built on data infrastructure designed to support it"
       }
     }
   },
   "whyUs": {
-    "tagline": "The Process",
-    "headline": "Why",
-    "headlineHighlight": "Cabana Data?",
-    "reasons": {
-      "strategic": {
-        "title": "Strategic & Technical",
-        "description": "We are architects, not just coders. We speak both business and tech to ensure every solution is not only technically sound but also directly tied to driving business value."
+    "eyebrow": "HOW WE WORK",
+    "headline": "No black boxes. No surprises.",
+    "subhead": "You'll know what we're doing, why, and what comes next—at every stage.",
+    "whatHappens": "What happens:",
+    "youReceive": "You receive:",
+    "phases": {
+      "phase1": {
+        "badge": "Phase 1",
+        "title": "Discovery & Assessment",
+        "duration": "Typical duration: 2–3 weeks",
+        "description": "We start by understanding your current state—your systems, your data, your pain points, and your goals. No assumptions, no jumping to solutions.",
+        "item1": "Stakeholder interviews",
+        "item2": "Technical environment review",
+        "item3": "Data quality assessment",
+        "item4": "Current-state documentation",
+        "outcome": "A clear picture of where you are and what's possible."
       },
-      "googleCloud": {
-        "title": "Google Cloud Experts",
-        "description": "As dedicated GCP specialists, we bring elite, focused expertise in BigQuery, Dataform, and the entire modern data stack to build solutions that are powerful, cost-effective, and scalable."
+      "phase2": {
+        "badge": "Phase 2",
+        "title": "Strategy & Roadmap",
+        "duration": "Typical duration: 1–2 weeks",
+        "description": "Based on what we learn, we design a practical path forward. We prioritize quick wins alongside foundational work, so you see value early.",
+        "item1": "Solution architecture design",
+        "item2": "Phased implementation plan",
+        "item3": "Effort and timeline estimates",
+        "item4": "Risk identification",
+        "outcome": "An actionable roadmap with clear milestones and priorities."
       },
-      "futureProof": {
-        "title": "Built for the Future",
-        "description": "We don't deliver short-term fixes. We build future-proof foundations and applications designed to grow with your business and support your most ambitious AI and analytics goals."
+      "phase3": {
+        "badge": "Phase 3",
+        "title": "Build & Implement",
+        "duration": "Duration varies by scope",
+        "description": "We execute in focused sprints with regular check-ins. You'll have visibility into progress and can adjust priorities as we go.",
+        "item1": "Iterative development cycles",
+        "item2": "Weekly progress updates",
+        "item3": "Continuous testing and validation",
+        "item4": "Documentation as we build",
+        "outcome": "Working deliverables—not just plans."
+      },
+      "phase4": {
+        "badge": "Phase 4",
+        "title": "Launch & Handoff",
+        "duration": "Typical duration: 1–2 weeks",
+        "description": "We don't disappear after deployment. We train your team, document everything, and make sure you can operate independently.",
+        "item1": "Production deployment",
+        "item2": "Team training sessions",
+        "item3": "Complete documentation",
+        "item4": "Knowledge transfer",
+        "outcome": "A solution you own and can maintain—no forced dependency."
       }
     },
     "ctaTalk": "Let's talk!",

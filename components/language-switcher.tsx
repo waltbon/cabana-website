@@ -2,7 +2,7 @@
 
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { Globe } from "lucide-react";
+import { Globe, Languages } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -30,8 +30,8 @@ export function LanguageSwitcher() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="h-9 w-9">
-          <Globe className="h-4 w-4" />
+        <Button variant="ghost" size="icon" className="h-9 w-9 cursor-pointer border">
+          { locale === 'es' ? '🇺🇸' : '🇪🇸'}
           <span className="sr-only">Switch language</span>
         </Button>
       </DropdownMenuTrigger>

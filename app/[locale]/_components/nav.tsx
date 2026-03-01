@@ -41,7 +41,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
             width={182}
             height={50}
           />
-          <span className="text-xs -mb-3 -ml-3">{t("costaRica")} 🇨🇷</span>
+          <span className="text-xs -mb-3 -ml-3">🇨🇷</span>
         </Link>
         {children}
         <div className="flex items-center gap-2">

@@ -320,13 +320,17 @@
         background-clip: text;
     }
 
+    .bg-gradient-cabana {
+        background: linear-gradient(to right, #0048ff1d, #57ff8f15);
+    }
+
     /* Section backgrounds */
     .bg-section-light {
-        background-color: #e0e6f5;
+        background-color: #f8f9ff;
     }
 
     .bg-section-slate {
-        background-color: #f1f5f9;
+        background-color: #f8fcff;
     }
 
     .bg-section-dark {
