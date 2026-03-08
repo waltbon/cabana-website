@@ -1,23 +1,24 @@
 {
   "image_description": {
     "subject": {
-      "primary": "A serene, abstract landscape with rolling hills and distant geometric mountains and some birds at the horizon",
-      "secondary": "Add a cabana at the right sorounded by a shining light"
+      "primary": "A sophisticated AI Robot at scale on a table",
+      "secondary": "Two men discussing some ideas while staring at the robot",
+      "background": "They are in sophisticated office with windows where you can see New York outside and in another wall there is a whiteboard with some notes and graphs with numbers"
     },
     "art_style": {
-      "technique": "Flat Vector Illustration: Smooth, layered shapes with soft transitions. Minimalist and unobtrusive to ensure UI text readability.",
-      "line_quality": "No outlines, seamless vector shapes, smooth and flowing curves",
-      "perspective": "Wide atmospheric landscape, flat frontal view with overlapping layers to create subtle depth"
+      "technique": "Uniform Lines: Lines with a constant thickness from start to finish. This creates a dead or technical look, perfect for architectural blueprints or the isometric vector art in your second image.",
+      "line_quality": "Clean, constant-width, Parallel Curved",
+      "perspective": "Isometric / 3D volumetric representation"
     },
     "color_profile": {
       "type": "Analogous Gradient",
       "start_color": "#F0F4F8 (Cool Off-White/Light Gray for the sky)",
-      "end_color": "#4A90E2 (Calm Tech Blue for the foreground terrain)",
-      "background": "#FFFFFF (Pure White base)",
+      "end_color": "#0048ff (cabana blue)",
+      "background": "#FFFFFF (Pure White)",
       "application": "Soft gradient fills applied to the layered shapes, getting slightly darker towards the bottom"
     },
     "composition": {
-      "layout": "Horizontal stratification, lower-third focus for terrain, expansive open sky in the top two-thirds",
+      "layout": "Horizontal stratification",
       "atmosphere": "Calm, modern, professional, uncluttered",
       "negative_space": "Very High (especially in the upper area to allow for web content and text overlays)"
     },

@@ -27,6 +27,7 @@
     "services": "Servicios",
     "servicesOverview": "Todos los Servicios",
     "dataStrategy": "Estrategia de Datos y Consultoría",
+    "aiReadinessAssessment": "Ruta IA — Diagnóstico de Preparación",
     "blog": "Blog",
     "contact": "Contacto",
     "getStarted": "Comenzar",
@@ -118,54 +119,6 @@
     "eyebrow": "CÓMO TRABAJAMOS",
     "headline": "Sin cajas negras. Sin sorpresas.",
     "subhead": "Sabrás qué estamos haciendo, por qué y qué viene después—en cada etapa.",
-    "whatHappens": "Qué sucede:",
-    "youReceive": "Recibes:",
-    "phases": {
-      "phase1": {
-        "badge": "Fase 1",
-        "title": "Descubrimiento y Diagnóstico",
-        "duration": "Duración típica: 2–3 semanas",
-        "description": "Comenzamos entendiendo tu estado actual—tus sistemas, tus datos, tus puntos de dolor y tus objetivos. Sin suposiciones, sin saltar a soluciones.",
-        "item1": "Entrevistas con stakeholders",
-        "item2": "Revisión del entorno técnico",
-        "item3": "Evaluación de calidad de datos",
-        "item4": "Documentación del estado actual",
-        "outcome": "Un panorama claro de dónde estás y qué es posible."
-      },
-      "phase2": {
-        "badge": "Fase 2",
-        "title": "Estrategia y Hoja de Ruta",
-        "duration": "Duración típica: 1–2 semanas",
-        "description": "Con base en lo que aprendemos, diseñamos un camino práctico hacia adelante. Priorizamos victorias rápidas junto con trabajo fundacional, para que veas valor desde temprano.",
-        "item1": "Diseño de arquitectura de solución",
-        "item2": "Plan de implementación por fases",
-        "item3": "Estimaciones de esfuerzo y tiempo",
-        "item4": "Identificación de riesgos",
-        "outcome": "Una hoja de ruta accionable con hitos y prioridades claras."
-      },
-      "phase3": {
-        "badge": "Fase 3",
-        "title": "Construcción e Implementación",
-        "duration": "Duración según el alcance",
-        "description": "Ejecutamos en sprints enfocados con revisiones regulares. Tendrás visibilidad del progreso y podrás ajustar prioridades sobre la marcha.",
-        "item1": "Ciclos de desarrollo iterativo",
-        "item2": "Actualizaciones semanales de progreso",
-        "item3": "Pruebas y validación continua",
-        "item4": "Documentación durante la construcción",
-        "outcome": "Entregables funcionales—no solo planes."
-      },
-      "phase4": {
-        "badge": "Fase 4",
-        "title": "Lanzamiento y Entrega",
-        "duration": "Duración típica: 1–2 semanas",
-        "description": "No desaparecemos después del despliegue. Capacitamos a tu equipo, documentamos todo y nos aseguramos de que puedas operar de forma independiente.",
-        "item1": "Despliegue en producción",
-        "item2": "Sesiones de capacitación al equipo",
-        "item3": "Documentación completa",
-        "item4": "Transferencia de conocimiento",
-        "outcome": "Una solución que es tuya y puedes mantener—sin dependencia forzada."
-      }
-    },
     "ctaTalk": "¡Hablemos!",
     "ctaServices": "Ver Servicios"
   },
@@ -236,6 +189,54 @@
       "headlineHighlight": "Negocio con Datos",
       "description1": "Estás sentado sobre una mina de oro de datos. El desafío es convertirla en un activo estratégico que impulse el crecimiento, la eficiencia y la innovación.",
       "description2": "Nuestros servicios están diseñados como un ecosistema de extremo a extremo para ayudarte en cada etapa de tu viaje de datos."
+    },
+    "whatHappens": "Qué sucede:",
+    "youReceive": "Recibes:",
+    "phases": {
+      "phase1": {
+        "badge": "Fase 1",
+        "title": "Descubrimiento y Diagnóstico",
+        "duration": "Duración típica: 2–3 semanas",
+        "description": "Comenzamos entendiendo tu estado actual—tus sistemas, tus datos, tus puntos de dolor y tus objetivos. Sin suposiciones, sin saltar a soluciones.",
+        "item1": "Entrevistas con stakeholders",
+        "item2": "Revisión del entorno técnico",
+        "item3": "Evaluación de calidad de datos",
+        "item4": "Documentación del estado actual",
+        "outcome": "Un panorama claro de dónde estás y qué es posible."
+      },
+      "phase2": {
+        "badge": "Fase 2",
+        "title": "Estrategia y Hoja de Ruta",
+        "duration": "Duración típica: 1–2 semanas",
+        "description": "Con base en lo que aprendemos, diseñamos un camino práctico hacia adelante. Priorizamos victorias rápidas junto con trabajo fundacional, para que veas valor desde temprano.",
+        "item1": "Diseño de arquitectura de solución",
+        "item2": "Plan de implementación por fases",
+        "item3": "Estimaciones de esfuerzo y tiempo",
+        "item4": "Identificación de riesgos",
+        "outcome": "Una hoja de ruta accionable con hitos y prioridades claras."
+      },
+      "phase3": {
+        "badge": "Fase 3",
+        "title": "Construcción e Implementación",
+        "duration": "Duración según el alcance",
+        "description": "Ejecutamos en sprints enfocados con revisiones regulares. Tendrás visibilidad del progreso y podrás ajustar prioridades sobre la marcha.",
+        "item1": "Ciclos de desarrollo iterativo",
+        "item2": "Actualizaciones semanales de progreso",
+        "item3": "Pruebas y validación continua",
+        "item4": "Documentación durante la construcción",
+        "outcome": "Entregables funcionales—no solo planes."
+      },
+      "phase4": {
+        "badge": "Fase 4",
+        "title": "Lanzamiento y Entrega",
+        "duration": "Duración típica: 1–2 semanas",
+        "description": "No desaparecemos después del despliegue. Capacitamos a tu equipo, documentamos todo y nos aseguramos de que puedas operar de forma independiente.",
+        "item1": "Despliegue en producción",
+        "item2": "Sesiones de capacitación al equipo",
+        "item3": "Documentación completa",
+        "item4": "Transferencia de conocimiento",
+        "outcome": "Una solución que es tuya y puedes mantener—sin dependencia forzada."
+      }
     },
     "faq": {
       "tagline": "FAQ",
@@ -384,6 +385,103 @@
       "headline": "¿Listo para comenzar tu viaje de datos?",
       "description": "Hablemos sobre cómo podemos ayudar a transformar tu negocio con datos.",
       "cta": "Contáctanos"
+    },
+    "rutaIA": {
+      "hero": {
+        "tagline": "DIAGNÓSTICO DE PREPARACIÓN PARA IA",
+        "headline": "¿Tu empresa está lista para la IA?",
+        "headlineHighlight": "Descúbrelo antes de invertir.",
+        "description": "Ruta IA es nuestro diagnóstico técnico que evalúa tu infraestructura de datos, identifica los bloqueos reales para implementar IA, y te entrega un plan claro de acción — en 2 a 3 semanas.",
+        "cta": "Agenda tu diagnóstico →"
+      },
+      "problem": {
+        "tagline": "El problema que nadie menciona",
+        "headline": "La mayoría de las iniciativas de IA fallan antes de empezar",
+        "body1": "No porque la tecnología no funcione. Sino porque la base de datos no está lista.",
+        "body2": "Datos fragmentados, pipelines inconsistentes, sin gobernanza, sin documentación de procesos — estos son los bloqueos reales que hacen que los proyectos de IA no entreguen resultados.",
+        "conclusion": "Antes de invertir en IA, necesitas saber exactamente dónde estás parado."
+      },
+      "dimensions": {
+        "tagline": "Qué evaluamos",
+        "headline": "4 dimensiones de madurez para IA",
+        "items": {
+          "quality": {
+            "title": "Calidad e integridad de datos",
+            "description": "¿Tus datos son confiables, completos y consistentes?"
+          },
+          "infrastructure": {
+            "title": "Infraestructura y pipelines",
+            "description": "¿Tu arquitectura soporta cargas de IA en producción?"
+          },
+          "governance": {
+            "title": "Gobernanza y privacidad",
+            "description": "¿Tienes control sobre quién accede y cómo se usan tus datos?"
+          },
+          "maturity": {
+            "title": "Madurez de procesos",
+            "description": "¿Tus procesos están documentados y son reproducibles?"
+          }
+        }
+      },
+      "deliverables": {
+        "tagline": "Qué recibes",
+        "headline": "Tu Ruta IA:",
+        "headlineHighlight": "un entregable concreto, no un deck de consultoría",
+        "items": {
+          "diagnosis": {
+            "title": "Diagnóstico de madurez",
+            "description": "Un reporte visual con tu puntaje actual en cada dimensión evaluada, con hallazgos específicos y evidencia técnica."
+          },
+          "blockers": {
+            "title": "Mapa de bloqueos",
+            "description": "Identificación clara de qué te impide implementar IA hoy, ordenado por impacto y urgencia."
+          },
+          "roadmap": {
+            "title": "Hoja de ruta priorizada",
+            "description": "Un plan de acción con quick wins y pasos estratégicos, incluyendo el primer caso de uso recomendado para implementar."
+          }
+        }
+      },
+      "trustSignal": {
+        "headline": "Construido sobre los estándares más rigurosos de IA",
+        "body1": "Cabana Data está en proceso de certificación ISO 42001 — el estándar internacional para sistemas de gestión de IA. Esto significa que nuestra metodología de evaluación está alineada con los requisitos de gobernanza, transparencia y accountability que los reguladores y clientes empresariales exigirán en los próximos años.",
+        "body2": "Cuando contratas Ruta IA, no estás contratando un checklist. Estás contratando el rigor de un marco internacional adaptado a la realidad latinoamericana.",
+        "badge": "En proceso de certificación"
+      },
+      "timeline": {
+        "headline": "Claro, rápido y sin sorpresas",
+        "duration": "2 a 3 semanas",
+        "durationLabel": "Diagnóstico completo",
+        "price": "Desde $5,000 USD",
+        "priceLabel": "Precio introductorio",
+        "description": "Trabajamos con tu equipo de forma no invasiva. Sin interrumpir operaciones, sin acceso innecesario a sistemas. Solo las entrevistas técnicas y revisiones de arquitectura necesarias para darte un diagnóstico honesto."
+      },
+      "personas": {
+        "tagline": "¿Para quién es Ruta IA?",
+        "headline": "Ruta IA es para ti si...",
+        "items": {
+          "cto": {
+            "badge": "CTO / Director de Tecnología",
+            "title": "Quieres implementar IA pero necesitas saber qué hay que resolver primero",
+            "description": "Quieres implementar IA pero necesitas saber qué hay que resolver primero en tu infraestructura de datos antes de comprometer presupuesto."
+          },
+          "coo": {
+            "badge": "COO / Director de Operaciones",
+            "title": "Has escuchado sobre IA aplicada a operaciones pero no sabes si tu empresa tiene la base",
+            "description": "Has escuchado sobre IA aplicada a operaciones pero no sabes si tu empresa tiene la base para que funcione realmente."
+          },
+          "tech": {
+            "badge": "Empresa de tecnología",
+            "title": "Quieres ofrecer capacidades de IA a tus clientes y necesitas un socio técnico",
+            "description": "Quieres ofrecer capacidades de IA a tus clientes y necesitas un socio técnico que valide y construya la infraestructura correcta desde el inicio."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Tu próximo paso en IA empieza con claridad, no con apuestas.",
+        "description": "Agenda una llamada de 30 minutos. Sin compromiso. Te decimos si Ruta IA tiene sentido para tu empresa.",
+        "button": "Quiero mi diagnóstico →"
+      }
     }
   },
   "contact": {

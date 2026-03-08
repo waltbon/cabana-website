@@ -27,6 +27,7 @@
     "services": "Services",
     "servicesOverview": "All Services",
     "dataStrategy": "Data Strategy & Consulting",
+    "aiReadinessAssessment": "Ruta IA — AI Readiness Assessment",
     "blog": "Blog",
     "contact": "Contact",
     "getStarted": "Get Started",
@@ -118,54 +119,6 @@
     "eyebrow": "HOW WE WORK",
     "headline": "No black boxes. No surprises.",
     "subhead": "You'll know what we're doing, why, and what comes next—at every stage.",
-    "whatHappens": "What happens:",
-    "youReceive": "You receive:",
-    "phases": {
-      "phase1": {
-        "badge": "Phase 1",
-        "title": "Discovery & Assessment",
-        "duration": "Typical duration: 2–3 weeks",
-        "description": "We start by understanding your current state—your systems, your data, your pain points, and your goals. No assumptions, no jumping to solutions.",
-        "item1": "Stakeholder interviews",
-        "item2": "Technical environment review",
-        "item3": "Data quality assessment",
-        "item4": "Current-state documentation",
-        "outcome": "A clear picture of where you are and what's possible."
-      },
-      "phase2": {
-        "badge": "Phase 2",
-        "title": "Strategy & Roadmap",
-        "duration": "Typical duration: 1–2 weeks",
-        "description": "Based on what we learn, we design a practical path forward. We prioritize quick wins alongside foundational work, so you see value early.",
-        "item1": "Solution architecture design",
-        "item2": "Phased implementation plan",
-        "item3": "Effort and timeline estimates",
-        "item4": "Risk identification",
-        "outcome": "An actionable roadmap with clear milestones and priorities."
-      },
-      "phase3": {
-        "badge": "Phase 3",
-        "title": "Build & Implement",
-        "duration": "Duration varies by scope",
-        "description": "We execute in focused sprints with regular check-ins. You'll have visibility into progress and can adjust priorities as we go.",
-        "item1": "Iterative development cycles",
-        "item2": "Weekly progress updates",
-        "item3": "Continuous testing and validation",
-        "item4": "Documentation as we build",
-        "outcome": "Working deliverables—not just plans."
-      },
-      "phase4": {
-        "badge": "Phase 4",
-        "title": "Launch & Handoff",
-        "duration": "Typical duration: 1–2 weeks",
-        "description": "We don't disappear after deployment. We train your team, document everything, and make sure you can operate independently.",
-        "item1": "Production deployment",
-        "item2": "Team training sessions",
-        "item3": "Complete documentation",
-        "item4": "Knowledge transfer",
-        "outcome": "A solution you own and can maintain—no forced dependency."
-      }
-    },
     "ctaTalk": "Let's talk!",
     "ctaServices": "View Services"
   },
@@ -236,6 +189,54 @@
       "headlineHighlight": "Business with Data",
       "description1": "You're sitting on a goldmine of data. The challenge is turning it into a strategic asset that drives growth, efficiency, and innovation.",
       "description2": "Our services are designed as an end-to-end ecosystem to help you at every stage of your data journey."
+    },
+    "whatHappens": "What happens:",
+    "youReceive": "You receive:",
+    "phases": {
+      "phase1": {
+        "badge": "Phase 1",
+        "title": "Discovery & Assessment",
+        "duration": "Typical duration: 2–3 weeks",
+        "description": "We start by understanding your current state—your systems, your data, your pain points, and your goals. No assumptions, no jumping to solutions.",
+        "item1": "Stakeholder interviews",
+        "item2": "Technical environment review",
+        "item3": "Data quality assessment",
+        "item4": "Current-state documentation",
+        "outcome": "A clear picture of where you are and what's possible."
+      },
+      "phase2": {
+        "badge": "Phase 2",
+        "title": "Strategy & Roadmap",
+        "duration": "Typical duration: 1–2 weeks",
+        "description": "Based on what we learn, we design a practical path forward. We prioritize quick wins alongside foundational work, so you see value early.",
+        "item1": "Solution architecture design",
+        "item2": "Phased implementation plan",
+        "item3": "Effort and timeline estimates",
+        "item4": "Risk identification",
+        "outcome": "An actionable roadmap with clear milestones and priorities."
+      },
+      "phase3": {
+        "badge": "Phase 3",
+        "title": "Build & Implement",
+        "duration": "Duration varies by scope",
+        "description": "We execute in focused sprints with regular check-ins. You'll have visibility into progress and can adjust priorities as we go.",
+        "item1": "Iterative development cycles",
+        "item2": "Weekly progress updates",
+        "item3": "Continuous testing and validation",
+        "item4": "Documentation as we build",
+        "outcome": "Working deliverables—not just plans."
+      },
+      "phase4": {
+        "badge": "Phase 4",
+        "title": "Launch & Handoff",
+        "duration": "Typical duration: 1–2 weeks",
+        "description": "We don't disappear after deployment. We train your team, document everything, and make sure you can operate independently.",
+        "item1": "Production deployment",
+        "item2": "Team training sessions",
+        "item3": "Complete documentation",
+        "item4": "Knowledge transfer",
+        "outcome": "A solution you own and can maintain—no forced dependency."
+      }
     },
     "faq": {
       "tagline": "FAQ",
@@ -384,6 +385,103 @@
       "headline": "Ready to start your data journey?",
       "description": "Let's discuss how we can help transform your business with data.",
       "cta": "Get in touch"
+    },
+    "rutaIA": {
+      "hero": {
+        "tagline": "AI READINESS ASSESSMENT",
+        "headline": "Is your company ready for AI?",
+        "headlineHighlight": "Find out before you invest.",
+        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and delivers a clear action plan — in 2 to 3 weeks.",
+        "cta": "Schedule your assessment →"
+      },
+      "problem": {
+        "tagline": "The problem no one talks about",
+        "headline": "Most AI initiatives fail before they even start",
+        "body1": "Not because the technology doesn't work. But because the data foundation isn't ready.",
+        "body2": "Fragmented data, inconsistent pipelines, no governance, no process documentation — these are the real blockers that prevent AI projects from delivering results.",
+        "conclusion": "Before investing in AI, you need to know exactly where you stand."
+      },
+      "dimensions": {
+        "tagline": "What we evaluate",
+        "headline": "4 AI maturity dimensions",
+        "items": {
+          "quality": {
+            "title": "Data quality & integrity",
+            "description": "Is your data reliable, complete, and consistent?"
+          },
+          "infrastructure": {
+            "title": "Infrastructure & pipelines",
+            "description": "Can your architecture support AI workloads in production?"
+          },
+          "governance": {
+            "title": "Governance & privacy",
+            "description": "Do you have control over who accesses your data and how it's used?"
+          },
+          "maturity": {
+            "title": "Process maturity",
+            "description": "Are your processes documented and reproducible?"
+          }
+        }
+      },
+      "deliverables": {
+        "tagline": "What you receive",
+        "headline": "Your Ruta IA:",
+        "headlineHighlight": "a concrete deliverable, not a consulting deck",
+        "items": {
+          "diagnosis": {
+            "title": "Maturity diagnosis",
+            "description": "A visual report with your current score in each evaluated dimension, with specific findings and technical evidence."
+          },
+          "blockers": {
+            "title": "Blockers map",
+            "description": "Clear identification of what is preventing you from implementing AI today, ordered by impact and urgency."
+          },
+          "roadmap": {
+            "title": "Prioritized roadmap",
+            "description": "An action plan with quick wins and strategic steps, including the first recommended use case to implement."
+          }
+        }
+      },
+      "trustSignal": {
+        "headline": "Built on the most rigorous AI standards",
+        "body1": "Cabana Data is in the process of obtaining ISO 42001 certification — the international standard for AI management systems. This means our assessment methodology is aligned with the governance, transparency, and accountability requirements that regulators and enterprise clients will demand in the coming years.",
+        "body2": "When you hire Ruta IA, you're not hiring a checklist. You're hiring the rigor of an international framework adapted to the Latin American reality.",
+        "badge": "Certification in progress"
+      },
+      "timeline": {
+        "headline": "Clear, fast, and no surprises",
+        "duration": "2 to 3 weeks",
+        "durationLabel": "Complete assessment",
+        "price": "From $5,000 USD",
+        "priceLabel": "Introductory price",
+        "description": "We work with your team in a non-invasive way. Without disrupting operations, without unnecessary system access. Only the technical interviews and architecture reviews needed to give you an honest assessment."
+      },
+      "personas": {
+        "tagline": "Who is Ruta IA for?",
+        "headline": "Ruta IA is for you if...",
+        "items": {
+          "cto": {
+            "badge": "CTO / Technology Director",
+            "title": "You want to implement AI but need to know what to fix first",
+            "description": "You want to implement AI but need to know what to resolve first in your data infrastructure before committing budget."
+          },
+          "coo": {
+            "badge": "COO / Operations Director",
+            "title": "You've heard about AI in operations but aren't sure your company has the foundation",
+            "description": "You've heard about AI applied to operations but don't know if your company has the foundation for it to actually work."
+          },
+          "tech": {
+            "badge": "Technology Company",
+            "title": "You want to offer AI capabilities to your clients and need a technical partner",
+            "description": "You want to offer AI capabilities to your clients and need a technical partner to validate and build the right infrastructure from the start."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Your next step in AI starts with clarity, not guesswork.",
+        "description": "Schedule a 30-minute call. No commitment. We'll tell you if Ruta IA makes sense for your company.",
+        "button": "I want my assessment →"
+      }
     }
   },
   "contact": {
