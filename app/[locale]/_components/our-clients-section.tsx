@@ -6,12 +6,13 @@ import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
 const clients = [
-  { id: 1, name: "Central Baterias HC", logo: "/clients/central-baterias-hc.png" },
+  // { id: 1, name: "Central Baterias HC", logo: "/clients/central-baterias-hc.png" },
   { id: 2, name: "CIISA", logo: "/clients/ciisa.png" },
   { id: 3, name: "FIFCO", logo: "/clients/fifco.png" },
   { id: 4, name: "London Media", logo: "/clients/london-media.png" },
   { id: 5, name: "Siru", logo: "/clients/siru.png" },
   { id: 6, name: "Zebol", logo: "/clients/zebol.png" },
+  { id: 7, name: "Huli", logo: "/clients/huli.png" },
 ];
 
 export function OurClientsSection() {

@@ -13,9 +13,9 @@ import NotFound from "../../not-found";
 
 export const metadata: Metadata = {
   title:
-    "Crafting a One-of-a-Kind Media Planning Platform — London Media & PersonalyticS | Cabana Data",
+    "Crafting a One-of-a-Kind Media Planning Platform — London Media & Personalytics | Cabana Data",
   description:
-    "How Cabana Data helped London Media build PersonalyticS — a proprietary media planning platform powered by a unified, real-time data architecture.",
+    "How Cabana Data helped London Media build Personalytics — a proprietary media planning platform powered by a unified, real-time data architecture.",
   alternates: {
     canonical: "/case-studies/personalytics-by-london",
   },

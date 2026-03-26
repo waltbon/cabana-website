@@ -10,7 +10,7 @@ export function ClientOverviewSection() {
 
   const details = [
     { label: t("labelClient"), value: "London Media" },
-    { label: t("labelProduct"), value: "PersonalyticS" },
+    { label: t("labelProduct"), value: "Personalytics" },
     { label: t("labelIndustry"), value: t("valueIndustry") },
     { label: t("labelService"), value: t("valueService") },
     { label: t("labelYear"), value: "2024" },

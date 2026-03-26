@@ -60,7 +60,7 @@ export function HeroSection({
               <span className="text-white/30">×</span>
               <Image
                 src="/case-study/personalytics/hero-2.jpg"
-                alt="PersonalyticS"
+                alt="Personalytics"
                 width={120}
                 height={40}
                 className="object-contain brightness-0 invert"
@@ -69,7 +69,7 @@ export function HeroSection({
                 }}
               />
               <span className="text-lg font-semibold text-white/80">
-                PersonalyticS
+                Personalytics
               </span>
             </div>
           </FadeIn>

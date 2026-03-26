@@ -34,7 +34,7 @@ export const CASE_STUDIES: CaseStudy[] = [
         title: "Crafting a One-of-a-Kind Media Planning Platform",
         product: "Personalytics",
         description:
-        "We designed the data architecture and reactive pipelines behind PersonalyticS — giving London Media a proprietary planning product powered by unified, real-time audience intelligence.",
+        "We designed the data architecture and reactive pipelines behind Personalytics — giving London Media a proprietary planning product powered by unified, real-time audience intelligence.",
         featured: true,
         href: "/case-studies/personalytics",
         tag: "Reactive Data Analysis",
