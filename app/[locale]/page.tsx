@@ -7,6 +7,7 @@ import {
   TechStackSection,
   CTASection,
 } from "./_components";
+import { OurClientsSection } from "./_components/our-clients-section";
 
 export const metadata: Metadata = {
   title: "Transform Your Data into Your Next Big Advantage",
@@ -21,6 +22,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <OurClientsSection />
       <ProblemSection />
       <SolutionSection />
       <WhyUsSection />
