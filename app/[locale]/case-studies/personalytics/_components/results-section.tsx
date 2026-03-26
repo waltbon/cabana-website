@@ -1,30 +1,30 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
-const stats = [
-  {
-    label: "The Goal",
-    value: "1 Platform",
-    description:
-      "Unify 8+ fragmented data sources into a single, queryable layer powering all of PersonalyticS's planning features.",
-  },
-  {
-    label: "The Numbers",
-    value: "24×",
-    description:
-      "Reduction in time spent manually consolidating data — from days to hours, freeing planners to focus on strategy.",
-  },
-  {
-    label: "The Achievement",
-    value: "Real-Time",
-    description:
-      "Audience and performance signals now flow reactively into PersonalyticS, enabling live campaign adjustments without engineering bottlenecks.",
-  },
-];
-
 export function ResultsSection() {
+  const t = useTranslations("caseStudies.personalytics.results");
+
+  const stats = [
+    {
+      label: t("stat1Label"),
+      value: t("stat1Value"),
+      description: t("stat1Description"),
+    },
+    {
+      label: t("stat2Label"),
+      value: t("stat2Value"),
+      description: t("stat2Description"),
+    },
+    {
+      label: t("stat3Label"),
+      value: t("stat3Value"),
+      description: t("stat3Description"),
+    },
+  ];
+
   return (
     <Section className="bg-section-dark py-24">
       <Container className="max-w-7xl px-6">
@@ -32,10 +32,10 @@ export function ResultsSection() {
           <FadeIn>
             <div className="flex flex-col items-center gap-4 text-center">
               <span className="text-sm font-semibold uppercase tracking-widest text-white/60">
-                Outcomes
+                {t("eyebrow")}
               </span>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-white md:text-4xl">
-                Results That Moved the Needle
+                {t("title")}
               </h2>
             </div>
           </FadeIn>

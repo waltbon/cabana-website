@@ -70,7 +70,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
                           <NavigationMenuLink asChild>
                             <Link
                               href={item.href}
-                              className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                              className="flex rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
                             >
                               {t(`${key}Overview`)}
                             </Link>

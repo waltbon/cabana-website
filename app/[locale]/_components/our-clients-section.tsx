@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
@@ -14,19 +15,21 @@ const clients = [
 ];
 
 export function OurClientsSection() {
+  const t = useTranslations("ourClients");
+
   return (
-    <Section className="border-t border-dashed border-border light:bg-white dark:bg-section-dark-2 py-24">
+    <Section className="border-t border-dashed border-border bg-blue-50 dark:bg-section-dark-2 py-24 ">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-16">
           {/* Section Header */}
           <FadeIn>
             <div className="flex max-w-xl flex-col items-center gap-5 text-center">
-              <h4>Our Clients</h4>
+              <h4>{t("eyebrow")}</h4>
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-                Trusted by leading companies
+                {t("headline")}
               </h2>
               <p className="text-base text-muted-foreground">
-                We partner with organizations that are serious about their data
+                {t("description")}
               </p>
             </div>
           </FadeIn>

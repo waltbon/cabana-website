@@ -1,35 +1,38 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
-const cases = [
-  {
-    tag: "Data Engineering",
-    client: "FIFCO",
-    title: "Building a Real-Time Supply Chain Intelligence System",
-    href: "/case-studies/fifco-supply-chain",
-    color: "from-cabana-blue/20 to-cabana-navy/30",
-  },
-  {
-    tag: "Data Strategy",
-    client: "CIISA",
-    title: "Transforming Academic Performance Reporting with Unified Data",
-    href: "/case-studies/ciisa-academic-data",
-    color: "from-cabana-green/20 to-cabana-blue/20",
-  },
-  {
-    tag: "AI Readiness",
-    client: "Zebol",
-    title: "Laying the Data Foundation for AI-Powered Retail Operations",
-    href: "/case-studies/zebol-ai-readiness",
-    color: "from-cabana-navy/20 to-cabana-blue/20",
-  },
-];
-
 export function MoreCasesSection() {
+  const t = useTranslations("caseStudies.personalytics.moreCases");
+
+  const cases = [
+    {
+      tag: t("case1Tag"),
+      client: "FIFCO",
+      title: t("case1Title"),
+      href: "/case-studies/fifco-supply-chain",
+      color: "from-cabana-blue/20 to-cabana-navy/30",
+    },
+    {
+      tag: t("case2Tag"),
+      client: "CIISA",
+      title: t("case2Title"),
+      href: "/case-studies/ciisa-academic-data",
+      color: "from-cabana-green/20 to-cabana-blue/20",
+    },
+    {
+      tag: t("case3Tag"),
+      client: "Zebol",
+      title: t("case3Title"),
+      href: "/case-studies/zebol-ai-readiness",
+      color: "from-cabana-navy/20 to-cabana-blue/20",
+    },
+  ];
+
   return (
     <Section className="bg-section-light py-24 border-t border-dashed border-border">
       <Container className="max-w-7xl px-6">
@@ -38,17 +41,17 @@ export function MoreCasesSection() {
             <div className="flex items-end justify-between">
               <div className="flex flex-col gap-2">
                 <span className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-                  Portfolio
+                  {t("eyebrow")}
                 </span>
                 <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-                  More Case Studies
+                  {t("title")}
                 </h2>
               </div>
               <Link
                 href="/case-studies"
                 className="hidden items-center gap-1.5 text-sm font-medium text-cabana-blue hover:underline md:flex"
               >
-                View all
+                {t("viewAll")}
                 <ArrowRight className="size-4" />
               </Link>
             </div>
@@ -63,7 +66,7 @@ export function MoreCasesSection() {
                 >
                   {/* Thumbnail */}
                   <div
-                    className={`h-44 w-full bg-gradient-to-br ${item.color} flex items-center justify-center`}
+                    className={`h-44 w-full bg-linear-to-br ${item.color} flex items-center justify-center`}
                   >
                     <div className="flex flex-col items-center gap-2 text-cabana-navy/30">
                       <div className="size-10 rounded-lg border border-cabana-navy/20 flex items-center justify-center">
@@ -83,7 +86,7 @@ export function MoreCasesSection() {
                       {item.title}
                     </h3>
                     <span className="inline-flex items-center gap-1 text-xs font-medium text-cabana-blue">
-                      Read case study
+                      {t("readCaseStudy")}
                       <ArrowRight className="size-3" />
                     </span>
                   </div>
@@ -96,7 +99,7 @@ export function MoreCasesSection() {
             href="/case-studies"
             className="flex items-center justify-center gap-1.5 text-sm font-medium text-cabana-blue hover:underline md:hidden"
           >
-            View all case studies
+            {t("viewAllCaseStudies")}
             <ArrowRight className="size-4" />
           </Link>
         </div>

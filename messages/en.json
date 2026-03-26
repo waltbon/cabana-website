@@ -32,7 +32,10 @@
     "contact": "Contact",
     "getStarted": "Get Started",
     "costaRica": "Costa Rica",
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Skip to main content",
+    "caseStudies": "Case of Study",
+    "caseStudiesOverview": "All cases",
+    "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
   "hero": {
     "tagline": "DATA ENGINEERING & AI IMPLEMENTATION",
@@ -560,6 +563,117 @@
     "back": "Back",
     "next": "Next",
     "previous": "Previous"
+  },
+  "ourClients": {
+    "eyebrow": "Our Clients",
+    "headline": "Trusted by leading companies",
+    "description": "We partner with organizations that are serious about their data"
+  },
+  "caseStudies": {
+    "hero": {
+      "tagline": "Portfolio",
+      "headline": "Real Work.",
+      "headlineHighlight": "Real Results.",
+      "description": "A look at the data challenges we've solved — and the measurable impact we've delivered for our clients."
+    },
+    "grid": {
+      "readCaseStudy": "Read case study",
+      "comingSoon": "Coming soon",
+      "cases": {
+        "personalytics": {
+          "title": "Crafting a One-of-a-Kind Media Planning Platform",
+          "description": "We designed the data architecture and reactive pipelines behind PersonalyticS — giving London Media a proprietary planning product powered by unified, real-time audience intelligence.",
+          "tag": "Reactive Data Analysis",
+          "stat1Label": "Data sources unified",
+          "stat2Label": "Manual work reduction"
+        }
+      }
+    },
+    "personalytics": {
+      "hero": {
+        "backLink": "All Case Studies",
+        "eyebrow": "Case Study",
+        "headline": "Crafting a One-of-a-Kind",
+        "headlineHighlight": "Media Planning Platform"
+      },
+      "clientOverview": {
+        "labelClient": "Client",
+        "labelProduct": "Product",
+        "labelIndustry": "Industry",
+        "labelService": "Service",
+        "labelYear": "Year",
+        "valueIndustry": "Media & Advertising",
+        "valueService": "Reactive Data Analysis",
+        "description1": "London Media is a full-service media agency specializing in data-driven campaign planning and audience targeting for brands across Latin America. With a growing client base and increasingly complex data requirements, they needed a unified platform that could centralize media performance data and power smarter planning decisions.",
+        "description2": "PersonalyticS is their proprietary media planning tool — built from the ground up alongside Cabana Data to transform raw audience and performance signals into actionable planning intelligence."
+      },
+      "challenge": {
+        "badge": "Reactive Data Analysis",
+        "title": "The Challenge",
+        "p1": "London Media was operating across multiple disconnected data sources — ad platforms, CRM tools, spreadsheet exports, and third-party audience providers. Campaign planners spent hours manually consolidating data before any meaningful analysis could begin.",
+        "p2": "The absence of a unified data layer made it impossible to build a reliable, real-time planning product. PersonalyticS needed a solid data foundation before a single feature could be shipped.",
+        "p3": "The team needed a partner who could design the data architecture from scratch, integrate heterogeneous sources, and deliver a reactive pipeline that could power a product used daily by media planners.",
+        "imagePlaceholder": "Image coming soon"
+      },
+      "approach": {
+        "eyebrow": "Strategy",
+        "title": "Our Approach",
+        "description": "Rather than patching over existing chaos, we built the data infrastructure PersonalyticS needed to be a world-class product.",
+        "imagePlaceholder": "Image coming soon",
+        "step1Title": "Data Strategy & Auditing",
+        "step1Description": "We mapped every data source London Media relied on — ad platforms, audience providers, CRM exports — and defined a consolidation strategy that eliminated silos without disrupting existing workflows.",
+        "step2Title": "Defining Data Architecture",
+        "step2Description": "We designed a cloud-native data pipeline on Google BigQuery, ingesting real-time and batch data from 8+ sources into a unified semantic layer that PersonalyticS could query reliably.",
+        "step3Title": "Decision Design & Outcomes",
+        "step3Description": "With clean, structured data in place, we modeled the audience and performance entities that drive planning intelligence — giving media planners the signals they need, when they need them."
+      },
+      "results": {
+        "eyebrow": "Outcomes",
+        "title": "Results That Moved the Needle",
+        "stat1Label": "The Goal",
+        "stat1Value": "1 Platform",
+        "stat1Description": "Unify 8+ fragmented data sources into a single, queryable layer powering all of PersonalyticS's planning features.",
+        "stat2Label": "The Numbers",
+        "stat2Value": "24×",
+        "stat2Description": "Reduction in time spent manually consolidating data — from days to hours, freeing planners to focus on strategy.",
+        "stat3Label": "The Achievement",
+        "stat3Value": "Real-Time",
+        "stat3Description": "Audience and performance signals now flow reactively into PersonalyticS, enabling live campaign adjustments without engineering bottlenecks."
+      },
+      "impact": {
+        "eyebrow": "Impact",
+        "title": "World-changer",
+        "titleHighlight": "Industry Impact",
+        "description": "Beyond the technical delivery, this engagement redefined how London Media operates — and opened a new product category in the media planning space.",
+        "impact1": "PersonalyticS launched as a fully functional product, with a data layer capable of scaling to thousands of campaigns.",
+        "impact2": "Media planners reduced manual data work by 95%, shifting from spreadsheet consolidation to real-time platform interaction.",
+        "impact3": "London Media gained a proprietary competitive advantage — a planning product no competitor offers in their market.",
+        "impact4": "The pipeline architecture now supports multi-client deployments, turning a single project into a scalable product line.",
+        "impact5": "Data governance and lineage were established from day one, setting the foundation for future AI and ML capabilities."
+      },
+      "takeaway": {
+        "eyebrow": "Reflection",
+        "title": "Key Takeaway",
+        "p1": "PersonalyticS didn't just need a dashboard — it needed a data product mindset applied end-to-end. By treating the data layer as a first-class product component, London Media was able to ship faster, scale smarter, and compete on a fundamentally different level.",
+        "p2": "The lesson is universal: before you can build intelligent products, you need intelligent data infrastructure. That's what Cabana Data delivers.",
+        "highlight1": "A product is only as good as its data foundation.",
+        "highlight2": "Reactive pipelines turn static reports into living intelligence.",
+        "highlight3": "Data architecture is a product decision, not a backend detail."
+      },
+      "moreCases": {
+        "eyebrow": "Portfolio",
+        "title": "More Case Studies",
+        "viewAll": "View all",
+        "viewAllCaseStudies": "View all case studies",
+        "readCaseStudy": "Read case study",
+        "case1Tag": "Data Engineering",
+        "case1Title": "Building a Real-Time Supply Chain Intelligence System",
+        "case2Tag": "Data Strategy",
+        "case2Title": "Transforming Academic Performance Reporting with Unified Data",
+        "case3Tag": "AI Readiness",
+        "case3Title": "Laying the Data Foundation for AI-Powered Retail Operations"
+      }
+    }
   },
   "languageSwitcher": {
     "english": "English",

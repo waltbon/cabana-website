@@ -1,18 +1,21 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { CheckCircle2 } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
-const impacts = [
-  "PersonalyticS launched as a fully functional product, with a data layer capable of scaling to thousands of campaigns.",
-  "Media planners reduced manual data work by 95%, shifting from spreadsheet consolidation to real-time platform interaction.",
-  "London Media gained a proprietary competitive advantage — a planning product no competitor offers in their market.",
-  "The pipeline architecture now supports multi-client deployments, turning a single project into a scalable product line.",
-  "Data governance and lineage were established from day one, setting the foundation for future AI and ML capabilities.",
-];
-
 export function ImpactSection() {
+  const t = useTranslations("caseStudies.personalytics.impact");
+
+  const impacts = [
+    t("impact1"),
+    t("impact2"),
+    t("impact3"),
+    t("impact4"),
+    t("impact5"),
+  ];
+
   return (
     <Section className="bg-white py-24">
       <Container className="max-w-7xl px-6">
@@ -21,16 +24,14 @@ export function ImpactSection() {
           <FadeIn>
             <div className="flex flex-col gap-4">
               <span className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-                Impact
+                {t("eyebrow")}
               </span>
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-                World-changer{" "}
-                <span className="text-gradient-cabana">Industry Impact</span>
+                {t("title")}{" "}
+                <span className="text-gradient-cabana">{t("titleHighlight")}</span>
               </h2>
               <p className="text-base leading-relaxed text-muted-foreground">
-                Beyond the technical delivery, this engagement redefined how London
-                Media operates — and opened a new product category in the media
-                planning space.
+                {t("description")}
               </p>
             </div>
           </FadeIn>

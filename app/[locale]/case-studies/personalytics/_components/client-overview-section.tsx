@@ -1,18 +1,21 @@
 "use client";
 
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Section, Container } from "@/components/craft";
 import { FadeIn } from "@/components/animations";
 
-const details = [
-  { label: "Client", value: "London Media" },
-  { label: "Product", value: "PersonalyticS" },
-  { label: "Industry", value: "Media & Advertising" },
-  { label: "Service", value: "Reactive Data Analysis" },
-  { label: "Year", value: "2024" },
-];
-
 export function ClientOverviewSection() {
+  const t = useTranslations("caseStudies.personalytics.clientOverview");
+
+  const details = [
+    { label: t("labelClient"), value: "London Media" },
+    { label: t("labelProduct"), value: "PersonalyticS" },
+    { label: t("labelIndustry"), value: t("valueIndustry") },
+    { label: t("labelService"), value: t("valueService") },
+    { label: t("labelYear"), value: "2024" },
+  ];
+
   return (
     <Section className="bg-white py-24 border-b border-border">
       <Container className="max-w-7xl px-6">
@@ -24,17 +27,10 @@ export function ClientOverviewSection() {
                 London Media
               </h2>
               <p className="text-base leading-relaxed text-muted-foreground">
-                London Media is a full-service media agency specializing in
-                data-driven campaign planning and audience targeting for brands
-                across Latin America. With a growing client base and increasingly
-                complex data requirements, they needed a unified platform that could
-                centralize media performance data and power smarter planning
-                decisions.
+                {t("description1")}
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
-                PersonalyticS is their proprietary media planning tool — built from
-                the ground up alongside Cabana Data to transform raw audience and
-                performance signals into actionable planning intelligence.
+                {t("description2")}
               </p>
             </div>
           </FadeIn>

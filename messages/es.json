@@ -32,7 +32,10 @@
     "contact": "Contacto",
     "getStarted": "Comenzar",
     "costaRica": "Costa Rica",
-    "skipToContent": "Ir al contenido principal"
+    "skipToContent": "Ir al contenido principal",
+    "caseStudies": "Casos de Estudio",
+    "caseStudiesOverview": "Todos los casos",
+    "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
   "hero": {
     "tagline": "INGENIERÍA DE DATOS E IMPLEMENTACIÓN DE IA",
@@ -560,6 +563,117 @@
     "back": "Atrás",
     "next": "Siguiente",
     "previous": "Anterior"
+  },
+  "ourClients": {
+    "eyebrow": "Partners",
+    "headline": "La confianza de nuestros clientes",
+    "description": "Trabajamos con organizaciones que se toman en serio sus datos"
+  },
+  "caseStudies": {
+    "hero": {
+      "tagline": "Portafolio",
+      "headline": "Trabajo Real.",
+      "headlineHighlight": "Resultados Reales.",
+      "description": "Un vistazo a los desafíos de datos que hemos resuelto — y el impacto medible que hemos generado para nuestros clientes."
+    },
+    "grid": {
+      "readCaseStudy": "Leer caso de estudio",
+      "comingSoon": "Próximamente",
+      "cases": {
+        "personalytics": {
+          "title": "Creando una Plataforma de Planificación de Medios Única en su Tipo",
+          "description": "Diseñamos la arquitectura de datos y los pipelines reactivos detrás de Personalytics — dándole a London Media un producto de planificación propietario impulsado por inteligencia de audiencia unificada y en tiempo real.",
+          "tag": "Análisis de Datos Reactivo",
+          "stat1Label": "Fuentes de datos unificadas",
+          "stat2Label": "Reducción de trabajo manual"
+        }
+      }
+    },
+    "personalytics": {
+      "hero": {
+        "backLink": "Todos los Casos de Estudio",
+        "eyebrow": "Caso de Estudio",
+        "headline": "Creando una",
+        "headlineHighlight": "Plataforma de Planificación de Medios Única en su Tipo"
+      },
+      "clientOverview": {
+        "labelClient": "Cliente",
+        "labelProduct": "Producto",
+        "labelIndustry": "Industria",
+        "labelService": "Servicio",
+        "labelYear": "Año",
+        "valueIndustry": "Medios y Publicidad",
+        "valueService": "Análisis de Datos Reactivo",
+        "description1": "London Media es una agencia de medios de servicio completo especializada en planificación de campañas basada en datos y segmentación de audiencias para marcas en toda Latinoamérica. Con una base de clientes en crecimiento y requisitos de datos cada vez más complejos, necesitaban una plataforma unificada que centralizara los datos de rendimiento de medios y potenciara decisiones de planificación más inteligentes.",
+        "description2": "Personalytics es su herramienta de planificación de medios propietaria — construida desde cero junto a Cabana Data para transformar señales de audiencia y rendimiento en bruto en inteligencia de planificación accionable."
+      },
+      "challenge": {
+        "badge": "Análisis de Datos Reactivo",
+        "title": "El Desafío",
+        "p1": "London Media operaba con múltiples fuentes de datos desconectadas — plataformas de anuncios, herramientas CRM, exportaciones de hojas de cálculo y proveedores externos de audiencias. Los planificadores de campañas pasaban horas consolidando datos manualmente antes de que pudiera comenzar cualquier análisis significativo.",
+        "p2": "La ausencia de una capa de datos unificada hacía imposible construir un producto de planificación confiable y en tiempo real. Personalytics necesitaba una base de datos sólida antes de que se pudiera lanzar una sola funcionalidad.",
+        "p3": "El equipo necesitaba un socio que pudiera diseñar la arquitectura de datos desde cero, integrar fuentes heterogéneas y entregar un pipeline reactivo capaz de impulsar un producto utilizado diariamente por los planificadores de medios.",
+        "imagePlaceholder": "Imagen próximamente"
+      },
+      "approach": {
+        "eyebrow": "Estrategia",
+        "title": "Nuestro Enfoque",
+        "description": "En lugar de parchar el caos existente, construimos la infraestructura de datos que Personalytics necesitaba para ser un producto de clase mundial.",
+        "imagePlaceholder": "Imagen próximamente",
+        "step1Title": "Estrategia y Auditoría de Datos",
+        "step1Description": "Mapeamos cada fuente de datos en la que dependía London Media — plataformas de anuncios, proveedores de audiencias, exportaciones de CRM — y definimos una estrategia de consolidación que eliminó los silos sin interrumpir los flujos de trabajo existentes.",
+        "step2Title": "Definición de Arquitectura de Datos",
+        "step2Description": "Diseñamos un pipeline de datos nativo en la nube sobre Google BigQuery, ingiriendo datos en tiempo real y por lotes desde más de 8 fuentes en una capa semántica unificada que Personalytics podía consultar de forma confiable.",
+        "step3Title": "Diseño de Decisiones y Resultados",
+        "step3Description": "Con datos limpios y estructurados en su lugar, modelamos las entidades de audiencia y rendimiento que impulsan la inteligencia de planificación — dando a los planificadores de medios las señales que necesitan, cuando las necesitan."
+      },
+      "results": {
+        "eyebrow": "Resultados",
+        "title": "Resultados que Marcaron la Diferencia",
+        "stat1Label": "El Objetivo",
+        "stat1Value": "1 Plataforma",
+        "stat1Description": "Unificar más de 8 fuentes de datos fragmentadas en una capa única y consultable que impulsa todas las funciones de planificación de Personalytics.",
+        "stat2Label": "Los Números",
+        "stat2Value": "24×",
+        "stat2Description": "Reducción en el tiempo dedicado a consolidar datos manualmente — de días a horas, liberando a los planificadores para enfocarse en la estrategia.",
+        "stat3Label": "El Logro",
+        "stat3Value": "Tiempo Real",
+        "stat3Description": "Las señales de audiencia y rendimiento ahora fluyen reactivamente hacia Personalytics, permitiendo ajustes de campaña en vivo sin cuellos de botella de ingeniería."
+      },
+      "impact": {
+        "eyebrow": "Impacto",
+        "title": "Transformador",
+        "titleHighlight": "Impacto en la Industria",
+        "description": "Más allá de la entrega técnica, este proyecto redefinió cómo opera London Media — y abrió una nueva categoría de producto en el espacio de planificación de medios.",
+        "impact1": "Personalytics se lanzó como un producto completamente funcional, con una capa de datos capaz de escalar a miles de campañas.",
+        "impact2": "Los planificadores de medios redujeron el trabajo manual de datos en un 95%, pasando de la consolidación en hojas de cálculo a la interacción en tiempo real con la plataforma.",
+        "impact3": "London Media obtuvo una ventaja competitiva propietaria — un producto de planificación que ningún competidor ofrece en su mercado.",
+        "impact4": "La arquitectura del pipeline ahora soporta implementaciones multi-cliente, convirtiendo un proyecto único en una línea de productos escalable.",
+        "impact5": "La gobernanza de datos y el linaje se establecieron desde el primer día, sentando las bases para futuras capacidades de IA y ML."
+      },
+      "takeaway": {
+        "eyebrow": "Reflexión",
+        "title": "Lección Clave",
+        "p1": "Personalytics no solo necesitaba un dashboard — necesitaba una mentalidad de producto de datos aplicada de principio a fin. Al tratar la capa de datos como un componente de producto de primera clase, London Media pudo lanzar más rápido, escalar de manera más inteligente y competir en un nivel fundamentalmente diferente.",
+        "p2": "La lección es universal: antes de poder construir productos inteligentes, necesitas una infraestructura de datos inteligente. Eso es lo que entrega Cabana Data.",
+        "highlight1": "Un producto es tan bueno como su base de datos.",
+        "highlight2": "Los pipelines reactivos convierten informes estáticos en inteligencia viva.",
+        "highlight3": "La arquitectura de datos es una decisión de producto, no un detalle de backend."
+      },
+      "moreCases": {
+        "eyebrow": "Portafolio",
+        "title": "Más Casos de Estudio",
+        "viewAll": "Ver todos",
+        "viewAllCaseStudies": "Ver todos los casos de estudio",
+        "readCaseStudy": "Leer caso de estudio",
+        "case1Tag": "Ingeniería de Datos",
+        "case1Title": "Construyendo un Sistema de Inteligencia de Cadena de Suministro en Tiempo Real",
+        "case2Tag": "Estrategia de Datos",
+        "case2Title": "Transformando el Reporte de Desempeño Académico con Datos Unificados",
+        "case3Tag": "Preparación para IA",
+        "case3Title": "Estableciendo la Base de Datos para Operaciones de Retail Impulsadas por IA"
+      }
+    }
   },
   "languageSwitcher": {
     "english": "English",

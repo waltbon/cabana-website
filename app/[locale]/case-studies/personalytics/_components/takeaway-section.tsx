@@ -1,15 +1,18 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { Section, Container } from "@/components/craft";
 import { FadeIn } from "@/components/animations";
 
-const highlights = [
-  "A product is only as good as its data foundation.",
-  "Reactive pipelines turn static reports into living intelligence.",
-  "Data architecture is a product decision, not a backend detail.",
-];
-
 export function TakeawaySection() {
+  const t = useTranslations("caseStudies.personalytics.takeaway");
+
+  const highlights = [
+    t("highlight1"),
+    t("highlight2"),
+    t("highlight3"),
+  ];
+
   return (
     <Section className="bg-section-slate py-24">
       <Container className="max-w-7xl px-6">
@@ -18,21 +21,16 @@ export function TakeawaySection() {
           <FadeIn>
             <div className="flex flex-col gap-6">
               <span className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-                Reflection
+                {t("eyebrow")}
               </span>
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-                Key Takeaway
+                {t("title")}
               </h2>
               <p className="text-base leading-relaxed text-muted-foreground">
-                PersonalyticS didn&apos;t just need a dashboard — it needed a data
-                product mindset applied end-to-end. By treating the data layer as a
-                first-class product component, London Media was able to ship faster,
-                scale smarter, and compete on a fundamentally different level.
+                {t("p1")}
               </p>
               <p className="text-base leading-relaxed text-muted-foreground">
-                The lesson is universal: before you can build intelligent products,
-                you need intelligent data infrastructure. That&apos;s what Cabana Data
-                delivers.
+                {t("p2")}
               </p>
             </div>
           </FadeIn>
