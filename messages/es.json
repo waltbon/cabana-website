@@ -38,17 +38,17 @@
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
   "hero": {
-    "tagline": "INGENIERÍA DE DATOS E IMPLEMENTACIÓN DE IA",
-    "headline": "IA que Funciona Comienza",
-    "headlineHighlight": "con Datos Preparados",
-    "description": "Construimos la infraestructura, pipelines y arquitectura que convierten datos dispersos en una base confiable—para que tus inversiones en IA realmente entreguen resultados",
-    "cta": "¡Explora nuestro enfoque!"
+    "tagline": "CONSULTORÍA ESPECIALIZADA EN DATOS",
+    "headline": "Tus Datos, tu Mayor",
+    "headlineHighlight": "Ventaja Competitiva",
+    "description": "Diseñamos la estrategia, la arquitectura y los procesos que convierten datos dispersos en decisiones claras, operaciones eficientes y crecimiento sostenible",
+    "cta": "Conoce nuestro enfoque"
   },
   "problem": {
     "tagline": "El problema",
-    "headline": "Por qué la Mayoría de los",
-    "headlineHighlight": "Proyectos de IA se Detienen",
-    "description": "No es la tecnología. Es lo que hay debajo",
+    "headline": "Por qué los Datos de tu Empresa",
+    "headlineHighlight": "No Están Trabajando para Ti",
+    "description": "El problema no es la falta de datos. Es que no se pueden usar",
     "items": {
       "dataChaos": {
         "title": "Sistemas Desconectados",
@@ -59,21 +59,21 @@
         "description": "Diferentes equipos usan diferentes definiciones. Ventas dice una cosa, finanzas dice otra. Las decisiones se retrasan mientras todos debaten cuál hoja de cálculo tiene razón"
       },
       "uncertainFuture": {
-        "title": "IA Sin Base",
-        "description": "Has invertido en herramientas de IA—o planeas hacerlo—pero sin datos limpios, estructurados y accesibles, no tienen nada sólido sobre qué trabajar"
+        "title": "Datos que No Trabajan para Ti",
+        "description": "Tienes datos en múltiples sistemas, pero no puedes convertirlos en reportes confiables, decisiones rápidas ni procesos automatizados. Los datos existen, pero no generan valor"
       }
     }
   },
   "solution": {
     "tagline": "NUESTRO ENFOQUE",
-    "headline": "Del caos de datos a",
-    "headlineHighlight": "sistemas inteligentes",
-    "description": "Cada capa se construye sobre la anterior. Sin atajos, sin hype—solo el trabajo que hace que la IA realmente entregue resultados.",
+    "headline": "Del caos de datos a una organización que",
+    "headlineHighlight": "decide con claridad",
+    "description": "Cada capa se construye sobre la anterior. Sin atajos, sin hype—solo el trabajo que convierte tus datos en una ventaja real para el negocio.",
     "whatYouGet": "Qué obtienes:",
     "outcome": "Resultado",
     "services": {
       "dataStrategy": {
-        "title": "Estrategia y Consultoría de Datos",
+        "title": "Data Consulting",
         "description": "Antes de construir cualquier cosa, nos aseguramos de que estés resolviendo el problema correcto. A través de talleres de descubrimiento y análisis técnico, mapeamos tu realidad actual, identificamos brechas y creamos una hoja de ruta accionable.",
         "whatYouGetList": {
           "wyg1": "Evaluación de Preparación para IA",
@@ -406,23 +406,43 @@
       },
       "dimensions": {
         "tagline": "Qué evaluamos",
-        "headline": "4 dimensiones de madurez para IA",
+        "headline": "6 dimensiones de madurez para IA",
         "items": {
           "quality": {
+            "num": "01",
             "title": "Calidad e integridad de datos",
-            "description": "¿Tus datos son confiables, completos y consistentes?"
+            "question": "¿Tus datos son confiables, completos y consistentes?",
+            "description": "Evaluamos la cobertura, completitud y consistencia de tus fuentes de datos. Identificamos problemas de duplicación, valores nulos y discrepancias entre sistemas que afectan la calidad de cualquier modelo de IA."
           },
           "infrastructure": {
+            "num": "02",
             "title": "Infraestructura y pipelines",
-            "description": "¿Tu arquitectura soporta cargas de IA en producción?"
+            "question": "¿Tu arquitectura soporta cargas de IA en producción?",
+            "description": "Revisamos tu stack de datos: almacenamiento, orquestación, latencia y escalabilidad. Un modelo de IA en producción requiere pipelines confiables y una infraestructura que soporte demanda variable."
           },
           "governance": {
+            "num": "03",
             "title": "Gobernanza y privacidad",
-            "description": "¿Tienes control sobre quién accede y cómo se usan tus datos?"
+            "question": "¿Tienes control sobre quién accede y cómo se usan tus datos?",
+            "description": "Auditamos controles de acceso, políticas de retención, cumplimiento regulatorio (GDPR, CCPA, leyes locales) y los mecanismos de trazabilidad que respaldan el uso ético y seguro de los datos."
           },
           "maturity": {
+            "num": "04",
             "title": "Madurez de procesos",
-            "description": "¿Tus procesos están documentados y son reproducibles?"
+            "question": "¿Tus procesos están documentados y son reproducibles?",
+            "description": "Analizamos el nivel de documentación, automatización y reproducibilidad de tus flujos de trabajo. Los procesos manuales y no documentados son uno de los mayores obstáculos para escalar IA."
+          },
+          "strategy": {
+            "num": "05",
+            "title": "Estrategia y casos de uso de IA",
+            "question": "¿Saben para qué quieren IA — y tienen presupuesto para ejecutarlo?",
+            "description": "Evaluamos si existe una visión clara de los casos de uso prioritarios, criterios de éxito definidos, y alineación entre el área técnica y el negocio para priorizar y financiar iniciativas de IA."
+          },
+          "talent": {
+            "num": "06",
+            "title": "Talento y capacidad organizacional",
+            "question": "¿Quién va a operar, mantener y evolucionar esto?",
+            "description": "Mapeamos las capacidades del equipo actual, los gaps de conocimiento y la estructura organizacional necesaria para sostener operaciones de IA en producción a largo plazo."
           }
         }
       },

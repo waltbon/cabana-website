@@ -38,17 +38,17 @@
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
   "hero": {
-    "tagline": "DATA ENGINEERING & AI IMPLEMENTATION",
-    "headline": "AI that Works Starts",
-    "headlineHighlight": "with Data that's Ready",
-    "description": "We build the infrastructure, pipelines, and architecture that turn scattered data into a reliable foundation—so your AI investments actually deliver",
-    "cta": "Explore our approach!"
+    "tagline": "SPECIALIZED DATA CONSULTING",
+    "headline": "Your Data, Your Greatest",
+    "headlineHighlight": "Competitive Advantage",
+    "description": "We design the strategy, architecture, and processes that turn scattered data into clear decisions, efficient operations, and sustainable growth",
+    "cta": "Discover our approach"
   },
   "problem": {
     "tagline": "The problem",
-    "headline": "Why most AI",
-    "headlineHighlight": "Projects stall",
-    "description": "It's not the technology. It's what's underneath",
+    "headline": "Why Your Company's Data Is",
+    "headlineHighlight": "Not Working for You",
+    "description": "The problem isn't a lack of data. It's that you can't use it",
     "items": {
       "dataChaos": {
         "title": "Disconnected Systems",
@@ -59,21 +59,21 @@
         "description": "Different teams use different definitions. Sales says one thing, finance says another. Decisions get delayed while people argue over whose spreadsheet is right"
       },
       "uncertainFuture": {
-        "title": "AI Without a Foundation",
-        "description": "You've invested in AI tools—or you're planning to—but without clean, structured, accessible data, they have nothing solid to work with"
+        "title": "Data That Doesn't Work for You",
+        "description": "You have data across multiple systems, but you can't turn it into reliable reports, fast decisions, or automated processes. The data exists—it just isn't generating value"
       }
     }
   },
   "solution": {
     "tagline": "OUR APPROACH",
-    "headline": "From data chaos to",
-    "headlineHighlight": "intelligent systems",
-    "description": "Each layer builds on the last. No shortcuts, no hype—just the work that makes AI actually deliver.",
+    "headline": "From data chaos to an organization that",
+    "headlineHighlight": "decides with clarity",
+    "description": "Each layer builds on the last. No shortcuts, no hype—just the work that turns your data into a real business advantage.",
     "whatYouGet": "What you get:",
     "outcome": "Outcome",
     "services": {
       "dataStrategy": {
-        "title": "Data Strategy & Consulting",
+        "title": "Data Consulting",
         "description": "Before building anything, we make sure you're solving the right problem. Through discovery workshops and technical analysis, we map your current reality, identify gaps, and create an actionable roadmap.",
         "whatYouGetList": {
           "wyg1": "AI Readiness Assessment",

@@ -28,7 +28,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
     >
       <div
         id="nav-container"
-        className="max-w-5xl mx-auto py-4 px-6 sm:px-8 flex justify-between items-center"
+        className="max-w-5xl mx-auto py-3 px-6 sm:px-8 flex justify-between items-center"
       >
         <Link
           className="hover:opacity-75 transition-all flex gap-4 items-center"
@@ -38,8 +38,8 @@ export const Nav = ({ className, children, id }: NavProps) => {
             lightSrc="/logo-horizontal-light.svg"
             darkSrc="/logo-horizontal-dark.svg"
             alt="Cabana Data"
-            width={182}
-            height={50}
+            width={162}
+            height={40}
           />
           <span className="text-xs -mb-3 -ml-3">🇨🇷</span>
         </Link>

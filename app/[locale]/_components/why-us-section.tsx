@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
-const dimensionKeys = ["quality", "infrastructure", "governance", "maturity"] as const;
+const dimensionKeys = ["quality", "infrastructure", "governance", "maturity", "strategy", "talent"] as const;
 
 export function WhyUsSection() {
   const t = useTranslations("services.rutaIA");
@@ -33,14 +33,20 @@ export function WhyUsSection() {
           </FadeIn>
 
           {/* Dimensions */}
-          <StaggerChildren className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <StaggerChildren className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {dimensionKeys.map((key) => (
               <StaggerItem key={key}>
-                <div className="flex flex-col gap-2 rounded-xl border border-border bg-secondary p-5">
-                  <p className="text-sm font-bold text-foreground">
+                <div className="flex flex-col gap-3 rounded-xl border border-border bg-secondary p-6 h-96">
+                  <span className="font-mono font-semibold text-cabana-blue text-3xl">
+                    {t(`dimensions.items.${key}.num`)}
+                  </span>
+                  <p className="font-bold text-foreground text-2xl">
                     {t(`dimensions.items.${key}.title`)}
                   </p>
-                  <p className="text-xs leading-relaxed text-muted-foreground">
+                  <p className="font-medium text-foreground/70 italic">
+                    {t(`dimensions.items.${key}.question`)}
+                  </p>
+                  <p className="text-sm leading-relaxed text-muted-foreground">
                     {t(`dimensions.items.${key}.description`)}
                   </p>
                 </div>
@@ -63,7 +69,7 @@ export function WhyUsSection() {
                 asChild
                 className="w-fit gap-2 rounded-lg bg-cabana-blue hover:bg-cabana-blue/90"
               >
-                <Link href="/services/ai-readiness-assessment">
+                <Link href="https://ruta-ai.cabanadata.com">
                   {t("cta.button")}
                   <ArrowRight className="size-4" />
                 </Link>
