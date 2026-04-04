@@ -1,4 +1,4 @@
-# Next WP
+# Next WP v1
 
 A modern headless WordPress starter built with Next.js 16, React 19, and TypeScript.
 
