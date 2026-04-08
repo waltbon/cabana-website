@@ -122,6 +122,14 @@ export const Footer = () => {
             {siteConfig.site_domain.replace("https://", "")} <br />
             <span className="text-xs text-center">{t("location")} 🇨🇷</span>
           </p>
+          <p className="mt-2 text-center">
+            <Link
+              href="/privacidad"
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Política de Privacidad
+            </Link>
+          </p>
         </Container>
       </Section>
     </footer>
