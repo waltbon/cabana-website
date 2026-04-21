@@ -3,7 +3,8 @@ import { z } from "zod";
 // ClickUp API configuration
 const CLICKUP_API_BASE = "https://api.clickup.com/api/v2";
 
-// Contact form schema (matches the form in contact-form-section.tsx)
+// ─── Contact form schema ───────────────────────────────────────────────────────
+
 export const contactFormSchema = z.object({
   firstName: z.string().min(1, "First name is required"),
   lastName: z.string().min(1, "Last name is required"),
@@ -18,11 +19,13 @@ export const contactFormSchema = z.object({
   privacy: z.boolean().refine((val) => val === true, {
     message: "You must accept the privacy policy",
   }),
+  industry: z.string().default("Otros"),
 });
 
 export type ContactFormData = z.infer<typeof contactFormSchema>;
 
-// ClickUp task creation schema
+// ─── ClickUp task schema ───────────────────────────────────────────────────────
+
 const clickUpTaskSchema = z.object({
   name: z.string(),
   description: z.string().optional(),
@@ -42,7 +45,8 @@ const clickUpTaskSchema = z.object({
 
 export type ClickUpTask = z.infer<typeof clickUpTaskSchema>;
 
-// ClickUp API response types
+// ─── ClickUp API response types ───────────────────────────────────────────────
+
 export interface ClickUpTaskResponse {
   id: string;
   name: string;
@@ -58,7 +62,8 @@ export interface ClickUpError {
   ECODE: string;
 }
 
-// Job position labels for task description
+// ─── Label maps ───────────────────────────────────────────────────────────────
+
 const jobPositionLabels: Record<string, string> = {
   ceo: "CEO / Founder",
   cto: "CTO / Technical Lead",
@@ -69,7 +74,6 @@ const jobPositionLabels: Record<string, string> = {
   other: "Other",
 };
 
-// Referral source labels for task description
 const referralSourceLabels: Record<string, string> = {
   linkedin: "LinkedIn",
   google: "Google Search",
@@ -77,6 +81,8 @@ const referralSourceLabels: Record<string, string> = {
   event: "Event / Conference",
   other: "Other",
 };
+
+// ─── Task creation ────────────────────────────────────────────────────────────
 
 /**
  * Create a ClickUp task from contact form data
@@ -87,55 +93,37 @@ export async function createClickUpTask(
   const apiKey = process.env.CLICKUP_API_KEY;
   const listId = process.env.CLICKUP_LIST_ID;
 
-  if (!apiKey) {
-    throw new Error("CLICKUP_API_KEY environment variable is not set");
-  }
-
-  if (!listId) {
-    throw new Error("CLICKUP_LIST_ID environment variable is not set");
-  }
+  if (!apiKey) throw new Error("CLICKUP_API_KEY environment variable is not set");
+  if (!listId) throw new Error("CLICKUP_LIST_ID environment variable is not set");
 
   const fullName = `${formData.firstName} ${formData.lastName}`;
-  const positionLabel = jobPositionLabels[formData.position] || formData.position;
-  const referralLabel = referralSourceLabels[formData.referral] || formData.referral;
+  const positionLabel = jobPositionLabels[formData.position] ?? formData.position;
+  const referralLabel = referralSourceLabels[formData.referral] ?? formData.referral;
+  const industryLabel = formData.industry ?? "Not provided";
 
-  // Build markdown description with contact details
   const markdownDescription = `
-## Contact Information
+## Website — Lead Information
 
 | Field | Value |
 |-------|-------|
-| **Name** | ${fullName} |
+| **Full Name** | ${fullName} |
 | **Email** | ${formData.email} |
-| **Phone** | ${formData.phone || "Not provided"} |
-| **Position** | ${positionLabel} |
+| **Phone** | ${formData.phone ?? "Not provided"} |
+| **Role** | ${positionLabel} |
+| **Industry** | ${industryLabel} |
 | **Referral Source** | ${referralLabel} |
-
-## Additional Comments
-
-${formData.comments || "No additional comments provided."}
+${formData.comments ?? "No additional comments provided."}
 
 ---
-*Submitted via Cabana Data Website Contact Form*
+*Submitted via Ruta IA — AI Readiness Assessment*
+*Source: ${referralLabel} | Submitted: ${new Date().toISOString()}*
 `.trim();
 
-  // Build the task payload
   const taskPayload: ClickUpTask = {
     name: `Lead: ${fullName} - ${formData.email}`,
     markdown_description: markdownDescription,
     tags: ["website-lead", formData.referral],
   };
-
-  // Add custom fields if configured
-  // You can add custom field IDs here to map form fields to ClickUp custom fields
-  // Example:
-  // const customFields = [];
-  // if (process.env.CLICKUP_EMAIL_FIELD_ID) {
-  //   customFields.push({ id: process.env.CLICKUP_EMAIL_FIELD_ID, value: formData.email });
-  // }
-  // if (customFields.length > 0) {
-  //   taskPayload.custom_fields = customFields;
-  // }
 
   const response = await fetch(`${CLICKUP_API_BASE}/list/${listId}/task`, {
     method: "POST",
@@ -148,9 +136,7 @@ ${formData.comments || "No additional comments provided."}
 
   if (!response.ok) {
     const errorData = (await response.json()) as ClickUpError;
-    throw new Error(
-      `ClickUp API error: ${errorData.err || response.statusText}`
-    );
+    throw new Error(`ClickUp API error: ${errorData.err || response.statusText}`);
   }
 
   return response.json() as Promise<ClickUpTaskResponse>;

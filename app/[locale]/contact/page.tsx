@@ -1,7 +1,7 @@
 import { Metadata } from "next";
-import { PipedriveContactForm } from "./_components/pipedrive-contact-form";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { Section } from "@/components/craft";
+import { ContactFormSection } from "./_components";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -19,14 +19,7 @@ export default function ContactPage() {
         items={[{ name: "Contact Us", href: "/contact" }]}
         className="sr-only"
       />
-      <div className="relative container">
-
-        <Section className="bg-white py-0">
-          <div className="flex min-h-screen flex-col lg:flex-row">
-            <PipedriveContactForm />
-          </div>
-        </Section>
-      </div>
+      <ContactFormSection />
     </>
   );
 }

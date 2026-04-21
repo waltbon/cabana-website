@@ -34,6 +34,7 @@
     "costaRica": "Costa Rica",
     "skipToContent": "Skip to main content",
     "caseStudies": "Case of Study",
+    "careers": "Careers",
     "caseStudiesOverview": "All cases",
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
@@ -406,23 +407,43 @@
       },
       "dimensions": {
         "tagline": "What we evaluate",
-        "headline": "4 AI maturity dimensions",
+        "headline": "6 dimensions of AI maturity",
         "items": {
           "quality": {
-            "title": "Data quality & integrity",
-            "description": "Is your data reliable, complete, and consistent?"
+            "num": "01",
+            "title": "Data quality and integrity",
+            "question": "Is your data reliable, complete, and consistent?",
+            "description": "We evaluate the coverage, completeness, and consistency of your data sources. We identify duplication issues, null values, and discrepancies between systems that affect the quality of any AI model."
           },
           "infrastructure": {
-            "title": "Infrastructure & pipelines",
-            "description": "Can your architecture support AI workloads in production?"
+            "num": "02",
+            "title": "Infrastructure and pipelines",
+            "question": "Does your architecture support AI workloads in production?",
+            "description": "We review your data stack: storage, orchestration, latency, and scalability. An AI model in production requires reliable pipelines and an infrastructure that supports variable demand."
           },
           "governance": {
-            "title": "Governance & privacy",
-            "description": "Do you have control over who accesses your data and how it's used?"
+            "num": "03",
+            "title": "Governance and privacy",
+            "question": "Do you have control over who accesses and how your data is used?",
+            "description": "We audit access controls, retention policies, regulatory compliance (GDPR, CCPA, local laws), and the traceability mechanisms that support the ethical and secure use of data."
           },
           "maturity": {
+            "num": "04",
             "title": "Process maturity",
-            "description": "Are your processes documented and reproducible?"
+            "question": "Are your processes documented and reproducible?",
+            "description": "We analyze the level of documentation, automation, and reproducibility of your workflows. Manual and undocumented processes are one of the biggest obstacles to scaling AI."
+          },
+          "strategy": {
+            "num": "05",
+            "title": "Strategy and AI use cases",
+            "question": "Do you know what you want AI for — and do you have the budget to execute it?",
+            "description": "We evaluate whether there is a clear vision of priority use cases, defined success criteria, and alignment between the technical area and the business to prioritize and finance AI initiatives."
+          },
+          "talent": {
+            "num": "06",
+            "title": "Talent and organizational capacity",
+            "question": "Who is going to operate, maintain, and evolve this?",
+            "description": "We map the current team's capabilities, knowledge gaps, and the organizational structure necessary to sustain AI operations in production over the long term."
           }
         }
       },
