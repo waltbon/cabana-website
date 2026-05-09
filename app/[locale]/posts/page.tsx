@@ -1,12 +1,12 @@
-import {
-  getPostsPaginated,
-  getAllAuthors,
-  getAllTags,
-  getAllCategories,
-  searchAuthors,
-  searchTags,
-  searchCategories,
-} from "@/lib/wordpress";
+// import {
+//   getPostsPaginated,
+//   getAllAuthors,
+//   getAllTags,
+//   getAllCategories,
+//   searchAuthors,
+//   searchTags,
+//   searchCategories,
+// } from "@/lib/wordpress";
 
 import {
   Pagination,
@@ -23,6 +23,10 @@ import { FilterPosts } from "@/components/posts/filter";
 import { SearchInput } from "@/components/posts/search-input";
 
 import type { Metadata } from "next";
+import { AUTHORS } from "@/data/blog/authors.data";
+import { CATEGORIES } from "@/data/blog/categories.data";
+import { TAGS } from "@/data/blog/tag.data";
+import { POSTS } from "@/data/blog";
 
 export const metadata: Metadata = {
   title: "Blog Posts",
@@ -51,15 +55,15 @@ export default async function Page({
   const postsPerPage = 9;
 
   // Fetch data based on search parameters using efficient pagination
-  const [postsResponse, authors, tags, categories] = await Promise.all([
-    getPostsPaginated(page, postsPerPage, { author, tag, category, search }),
-    search ? searchAuthors(search) : getAllAuthors(),
-    search ? searchTags(search) : getAllTags(),
-    search ? searchCategories(search) : getAllCategories(),
-  ]);
+  // const [postsResponse, authors, tags, categories] = await Promise.all([
+  //   getPostsPaginated(page, postsPerPage, { author, tag, category, search }),
+  //   search ? searchAuthors(search) : AUTHORS,
+  //   search ? searchTags(search) : [],
+  //   search ? searchCategories(search) : CATEGORIES,
+  // ]);
 
-  const { data: posts, headers } = postsResponse;
-  const { total, totalPages } = headers;
+  // const { data: posts, headers } = postsResponse;
+  const { total, totalPages } = { total: 1, totalPages: 1};
 
   // Create pagination URL helper
   const createPaginationUrl = (newPage: number) => {
@@ -88,19 +92,19 @@ export default async function Page({
             <SearchInput defaultValue={search} />
 
             <FilterPosts
-              authors={authors}
-              tags={tags}
-              categories={categories}
+              authors={AUTHORS}
+              tags={TAGS}
+              categories={CATEGORIES}
               selectedAuthor={author}
               selectedTag={tag}
               selectedCategory={category}
             />
           </div>
 
-          {posts.length > 0 ? (
+          {POSTS.length > 0 ? (
             <div className="grid md:grid-cols-3 gap-4">
-              {posts.map((post) => (
-                <PostCard key={post.id} post={post} />
+              {POSTS.map((post) => (
+                <PostCard key={post.slug} post={post} />
               ))}
             </div>
           ) : (

@@ -9,26 +9,14 @@ import {
   SelectValue,
 } from "@/components/ui/select"; // Ensure this is the correct import path
 import { Button } from "@/components/ui/button"; // Add this import for the Button component
-
-interface Author {
-  id: number;
-  name: string;
-}
-
-interface Tag {
-  id: number;
-  name: string;
-}
-
-interface Category {
-  id: number;
-  name: string;
-}
+import { PostAuthor } from "@/types/blog/author";
+import { PostCategory } from "@/types/blog/category";
+import { Tag } from "@/types/blog/tag";
 
 interface FilterPostsProps {
-  authors: Author[];
+  authors: PostAuthor[];
   tags: Tag[];
-  categories: Category[];
+  categories: PostCategory[];
   selectedAuthor?: string;
   selectedTag?: string;
   selectedCategory?: string;
@@ -71,9 +59,9 @@ export function FilterPosts({
           {hasTags ? <SelectValue placeholder="All Tags" /> : "No tags found"}
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="all">All Tags</SelectItem>
+          <SelectItem value="all">Todas las etiquetas</SelectItem>
           {tags.map((tag) => (
-            <SelectItem key={tag.id} value={tag.id.toString()}>
+            <SelectItem key={tag.slug} value={tag.slug.toString()}>
               {tag.name}
             </SelectItem>
           ))}
@@ -88,13 +76,13 @@ export function FilterPosts({
           {hasCategories ? (
             <SelectValue placeholder="All Categories" />
           ) : (
-            "No categories found"
+            "No se eonctraron categorías"
           )}
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="all">All Categories</SelectItem>
+          <SelectItem value="all">Todas las categorías</SelectItem>
           {categories.map((category) => (
-            <SelectItem key={category.id} value={category.id.toString()}>
+            <SelectItem key={category.slug} value={category.slug.toString()}>
               {category.name}
             </SelectItem>
           ))}
@@ -109,13 +97,13 @@ export function FilterPosts({
           {hasAuthors ? (
             <SelectValue placeholder="All Authors" />
           ) : (
-            "No authors found"
+            "No se encontraron autores"
           )}
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="all">All Authors</SelectItem>
+          <SelectItem value="all">Todos los autores</SelectItem>
           {authors.map((author) => (
-            <SelectItem key={author.id} value={author.id.toString()}>
+            <SelectItem key={author.slug} value={author.slug.toString()}>
               {author.name}
             </SelectItem>
           ))}

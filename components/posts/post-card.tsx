@@ -1,28 +1,15 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 
-import { Post } from "@/lib/wordpress.d";
+import { Post } from "@/types/blog/post";
 import { cn } from "@/lib/utils";
 
-import {
-  getFeaturedMediaById,
-  getAuthorById,
-  getCategoryById,
-} from "@/lib/wordpress";
-
-export async function PostCard({ post }: { post: Post }) {
-  const media = post.featured_media
-    ? await getFeaturedMediaById(post.featured_media)
-    : null;
-  const author = post.author ? await getAuthorById(post.author) : null;
+export function PostCard({ post }: { post: Post }) {
   const date = new Date(post.date).toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric",
   });
-  const category = post.categories?.[0]
-    ? await getCategoryById(post.categories[0])
-    : null;
 
   return (
     <Link
@@ -34,10 +21,10 @@ export async function PostCard({ post }: { post: Post }) {
     >
       <div className="flex flex-col gap-4">
         <div className="h-48 w-full overflow-hidden relative rounded-md border flex items-center justify-center bg-muted">
-          {media?.source_url ? (
+          {post.featuredMediaSourceUrl ? (
             <Image
               className="h-full w-full object-cover"
-              src={media.source_url}
+              src={post.featuredMediaSourceUrl}
               alt={post.title?.rendered || "Post thumbnail"}
               width={400}
               height={200}
@@ -68,7 +55,7 @@ export async function PostCard({ post }: { post: Post }) {
       <div className="flex flex-col gap-4">
         <hr />
         <div className="flex justify-between items-center text-xs">
-          <p>{category?.name || "Uncategorized"}</p>
+          <p>{post.category || "Uncategorized"}</p>
           <p>{date}</p>
         </div>
       </div>

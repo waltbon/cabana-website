@@ -14,9 +14,9 @@ export const mainMenu: Record<string, MenuItem> = {
       aiReadinessAssessment: "/services/ai-readiness-assessment",
     },
   },
-  caseStudies: "/case-studies",
+  // caseStudies: "/case-studies",
   careers: "/careers",
-  // blog: "/posts",
+  blog: "/posts",
   contact: "/contact",
 };
 
