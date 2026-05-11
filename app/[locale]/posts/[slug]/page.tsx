@@ -7,7 +7,7 @@ import { siteConfig } from "@/site.config";
 import { Link } from "@/i18n/navigation";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getAllPostSlugs, getPostBySlug, getCategoryBySlug } from "@/lib/blog";
+import { getAllPostSlugs, getPostBySlug, getCategoryBySlug, getAuthorByName } from "@/lib/blog";
 import MdxLayout from "@/components/mdx-layout";
 
 export async function generateStaticParams() {
@@ -28,42 +28,50 @@ export async function generateMetadata({
 
   const ogUrl = new URL(`${siteConfig.site_domain}/api/og`);
   ogUrl.searchParams.append("title", post.title.rendered);
-  // Strip HTML tags for description
   const description = post.excerpt.rendered.replace(/<[^>]*>/g, "").trim();
   ogUrl.searchParams.append("description", description);
+
+  const postImage = post.featuredMediaSourceUrl
+    ? `${siteConfig.site_domain}${post.featuredMediaSourceUrl}`
+    : ogUrl.toString();
+
+  const category = getCategoryBySlug(post.category);
 
   return {
     title: post.title.rendered,
     description: description,
+    alternates: {
+      canonical: `/posts/${slug}`,
+      languages: {
+        es: `/posts/${slug}`,
+        "x-default": `/posts/${slug}`,
+      },
+    },
     openGraph: {
+      type: "article",
       title: post.title.rendered,
       description: description,
-      type: "article",
       url: `${siteConfig.site_domain}/posts/${post.slug}`,
-      images: [
-        {
-          url: ogUrl.toString(),
-          width: 1200,
-          height: 630,
-          alt: post.title.rendered,
-        },
-      ],
+      siteName: siteConfig.site_name,
+      locale: "es_ES",
+      publishedTime: post.date,
+      authors: [post.author],
+      section: category?.name,
+      images: [{ url: postImage, width: 1200, height: 630, alt: post.title.rendered }],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title.rendered,
       description: description,
-      images: [ogUrl.toString()],
+      images: [postImage],
     },
   };
 }
 
 export default async function Page({
   params,
-  children,
 }: {
   params: Promise<{ slug: string }>;
-  children: React.ReactNode,
 }) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
@@ -81,6 +89,7 @@ export default async function Page({
     year: "numeric",
   });
   const category = getCategoryBySlug(post.category);
+  const author = getAuthorByName(post.author);
 
   // Strip HTML for plain text description
   const description = post.excerpt.rendered.replace(/<[^>]*>/g, "").trim();
@@ -94,6 +103,10 @@ export default async function Page({
         dateModified={post.modified}
         authorName={post.author || "Cabana Data"}
         slug={post.slug}
+        image={post.featuredMediaSourceUrl ?? undefined}
+        articleSection={category?.name}
+        authorUrl={author ? `${siteConfig.site_domain}/authors/${author.slug}` : undefined}
+        inLanguage="es"
       />
 
       {/* ── Post Hero Header ── */}

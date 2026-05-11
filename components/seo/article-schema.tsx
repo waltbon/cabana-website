@@ -9,6 +9,9 @@ interface ArticleSchemaProps {
   slug: string;
   image?: string;
   wordCount?: number;
+  inLanguage?: string;
+  articleSection?: string;
+  authorUrl?: string;
 }
 
 export function ArticleSchema({
@@ -20,6 +23,9 @@ export function ArticleSchema({
   slug,
   image,
   wordCount,
+  inLanguage = "es",
+  articleSection,
+  authorUrl,
 }: ArticleSchemaProps) {
   const schema = {
     "@context": "https://schema.org",
@@ -28,9 +34,11 @@ export function ArticleSchema({
     description,
     datePublished,
     dateModified,
+    inLanguage,
     author: {
       "@type": "Person",
       name: authorName,
+      ...(authorUrl && { url: authorUrl }),
     },
     publisher: {
       "@type": "Organization",
@@ -46,6 +54,7 @@ export function ArticleSchema({
     },
     ...(image && { image }),
     ...(wordCount && { wordCount }),
+    ...(articleSection && { articleSection }),
   };
 
   return (

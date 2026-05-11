@@ -3,6 +3,8 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
+import { Reddit_Sans } from "next/font/google";
+import { cn } from "@/lib/utils";
 
 import { siteConfig } from "@/site.config";
 import { locales, type Locale } from "@/i18n/config";
@@ -10,6 +12,8 @@ import { Footer } from "@/components/footer";
 import { Nav } from "./_components/nav";
 
 import type { Metadata } from "next";
+
+const font = Reddit_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -64,6 +68,8 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: siteConfig.site_name,
       description: siteConfig.site_description,
+      site: siteConfig.site_twitter,
+      creator: siteConfig.site_twitter,
     },
     robots: {
       index: true,
@@ -157,31 +163,43 @@ export default async function LocaleLayout({
   const jsonLd = getJsonLd(locale);
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <NextIntlClientProvider messages={messages}>
-        {/* Skip to content link for accessibility */}
-        <a
-          href="#main-content"
-          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-cabana-blue focus:text-white focus:rounded-md focus:outline-none"
-        >
-          Skip to main content
-        </a>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem={false}
-          disableTransitionOnChange
-        >
-          <Nav />
-          <main id="main-content">{children}</main>
-          <Footer />
-        </ThemeProvider>
-        <Analytics />
-      </NextIntlClientProvider>
-    </>
+    <html lang={locale} suppressHydrationWarning>
+      <head>
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+      </head>
+      <body className={cn("min-h-screen font-sans antialiased", font.variable)}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <NextIntlClientProvider messages={messages}>
+          {/* Skip to content link for accessibility */}
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-cabana-blue focus:text-white focus:rounded-md focus:outline-none"
+          >
+            Skip to main content
+          </a>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem={false}
+            disableTransitionOnChange
+          >
+            <Nav />
+            <main id="main-content">{children}</main>
+            <Footer />
+          </ThemeProvider>
+          <Analytics />
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }
