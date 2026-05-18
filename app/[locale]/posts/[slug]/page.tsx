@@ -9,6 +9,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllPostSlugs, getPostBySlug, getCategoryBySlug, getAuthorByName } from "@/lib/blog";
 import MdxLayout from "@/components/mdx-layout";
+import { PostSidebar } from "./_components/post-sidebar";
 
 export async function generateStaticParams() {
   return getAllPostSlugs();
@@ -175,7 +176,10 @@ export default async function Page({
       {/* ── Article Body ── */}
       <Section>
         <Container>
-          <MdxLayout><Post /></MdxLayout>
+          <div className="grid lg:grid-cols-[1fr_340px] gap-12 items-start">
+            <MdxLayout><Post /></MdxLayout>
+            <PostSidebar />
+          </div>
         </Container>
       </Section>
     </>

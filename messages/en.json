@@ -40,9 +40,9 @@
   },
   "hero": {
     "tagline": "SPECIALIZED DATA CONSULTING",
-    "headline": "Your Data, Your Greatest",
-    "headlineHighlight": "Competitive Advantage",
-    "description": "We design the strategy, architecture, and processes that turn scattered data into clear decisions, efficient operations, and sustainable growth",
+    "headline": "We build the data infrastructure that makes your decisions faster, your operations leaner, and",
+    "headlineHighlight": "your AI investments worth making.",
+    "description": "Most companies already have the data. What they're missing is the architecture to use it. We fix that — on Google Cloud, from strategy to production.",
     "cta": "Discover our approach"
   },
   "problem": {
@@ -53,15 +53,18 @@
     "items": {
       "dataChaos": {
         "title": "Disconnected Systems",
-        "description": "Your data lives in six different tools that don't talk to each other. Every report requires manual work, and no one fully trusts the numbers"
+        "description": "Your data lives in six different tools that don't talk to each other. Every report requires manual work, and no one fully trusts the numbers",
+        "consequence": "The result: your team spends 30% of its time producing reports nobody fully trusts."
       },
       "inefficientProcesses": {
         "title": "No Single Source of Truth",
-        "description": "Different teams use different definitions. Sales says one thing, finance says another. Decisions get delayed while people argue over whose spreadsheet is right"
+        "description": "Different teams use different definitions. Sales says one thing, finance says another. Decisions get delayed while people argue over whose spreadsheet is right",
+        "consequence": "The result: strategic decisions get delayed while leadership waits for alignment that never fully comes."
       },
       "uncertainFuture": {
         "title": "Data That Doesn't Work for You",
-        "description": "You have data across multiple systems, but you can't turn it into reliable reports, fast decisions, or automated processes. The data exists—it just isn't generating value"
+        "description": "You have data across multiple systems, but you can't turn it into reliable reports, fast decisions, or automated processes. The data exists—it just isn't generating value",
+        "consequence": "The result: data projects get deprioritized, and the gap between you and competitors who move on data grows wider every quarter."
       }
     }
   },
@@ -82,7 +85,7 @@
           "wyg3": "Digital Product Feasibility Study",
           "wyg4": "Design Thinking Workshops"
         },
-        "outcome": "Clarity on what to build, why, and in what order"
+        "outcome": "You stop building the wrong thing. Every dollar spent on data infrastructure from here forward has a clear business justification."
       },
       "dataEngineering": {
         "title": "Data Engineering & Architecture",
@@ -93,7 +96,7 @@
           "wyg3": "Real-time data integration",
           "wyg4": "Scalable, cost-effective architecture"
         },
-        "outcome": "Clean, accessible, trustworthy data—ready to power decisions and applications"
+        "outcome": "Your team stops arguing over whose numbers are right. One source of truth, always current, accessible across every tool you use."
       },
       "customDevelopment": {
         "title": "Custom Applications & Dashboards",
@@ -104,7 +107,7 @@
           "wyg3": "Workflow automation",
           "wyg4": "Applications built on Next.js, React, and Angular"
         },
-        "outcome": "Your team makes faster, better decisions with data they can actually access"
+        "outcome": "Reports that were emailed as PDFs become live platforms your team actually opens every morning."
       },
       "aiMl": {
         "title": "AI & Intelligent Systems",
@@ -115,7 +118,7 @@
           "wyg3": "Predictive analytics",
           "wyg4": "Intelligent routing and recommendations"
         },
-        "outcome": "AI that works—because it's built on data infrastructure designed to support it"
+        "outcome": "AI that works in production — not a proof of concept that gets shelved after the pilot."
       }
     }
   },
@@ -588,7 +591,8 @@
   "ourClients": {
     "eyebrow": "Our Clients",
     "headline": "Trusted by leading companies",
-    "description": "We partner with organizations that are serious about their data"
+    "description": "We partner with organizations that are serious about their data",
+    "metric": "8+ data sources unified. 95% reduction in manual reporting. Across 6 companies in Costa Rica and LATAM."
   },
   "caseStudies": {
     "hero": {

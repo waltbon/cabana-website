@@ -92,6 +92,9 @@ export function ProblemSection() {
                         <p className="text-base leading-relaxed text-muted-foreground">
                           {t(`items.${point.key}.description`)}
                         </p>
+                        <p className="text-sm font-medium text-cabana-blue">
+                          {t(`items.${point.key}.consequence`)}
+                        </p>
                       </div>
                     </div>
 

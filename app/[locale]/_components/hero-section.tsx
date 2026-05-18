@@ -27,7 +27,7 @@ export function HeroSection() {
 
             {/* Main Headline */}
             <FadeIn delay={0.1}>
-              <h1 className="max-w-4xl text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl lg:text-7xl lg:leading-[1]">
+              <h1 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl lg:leading-none">
                 {t("headline")} <br />
                 <span className="text-gradient-cabana">
                   {t("headlineHighlight")}

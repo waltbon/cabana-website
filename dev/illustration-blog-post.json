@@ -1,0 +1,255 @@
+{
+
+  "prompt_name": "Pro Gamer - Conceptual Illustration",
+
+  "description": "A detailed JSON description of the illustration depicting a specific conceptual view of a competitive gamer's station and process, as seen in image_3.png.",
+
+  "parameters": {
+
+    "style": {
+
+      "type": "string",
+
+      "description": "The specific illustrative style.",
+
+      "default": "Mixed-media digital illustration with textured, hand-drawn vector-like line work and layered watercolor wash and subtle noise texture, reminiscent of a conceptual editorial piece."
+
+    },
+
+    "core_concept": {
+
+      "type": "string",
+
+      "description": "The primary theme.",
+
+      "default": "The gamer's command center: an isometric analysis of the tools, UI, and physical environment of professional competitive gaming."
+
+    },
+
+    "subject": {
+
+      "type": "object",
+
+      "properties": {
+
+        "description": {
+
+          "type": "string",
+
+          "description": "A detailed description of the character.",
+
+          "default": "A man with a full beard and short hair, seen in profile, is seated in a large, ergonomic gaming chair. He is actively engaged, with his right hand on a mouse and his left hand on a keyboard. He wears a full gaming headset (integrated with his cap), a teal cap, a white t-shirt, and a distinctive teal hand wrap or compression sleeve on his left wrist/hand."
+
+        },
+
+        "key_elements": {
+
+          "type": "array",
+
+          "items": {
+
+            "type": "string"
+
+          },
+
+          "default": [
+
+            "profile pose",
+
+            "beard",
+
+            "ergonomic chair",
+
+            "headset over cap",
+
+            "mouse and keyboard use",
+
+            "left hand wrap"
+
+          ]
+
+        }
+
+      }
+
+    },
+
+    "environment_props": {
+
+      "type": "array",
+
+      "items": {
+
+        "type": "object",
+
+        "properties": {
+
+          "item": {
+
+            "type": "string",
+
+            "description": "The name of the object."
+
+          },
+
+          "details": {
+
+            "type": "string",
+
+            "description": "Specific details about the object and its state/content."
+
+          }
+
+        }
+
+      },
+
+      "default": [
+
+        {
+
+          "item": "Main Monitor",
+
+          "details": "A large screen displaying the in-game POV of an FPS, including a mini-map in the top-left, crosshairs, and a player figure in the bottom-right. The entire display has a topographic map pattern overlay."
+
+        },
+
+        {
+
+          "item": "Ergonomic Chair",
+
+          "details": "Highly stylized, large, padded teal chair, showing support and comfort."
+
+        },
+
+        {
+
+          "item": "Desk",
+
+          "details": "A clean, white surface, slightly raised, holding the keyboard and mouse."
+
+        },
+
+        {
+
+          "item": "Keyboard",
+
+          "details": "A compact, segmented gaming keyboard, partially under the user's hand."
+
+        },
+
+        {
+
+          "item": "Mouse",
+
+          "details": "A gaming mouse under the character's right hand."
+
+        },
+
+        {
+
+          "item": "Secondary Vertical Display",
+
+          "details": "A smaller, vertical screen displaying profile views of people, indicating a community panel, statistics, or chat profile images."
+
+        },
+
+        {
+
+          "item": "Weapon Stats/Inventory Sheet",
+
+          "details": "A floating schematic or screen with a breakdown of various weapons, including silhouettes and text. Integrated into the background layer."
+
+        },
+
+        {
+
+          "item": "Floating Notification/Status Box",
+
+          "details": "Small rectangular box above the main screen with abstract text/status info."
+
+        },
+
+        {
+
+          "item": "Smartphone",
+
+          "details": "Resting on the desk to the right of the keyboard."
+
+        },
+
+        {
+
+          "item": "Peripheral Notification Icon",
+
+          "details": "A small floating icon to the right of the keyboard showing 'speaker/sound on' status."
+
+        }
+
+      ]
+
+    },
+
+    "composition_conceptual": {
+
+      "type": "string",
+
+      "description": "How the image is conceptually arranged.",
+
+      "default": "An exploded or deconstructed view of the gamer's command environment, where screens, UI elements, and data panels exist as floating layers in 3D space, integrated with the real-world chair and desk. This represents the mental map of the gamer. There are subtle background blobs of watercolor tone."
+
+    },
+
+    "color_palette": {
+
+      "type": "array",
+
+      "items": {
+
+        "type": "string",
+
+        "description": "Color name or description."
+
+      },
+
+      "default": [
+
+        "Dominant Teal/Turquoise",
+
+        "Pale Mint Green",
+
+        "Coral Pink (for character skin and left hand wrap)",
+
+        "White",
+
+        "Neutral Dark Teal (for lines)",
+
+        "Light Grey (for minor details)"
+
+      ]
+
+    },
+
+    "texture_and_feel": {
+
+      "type": "string",
+
+      "description": "The visual and haptic quality.",
+
+      "default": "The entire illustration has a visible, granular, grainy noise overlay, giving it a tangible, analog print or textured paper feel, despite being digital. Textures include watercolor-like pooling and wash effects within shapes."
+
+    },
+
+    "line_work": {
+
+      "type": "string",
+
+      "description": "The style of lines used.",
+
+      "default": "Clean but slightly imperfect, dark teal lines, resembling traditional pen-and-ink or textured pencil lines."
+
+    }
+
+  }
+
+}

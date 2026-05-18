@@ -40,9 +40,9 @@
   },
   "hero": {
     "tagline": "CONSULTORÍA ESPECIALIZADA EN DATOS",
-    "headline": "Tus Datos, tu Mayor",
-    "headlineHighlight": "Ventaja Competitiva",
-    "description": "Diseñamos la estrategia, la arquitectura y los procesos que convierten datos dispersos en decisiones claras, operaciones eficientes y crecimiento sostenible",
+    "headline": "Construimos la infraestructura de datos que hace tus decisiones más rápidas, tus operaciones más eficientes, y",
+    "headlineHighlight": "tus inversiones en IA rentables.",
+    "description": "La mayoría de las empresas ya tiene los datos. Lo que les falta es la arquitectura para usarlos. Nosotros lo resolvemos — en Google Cloud, de la estrategia a la producción.",
     "cta": "Conoce nuestro enfoque"
   },
   "problem": {
@@ -53,15 +53,18 @@
     "items": {
       "dataChaos": {
         "title": "Sistemas Desconectados",
-        "description": "Tus datos viven en seis herramientas distintas que no se comunican entre sí. Cada reporte requiere trabajo manual y nadie confía del todo en los números"
+        "description": "Tus datos viven en seis herramientas distintas que no se comunican entre sí. Cada reporte requiere trabajo manual y nadie confía del todo en los números",
+        "consequence": "El resultado: tu equipo dedica el 30% de su tiempo a producir reportes en los que nadie confía del todo."
       },
       "inefficientProcesses": {
         "title": "Sin una Fuente Única de Verdad",
-        "description": "Diferentes equipos usan diferentes definiciones. Ventas dice una cosa, finanzas dice otra. Las decisiones se retrasan mientras todos debaten cuál hoja de cálculo tiene razón"
+        "description": "Diferentes equipos usan diferentes definiciones. Ventas dice una cosa, finanzas dice otra. Las decisiones se retrasan mientras todos debaten cuál hoja de cálculo tiene razón",
+        "consequence": "El resultado: las decisiones estratégicas se retrasan mientras el liderazgo espera una alineación que nunca llega del todo."
       },
       "uncertainFuture": {
         "title": "Datos que No Trabajan para Ti",
-        "description": "Tienes datos en múltiples sistemas, pero no puedes convertirlos en reportes confiables, decisiones rápidas ni procesos automatizados. Los datos existen, pero no generan valor"
+        "description": "Tienes datos en múltiples sistemas, pero no puedes convertirlos en reportes confiables, decisiones rápidas ni procesos automatizados. Los datos existen, pero no generan valor",
+        "consequence": "El resultado: los proyectos de datos se posponen, y la brecha entre tu empresa y los competidores que actúan sobre datos crece cada trimestre."
       }
     }
   },
@@ -82,7 +85,7 @@
           "wyg3": "Estudio de Factibilidad de Producto Digital",
           "wyg4": "Talleres de Design Thinking"
         },
-        "outcome": "Claridad sobre qué construir, por qué y en qué orden"
+        "outcome": "Dejas de construir lo equivocado. Cada dólar invertido en infraestructura de datos desde aquí tiene una justificación clara de negocio."
       },
       "dataEngineering": {
         "title": "Ingeniería y Arquitectura de Datos",
@@ -93,7 +96,7 @@
           "wyg3": "Integración de datos en tiempo real",
           "wyg4": "Arquitectura escalable y rentable"
         },
-        "outcome": "Datos limpios, accesibles y confiables—listos para impulsar decisiones y aplicaciones"
+        "outcome": "Tu equipo deja de discutir sobre cuáles números son correctos. Una fuente única de verdad, siempre actualizada, accesible en cada herramienta que usas."
       },
       "customDevelopment": {
         "title": "Aplicaciones y Dashboards Personalizados",
@@ -104,7 +107,7 @@
           "wyg3": "Automatización de flujos de trabajo",
           "wyg4": "Aplicaciones construidas con Next.js, React y Angular"
         },
-        "outcome": "Tu equipo toma decisiones más rápidas y mejores con datos que realmente puede acceder"
+        "outcome": "Los reportes que se enviaban como PDFs por correo se convierten en plataformas vivas que tu equipo abre cada mañana."
       },
       "aiMl": {
         "title": "Agentes de AI y Sistemas Inteligentes",
@@ -115,7 +118,7 @@
           "wyg3": "Analítica predictiva",
           "wyg4": "Enrutamiento inteligente y recomendaciones"
         },
-        "outcome": "IA que funciona—porque está construida sobre infraestructura de datos diseñada para soportarla"
+        "outcome": "IA que funciona en producción — no un proof of concept que se archiva después del piloto."
       }
     }
   },
@@ -588,7 +591,8 @@
   "ourClients": {
     "eyebrow": "Partners",
     "headline": "La confianza de nuestros clientes",
-    "description": "Trabajamos con organizaciones que se toman en serio sus datos"
+    "description": "Trabajamos con organizaciones que se toman en serio sus datos",
+    "metric": "8+ fuentes de datos unificadas. 95% de reducción en reportes manuales. En 6 empresas de Costa Rica y LATAM."
   },
   "caseStudies": {
     "hero": {
