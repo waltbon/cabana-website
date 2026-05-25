@@ -8,7 +8,7 @@ type SiteConfig = {
 export const siteConfig: SiteConfig = {
   site_name: "Cabana Data",
   site_description:
-    "Transform your data into your next big advantage. End-to-end data strategy, engineering, and AI solutions.",
+    "Specialized Data Engineering and AI consulting for mid-market companies in Costa Rica and LATAM.",
   site_domain: "https://cabanadata.com",
   site_twitter: "@cabanadata",
 };

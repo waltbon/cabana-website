@@ -12,6 +12,7 @@ const techStack = [
     logo: "/logos/aws.png",
     width: 80,
     height: 48,
+    description: "Secondary cloud for multi-cloud client environments",
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const techStack = [
     logo: "/logos/gcp.png",
     width: 150,
     height: 48,
+    description: "Our primary cloud platform for every engagement",
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ const techStack = [
     logo: "/logos/google-bigquery.png",
     width: 110,
     height: 48,
+    description: "Serverless data warehouse at the core of our analytics stack",
   },
   {
     id: 4,
@@ -33,6 +36,7 @@ const techStack = [
     logo: "/logos/powerbi.png",
     width: 130,
     height: 48,
+    description: "Enterprise-grade BI and self-service reporting layer",
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ const techStack = [
     logo: "/logos/postgresql.png",
     width: 70,
     height: 48,
+    description: "Reliable relational engine for transactional workloads",
   },
   {
     id: 6,
@@ -47,6 +52,7 @@ const techStack = [
     logo: "/logos/docker.png",
     width: 110,
     height: 48,
+    description: "Containerized deployments for reproducible environments",
   },
 ];
 
@@ -60,17 +66,17 @@ export function TechStackSection() {
             <div className="flex max-w-xl flex-col items-center gap-5 text-center">
               {/* Tagline */}
               <h4>
-                The Tools
+                Technology Stack
               </h4>
 
               {/* Headline */}
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-                Our solution stack
+                Core Technology Partners
               </h2>
 
               {/* Description */}
               <p className="text-base text-muted-foreground">
-                Our preferred, but not limited tech stack
+                The platforms and tools at the center of every engagement.
               </p>
             </div>
           </FadeIn>
@@ -81,7 +87,7 @@ export function TechStackSection() {
               {techStack.map((tech) => (
                 <StaggerItem
                   key={tech.id}
-                  className="flex shrink-0 items-center justify-center grayscale transition-all hover:grayscale-0"
+                  className="flex shrink-0 flex-col items-center justify-center gap-2 grayscale transition-all hover:grayscale-0"
                 >
                   <Image
                     src={tech.logo}
@@ -90,6 +96,7 @@ export function TechStackSection() {
                     height={tech.height}
                     className="object-contain"
                   />
+                  <p className="text-xs text-center text-muted-foreground max-w-[130px]">{tech.description}</p>
                 </StaggerItem>
               ))}
             </StaggerChildren>

@@ -10,9 +10,9 @@ import {
 import { OurClientsSection } from "./_components/our-clients-section";
 
 export const metadata: Metadata = {
-  title: "Transform Your Data into Your Next Big Advantage",
+  title: "Data Engineering & AI Consulting in Costa Rica | CabanaData",
   description:
-    "Cabana Data helps enterprises turn messy data into strategic assets. End-to-end data strategy, engineering, architecture, and AI solutions.",
+    "Specialized Data Engineering and AI consulting for mid-market companies in Costa Rica and LATAM. Built on Google Cloud.",
   alternates: {
     canonical: "/",
   },

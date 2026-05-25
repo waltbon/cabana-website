@@ -1,0 +1,25 @@
+{
+  "image_style": "Digital ink and watercolor sketch / Editorial reportage illustration",
+  "subject_matter": "[Describe the main subjects, characters, actions, and core concepts happening in the scene]",
+  "composition": {
+    "perspective": "[e.g., One-point perspective / Isometric split view / Eye-level]",
+    "framing": "Vertical portrait orientation, [describe how subjects are placed, e.g., split screen layout / centered]",
+    "leading_lines": "[Describe elements that guide the eye, e.g., structural cracks, waterlines, horizon lines]",
+    "negative_space": "Vignette style, outer margins and top edges fade out gently into clean white paper background"
+  },
+  "linework_and_drawing_style": {
+    "type": "Sketchy, expressive, hand-drawn black ink outlines",
+    "line_weight": "Variable, high-contrast, textured ink brush",
+    "detail_level": "Loose and gestural, intentional overlapping and imperfect lines"
+  },
+  "color_and_shading": {
+    "palette": "[List primary warm/cool colors, e.g., Terracotta brown, amber orange, balanced with cool denim blue and deep teals]",
+    "coloring_technique": "Loose digital watercolor wash, fluid color blocking, paint intentionally bleeding outside the ink lines",
+    "shading_style": "Soft, diffused watercolor gradients with subtle ground shadows"
+  },
+  "texture_and_finishing": {
+    "paper_texture": "Subtle cold-press watercolor paper grain overlay",
+    "organic_effects": "Fine paint splatters, loose ink specks, and stippled brush layering",
+    "vibe": "Cozy yet editorial, storybook concept art, handmade aesthetic"
+  }
+}

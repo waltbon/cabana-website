@@ -55,12 +55,6 @@ export function OurClientsSection() {
             </StaggerChildren>
           </div>
 
-          {/* Credibility metric */}
-          <FadeIn>
-            <p className="text-center text-sm font-medium text-muted-foreground">
-              {t("metric")}
-            </p>
-          </FadeIn>
         </div>
       </Container>
     </Section>

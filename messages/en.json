@@ -1,8 +1,8 @@
 {
   "metadata": {
     "home": {
-      "title": "Transform Your Data into Your Next Big Advantage",
-      "description": "Cabana Data helps enterprises turn messy data into strategic assets with end-to-end data strategy, engineering, and AI solutions."
+      "title": "Data Engineering & AI Consulting in Costa Rica | CabanaData",
+      "description": "Specialized Data Engineering and AI consulting for mid-market companies in Costa Rica and LATAM. Built on Google Cloud."
     },
     "about": {
       "title": "About Us",
@@ -30,41 +30,41 @@
     "aiReadinessAssessment": "Ruta IA — AI Readiness Assessment",
     "blog": "Blog",
     "contact": "Contact",
-    "getStarted": "Get Started",
+    "getStarted": "Schedule a Consultation",
     "costaRica": "Costa Rica",
     "skipToContent": "Skip to main content",
-    "caseStudies": "Case of Study",
+    "caseStudies": "Case Studies",
     "careers": "Careers",
     "caseStudiesOverview": "All cases",
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
   "hero": {
-    "tagline": "SPECIALIZED DATA CONSULTING",
-    "headline": "We build the data infrastructure that makes your decisions faster, your operations leaner, and",
-    "headlineHighlight": "your AI investments worth making.",
-    "description": "Most companies already have the data. What they're missing is the architecture to use it. We fix that — on Google Cloud, from strategy to production.",
-    "cta": "Discover our approach"
+    "tagline": "DATA ENGINEERING & AI CONSULTING",
+    "headline": "Data Engineering & AI Consulting for Mid-Market Companies",
+    "headlineHighlight": "in Costa Rica and LATAM — Built on Google Cloud.",
+    "description": "We bring deep engineering expertise and hands-on delivery to companies that need their data infrastructure to work — from strategy to production, on Google Cloud.",
+    "cta": "Schedule a Consultation"
   },
   "problem": {
-    "tagline": "The problem",
-    "headline": "Why Your Company's Data Is",
-    "headlineHighlight": "Not Working for You",
-    "description": "The problem isn't a lack of data. It's that you can't use it",
+    "tagline": "Where Data Initiatives Fail",
+    "headline": "The Gap Between Data",
+    "headlineHighlight": "and Business Value",
+    "description": "Most data initiatives stall not because of technology, but because of structural gaps in how data is governed, connected, and used for decisions.",
     "items": {
       "dataChaos": {
-        "title": "Disconnected Systems",
-        "description": "Your data lives in six different tools that don't talk to each other. Every report requires manual work, and no one fully trusts the numbers",
-        "consequence": "The result: your team spends 30% of its time producing reports nobody fully trusts."
+        "title": "Data Lives in Silos",
+        "description": "Organizations accumulate data across dozens of tools over time. Without deliberate integration architecture, reporting becomes manual and trust in numbers erodes.",
+        "consequence": "When every team maintains their own data exports, alignment meetings replace decisions."
       },
       "inefficientProcesses": {
-        "title": "No Single Source of Truth",
-        "description": "Different teams use different definitions. Sales says one thing, finance says another. Decisions get delayed while people argue over whose spreadsheet is right",
-        "consequence": "The result: strategic decisions get delayed while leadership waits for alignment that never fully comes."
+        "title": "Definitions Diverge Across Teams",
+        "description": "Without a shared semantic layer, the same metric means different things to different teams — slowing down decisions and eroding confidence in data.",
+        "consequence": "The fix isn't more dashboards. It's governed, unified data at the foundation."
       },
       "uncertainFuture": {
-        "title": "Data That Doesn't Work for You",
-        "description": "You have data across multiple systems, but you can't turn it into reliable reports, fast decisions, or automated processes. The data exists—it just isn't generating value",
-        "consequence": "The result: data projects get deprioritized, and the gap between you and competitors who move on data grows wider every quarter."
+        "title": "AI Requires a Foundation First",
+        "description": "AI and automation initiatives fail when the underlying data pipelines are fragile. The bottleneck is rarely the model — it's the infrastructure feeding it.",
+        "consequence": "Companies that invest in the data foundation first see compounding returns as each AI initiative builds on reliable, governed data."
       }
     }
   },
@@ -72,7 +72,7 @@
     "tagline": "OUR APPROACH",
     "headline": "From data chaos to an organization that",
     "headlineHighlight": "decides with clarity",
-    "description": "Each layer builds on the last. No shortcuts, no hype—just the work that turns your data into a real business advantage.",
+    "description": "Each layer builds on the last. Our methodology runs from diagnostic to production, ensuring every investment has a clear business justification.",
     "whatYouGet": "What you get:",
     "outcome": "Outcome",
     "services": {
@@ -130,9 +130,9 @@
     "ctaServices": "View Services"
   },
   "cta": {
-    "headline": "Ready to Transform Your",
-    "headlineHighlight": "Business with Data?",
-    "button": "Start building!"
+    "headline": "Let's Map Your",
+    "headlineHighlight": "Data Foundation.",
+    "button": "Schedule a Consultation"
   },
   "footer": {
     "links": {
@@ -152,14 +152,14 @@
   },
   "about": {
     "hero": {
-      "headline": "Building Software for",
-      "headlineHighlight": "Enterprises",
-      "description": "We transform ideas and business needs into impactful, data-driven solutions that help enterprises thrive in the digital age.",
-      "cta": "Let's Talk!"
+      "headline": "Data Engineering Specialists for",
+      "headlineHighlight": "Mid-Market Companies",
+      "description": "Cabana Data is a specialized consulting firm delivering data engineering, architecture, and AI solutions to companies across Costa Rica and LATAM since 2021.",
+      "cta": "Talk to Our Team"
     },
     "team": {
-      "tagline": "The team.",
-      "headline": "Get to know our amazing team!",
+      "tagline": "Our Team",
+      "headline": "The Experts Behind Your Projects",
       "description": "We are a team of data, development and design experts. Together, we create bold solutions that connect and inspire.",
       "roles": {
         "techLead": "Tech Lead",
@@ -171,14 +171,14 @@
       }
     },
     "story": {
-      "quote": "We've come a long way. This all started with a single developer and a big dream",
+      "quote": "From a single project to a specialized practice — we've built this firm by staying close to the engineering work.",
       "quoteAuthor": "Walter Bonilla",
-      "quoteRole": "The creator.",
-      "headline": "Small team,",
-      "headlineHighlight": "Big Results",
-      "description": "We are a dedicated team with purpose. Our goal is to help you become a data-driven business and excel in the digital world.",
+      "quoteRole": "Founder & Tech Lead",
+      "headline": "Deep expertise,",
+      "headlineHighlight": "Real delivery.",
+      "description": "We are a dedicated team with purpose. Our goal is to be the most reliable data engineering partner for mid-market companies in Costa Rica and LATAM.",
       "gotProject": "Got a project?",
-      "cta": "Let's Talk!"
+      "cta": "Talk to Our Team"
     }
   },
   "services": {
@@ -507,7 +507,7 @@
       "cta": {
         "headline": "Your next step in AI starts with clarity, not guesswork.",
         "description": "Schedule a 30-minute call. No commitment. We'll tell you if Ruta IA makes sense for your company.",
-        "button": "I want my assessment →"
+        "button": "Request an Assessment"
       }
     }
   },
@@ -589,10 +589,10 @@
     "previous": "Previous"
   },
   "ourClients": {
-    "eyebrow": "Our Clients",
-    "headline": "Trusted by leading companies",
-    "description": "We partner with organizations that are serious about their data",
-    "metric": "8+ data sources unified. 95% reduction in manual reporting. Across 6 companies in Costa Rica and LATAM."
+    "eyebrow": "Trusted By",
+    "headline": "Companies Across Costa Rica and LATAM",
+    "description": "A selection of the organizations we've worked with across data engineering, AI, and custom analytics projects.",
+    "metric": ""
   },
   "caseStudies": {
     "hero": {

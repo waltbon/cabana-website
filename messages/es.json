@@ -1,8 +1,8 @@
 {
   "metadata": {
     "home": {
-      "title": "Transforma Tus Datos en Tu Próxima Gran Ventaja",
-      "description": "Cabana Data ayuda a las empresas a convertir datos desordenados en activos estratégicos con estrategia de datos, ingeniería y soluciones de IA de extremo a extremo."
+      "title": "Consultoría en Ingeniería de Datos e IA en Costa Rica | CabanaData",
+      "description": "Consultoría especializada en ingeniería de datos e inteligencia artificial para empresas del mercado medio en Costa Rica y LATAM. Sobre Google Cloud."
     },
     "about": {
       "title": "Nosotros",
@@ -30,41 +30,41 @@
     "aiReadinessAssessment": "Ruta IA — Diagnóstico de Preparación",
     "blog": "Blog",
     "contact": "Contacto",
-    "getStarted": "Comenzar",
+    "getStarted": "Agendar Consulta",
     "costaRica": "Costa Rica",
     "skipToContent": "Ir al contenido principal",
-    "caseStudies": "Casos de Estudio",
+    "caseStudies": "Casos de Éxito",
     "careers": "Carreras",
     "caseStudiesOverview": "Todos los casos",
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
   "hero": {
-    "tagline": "CONSULTORÍA ESPECIALIZADA EN DATOS",
-    "headline": "Construimos la infraestructura de datos que hace tus decisiones más rápidas, tus operaciones más eficientes, y",
-    "headlineHighlight": "tus inversiones en IA rentables.",
-    "description": "La mayoría de las empresas ya tiene los datos. Lo que les falta es la arquitectura para usarlos. Nosotros lo resolvemos — en Google Cloud, de la estrategia a la producción.",
-    "cta": "Conoce nuestro enfoque"
+    "tagline": "CONSULTORÍA EN INGENIERÍA DE DATOS E IA",
+    "headline": "Ingeniería de Datos e IA para Empresas del Mercado Medio",
+    "headlineHighlight": "en Costa Rica y LATAM",
+    "description": "Llevamos expertise técnico profundo y entrega real a empresas que necesitan que su infraestructura de datos funcione — desde la estrategia hasta producción, en Google Cloud.",
+    "cta": "Agendar una Consulta"
   },
   "problem": {
-    "tagline": "El problema",
-    "headline": "Por qué los Datos de tu Empresa",
-    "headlineHighlight": "No Están Trabajando para Ti",
-    "description": "El problema no es la falta de datos. Es que no se pueden usar",
+    "tagline": "Dónde Fallan las Iniciativas de Datos",
+    "headline": "La Brecha entre los Datos",
+    "headlineHighlight": "y el Valor de Negocio",
+    "description": "La mayoría de las iniciativas de datos no fracasan por la tecnología, sino por brechas estructurales en cómo se gobierna, conecta y usa la información para tomar decisiones.",
     "items": {
       "dataChaos": {
-        "title": "Sistemas Desconectados",
-        "description": "Tus datos viven en seis herramientas distintas que no se comunican entre sí. Cada reporte requiere trabajo manual y nadie confía del todo en los números",
-        "consequence": "El resultado: tu equipo dedica el 30% de su tiempo a producir reportes en los que nadie confía del todo."
+        "title": "Los Datos Viven en Silos",
+        "description": "Las organizaciones acumulan datos en decenas de herramientas a lo largo del tiempo. Sin una arquitectura de integración deliberada, los reportes se vuelven manuales y la confianza en los números se erosiona.",
+        "consequence": "Cuando cada equipo mantiene sus propias exportaciones de datos, las reuniones de alineación reemplazan a las decisiones."
       },
       "inefficientProcesses": {
-        "title": "Sin una Fuente Única de Verdad",
-        "description": "Diferentes equipos usan diferentes definiciones. Ventas dice una cosa, finanzas dice otra. Las decisiones se retrasan mientras todos debaten cuál hoja de cálculo tiene razón",
-        "consequence": "El resultado: las decisiones estratégicas se retrasan mientras el liderazgo espera una alineación que nunca llega del todo."
+        "title": "Las Definiciones Divergen entre Equipos",
+        "description": "Sin una capa semántica compartida, la misma métrica significa cosas distintas para distintos equipos — ralentizando decisiones y erosionando la confianza en los datos.",
+        "consequence": "La solución no son más dashboards. Es datos gobernados y unificados desde la base."
       },
       "uncertainFuture": {
-        "title": "Datos que No Trabajan para Ti",
-        "description": "Tienes datos en múltiples sistemas, pero no puedes convertirlos en reportes confiables, decisiones rápidas ni procesos automatizados. Los datos existen, pero no generan valor",
-        "consequence": "El resultado: los proyectos de datos se posponen, y la brecha entre tu empresa y los competidores que actúan sobre datos crece cada trimestre."
+        "title": "La IA Requiere una Base Primero",
+        "description": "Las iniciativas de IA y automatización fallan cuando los pipelines de datos subyacentes son frágiles. El cuello de botella rara vez es el modelo — es la infraestructura que lo alimenta.",
+        "consequence": "Las empresas que invierten primero en la base de datos obtienen retornos compuestos, ya que cada iniciativa de IA puede construirse sobre datos confiables y gobernados."
       }
     }
   },
@@ -72,7 +72,7 @@
     "tagline": "NUESTRO ENFOQUE",
     "headline": "Del caos de datos a una organización que",
     "headlineHighlight": "decide con claridad",
-    "description": "Cada capa se construye sobre la anterior. Sin atajos, sin hype—solo el trabajo que convierte tus datos en una ventaja real para el negocio.",
+    "description": "Cada capa se construye sobre la anterior. Nuestra metodología va del diagnóstico a la producción, asegurando que cada inversión tenga una justificación de negocio clara.",
     "whatYouGet": "Qué obtienes:",
     "outcome": "Resultado",
     "services": {
@@ -130,9 +130,9 @@
     "ctaServices": "Ver Servicios"
   },
   "cta": {
-    "headline": "¿Listo para Transformar Tu",
-    "headlineHighlight": "Negocio con Datos?",
-    "button": "¡Empieza ahora!"
+    "headline": "Mapeemos tu",
+    "headlineHighlight": "Fundación de Datos.",
+    "button": "Agendar una Consulta"
   },
   "footer": {
     "links": {
@@ -152,14 +152,14 @@
   },
   "about": {
     "hero": {
-      "headline": "Construyendo Software para",
-      "headlineHighlight": "Empresas",
-      "description": "Transformamos ideas y necesidades empresariales en soluciones impactantes basadas en datos que ayudan a las empresas a prosperar en la era digital.",
-      "cta": "¡Hablemos!"
+      "headline": "Especialistas en Ingeniería de Datos para",
+      "headlineHighlight": "Empresas del Mercado Medio",
+      "description": "Cabana Data es una firma de consultoría especializada que entrega soluciones de ingeniería de datos, arquitectura e IA a empresas en Costa Rica y LATAM desde 2021.",
+      "cta": "Hablar con Nuestro Equipo"
     },
     "team": {
-      "tagline": "El equipo.",
-      "headline": "¡Conoce a nuestro increíble equipo!",
+      "tagline": "Nuestro Equipo",
+      "headline": "Los Expertos Detrás de Tus Proyectos",
       "description": "Somos un equipo de expertos en datos, desarrollo y diseño. Juntos, creamos soluciones audaces que conectan e inspiran.",
       "roles": {
         "techLead": "Líder Técnico",
@@ -171,14 +171,14 @@
       }
     },
     "story": {
-      "quote": "Hemos recorrido un largo camino. Todo comenzó con un solo desarrollador y un gran sueño",
+      "quote": "De un solo proyecto a una práctica especializada — construimos esta firma manteniéndonos cerca del trabajo de ingeniería.",
       "quoteAuthor": "Walter Bonilla",
-      "quoteRole": "El creador.",
-      "headline": "Equipo pequeño,",
-      "headlineHighlight": "Grandes Resultados",
-      "description": "Somos un equipo dedicado con propósito. Nuestro objetivo es ayudarte a convertirte en un negocio basado en datos y sobresalir en el mundo digital.",
+      "quoteRole": "Fundador y Líder Técnico",
+      "headline": "Expertise profundo,",
+      "headlineHighlight": "Entrega real.",
+      "description": "Somos un equipo dedicado con propósito. Nuestro objetivo es ser el socio de ingeniería de datos más confiable para las empresas del mercado medio en Costa Rica y LATAM.",
       "gotProject": "¿Tienes un proyecto?",
-      "cta": "¡Hablemos!"
+      "cta": "Hablar con Nuestro Equipo"
     }
   },
   "services": {
@@ -399,7 +399,7 @@
         "headline": "¿Tu empresa está lista para la IA?",
         "headlineHighlight": "Descúbrelo antes de invertir.",
         "description": "Ruta IA es nuestro diagnóstico técnico que evalúa tu infraestructura de datos, identifica los bloqueos reales para implementar IA, y te entrega un plan claro de acción — en 2 a 3 semanas.",
-        "cta": "Agenda tu diagnóstico →"
+        "cta": "Realiza tu diagnóstico"
       },
       "problem": {
         "tagline": "El problema que nadie menciona",
@@ -507,7 +507,7 @@
       "cta": {
         "headline": "Tu próximo paso en IA empieza con claridad, no con apuestas.",
         "description": "Agenda una llamada de 30 minutos. Sin compromiso. Te decimos si Ruta IA tiene sentido para tu empresa.",
-        "button": "Quiero mi diagnóstico →"
+        "button": "Solicitar un Diagnóstico"
       }
     }
   },
@@ -589,10 +589,10 @@
     "previous": "Anterior"
   },
   "ourClients": {
-    "eyebrow": "Partners",
-    "headline": "La confianza de nuestros clientes",
-    "description": "Trabajamos con organizaciones que se toman en serio sus datos",
-    "metric": "8+ fuentes de datos unificadas. 95% de reducción en reportes manuales. En 6 empresas de Costa Rica y LATAM."
+    "eyebrow": "Empresas que Confían en Nosotros",
+    "headline": "Organizaciones en Costa Rica y LATAM",
+    "description": "Una selección de las organizaciones con las que hemos trabajado en proyectos de ingeniería de datos, IA y analítica personalizada.",
+    "metric": ""
   },
   "caseStudies": {
     "hero": {
