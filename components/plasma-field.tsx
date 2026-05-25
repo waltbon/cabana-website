@@ -43,15 +43,15 @@ void main(){
   v += pulse * 4.0;
   v *= 0.25;
 
-  float hue = 0.38 + 0.18*sin(v*3.1415 + t*0.3) + u_smouse.x*0.08;
-  float sat = 0.80;
-  float val = 0.55 + 0.45*sin(v*3.1415*2.0);
+  float hue = 0.52 + 0.11*sin(v*3.1415 + t*0.3) + u_smouse.x*0.08;
+  float sat = 0.95;
+  float val = 0.15 + 0.15*sin(v*3.1415*2.0);
 
   vec3 c = clamp(abs(mod(hue*6.0+vec3(0.,4.,2.),6.0)-3.0)-1.0, 0.0, 1.0);
   vec3 col = val * mix(vec3(1.0), c, sat);
 
   col *= smoothstep(1.4, 0.2, length(p));
-  col += vec3(0.5,0.25,0.8) * exp(-r*5.0) * 0.25;
+  col += vec3(0.0, 0.28, 1.0) * exp(-r*5.0) * 0.15;
 
   gl_FragColor = vec4(col, 1.0);
 }

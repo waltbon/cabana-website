@@ -40,7 +40,7 @@
   },
   "hero": {
     "tagline": "CONSULTORÍA EN INGENIERÍA DE DATOS E IA",
-    "headline": "Ingeniería de Datos e IA para Empresas del Mercado Medio",
+    "headline": "Ingeniería de Datos, IA y Software a la Medida",
     "headlineHighlight": "en Costa Rica y LATAM",
     "description": "Llevamos expertise técnico profundo y entrega real a empresas que necesitan que su infraestructura de datos funcione — desde la estrategia hasta producción, en Google Cloud.",
     "cta": "Agendar una Consulta"
@@ -78,7 +78,7 @@
     "services": {
       "dataStrategy": {
         "title": "Data Consulting",
-        "description": "Antes de construir cualquier cosa, nos aseguramos de que estés resolviendo el problema correcto. A través de talleres de descubrimiento y análisis técnico, mapeamos tu realidad actual, identificamos brechas y creamos una hoja de ruta accionable.",
+        "description": "A través de talleres de descubrimiento y análisis técnico, mapeamos tu realidad actual, identificamos brechas y creamos una hoja de ruta accionable.",
         "whatYouGetList": {
           "wyg1": "Evaluación de Preparación para IA",
           "wyg2": "Diagnóstico de Datos",
@@ -89,7 +89,7 @@
       },
       "dataEngineering": {
         "title": "Ingeniería y Arquitectura de Datos",
-        "description": "Conectamos tus sistemas y construimos la infraestructura que convierte datos fragmentados en una única fuente de verdad confiable. Construido sobre Google Cloud Platform con BigQuery y Dataform como núcleo.",
+        "description": "Conectamos tus sistemas y construimos la infraestructura que convierte datos fragmentados en una única fuente de verdad confiable.",
         "whatYouGetList": {
           "wyg1": "Diseño e implementación de data warehouse",
           "wyg2": "Pipelines ETL/ELT automatizados",

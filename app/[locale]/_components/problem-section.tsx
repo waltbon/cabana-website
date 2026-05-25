@@ -36,7 +36,7 @@ export function ProblemSection() {
 
   return (
     <Section className="light:bg-section-light dark:bg-section-dark py-12">
-      <Container className="max-w-7xl">
+      <Container className="w-full max-w-7xl">
         <div className="flex flex-col items-center gap-12">
           {/* Section Header */}
           <FadeIn>
@@ -48,7 +48,7 @@ export function ProblemSection() {
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
                 {t("headline")}
                 <br />
-                <span className="text-cabana-blue">{t("headlineHighlight")}</span>
+                <span className="text-gradient-cabana">{t("headlineHighlight")}</span>
               </h2>
 
               {/* Description */}
@@ -59,7 +59,7 @@ export function ProblemSection() {
           </FadeIn>
 
           {/* Pain Points */}
-          <div className="relative mx-auto w-full max-w-2xl">
+          <div className="relative mx-auto w-full max-w-3xl">
             {/* Vertical connecting line */}
             <div
               className="hidden md:visible absolute left-1/2 top-0 h-full w-2"
