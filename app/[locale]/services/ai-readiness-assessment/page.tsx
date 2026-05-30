@@ -9,7 +9,7 @@ import { PersonasSection } from "./_components/personas-section";
 import { CTASection } from "./_components/cta-section";
 
 export const metadata: Metadata = {
-  title: "Ruta IA — Diagnóstico de Preparación para Inteligencia Artificial | Cabana Data",
+  title: "Cabana Data | Ruta IA: Diagnóstico de Preparación para Inteligencia Artificial",
   description:
     "Evalúa la madurez de tu infraestructura de datos para IA en 2-3 semanas. Ruta IA es el diagnóstico técnico de Cabana Data para empresas latinoamericanas que quieren implementar IA con base sólida.",
   alternates: {
