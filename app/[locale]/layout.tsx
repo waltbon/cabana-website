@@ -43,6 +43,7 @@ export async function generateMetadata({
       "Google Cloud",
       "BigQuery",
       "data-driven",
+      
     ],
     authors: [{ name: siteConfig.site_name }],
     creator: siteConfig.site_name,
@@ -108,7 +109,10 @@ function getJsonLd(locale: string) {
           addressLocality: "San José",
           addressCountry: "CR",
         },
-        sameAs: ["https://www.linkedin.com/company/cabana-data/"],
+        sameAs: [
+          "https://www.linkedin.com/company/cabana-data/",
+          "https://x.com/cabanadata",
+        ],
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "sales",

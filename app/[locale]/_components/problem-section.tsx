@@ -59,7 +59,7 @@ export function ProblemSection() {
           </FadeIn>
 
           {/* Pain Points */}
-          <div className="relative mx-auto w-full max-w-3xl">
+          <div className="relative mx-auto w-full max-w-4xl">
             {/* Vertical connecting line */}
             <div
               className="hidden md:visible absolute left-1/2 top-0 h-full w-2"
@@ -69,7 +69,7 @@ export function ProblemSection() {
             </div>
 
             {/* Pain point items */}
-            <div className="relative flex flex-col gap-12">
+            <div className="relative flex flex-col gap-8">
               {painPoints.map((point, index) => (
                 <FadeIn
                   key={point.key}
@@ -82,7 +82,7 @@ export function ProblemSection() {
                     >
                       {/* Content */}
                       <div
-                        className={`flex max-w-xs flex-col gap-2 ${
+                        className={`flex max-w-sm flex-col gap-2 ${
                           point.alignment === "right" ? "md:ml-auto" : ""
                         } "mx-auto max-w-lg`}
                       >

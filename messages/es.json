@@ -39,32 +39,32 @@
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
   "hero": {
-    "tagline": "CONSULTORÍA EN INGENIERÍA DE DATOS E IA",
-    "headline": "Ingeniería de Datos, IA y Software a la Medida",
-    "headlineHighlight": "en Costa Rica y LATAM",
-    "description": "Llevamos expertise técnico profundo y entrega real a empresas que necesitan que su infraestructura de datos funcione — desde la estrategia hasta producción, en Google Cloud.",
+    "tagline": "INGENIERÍA DE DATOS · APLICACIONES · IA",
+    "headline": "Modernizamos la forma en que las organizaciones operan, deciden y compiten —",
+    "headlineHighlight": "con datos, aplicaciones e IA construidos para durar.",
+    "description": "Cabana Data es un equipo de ingeniería especializado en Google Cloud. Trabajamos con empresas medianas en Costa Rica y LATAM que necesitan tecnología que funcione en producción, no en presentaciones.",
     "cta": "Agendar una Consulta"
   },
   "problem": {
-    "tagline": "Dónde Fallan las Iniciativas de Datos",
-    "headline": "La Brecha entre los Datos",
-    "headlineHighlight": "y el Valor de Negocio",
-    "description": "La mayoría de las iniciativas de datos no fracasan por la tecnología, sino por brechas estructurales en cómo se gobierna, conecta y usa la información para tomar decisiones.",
+    "tagline": "Tres Síntomas. Un Problema de Fondo.",
+    "headline": "Las organizaciones que no escalan tecnológicamente",
+    "headlineHighlight": "no tienen un problema de presupuesto",
+    "description": "Tienen sistemas que nunca fueron diseñados para crecer. Los mismos patrones aparecen en datos, en operaciones y en iniciativas de IA — y todos tienen la misma raíz.",
     "items": {
       "dataChaos": {
-        "title": "Los Datos Viven en Silos",
-        "description": "Las organizaciones acumulan datos en decenas de herramientas a lo largo del tiempo. Sin una arquitectura de integración deliberada, los reportes se vuelven manuales y la confianza en los números se erosiona.",
-        "consequence": "Cuando cada equipo mantiene sus propias exportaciones de datos, las reuniones de alineación reemplazan a las decisiones."
+        "title": "Datos que no se pueden usar para decidir",
+        "description": "No porque no existan — sino porque viven fragmentados, sin gobierno, en herramientas que no se hablan entre sí. Cada área trabaja con su propia versión de los números.",
+        "consequence": "Cuando no hay una fuente de verdad compartida, las reuniones reemplazan a las decisiones y la confianza en los datos se erosiona con cada reporte contradictorio."
       },
       "inefficientProcesses": {
-        "title": "Las Definiciones Divergen entre Equipos",
-        "description": "Sin una capa semántica compartida, la misma métrica significa cosas distintas para distintos equipos — ralentizando decisiones y erosionando la confianza en los datos.",
-        "consequence": "La solución no son más dashboards. Es datos gobernados y unificados desde la base."
+        "title": "Procesos que dependen de personas, no de sistemas",
+        "description": "Flujos de trabajo manuales, reportes en Excel, operaciones que solo funcionan porque alguien sabe cómo hacerlas. Cuando ese conocimiento no está en un sistema, escalar es imposible.",
+        "consequence": "El riesgo operativo crece con cada proceso no documentado. Lo que hoy funciona porque alguien lo sostiene, mañana es el punto de falla más costoso de la organización."
       },
       "uncertainFuture": {
-        "title": "La IA Requiere una Base Primero",
-        "description": "Las iniciativas de IA y automatización fallan cuando los pipelines de datos subyacentes son frágiles. El cuello de botella rara vez es el modelo — es la infraestructura que lo alimenta.",
-        "consequence": "Las empresas que invierten primero en la base de datos obtienen retornos compuestos, ya que cada iniciativa de IA puede construirse sobre datos confiables y gobernados."
+        "title": "Iniciativas de IA que no llegan a producción",
+        "description": "No por falta de ambición — sino porque la infraestructura que las sostiene no estaba lista. Los proyectos de IA que fallan casi siempre fallan antes de escribir una línea de modelo.",
+        "consequence": "Fallan en los datos, en los procesos, en la arquitectura. La IA no es el problema — es el espejo que refleja todo lo que debió construirse primero."
       }
     }
   },
@@ -589,9 +589,9 @@
     "previous": "Anterior"
   },
   "ourClients": {
-    "eyebrow": "Empresas que Confían en Nosotros",
-    "headline": "Organizaciones en Costa Rica y LATAM",
-    "description": "Una selección de las organizaciones con las que hemos trabajado en proyectos de ingeniería de datos, IA y analítica personalizada.",
+    "eyebrow": "Con la Confianza de",
+    "headline": "Organizaciones",
+    "description": "Que ya operan con datos estructurados, aplicaciones a la medida e IA en producción.",
     "metric": ""
   },
   "caseStudies": {

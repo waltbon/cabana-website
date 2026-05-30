@@ -10,6 +10,7 @@ const clients = [
   { id: 2, name: "CIISA", logo: "/clients/ciisa.png" },
   { id: 3, name: "FIFCO", logo: "/clients/fifco.png" },
   { id: 4, name: "London Media", logo: "/clients/london-media.png" },
+  // { id: 5, name: "MadGroup", logo: "/clients/madgroup.png" },
   { id: 5, name: "Siru", logo: "/clients/siru.png" },
   { id: 6, name: "Zebol", logo: "/clients/zebol.png" },
   { id: 7, name: "Huli", logo: "/clients/huli.png" },
@@ -19,7 +20,7 @@ export function OurClientsSection() {
   const t = useTranslations("ourClients");
 
   return (
-    <Section className="border-t border-dashed border-border bg-blue-50 dark:bg-section-dark-2 py-24 ">
+    <Section className="border-t border-dashed border-border bg-blue-50 dark:bg-section-dark-2 py-16 ">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-16">
           {/* Section Header */}
@@ -29,7 +30,7 @@ export function OurClientsSection() {
               <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
                 {t("headline")}
               </h2>
-              <p className="text-base text-muted-foreground">
+              <p className="text-base text-accent-foreground">
                 {t("description")}
               </p>
             </div>

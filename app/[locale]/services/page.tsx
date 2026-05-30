@@ -10,9 +10,9 @@ import { ServiceWhySection } from "./_components/service-why-section";
 import { ServiceGetReadySection } from "./_components/service-get-ready-section";
 
 export const metadata: Metadata = {
-  title: "Services",
+  title: "Cabana Data | Ingeniería de datos y Consultoría de IA",
   description:
-    "Data Strategy & Consulting, Data Engineering & Architecture, Custom Application Development, and AI & Machine Learning Solutions. Everything we do is data-driven.",
+    "Ayudamos a empresas de América Latina y Estados Unidos a crear flujos de datos escalables y profesionales",
   alternates: {
     canonical: "/services",
   },

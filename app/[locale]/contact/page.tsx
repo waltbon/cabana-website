@@ -1,12 +1,11 @@
 import { Metadata } from "next";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
-import { Section } from "@/components/craft";
 import { ContactFormSection } from "./_components";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contáctenos",
   description:
-    "Get a free 30-minute Data Strategy Session with our tech leaders. Let's discuss how we can help transform your business with data-driven solutions.",
+    "Te brindamos una sesión gratuita con nuestros expertos en tecnología. Analicemos cómo podemos ayudarte a transformar tu negocio con soluciones modernas.",
   alternates: {
     canonical: "/contact",
   },

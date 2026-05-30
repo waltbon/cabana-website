@@ -44,8 +44,8 @@ export const Nav = ({ className, children, id }: NavProps) => {
           <span className="text-xs -mb-3 -ml-3">🇨🇷</span>
         </Link>
         {children}
-        <div className="flex items-center gap-2">
-          <NavigationMenu className="mx-2 hidden md:flex">
+        <div className="flex items-center gap-1">
+          <NavigationMenu className="mx-1 hidden md:flex">
             <NavigationMenuList>
               {Object.entries(mainMenu).map(([key, item]) => {
                 if (typeof item === "string") {
@@ -98,10 +98,10 @@ export const Nav = ({ className, children, id }: NavProps) => {
               })}
             </NavigationMenuList>
           </NavigationMenu>
+          <LanguageSwitcher />
           <Button asChild className="hidden sm:flex">
             <Link href="/contact">{t("getStarted")}</Link>
           </Button>
-          <LanguageSwitcher />
           <MobileNav />
         </div>
       </div>

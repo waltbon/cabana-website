@@ -28,24 +28,9 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="h-9 w-9 cursor-pointer border">
-          { locale === 'es' ? '🇺🇸' : '🇪🇸'}
-          <span className="sr-only">Switch language</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        {locales.map((loc) => (
-          <DropdownMenuItem
-            key={loc}
-            onClick={() => switchLocale(loc)}
-            className={locale === loc ? "bg-accent" : ""}
-          >
-            {localeNames[loc]}
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <Button variant='ghost' size='sm' className="cursor-pointer text-xs" onClick={() => switchLocale(locale === 'es' ? 'en' : 'es')}>
+      {locale === 'es' ? '🇺🇸EN' : '🇨🇷 ES'}
+      <span className="sr-only">Switch language</span>
+    </Button>
   );
 }
