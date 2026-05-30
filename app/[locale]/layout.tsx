@@ -103,6 +103,11 @@ function getJsonLd(locale: string) {
           "@type": "ImageObject",
           url: `${siteConfig.site_domain}/logo-horizontal-light.svg`,
         },
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "San José",
+          addressCountry: "CR",
+        },
         sameAs: ["https://www.linkedin.com/company/cabana-data/"],
         contactPoint: {
           "@type": "ContactPoint",
