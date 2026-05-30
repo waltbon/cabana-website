@@ -10,8 +10,8 @@ import { Card } from "@/components/ui/card";
 const services = [
   { key: "dataStrategy", icon: PlaneIcon },
   { key: "dataEngineering", icon: Cloud },
-  { key: "customDevelopment", icon: AppWindowIcon },
-  { key: "aiMl", icon: Sparkles },
+  { key: "customApps", icon: AppWindowIcon },
+  { key: "aiSolutions", icon: Sparkles },
 ];
 
 export function SolutionSection() {
@@ -20,7 +20,7 @@ export function SolutionSection() {
   return (
     <div className="bg-cabana-dark">
       <Section className=" text-white dark:bg-section-dark-2 py-12">
-        <Container className="max-w-7xl px-6">
+        <Container className="max-w-full px-6">
           <div className="flex flex-col items-center gap-12">
             {/* Section Header */}
             <FadeIn>
@@ -49,18 +49,18 @@ export function SolutionSection() {
                   key={service.key}
                   className="flex flex-col gap-5"
                 >
-                  <Card className="px-8 py-10 space-y-4 bg-gradient-cabana dark border border-gray-800 shadow-sm shadow-gray-50">
+                  <Card className="px-8 py-10 space-y-4 bg-gray-950 dark border rounded-3xl border-gray-800 shadow-sm ">
 
                     {/* Content */}
-                    <div className="flex flex-col gap-4">
-                      <h3 className="text-3xl font-semibold text-white">
+                    <div className="flex flex-col gap-3">
+                      <h3 className="text-3xl font-bold text-cabana-green">
                         {t(`services.${service.key}.title`)}
                       </h3>
-                      <p className="text-base leading-relaxed text-white/80">
+                      <p className="text-sm leading-5 text-white/80">
                         {t(`services.${service.key}.description`)}
                       </p>
 
-                      <span className="leading-relaxed uppercase text-sm font-bold mt-2 text-gradient-cabana">
+                      <span className="leading-relaxed uppercase text-sm font-bold mt-2 text-cabana-green">
                         {t(`whatYouGet`)}
                       </span>
                       <ul className="list-none flex flex-col text-white/80">
@@ -69,7 +69,7 @@ export function SolutionSection() {
                         {t(`services.${service.key}.whatYouGetList.wyg3`) && <li className="flex flex-row items-center gap-2 space-x-1.5`"><ArrowRight className="text-muted-foreground" size={12} /> <span>{t(`services.${service.key}.whatYouGetList.wyg3`)}</span></li>}
                         {t(`services.${service.key}.whatYouGetList.wyg4`) && <li className="flex flex-row items-center gap-2 space-x-1.5`"><ArrowRight className="text-muted-foreground" size={12} /> <span>{t(`services.${service.key}.whatYouGetList.wyg4`)}</span></li>}
                       </ul>
-                      <span className="leading-relaxed uppercase text-sm font-bold mt-2 text-gradient-cabana">
+                      <span className="leading-relaxed uppercase text-sm font-bold mt-2 text-cabana-green">
                         {t(`outcome`)}
                       </span>
                       <p className="text-white/80">{t(`services.${service.key}.outcome`)}</p>

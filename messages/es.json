@@ -70,55 +70,55 @@
   },
   "solution": {
     "tagline": "NUESTRO ENFOQUE",
-    "headline": "Del caos de datos a una organización que",
-    "headlineHighlight": "decide con claridad",
+    "headline": "Servicios que",
+    "headlineHighlight": "Ofrecemos",
     "description": "Cada capa se construye sobre la anterior. Nuestra metodología va del diagnóstico a la producción, asegurando que cada inversión tenga una justificación de negocio clara.",
     "whatYouGet": "Qué obtienes:",
     "outcome": "Resultado",
     "services": {
       "dataStrategy": {
-        "title": "Data Consulting",
-        "description": "A través de talleres de descubrimiento y análisis técnico, mapeamos tu realidad actual, identificamos brechas y creamos una hoja de ruta accionable.",
+        "title": "Consultoría de Datos",
+        "description": "Antes de construir cualquier cosa, conectamos fuentes de datos que llevan años operando en paralelo sin hablarse entre sí. A través de talleres de descubrimiento y análisis técnico, mapeamos su realidad actual, identificamos brechas y definimos en qué orden construirlo.",
         "whatYouGetList": {
           "wyg1": "Evaluación de Preparación para IA",
           "wyg2": "Diagnóstico de Datos",
           "wyg3": "Estudio de Factibilidad de Producto Digital",
           "wyg4": "Talleres de Design Thinking"
         },
-        "outcome": "Dejas de construir lo equivocado. Cada dólar invertido en infraestructura de datos desde aquí tiene una justificación clara de negocio."
+        "outcome": "Al final del proceso, su organización sabe exactamente qué tiene, qué le falta y en qué orden construirlo. Sin suposiciones, sin hojas de ruta genéricas."
       },
       "dataEngineering": {
         "title": "Ingeniería y Arquitectura de Datos",
-        "description": "Conectamos tus sistemas y construimos la infraestructura que convierte datos fragmentados en una única fuente de verdad confiable.",
+        "description": "Construimos infraestructura de datos desde cero para organizaciones que operan sin una fuente de verdad consolidada. BigQuery, Dataform y pipelines automatizados que reemplazan el caos de exportaciones manuales y sistemas que nunca fueron diseñados para integrarse.",
         "whatYouGetList": {
           "wyg1": "Diseño e implementación de data warehouse",
           "wyg2": "Pipelines ETL/ELT automatizados",
           "wyg3": "Integración de datos en tiempo real",
-          "wyg4": "Arquitectura escalable y rentable"
+          "wyg4": "Arquitectura escalable sobre Google Cloud"
         },
-        "outcome": "Tu equipo deja de discutir sobre cuáles números son correctos. Una fuente única de verdad, siempre actualizada, accesible en cada herramienta que usas."
+        "outcome": "Su equipo deja de buscar el número correcto y empieza a usarlo para decidir. Un warehouse que antes no existía, hoy es la fuente central de toda la organización."
       },
-      "customDevelopment": {
-        "title": "Aplicaciones y Dashboards Personalizados",
-        "description": "Los datos solo tienen valor si las personas pueden usarlos. Construimos aplicaciones y dashboards a medida que hacen que tus datos sean accesibles, interactivos y accionables en toda tu organización.",
+      "customApps": {
+        "title": "Aplicaciones y Dashboards a la Medida",
+        "description": "Diseñamos y construimos plataformas operativas para organizaciones que gestionan su negocio en correos, hojas de cálculo y procesos que dependen de personas clave. Cada aplicación se construye desde el proceso real, no desde una plantilla genérica adaptada a medias.",
         "whatYouGetList": {
-          "wyg1": "Plataformas operativas y herramientas internas",
-          "wyg2": "Dashboards interactivos y reportes",
+          "wyg1": "Plataformas operativas e internas",
+          "wyg2": "Dashboards e informes interactivos",
           "wyg3": "Automatización de flujos de trabajo",
-          "wyg4": "Aplicaciones construidas con Next.js, React y Angular"
+          "wyg4": "Aplicaciones en Next.js, React y Angular"
         },
-        "outcome": "Los reportes que se enviaban como PDFs por correo se convierten en plataformas vivas que tu equipo abre cada mañana."
+        "outcome": "El equipo pasa de operar sin sistema a tener una plataforma centralizada que realmente usa — porque fue construida exactamente para cómo trabajan."
       },
-      "aiMl": {
-        "title": "Agentes de AI y Sistemas Inteligentes",
-        "description": "Con una base sólida en su lugar, la IA finalmente puede cumplir su promesa. Implementamos sistemas inteligentes que automatizan procesos, descubren insights y habilitan la toma de decisiones predictiva.",
+      "aiSolutions": {
+        "title": "IA y Sistemas Inteligentes",
+        "description": "Implementamos sistemas de IA que funcionan en el núcleo de la operación, no en una presentación. Modelos que toman decisiones en tiempo real, sobre infraestructura de datos bien construida — porque sin esa base, ningún modelo llega a producción.",
         "whatYouGetList": {
           "wyg1": "Automatización de procesos con IA",
-          "wyg2": "Integración de LLMs y funcionalidades de IA",
+          "wyg2": "Integración de LLMs y features impulsados por IA",
           "wyg3": "Analítica predictiva",
           "wyg4": "Enrutamiento inteligente y recomendaciones"
         },
-        "outcome": "IA que funciona en producción — no un proof of concept que se archiva después del piloto."
+        "outcome": "No un piloto archivado. Un modelo en producción que hoy toma decisiones operativas en tiempo real — construido sobre la infraestructura que lo hace sostenible."
       }
     }
   },
