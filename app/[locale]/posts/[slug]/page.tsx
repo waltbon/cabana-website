@@ -127,7 +127,7 @@ export default async function Page({
           <div className="absolute inset-0 bg-linear-to-br from-[#0048ff]/10 via-transparent to-cabana-green/5" />
         )}
 
-        <Container className="relative z-10 py-16 md:py-24">
+        <Container className="relative z-10 py-16 md:py-24 max-w-5xl">
           {/* Category badge */}
           {category && (
             <div className="mb-5">
@@ -175,7 +175,7 @@ export default async function Page({
 
       {/* ── Article Body ── */}
       <Section>
-        <Container>
+        <Container className="max-w-6xl">
           <div className="grid lg:grid-cols-[1fr_340px] gap-12 items-start">
             <MdxLayout><Post /></MdxLayout>
             <PostSidebar />

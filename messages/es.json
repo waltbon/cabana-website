@@ -563,6 +563,13 @@
     }
   },
   "blog": {
+    "postSidebar": {
+      "badge": "Consultoría de datos",
+      "heading": "¿Querés saber dónde está tu empresa?",
+      "description": "Dejanos tu información y uno de nuestros expertos se pondrá en contacto para conversar sobre el estado de tu infraestructura de datos.",
+      "submitLabel": "Quiero hablar con un experto →",
+      "disclaimer": "Sin compromiso · Respuesta en menos de 24h"
+    },
     "title": "Todos los Artículos",
     "postsFound": "{count} artículo(s) encontrado(s)",
     "search": "Buscar artículos...",

@@ -563,6 +563,13 @@
     }
   },
   "blog": {
+    "postSidebar": {
+      "badge": "Data Consulting",
+      "heading": "Want to know where your company stands?",
+      "description": "Leave us your information and one of our experts will reach out to discuss the state of your data infrastructure.",
+      "submitLabel": "I want to talk to an expert →",
+      "disclaimer": "No commitment · Response within 24h"
+    },
     "title": "All Posts",
     "postsFound": "{count} post(s) found",
     "search": "Search posts...",

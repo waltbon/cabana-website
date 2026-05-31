@@ -81,7 +81,7 @@ export default async function Page({
       <Container>
         <div className="space-y-8">
           <Prose>
-            <h2>All Posts</h2>
+            <h2>Todos los posts</h2>
             <p className="text-muted-foreground">
               {total} {total === 1 ? "post" : "posts"} found
               {search && " matching your search"}

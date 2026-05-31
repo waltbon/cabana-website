@@ -20,21 +20,21 @@ export function PostSidebar() {
     >
       <div className="rounded-xl border border-border bg-card p-6 space-y-4">
         <div>
-          <Badge variant="outline" className="mb-2 text-xs font-semibold uppercase tracking-widest">
-            Consultoría de datos
+          <Badge variant="green" className="mb-2 text-xs font-semibold uppercase tracking-widest">
+            Converse con un experto
           </Badge>
           <h3 className="text-xl font-bold text-foreground leading-snug mb-2">
-            ¿Querés saber dónde está tu empresa?
+            Contáctanos
           </h3>
-          <p className="text-sm text-muted-foreground leading-6">
-            Dejanos tu información y uno de nuestros expertos se pondrá en contacto para conversar sobre el estado de tu infraestructura de datos.
+          <p className="text-sm text-muted-foreground leading-5">
+            Dejanos tu información y uno de nuestros expertos se pondrá en contacto para conversar sobre tu iniciativa.
           </p>
         </div>
 
         <LeadCaptureForm submitLabel="Quiero hablar con un experto →" />
 
         <p className="text-xs text-muted-foreground text-center leading-[1.6]">
-          Sin compromiso · Respuesta en menos de 24h
+          Sin compromiso · Pronta respuesta
         </p>
       </div>
     </motion.div>

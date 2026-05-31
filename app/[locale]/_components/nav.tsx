@@ -17,6 +17,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { Calendar1 } from "lucide-react";
 
 export const Nav = ({ className, children, id }: NavProps) => {
   const t = useTranslations("nav");
@@ -28,7 +29,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
     >
       <div
         id="nav-container"
-        className="max-w-5xl mx-auto py-3 px-6 sm:px-8 flex justify-between items-center"
+        className="max-w-5xl mx-auto py-2 px-6 sm:px-8 flex justify-between items-center"
       >
         <Link
           className="hover:opacity-75 transition-all flex gap-4 items-center"
@@ -99,7 +100,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
             </NavigationMenuList>
           </NavigationMenu>
           <LanguageSwitcher />
-          <Button asChild className="hidden sm:flex">
+          <Button asChild className="hidden sm:flex" size={'sm'}> 
             <Link href="/contact">{t("getStarted")}</Link>
           </Button>
           <MobileNav />

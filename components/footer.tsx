@@ -70,12 +70,12 @@ export const Footer = () => {
               {/* Logo */}
               <Link href="/" className="block">
                 <ThemeLogo
-                  lightSrc="/logo-vertical-light.svg"
-                  darkSrc="/logo-vertical-dark.svg"
+                  lightSrc="/logo-horizontal-light.svg"
+                  darkSrc="/logo-horizontal-dark.svg"
                   alt={siteConfig.site_name}
-                  width={151}
-                  height={120}
-                  className="h-[120px] w-auto"
+                  width={120}
+                  height={80}
+                  className="h-10 w-auto"
                 />
               </Link>
 

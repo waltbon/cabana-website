@@ -56,7 +56,7 @@ export function SolutionSection() {
                       <h3 className="text-3xl font-bold text-cabana-green">
                         {t(`services.${service.key}.title`)}
                       </h3>
-                      <p className="text-sm leading-5 text-white/80">
+                      <p className="text-base leading-5 text-white/80">
                         {t(`services.${service.key}.description`)}
                       </p>
 

@@ -1,0 +1,64 @@
+# El error más caro en un proyecto de datos no es técnico
+ 
+**Autor:** Walter Bonilla · Cabana Data  
+**Tipo:** Opinión / Posicionamiento  
+**Keyword:** dashboard de datos confiables
+ 
+---
+ 
+Los clientes llegan con una frase que ya reconocemos: *"necesitamos un dashboard."*
+ 
+Casi siempre, el problema real es otro.
+ 
+No lo decimos para complicar la conversación. Lo decimos porque después de varios proyectos en Costa Rica y LATAM, el patrón es demasiado consistente para ignorarlo: el dashboard es el síntoma visible de un problema de datos que todavía no se ha diagnosticado. Construirlo antes de resolver ese problema es costoso, y lo es dos veces.
+ 
+## El momento en que el problema se hace visible
+ 
+Hay un instante en cada workshop de discovery que lo revela todo. Le preguntamos al equipo de finanzas cómo definen "ventas del mes." Después le hacemos la misma pregunta al equipo comercial.
+ 
+Las respuestas no coinciden.
+ 
+No porque alguien esté equivocado. Cada equipo construyó su propia versión de la verdad con los datos que tenía disponibles y los filtros que le hacen sentido para su trabajo. Cuando esas versiones conviven sin un modelo compartido, el dashboard que construyas encima hereda esa contradicción desde el primer día.
+ 
+El problema no es el dashboard. El problema es que no hay una definición acordada de los números que ese dashboard va a mostrar.
+ 
+## Dos casos que ilustran el patrón
+ 
+El primer caso: una agencia cuya operación de analítica dependía completamente de hojas de Excel. No era un sistema provisional, era la columna vertebral de sus reportes al cliente, construida y mantenida por un solo analista durante años.
+ 
+El problema no era que Excel no escalara, aunque eso también era cierto. El problema era que ese analista era el único que entendía la lógica detrás de las hojas. Las fórmulas no estaban documentadas, los datos de entrada no estaban estandarizados, y cualquier cambio en el negocio requería su intervención manual. Si esa persona salía de la empresa, el negocio perdía su capacidad analítica completa.
+ 
+Llegaron pidiendo un dashboard más moderno. Lo que necesitaban era sacar esa lógica de la cabeza de una persona y ponerla en infraestructura que el equipo pudiera operar y auditar.
+ 
+El segundo caso es casi el opuesto en apariencia: una empresa con ERP, CRM y plataforma de e-commerce, todos funcionando correctamente. Sistemas robustos, datos reales. El problema era que nadie había construido los puentes entre ellos. Cada sistema era confiable dentro de su dominio, pero eran islas. El equipo de dirección tomaba decisiones con reportes extraídos manualmente de cada sistema y consolidados en, otra vez, una hoja de Excel.
+ 
+Pedían un dashboard. Lo que necesitaban era una capa de integración que conectara sus fuentes y les diera una vista unificada por primera vez.
+ 
+## Por qué el camino corto se paga dos veces
+ 
+La presión por empezar rápido es real. Un directivo quiere ver números en pantalla antes de fin de mes. El equipo ya eligió la herramienta de BI. El proveedor anterior prometió resultados en dos semanas.
+ 
+Entendemos esa presión. Un dashboard provisional puede tener sentido como artefacto de alineación, para que el equipo vea con sus propios ojos qué tan inconsistentes son sus datos actuales. Eso tiene valor.
+ 
+Pero cuando ese provisional se convierte en el producto final, el costo llega en dos momentos distintos. Primero cuando el dashboard muestra números que nadie confía y alguien tiene que ir a validarlos manualmente antes de cada reunión. Después cuando hay que reconstruirlo entero sobre una base que debió haberse resuelto desde el principio.
+ 
+No es un problema de herramientas. Power BI, Looker, Tableau: todas hacen bien su trabajo. El problema es qué les das de comer.
+ 
+## Cómo se ve cuando el proceso se hace bien
+ 
+El primer entregable de un proyecto de datos bien ejecutado no es visual. Es un documento: qué significa cada métrica, de dónde viene cada dato, quién es responsable de su calidad, qué pasa cuando hay conflicto entre fuentes.
+ 
+Ese trabajo no es glamoroso. A veces cuesta convencer al cliente de que vale la pena hacerlo antes de tocar una herramienta de visualización. Pero es lo que hace que el dashboard que viene después sea uno que el equipo realmente abre por las mañanas, en lugar de uno que se presenta en la reunión de directivos y se cierra con más preguntas que respuestas.
+ 
+En el caso de la agencia, el proyecto real empezó cuando documentamos y migramos la lógica de negocio antes de escribir una sola query. En el caso de la empresa con múltiples sistemas, empezó cuando diseñamos la arquitectura de integración antes de conectar ninguna herramienta. En ambos casos, el tiempo invertido en ese trabajo previo se recuperó en la primera semana de operación.
+ 
+## La pregunta que vale hacerse antes de pedir un dashboard
+ 
+Hay una pregunta que puede ahorrarle mucho tiempo y dinero a cualquier empresa que esté evaluando un proyecto de datos: ¿tu equipo puede ponerse de acuerdo en cómo se calcula el número más importante de tu negocio?
+ 
+Si la respuesta es sí, y pueden mostrarte de dónde sale ese número en sus sistemas actuales, están listos para construir encima.
+ 
+Si la respuesta genera una conversación incómoda, ahí está el proyecto real.
+ 
+Hacemos ese diagnóstico a través de nuestro [Data Health Check](https://cabanadata.com/contact). Si querés saber en qué estado están tus datos antes de invertir en infraestructura o visualización, por ahí empezamos.
+ 
