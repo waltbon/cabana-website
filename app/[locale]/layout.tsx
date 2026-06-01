@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
 import { Reddit_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
+import Script from "next/script";
 
 import { siteConfig } from "@/site.config";
 import { locales, type Locale } from "@/i18n/config";
@@ -185,6 +186,20 @@ export default async function LocaleLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        {/* LinkedIn Insight Tag */}
+        <Script id="linkedin-insight" strategy="afterInteractive">{`
+          _linkedin_partner_id = "10268489";
+          window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+          window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+        `}</Script>
+        <Script
+          id="linkedin-insight-loader"
+          src="https://snap.licdn.com/li.lms-analytics/insight.min.js"
+          strategy="afterInteractive"
+        />
+        <noscript>
+          <img height="1" width="1" style={{ display: "none" }} alt="" src="https://px.ads.linkedin.com/collect/?pid=10268489&fmt=gif" />
+        </noscript>
         <NextIntlClientProvider messages={messages}>
           {/* Skip to content link for accessibility */}
           <a
