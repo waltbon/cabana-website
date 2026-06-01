@@ -28,8 +28,8 @@ export async function generateMetadata({
   }
 
   const ogUrl = new URL(`${siteConfig.site_domain}/api/og`);
-  ogUrl.searchParams.append("title", post.title.rendered);
-  const description = post.excerpt.rendered.replace(/<[^>]*>/g, "").trim();
+  ogUrl.searchParams.append("title", post.title);
+  const description = post.excerpt.replace(/<[^>]*>/g, "").trim();
   ogUrl.searchParams.append("description", description);
 
   const postImage = post.featuredMediaSourceUrl
@@ -39,7 +39,7 @@ export async function generateMetadata({
   const category = getCategoryBySlug(post.category);
 
   return {
-    title: post.title.rendered,
+    title: post.title,
     description: description,
     alternates: {
       canonical: `/posts/${slug}`,
@@ -50,7 +50,7 @@ export async function generateMetadata({
     },
     openGraph: {
       type: "article",
-      title: post.title.rendered,
+      title: post.title,
       description: description,
       url: `${siteConfig.site_domain}/posts/${post.slug}`,
       siteName: siteConfig.site_name,
@@ -58,11 +58,11 @@ export async function generateMetadata({
       publishedTime: post.date,
       authors: [post.author],
       section: category?.name,
-      images: [{ url: postImage, width: 1200, height: 630, alt: post.title.rendered }],
+      images: [{ url: postImage, width: 1200, height: 630, alt: post.title }],
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title.rendered,
+      title: post.title,
       description: description,
       images: [postImage],
     },
@@ -93,12 +93,12 @@ export default async function Page({
   const author = getAuthorByName(post.author);
 
   // Strip HTML for plain text description
-  const description = post.excerpt.rendered.replace(/<[^>]*>/g, "").trim();
+  const description = post.excerpt.trim();
 
   return (
     <>
       <ArticleSchema
-        headline={post.title.rendered}
+        headline={post.title}
         description={description}
         datePublished={post.date}
         dateModified={post.modified}
@@ -116,7 +116,7 @@ export default async function Page({
           <>
             <Image
               src={featuredMedia}
-              alt={post.title.rendered}
+              alt={post.title}
               fill
               className="object-cover opacity-20"
               priority
@@ -141,8 +141,8 @@ export default async function Page({
           )}
 
           {/* Title */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight max-w-3xl mb-5">
-            <span dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight max-w-7xl mb-5">
+            <span dangerouslySetInnerHTML={{ __html: post.title }} />
           </h1>
 
           {/* Excerpt */}

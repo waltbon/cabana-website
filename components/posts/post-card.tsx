@@ -25,7 +25,7 @@ export function PostCard({ post }: { post: Post }) {
             <Image
               className="h-full w-full object-cover"
               src={post.featuredMediaSourceUrl}
-              alt={post.title?.rendered || "Post thumbnail"}
+              alt={post.title || "Post thumbnail"}
               width={400}
               height={200}
             />
@@ -37,15 +37,15 @@ export function PostCard({ post }: { post: Post }) {
         </div>
         <div
           dangerouslySetInnerHTML={{
-            __html: post.title?.rendered || "Untitled Post",
+            __html: post.title || "Untitled Post",
           }}
           className="text-xl text-primary font-medium group-hover:underline decoration-muted-foreground underline-offset-4 decoration-dotted transition-all"
         ></div>
         <div
           className="text-sm"
           dangerouslySetInnerHTML={{
-            __html: post.excerpt?.rendered
-              ? post.excerpt.rendered.split(" ").slice(0, 12).join(" ").trim() +
+            __html: post.excerpt
+              ? post.excerpt.split(" ").slice(0, 12).join(" ").trim() +
                 "..."
               : "No excerpt available",
           }}

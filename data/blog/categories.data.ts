@@ -2,18 +2,24 @@ import { PostCategory } from "@/types/blog/category";
 
 export type PostCategoryType = 
     'data-strategy' | 
-    'ai-readiness-assessment'
+    'ai' | 
+    'software-architecture'
 ;
 
 export const CATEGORIES: PostCategory[] = [
     {
         slug: 'data-strategy',
-        name: 'Data Strategy',
+        name: 'Estrategia de Datos',
         description: ''
     },
     {
-        slug: 'ai-readiness-assessment',
-        name: 'AI Readiness Assessment',
+        slug: 'ai',
+        name: 'Inteligencia Artificial',
+        description: ''
+    },
+    {
+        slug: 'software-architecture',
+        name: 'Arquitectura de Software',
         description: ''
     }
 ]

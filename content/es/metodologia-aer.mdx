@@ -1,0 +1,122 @@
+# **Antes de escribir una línea de código, nuestro cliente necesitaba saber qué construir**
+
+**Autor: Walter Bonilla** **Tipo: Engineering Deep Dive** **Publicación: 31 mayo 2026**
+
+---
+
+Un cliente llegó con años de marcos de trabajo propios, un equipo que ya usaba IA en su operación diaria, y una pregunta que ninguna llamada de 30 minutos iba a responder: *¿hacia dónde debería ir nuestra arquitectura?*
+
+No era una pregunta de tecnología. Era una pregunta de certeza.
+
+---
+
+## **El problema real detrás de la pregunta técnica**
+
+Nuestro cliente opera en el sector de finanzas personales en Costa Rica. Durante años construyeron metodologías propias, frameworks de trabajo, y procesos documentados que representan su ventaja competitiva.
+
+Cuando adoptaron IA, no fue un experimento aislado. Fue una transformación real que aceleró su operación. El equipo creció en capacidad. Los procesos mejoraron. Y con ese crecimiento llegó un problema nuevo: su negocio ahora dependía críticamente de una combinación de frameworks propios más herramientas de IA, y nadie tenía claridad sobre qué arquitectura técnica podría soportar ese crecimiento de forma sostenible.
+
+La operación diaria del equipo ya giraba alrededor de documentos, hojas de cálculo y workflows que, aunque manejados con orden, se volvían cada vez más difíciles de controlar conforme la empresa crecía. La pregunta de fondo era: *¿cómo construimos algo que dure, sin apostarlo todo a una sola decisión tomada con información incompleta?*
+
+Nosotros no conocíamos su negocio. Ellos no sabían exactamente qué era posible construir. Esa asimetría de información, sin un proceso para reducirla rápidamente, es donde más proyectos fallan.
+
+---
+
+## **Por qué una llamada de descubrimiento no es suficiente**
+
+La respuesta instintiva en estos casos es: "agendemos una reunión, levantamos requerimientos, y proponemos algo." El problema es que ese proceso asume que el cliente puede articular todos sus requerimientos de forma completa desde el inicio, y que nosotros podemos proponer una arquitectura acertada sin entender el negocio a fondo.
+
+Ninguna de las dos cosas es cierta.
+
+Los proyectos con resultados inesperados que hemos visto, dentro y fuera de nuestra operación, tienen patrones comunes:
+
+- Decisiones tomadas por el proveedor sin comunicar el impacto real en esfuerzo, tiempo o costo.  
+- Información omitida por el cliente, no por mala fe, sino porque no sabía que era relevante.  
+- Expectativas que nunca se tradujeron de nivel estratégico a nivel técnico, ni al revés.  
+- Riesgos que nadie listó al inicio porque nadie preguntó de forma sistemática.
+
+El resultado en todos esos casos es el mismo: un entregable que técnicamente funciona pero que no resuelve lo que el negocio realmente necesitaba.
+
+---
+
+## **El AEB: un framework para tomar decisiones arquitectónicas con información real**
+
+El Architecture Evaluation Brief (AEB) es el proceso que usamos para resolver exactamente ese problema, en el menor tiempo posible.
+
+Su objetivo es cubrir dos cosas de forma simultánea:
+
+1. **Descubrimiento:** Reducir la incertidumbre de ambas partes. El cliente entiende qué es posible construir; nosotros entendemos qué necesita el negocio.  
+2. **Definición:** Determinar qué caminos arquitectónicos existen, cuál encaja mejor con el contexto, y en cuánto tiempo se obtiene valor real.
+
+No es un documento de ventas. Es un artefacto técnico que produce una decisión informada.
+
+---
+
+## **Qué produce el AEB en concreto**
+
+El output del AEB no es una recomendación vaga. Es un conjunto de artefactos específicos:
+
+**Tabla comparativa de opciones arquitectónicas.** Dos o tres opciones evaluadas en ejes críticos: complejidad de desarrollo, costo inicial, costo operativo, time-to-market, y escalabilidad a 2-3 años.
+
+**Análisis de supuestos y riesgos.** Una lista formal de los riesgos identificados por categoría (técnico, operativo, legal, negocio) con la mitigación sugerida para cada uno. Esto no es un checkbox. Es el ejercicio más honesto que se puede hacer antes de firmar un contrato.
+
+**Perfiles detallados de cada opción.** Para cada alternativa arquitectónica: los componentes clave, el stack sugerido, y una matriz de trade-offs explícita, con ventajas y riesgos identificados.
+
+**Señal de Fit.** La sección más importante del documento. Aquí se identifica qué opción encaja mejor con el contexto específico del cliente, se explica el razonamiento, y se listan las condiciones que cambiarían esa lectura.
+
+Opcionalmente, el AEB puede activar secciones adicionales: modelo de datos, diagrama C4 de la arquitectura, un ADR (Architecture Decision Record), o una estimación de costos y roadmap de entrega.
+
+---
+
+## **Las tres opciones que presentamos al cliente**
+
+Para este cliente específico, el AEB produjo tres opciones arquitectónicas.
+
+**Opción A: Custom Full-Stack con RAG Layer.** Construir una aplicación web completa desde cero, con control máximo sobre el modelo de datos y la seguridad multi-tenant. Es la arquitectura más escalable y permite intercambiar la capa de IA según evolucionen los modelos. El costo: mayor inversión inicial y entre 4 y 7 meses para un MVP funcional.
+
+**Opción B: Híbrida Low-Code Core con IA Custom.** Combinar una base operativa de bajo código (Supabase) con una capa de IA propia basada en RAG. Reduce el time-to-market a 6-10 semanas para el MVP y el costo de desarrollo es significativamente menor. El trade-off: menos control sobre la capa de datos base, y dependencia en un proveedor de low-code para la operación central. Esta fue la opción recomendada.
+
+**Opción C: SaaS Existente con Automatización.** Usar herramientas como Airtable como núcleo operativo, con Make o Zapier para automatizaciones. La más rápida de activar (2-4 semanas) y con costo inicial mínimo. El problema: no genera un producto propio, la escalabilidad es limitada, y la auditoría y seguridad de datos se vuelven difíciles de controlar conforme crece el negocio.
+
+La Opción B fue recomendada porque el cliente necesitaba validar el flujo operativo real antes de invertir en una arquitectura full custom. Construir primero, iterar sobre lo que realmente se usa, y luego decidir si la escala justifica moverse a la Opción A.
+
+---
+
+## **Por qué la Opción A no fue la respuesta, aunque sea la más escalable**
+
+Aquí vale la pena ser directo: la arquitectura más escalable no es siempre la decisión correcta.
+
+La Opción A ofrece control máximo y escalabilidad a largo plazo. También requiere la mayor inversión y el timeline más largo. Para un negocio que está en proceso de validar qué parte de su operación realmente necesita un producto digital propio, invertir en una arquitectura full custom desde el día uno es asumir un riesgo de negocio innecesario.
+
+La Opción B permite llegar a producción en semanas, no meses. Eso significa que el cliente puede empezar a usar el sistema, identificar qué funciona y qué necesita cambiar, y tomar decisiones de arquitectura futura con datos reales de uso en lugar de suposiciones.
+
+La Opción C fue descartada porque aunque resuelve el problema a corto plazo, no genera un activo técnico propio del cliente. Si el negocio crece, los datos y los flujos quedan en manos de terceros, y migrar después es considerablemente más costoso que construir bien desde el inicio.
+
+---
+
+## **Cuándo usar el AEB**
+
+El AEB tiene más valor cuando:
+
+- Hay incertidumbre genuina sobre qué arquitectura es la correcta y el cliente no tiene un equipo técnico interno que pueda evaluarlo.  
+- El proyecto tiene múltiples alternativas viables con trade-offs significativos entre ellas.  
+- La decisión va a afectar la operación del negocio durante varios años.  
+- Existe asimetría de información entre el cliente y el equipo técnico que hay que resolver antes de comprometer presupuesto.
+
+No tiene sentido como proceso si el problema está claramente definido, el stack está fijo por restricciones existentes, o el alcance es suficientemente acotado para que una sesión de discovery cubra todo.
+
+---
+
+## **FAQ**
+
+**¿Cuánto tiempo toma el AEB?** Depende de la complejidad del negocio y cuántas opciones arquitectónicas tiene sentido evaluar. Para un proyecto de mediana complejidad, entre una y dos semanas de trabajo focalizado es suficiente para producir un AEB completo.
+
+**¿El AEB garantiza que el proyecto saldrá bien?** No. Lo que garantiza es que la decisión arquitectónica se toma con información real, con los riesgos identificados, y con expectativas alineadas entre ambas partes. La ejecución después del AEB sigue siendo lo que determina el resultado.
+
+**¿Es necesario si ya tenemos un equipo técnico interno?** Depende. Si el equipo interno tiene experiencia en las opciones arquitectónicas relevantes y puede evaluar trade-offs con objetividad, probablemente no. Si hay presión de entregar rápido o hay sesgos hacia un stack conocido, un AEB externo agrega una capa de validación que puede evitar decisiones que se arrepienten después.
+
+**¿El AEB es parte del contrato del proyecto o es un servicio separado?** En Cabana Data lo manejamos como un entregable inicial dentro del proyecto, o como un servicio standalone cuando el cliente necesita la evaluación antes de comprometerse con un desarrollo. En ambos casos, el costo del AEB se descuenta del proyecto si se decide avanzar.
+
+---
+
+Si estás en la etapa de evaluar una decisión arquitectónica importante y quieres hablar sobre el proceso, puedes escribirme directamente en [LinkedIn](https://linkedin.com/in/walterbonilla) o a través de [cabanadata.com](https://cabanadata.com).
