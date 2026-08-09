@@ -1,0 +1,549 @@
+{
+  "hero.png": {
+    "image_description": {
+      "subject": "Abstract shape suggesting scattered data points converging into one clear path — loose dots on the left resolving into an aligned grid/line on the right. Visual metaphor for \"clarity over volume.\"",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, no literal dashboards/screens/laptops.",
+        "line_quality": "Clean, constant-width, geometric — circles, grids, straight/curved connecting lines standing in for data",
+        "perspective": "Flat 2D, orthographic — no isometric depth, no perspective distortion"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight only (a single node/point), never a fill",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered, radial-to-linear flow (loose scattered dots left → aligned grid/line right)",
+        "atmosphere": "Calm, precise, evidence-driven — not busy or decorative",
+        "negative_space": "High — leaves room to sit beside hero headline text"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "abstract data visualization",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients",
+        "no literal UI screens"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "1200x1200px"
+      }
+    }
+  },
+
+  "problem-decisions.png": {
+    "image_description": {
+      "subject": "Two diverging arrows/paths branching from a single shared data point — visual metaphor for conflicting conclusions drawn from the same source.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered icon, single focal motif",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "Very high — reads clearly at small icon size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "small icon illustration",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "192x192px"
+      }
+    }
+  },
+
+  "problem-tools.png": {
+    "image_description": {
+      "subject": "A geometric tool icon (wrench or gear) resting on top of a broken/gapped foundation line — visual metaphor for buying tools before diagnosing the infrastructure underneath.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered icon, single focal motif",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "Very high — reads clearly at small icon size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "small icon illustration",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "192x192px"
+      }
+    }
+  },
+
+  "problem-direction.png": {
+    "image_description": {
+      "subject": "Loose, disconnected dots and small table/grid fragments scattered with no connecting line between them — visual metaphor for data accumulated without business direction.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered icon, single focal motif",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "Very high — reads clearly at small icon size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "small icon illustration",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "192x192px"
+      }
+    }
+  },
+
+  "problem-quickwins.png": {
+    "image_description": {
+      "subject": "A long flat horizontal timeline bar with no markers until the very end — visual metaphor for months of promised transformation with nothing tangible early on.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight only, at the far end of the timeline, never a fill",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered icon, single focal motif",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "Very high — reads clearly at small icon size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "small icon illustration",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "192x192px"
+      }
+    }
+  },
+
+  "dhc-illustration.png": {
+    "image_description": {
+      "subject": "A grid/checklist pattern of small squares, some highlighted in cabana green — visual metaphor for an objective diagnostic scoring across multiple dimensions of a data operation.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, no literal dashboard screenshots.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework/grid",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — sparing highlight on the scored/passing grid cells only",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered card illustration, fills the frame with breathing margin",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "High — sits above card title text"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "diagnostic grid motif",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients",
+        "no literal dashboard UI"
+      ],
+      "format": {
+        "aspect_ratio": "4:3",
+        "orientation": "landscape",
+        "dimensions": "1200x900px"
+      }
+    }
+  },
+
+  "duc-illustration.png": {
+    "image_description": {
+      "subject": "A branching decision tree/roadmap of connected nodes, with one path highlighted in cabana green — visual metaphor for business questions converting into a prioritized, sequenced roadmap.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, no literal dashboard screenshots.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework/nodes",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — sparing highlight on the single prioritized path only",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered card illustration, fills the frame with breathing margin",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "High — sits above card title text"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "decision tree motif",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients",
+        "no literal dashboard UI"
+      ],
+      "format": {
+        "aspect_ratio": "4:3",
+        "orientation": "landscape",
+        "dimensions": "1200x900px"
+      }
+    }
+  },
+
+  "deliverables.png": {
+    "image_description": {
+      "subject": "Three stacked horizontal bars of increasing solidity — dotted outline, then dashed, then solid filled — visual metaphor for raw findings maturing into an executable plan.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework, most solid on the final bar",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight marking the final, most solid bar",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Vertical stack, top-to-bottom progression",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "High — sits beside the deliverables checklist"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "progression motif",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients"
+      ],
+      "format": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "dimensions": "960x1200px"
+      }
+    }
+  },
+
+  "dama-dmbok-badge.png": {
+    "image_description": {
+      "subject": "A simple geometric seal/shield outline containing an abstract rigor mark — evoking certification/standard credibility without spelling out literal text-heavy logos.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, no literal badge/certificate clipart.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework/seal outline",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight at the seal's center point",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered, symmetrical badge",
+        "atmosphere": "Calm, precise, credible — not ornate or medal-like",
+        "negative_space": "Very high — reads clearly at small badge size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "abstract seal motif",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients",
+        "no literal certificate clipart"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "256x256px"
+      }
+    }
+  },
+
+  "logistics-duration.png": {
+    "image_description": {
+      "subject": "A minimal hourglass or clock built entirely from straight/curved geometric lines — not a literal clock face with numbers.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered icon, single focal motif",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "Very high — reads clearly at small icon size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "small icon illustration",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "160x160px"
+      }
+    }
+  },
+
+  "logistics-workmode.png": {
+    "image_description": {
+      "subject": "Two overlapping speech-bubble outlines — visual metaphor for interviews and workshops, deliberately avoiding any imagery suggesting invasive system access.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered icon, single focal motif",
+        "atmosphere": "Calm, precise, evidence-driven",
+        "negative_space": "Very high — reads clearly at small icon size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "small icon illustration",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "160x160px"
+      }
+    }
+  },
+
+  "persona-cto.png": {
+    "image_description": {
+      "subject": "Abstract geometric person mark (circle head + simple shoulder shape) with a small node/graph badge detail identifying the CTO / Head of Data persona — not a literal photo avatar.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, no literal human faces.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight on the node/graph badge detail only",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered, circle-croppable avatar mark",
+        "atmosphere": "Calm, precise, professional",
+        "negative_space": "Very high — reads clearly at small avatar size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "abstract avatar motif",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients",
+        "no literal human face"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "192x192px"
+      }
+    }
+  },
+
+  "persona-coo.png": {
+    "image_description": {
+      "subject": "Abstract geometric person mark (circle head + simple shoulder shape) with two overlapping horizontal bars as a small badge detail identifying the COO / Operations Director persona — not a literal photo avatar.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, no literal human faces.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight on the overlapping-bars badge detail only",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered, circle-croppable avatar mark",
+        "atmosphere": "Calm, precise, professional",
+        "negative_space": "Very high — reads clearly at small avatar size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "abstract avatar motif",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients",
+        "no literal human face"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "192x192px"
+      }
+    }
+  },
+
+  "persona-growth.png": {
+    "image_description": {
+      "subject": "Abstract geometric person mark (circle head + simple shoulder shape) with a small upward-trending line badge detail identifying the fast-growing company persona — not a literal photo avatar.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, no literal human faces.",
+        "line_quality": "Clean, constant-width, geometric",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight on the upward-trending line detail only",
+        "background": "transparent",
+        "application": "Solid flat shapes and strokes only, no gradient fills, no drop shadows"
+      },
+      "composition": {
+        "layout": "Centered, circle-croppable avatar mark",
+        "atmosphere": "Calm, precise, professional",
+        "negative_space": "Very high — reads clearly at small avatar size"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "abstract avatar motif",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients",
+        "no literal human face"
+      ],
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "dimensions": "192x192px"
+      }
+    }
+  },
+
+  "cta-background.png": {
+    "image_description": {
+      "subject": "Same converging-dots-to-line motif as the hero, but wider and looser — loose scattered data points resolving into an aligned line — meant to sit at 20% opacity behind CTA headline text, so contrast and detail stay very low.",
+      "art_style": {
+        "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, kept intentionally sparse for legibility under text overlay.",
+        "line_quality": "Clean, constant-width, geometric, thin strokes",
+        "perspective": "Flat 2D, orthographic"
+      },
+      "color_profile": {
+        "type": "Flat fill, single-accent — no gradients",
+        "primary_line": "#0048ff (cabana blue) — main linework, kept light/thin",
+        "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only, minimal use",
+        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill",
+        "background": "#e0e6f5 (cabana light) or #FFFFFF (pure white) solid ground — must stay legible once dark headline text sits on top at low opacity",
+        "application": "Solid flat shapes and thin strokes only, no gradient fills, no drop shadows, very low visual density"
+      },
+      "composition": {
+        "layout": "Wide horizontal spread, loose scatter left → aligned line right",
+        "atmosphere": "Calm, quiet, almost invisible — a texture, not a focal illustration",
+        "negative_space": "Extremely high — entire center must stay clear enough for headline + button overlay"
+      },
+      "keywords": [
+        "flat geometric line art",
+        "subtle background texture",
+        "minimal vector illustration",
+        "cabana data brand style",
+        "no gradients",
+        "low-contrast background asset"
+      ],
+      "format": {
+        "aspect_ratio": "12:5",
+        "orientation": "landscape",
+        "dimensions": "1920x800px"
+      }
+    }
+  }
+}

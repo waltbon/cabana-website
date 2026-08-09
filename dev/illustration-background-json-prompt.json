@@ -1,10 +1,6 @@
 {
   "image_description": {
-    "subject": {
-      "primary": "A Marketing Dashboard with KPIs and graphics in a big screen at the wall",
-      "secondary": "4 people staring at the screen thiking and making decisions abouth what they look at screen",
-      "background": "They are in sophisticated office with windows where you can see New York outside and in another wall there is a whiteboard with some notes and graphs with numbers"
-    },
+    "subject": "",
     "art_style": {
       "technique": "Uniform Lines: Lines with a constant thickness from start to finish. This creates a dead or technical look, perfect for architectural blueprints or the isometric vector art in your second image.",
       "line_quality": "Clean, constant-width, Parallel Curved",
@@ -15,6 +11,7 @@
       "start_color": "#F0F4F8 (Cool Off-White/Light Gray for the sky)",
       "end_color": "#0048ff (cabana blue)",
       "background": "#FFFFFF (Pure White)",
+      "cabana_green": "#57ff8f (as a single sparing highlight)",
       "application": "Soft gradient fills applied to the layered shapes, getting slightly darker towards the bottom"
     },
     "composition": {

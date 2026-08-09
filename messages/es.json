@@ -27,6 +27,7 @@
     "services": "Servicios",
     "servicesOverview": "Todos los Servicios",
     "dataStrategy": "Estrategia de Datos y Consultoría",
+    "dataConsulting": "Consultoría Estratégica de Datos",
     "aiReadinessAssessment": "Ruta IA — Diagnóstico de Preparación",
     "blog": "Blog",
     "contact": "Contacto",
@@ -508,6 +509,282 @@
         "headline": "Tu próximo paso en IA empieza con claridad, no con apuestas.",
         "description": "Agenda una llamada de 30 minutos. Sin compromiso. Te decimos si Ruta IA tiene sentido para tu empresa.",
         "button": "Solicitar un Diagnóstico"
+      }
+    },
+    "dataConsulting": {
+      "hero": {
+        "tagline": "CONSULTORÍA ESTRATÉGICA DE DATOS",
+        "headlineDark": "La mayoría de las empresas no necesitan más datos.",
+        "headlineBlue": "Necesitan saber qué hacer con los que ya tienen.",
+        "description": "Evaluamos dónde estás parado y definimos qué construir primero — con evidencia, no con opinión.",
+        "cta": "Conversemos sobre tus datos",
+        "imageAlt": "Consultoría estratégica de datos"
+      },
+      "problem": {
+        "tagline": "Por qué la mayoría de las iniciativas de datos no despegan",
+        "headline": "El problema casi nunca es la herramienta",
+        "items": {
+          "decisions": {
+            "title": "Decisiones que se toman a ciegas",
+            "description": "Los equipos siguen decidiendo por intuición porque no confían en los números que tienen — o porque distintas áreas llegan a cifras distintas para la misma métrica. Sin una fuente confiable, cada decisión importante se vuelve una negociación sobre quién tiene razón, no sobre qué hacer."
+          },
+          "tools": {
+            "title": "Inversión en herramientas sin diagnóstico previo",
+            "description": "Empresas que compran dashboards, plataformas de BI o proyectos de IA antes de saber si su infraestructura de datos lo soporta. El resultado: presupuesto gastado en una solución que hereda los mismos problemas que tenía antes."
+          },
+          "direction": {
+            "title": "Datos sin dirección de negocio",
+            "description": "Se acumulan fuentes, tablas y reportes, pero nadie ha traducido eso en preguntas de negocio concretas. El equipo técnico no sabe qué priorizar porque nadie ha definido qué decisión debería habilitar cada dato."
+          },
+          "quickWins": {
+            "title": "Iniciativas dispersas sin quick wins",
+            "description": "Proyectos de datos que prometen transformación en 12-18 meses, sin nada tangible en las primeras semanas — lo que erosiona la confianza del equipo ejecutivo antes de que el proyecto pueda demostrar valor."
+          }
+        }
+      },
+      "offerings": {
+        "tagline": "Dos formas de traer claridad, según dónde estés",
+        "headlineDark": "Diagnóstico o dirección —",
+        "headlineBlue": "depende de lo que ya sepas",
+        "items": {
+          "dhc": {
+            "title": "DHC — Data Health Check",
+            "whatIsIt": "¿No sabes si tu infraestructura de datos aguanta lo que quieres construir? Evaluamos 6 dimensiones de tu operación y te decimos, con evidencia, dónde estás parado.",
+            "link": "Ver página DHC →"
+          },
+          "duc": {
+            "title": "DUC — Data Analytics Use Case",
+            "whatIsIt": "¿Ya sabes que tienes datos pero no qué preguntas responder con ellos? Convertimos tus preguntas de negocio reales en una ruta priorizada y ejecutable.",
+            "link": "Ver página DUC →"
+          }
+        },
+        "note": "Nota: no son secuenciales ni obligatorios entre sí — cada empresa entra por el que le corresponde."
+      },
+      "deliverables": {
+        "tagline": "Qué recibes",
+        "headlineDark": "Un plan que puedes ejecutar,",
+        "headlineBlue": "no una opinión más",
+        "items": {
+          "diagnosis": "Diagnóstico o mapa de casos de uso, con evidencia y priorización.",
+          "roadmap": "Roadmap ejecutable — qué construir primero y por qué.",
+          "engineering": "Ruta clara hacia Data Engineering, si decides avanzar a implementación."
+        }
+      },
+      "credibility": {
+        "headline": "Prueba de rigor: DAMA-DMBOK",
+        "description": "No estás contratando una opinión técnica. Estás contratando un estándar internacional de gestión de datos, adaptado a la realidad centroamericana."
+      },
+      "logistics": {
+        "tagline": "Logística de fricción cero",
+        "items": {
+          "duration": {
+            "label": "Duración",
+            "description": "Varía según el camino (DHC y DUC tienen procesos propios de 2 a 4+ semanas)."
+          },
+          "workMode": {
+            "label": "Modo de trabajo",
+            "description": "Entrevistas y talleres puntuales con tus stakeholders — no acceso invasivo ni permanente a sistemas críticos."
+          }
+        }
+      },
+      "personas": {
+        "tagline": "Para quién es",
+        "headline": "¿Te reconoces aquí?",
+        "items": {
+          "cto": {
+            "title": "CTO / Head de Datos",
+            "description": "Sabe que algo no funciona en su infraestructura o sus reportes, pero no tiene evidencia objetiva para justificar una inversión mayor."
+          },
+          "coo": {
+            "title": "COO / Director de Operaciones",
+            "description": "Quiere decisiones basadas en datos, pero no confía en los reportes actuales porque cada área cuenta una historia distinta."
+          },
+          "growth": {
+            "title": "Empresa en expansión",
+            "description": "Está creciendo rápido y sus procesos manuales de datos ya no escalan con el tamaño de la operación."
+          }
+        }
+      },
+      "cta": {
+        "headline": "La claridad sobre tus datos no es un lujo, es el primer paso real.",
+        "description": "",
+        "cta": "Agenda 30 minutos, sin compromiso"
+      },
+      "faq": {
+        "tagline": "Preguntas frecuentes",
+        "headline": "Preguntas",
+        "headlineHighlight": "Frecuentes",
+        "description": "",
+        "items": {
+          "whyNotBuild": {
+            "question": "¿Por qué no podemos simplemente empezar a construir directamente?",
+            "answer": "Podrían — y a veces es lo correcto. Pero si nunca han diagnosticado su infraestructura ni priorizado casos de uso, construir sin esa claridad casi siempre termina resolviendo el problema equivocado, o construyendo algo que nadie en el negocio termina usando."
+          },
+          "genericConsulting": {
+            "question": "¿Esto es lo mismo que una consultoría genérica de \"transformación digital\"?",
+            "answer": "No. No entregamos un PDF de recomendaciones abstractas. DHC entrega un scoring objetivo en 6 dimensiones con evidencia, no opinión. DUC entrega una DUC-CARD por cada caso de uso, con roadmap priorizado y ruta técnica. Ambos están anclados en DAMA-DMBOK, el estándar internacional de gestión de datos — no en un framework improvisado."
+          },
+          "bothServices": {
+            "question": "¿Necesitamos hacer los dos servicios (DHC y DUC), o solo uno?",
+            "answer": "Depende de dónde estén parados. Si ya saben que su infraestructura es sólida y solo necesitan definir qué construir, pueden ir directo a DUC. Si no están seguros de su fundación de datos, empezamos por DHC. Lo definimos juntos en la primera conversación — no antes."
+          },
+          "howInvasive": {
+            "question": "¿Qué tan invasivo es el proceso para nuestro equipo?",
+            "answer": "Trabajamos con entrevistas y talleres puntuales, no con acceso permanente a sistemas críticos. El tiempo que pedimos de tus stakeholders es acotado y se agenda con anticipación."
+          },
+          "notReady": {
+            "question": "¿Qué pasa si el diagnóstico revela que no estamos listos para lo que queríamos hacer?",
+            "answer": "Te lo decimos directamente, sin suavizarlo. Preferimos decirte la verdad sobre los bloqueadores reales que dejarte avanzar hacia un proyecto que va a fallar por una fundación que no estaba lista."
+          },
+          "cost": {
+            "question": "¿Cuánto cuesta?",
+            "answer": "Se cotiza según el alcance específico de tu organización — no tenemos un precio único de lista. Lo que sí podemos darte en la primera llamada es claridad sobre qué camino (DHC, DUC, o ambos) tiene sentido para tu caso."
+          }
+        }
+      }
+    },
+    "dataHealthCheck": {
+      "hero": {
+        "tagline": "DIAGNÓSTICO DE SALUD DE DATOS",
+        "headlineDark": "Construir sin diagnóstico",
+        "headlineBlue": "es adivinar",
+        "description": "Evaluamos 6 dimensiones de tu infraestructura de datos y te decimos, con evidencia, qué tan lista está tu empresa para escalar.",
+        "cta": "Solicita tu Data Health Check",
+        "imageAlt": "Diagnóstico de salud de datos"
+      },
+      "problem": {
+        "tagline": "Lo que casi nadie diagnostica antes de invertir",
+        "headline": "El síntoma nunca es el problema real",
+        "items": {
+          "dashboards": {
+            "title": "Dashboards que nadie usa",
+            "description": "Se construyó la herramienta de visualización antes de resolver la calidad de los datos que la alimenta. El resultado es un reporte bonito que nadie consulta porque nadie confía en los números que muestra."
+          },
+          "ownTruth": {
+            "title": "Cada área tiene su propia verdad",
+            "description": "No existe una fuente única de verdad, así que las reuniones se vuelven debates sobre qué número es el correcto en vez de conversaciones sobre qué decisión tomar."
+          },
+          "silentFailures": {
+            "title": "Proyectos de IA que fracasan en silencio",
+            "description": "Se invierte en modelos o automatización sobre datos que nunca estuvieron listos para sostenerlos — y el proyecto falla por la fundación, no por la tecnología."
+          },
+          "unknownSeverity": {
+            "title": "Nadie sabe realmente qué tan grave es el problema",
+            "description": "Hay una sensación generalizada de que \"los datos son un desastre\", pero sin evidencia objetiva de dónde está el problema ni qué tan urgente es resolverlo."
+          }
+        }
+      },
+      "dimensions": {
+        "tagline": "6 dimensiones de tu operación de datos",
+        "headline": "No es opinión, es evidencia",
+        "items": {
+          "sources": {
+            "title": "Fuentes de datos",
+            "description": "Origen y confiabilidad de dónde viene la información."
+          },
+          "infrastructure": {
+            "title": "Infraestructura",
+            "description": "Cómo se almacena y mueve la información hoy."
+          },
+          "quality": {
+            "title": "Calidad y consistencia",
+            "description": "Qué tan confiables y limpios están los datos."
+          },
+          "governance": {
+            "title": "Gobernanza y accesos",
+            "description": "Quién controla qué, y con qué reglas."
+          },
+          "consumption": {
+            "title": "Consumo y visibilidad",
+            "description": "Cómo se usan hoy los dashboards y reportes."
+          },
+          "team": {
+            "title": "Equipo y documentación",
+            "description": "Qué tan preparado está el equipo interno para sostener esto."
+          }
+        }
+      },
+      "deliverables": {
+        "tagline": "Qué recibes",
+        "headlineDark": "Un plan de acción,",
+        "headlineBlue": "no un PDF de opiniones",
+        "items": {
+          "report": "Reporte ejecutivo con scoring — 0 a 10 en cada dimensión, con blockers críticos identificados.",
+          "remediation": "Plan de remediación técnica — qué corregir primero y por qué, con dueños asignados.",
+          "roadmap": "Roadmap visual del Primer Ciclo de Build — qué construir primero, en formato ejecutivo para junta directiva."
+        }
+      },
+      "credibility": {
+        "headline": "Prueba de rigor: DAMA-DMBOK",
+        "description": "No estás contratando una opinión técnica. Estás contratando un estándar internacional de gestión de datos, adaptado a la realidad centroamericana."
+      },
+      "logistics": {
+        "tagline": "Logística de fricción cero",
+        "items": {
+          "duration": {
+            "label": "Duración",
+            "description": "Proceso estructurado, con entrevistas y talleres puntuales — no una auditoría permanente."
+          },
+          "workMode": {
+            "label": "Modo de trabajo",
+            "description": "Sin acceso invasivo a sistemas críticos — se trabaja con documentación existente y conversación directa con tu equipo."
+          }
+        }
+      },
+      "personas": {
+        "tagline": "Para quién es",
+        "headline": "¿Te reconoces aquí?",
+        "items": {
+          "cto": {
+            "title": "CTO / Head de Datos",
+            "description": "Sospecha que hay problemas de fondo pero no tiene evidencia objetiva para justificar una inversión mayor."
+          },
+          "coo": {
+            "title": "COO",
+            "description": "Quiere invertir en analítica o IA, pero necesita saber primero si la fundación aguanta."
+          },
+          "failedBefore": {
+            "title": "Empresa que ya intentó un proyecto de datos y falló",
+            "description": "Quiere entender qué salió mal antes de intentarlo de nuevo."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Construir sin diagnóstico es adivinar. Empieza con evidencia.",
+        "description": "",
+        "cta": "Solicita tu Data Health Check"
+      },
+      "faq": {
+        "tagline": "Preguntas frecuentes",
+        "headline": "Preguntas",
+        "headlineHighlight": "Frecuentes",
+        "description": "",
+        "items": {
+          "whyDiagnose": {
+            "question": "¿Por qué necesito un diagnóstico antes de invertir en herramientas?",
+            "answer": "Porque una herramienta nueva sobre datos desordenados solo hereda el mismo desorden, más rápido y más caro."
+          },
+          "itAudit": {
+            "question": "¿Esto es lo mismo que una auditoría de TI?",
+            "answer": "No. No evaluamos cumplimiento legal ni seguridad perimetral; evaluamos si tus datos pueden sostener las decisiones y proyectos que quieres construir."
+          },
+          "howInvasive": {
+            "question": "¿Qué tan invasivo es para nuestro equipo?",
+            "answer": "Entrevistas puntuales y revisión de documentación existente — no acceso permanente a sistemas críticos."
+          },
+          "notReady": {
+            "question": "¿Qué pasa si el resultado es que no estamos listos?",
+            "answer": "Te lo decimos con evidencia, no con opinión, y te entregamos el plan exacto para llegar a estarlo."
+          },
+          "duration": {
+            "question": "¿Cuánto dura el proceso?",
+            "answer": "Varía según la complejidad de tu organización; se define en la primera conversación."
+          },
+          "cost": {
+            "question": "¿Cuánto cuesta?",
+            "answer": "Se cotiza según el alcance específico; lo definimos juntos después de entender tu contexto."
+          }
+        }
       }
     }
   },
