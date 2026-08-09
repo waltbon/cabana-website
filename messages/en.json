@@ -84,6 +84,7 @@
     "description": "Each layer builds on the last. Our methodology runs from diagnostic to production, ensuring every investment has a clear business justification.",
     "whatYouGet": "What you get:",
     "outcome": "Outcome",
+    "learnMore": "Learn more",
     "services": {
       "dataStrategy": {
         "title": "Data Consulting",
@@ -91,8 +92,8 @@
         "whatYouGetList": {
           "wyg1": "AI Readiness Assessment",
           "wyg2": "Data Health Check",
-          "wyg3": "Digital Product Feasibility Study",
-          "wyg4": "Design Thinking Workshops"
+          "wyg3": "",
+          "wyg4": ""
         },
         "outcome": "You stop building the wrong thing. Every dollar spent on data infrastructure from here forward has a clear business justification."
       },
@@ -107,18 +108,29 @@
         },
         "outcome": "Your team stops arguing over whose numbers are right. One source of truth, always current, accessible across every tool you use."
       },
-      "customDevelopment": {
-        "title": "Custom Applications & Dashboards",
-        "description": "Data is only valuable if people can use it. We build tailored applications and dashboards that make your data accessible, interactive, and actionable across your organization.",
+      "customApps": {
+        "title": "Custom Applications",
+        "description": "We design and build operational platforms for organizations running their business on email, spreadsheets, and processes that depend on key people. Every application is built from the real process — validated with Design Thinking — not a generic template stretched to fit.",
         "whatYouGetList": {
-          "wyg1": "Operational platforms and internal tools",
-          "wyg2": "Interactive dashboards and reporting",
-          "wyg3": "Workflow automation",
-          "wyg4": "Applications built on Next.js, React, and Angular"
+          "wyg1": "Digital Product Feasibility Study",
+          "wyg2": "Design Thinking workshops and UX/UI design",
+          "wyg3": "Operational and internal platforms",
+          "wyg4": "Workflow automation"
         },
-        "outcome": "Reports that were emailed as PDFs become live platforms your team actually opens every morning."
+        "outcome": "Your team moves from operating without a system to a centralized platform they actually use — because it was built exactly for how they work."
       },
-      "aiMl": {
+      "dashboards": {
+        "title": "Dashboards & Data Analytics",
+        "description": "We turn data that's already defined and prioritized into interactive, automated dashboards. Power BI or Looker, with the governance and security your operation needs — so leaving manual reporting behind is the starting point, not the goal.",
+        "whatYouGetList": {
+          "wyg1": "Interactive dashboards and reporting",
+          "wyg2": "Automated data refresh",
+          "wyg3": "Row-level security (RLS) by user role",
+          "wyg4": "Power BI and Looker integration"
+        },
+        "outcome": "Your team stops waiting on Friday's report and starts exploring their own data in real time."
+      },
+      "aiSolutions": {
         "title": "AI & Intelligent Systems",
         "description": "With a solid foundation in place, AI can finally deliver on its promise. We implement intelligent systems that automate processes, surface insights, and enable predictive decision-making.",
         "whatYouGetList": {
@@ -195,7 +207,7 @@
       "tagline": "Our core services",
       "headline": "Everything we do is",
       "headlineHighlight": "Data-Driven",
-      "description": "We have 4 tiers of data services to support your company and enable you to make data-driven decisions.",
+      "description": "We have 5 tiers of data services to support your company and enable you to make data-driven decisions.",
       "ctaTalk": "Let's talk!",
       "ctaView": "View service tiers"
     },
@@ -206,52 +218,57 @@
       "description1": "You're sitting on a goldmine of data. The challenge is turning it into a strategic asset that drives growth, efficiency, and innovation.",
       "description2": "Our services are designed as an end-to-end ecosystem to help you at every stage of your data journey."
     },
-    "whatHappens": "What happens:",
-    "youReceive": "You receive:",
-    "phases": {
-      "phase1": {
-        "badge": "Phase 1",
-        "title": "Discovery & Assessment",
-        "duration": "Typical duration: 2–3 weeks",
-        "description": "We start by understanding your current state—your systems, your data, your pain points, and your goals. No assumptions, no jumping to solutions.",
-        "item1": "Stakeholder interviews",
-        "item2": "Technical environment review",
-        "item3": "Data quality assessment",
-        "item4": "Current-state documentation",
-        "outcome": "A clear picture of where you are and what's possible."
+    "process": {
+      "tagline": "Our process",
+      "headline": "Our process,",
+      "headlineHighlight": "by service",
+      "description": "Each service has its own documented process — not a generic template applied to everything.",
+      "dataConsulting": {
+        "title": "Data Consulting",
+        "items": {
+          "dhc": {
+            "subtitle": "DHC (Data Health Check)",
+            "description": "We assess 6 dimensions of your data operation and calibrate the result as a team, to remove individual bias — 4 steps: intake, scoring, calibration, delivery."
+          },
+          "duc": {
+            "subtitle": "DUC (Data Analytics Use Case)",
+            "description": "A 4-phase system (Workshop → Definition → Roadmap → Architecture) that turns business questions into a prioritized technical path."
+          }
+        }
       },
-      "phase2": {
-        "badge": "Phase 2",
-        "title": "Strategy & Roadmap",
-        "duration": "Typical duration: 1–2 weeks",
-        "description": "Based on what we learn, we design a practical path forward. We prioritize quick wins alongside foundational work, so you see value early.",
-        "item1": "Solution architecture design",
-        "item2": "Phased implementation plan",
-        "item3": "Effort and timeline estimates",
-        "item4": "Risk identification",
-        "outcome": "An actionable roadmap with clear milestones and priorities."
+      "dataEngineering": {
+        "title": "Data Engineering & Architecture",
+        "description": "We design the storage architecture, build the extraction and transformation pipelines, and — when the use case calls for it — develop and deploy Machine Learning models to production. One service, scoped to what your organization needs."
       },
-      "phase3": {
-        "badge": "Phase 3",
-        "title": "Build & Implement",
-        "duration": "Duration varies by scope",
-        "description": "We execute in focused sprints with regular check-ins. You'll have visibility into progress and can adjust priorities as we go.",
-        "item1": "Iterative development cycles",
-        "item2": "Weekly progress updates",
-        "item3": "Continuous testing and validation",
-        "item4": "Documentation as we build",
-        "outcome": "Working deliverables—not just plans."
+      "appsDashboards": {
+        "title": "Applications & Dashboards",
+        "items": {
+          "productDesign": {
+            "subtitle": "Product Design & Discovery",
+            "description": "3 sequential phases (Design Thinking → UX → UI) to validate the right problem before building."
+          },
+          "appDevelopment": {
+            "subtitle": "Application Development",
+            "description": "From validated prototypes to a production application, with cloud-native architecture, CI/CD, and monitoring from day one."
+          },
+          "dashboards": {
+            "subtitle": "Dashboards & Analytics",
+            "description": "From your already-prioritized data sources to an interactive, automated dashboard with access governance."
+          }
+        }
       },
-      "phase4": {
-        "badge": "Phase 4",
-        "title": "Launch & Handoff",
-        "duration": "Typical duration: 1–2 weeks",
-        "description": "We don't disappear after deployment. We train your team, document everything, and make sure you can operate independently.",
-        "item1": "Production deployment",
-        "item2": "Team training sessions",
-        "item3": "Complete documentation",
-        "item4": "Knowledge transfer",
-        "outcome": "A solution you own and can maintain—no forced dependency."
+      "aiSystems": {
+        "title": "AI & Intelligent Systems",
+        "items": {
+          "rutaIa": {
+            "subtitle": "AI Roadmap (Ruta IA)",
+            "description": "AI-maturity diagnostic across 6 dimensions, in 2 to 3 weeks, with an executable roadmap and a board-level presentation."
+          },
+          "agentDevelopment": {
+            "subtitle": "Agent Development",
+            "description": "We build agents connected to your real data (RAG), able to collaborate with each other (Swarm) and execute concrete actions (Tool Calling)."
+          }
+        }
       }
     },
     "faq": {
@@ -262,23 +279,23 @@
       "items": {
         "whatServices": {
           "question": "What data services does Cabana Data offer?",
-          "answer": "We offer end-to-end data solutions including Data Strategy & Consulting, Data Engineering & Architecture, Custom Application Development, and AI & Machine Learning Solutions. Our services are designed to help businesses at every stage of their data journey."
+          "answer": "We offer 4 service lines: Data Consulting (diagnostics and use-case definition), Data Engineering & Architecture (infrastructure, pipelines, and Machine Learning), Custom Applications & Dashboards (digital products and visual analytics), and AI & Intelligent Systems (AI-maturity diagnostics and custom agents). Each can be engaged independently, depending on the stage your organization is at."
         },
         "projectDuration": {
           "question": "How long does a typical data engineering project take?",
-          "answer": "Project timelines vary based on complexity and scope. A focused data pipeline project might take 4-8 weeks, while comprehensive data platform implementations can span several months. We work closely with clients to define realistic milestones and deliver value incrementally."
+          "answer": "It depends on scope — whether it's just architecture and pipelines, or also includes a Machine Learning component. We define it precisely after understanding your data sources and goals, usually in the first conversation."
         },
         "cloudPlatforms": {
           "question": "Do you work with cloud platforms like AWS, GCP, and Azure?",
-          "answer": "Yes, we have deep expertise across all major cloud platforms including Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure. We help clients choose the right platform for their needs and implement cloud-native data solutions."
+          "answer": "Google Cloud is our standard platform for every project, with real hands-on experience in AWS for clients already running there. We have specific knowledge of Microsoft Fabric for clients with data initiatives already built on that ecosystem, though it isn't our standard for application deployment."
         },
         "industries": {
           "question": "What industries do you serve?",
-          "answer": "We work with businesses across various industries including technology, finance, healthcare, retail, and manufacturing. Our data solutions are tailored to meet the specific regulatory requirements and business challenges of each sector."
+          "answer": "We work with mid-size companies in Costa Rica and LATAM across sectors like financial services, retail/CPG, marketing agencies, and logistics — organizations that need technology that works in production, not in a slide deck."
         },
         "security": {
           "question": "How do you ensure data security and compliance?",
-          "answer": "Data security is fundamental to our approach. We implement industry best practices for data governance, encryption, access controls, and audit logging. We also help clients meet compliance requirements including GDPR, HIPAA, SOC 2, and other relevant regulations."
+          "answer": "We apply technical security best practices on every project — access control, anonymization of sensitive data at the source, row-level security in dashboards. We don't offer legal compliance consulting (GDPR, local regulations); we recommend that assessment be handled by a specialized legal advisor in parallel to our technical work."
         }
       }
     },
@@ -379,7 +396,7 @@
         },
         "design": {
           "title": "Design & Development",
-          "description": "We build the custom applications and intuitive dashboards that make your data accessible, interactive, and easy for your entire team to use."
+          "description": "We build the custom applications that make your data accessible and interactive for your whole team — and, once your metrics are prioritized, the dashboards that bring them together in one place."
         },
         "ai": {
           "title": "AI & Machine Learning Solutions",

@@ -84,6 +84,7 @@
     "description": "Cada capa se construye sobre la anterior. Nuestra metodología va del diagnóstico a la producción, asegurando que cada inversión tenga una justificación de negocio clara.",
     "whatYouGet": "Qué obtienes:",
     "outcome": "Resultado",
+    "learnMore": "Ir a servicio",
     "services": {
       "dataStrategy": {
         "title": "Consultoría de Datos",
@@ -91,8 +92,8 @@
         "whatYouGetList": {
           "wyg1": "Evaluación de Preparación para IA",
           "wyg2": "Diagnóstico de Datos",
-          "wyg3": "Estudio de Factibilidad de Producto Digital",
-          "wyg4": "Talleres de Design Thinking"
+          "wyg3": "Auditoría de calidad y gobernanza de datos",
+          "wyg4": "Hoja de ruta priorizada de inversión en datos"
         },
         "outcome": "Al final del proceso, su organización sabe exactamente qué tiene, qué le falta y en qué orden construirlo. Sin suposiciones, sin hojas de ruta genéricas."
       },
@@ -108,15 +109,26 @@
         "outcome": "Su equipo deja de buscar el número correcto y empieza a usarlo para decidir. Un warehouse que antes no existía, hoy es la fuente central de toda la organización."
       },
       "customApps": {
-        "title": "Aplicaciones y Dashboards a la Medida",
-        "description": "Diseñamos y construimos plataformas operativas para organizaciones que gestionan su negocio en correos, hojas de cálculo y procesos que dependen de personas clave. Cada aplicación se construye desde el proceso real, no desde una plantilla genérica adaptada a medias.",
+        "title": "Aplicaciones a la Medida",
+        "description": "Diseñamos y construimos plataformas operativas para organizaciones que gestionan su negocio en correos, hojas de cálculo y procesos que dependen de personas clave. Cada aplicación se construye desde el proceso real — validado con Design Thinking — no desde una plantilla genérica adaptada a medias.",
         "whatYouGetList": {
-          "wyg1": "Plataformas operativas e internas",
-          "wyg2": "Dashboards e informes interactivos",
-          "wyg3": "Automatización de flujos de trabajo",
-          "wyg4": "Aplicaciones en Next.js, React y Angular"
+          "wyg1": "Estudio de Factibilidad de Producto Digital",
+          "wyg2": "Talleres de Design Thinking y diseño UX/UI",
+          "wyg3": "Plataformas operativas e internas",
+          "wyg4": "Automatización de flujos de trabajo"
         },
         "outcome": "El equipo pasa de operar sin sistema a tener una plataforma centralizada que realmente usa — porque fue construida exactamente para cómo trabajan."
+      },
+      "dashboards": {
+        "title": "Dashboards y Analítica de Datos",
+        "description": "Convertimos datos ya definidos y priorizados en dashboards interactivos y automatizados. Power BI o Looker, con la gobernanza y seguridad que tu operación necesita — para que dejar de exportar reportes a mano sea el punto de partida, no la meta.",
+        "whatYouGetList": {
+          "wyg1": "Dashboards e informes interactivos",
+          "wyg2": "Automatización de actualización de datos",
+          "wyg3": "Seguridad a nivel de fila (RLS) por rol de usuario",
+          "wyg4": "Integración con Power BI y Looker"
+        },
+        "outcome": "Tu equipo deja de esperar el reporte del viernes y empieza a explorar sus propios datos en tiempo real."
       },
       "aiSolutions": {
         "title": "IA y Sistemas Inteligentes",
@@ -195,7 +207,7 @@
       "tagline": "Nuestros servicios principales",
       "headline": "Todo lo que hacemos está",
       "headlineHighlight": "Basado en Datos",
-      "description": "Tenemos 4 niveles de servicios de datos para apoyar a tu empresa y permitirte tomar decisiones basadas en datos.",
+      "description": "Tenemos 5 niveles de servicios de datos para apoyar a tu empresa y permitirte tomar decisiones basadas en datos.",
       "ctaTalk": "¡Hablemos!",
       "ctaView": "Ver niveles de servicio"
     },
@@ -206,52 +218,57 @@
       "description1": "Estás sentado sobre una mina de oro de datos. El desafío es convertirla en un activo estratégico que impulse el crecimiento, la eficiencia y la innovación.",
       "description2": "Nuestros servicios están diseñados como un ecosistema de extremo a extremo para ayudarte en cada etapa de tu viaje de datos."
     },
-    "whatHappens": "Qué sucede:",
-    "youReceive": "Recibes:",
-    "phases": {
-      "phase1": {
-        "badge": "Fase 1",
-        "title": "Descubrimiento y Diagnóstico",
-        "duration": "Duración típica: 2–3 semanas",
-        "description": "Comenzamos entendiendo tu estado actual—tus sistemas, tus datos, tus puntos de dolor y tus objetivos. Sin suposiciones, sin saltar a soluciones.",
-        "item1": "Entrevistas con stakeholders",
-        "item2": "Revisión del entorno técnico",
-        "item3": "Evaluación de calidad de datos",
-        "item4": "Documentación del estado actual",
-        "outcome": "Un panorama claro de dónde estás y qué es posible."
+    "process": {
+      "tagline": "Nuestro proceso",
+      "headline": "Nuestro proceso,",
+      "headlineHighlight": "según el servicio",
+      "description": "Cada servicio tiene su propio proceso documentado — no una plantilla genérica aplicada a todo.",
+      "dataConsulting": {
+        "title": "Consultoría de Datos",
+        "items": {
+          "dhc": {
+            "subtitle": "DHC (Data Health Check)",
+            "description": "Evaluamos 6 dimensiones de tu operación de datos y calibramos el resultado en equipo, para eliminar sesgo individual — 4 pasos: levantamiento, scoring, calibración, entrega."
+          },
+          "duc": {
+            "subtitle": "DUC (Data Analytics Use Case)",
+            "description": "Sistema de 4 fases (Workshop → Definition → Roadmap → Architecture) que convierte preguntas de negocio en una ruta técnica priorizada."
+          }
+        }
       },
-      "phase2": {
-        "badge": "Fase 2",
-        "title": "Estrategia y Hoja de Ruta",
-        "duration": "Duración típica: 1–2 semanas",
-        "description": "Con base en lo que aprendemos, diseñamos un camino práctico hacia adelante. Priorizamos victorias rápidas junto con trabajo fundacional, para que veas valor desde temprano.",
-        "item1": "Diseño de arquitectura de solución",
-        "item2": "Plan de implementación por fases",
-        "item3": "Estimaciones de esfuerzo y tiempo",
-        "item4": "Identificación de riesgos",
-        "outcome": "Una hoja de ruta accionable con hitos y prioridades claras."
+      "dataEngineering": {
+        "title": "Ingeniería y Arquitectura de Datos",
+        "description": "Diseñamos la arquitectura de almacenamiento, construimos los pipelines de extracción y transformación, y — cuando el caso de uso lo requiere — desarrollamos y desplegamos modelos de Machine Learning en producción. Un solo servicio, alcance ajustado a lo que tu organización necesita."
       },
-      "phase3": {
-        "badge": "Fase 3",
-        "title": "Construcción e Implementación",
-        "duration": "Duración según el alcance",
-        "description": "Ejecutamos en sprints enfocados con revisiones regulares. Tendrás visibilidad del progreso y podrás ajustar prioridades sobre la marcha.",
-        "item1": "Ciclos de desarrollo iterativo",
-        "item2": "Actualizaciones semanales de progreso",
-        "item3": "Pruebas y validación continua",
-        "item4": "Documentación durante la construcción",
-        "outcome": "Entregables funcionales—no solo planes."
+      "appsDashboards": {
+        "title": "Aplicaciones y Dashboards",
+        "items": {
+          "productDesign": {
+            "subtitle": "Product Design & Discovery",
+            "description": "3 fases secuenciales (Design Thinking → UX → UI) para validar el problema correcto antes de construir."
+          },
+          "appDevelopment": {
+            "subtitle": "Application Development",
+            "description": "De los prototipos validados a una aplicación en producción, con arquitectura cloud-native, CI/CD y monitoreo desde el día uno."
+          },
+          "dashboards": {
+            "subtitle": "Dashboards & Analytics",
+            "description": "De tus fuentes de datos ya priorizadas a un dashboard interactivo, automatizado y con gobernanza de accesos."
+          }
+        }
       },
-      "phase4": {
-        "badge": "Fase 4",
-        "title": "Lanzamiento y Entrega",
-        "duration": "Duración típica: 1–2 semanas",
-        "description": "No desaparecemos después del despliegue. Capacitamos a tu equipo, documentamos todo y nos aseguramos de que puedas operar de forma independiente.",
-        "item1": "Despliegue en producción",
-        "item2": "Sesiones de capacitación al equipo",
-        "item3": "Documentación completa",
-        "item4": "Transferencia de conocimiento",
-        "outcome": "Una solución que es tuya y puedes mantener—sin dependencia forzada."
+      "aiSystems": {
+        "title": "IA y Sistemas Inteligentes",
+        "items": {
+          "rutaIa": {
+            "subtitle": "Ruta IA",
+            "description": "Diagnóstico de madurez de IA en 6 dimensiones, en 2 a 3 semanas, con roadmap ejecutable y presentación a junta directiva."
+          },
+          "agentDevelopment": {
+            "subtitle": "Agent Development",
+            "description": "Construcción de agentes conectados a tus datos reales (RAG), capaces de colaborar entre sí (Swarm) y ejecutar acciones concretas (Tool Calling)."
+          }
+        }
       }
     },
     "faq": {
@@ -262,23 +279,23 @@
       "items": {
         "whatServices": {
           "question": "¿Qué servicios de datos ofrece Cabana Data?",
-          "answer": "Ofrecemos soluciones de datos de extremo a extremo que incluyen Estrategia y Consultoría de Datos, Ingeniería y Arquitectura de Datos, Desarrollo de Aplicaciones Personalizadas y Soluciones de IA y Machine Learning. Nuestros servicios están diseñados para ayudar a las empresas en cada etapa de su viaje de datos."
+          "answer": "Ofrecemos 4 líneas de servicio: Consultoría de Datos (diagnóstico y definición de casos de uso), Ingeniería y Arquitectura de Datos (infraestructura, pipelines y Machine Learning), Aplicaciones y Dashboards a la Medida (productos digitales y analítica visual), e IA y Sistemas Inteligentes (diagnóstico de madurez de IA y agentes a la medida). Cada uno puede contratarse de forma independiente, según en qué etapa esté tu organización."
         },
         "projectDuration": {
           "question": "¿Cuánto tiempo toma un proyecto típico de ingeniería de datos?",
-          "answer": "Los tiempos de los proyectos varían según la complejidad y el alcance. Un proyecto de pipeline de datos enfocado puede tomar de 4 a 8 semanas, mientras que implementaciones de plataformas de datos completas pueden extenderse varios meses. Trabajamos de cerca con los clientes para definir hitos realistas y entregar valor de manera incremental."
+          "answer": "Varía según el alcance — si incluye solo arquitectura y pipelines, o también componente de Machine Learning. Lo definimos con precisión después de entender tus fuentes de datos y objetivos, generalmente en la primera conversación."
         },
         "cloudPlatforms": {
           "question": "¿Trabajan con plataformas en la nube como AWS, GCP y Azure?",
-          "answer": "Sí, tenemos amplia experiencia en todas las principales plataformas en la nube, incluyendo Amazon Web Services (AWS), Google Cloud Platform (GCP) y Microsoft Azure. Ayudamos a los clientes a elegir la plataforma adecuada para sus necesidades e implementar soluciones de datos nativas en la nube."
+          "answer": "Google Cloud es nuestra plataforma estándar para todos los proyectos, con experiencia real también en AWS para clientes que ya operan ahí. Tenemos conocimiento específico de Microsoft Fabric para clientes con iniciativas de datos ya construidas sobre ese ecosistema, aunque no es nuestro estándar de despliegue de aplicaciones."
         },
         "industries": {
           "question": "¿A qué industrias sirven?",
-          "answer": "Trabajamos con empresas de diversas industrias, incluyendo tecnología, finanzas, salud, retail y manufactura. Nuestras soluciones de datos están adaptadas para cumplir con los requisitos regulatorios específicos y los desafíos empresariales de cada sector."
+          "answer": "Trabajamos con empresas medianas en Costa Rica y LATAM en sectores como servicios financieros, retail/CPG, agencias de marketing y logística — organizaciones que necesitan tecnología que funcione en producción, no en presentaciones."
         },
         "security": {
           "question": "¿Cómo aseguran la seguridad de datos y el cumplimiento?",
-          "answer": "La seguridad de datos es fundamental en nuestro enfoque. Implementamos las mejores prácticas de la industria para gobernanza de datos, encriptación, controles de acceso y registro de auditoría. También ayudamos a los clientes a cumplir con requisitos de cumplimiento incluyendo GDPR, HIPAA, SOC 2 y otras regulaciones relevantes."
+          "answer": "Aplicamos buenas prácticas técnicas de seguridad en cada proyecto — control de accesos, anonimización de datos sensibles desde el origen, seguridad a nivel de fila en dashboards. No ofrecemos consultoría legal de cumplimiento normativo (GDPR, leyes locales); recomendamos que esa evaluación la haga un asesor legal especializado en paralelo a nuestro trabajo técnico."
         }
       }
     },
@@ -353,7 +370,8 @@
         "headlineDark": "Claridad Estratégica y",
         "headlineBlue": "Hojas de Ruta Accionables",
         "description": "Cerramos la brecha entre tus objetivos de negocio y los pasos técnicos necesarios para alcanzarlos. Nuestro enfoque colaborativo desmitifica los desafíos complejos de datos, entregando un plan claro y accionable adaptado a tus necesidades únicas.",
-        "imageAlt": "Solución de estrategia de datos"
+        "imageAlt": "Solución de estrategia de datos",
+        "learnMore":"Saber más"
       },
       "hero": {
         "tagline": "El primer nivel.",
@@ -379,7 +397,7 @@
         },
         "design": {
           "title": "Diseño y Desarrollo",
-          "description": "Desarrollamos las aplicaciones personalizadas y los dashboards intuitivos que hacen que tus datos sean accesibles, interactivos y fáciles de usar para todo tu equipo."
+          "description": "Desarrollamos las aplicaciones personalizadas que hacen que tus datos sean accesibles e interactivos para todo tu equipo — y, cuando ya tienes tus métricas priorizadas, los dashboards que las ponen en un solo lugar."
         },
         "ai": {
           "title": "Soluciones de IA y Machine Learning",
