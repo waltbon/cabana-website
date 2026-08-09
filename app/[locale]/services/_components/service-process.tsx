@@ -1,10 +1,12 @@
 import { Section, Container } from "@/components/craft";
 import { FadeIn } from "@/components/animations";
-import { Check } from "lucide-react";
+import { Check, LucideIcon } from "lucide-react";
 
 interface ProcessStep {
   title: string;
   description: string;
+  /** Optional per-step icon. Defaults to a checkmark. */
+  icon?: LucideIcon;
 }
 
 interface ServiceProcessProps {
@@ -42,10 +44,12 @@ export function ServiceProcess({
 
           {/* Right Column - Steps */}
           <FadeIn delay={0.2} className="flex flex-1 flex-col gap-6">
-            {steps.map((step, index) => (
+            {steps.map((step, index) => {
+              const Icon = step.icon ?? Check;
+              return (
               <div key={index} className="flex items-start gap-4">
                 <span className="mt-0.5 shrink-0 text-cabana-blue">
-                  <Check className="size-5" strokeWidth={2.5} />
+                  <Icon className="size-5" strokeWidth={2.5} />
                 </span>
                 <p className="text-base leading-relaxed">
                   <strong className="font-bold text-foreground">
@@ -57,7 +61,8 @@ export function ServiceProcess({
                   </span>
                 </p>
               </div>
-            ))}
+              );
+            })}
           </FadeIn>
         </div>
       </Container>

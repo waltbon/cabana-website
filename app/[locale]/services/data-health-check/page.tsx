@@ -1,6 +1,24 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import {
+  LayoutDashboard,
+  GitCompareArrows,
+  Unplug,
+  CircleHelp,
+  Database,
+  Server,
+  CheckCircle2,
+  KeyRound,
+  Eye,
+  Users2,
+  Clock,
+  FileText,
+  Cpu,
+  RotateCcw,
+} from "lucide-react";
 import { ServiceHero } from "../_components/service-hero";
+import { DiagnosticScan } from "../_components/illustrations/diagnostic-scan";
+import { DeliverablesProgress } from "../_components/illustrations/deliverables-progress";
 import { ServiceProblem } from "../_components/service-problem";
 import { ServiceDimensions } from "../_components/service-dimensions";
 import { ServiceDeliverables } from "../_components/service-deliverables";
@@ -55,7 +73,7 @@ export default async function DataHealthCheckPage() {
         headlineBlue={tHero("headlineBlue")}
         description={tHero("description")}
         cta={{ label: tHero("cta"), href: "/contact" }}
-        imageSrc="/services/data-health-check/hero.png"
+        illustration={<DiagnosticScan className="h-full w-full p-12" />}
         imageAlt={tHero("imageAlt")}
       />
 
@@ -66,18 +84,22 @@ export default async function DataHealthCheckPage() {
           {
             title: tProblem("items.dashboards.title"),
             description: tProblem("items.dashboards.description"),
+            icon: LayoutDashboard,
           },
           {
             title: tProblem("items.ownTruth.title"),
             description: tProblem("items.ownTruth.description"),
+            icon: GitCompareArrows,
           },
           {
             title: tProblem("items.silentFailures.title"),
             description: tProblem("items.silentFailures.description"),
+            icon: Unplug,
           },
           {
             title: tProblem("items.unknownSeverity.title"),
             description: tProblem("items.unknownSeverity.description"),
+            icon: CircleHelp,
           },
         ]}
       />
@@ -89,26 +111,32 @@ export default async function DataHealthCheckPage() {
           {
             title: tDimensions("items.sources.title"),
             description: tDimensions("items.sources.description"),
+            icon: Database,
           },
           {
             title: tDimensions("items.infrastructure.title"),
             description: tDimensions("items.infrastructure.description"),
+            icon: Server,
           },
           {
             title: tDimensions("items.quality.title"),
             description: tDimensions("items.quality.description"),
+            icon: CheckCircle2,
           },
           {
             title: tDimensions("items.governance.title"),
             description: tDimensions("items.governance.description"),
+            icon: KeyRound,
           },
           {
             title: tDimensions("items.consumption.title"),
             description: tDimensions("items.consumption.description"),
+            icon: Eye,
           },
           {
             title: tDimensions("items.team.title"),
             description: tDimensions("items.team.description"),
+            icon: Users2,
           },
         ]}
       />
@@ -122,6 +150,7 @@ export default async function DataHealthCheckPage() {
           tDeliverables("items.remediation"),
           tDeliverables("items.roadmap"),
         ]}
+        illustration={<DeliverablesProgress className="h-full w-full p-8" />}
       />
 
       <ServiceCredibility
@@ -136,10 +165,12 @@ export default async function DataHealthCheckPage() {
           {
             label: tLogistics("items.duration.label"),
             description: tLogistics("items.duration.description"),
+            icon: Clock,
           },
           {
             label: tLogistics("items.workMode.label"),
             description: tLogistics("items.workMode.description"),
+            icon: FileText,
           },
         ]}
       />
@@ -151,14 +182,17 @@ export default async function DataHealthCheckPage() {
           {
             title: tPersonas("items.cto.title"),
             description: tPersonas("items.cto.description"),
+            icon: Cpu,
           },
           {
             title: tPersonas("items.coo.title"),
             description: tPersonas("items.coo.description"),
+            icon: Users2,
           },
           {
             title: tPersonas("items.failedBefore.title"),
             description: tPersonas("items.failedBefore.description"),
+            icon: RotateCcw,
           },
         ]}
       />

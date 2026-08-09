@@ -69,18 +69,52 @@ export function MobileNav() {
                   </MobileLink>
                   <div className="flex flex-col gap-1 pl-4 border-l border-border ml-1">
                     {Object.entries(item.children).map(
-                      ([childKey, childHref]) => (
-                        <MobileLink
-                          key={childKey}
-                          href={childHref}
-                          onOpenChange={setOpen}
-                          className="text-base text-muted-foreground"
-                        >
-                          {childKey
-                            .replace(/([A-Z])/g, " $1")
-                            .replace(/^./, (s) => s.toUpperCase())}
-                        </MobileLink>
-                      )
+                      ([childKey, child]) => {
+                        const label = childKey
+                          .replace(/([A-Z])/g, " $1")
+                          .replace(/^./, (s) => s.toUpperCase());
+
+                        if (typeof child === "string") {
+                          return (
+                            <MobileLink
+                              key={childKey}
+                              href={child}
+                              onOpenChange={setOpen}
+                              className="text-base text-muted-foreground"
+                            >
+                              {label}
+                            </MobileLink>
+                          );
+                        }
+
+                        return (
+                          <div key={childKey} className="flex flex-col gap-1">
+                            <MobileLink
+                              href={child.href}
+                              onOpenChange={setOpen}
+                              className="text-base"
+                            >
+                              {label}
+                            </MobileLink>
+                            <div className="flex flex-col gap-1 pl-4 border-l border-border ml-1">
+                              {Object.entries(child.children).map(
+                                ([grandchildKey, grandchildHref]) => (
+                                  <MobileLink
+                                    key={grandchildKey}
+                                    href={grandchildHref}
+                                    onOpenChange={setOpen}
+                                    className="text-sm text-muted-foreground"
+                                  >
+                                    {grandchildKey
+                                      .replace(/([A-Z])/g, " $1")
+                                      .replace(/^./, (s) => s.toUpperCase())}
+                                  </MobileLink>
+                                ),
+                              )}
+                            </div>
+                          </div>
+                        );
+                      },
                     )}
                   </div>
                 </div>

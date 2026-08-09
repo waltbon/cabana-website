@@ -10,6 +10,7 @@ export { ContactCTASection } from "./contact-cta-section";
 export { ServiceHero } from "./service-hero";
 export { ServiceProblem } from "./service-problem";
 export { ServiceOfferings } from "./service-offerings";
+export { ServiceOfferingsFlow } from "./service-offerings-flow";
 export { ServiceDimensions } from "./service-dimensions";
 export { ServiceDeliverables } from "./service-deliverables";
 export { ServiceCredibility } from "./service-credibility";

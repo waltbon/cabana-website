@@ -1,6 +1,21 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import {
+  GitCompareArrows,
+  Wrench,
+  Shuffle,
+  Hourglass,
+  Clock,
+  MessagesSquare,
+  Cpu,
+  Users2,
+  TrendingUp,
+} from "lucide-react";
 import { ServiceHero } from "../_components/service-hero";
+import { DataConvergence } from "../_components/illustrations/data-convergence";
+import { DiagnosticGrid } from "../_components/illustrations/diagnostic-grid";
+import { PriorityRoadmap } from "../_components/illustrations/priority-roadmap";
+import { DeliverablesProgress } from "../_components/illustrations/deliverables-progress";
 import { ServiceProblem } from "../_components/service-problem";
 import { ServiceOfferings } from "../_components/service-offerings";
 import { ServiceDeliverables } from "../_components/service-deliverables";
@@ -51,7 +66,7 @@ export default async function DataConsultingPage() {
         headlineBlue={tHero("headlineBlue")}
         description={tHero("description")}
         cta={{ label: tHero("cta"), href: "/contact" }}
-        imageSrc="/services/data-consulting/hero2.png"
+        illustration={<DataConvergence className="h-full w-full p-12" />}
         imageAlt={tHero("imageAlt")}
       />
 
@@ -63,18 +78,22 @@ export default async function DataConsultingPage() {
           {
             title: tProblem("items.decisions.title"),
             description: tProblem("items.decisions.description"),
+            icon: GitCompareArrows,
           },
           {
             title: tProblem("items.tools.title"),
             description: tProblem("items.tools.description"),
+            icon: Wrench,
           },
           {
             title: tProblem("items.direction.title"),
             description: tProblem("items.direction.description"),
+            icon: Shuffle,
           },
           {
             title: tProblem("items.quickWins.title"),
             description: tProblem("items.quickWins.description"),
+            icon: Hourglass,
           },
         ]}
       />
@@ -89,13 +108,14 @@ export default async function DataConsultingPage() {
             whatIsIt: tOfferings("items.dhc.whatIsIt"),
             href: "/services/data-health-check",
             linkLabel: tOfferings("items.dhc.link"),
+            illustration: <DiagnosticGrid className="h-full w-full p-8" />,
           },
           {
             title: tOfferings("items.duc.title"),
             whatIsIt: tOfferings("items.duc.whatIsIt"),
-            // TODO: page doesn't exist yet — sub-service page pending
             href: "/services/data-analytics-use-case",
             linkLabel: tOfferings("items.duc.link"),
+            illustration: <PriorityRoadmap className="h-full w-full p-8" />,
           },
         ]}
         note={tOfferings("note")}
@@ -105,6 +125,7 @@ export default async function DataConsultingPage() {
         tagline={tDeliverables("tagline")}
         headlineDark={tDeliverables("headlineDark")}
         headlineBlue={tDeliverables("headlineBlue")}
+        illustration={<DeliverablesProgress className="h-full w-full p-8" />}
         items={[
           tDeliverables("items.diagnosis"),
           tDeliverables("items.roadmap"),
@@ -124,10 +145,12 @@ export default async function DataConsultingPage() {
           {
             label: tLogistics("items.duration.label"),
             description: tLogistics("items.duration.description"),
+            icon: Clock,
           },
           {
             label: tLogistics("items.workMode.label"),
             description: tLogistics("items.workMode.description"),
+            icon: MessagesSquare,
           },
         ]}
       />
@@ -139,14 +162,17 @@ export default async function DataConsultingPage() {
           {
             title: tPersonas("items.cto.title"),
             description: tPersonas("items.cto.description"),
+            icon: Cpu,
           },
           {
             title: tPersonas("items.coo.title"),
             description: tPersonas("items.coo.description"),
+            icon: Users2,
           },
           {
             title: tPersonas("items.growth.title"),
             description: tPersonas("items.growth.description"),
+            icon: TrendingUp,
           },
         ]}
       />

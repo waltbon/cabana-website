@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
@@ -13,8 +14,11 @@ interface ServiceHeroProps {
     label: string;
     href: string;
   };
-  imageSrc: string;
-  imageAlt: string;
+  /** Raster image path. Ignored when `illustration` is provided. */
+  imageSrc?: string;
+  imageAlt?: string;
+  /** Inline SVG/illustration to render instead of a raster image — preferred for brand illustrations. */
+  illustration?: ReactNode;
 }
 
 export function ServiceHero({
@@ -25,6 +29,7 @@ export function ServiceHero({
   cta,
   imageSrc,
   imageAlt,
+  illustration,
 }: ServiceHeroProps) {
   return (
     <Section className="py-24">
@@ -63,16 +68,20 @@ export function ServiceHero({
             </FadeIn>
           </div>
 
-          {/* Right Column - Image */}
+          {/* Right Column - Illustration */}
           <FadeIn direction="left" className="w-full shrink-0 lg:w-[45%]">
-            <div className="relative aspect-square w-full overflow-hidden rounded-xl">
-              <Image
-                src={imageSrc}
-                alt={imageAlt}
-                fill
-                className="object-cover"
-                priority
-              />
+            <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-section-slate">
+              {illustration ? (
+                illustration
+              ) : imageSrc ? (
+                <Image
+                  src={imageSrc}
+                  alt={imageAlt ?? ""}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              ) : null}
             </div>
           </FadeIn>
         </div>

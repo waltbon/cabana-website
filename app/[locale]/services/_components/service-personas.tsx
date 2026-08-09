@@ -1,11 +1,14 @@
 import Image from "next/image";
+import { LucideIcon, UserRound } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
 interface PersonaItem {
   title: string;
   description: string;
-  /** Optional avatar/illustration for this persona card. */
+  /** Preferred over imageSrc — renders in a round brand icon badge. Defaults to a generic person mark. */
+  icon?: LucideIcon;
+  /** Optional raster avatar. Ignored when `icon` is provided. */
   imageSrc?: string;
   imageAlt?: string;
 }
@@ -42,7 +45,7 @@ export function ServicePersonas({
             {items.map((item, index) => (
               <StaggerItem key={index}>
                 <div className="flex flex-col gap-4 rounded-xl border border-border bg-white p-6 shadow-sm">
-                  {item.imageSrc && (
+                  {item.imageSrc && !item.icon ? (
                     <div className="relative h-12 w-12 overflow-hidden rounded-full">
                       <Image
                         src={item.imageSrc}
@@ -51,6 +54,14 @@ export function ServicePersonas({
                         className="object-cover"
                       />
                     </div>
+                  ) : (
+                    <span className="flex h-12 w-12 items-center justify-center rounded-full bg-cabana-light">
+                      {item.icon ? (
+                        <item.icon className="size-5 text-cabana-blue" strokeWidth={2} />
+                      ) : (
+                        <UserRound className="size-5 text-cabana-blue" strokeWidth={2} />
+                      )}
+                    </span>
                   )}
                   <h3 className="text-lg font-bold leading-tight text-foreground">
                     {item.title}

@@ -1,14 +1,17 @@
 import Image from "next/image";
+import { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 
-interface OfferingItem {
+export interface OfferingItem {
   title: string;
   whatIsIt: string;
   /** Optional — omitted when the source copy doesn't separate "who is this for" from the description. */
   whoIsItFor?: string;
-  /** Optional illustration for this offering card. */
+  /** Preferred over imageSrc — inline SVG/illustration for this offering card. */
+  illustration?: ReactNode;
+  /** Optional raster illustration. Ignored when `illustration` is provided. */
   imageSrc?: string;
   imageAlt?: string;
   /** Optional link to the offering's own sub-service page. Renders the card as a link when provided. */
@@ -56,14 +59,18 @@ export function ServiceOfferings({
             {items.map((item, index) => (
               <StaggerItem key={index}>
                 <div className="flex flex-col gap-4">
-                  {item.imageSrc && (
-                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl">
-                      <Image
-                        src={item.imageSrc}
-                        alt={item.imageAlt ?? ""}
-                        fill
-                        className="object-cover"
-                      />
+                  {(item.illustration || item.imageSrc) && (
+                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-section-slate">
+                      {item.illustration ? (
+                        item.illustration
+                      ) : item.imageSrc ? (
+                        <Image
+                          src={item.imageSrc}
+                          alt={item.imageAlt ?? ""}
+                          fill
+                          className="object-cover"
+                        />
+                      ) : null}
                     </div>
                   )}
                   <h3 className="text-3xl font-bold leading-tight tracking-tight text-foreground">

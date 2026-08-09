@@ -1,7 +1,7 @@
 {
   "hero.png": {
     "image_description": {
-      "subject": "Abstract shape suggesting scattered data points converging into one clear path — loose dots on the left resolving into an aligned grid/line on the right. Visual metaphor for \"clarity over volume.\"",
+      "subject": "A scattered field of small geometric data points on the left, each with a faint question mark, funneling into a single ordered, numbered sequence of nodes on the right — visual metaphor for \"you have the data, you're missing the questions to ask it.\"",
       "art_style": {
         "technique": "Bold uniform-width lines (thick relative to canvas, ~1.5-2% of image width) combined with solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism, no literal dashboards/screens/laptops/logos.",
         "line_quality": "Thick, constant-width, geometric, high contrast against background",
@@ -17,7 +17,7 @@
         "application": "Solid filled shapes, thick strokes, layered overlapping elements for depth — no gradients, no hairline strokes, no floating isolated icons"
       },
       "composition": {
-        "layout": "Centered, radial-to-linear flow (loose scattered dots left → aligned grid/line right)",
+        "layout": "Centered, scattered-to-sequenced flow left to right",
         "atmosphere": "Bold, high-contrast, confident — a hero/feature visual, not a small icon",
         "negative_space": "Low to moderate — composition should feel substantial and fill the canvas"
       },
@@ -37,9 +37,9 @@
       }
     }
   },
-  "problem-decisions.png": {
+  "problem-noowner.png": {
     "image_description": {
-      "subject": "Two diverging arrows/paths branching from a single shared data point — visual metaphor for conflicting conclusions drawn from the same source.",
+      "subject": "A geometric server/pipeline shape with a dashed, empty outline where a person/owner mark should be — visual metaphor for a data initiative starting from IT with no business owner defining it.",
       "art_style": {
         "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
         "line_quality": "Thick, constant-width, geometric",
@@ -75,9 +75,9 @@
       }
     }
   },
-  "problem-tools.png": {
+  "problem-everythingpriority.png": {
     "image_description": {
-      "subject": "A geometric tool icon (wrench or gear) resting on top of a broken/gapped foundation line — visual metaphor for buying tools before diagnosing the infrastructure underneath.",
+      "subject": "A cluster of equal-sized geometric shapes all pointing toward the same single arrow/target, overlapping and competing — visual metaphor for everything looking equally urgent with no objective way to prioritize.",
       "art_style": {
         "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
         "line_quality": "Thick, constant-width, geometric",
@@ -113,9 +113,9 @@
       }
     }
   },
-  "problem-direction.png": {
+  "problem-noquickwins.png": {
     "image_description": {
-      "subject": "Loose, disconnected dots and small table/grid fragments scattered with no connecting line between them — visual metaphor for data accumulated without business direction.",
+      "subject": "A long flat horizontal timeline bar with no markers until the very end — visual metaphor for months of promised transformation with nothing tangible early on. Same motif family as data-consulting's quick-wins icon for continuity.",
       "art_style": {
         "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
         "line_quality": "Thick, constant-width, geometric",
@@ -151,9 +151,9 @@
       }
     }
   },
-  "problem-quickwins.png": {
+  "problem-trenddriven.png": {
     "image_description": {
-      "subject": "A long flat horizontal timeline bar with no markers until the very end — visual metaphor for months of promised transformation with nothing tangible early on.",
+      "subject": "A trendy geometric shape (e.g. a hexagon labeled with a subtle spark) being placed on top of a foundation with a visible gap/mismatch underneath — visual metaphor for choosing a stack by trend instead of a real gap analysis.",
       "art_style": {
         "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
         "line_quality": "Thick, constant-width, geometric",
@@ -186,88 +186,12 @@
         "aspect_ratio": "1:1",
         "orientation": "square",
         "dimensions": "192x192px"
-      }
-    }
-  },
-  "dhc-illustration.png": {
-    "image_description": {
-      "subject": "A grid/checklist pattern of small squares, some highlighted in cabana green — visual metaphor for an objective diagnostic scoring across multiple dimensions of a data operation.",
-      "art_style": {
-        "technique": "Bold uniform-width lines (thick relative to canvas, ~1.5-2% of image width) combined with solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism, no literal dashboards/screens/laptops/logos.",
-        "line_quality": "Thick, constant-width, geometric, high contrast against background",
-        "perspective": "Flat 2D, orthographic — no isometric depth, no perspective distortion",
-        "scale": "Composition fills 85-90% of canvas width and height — no small centered icon surrounded by empty space"
-      },
-      "color_profile": {
-        "type": "Flat fill, single-accent, high contrast — no gradients",
-        "background": "#FFFFFF (pure white) full-bleed solid panel — bold filled shapes and thick strokes carry the impact, not a dark ground",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework, the dominant color covering most of the composition",
-        "depth_layer": "#16364d (cabana navy, lighter tint) — layered shapes behind the main blue layer for depth, subtle contrast against the white background",
-        "highlight": "#57ff8f (cabana green) — one sparing highlight marking the single most important point in the composition, the moment of visual resolution",
-        "application": "Solid filled shapes, thick strokes, layered overlapping elements for depth — no gradients, no hairline strokes, no floating isolated icons"
-      },
-      "composition": {
-        "layout": "Centered card illustration, fills the frame with breathing margin",
-        "atmosphere": "Bold, high-contrast, confident — a hero/feature visual, not a small icon",
-        "negative_space": "Low to moderate — composition should feel substantial and fill the canvas"
-      },
-      "keywords": [
-        "bold flat geometric illustration",
-        "full-bleed composition",
-        "solid filled shapes",
-        "cabana data brand style",
-        "no gradients",
-        "no thin sparse icon lost on a plain background",
-        "white background"
-      ],
-      "format": {
-        "aspect_ratio": "4:3",
-        "orientation": "landscape",
-        "dimensions": "1200x900px"
-      }
-    }
-  },
-  "duc-illustration.png": {
-    "image_description": {
-      "subject": "A branching decision tree/roadmap of connected nodes, with one path highlighted in cabana green — visual metaphor for business questions converting into a prioritized, sequenced roadmap.",
-      "art_style": {
-        "technique": "Bold uniform-width lines (thick relative to canvas, ~1.5-2% of image width) combined with solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism, no literal dashboards/screens/laptops/logos.",
-        "line_quality": "Thick, constant-width, geometric, high contrast against background",
-        "perspective": "Flat 2D, orthographic — no isometric depth, no perspective distortion",
-        "scale": "Composition fills 85-90% of canvas width and height — no small centered icon surrounded by empty space"
-      },
-      "color_profile": {
-        "type": "Flat fill, single-accent, high contrast — no gradients",
-        "background": "#FFFFFF (pure white) full-bleed solid panel — bold filled shapes and thick strokes carry the impact, not a dark ground",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework, the dominant color covering most of the composition",
-        "depth_layer": "#16364d (cabana navy, lighter tint) — layered shapes behind the main blue layer for depth, subtle contrast against the white background",
-        "highlight": "#57ff8f (cabana green) — one sparing highlight marking the single most important point in the composition, the moment of visual resolution",
-        "application": "Solid filled shapes, thick strokes, layered overlapping elements for depth — no gradients, no hairline strokes, no floating isolated icons"
-      },
-      "composition": {
-        "layout": "Centered card illustration, fills the frame with breathing margin",
-        "atmosphere": "Bold, high-contrast, confident — a hero/feature visual, not a small icon",
-        "negative_space": "Low to moderate — composition should feel substantial and fill the canvas"
-      },
-      "keywords": [
-        "bold flat geometric illustration",
-        "full-bleed composition",
-        "solid filled shapes",
-        "cabana data brand style",
-        "no gradients",
-        "no thin sparse icon lost on a plain background",
-        "white background"
-      ],
-      "format": {
-        "aspect_ratio": "4:3",
-        "orientation": "landscape",
-        "dimensions": "1200x900px"
       }
     }
   },
   "deliverables.png": {
     "image_description": {
-      "subject": "Three stacked horizontal bars of increasing solidity — dotted outline, then dashed, then solid filled — visual metaphor for raw findings maturing into an executable plan.",
+      "subject": "A geometric card/document shape (the \"DUC-CARD\") stacked above a small three-tier roadmap ladder (quick win / mid-term / strategic), one tier highlighted in cabana green — visual metaphor for documented, prioritized use cases ready to execute.",
       "art_style": {
         "technique": "Bold uniform-width lines (thick relative to canvas, ~1.5-2% of image width) combined with solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism, no literal dashboards/screens/laptops/logos.",
         "line_quality": "Thick, constant-width, geometric, high contrast against background",
@@ -283,7 +207,7 @@
         "application": "Solid filled shapes, thick strokes, layered overlapping elements for depth — no gradients, no hairline strokes, no floating isolated icons"
       },
       "composition": {
-        "layout": "Vertical stack, top-to-bottom progression",
+        "layout": "Vertical, card-over-ladder motif",
         "atmosphere": "Bold, high-contrast, confident — a hero/feature visual, not a small icon",
         "negative_space": "Low to moderate — composition should feel substantial and fill the canvas"
       },
@@ -303,85 +227,9 @@
       }
     }
   },
-  "dama-dmbok-badge.png": {
-    "image_description": {
-      "subject": "A simple geometric seal/shield outline containing an abstract rigor mark — evoking certification/standard credibility without spelling out literal text-heavy logos.",
-      "art_style": {
-        "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
-        "line_quality": "Thick, constant-width, geometric",
-        "perspective": "Flat 2D, orthographic",
-        "scale": "Composition fills 70-80% of the small frame — avoid a tiny motif floating in a mostly empty square"
-      },
-      "color_profile": {
-        "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
-        "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
-        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
-        "background": "transparent",
-        "application": "Solid filled shapes and thick strokes only, no gradient fills, no hairline strokes, no drop shadows"
-      },
-      "composition": {
-        "layout": "Centered, single bold focal motif filling most of the frame",
-        "atmosphere": "Confident, clear, reads instantly at small size",
-        "negative_space": "Low — motif should feel substantial within its frame, not a thin icon adrift in empty space"
-      },
-      "keywords": [
-        "bold flat geometric icon",
-        "solid filled shapes",
-        "high-contrast",
-        "cabana data brand style",
-        "no gradients",
-        "no thin hairline outlines",
-        "white background"
-      ],
-      "format": {
-        "aspect_ratio": "1:1",
-        "orientation": "square",
-        "dimensions": "256x256px"
-      }
-    }
-  },
-  "logistics-duration.png": {
-    "image_description": {
-      "subject": "A minimal hourglass or clock built entirely from straight/curved geometric lines — not a literal clock face with numbers.",
-      "art_style": {
-        "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
-        "line_quality": "Thick, constant-width, geometric",
-        "perspective": "Flat 2D, orthographic",
-        "scale": "Composition fills 70-80% of the small frame — avoid a tiny motif floating in a mostly empty square"
-      },
-      "color_profile": {
-        "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
-        "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
-        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
-        "background": "transparent",
-        "application": "Solid filled shapes and thick strokes only, no gradient fills, no hairline strokes, no drop shadows"
-      },
-      "composition": {
-        "layout": "Centered, single bold focal motif filling most of the frame",
-        "atmosphere": "Confident, clear, reads instantly at small size",
-        "negative_space": "Low — motif should feel substantial within its frame, not a thin icon adrift in empty space"
-      },
-      "keywords": [
-        "bold flat geometric icon",
-        "solid filled shapes",
-        "high-contrast",
-        "cabana data brand style",
-        "no gradients",
-        "no thin hairline outlines",
-        "white background"
-      ],
-      "format": {
-        "aspect_ratio": "1:1",
-        "orientation": "square",
-        "dimensions": "160x160px"
-      }
-    }
-  },
   "logistics-workmode.png": {
     "image_description": {
-      "subject": "Two overlapping speech-bubble outlines — visual metaphor for interviews and workshops, deliberately avoiding any imagery suggesting invasive system access.",
+      "subject": "A small geometric table/workshop layout — a few simple seat marks around a central shared node — visual metaphor for a business-stakeholder workshop that doesn't touch or interrupt live systems.",
       "art_style": {
         "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
         "line_quality": "Thick, constant-width, geometric",
@@ -417,85 +265,9 @@
       }
     }
   },
-  "persona-cto.png": {
+  "persona-scattered.png": {
     "image_description": {
-      "subject": "Abstract geometric person mark (circle head + simple shoulder shape) with a small node/graph badge detail identifying the CTO / Head of Data persona — not a literal photo avatar.",
-      "art_style": {
-        "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
-        "line_quality": "Thick, constant-width, geometric",
-        "perspective": "Flat 2D, orthographic",
-        "scale": "Composition fills 70-80% of the small frame — avoid a tiny motif floating in a mostly empty square"
-      },
-      "color_profile": {
-        "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
-        "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
-        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
-        "background": "transparent",
-        "application": "Solid filled shapes and thick strokes only, no gradient fills, no hairline strokes, no drop shadows"
-      },
-      "composition": {
-        "layout": "Centered, single bold focal motif filling most of the frame",
-        "atmosphere": "Confident, clear, reads instantly at small size",
-        "negative_space": "Low — motif should feel substantial within its frame, not a thin icon adrift in empty space"
-      },
-      "keywords": [
-        "bold flat geometric icon",
-        "solid filled shapes",
-        "high-contrast",
-        "cabana data brand style",
-        "no gradients",
-        "no thin hairline outlines",
-        "white background"
-      ],
-      "format": {
-        "aspect_ratio": "1:1",
-        "orientation": "square",
-        "dimensions": "192x192px"
-      }
-    }
-  },
-  "persona-coo.png": {
-    "image_description": {
-      "subject": "Abstract geometric person mark (circle head + simple shoulder shape) with two overlapping horizontal bars as a small badge detail identifying the COO / Operations Director persona — not a literal photo avatar.",
-      "art_style": {
-        "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
-        "line_quality": "Thick, constant-width, geometric",
-        "perspective": "Flat 2D, orthographic",
-        "scale": "Composition fills 70-80% of the small frame — avoid a tiny motif floating in a mostly empty square"
-      },
-      "color_profile": {
-        "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
-        "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
-        "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
-        "background": "transparent",
-        "application": "Solid filled shapes and thick strokes only, no gradient fills, no hairline strokes, no drop shadows"
-      },
-      "composition": {
-        "layout": "Centered, single bold focal motif filling most of the frame",
-        "atmosphere": "Confident, clear, reads instantly at small size",
-        "negative_space": "Low — motif should feel substantial within its frame, not a thin icon adrift in empty space"
-      },
-      "keywords": [
-        "bold flat geometric icon",
-        "solid filled shapes",
-        "high-contrast",
-        "cabana data brand style",
-        "no gradients",
-        "no thin hairline outlines",
-        "white background"
-      ],
-      "format": {
-        "aspect_ratio": "1:1",
-        "orientation": "square",
-        "dimensions": "192x192px"
-      }
-    }
-  },
-  "persona-growth.png": {
-    "image_description": {
-      "subject": "Abstract geometric person mark (circle head + simple shoulder shape) with a small upward-trending line badge detail identifying the fast-growing company persona — not a literal photo avatar.",
+      "subject": "Three small abstract geometric person marks, each pointing to its own separate, disconnected metric shape — visual metaphor for a company whose teams each track their own numbers with no shared organizational priority.",
       "art_style": {
         "technique": "Bold uniform-width lines and solid filled shapes — not thin hairline outlines. Flat geometric illustration, no photorealism.",
         "line_quality": "Thick, constant-width, geometric",
@@ -533,7 +305,7 @@
   },
   "cta-background.png": {
     "image_description": {
-      "subject": "Same converging-dots-to-line motif as the hero, but wider and looser — loose scattered data points resolving into an aligned line — meant to sit at 20% opacity behind CTA headline text, so contrast and detail stay very low.",
+      "subject": "Same scattered-to-sequenced motif as the hero, but wider and looser — meant to sit at 20% opacity behind CTA headline text, so contrast and detail stay very low.",
       "note": "Deliberately kept lighter/sparser than the rest of the set — this one sits UNDER headline text at 20% opacity, so it must stay low-contrast and low-density for legibility, unlike every other bold asset in this system.",
       "art_style": {
         "technique": "Uniform Lines: constant-width strokes throughout, no taper. Flat geometric illustration, no photorealism, kept intentionally sparse for legibility under text overlay.",
@@ -549,7 +321,7 @@
         "application": "Solid flat shapes and thin strokes only, no gradient fills, no drop shadows, very low visual density"
       },
       "composition": {
-        "layout": "Wide horizontal spread, loose scatter left → aligned line right",
+        "layout": "Wide horizontal spread, scattered dots left resolving into an ordered sequence right",
         "atmosphere": "Calm, quiet, almost invisible — a texture, not a focal illustration",
         "negative_space": "Extremely high — entire center must stay clear enough for headline + button overlay"
       },

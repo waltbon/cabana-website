@@ -1,13 +1,16 @@
 import Image from "next/image";
+import { LucideIcon, ShieldCheck } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { FadeIn } from "@/components/animations";
 
 interface ServiceCredibilityProps {
-  /** e.g. "DAMA-DMBOK" — shown as a text mark when no badge image is supplied. */
+  /** e.g. "DAMA-DMBOK" — shown as a text mark when neither `icon` nor `imageSrc` is supplied. */
   proofPoint: string;
   headline: string;
   description: string;
-  /** Optional badge/illustration. Falls back to a text mark built from proofPoint. */
+  /** Preferred over imageSrc — renders in a brand icon badge. Defaults to a shield-check mark. */
+  icon?: LucideIcon;
+  /** Optional raster badge. Ignored when `icon` is provided. */
   imageSrc?: string;
   imageAlt?: string;
 }
@@ -16,16 +19,20 @@ export function ServiceCredibility({
   proofPoint,
   headline,
   description,
+  icon,
   imageSrc,
   imageAlt,
 }: ServiceCredibilityProps) {
+  const Icon = icon ?? (imageSrc ? undefined : ShieldCheck);
   return (
     <Section className="bg-section-light py-24">
       <Container className="max-w-4xl px-6">
         <FadeIn>
           <div className="flex flex-col items-center gap-6 rounded-2xl border border-border bg-white p-10 text-center sm:flex-row sm:text-left">
             <div className="relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-cabana-light">
-              {imageSrc ? (
+              {Icon ? (
+                <Icon className="size-7 text-cabana-blue" strokeWidth={1.75} />
+              ) : imageSrc ? (
                 <Image
                   src={imageSrc}
                   alt={imageAlt ?? proofPoint}
