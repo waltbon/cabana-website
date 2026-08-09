@@ -11,8 +11,8 @@ import {
 import { useTranslations } from "next-intl";
 import { FadeIn } from "@/components/animations";
 
-// FAQ keys for iteration
-const faqKeys = [
+// Default FAQ keys for the shared services.faq namespace
+const defaultFaqKeys = [
   "whatServices",
   "projectDuration",
   "cloudPlatforms",
@@ -20,14 +20,25 @@ const faqKeys = [
   "security",
 ];
 
-export function FAQSection() {
-  const t = useTranslations("services.faq");
+interface FAQSectionProps {
+  /** Translation namespace holding tagline/headline/description/items. Defaults to the shared services FAQ. */
+  namespace?: string;
+  /** Keys under `${namespace}.items` to render, in order. Defaults to the shared services FAQ keys. */
+  keys?: string[];
+}
+
+export function FAQSection({
+  namespace = "services.faq",
+  keys = defaultFaqKeys,
+}: FAQSectionProps = {}) {
+  const t = useTranslations(namespace);
 
   // Build faqs array for schema
-  const faqs = faqKeys.map((key) => ({
+  const faqs = keys.map((key) => ({
     question: t(`items.${key}.question`),
     answer: t(`items.${key}.answer`),
   }));
+  const description = t("description");
 
   return (
     <>
@@ -43,16 +54,18 @@ export function FAQSection() {
                   {t("headline")}{" "}
                   <span className="text-cabana-blue">{t("headlineHighlight")}</span>
                 </h2>
-                <p className="text-base text-muted-foreground">
-                  {t("description")}
-                </p>
+                {description && (
+                  <p className="text-base text-muted-foreground">
+                    {description}
+                  </p>
+                )}
               </div>
             </FadeIn>
 
             {/* FAQ Accordion */}
             <FadeIn delay={0.2} className="w-full">
               <Accordion type="single" collapsible className="w-full">
-                {faqKeys.map((key, index) => (
+                {keys.map((key, index) => (
                   <AccordionItem key={key} value={`item-${index}`}>
                     <AccordionTrigger className="text-left text-lg font-medium">
                       {t(`items.${key}.question`)}

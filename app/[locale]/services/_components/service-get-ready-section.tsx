@@ -4,12 +4,9 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
-import { Check, CheckCircle2 } from "lucide-react";
+import { Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
-
-const phaseKeys = ["phase1", "phase2", "phase3", "phase4"];
-const itemKeys = ["item1", "item2", "item3", "item4"];
 
 const checklistKeys = [
   "discovery",
@@ -18,9 +15,17 @@ const checklistKeys = [
   "ai",
 ] as const;
 
+// Process blocks (non-translated data) — one per main service line
+const processKeys = [
+  { key: "dataConsulting", itemKeys: ["dhc", "duc"] },
+  { key: "dataEngineering", itemKeys: null },
+  { key: "appsDashboards", itemKeys: ["productDesign", "appDevelopment", "dashboards"] },
+  { key: "aiSystems", itemKeys: ["rutaIa", "agentDevelopment"] },
+] as const;
+
 export function ServiceGetReadySection() {
   const t = useTranslations("services.getReady");
-  const tServices = useTranslations("services");
+  const tProcess = useTranslations("services.process");
 
   return (
     <Section className="py-24">
@@ -90,64 +95,63 @@ export function ServiceGetReadySection() {
           </FadeIn>
         </div>
 
-        {/* Timeline */}
-        <StaggerChildren className="flex flex-col">
-          {phaseKeys.map((key, index) => (
+        {/* Process, by service */}
+        <div className="mt-8 flex flex-col items-center gap-4 text-center">
+          <FadeIn>
+            <h4 className="text-xs font-semibold uppercase tracking-widest text-cabana-blue">
+              {tProcess("tagline")}
+            </h4>
+          </FadeIn>
+          <FadeIn delay={0.05}>
+            <h3 className="text-2xl font-bold tracking-tight md:text-3xl">
+              {tProcess("headline")}{" "}
+              <span className="text-cabana-blue">{tProcess("headlineHighlight")}</span>
+            </h3>
+          </FadeIn>
+          <FadeIn delay={0.1}>
+            <p className="max-w-2xl text-sm text-muted-foreground">
+              {tProcess("description")}
+            </p>
+          </FadeIn>
+        </div>
+
+        <StaggerChildren className="mt-12 flex flex-col">
+          {processKeys.map(({ key, itemKeys: subItems }, index) => (
             <StaggerItem key={key} className="flex gap-6 md:gap-10">
               {/* Left: number + connector */}
               <div className="flex flex-col items-center">
                 <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-cabana-blue text-sm font-bold text-white">
                   0{index + 1}
                 </div>
-                {index < phaseKeys.length - 1 && (
+                {index < processKeys.length - 1 && (
                   <div className="mt-2 w-px flex-1 bg-border" />
                 )}
               </div>
 
-              {/* Right: content + image */}
-              <div className={`flex flex-1 flex-col gap-6 md:flex-row md:items-start md:gap-10 ${index < phaseKeys.length - 1 ? "pb-12" : "pb-0"}`}>
-                {/* Text content */}
-                <div className="flex-1">
-                  <div className="mb-1 text-xs font-semibold uppercase tracking-widest text-cabana-blue">
-                    {tServices(`phases.${key}.badge`)}
-                  </div>
-                  <h3 className="mb-1 text-xl font-bold">
-                    {tServices(`phases.${key}.title`)}
-                  </h3>
-                  <p className="mb-3 text-xs text-muted-foreground">
-                    {tServices(`phases.${key}.duration`)}
-                  </p>
-                  <p className="mb-4 text-sm leading-relaxed text-foreground">
-                    {tServices(`phases.${key}.description`)}
-                  </p>
+              {/* Right: content */}
+              <div className={`flex-1 ${index < processKeys.length - 1 ? "pb-12" : "pb-0"}`}>
+                <h3 className="mb-4 text-xl font-bold">
+                  {tProcess(`${key}.title`)}
+                </h3>
 
-                  <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                    {tServices("whatHappens")}
-                  </p>
-                  <ul className="mb-4 flex flex-col gap-1.5">
-                    {itemKeys.map((item) => (
-                      <li key={item} className="flex items-center gap-2 text-sm">
-                        <CheckCircle2 className="size-4 shrink-0 text-cabana-blue" />
-                        {tServices(`phases.${key}.${item}`)}
-                      </li>
+                {subItems ? (
+                  <div className="flex flex-col gap-4">
+                    {subItems.map((item) => (
+                      <div key={item} className="rounded-xs border-l-4 border-cabana-blue bg-gradient-cabana px-4 py-3">
+                        <p className="mb-1 text-sm font-extrabold">
+                          {tProcess(`${key}.items.${item}.subtitle`)}
+                        </p>
+                        <p className="text-sm leading-relaxed text-foreground">
+                          {tProcess(`${key}.items.${item}.description`)}
+                        </p>
+                      </div>
                     ))}
-                  </ul>
-
-                  <div className="rounded-xs border-l-4 border-cabana-blue bg-gradient-cabana px-4 py-3 text-sm">
-                    <span className="font-extrabold">{tServices("youReceive")}</span>{" "}
-                    {tServices(`phases.${key}.outcome`)}
                   </div>
-                </div>
-
-                {/* Phase image */}
-                <div className="relative aspect-4/3 w-full shrink-0 overflow-hidden rounded-xl md:w-64 lg:w-90 ">
-                  <Image
-                    src={`/home/phase-${index + 1}.jpg`}
-                    alt={tServices(`phases.${key}.title`)}
-                    fill
-                    className="object-contain"
-                  />
-                </div>
+                ) : (
+                  <p className="text-sm leading-relaxed text-muted-foreground">
+                    {tProcess(`${key}.description`)}
+                  </p>
+                )}
               </div>
             </StaggerItem>
           ))}

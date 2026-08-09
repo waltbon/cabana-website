@@ -1,6 +1,6 @@
 "use client";
 
-import { Cloud, Sparkles, PlaneIcon, AppWindowIcon, ArrowRight } from "lucide-react";
+import { Cloud, Sparkles, PlaneIcon, AppWindowIcon, BarChart3, ArrowRight } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { useTranslations } from "next-intl";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
@@ -9,8 +9,9 @@ import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 const services = [
   { key: "dataStrategy", icon: PlaneIcon },
   { key: "dataEngineering", icon: Cloud },
-  { key: "customDevelopment", icon: AppWindowIcon },
-  { key: "aiMl", icon: Sparkles },
+  { key: "customApps", icon: AppWindowIcon },
+  { key: "dashboards", icon: BarChart3 },
+  { key: "aiSolutions", icon: Sparkles },
 ];
 
 export function ServicesGridSection() {
@@ -44,10 +45,13 @@ export function ServicesGridSection() {
 
           {/* Services Grid */}
           <StaggerChildren className="grid w-full max-w-4xl grid-cols-1 gap-12 md:grid-cols-2 md:gap-20">
-            {services.map((service) => (
+            {services.map((service, index) => (
               <StaggerItem
                 key={service.key}
-                className="flex flex-col gap-5"
+                className={`flex flex-col gap-5 ${index === services.length - 1 && services.length % 2 === 1
+                  ? "md:col-span-2 md:max-w-[calc(50%-2.5rem)] md:mx-auto"
+                  : ""
+                  }`}
               >
                 {/* Icon Wrapper */}
                 <div className="icon-wrapper icon-wrapper-md icon-wrapper-gradient flex mx-auto">

@@ -79,18 +79,51 @@ export const Nav = ({ className, children, id }: NavProps) => {
                         </li>
                         <li className="my-1 h-px bg-border" />
                         {Object.entries(item.children).map(
-                          ([childKey, childHref]) => (
-                            <li key={childKey}>
-                              <NavigationMenuLink asChild>
-                                <Link
-                                  href={childHref}
-                                  className="block rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground"
-                                >
-                                  {t(childKey)}
-                                </Link>
-                              </NavigationMenuLink>
-                            </li>
-                          )
+                          ([childKey, child]) => {
+                            if (typeof child === "string") {
+                              return (
+                                <li key={childKey}>
+                                  <NavigationMenuLink asChild>
+                                    <Link
+                                      href={child}
+                                      className="block rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground"
+                                    >
+                                      {t(childKey)}
+                                    </Link>
+                                  </NavigationMenuLink>
+                                </li>
+                              );
+                            }
+
+                            return (
+                              <li key={childKey} className="flex flex-col">
+                                <NavigationMenuLink asChild>
+                                  <Link
+                                    href={child.href}
+                                    className="block rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+                                  >
+                                    {t(childKey)}
+                                  </Link>
+                                </NavigationMenuLink>
+                                <ul className="flex flex-col gap-0.5 border-l border-border ml-3 pl-2">
+                                  {Object.entries(child.children).map(
+                                    ([grandchildKey, grandchildHref]) => (
+                                      <li key={grandchildKey}>
+                                        <NavigationMenuLink asChild>
+                                          <Link
+                                            href={grandchildHref}
+                                            className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                                          >
+                                            {t(grandchildKey)}
+                                          </Link>
+                                        </NavigationMenuLink>
+                                      </li>
+                                    ),
+                                  )}
+                                </ul>
+                              </li>
+                            );
+                          },
                         )}
                       </ul>
                     </NavigationMenuContent>
