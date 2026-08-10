@@ -66,7 +66,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
                   <NavigationMenuItem key={key}>
                     <NavigationMenuTrigger>{t(key)}</NavigationMenuTrigger>
                     <NavigationMenuContent>
-                      <ul className="flex flex-col gap-0.5 p-2 w-56">
+                      <ul className="flex flex-col gap-0.5 p-2 w-64">
                         <li>
                           <NavigationMenuLink asChild>
                             <Link

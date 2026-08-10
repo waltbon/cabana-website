@@ -40,7 +40,7 @@ export function ServiceProblem({
             </FadeIn>
 
             <FadeIn delay={0.1}>
-              <h2 className="text-5xl font-bold tracking-tight text-cabana-blue md:text-[56px]">
+              <h2 className="text-5xl font-bold tracking-tight text-cabana-navy md:text-[56px]">
                 {headline}
               </h2>
             </FadeIn>
@@ -61,7 +61,7 @@ export function ServiceProblem({
                 <div key={index} className="flex flex-col gap-3">
                   {item.icon ? (
                     <span className="icon-wrapper icon-wrapper-md bg-cabana-light">
-                      <item.icon className="size-5 text-cabana-blue" strokeWidth={2} />
+                      <item.icon className="size-5 text-cabana-green" strokeWidth={2} />
                     </span>
                   ) : (
                     item.imageSrc && (

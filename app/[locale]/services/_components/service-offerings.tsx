@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
+import { Button } from "@/components/ui/button";
 
 export interface OfferingItem {
   title: string;
@@ -36,20 +37,20 @@ export function ServiceOfferings({
   note,
 }: ServiceOfferingsProps) {
   return (
-    <Section className="border-b border-dashed py-24">
+    <Section className="border-b border-dashed py-24 bg-gradient-cabana">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col gap-16">
           {/* Header */}
-          <div className="flex flex-col gap-5 max-w-xl">
+          <div className="flex flex-col gap-5 max-w-2xl">
             <FadeIn>
               <p className="text-sm font-medium text-muted-foreground">
                 {tagline}
               </p>
             </FadeIn>
             <FadeIn delay={0.1}>
-              <h2 className="text-4xl font-bold leading-tight tracking-tight">
+              <h2 className="text-5xl font-bold leading-tight tracking-tight">
                 {headlineDark}{" "}
-                <span className="text-cabana-blue">{headlineBlue}</span>
+                <span className="text-gradient-cabana">{headlineBlue}</span>
               </h2>
             </FadeIn>
           </div>
@@ -58,9 +59,9 @@ export function ServiceOfferings({
           <StaggerChildren className="grid gap-12 sm:grid-cols-2">
             {items.map((item, index) => (
               <StaggerItem key={index}>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-row gap-5 border p-8 rounded-2xl bg-white">
                   {(item.illustration || item.imageSrc) && (
-                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-section-slate">
+                    <div className="relative aspect-4/3 w-2/3 overflow-hidden rounded-xl bg-section-slate border">
                       {item.illustration ? (
                         item.illustration
                       ) : item.imageSrc ? (
@@ -68,33 +69,39 @@ export function ServiceOfferings({
                           src={item.imageSrc}
                           alt={item.imageAlt ?? ""}
                           fill
-                          className="object-cover"
+                          className="object-center"
                         />
                       ) : null}
                     </div>
                   )}
-                  <h3 className="text-3xl font-bold leading-tight tracking-tight text-foreground">
-                    {item.title}
-                  </h3>
-                  <div className="flex flex-col gap-3 text-base leading-relaxed text-muted-foreground">
-                    <p>{item.whatIsIt}</p>
-                    {item.whoIsItFor && (
-                      <p>
-                        <strong className="font-semibold text-foreground">
-                          ¿Para quién es?{" "}
-                        </strong>
-                        {item.whoIsItFor}
-                      </p>
+                  <div className="flex flex-col w-auto gap-2">
+
+                    <h3 className="text-2xl font-bold leading-tight tracking-tight text-cabana-blue">
+                      {item.title}
+
+                    </h3>
+                    <div className="flex flex-col gap-3 text-base leading-relaxed text-muted-foreground">
+                      <p>{item.whatIsIt}</p>
+                      {item.whoIsItFor && (
+                        <p>
+                          <strong className="font-semibold text-foreground">
+                            ¿Para quién es?{" "}
+                          </strong>
+                          {item.whoIsItFor}
+                        </p>
+                      )}
+                    </div>
+                    {item.href && (
+                      <Button className="flex-wrap mt-2">
+                        <Link
+                          href={item.href}
+                          className="w-fit text-sm font-semibold"
+                        >
+                          {item.linkLabel ?? "Ver más →"}
+                        </Link>
+                      </Button>
                     )}
                   </div>
-                  {item.href && (
-                    <Link
-                      href={item.href}
-                      className="w-fit text-sm font-semibold text-cabana-blue hover:underline"
-                    >
-                      {item.linkLabel ?? "Ver más →"}
-                    </Link>
-                  )}
                 </div>
               </StaggerItem>
             ))}

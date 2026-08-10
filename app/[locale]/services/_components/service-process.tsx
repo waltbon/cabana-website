@@ -48,7 +48,7 @@ export function ServiceProcess({
               const Icon = step.icon ?? Check;
               return (
               <div key={index} className="flex items-start gap-4">
-                <span className="mt-0.5 shrink-0 text-cabana-blue">
+                <span className="mt-0.5 shrink-0 text-cabana-green">
                   <Icon className="size-5" strokeWidth={2.5} />
                 </span>
                 <p className="text-base leading-relaxed">

@@ -14,7 +14,6 @@ export const mainMenu: Record<string, MenuItem> = {
   services: {
     href: "/services",
     children: {
-      dataStrategy: "/services/data-strategy",
       dataConsulting: {
         href: "/services/data-consulting",
         children: {

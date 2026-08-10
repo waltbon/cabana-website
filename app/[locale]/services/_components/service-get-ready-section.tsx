@@ -29,7 +29,7 @@ export function ServiceGetReadySection() {
 
   return (
     <Section className="py-24">
-      <Container className="max-w-7xl px-6">
+      <Container className="max-w-4xl px-6">
         <div className="flex flex-col items-center gap-16 lg:flex-row lg:items-center lg:gap-16">
           {/* Left Column - Content */}
           <div className="flex flex-1 flex-col gap-8">

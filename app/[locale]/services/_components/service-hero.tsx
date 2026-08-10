@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
 import { FadeIn } from "@/components/animations";
+import { Badge } from "@/components/ui/badge";
 
 interface ServiceHeroProps {
   tagline: string;
@@ -32,27 +33,27 @@ export function ServiceHero({
   illustration,
 }: ServiceHeroProps) {
   return (
-    <Section className="py-24">
+    <Section className="py-24 bg-accent-foreground text-white">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col items-center gap-16 lg:flex-row lg:items-center lg:gap-16">
           {/* Left Column - Content */}
           <div className="flex flex-1 flex-col gap-8">
             <div className="flex flex-col gap-6">
               <FadeIn>
-                <p className="text-sm font-medium text-muted-foreground">
+                <Badge variant={'green'}>
                   {tagline}
-                </p>
+                </Badge>
               </FadeIn>
 
               <FadeIn delay={0.1}>
                 <h1 className="text-5xl font-bold leading-tight tracking-tight md:text-[48px]">
                   {headlineDark}{" "}
-                  <span className="text-cabana-blue">{headlineBlue}</span>
+                  <span className="text-gradient-cabana">{headlineBlue}</span>
                 </h1>
               </FadeIn>
 
               <FadeIn delay={0.2}>
-                <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">
+                <p className="max-w-lg text-lg leading-relaxed text-white/90">
                   {description}
                 </p>
               </FadeIn>

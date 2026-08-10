@@ -36,7 +36,7 @@ const XIcon = ({ className }: { className?: string }) => (
 // Footer navigation link keys
 const footerLinkKeys = [
   { key: "services", href: "/services" },
-  { key: "caseStudies", href: "/case-studies" },
+  // { key: "caseStudies", href: "/case-studies" },
   { key: "about", href: "/about" },
   { key: "blog", href: "/posts" },
   { key: "contact", href: "/contact" },
@@ -48,11 +48,6 @@ const socialLinks = [
     key: "linkedin",
     href: "https://linkedin.com/company/cabanadata",
     icon: LinkedInIcon,
-  },
-  {
-    key: "twitter",
-    href: "https://x.com/cabanadata",
-    icon: XIcon,
   },
 ];
 

@@ -28,7 +28,7 @@ export function ServiceDimensions({
   note,
 }: ServiceDimensionsProps) {
   return (
-    <Section className="py-24">
+    <Section className="py-24 bg-gradient-cabana">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col gap-12">
           <div className="flex flex-col gap-4">
@@ -50,7 +50,7 @@ export function ServiceDimensions({
                 <div className="flex flex-col gap-4 rounded-xl border border-border bg-secondary p-6">
                   {item.icon ? (
                     <span className="icon-wrapper icon-wrapper-md bg-cabana-light">
-                      <item.icon className="size-5 text-cabana-blue" strokeWidth={2} />
+                      <item.icon className="size-5 text-cabana-green" strokeWidth={2} />
                     </span>
                   ) : item.imageSrc ? (
                     <div className="relative h-10 w-10">
@@ -66,7 +66,7 @@ export function ServiceDimensions({
                       {String(index + 1).padStart(2, "0")}
                     </span>
                   )}
-                  <h3 className="text-base font-bold leading-tight text-foreground">
+                  <h3 className="text-xl font-bold leading-3 text-foreground">
                     {item.title}
                   </h3>
                   <p className="text-sm leading-relaxed text-muted-foreground">

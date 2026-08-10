@@ -26,7 +26,6 @@
     "about": "Nosotros",
     "services": "Servicios",
     "servicesOverview": "Todos los Servicios",
-    "dataStrategy": "Estrategia de Datos y Consultoría",
     "dataConsulting": "Consultoría Estratégica de Datos",
     "digitalProduct": "Modernización de Productos Digitales",
     "dataEngineering": "Ingeniería de Datos",
@@ -86,7 +85,7 @@
     "outcome": "Resultado",
     "learnMore": "Ir a servicio",
     "services": {
-      "dataStrategy": {
+      "dataConsulting": {
         "title": "Consultoría de Datos",
         "description": "Antes de construir cualquier cosa, conectamos fuentes de datos que llevan años operando en paralelo sin hablarse entre sí. A través de talleres de descubrimiento y análisis técnico, mapeamos su realidad actual, identificamos brechas y definimos en qué orden construirlo.",
         "whatYouGetList": {
@@ -108,7 +107,7 @@
         },
         "outcome": "Su equipo deja de buscar el número correcto y empieza a usarlo para decidir. Un warehouse que antes no existía, hoy es la fuente central de toda la organización."
       },
-      "customApps": {
+      "appsDashboards": {
         "title": "Aplicaciones a la Medida",
         "description": "Diseñamos y construimos plataformas operativas para organizaciones que gestionan su negocio en correos, hojas de cálculo y procesos que dependen de personas clave. Cada aplicación se construye desde el proceso real — validado con Design Thinking — no desde una plantilla genérica adaptada a medias.",
         "whatYouGetList": {
@@ -130,7 +129,7 @@
         },
         "outcome": "Tu equipo deja de esperar el reporte del viernes y empieza a explorar sus propios datos en tiempo real."
       },
-      "aiSolutions": {
+      "aiSystems": {
         "title": "IA y Sistemas Inteligentes",
         "description": "Implementamos sistemas de IA que funcionan en el núcleo de la operación, no en una presentación. Modelos que toman decisiones en tiempo real, sobre infraestructura de datos bien construida — porque sin esa base, ningún modelo llega a producción.",
         "whatYouGetList": {
@@ -216,7 +215,8 @@
       "headline": "Soluciones para Transformar Tu",
       "headlineHighlight": "Negocio con Datos",
       "description1": "Estás sentado sobre una mina de oro de datos. El desafío es convertirla en un activo estratégico que impulse el crecimiento, la eficiencia y la innovación.",
-      "description2": "Nuestros servicios están diseñados como un ecosistema de extremo a extremo para ayudarte en cada etapa de tu viaje de datos."
+      "description2": "Nuestros servicios están diseñados como un ecosistema de extremo a extremo para ayudarte en cada etapa de tu viaje de datos.",
+      "learnMore": "Ir a "
     },
     "process": {
       "tagline": "Nuestro proceso",
@@ -297,89 +297,6 @@
           "question": "¿Cómo aseguran la seguridad de datos y el cumplimiento?",
           "answer": "Aplicamos buenas prácticas técnicas de seguridad en cada proyecto — control de accesos, anonimización de datos sensibles desde el origen, seguridad a nivel de fila en dashboards. No ofrecemos consultoría legal de cumplimiento normativo (GDPR, leyes locales); recomendamos que esa evaluación la haga un asesor legal especializado en paralelo a nuestro trabajo técnico."
         }
-      }
-    },
-    "dataStrategy": {
-      "problem": {
-        "tagline": "El problema.",
-        "headline": "Incertidumbre.",
-        "description": "¿Están tus datos listos para la IA? Escuchas sobre inteligencia artificial en todas partes, pero tu infraestructura de datos es una red enredada de sistemas heredados e información en silos. No sabes si tienes la base correcta para aprovechar el machine learning y corres el riesgo de quedarte atrás.",
-        "items": {
-          "decisions": {
-            "title": "¿Estás Tomando Decisiones a Ciegas?",
-            "description": "Tus equipos carecen de acceso a datos confiables y en tiempo real, lo que lleva a oportunidades perdidas y decisiones basadas en intuiciones en lugar de hechos. Tienes los datos en algún lugar, pero no puedes llevar los insights correctos a las personas correctas en el momento correcto."
-          },
-          "ideas": {
-            "title": "¿Tus Ideas Digitales Están Atascadas en el Pizarrón?",
-            "description": "Tienes una idea revolucionaria para un producto digital o aplicación, pero no sabes si es técnicamente viable, cómo alcanzarla o qué datos requerirá. El camino del concepto a un producto valioso impulsado por datos no está claro."
-          }
-        }
-      },
-      "process": {
-        "tagline": "El proceso.",
-        "headlineDark": "Tu",
-        "headlineBlue": "Base de Datos",
-        "steps": {
-          "discover": {
-            "title": "Descubrir y Alinear",
-            "description": "comenzamos con talleres profundos para entender tus objetivos de negocio, puntos de dolor y el panorama de datos existente."
-          },
-          "analyze": {
-            "title": "Analizar y Diagnosticar",
-            "description": "nuestros expertos realizan un análisis técnico exhaustivo de tus sistemas, calidad de datos y arquitectura para identificar los desafíos y oportunidades clave."
-          },
-          "strategize": {
-            "title": "Estrategizar y Hoja de Ruta",
-            "description": "sintetizamos nuestros hallazgos en un documento estratégico, entregando una hoja de ruta clara con iniciativas priorizadas, cronogramas e impacto estimado."
-          },
-          "empower": {
-            "title": "Empoderar y Ejecutar",
-            "description": "presentamos la estrategia final a tus partes interesadas y proporcionamos la orientación necesaria para que tu equipo ejecute el plan con confianza, o transite sin problemas hacia nuestros equipos de implementación."
-          }
-        }
-      },
-      "offerings": {
-        "tagline": "Los servicios.",
-        "headlineDark": "Servicios de",
-        "headlineBlue": "Estrategia de Datos y Consultoría",
-        "items": {
-          "aiReadiness": {
-            "title": "Evaluación de Preparación para IA",
-            "whatIsIt": "Una auditoría integral de todo tu ecosistema de datos—desde infraestructura y calidad de datos hasta habilidades del equipo—culminando en una hoja de ruta priorizada de casos de uso de IA de alto impacto.",
-            "whoIsItFor": "Empresas comprometidas con su viaje de IA que necesitan un plan estratégico claro para asegurar que su base sea sólida y que sus inversiones generen ROI."
-          },
-          "digitalFeasibility": {
-            "title": "Factibilidad de Producto Digital",
-            "whatIsIt": "Validamos tu idea de aplicación personalizada mapeando procesos clave, definiendo requisitos de datos y creando una hoja de ruta técnica y de producto, asegurando que tu visión sea alcanzable y esté configurada para el éxito.",
-            "whoIsItFor": "Empresas y emprendedores que quieren construir aplicaciones personalizadas basadas en datos y necesitan reducir el riesgo de su inversión con un plan técnico y estratégico sólido."
-          },
-          "dataHealthCheck": {
-            "title": "Diagnóstico de Datos",
-            "whatIsIt": "Un diagnóstico rápido de tu estado actual de datos, enfocado en identificar oportunidades inmediatas de optimización en BigQuery y problemas de calidad de datos que afectan el rendimiento.",
-            "whoIsItFor": "Empresas y equipos que quieren una forma de bajo riesgo y alto valor para explorar su panorama de datos y encontrar victorias rápidas."
-          },
-          "designThinking": {
-            "title": "Taller de Design Thinking",
-            "whatIsIt": "Una sesión colaborativa y práctica donde trabajamos con tu equipo para enmarcar problemas, entender las necesidades del usuario e idear soluciones innovadoras, alineando a todos los interesados en una visión común.",
-            "whoIsItFor": "Organizaciones que enfrentan desafíos complejos o que inician nuevos proyectos y necesitan asegurarse de que su solución sea centrada en el usuario, innovadora y resuelva el problema correcto desde el inicio."
-          }
-        }
-      },
-      "solution": {
-        "tagline": "La solución.",
-        "headlineDark": "Claridad Estratégica y",
-        "headlineBlue": "Hojas de Ruta Accionables",
-        "description": "Cerramos la brecha entre tus objetivos de negocio y los pasos técnicos necesarios para alcanzarlos. Nuestro enfoque colaborativo desmitifica los desafíos complejos de datos, entregando un plan claro y accionable adaptado a tus necesidades únicas.",
-        "imageAlt": "Solución de estrategia de datos",
-        "learnMore":"Saber más"
-      },
-      "hero": {
-        "tagline": "El primer nivel.",
-        "headlineDark": "Estrategia de",
-        "headlineBlue": "Datos y Consultoría",
-        "description": "Deja de adivinar. Empieza a ganar. Construye un futuro basado en datos.",
-        "cta": "¡Hablemos!",
-        "imageAlt": "Estrategia de datos y consultoría"
       }
     },
     "getReady": {
@@ -574,12 +491,12 @@
         "headlineBlue": "depende de lo que ya sepas",
         "items": {
           "dhc": {
-            "title": "DHC — Data Health Check",
+            "title": "Data Health Check (DHC)",
             "whatIsIt": "¿No sabes si tu infraestructura de datos aguanta lo que quieres construir? Evaluamos 6 dimensiones de tu operación y te decimos, con evidencia, dónde estás parado.",
             "link": "Ver página DHC →"
           },
           "duc": {
-            "title": "DUC — Data Analytics Use Case",
+            "title": "Data Analytics Use Case (DUC)",
             "whatIsIt": "¿Ya sabes que tienes datos pero no qué preguntas responder con ellos? Convertimos tus preguntas de negocio reales en una ruta priorizada y ejecutable.",
             "link": "Ver página DUC →"
           }
