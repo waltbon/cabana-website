@@ -471,7 +471,10 @@
       "privacy": "By submitting this form, you acknowledge that Cabana Data will process your personal information in accordance with their privacy policy",
       "submit": "Send me scheduling options",
       "submitting": "Sending...",
-      "submitAnother": "Submit another request"
+      "submitAnother": "Submit another request",
+      "title": "Schedule your session",
+      "timeEstimate": "Takes 1 minute",
+      "responseTime": "We respond within 24 business hours."
     },
     "positions": {
       "ceo": "CEO / Founder",
@@ -502,7 +505,8 @@
       "paragraph2": "Connect with one of our experts who will assess your specific challenges and map out the concrete steps to empower your team with data-driven decision-making.",
       "notAboutData": "Not about Data?",
       "connectLinkedIn": "Connect with us on",
-      "linkedin": "LinkedIn."
+      "linkedin": "LinkedIn.",
+      "calendarCta": "Schedule on Google Calendar"
     }
   },
   "blog": {

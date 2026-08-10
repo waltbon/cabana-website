@@ -1663,8 +1663,8 @@
   },
   "contact": {
     "tagline": "El formulario.",
-    "headline": "¡Hablemos de Datos!",
-    "description": "Completa este formulario para obtener una sesión de 30 minutos de Estrategia de Datos con uno de nuestros líderes técnicos.",
+    "headline": "¡Conversemos!",
+    "description": "Completa este formulario para obtener una sesión de 30 minutos con uno de nuestros líderes técnicos.",
     "form": {
       "firstName": "Nombre",
       "lastName": "Apellido",
@@ -1678,7 +1678,10 @@
       "privacy": "Al enviar este formulario, reconoces que Cabana Data procesará tu información personal de acuerdo con su política de privacidad",
       "submit": "Envíame opciones de agenda",
       "submitting": "Enviando...",
-      "submitAnother": "Enviar otra solicitud"
+      "submitAnother": "Enviar otra solicitud",
+      "title": "Agenda tu sesión",
+      "timeEstimate": "Toma 1 minuto",
+      "responseTime": "Respondemos en menos de 24 horas hábiles."
     },
     "positions": {
       "ceo": "CEO / Fundador",
@@ -1705,11 +1708,12 @@
       "default": "Algo salió mal. Por favor intenta de nuevo."
     },
     "sidebar": {
-      "paragraph1": "Si convertirte en una empresa basada en datos se siente abrumador, esta sesión es para ti. El éxito con datos requiere una revisión completa de tu gente, procesos y tecnología.",
+      "paragraph1": "Si convertirte en una empresa basada en datos se siente abrumador, podemos ayudarte.",
       "paragraph2": "Conéctate con uno de nuestros expertos que evaluará tus desafíos específicos y trazará los pasos concretos para empoderar a tu equipo con toma de decisiones basada en datos.",
       "notAboutData": "¿No es sobre datos?",
       "connectLinkedIn": "Conéctate con nosotros en",
-      "linkedin": "LinkedIn."
+      "linkedin": "LinkedIn.",
+      "calendarCta": "Agenda en Google Calendar"
     }
   },
   "blog": {
