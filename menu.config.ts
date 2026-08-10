@@ -36,7 +36,7 @@ export const mainMenu: Record<string, MenuItem> = {
     },
   },
   // caseStudies: "/case-studies",
-  careers: "/careers",
+  // careers: "/careers",
   blog: "/posts",
   contact: "/contact",
 };

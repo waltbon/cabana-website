@@ -10,11 +10,11 @@ import Link from "next/link";
 
 // Service configuration (non-translated data)
 const services = [
-  { key: "dataStrategy", icon: PlaneIcon, href: "/services/data-consulting" },
+  { key: "dataConsulting", icon: PlaneIcon, href: "/services/data-consulting" },
   { key: "dataEngineering", icon: Cloud, href: "/services/data-engineering" },
-  { key: "customApps", icon: AppWindowIcon, href: "/services/application-development" },
+  { key: "appsDashboards", icon: AppWindowIcon, href: "/services/application-development" },
   { key: "dashboards", icon: BarChart3, href: "/services/dashboards-analytics-interfaces" },
-  { key: "aiSolutions", icon: Sparkles, href: "/services/custom-ai-agents" },
+  { key: "aiSystems", icon: Sparkles, href: "/services/custom-ai-agents" },
 ];
 
 export function SolutionSection() {
@@ -32,7 +32,7 @@ export function SolutionSection() {
                 <h4>{t("tagline")}</h4>
 
                 {/* Headline */}
-                <h2 className="text-3xl font-bold leading-12 tracking-tight md:text-5xl">
+                <h2 className="text-3xl font-bold leading-12 tracking-tight text-cabana-gradient  md:text-5xl">
                   {t("headline")}
                   <br />
                   <span className="text-cabana-dark">{t("headlineHighlight")}</span>

@@ -17,7 +17,6 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { Calendar1 } from "lucide-react";
 
 export const Nav = ({ className, children, id }: NavProps) => {
   const t = useTranslations("nav");
