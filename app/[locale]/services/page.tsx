@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import {
   HeroSection,
   ServicesGridSection,
@@ -9,14 +10,21 @@ import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { ServiceWhySection } from "./_components/service-why-section";
 import { ServiceGetReadySection } from "./_components/service-get-ready-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Ingeniería de datos y Consultoría de IA",
-  description:
-    "Ayudamos a empresas de América Latina y Estados Unidos a crear flujos de datos escalables y profesionales",
-  alternates: {
-    canonical: "/services",
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services" : `/${locale}/services`,
+    },
+  };
+}
 
 export default function ServicesPage() {
   return (

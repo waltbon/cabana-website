@@ -1,15 +1,23 @@
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { PrivacyContent } from "./_components/privacy-content";
 
-export const metadata: Metadata = {
-  title: "Política de Privacidad",
-  description:
-    "Conoce cómo Cabana Data recopila, usa y protege tus datos personales de acuerdo con el RGPD, CCPA y las leyes de protección de datos aplicables.",
-  alternates: {
-    canonical: "/privacidad",
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "privacidad.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/privacidad" : `/${locale}/privacidad`,
+    },
+  };
+}
 
 export default function PrivacidadPage() {
   return (

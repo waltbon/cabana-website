@@ -1,15 +1,23 @@
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { HeroSection, TeamSection, StorySection } from "./_components";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "About Us",
-  description:
-    "Meet the Cabana Data team. We are data, development, and design experts building software for enterprises and helping businesses become data-driven.",
-  alternates: {
-    canonical: "/about",
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "about.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/about" : `/${locale}/about`,
+    },
+  };
+}
 
 export default function AboutPage() {
   return (
