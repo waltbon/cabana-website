@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, ReactNode } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { m, useScroll, useTransform } from "framer-motion";
 
 interface ParallaxProps {
   /** Content that will have parallax effect (e.g., background image) */
@@ -38,9 +38,9 @@ export function Parallax({
 
   return (
     <div ref={ref} className={className}>
-      <motion.div className={parallaxClassName} style={{ y }}>
+      <m.div className={parallaxClassName} style={{ y }}>
         {children}
-      </motion.div>
+      </m.div>
       {staticContent}
     </div>
   );

@@ -12,6 +12,7 @@ import { locales, type Locale } from "@/i18n/config";
 import { Footer } from "@/components/footer";
 import { Nav } from "./_components/nav";
 import { ContactDrawerProvider } from "@/components/contact/contact-drawer-provider";
+import { LazyMotionProvider } from "@/components/animations/lazy-motion-provider";
 
 import type { Metadata } from "next";
 
@@ -215,11 +216,13 @@ export default async function LocaleLayout({
             enableSystem={false}
             disableTransitionOnChange
           >
-            <ContactDrawerProvider>
-              <Nav />
-              <main id="main-content">{children}</main>
-              <Footer />
-            </ContactDrawerProvider>
+            <LazyMotionProvider>
+              <ContactDrawerProvider>
+                <Nav />
+                <main id="main-content">{children}</main>
+                <Footer />
+              </ContactDrawerProvider>
+            </LazyMotionProvider>
           </ThemeProvider>
           <Analytics />
         </NextIntlClientProvider>
