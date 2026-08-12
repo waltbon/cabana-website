@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { LeadCaptureForm } from "@/components/contact/LeadFormCapture";
 
@@ -11,7 +11,7 @@ const fadeUp = {
 
 export function PostSidebar() {
   return (
-    <motion.div
+    <m.div
       variants={fadeUp}
       initial="hidden"
       whileInView="visible"
@@ -37,6 +37,6 @@ export function PostSidebar() {
           Sin compromiso · Pronta respuesta
         </p>
       </div>
-    </motion.div>
+    </m.div>
   );
 }
