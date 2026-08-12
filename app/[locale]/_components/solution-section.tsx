@@ -46,7 +46,7 @@ export function SolutionSection() {
             </FadeIn>
 
             {/* Services Grid */}
-            <StaggerChildren className="grid w-full max-w-7xl auto-rows-fr grid-cols-1 gap-12 md:grid-cols-2 md:gap-8">
+            <StaggerChildren className="grid w-full max-w-5xl auto-rows-fr grid-cols-1 gap-12 md:grid-cols-2 md:gap-8">
               {services.map((service, index) => (
                 <StaggerItem
                   key={service.key}
@@ -55,7 +55,7 @@ export function SolutionSection() {
                     : ""
                     }`}
                 >
-                  <Card className="flex h-full flex-col px-8 py-10 space-y-4 bg-gray-950 dark border rounded-lg border-gray-800 shadow-sm ">
+                  <Card className="flex h-full flex-col p-12 space-y-4 bg-gray-950 dark border rounded-3xl border-gray-800 shadow-sm ">
 
                     {/* Content */}
                     <div className="flex h-full flex-col gap-3">
@@ -64,7 +64,7 @@ export function SolutionSection() {
                       </h3>
 
                       <div className="flex flex-col gap-4">
-                        <p className="text-base leading-5 text-white/80">
+                        <p className="text-lg leading-6 text-white/90">
                           {t(`services.${service.key}.description`)}
                         </p>
 

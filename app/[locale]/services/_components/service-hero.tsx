@@ -70,8 +70,8 @@ export function ServiceHero({
           </div>
 
           {/* Right Column - Illustration */}
-          <FadeIn direction="left" className="w-full shrink-0 lg:w-[45%]">
-            <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-section-slate">
+          <FadeIn direction="left" className="w-full shrink-0 lg:w-[45%] hidden md:flex">
+            <div className="relative aspect-square w-full overflow-hidden rounded-3xl bg-section-slate">
               {illustration ? (
                 illustration
               ) : imageSrc ? (

@@ -25,7 +25,7 @@ export function ServicePersonas({
   items,
 }: ServicePersonasProps) {
   return (
-    <Section className="bg-section-slate py-24">
+    <Section className="bg-section-slate py-12 md:py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col gap-12">
           <div className="flex flex-col gap-4">

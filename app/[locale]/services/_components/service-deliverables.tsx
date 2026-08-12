@@ -27,7 +27,7 @@ export function ServiceDeliverables({
 }: ServiceDeliverablesProps) {
   const hasVisual = Boolean(illustration || imageSrc);
   return (
-    <Section className="py-24">
+    <Section className="py-12 md:py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex gap-6 justify-between">
           <div className="flex flex-col">
@@ -76,7 +76,7 @@ export function ServiceDeliverables({
           </div>
 
           {hasVisual && (
-            <FadeIn direction="left" className="w-full shrink-0 lg:w-[30%]">
+            <FadeIn direction="left" className="w-full shrink-0 lg:w-[30%] hidden md:flex">
               <div className="relative aspect-4/5 w-full overflow-hidden rounded-xl bg-section-slate">
                 {illustration ? (
                   illustration

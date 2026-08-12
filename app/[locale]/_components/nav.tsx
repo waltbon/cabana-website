@@ -8,6 +8,7 @@ import { LanguageSwitcher } from "@/components/language-switcher";
 import { cn } from "@/lib/utils";
 import { mainMenu } from "@/menu.config";
 import { useTranslations } from "next-intl";
+import { useContactDrawer } from "@/components/contact/contact-drawer-provider";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -20,6 +21,7 @@ import {
 
 export const Nav = ({ className, children, id }: NavProps) => {
   const t = useTranslations("nav");
+  const { openDrawer } = useContactDrawer();
 
   return (
     <nav
@@ -132,8 +134,12 @@ export const Nav = ({ className, children, id }: NavProps) => {
             </NavigationMenuList>
           </NavigationMenu>
           <LanguageSwitcher />
-          <Button asChild className="hidden sm:flex" size={'sm'}> 
-            <Link href="/contact">{t("getStarted")}</Link>
+          <Button
+            className="hidden sm:flex"
+            size={'sm'}
+            onClick={openDrawer}
+          >
+            {t("getStarted")}
           </Button>
           <MobileNav />
         </div>

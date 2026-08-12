@@ -20,7 +20,7 @@ interface ServiceLogisticsProps {
 
 export function ServiceLogistics({ tagline, items }: ServiceLogisticsProps) {
   return (
-    <Section className="border-b border-dashed py-24">
+    <Section className="border-b border-dashed py-12 md:py-24 bg-gradient-cabana">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col gap-12">
           <FadeIn>
@@ -35,7 +35,7 @@ export function ServiceLogistics({ tagline, items }: ServiceLogisticsProps) {
                 <div className="flex flex-col gap-4 rounded-xl border border-border bg-secondary p-6">
                   {item.icon ? (
                     <span className="icon-wrapper icon-wrapper-md bg-cabana-light">
-                      <item.icon className="size-5 text-cabana-blue" strokeWidth={2} />
+                      <item.icon className="size-5 text-cabana-green" strokeWidth={2} />
                     </span>
                   ) : (
                     item.imageSrc && (
@@ -49,7 +49,7 @@ export function ServiceLogistics({ tagline, items }: ServiceLogisticsProps) {
                       </div>
                     )
                   )}
-                  <span className="text-xs font-semibold uppercase tracking-wide text-cabana-blue">
+                  <span className="text-sm font-semibold uppercase tracking-wide text-cabana-blue">
                     {item.label}
                   </span>
                   <p className="text-base leading-relaxed text-muted-foreground">

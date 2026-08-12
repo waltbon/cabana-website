@@ -28,7 +28,7 @@ export function ServiceProblem({
   items,
 }: ServiceProblemProps) {
   return (
-    <Section className="py-24 bg-secondary">
+    <Section className="py-12 md:py-24 bg-secondary">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col gap-12">
           {/* Header */}

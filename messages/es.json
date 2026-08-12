@@ -50,7 +50,7 @@
     "tagline": "INGENIERÍA DE DATOS · APLICACIONES · IA",
     "headline": "Modernizamos la forma en que las organizaciones operan, deciden y compiten —",
     "headlineHighlight": "con datos, aplicaciones e IA construidos para durar.",
-    "description": "Cabana Data es un equipo de ingeniería especializado en Google Cloud. Trabajamos con empresas medianas en Costa Rica y LATAM que necesitan tecnología que funcione en producción, no en presentaciones.",
+    "description": "Cabana Data es un equipo de ingeniería especializado en Google Cloud. Trabajamos con empresas en Costa Rica, LATAM y Estados Unidos que necesitan tecnología que funcione en producción, no en presentaciones.",
     "cta": "Agendar una Consulta"
   },
   "problem": {
@@ -89,16 +89,16 @@
         "title": "Consultoría de Datos",
         "description": "Antes de construir cualquier cosa, conectamos fuentes de datos que llevan años operando en paralelo sin hablarse entre sí. A través de talleres de descubrimiento y análisis técnico, mapeamos su realidad actual, identificamos brechas y definimos en qué orden construirlo.",
         "whatYouGetList": {
-          "wyg1": "Evaluación de Preparación para IA",
-          "wyg2": "Diagnóstico de Datos",
+          "wyg1": "Evaluación de preparación para IA",
+          "wyg2": "Diagnóstico de datos",
           "wyg3": "Auditoría de calidad y gobernanza de datos",
           "wyg4": "Hoja de ruta priorizada de inversión en datos"
         },
         "outcome": "Al final del proceso, su organización sabe exactamente qué tiene, qué le falta y en qué orden construirlo. Sin suposiciones, sin hojas de ruta genéricas."
       },
       "dataEngineering": {
-        "title": "Ingeniería y Arquitectura de Datos",
-        "description": "Construimos infraestructura de datos desde cero para organizaciones que operan sin una fuente de verdad consolidada. BigQuery, Dataform y pipelines automatizados que reemplazan el caos de exportaciones manuales y sistemas que nunca fueron diseñados para integrarse.",
+        "title": "Ingeniería de Datos",
+        "description": "Construimos infraestructura de datos desde cero para organizaciones que operan sin una fuente de verdad consolidada. Pipelines automatizados que reemplazan el caos de exportaciones manuales y sistemas que nunca fueron diseñados para integrarse.",
         "whatYouGetList": {
           "wyg1": "Diseño e implementación de data warehouse",
           "wyg2": "Pipelines ETL/ELT automatizados",
@@ -111,7 +111,7 @@
         "title": "Aplicaciones a la Medida",
         "description": "Diseñamos y construimos plataformas operativas para organizaciones que gestionan su negocio en correos, hojas de cálculo y procesos que dependen de personas clave. Cada aplicación se construye desde el proceso real — validado con Design Thinking — no desde una plantilla genérica adaptada a medias.",
         "whatYouGetList": {
-          "wyg1": "Estudio de Factibilidad de Producto Digital",
+          "wyg1": "Estudio de factibilidad de producto digital",
           "wyg2": "Talleres de Design Thinking y diseño UX/UI",
           "wyg3": "Plataformas operativas e internas",
           "wyg4": "Automatización de flujos de trabajo"
@@ -149,10 +149,41 @@
     "ctaTalk": "¡Hablemos!",
     "ctaServices": "Ver Servicios"
   },
+  "techStack": {
+    "tagline": "Stack Tecnológico",
+    "headline": "Socios Tecnológicos Clave",
+    "description": "Las plataformas y herramientas en el centro de cada proyecto.",
+    "items": {
+      "aws": {
+        "name": "Amazon Web Services",
+        "description": "Nube secundaria para entornos multi-nube de clientes"
+      },
+      "gcp": {
+        "name": "Google Cloud",
+        "description": "Nuestra plataforma cloud principal para cada proyecto"
+      },
+      "bigquery": {
+        "name": "Google BigQuery",
+        "description": "Data warehouse sin servidor en el núcleo de nuestro stack analítico"
+      },
+      "powerbi": {
+        "name": "Microsoft Power BI",
+        "description": "Capa de BI empresarial y reportería de autoservicio"
+      },
+      "postgresql": {
+        "name": "PostgreSQL",
+        "description": "Motor relacional confiable para cargas transaccionales"
+      },
+      "docker": {
+        "name": "Docker",
+        "description": "Despliegues en contenedores para entornos reproducibles"
+      }
+    }
+  },
   "cta": {
-    "headline": "Mapeemos tu",
-    "headlineHighlight": "Fundación de Datos.",
-    "button": "Agendar una Consulta"
+    "headline": "¡Conversemos!",
+    "headlineHighlight": "Habla con un experto hoy",
+    "button": "Agendar una consulta"
   },
   "footer": {
     "links": {

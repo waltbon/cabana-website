@@ -22,9 +22,11 @@ import { Separator } from "@/components/ui/separator";
 
 import { mainMenu, contentMenu } from "@/menu.config";
 import { siteConfig } from "@/site.config";
+import { useContactDrawer } from "@/components/contact/contact-drawer-provider";
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false);
+  const { openDrawer } = useContactDrawer();
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -56,6 +58,22 @@ export function MobileNav() {
             <Separator />
             {Object.entries(mainMenu).map(([key, item]) => {
               if (typeof item === "string") {
+                if (key === "contact") {
+                  return (
+                    <button
+                      key={key}
+                      type="button"
+                      className="text-lg text-left"
+                      onClick={() => {
+                        setOpen(false);
+                        openDrawer();
+                      }}
+                    >
+                      {key.charAt(0).toUpperCase() + key.slice(1)}
+                    </button>
+                  );
+                }
+
                 return (
                   <MobileLink key={key} href={item} onOpenChange={setOpen}>
                     {key.charAt(0).toUpperCase() + key.slice(1)}

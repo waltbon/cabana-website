@@ -149,6 +149,37 @@
     "ctaTalk": "Let's talk!",
     "ctaServices": "View Services"
   },
+  "techStack": {
+    "tagline": "Technology Stack",
+    "headline": "Core Technology Partners",
+    "description": "The platforms and tools at the center of every engagement.",
+    "items": {
+      "aws": {
+        "name": "Amazon Web Services",
+        "description": "Secondary cloud for multi-cloud client environments"
+      },
+      "gcp": {
+        "name": "Google Cloud",
+        "description": "Our primary cloud platform for every engagement"
+      },
+      "bigquery": {
+        "name": "Google BigQuery",
+        "description": "Serverless data warehouse at the core of our analytics stack"
+      },
+      "powerbi": {
+        "name": "Microsoft Power BI",
+        "description": "Enterprise-grade BI and self-service reporting layer"
+      },
+      "postgresql": {
+        "name": "PostgreSQL",
+        "description": "Reliable relational engine for transactional workloads"
+      },
+      "docker": {
+        "name": "Docker",
+        "description": "Containerized deployments for reproducible environments"
+      }
+    }
+  },
   "cta": {
     "headline": "Let's Map Your",
     "headlineHighlight": "Data Foundation.",
