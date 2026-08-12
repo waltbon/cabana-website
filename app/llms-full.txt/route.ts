@@ -1,22 +1,18 @@
 import { NextResponse } from "next/server";
 import { siteConfig } from "@/site.config";
-import { getAllPosts } from "@/lib/wordpress";
+import { POSTS } from "@/data/blog";
 
 export const revalidate = 3600; // Revalidate every hour
 
 export async function GET() {
-  // Fetch recent blog posts from WordPress
-  const posts = await getAllPosts();
-  const recentPosts = posts.slice(0, 10); // Get 10 most recent posts
+  const recentPosts = [...POSTS]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 10); // Get 10 most recent posts
 
   const postsSection = recentPosts
     .map((post) => {
-      const title = post.title.rendered.replace(/<[^>]*>/g, "");
-      const excerpt = post.excerpt.rendered
-        .replace(/<[^>]*>/g, "")
-        .trim()
-        .slice(0, 150);
-      return `- [${title}](${siteConfig.site_domain}/posts/${post.slug}): ${excerpt}...`;
+      const excerpt = post.excerpt.trim().slice(0, 150);
+      return `- [${post.title}](${siteConfig.site_domain}/posts/${post.slug}): ${excerpt}...`;
     })
     .join("\n");
 
@@ -64,12 +60,6 @@ Yes, we have deep expertise across all major cloud platforms including Amazon We
 
 **How do you ensure data security and compliance?**
 Data security is fundamental to our approach. We implement industry best practices for data governance, encryption, access controls, and audit logging. We help clients meet compliance requirements including GDPR, HIPAA, SOC 2, and other relevant regulations.
-
-## Optional
-
-- [Categories](${siteConfig.site_domain}/posts/categories): Blog post categories
-- [Authors](${siteConfig.site_domain}/posts/authors): Blog authors
-- [Tags](${siteConfig.site_domain}/posts/tags): Blog post tags
 `;
 
   return new NextResponse(content, {

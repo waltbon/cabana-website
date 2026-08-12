@@ -10,20 +10,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture Overview
 
-Headless WordPress starter using Next.js 16 App Router with TypeScript.
+Next.js 16 App Router with TypeScript. Blog content is a local static dataset (no CMS) — WordPress was fully removed.
 
-### Data Layer (`lib/wordpress.ts`)
-- All WordPress REST API interactions centralized here
-- Type definitions in `lib/wordpress.d.ts` (Post, Page, Category, Tag, Author, FeaturedMedia)
-- `WordPressAPIError` class for consistent error handling
-- Cache tags for granular revalidation: `['wordpress', 'posts', 'post-{id}', 'posts-page-{n}']`
-- Pagination via `getPostsPaginated()` returns `{ data, headers: { total, totalPages } }`
-- Default cache: 1 hour (`revalidate: 3600`)
+### Data Layer (`lib/blog.ts`, `data/blog/*`)
+- Blog posts, authors, categories, and tags live as static data in `data/blog/`
+- `lib/blog.ts` exposes lookup helpers: `getPostBySlug`, `getAllPostSlugs`, `getCategoryBySlug`, `getAuthorByName`
+- Type definitions in `types/blog/*` (`Post`, `PostCategory`, `PostAuthor`)
 
 ### Routing
-- Dynamic: `/posts/[slug]`, `/pages/[slug]`
-- Archives: `/posts`, `/posts/authors`, `/posts/categories`, `/posts/tags`
-- API: `/api/revalidate` (webhook), `/api/og` (OG images)
+- Dynamic: `/posts/[slug]`
+- Archive: `/posts`
+- API: `/api/og` (OG images), `/api/contact` (lead capture)
 
 ### Data Fetching Patterns
 - Server Components with parallel `Promise.all()` calls
@@ -31,20 +28,14 @@ Headless WordPress starter using Next.js 16 App Router with TypeScript.
 - URL-based state for search/filters via `searchParams`
 - Debounced search (300ms) in `SearchInput` component
 
-### Revalidation Flow
-1. WordPress plugin sends webhook to `/api/revalidate`
-2. Validates `x-webhook-secret` header against `WORDPRESS_WEBHOOK_SECRET`
-3. Calls `revalidateTag()` for specific content types (posts, categories, tags, authors)
-
 ### Configuration Files
 - `site.config.ts` - Site metadata (domain, name, description)
 - `menu.config.ts` - Navigation menu structure
-- `next.config.ts` - Image remotePatterns, /admin redirect to WordPress
 
 ## Code Style
 
 ### TypeScript
-- Strict typing with interfaces from `lib/wordpress.d.ts`
+- Strict typing with interfaces from `types/blog/*`
 - Async params: `params: Promise<{ slug: string }>` (Next.js 15+ pattern)
 
 ### Naming
@@ -56,7 +47,6 @@ Headless WordPress starter using Next.js 16 App Router with TypeScript.
 - Pages: `/app/**/*.tsx`
 - UI components: `/components/ui/*.tsx` (shadcn/ui)
 - Feature components: `/components/posts/*.tsx`, `/components/theme/*.tsx`
-- WordPress functions must include cache tags
 
 ### Page-Specific Components Pattern
 
@@ -117,9 +107,9 @@ export default function HomePage() {
 
 ## Environment Variables
 ```
-WORDPRESS_URL="https://example.com"      # Full WordPress URL
-WORDPRESS_HOSTNAME="example.com"          # For Next.js image optimization
-WORDPRESS_WEBHOOK_SECRET="secret-key"     # Webhook validation
+CLICKUP_API_KEY="pk_..."      # ClickUp API key for contact form lead creation
+CLICKUP_LIST_ID="..."         # ClickUp list ID where leads are created
+NEXT_PUBLIC_GA_ID="G-..."     # Google Analytics measurement ID
 ```
 
 ## Key Dependencies

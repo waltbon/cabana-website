@@ -1,11 +1,11 @@
 import { MetadataRoute } from "next";
-import { getAllPosts } from "@/lib/wordpress";
+import { POSTS } from "@/data/blog";
 import { siteConfig } from "@/site.config";
 
 const domain = siteConfig.site_domain;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const posts = await getAllPosts();
+  const posts = POSTS;
 
   const staticUrls: MetadataRoute.Sitemap = [
     // Spanish (default locale, no prefix)
