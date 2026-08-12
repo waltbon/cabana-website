@@ -66,6 +66,9 @@ export function PlasmaField({ className }: { className?: string }) {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
+    // Respect reduced-motion preference: skip the animation loop entirely.
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
     const gl = canvas.getContext("webgl", {
       antialias: true,
       premultipliedAlpha: false,
@@ -111,6 +114,7 @@ export function PlasmaField({ className }: { className?: string }) {
     const ripples: Ripple[] = [];
     let startTime = performance.now();
     let rafId = 0;
+    let isVisible = true;
 
     function resize() {
       const rect = canvas!.parentElement!.getBoundingClientRect();
@@ -160,7 +164,7 @@ export function PlasmaField({ className }: { className?: string }) {
       gl!.uniform4fv(uRipples, rippleData);
 
       gl!.drawArrays(gl!.TRIANGLES, 0, 6);
-      rafId = requestAnimationFrame(frame);
+      if (isVisible) rafId = requestAnimationFrame(frame);
     }
 
     resize();
@@ -170,12 +174,25 @@ export function PlasmaField({ className }: { className?: string }) {
     const ro = new ResizeObserver(resize);
     ro.observe(canvas.parentElement!);
 
+    // Pause the render loop when the canvas leaves the viewport (scrolled
+    // away, backgrounded tab) instead of drawing forever.
+    const io = new IntersectionObserver(([entry]) => {
+      isVisible = entry.isIntersecting;
+      if (isVisible) {
+        rafId = requestAnimationFrame(frame);
+      } else {
+        cancelAnimationFrame(rafId);
+      }
+    });
+    io.observe(canvas);
+
     window.addEventListener("mousemove", onMouseMove);
     canvas.addEventListener("click", onClick);
 
     return () => {
       cancelAnimationFrame(rafId);
       ro.disconnect();
+      io.disconnect();
       window.removeEventListener("mousemove", onMouseMove);
       canvas.removeEventListener("click", onClick);
       gl.deleteProgram(prog);
