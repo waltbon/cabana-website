@@ -28,12 +28,21 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Data Health Check",
-  description:
-    "Evaluamos 6 dimensiones de tu infraestructura de datos y te decimos, con evidencia, qué tan lista está tu empresa para escalar.",
-  alternates: { canonical: "/services/data-health-check" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.dataHealthCheck.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services/data-health-check" : `/${locale}/services/data-health-check`,
+    },
+  };
+}
 
 // Same booking link used on /services/ai-readiness-assessment and /services/data-consulting
 const CALENDAR_URL = "https://calendar.app.google/pwhXdBodbhqfYVXNA";

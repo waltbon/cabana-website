@@ -483,6 +483,10 @@
         "headline": "Your next step in AI starts with clarity, not guesswork.",
         "description": "Schedule a 30-minute call. No commitment. We'll tell you if Ruta IA makes sense for your company.",
         "button": "Request an Assessment"
+      },
+      "seo": {
+        "title": "AI Readiness Assessment",
+        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and delivers a clear action plan — in 2 to 3 weeks."
       }
     },
     "applicationDevelopment": {
@@ -611,6 +615,10 @@
             "answer": "Pricing is quoted based on specific technical scope; we define it after reviewing your business rules and requirements."
           }
         }
+      },
+      "seo": {
+        "title": "Custom Application Development",
+        "description": "We build web and mobile applications on cloud-native architecture, ready to grow alongside your operation."
       }
     },
     "customAIAgents": {
@@ -743,6 +751,10 @@
             "answer": "It varies by format (AI Roadmap starts at USD 4,000; Agent Development is quoted based on technical scope)."
           }
         }
+      },
+      "seo": {
+        "title": "Custom AI Agents for Business",
+        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations."
       }
     },
     "dashboardsAnalyticsInterfaces": {
@@ -871,6 +883,10 @@
             "answer": "It's quoted based on the number of data sources and the complexity of the model; we define it in the first conversation."
           }
         }
+      },
+      "seo": {
+        "title": "Dashboards & Data Analytics",
+        "description": "We turn your metrics into interactive, automated dashboards — Power BI or Looker, with the security and governance your operation needs."
       }
     },
     "dataAnalyticsUseCase": {
@@ -1008,6 +1024,10 @@
             "answer": "It's quoted based on how many use cases get prioritized and the complexity of your organization; we define it in the first conversation."
           }
         }
+      },
+      "seo": {
+        "title": "Data Analytics Roadmap & Use Cases",
+        "description": "We turn your real business questions into a prioritized, executable roadmap — with quick wins visible in weeks, not months."
       }
     },
     "dataConsulting": {
@@ -1140,6 +1160,10 @@
             "answer": "Pricing is quoted based on the specific scope of your organization — we don't have a single list price. What we can give you in the first call is clarity on which path (DHC, DUC, or both) makes sense for your case."
           }
         }
+      },
+      "seo": {
+        "title": "Strategic Data Consulting",
+        "description": "We assess where you stand and define what to build first — with evidence, not opinion."
       }
     },
     "dataEngineering": {
@@ -1273,6 +1297,10 @@
             "answer": "It's quoted based on data volume, the number of sources to integrate, and whether it includes a Machine Learning component; we define it in the first conversation."
           }
         }
+      },
+      "seo": {
+        "title": "Data Engineering Services",
+        "description": "We build the infrastructure that cleans, organizes, and centralizes your information — and on that foundation, we apply Machine Learning to predict instead of just looking backward."
       }
     },
     "dataHealthCheck": {
@@ -1417,6 +1445,10 @@
             "answer": "It's quoted based on the specific scope; we define it together after understanding your context."
           }
         }
+      },
+      "seo": {
+        "title": "Data Health Check Assessment",
+        "description": "We assess 6 dimensions of your data infrastructure and tell you, with evidence, how ready your company is to scale."
       }
     },
     "digitalProduct": {
@@ -1556,6 +1588,10 @@
             "answer": "It's quoted based on the specific scope of the project; we give you clarity on the range in the first call."
           }
         }
+      },
+      "seo": {
+        "title": "Digital Product Modernization",
+        "description": "From the system nobody wants to touch anymore to the digital product your operation needs today — with the right design and architecture from the start."
       }
     },
     "productDesignDiscovery": {
@@ -1689,6 +1725,10 @@
             "answer": "It's quoted based on the product's complexity and scope; we define it in the first conversation."
           }
         }
+      },
+      "seo": {
+        "title": "Product Design & Discovery",
+        "description": "Real user research, information architecture, and visual design — before a single line of code gets written."
       }
     }
   },
