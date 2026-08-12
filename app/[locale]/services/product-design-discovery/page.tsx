@@ -25,6 +25,7 @@ import { ServiceLogistics } from "../_components/service-logistics";
 import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
+import { ServiceSchema } from "@/components/seo/service-schema";
 
 export async function generateMetadata({
   params,
@@ -52,6 +53,7 @@ const faqKeys = [
 ];
 
 export default async function ProductDesignDiscoveryPage() {
+  const tSeo = await getTranslations("services.productDesignDiscovery.seo");
   const tHero = await getTranslations(
     "services.productDesignDiscovery.hero",
   );
@@ -77,6 +79,11 @@ export default async function ProductDesignDiscoveryPage() {
 
   return (
     <>
+      <ServiceSchema
+        name={tSeo("title")}
+        description={tSeo("description")}
+        path="/services/product-design-discovery"
+      />
       <ServiceHero
         tagline={tHero("tagline")}
         headlineDark={tHero("headlineDark")}

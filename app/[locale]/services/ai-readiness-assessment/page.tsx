@@ -8,6 +8,7 @@ import { TrustSignalSection } from "./_components/trust-signal-section";
 import { TimelineSection } from "./_components/timeline-section";
 import { PersonasSection } from "./_components/personas-section";
 import { CTASection } from "./_components/cta-section";
+import { ServiceSchema } from "@/components/seo/service-schema";
 
 export async function generateMetadata({
   params,
@@ -25,9 +26,16 @@ export async function generateMetadata({
   };
 }
 
-export default function AIReadinessAssessmentPage() {
+export default async function AIReadinessAssessmentPage() {
+  const tSeo = await getTranslations("services.rutaIA.seo");
+
   return (
     <>
+      <ServiceSchema
+        name={tSeo("title")}
+        description={tSeo("description")}
+        path="/services/ai-readiness-assessment"
+      />
       <HeroSection />
       <ProblemSection />
       <DimensionsSection />
