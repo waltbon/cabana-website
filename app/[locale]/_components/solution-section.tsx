@@ -55,7 +55,7 @@ export function SolutionSection() {
                     : ""
                     }`}
                 >
-                  <Card className="flex h-full flex-col p-12 space-y-4 bg-gray-950 dark border rounded-3xl border-gray-800 shadow-sm ">
+                  <Card className="flex h-full flex-col p-8 md:p-12 space-y-4 bg-gray-950 dark border rounded-3xl border-gray-800 shadow-sm ">
 
                     {/* Content */}
                     <div className="flex h-full flex-col gap-3">
