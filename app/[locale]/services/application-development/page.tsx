@@ -25,12 +25,21 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Application Development",
-  description:
-    "Construimos aplicaciones web y móviles sobre arquitectura cloud-native, listas para crecer junto a tu operación.",
-  alternates: { canonical: "/services/application-development" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.applicationDevelopment.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services/application-development" : `/${locale}/services/application-development`,
+    },
+  };
+}
 
 const faqKeys = [
   "needsDesign",

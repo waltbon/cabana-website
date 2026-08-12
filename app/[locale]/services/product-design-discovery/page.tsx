@@ -26,12 +26,21 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Product Design & Discovery",
-  description:
-    "Investigación real con usuarios, arquitectura de información y diseño visual — antes de que se escriba una sola línea de código.",
-  alternates: { canonical: "/services/product-design-discovery" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.productDesignDiscovery.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services/product-design-discovery" : `/${locale}/services/product-design-discovery`,
+    },
+  };
+}
 
 const faqKeys = [
   "alsoBuilds",

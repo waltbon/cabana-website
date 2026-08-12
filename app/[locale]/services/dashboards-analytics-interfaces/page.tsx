@@ -24,12 +24,21 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Dashboards & Analytics Interfaces",
-  description:
-    "Convertimos tus métricas en dashboards interactivos y automatizados — Power BI o Looker, con la seguridad y gobernanza que tu operación necesita.",
-  alternates: { canonical: "/services/dashboards-analytics-interfaces" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.dashboardsAnalyticsInterfaces.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services/dashboards-analytics-interfaces" : `/${locale}/services/dashboards-analytics-interfaces`,
+    },
+  };
+}
 
 const faqKeys = [
   "needsDUC",

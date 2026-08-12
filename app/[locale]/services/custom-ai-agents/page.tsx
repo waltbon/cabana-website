@@ -25,12 +25,21 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Agentes de IA a la Medida",
-  description:
-    "Diseñamos y construimos agentes que razonan, colaboran y ejecutan tareas reales — conectados a tus datos privados, sin alucinaciones.",
-  alternates: { canonical: "/services/custom-ai-agents" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.customAIAgents.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services/custom-ai-agents" : `/${locale}/services/custom-ai-agents`,
+    },
+  };
+}
 
 const faqKeys = [
   "needsRutaIA",

@@ -25,12 +25,21 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Consultoría Estratégica de Datos",
-  description:
-    "Evaluamos dónde estás parado y definimos qué construir primero — con evidencia, no con opinión.",
-  alternates: { canonical: "/services/data-consulting" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.dataConsulting.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services/data-consulting" : `/${locale}/services/data-consulting`,
+    },
+  };
+}
 
 // Same booking link used on /services/ai-readiness-assessment
 const CALENDAR_URL = "https://calendar.app.google/pwhXdBodbhqfYVXNA";

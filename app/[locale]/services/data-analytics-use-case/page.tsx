@@ -26,12 +26,21 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Data Analytics Use Case (DUC)",
-  description:
-    "Convertimos tus preguntas de negocio reales en una ruta priorizada y ejecutable — con quick wins visibles en semanas, no meses.",
-  alternates: { canonical: "/services/data-analytics-use-case" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.dataAnalyticsUseCase.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services/data-analytics-use-case" : `/${locale}/services/data-analytics-use-case`,
+    },
+  };
+}
 
 // Same booking link used on /services/ai-readiness-assessment and /services/data-consulting
 const CALENDAR_URL = "https://calendar.app.google/pwhXdBodbhqfYVXNA";

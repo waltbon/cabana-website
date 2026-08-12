@@ -26,12 +26,21 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 
-export const metadata: Metadata = {
-  title: "Cabana Data | Ingeniería de Datos",
-  description:
-    "Construimos la infraestructura que limpia, organiza y centraliza tu información — y sobre esa base, aplicamos Machine Learning para predecir en vez de solo mirar hacia atrás.",
-  alternates: { canonical: "/services/data-engineering" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "services.dataEngineering.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/services/data-engineering" : `/${locale}/services/data-engineering`,
+    },
+  };
+}
 
 const faqKeys = [
   "needsDHCorDUC",

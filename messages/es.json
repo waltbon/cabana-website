@@ -483,6 +483,10 @@
         "headline": "Tu próximo paso en IA empieza con claridad, no con apuestas.",
         "description": "Agenda una llamada de 30 minutos. Sin compromiso. Te decimos si Ruta IA tiene sentido para tu empresa.",
         "button": "Solicitar un Diagnóstico"
+      },
+      "seo": {
+        "title": "Diagnóstico de Preparación para IA",
+        "description": "Ruta IA es nuestro diagnóstico técnico que evalúa tu infraestructura de datos, identifica los bloqueos reales para implementar IA, y te entrega un plan claro de acción — en 2 a 3 semanas."
       }
     },
     "dataConsulting": {
@@ -615,6 +619,10 @@
             "answer": "Se cotiza según el alcance específico de tu organización — no tenemos un precio único de lista. Lo que sí podemos darte en la primera llamada es claridad sobre qué camino (DHC, DUC, o ambos) tiene sentido para tu caso."
           }
         }
+      },
+      "seo": {
+        "title": "Consultoría Estratégica de Datos",
+        "description": "Evaluamos dónde estás parado y definimos qué construir primero — con evidencia, no con opinión."
       }
     },
     "dataHealthCheck": {
@@ -759,6 +767,10 @@
             "answer": "Se cotiza según el alcance específico; lo definimos juntos después de entender tu contexto."
           }
         }
+      },
+      "seo": {
+        "title": "Diagnóstico de Salud de Datos",
+        "description": "Evaluamos 6 dimensiones de tu infraestructura de datos y te decimos, con evidencia, qué tan lista está tu empresa para escalar."
       }
     },
     "dataAnalyticsUseCase": {
@@ -896,6 +908,10 @@
             "answer": "Se cotiza según cuántos casos de uso se prioricen y la complejidad de tu organización; lo definimos en la primera conversación."
           }
         }
+      },
+      "seo": {
+        "title": "Casos de Uso de Analítica de Datos",
+        "description": "Convertimos tus preguntas de negocio reales en una ruta priorizada y ejecutable — con quick wins visibles en semanas, no meses."
       }
     },
     "digitalProduct": {
@@ -1035,6 +1051,10 @@
             "answer": "Se cotiza según el alcance específico del proyecto; te damos claridad sobre el rango en la primera llamada."
           }
         }
+      },
+      "seo": {
+        "title": "Modernización de Productos Digitales",
+        "description": "Del sistema que ya nadie quiere tocar al producto digital que tu operación necesita hoy — con el diseño y la arquitectura correctos desde el inicio."
       }
     },
     "productDesignDiscovery": {
@@ -1168,6 +1188,10 @@
             "answer": "Se cotiza según la complejidad y alcance del producto; lo definimos en la primera conversación."
           }
         }
+      },
+      "seo": {
+        "title": "Diseño y Descubrimiento de Productos",
+        "description": "Investigación real con usuarios, arquitectura de información y diseño visual — antes de que se escriba una sola línea de código."
       }
     },
     "applicationDevelopment": {
@@ -1296,6 +1320,10 @@
             "answer": "Se cotiza según el alcance técnico específico; lo definimos después de revisar tus reglas de negocio y requerimientos."
           }
         }
+      },
+      "seo": {
+        "title": "Desarrollo de Aplicaciones a la Medida",
+        "description": "Construimos aplicaciones web y móviles sobre arquitectura cloud-native, listas para crecer junto a tu operación."
       }
     },
     "dashboardsAnalyticsInterfaces": {
@@ -1424,6 +1452,10 @@
             "answer": "Se cotiza según la cantidad de fuentes de datos y la complejidad del modelo; lo definimos en la primera conversación."
           }
         }
+      },
+      "seo": {
+        "title": "Dashboards y Analítica de Datos",
+        "description": "Convertimos tus métricas en dashboards interactivos y automatizados — Power BI o Looker, con la seguridad y gobernanza que tu operación necesita."
       }
     },
     "dataEngineering": {
@@ -1557,6 +1589,10 @@
             "answer": "Se cotiza según el volumen de datos, número de fuentes a integrar y si incluye componente de Machine Learning; lo definimos en la primera conversación."
           }
         }
+      },
+      "seo": {
+        "title": "Ingeniería de Datos",
+        "description": "Construimos la infraestructura que limpia, organiza y centraliza tu información — y sobre esa base, aplicamos Machine Learning para predecir en vez de solo mirar hacia atrás."
       }
     },
     "customAIAgents": {
@@ -1689,6 +1725,10 @@
             "answer": "Varía según el formato (Ruta IA tiene precios desde USD 4,000; Agent Development se cotiza según el alcance técnico)."
           }
         }
+      },
+      "seo": {
+        "title": "Agentes de IA a la Medida",
+        "description": "Diseñamos y construimos agentes que razonan, colaboran y ejecutan tareas reales — conectados a tus datos privados, sin alucinaciones."
       }
     }
   },
