@@ -1,13 +1,3 @@
-// import {
-//   getPostsPaginated,
-//   getAllAuthors,
-//   getAllTags,
-//   getAllCategories,
-//   searchAuthors,
-//   searchTags,
-//   searchCategories,
-// } from "@/lib/wordpress";
-
 import {
   Pagination,
   PaginationContent,
