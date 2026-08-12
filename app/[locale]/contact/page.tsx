@@ -1,15 +1,23 @@
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { ContactFormSection } from "./_components";
 
-export const metadata: Metadata = {
-  title: "Contáctenos",
-  description:
-    "Te brindamos una sesión gratuita con nuestros expertos en tecnología. Analicemos cómo podemos ayudarte a transformar tu negocio con soluciones modernas.",
-  alternates: {
-    canonical: "/contact",
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "contact.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/contact" : `/${locale}/contact`,
+    },
+  };
+}
 
 export default function ContactPage() {
   return (

@@ -1,17 +1,25 @@
 import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { HeroSection } from "./_components/hero-section";
 import { CasesGridSection } from "./_components/cases-grid-section";
 import { CTASection } from "../_components/cta-section";
 
-export const metadata: Metadata = {
-  title: "Case Studies — Real Work, Real Results | Cabana Data",
-  description:
-    "Explore how Cabana Data has helped companies across Latin America solve complex data challenges — from reactive pipelines to AI-ready architectures.",
-  alternates: {
-    canonical: "/case-studies",
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "caseStudies.seo" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: locale === "es" ? "/case-studies" : `/${locale}/case-studies`,
+    },
+  };
+}
 
 export default function CaseStudiesPage() {
   return (

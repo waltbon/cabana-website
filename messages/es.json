@@ -230,6 +230,10 @@
       "description": "Somos un equipo dedicado con propósito. Nuestro objetivo es ser el socio de ingeniería de datos más confiable para las empresas del mercado medio en Costa Rica y LATAM.",
       "gotProject": "¿Tienes un proyecto?",
       "cta": "Hablar con Nuestro Equipo"
+    },
+    "seo": {
+      "title": "Sobre Nosotros",
+      "description": "Conoce al equipo de Cabana Data. Somos expertos en datos, desarrollo y diseño que construyen software para empresas y ayudan a los negocios a volverse data-driven."
     }
   },
   "services": {
@@ -1730,6 +1734,10 @@
         "title": "Agentes de IA a la Medida",
         "description": "Diseñamos y construimos agentes que razonan, colaboran y ejecutan tareas reales — conectados a tus datos privados, sin alucinaciones."
       }
+    },
+    "seo": {
+      "title": "Ingeniería de Datos y Consultoría de IA",
+      "description": "Ayudamos a empresas de América Latina y Estados Unidos a crear flujos de datos escalables y profesionales"
     }
   },
   "contact": {
@@ -1785,6 +1793,10 @@
       "connectLinkedIn": "Conéctate con nosotros en",
       "linkedin": "LinkedIn.",
       "calendarCta": "Agenda en Google Calendar"
+    },
+    "seo": {
+      "title": "Contáctenos",
+      "description": "Te brindamos una sesión gratuita con nuestros expertos en tecnología. Analicemos cómo podemos ayudarte a transformar tu negocio con soluciones modernas."
     }
   },
   "blog": {
@@ -1930,10 +1942,26 @@
         "case3Tag": "Preparación para IA",
         "case3Title": "Estableciendo la Base de Datos para Operaciones de Retail Impulsadas por IA"
       }
+    },
+    "seo": {
+      "title": "Casos de Éxito — Resultados Reales",
+      "description": "Descubre cómo Cabana Data ha ayudado a empresas en América Latina a resolver desafíos complejos de datos — de pipelines reactivos a arquitecturas listas para IA."
     }
   },
   "languageSwitcher": {
     "english": "English",
     "spanish": "Español"
+  },
+  "careers": {
+    "seo": {
+      "title": "Carreras — Únete al Equipo",
+      "description": "Explorá las vacantes abiertas en Cabana Data. Trabajamos rápido, con estándares altos y con clientes que dependen de lo que hacemos."
+    }
+  },
+  "privacidad": {
+    "seo": {
+      "title": "Política de Privacidad",
+      "description": "Conoce cómo Cabana Data recopila, usa y protege tus datos personales de acuerdo con el RGPD, CCPA y las leyes de protección de datos aplicables."
+    }
   }
 }

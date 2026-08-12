@@ -230,6 +230,10 @@
       "description": "We are a dedicated team with purpose. Our goal is to be the most reliable data engineering partner for mid-market companies in Costa Rica and LATAM.",
       "gotProject": "Got a project?",
       "cta": "Talk to Our Team"
+    },
+    "seo": {
+      "title": "About Us",
+      "description": "Meet the Cabana Data team. We are data, development, and design experts building software for enterprises and helping businesses become data-driven."
     }
   },
   "services": {
@@ -1730,6 +1734,10 @@
         "title": "Product Design & Discovery",
         "description": "Real user research, information architecture, and visual design — before a single line of code gets written."
       }
+    },
+    "seo": {
+      "title": "Data Engineering & AI Consulting Services",
+      "description": "We help companies across Latin America and the U.S. build scalable, professional-grade data pipelines"
     }
   },
   "contact": {
@@ -1785,6 +1793,10 @@
       "connectLinkedIn": "Connect with us on",
       "linkedin": "LinkedIn.",
       "calendarCta": "Schedule on Google Calendar"
+    },
+    "seo": {
+      "title": "Contact Us",
+      "description": "Get a free session with our technology experts. Let's discuss how we can help transform your business with modern solutions."
     }
   },
   "blog": {
@@ -1930,10 +1942,26 @@
         "case3Tag": "AI Readiness",
         "case3Title": "Laying the Data Foundation for AI-Powered Retail Operations"
       }
+    },
+    "seo": {
+      "title": "Case Studies — Real Work, Real Results",
+      "description": "Explore how Cabana Data has helped companies across Latin America solve complex data challenges — from reactive pipelines to AI-ready architectures."
     }
   },
   "languageSwitcher": {
     "english": "English",
     "spanish": "Español"
+  },
+  "careers": {
+    "seo": {
+      "title": "Careers — Join Our Team",
+      "description": "Explore open positions at Cabana Data. We move fast, hold a high bar, and work with clients who depend on what we build."
+    }
+  },
+  "privacidad": {
+    "seo": {
+      "title": "Privacy Policy",
+      "description": "Learn how Cabana Data collects, uses, and protects your personal data in accordance with GDPR, CCPA, and applicable data protection laws."
+    }
   }
 }
