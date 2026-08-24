@@ -1,3 +1,4 @@
+import { siteConfig } from "@/site.config";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import {
@@ -39,6 +40,9 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/product-design-discovery" : `/${locale}/services/product-design-discovery`,
+    },
+    openGraph: {
+      url: locale === "es" ? `${siteConfig.site_domain}/services/product-design-discovery` : `${siteConfig.site_domain}/${locale}/services/product-design-discovery`,
     },
   };
 }

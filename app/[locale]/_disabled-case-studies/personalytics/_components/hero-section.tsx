@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { ArrowLeft } from "lucide-react";
 import { cn, Container } from "@/components/craft";
 import { FadeIn } from "@/components/animations";
-import { CaseStudy } from "@/data/case-studies";
+import { CaseStudy } from "@/data/_disabled-case-studies";
 
 interface HeroSectionProps {
   caseStudy: CaseStudy;

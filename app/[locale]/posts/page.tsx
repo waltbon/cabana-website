@@ -17,11 +17,25 @@ import { AUTHORS } from "@/data/blog/authors.data";
 import { CATEGORIES } from "@/data/blog/categories.data";
 import { TAGS } from "@/data/blog/tag.data";
 import { POSTS } from "@/data/blog";
+import { siteConfig } from "@/site.config";
 
-export const metadata: Metadata = {
-  title: "Blog Posts",
-  description: "Browse all our blog posts",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Blog Posts",
+    description: "Browse all our blog posts",
+    alternates: {
+      canonical: locale === "es" ? "/posts" : `/${locale}/posts`,
+    },
+    openGraph: {
+      url: locale === "es" ? `${siteConfig.site_domain}/posts` : `${siteConfig.site_domain}/${locale}/posts`,
+    },
+  };
+}
 
 export const dynamic = "auto";
 export const revalidate = 600;

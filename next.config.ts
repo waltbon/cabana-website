@@ -21,6 +21,22 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      // case-studies pulled until customer approves content; keep any
+      // indexed/bookmarked URLs from 404ing.
+      {
+        source: "/case-studies/:path*",
+        destination: "/",
+        permanent: false,
+      },
+      {
+        source: "/en/case-studies/:path*",
+        destination: "/en",
+        permanent: false,
+      },
+    ];
+  },
 };
 
 
