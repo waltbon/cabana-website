@@ -2,9 +2,13 @@ import type { MDXComponents } from 'mdx/types'
 import { cn } from './components/craft'
 
 const components: MDXComponents = {
-  // h1: ({ children }) => (
-  //   <h1 className={cn('font-light text-5xl pb-4 pt-8 max-w-lg')}>{children}</h1>
-  // ),
+  // Post pages already render the post title as <h1> in the hero section
+  // (app/[locale]/posts/[slug]/page.tsx). A leading "# ..." in MDX body
+  // content must not also become an <h1> — demote to <h2> so each page
+  // keeps exactly one <h1>.
+  h1: ({ children }) => (
+    <h2 className={cn('text-3xl font-semibold pb-4 pt-8')}>{children}</h2>
+  ),
   // h2: ({ children }) => (
   //   <h2 className={cn('text-3xl font-semibold pb-4 pt-8 max-w-lg')}>{children}</h2>
   // ),
