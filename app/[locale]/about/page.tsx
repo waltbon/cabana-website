@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { HeroSection, TeamSection, StorySection } from "./_components";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
+import { siteConfig } from "@/site.config";
 
 export async function generateMetadata({
   params,
@@ -15,6 +16,9 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/about" : `/${locale}/about`,
+    },
+    openGraph: {
+      url: locale === "es" ? `${siteConfig.site_domain}/about` : `${siteConfig.site_domain}/${locale}/about`,
     },
   };
 }

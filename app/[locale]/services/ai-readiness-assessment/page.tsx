@@ -1,3 +1,4 @@
+import { siteConfig } from "@/site.config";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { HeroSection } from "./_components/hero-section";
@@ -22,6 +23,9 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/ai-readiness-assessment" : `/${locale}/services/ai-readiness-assessment`,
+    },
+    openGraph: {
+      url: locale === "es" ? `${siteConfig.site_domain}/services/ai-readiness-assessment` : `${siteConfig.site_domain}/${locale}/services/ai-readiness-assessment`,
     },
   };
 }

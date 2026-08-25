@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Section, Container } from "@/components/craft";
 import { FadeIn } from "@/components/animations";
-import { CaseStudy } from "@/data/case-studies";
+import { CaseStudy } from "@/data/_disabled-case-studies";
 
 export function ChallengeSection({
   images

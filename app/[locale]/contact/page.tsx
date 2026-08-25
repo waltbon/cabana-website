@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { ContactFormSection } from "./_components";
+import { siteConfig } from "@/site.config";
 
 export async function generateMetadata({
   params,
@@ -15,6 +16,9 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/contact" : `/${locale}/contact`,
+    },
+    openGraph: {
+      url: locale === "es" ? `${siteConfig.site_domain}/contact` : `${siteConfig.site_domain}/${locale}/contact`,
     },
   };
 }

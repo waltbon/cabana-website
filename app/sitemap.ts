@@ -24,8 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${domain}/services/product-design-discovery`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/contact`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/careers`, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${domain}/case-studies`, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${domain}/case-studies/personalytics`, changeFrequency: "monthly", priority: 0.7 },
+    // case-studies not yet approved by customer — omit until launched
     { url: `${domain}/posts`, changeFrequency: "weekly", priority: 0.8 },
     // English locale (/en/ prefix)
     { url: `${domain}/en`, changeFrequency: "monthly", priority: 1 },
@@ -43,8 +42,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${domain}/en/services/product-design-discovery`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/contact`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/careers`, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${domain}/en/case-studies`, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${domain}/en/case-studies/personalytics`, changeFrequency: "monthly", priority: 0.7 },
+    // case-studies not yet approved by customer — omit until launched
     { url: `${domain}/en/posts`, changeFrequency: "weekly", priority: 0.8 },
   ];
 

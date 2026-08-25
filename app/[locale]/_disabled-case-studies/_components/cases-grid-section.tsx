@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { ArrowRight } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
-import { CASE_STUDIES, CaseStudy } from "@/data/case-studies";
+import { CASE_STUDIES, CaseStudy } from "@/data/_disabled-case-studies";
 
 const cases: CaseStudy[] = CASE_STUDIES;
 

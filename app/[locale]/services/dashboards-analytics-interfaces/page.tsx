@@ -1,3 +1,4 @@
+import { siteConfig } from "@/site.config";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import {
@@ -37,6 +38,9 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/dashboards-analytics-interfaces" : `/${locale}/services/dashboards-analytics-interfaces`,
+    },
+    openGraph: {
+      url: locale === "es" ? `${siteConfig.site_domain}/services/dashboards-analytics-interfaces` : `${siteConfig.site_domain}/${locale}/services/dashboards-analytics-interfaces`,
     },
   };
 }

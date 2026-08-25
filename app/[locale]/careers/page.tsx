@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { HeroSection, JobsListSection } from "./_components";
 import { CTASection } from "../_components/cta-section";
+import { siteConfig } from "@/site.config";
 
 export async function generateMetadata({
   params,
@@ -16,6 +17,9 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/careers" : `/${locale}/careers`,
+    },
+    openGraph: {
+      url: locale === "es" ? `${siteConfig.site_domain}/careers` : `${siteConfig.site_domain}/${locale}/careers`,
     },
   };
 }

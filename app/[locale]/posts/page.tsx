@@ -17,11 +17,30 @@ import { AUTHORS } from "@/data/blog/authors.data";
 import { CATEGORIES } from "@/data/blog/categories.data";
 import { TAGS } from "@/data/blog/tag.data";
 import { POSTS } from "@/data/blog";
+import { siteConfig } from "@/site.config";
 
-export const metadata: Metadata = {
-  title: "Blog Posts",
-  description: "Browse all our blog posts",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const isEn = locale !== "es";
+  return {
+    title: isEn
+      ? "Blog | Data Engineering & AI Insights"
+      : "Blog | Ingeniería de Datos e IA",
+    description: isEn
+      ? "Articles on data engineering, AI adoption, and architecture from the Cabana Data team."
+      : "Artículos sobre ingeniería de datos, adopción de IA y arquitectura del equipo de Cabana Data.",
+    alternates: {
+      canonical: locale === "es" ? "/posts" : `/${locale}/posts`,
+    },
+    openGraph: {
+      url: locale === "es" ? `${siteConfig.site_domain}/posts` : `${siteConfig.site_domain}/${locale}/posts`,
+    },
+  };
+}
 
 export const dynamic = "auto";
 export const revalidate = 600;
@@ -71,7 +90,7 @@ export default async function Page({
       <Container>
         <div className="space-y-8">
           <Prose>
-            <h2>Todos los posts</h2>
+            <h1>Blog</h1>
             <p className="text-muted-foreground">
               {total} {total === 1 ? "post" : "posts"} found
               {search && " matching your search"}
