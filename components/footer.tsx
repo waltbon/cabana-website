@@ -91,6 +91,28 @@ export const Footer = () => {
             {/* Separator */}
             <div className="h-px w-full bg-border" />
 
+            {/* Contact Info */}
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-lg font-bold text-foreground">{t("contactUs")}</p>
+              <a
+                href={`mailto:${siteConfig.site_email}`}
+                className="text-base text-muted-foreground transition-colors hover:text-foreground"
+                aria-label={t("email")}
+              >
+                {siteConfig.site_email}
+              </a>
+              <a
+                href={`tel:${siteConfig.site_phone.replace(/[^+\d]/g, "")}`}
+                className="text-base text-muted-foreground transition-colors hover:text-foreground"
+                aria-label={t("phone")}
+              >
+                {siteConfig.site_phone}
+              </a>
+            </div>
+
+            {/* Separator */}
+            <div className="h-px w-full bg-border" />
+
             {/* Social Links */}
             <div className="flex flex-col items-center gap-6">
               <p className="text-lg font-bold text-foreground">{t("followUs")}</p>

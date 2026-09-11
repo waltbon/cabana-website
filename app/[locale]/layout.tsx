@@ -117,6 +117,8 @@ function getJsonLd(locale: string) {
           "@type": "ContactPoint",
           contactType: "sales",
           url: `${siteConfig.site_domain}/contact`,
+          email: siteConfig.site_email,
+          telephone: siteConfig.site_phone,
         },
         areaServed: "Worldwide",
         serviceType: [
