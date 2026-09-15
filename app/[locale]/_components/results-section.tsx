@@ -49,6 +49,11 @@ export function ResultsSection() {
                     {t(`cases.${c.key}.headline`)}
                   </h3>
 
+                  {/* Standalone quotable claim — full sentence for AI Overviews / LLM extraction */}
+                  <blockquote className="border-l-2 border-cabana-blue pl-3 text-sm font-medium text-foreground">
+                    {t(`cases.${c.key}.quote`)}
+                  </blockquote>
+
                   <p className="text-sm leading-relaxed text-muted-foreground">
                     {t(`cases.${c.key}.summary`)}
                   </p>

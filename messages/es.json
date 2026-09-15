@@ -86,6 +86,7 @@
       "aiAgentsSwarm": {
         "industry": "Marketing / Publicidad",
         "headline": "De tareas de marketing dispersas a un swarm de agentes de IA coordinados",
+        "quote": "Cabana Data redujo de 20 minutos a 2 minutos el tiempo que un equipo de marketing tarda en reunir el historial de campañas, implementando un swarm de 8 agentes de IA especializados sobre LangChain.",
         "summary": "El equipo de gestión de cuentas, estrategia, medios, creatividad, diseño y gestión de plataformas digitales dependía de procesos manuales y desconectados para investigar campañas, definir audiencias, redactar copy, producir conceptos visuales y armar presentaciones — cada tarea en una herramienta distinta, sin memoria compartida. Implementamos un Agente de IA maestro a cargo de 8 subagentes especializados sobre LangChain, que interpreta la solicitud del usuario y delega automáticamente en el especialista correcto.",
         "metrics": {
           "m1": { "value": "20 min → 2 min", "label": "en buscar el historial de campañas y reunir la información para diseñar una nueva" },
@@ -98,6 +99,7 @@
       "excelToBigquery": {
         "industry": "Marketing",
         "headline": "Cómo automatizamos la generación de reportes y ganamos 40 horas/mes en análisis de datos",
+        "quote": "Cabana Data eliminó 40 horas semanales de trabajo manual en reportería para un cliente de publicidad digital, automatizando 45 entidades de 8 plataformas distintas en Google BigQuery.",
         "summary": "Un cliente con presencia importante en publicidad digital enfrentaba un cuello de botella crítico: su reportería estaba construida sobre plataformas de métricas → hojas de cálculo con cientos de fórmulas → visualizadores. Los reportes colapsaban, los filtros tardaban hasta 4 minutos, y las fórmulas se volvían incontrolables. Diseñamos una arquitectura de datos a la medida e implementamos una capa robusta de flujos y transformaciones automáticas en Google BigQuery, reemplazando por completo la lógica manual.",
         "metrics": {
           "m1": { "value": "40 horas/semana", "label": "de trabajo manual erradicado" },
@@ -110,6 +112,7 @@
       "salesQuotaVisibility": {
         "industry": "Bebidas & Distribución",
         "headline": "Visibilidad en tiempo real de quota de ventas con arquitectura transaccional escalable",
+        "quote": "Cabana Data construyó una plataforma de seguimiento de quota de ventas que cumple 98.6% del checklist de ciberseguridad de FIFCO, consolidando 3 fuentes de datos en un único modelo.",
         "summary": "Esta compañía necesitaba consolidar quota progress, sales targets y commitment tracking en una plataforma única. Construimos una aplicación full-stack a la medida (Angular + NestJS + BigQuery) con autenticación SSO integrada, que sincroniza datos diarios y alimenta reportería en tiempo real para agentes, supervisores y gerentes. El resultado: visibilidad jerárquica de cumplimiento de objetivos y un sistema auditado que cumple 98.6% del checklist de ciberseguridad de FIFCO.",
         "metrics": {
           "m1": { "value": "3 → 1", "label": "fuentes de verdad consolidadas en un único modelo de datos" },
