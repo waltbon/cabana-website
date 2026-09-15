@@ -5,6 +5,7 @@ export { HeroSection } from "./hero-section";
 export { ProblemSection } from "./problem-section";
 export { SolutionSection } from "./solution-section";
 export { ResultsSection } from "./results-section";
+export { TeamTeaserSection } from "./team-teaser-section";
 export { WhyUsSection } from "./why-us-section";
 export { TechStackSection } from "./tech-stack-section";
 export { CTASection } from "./cta-section";

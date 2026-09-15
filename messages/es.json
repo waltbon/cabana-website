@@ -194,6 +194,12 @@
     "ctaTalk": "¡Hablemos!",
     "ctaServices": "Ver Servicios"
   },
+  "teamTeaser": {
+    "tagline": "Nuestro Equipo",
+    "headline": "Los expertos detrás de cada proyecto",
+    "description": "Un equipo especializado en datos, desarrollo y diseño — sin subcontrataciones ni intermediarios.",
+    "cta": "Conoce al equipo completo"
+  },
   "techStack": {
     "tagline": "Stack Tecnológico",
     "headline": "Socios Tecnológicos Clave",

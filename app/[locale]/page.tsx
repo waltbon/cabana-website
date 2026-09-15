@@ -4,6 +4,7 @@ import {
   ProblemSection,
   SolutionSection,
   ResultsSection,
+  TeamTeaserSection,
   WhyUsSection,
   TechStackSection,
   CTASection,
@@ -46,6 +47,7 @@ export default function Home() {
       <ProblemSection />
       <SolutionSection />
       <ResultsSection />
+      <TeamTeaserSection />
       <WhyUsSection />
       <TechStackSection />
       <CTASection />

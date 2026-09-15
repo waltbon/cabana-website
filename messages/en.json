@@ -194,6 +194,12 @@
     "ctaTalk": "Let's talk!",
     "ctaServices": "View Services"
   },
+  "teamTeaser": {
+    "tagline": "Our Team",
+    "headline": "The experts behind every project",
+    "description": "A dedicated team of data, development, and design specialists — no subcontractors, no middlemen.",
+    "cta": "Meet the full team"
+  },
   "techStack": {
     "tagline": "Technology Stack",
     "headline": "Core Technology Partners",
