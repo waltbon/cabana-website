@@ -94,7 +94,9 @@
           "m3": { "value": "100%", "label": "de las acciones de usuarios en la plataforma de IA quedan bajo control y bitácora" }
         },
         "service": "Custom AI Agents",
-        "serviceHref": "/services/custom-ai-agents"
+        "serviceHref": "/services/custom-ai-agents",
+        "dateLabel": "Enero 2026",
+        "dateISO": "2026-01-01"
       },
       "excelToBigquery": {
         "industry": "Marketing",
@@ -107,7 +109,9 @@
           "m3": { "value": "0", "label": "errores humanos remanentes" }
         },
         "service": "Data Engineering",
-        "serviceHref": "/services/data-engineering"
+        "serviceHref": "/services/data-engineering",
+        "dateLabel": "Febrero 2025",
+        "dateISO": "2025-02-01"
       },
       "salesQuotaVisibility": {
         "industry": "Bebidas & Distribución",
@@ -120,7 +124,9 @@
           "m3": { "value": "4 niveles", "label": "de visibilidad de quota (agente, supervisor, área, gerencia)" }
         },
         "service": "Full-Stack Application Development",
-        "serviceHref": "/services/application-development"
+        "serviceHref": "/services/application-development",
+        "dateLabel": "Marzo 2025",
+        "dateISO": "2025-03-01"
       }
     }
   },

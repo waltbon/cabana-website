@@ -41,9 +41,17 @@ export function ResultsSection() {
             {cases.map((c) => (
               <StaggerItem key={c.key}>
                 <Card className="flex h-full flex-col gap-4 rounded-2xl border p-6 md:p-8">
-                  <span className="w-fit rounded-full bg-secondary px-3 py-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                    {t(`cases.${c.key}.industry`)}
-                  </span>
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="w-fit rounded-full bg-secondary px-3 py-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                      {t(`cases.${c.key}.industry`)}
+                    </span>
+                    <time
+                      dateTime={t(`cases.${c.key}.dateISO`)}
+                      className="text-xs font-medium text-muted-foreground"
+                    >
+                      {t(`cases.${c.key}.dateLabel`)}
+                    </time>
+                  </div>
 
                   <h3 className="text-xl font-bold text-foreground">
                     {t(`cases.${c.key}.headline`)}

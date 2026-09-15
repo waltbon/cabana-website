@@ -94,7 +94,9 @@
           "m3": { "value": "100%", "label": "of user actions on the AI platform logged and auditable" }
         },
         "service": "Custom AI Agents",
-        "serviceHref": "/services/custom-ai-agents"
+        "serviceHref": "/services/custom-ai-agents",
+        "dateLabel": "January 2026",
+        "dateISO": "2026-01-01"
       },
       "excelToBigquery": {
         "industry": "Marketing",
@@ -107,7 +109,9 @@
           "m3": { "value": "0", "label": "human errors remaining" }
         },
         "service": "Data Engineering",
-        "serviceHref": "/services/data-engineering"
+        "serviceHref": "/services/data-engineering",
+        "dateLabel": "February 2025",
+        "dateISO": "2025-02-01"
       },
       "salesQuotaVisibility": {
         "industry": "Beverages & Distribution",
@@ -120,7 +124,9 @@
           "m3": { "value": "4 levels", "label": "of quota visibility (rep, supervisor, area, management)" }
         },
         "service": "Full-Stack Application Development",
-        "serviceHref": "/services/application-development"
+        "serviceHref": "/services/application-development",
+        "dateLabel": "March 2025",
+        "dateISO": "2025-03-01"
       }
     }
   },

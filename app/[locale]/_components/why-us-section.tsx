@@ -6,14 +6,23 @@ import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
+import { FAQSchema } from "@/components/seo/faq-schema";
 
 const dimensionKeys = ["quality", "infrastructure", "governance", "maturity", "strategy", "talent"] as const;
 
 export function WhyUsSection() {
   const t = useTranslations("services.rutaIA");
 
+  // The 6 dimensions are visibly rendered below as question + description —
+  // mark them up as FAQPage so AI/search crawlers can extract the Q&A pairs.
+  const faqs = dimensionKeys.map((key) => ({
+    question: t(`dimensions.items.${key}.question`),
+    answer: t(`dimensions.items.${key}.description`),
+  }));
+
   return (
     <Section className="bg-white py-24">
+      <FAQSchema faqs={faqs} />
       <Container className="max-w-5xl px-6">
         <div className="flex flex-col gap-16">
           {/* Header */}
