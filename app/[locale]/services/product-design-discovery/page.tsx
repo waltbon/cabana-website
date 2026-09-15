@@ -27,6 +27,7 @@ import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
 import { FAQSection } from "../_components/faq-section";
 import { ServiceSchema } from "@/components/seo/service-schema";
+import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 
 export async function generateMetadata({
   params,
@@ -87,6 +88,10 @@ export default async function ProductDesignDiscoveryPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/product-design-discovery"
+      />
+      <Breadcrumbs
+        items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/product-design-discovery" }]}
+        className="sr-only"
       />
       <ServiceHero
         tagline={tHero("tagline")}

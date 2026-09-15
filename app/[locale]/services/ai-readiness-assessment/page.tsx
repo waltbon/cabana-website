@@ -10,6 +10,7 @@ import { TimelineSection } from "./_components/timeline-section";
 import { PersonasSection } from "./_components/personas-section";
 import { CTASection } from "./_components/cta-section";
 import { ServiceSchema } from "@/components/seo/service-schema";
+import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 
 export async function generateMetadata({
   params,
@@ -39,6 +40,10 @@ export default async function AIReadinessAssessmentPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/ai-readiness-assessment"
+      />
+      <Breadcrumbs
+        items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/ai-readiness-assessment" }]}
+        className="sr-only"
       />
       <HeroSection />
       <ProblemSection />
