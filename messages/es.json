@@ -76,6 +76,51 @@
       }
     }
   },
+  "results": {
+    "tagline": "Resultados Reales",
+    "headline": "Proyectos reales.",
+    "headlineHighlight": "Impacto medible.",
+    "description": "Así es como convertimos datos dispersos y procesos manuales en sistemas que sí llegan a producción.",
+    "viewService": "Ver servicio",
+    "cases": {
+      "aiAgentsSwarm": {
+        "industry": "Marketing / Publicidad",
+        "headline": "De tareas de marketing dispersas a un swarm de agentes de IA coordinados",
+        "summary": "El equipo de gestión de cuentas, estrategia, medios, creatividad, diseño y gestión de plataformas digitales dependía de procesos manuales y desconectados para investigar campañas, definir audiencias, redactar copy, producir conceptos visuales y armar presentaciones — cada tarea en una herramienta distinta, sin memoria compartida. Implementamos un Agente de IA maestro a cargo de 8 subagentes especializados sobre LangChain, que interpreta la solicitud del usuario y delega automáticamente en el especialista correcto.",
+        "metrics": {
+          "m1": { "value": "20 min → 2 min", "label": "en buscar el historial de campañas y reunir la información para diseñar una nueva" },
+          "m2": { "value": "7 departamentos", "label": "sincronizados en una sola fuente de datos", "context": "plataforma a la medida sobre Google BigQuery" },
+          "m3": { "value": "100%", "label": "de las acciones de usuarios en la plataforma de IA quedan bajo control y bitácora" }
+        },
+        "service": "Custom AI Agents",
+        "serviceHref": "/services/custom-ai-agents"
+      },
+      "excelToBigquery": {
+        "industry": "Marketing",
+        "headline": "Cómo automatizamos la generación de reportes y ganamos 40 horas/mes en análisis de datos",
+        "summary": "Un cliente con presencia importante en publicidad digital enfrentaba un cuello de botella crítico: su reportería estaba construida sobre plataformas de métricas → hojas de cálculo con cientos de fórmulas → visualizadores. Los reportes colapsaban, los filtros tardaban hasta 4 minutos, y las fórmulas se volvían incontrolables. Diseñamos una arquitectura de datos a la medida e implementamos una capa robusta de flujos y transformaciones automáticas en Google BigQuery, reemplazando por completo la lógica manual.",
+        "metrics": {
+          "m1": { "value": "40 horas/semana", "label": "de trabajo manual erradicado" },
+          "m2": { "value": "45 entidades × 8 plataformas", "label": "digitales automatizadas" },
+          "m3": { "value": "0", "label": "errores humanos remanentes" }
+        },
+        "service": "Data Engineering",
+        "serviceHref": "/services/data-engineering"
+      },
+      "salesQuotaVisibility": {
+        "industry": "Bebidas & Distribución",
+        "headline": "Visibilidad en tiempo real de quota de ventas con arquitectura transaccional escalable",
+        "summary": "Esta compañía necesitaba consolidar quota progress, sales targets y commitment tracking en una plataforma única. Construimos una aplicación full-stack a la medida (Angular + NestJS + BigQuery) con autenticación SSO integrada, que sincroniza datos diarios y alimenta reportería en tiempo real para agentes, supervisores y gerentes. El resultado: visibilidad jerárquica de cumplimiento de objetivos y un sistema auditado que cumple 98.6% del checklist de ciberseguridad de FIFCO.",
+        "metrics": {
+          "m1": { "value": "3 → 1", "label": "fuentes de verdad consolidadas en un único modelo de datos" },
+          "m2": { "value": "98.6%", "label": "cumplimiento de ciberseguridad" },
+          "m3": { "value": "4 niveles", "label": "de visibilidad de quota (agente, supervisor, área, gerencia)" }
+        },
+        "service": "Full-Stack Application Development",
+        "serviceHref": "/services/application-development"
+      }
+    }
+  },
   "solution": {
     "tagline": "NUESTRO ENFOQUE",
     "headline": "Servicios que",
