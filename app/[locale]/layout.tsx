@@ -89,8 +89,47 @@ export async function generateMetadata({
   };
 }
 
-// JSON-LD structured data (Organization + WebSite schemas)
-function getJsonLd(locale: string) {
+// Service pages included in the homepage OfferCatalog (slug + messages key under "services")
+const OFFER_CATALOG_SERVICES = [
+  { slug: "data-consulting", msgKey: "dataConsulting" },
+  { slug: "data-engineering", msgKey: "dataEngineering" },
+  { slug: "application-development", msgKey: "applicationDevelopment" },
+  { slug: "dashboards-analytics-interfaces", msgKey: "dashboardsAnalyticsInterfaces" },
+  { slug: "custom-ai-agents", msgKey: "customAIAgents" },
+  { slug: "ai-readiness-assessment", msgKey: "rutaIA" },
+  { slug: "data-health-check", msgKey: "dataHealthCheck" },
+  { slug: "data-analytics-use-case", msgKey: "dataAnalyticsUseCase" },
+  { slug: "digital-product", msgKey: "digitalProduct" },
+  { slug: "product-design-discovery", msgKey: "productDesignDiscovery" },
+] as const;
+
+// JSON-LD structured data (Organization + WebSite + OfferCatalog schemas)
+function getJsonLd(
+  locale: string,
+  messages: Awaited<ReturnType<typeof getMessages>>
+) {
+  const servicesMessages = messages.services as Record<
+    string,
+    { seo?: { title?: string; description?: string } }
+  >;
+
+  const hasOfferCatalog = {
+    "@type": "OfferCatalog",
+    name: locale === "es" ? "Servicios de Cabana Data" : "Cabana Data Services",
+    itemListElement: OFFER_CATALOG_SERVICES.map(({ slug, msgKey }) => {
+      const seo = servicesMessages[msgKey]?.seo;
+      return {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: seo?.title ?? slug,
+          description: seo?.description ?? "",
+          url: `${siteConfig.site_domain}/services/${slug}`,
+        },
+      };
+    }),
+  };
+
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -121,6 +160,7 @@ function getJsonLd(locale: string) {
           telephone: siteConfig.site_phone,
         },
         areaServed: "Worldwide",
+        hasOfferCatalog,
         serviceType: [
           "Data Strategy & Consulting",
           "Data Engineering & Architecture",
@@ -171,7 +211,7 @@ export default async function LocaleLayout({
   // Get messages for the current locale
   const messages = await getMessages();
 
-  const jsonLd = getJsonLd(locale);
+  const jsonLd = getJsonLd(locale, messages);
 
   return (
     <html lang={locale} suppressHydrationWarning>
