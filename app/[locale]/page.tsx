@@ -3,6 +3,8 @@ import {
   HeroSection,
   ProblemSection,
   SolutionSection,
+  ResultsSection,
+  TeamTeaserSection,
   WhyUsSection,
   TechStackSection,
   CTASection,
@@ -44,6 +46,8 @@ export default function Home() {
       <OurClientsSection />
       <ProblemSection />
       <SolutionSection />
+      <ResultsSection />
+      <TeamTeaserSection />
       <WhyUsSection />
       <TechStackSection />
       <CTASection />

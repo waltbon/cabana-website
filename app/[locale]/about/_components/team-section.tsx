@@ -27,7 +27,7 @@ export function TeamSection() {
   const t = useTranslations("about.team");
 
   return (
-    <Section className="bg-white py-24">
+    <Section id="team" className="bg-white py-24">
       <Container className="max-w-7xl px-6">
         <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:gap-12">
           {/* Left Column - Title and Team Grid */}

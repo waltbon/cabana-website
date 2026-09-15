@@ -76,6 +76,54 @@
       }
     }
   },
+  "results": {
+    "tagline": "Real Results",
+    "headline": "Real projects.",
+    "headlineHighlight": "Measurable impact.",
+    "description": "This is how we turn scattered data and manual processes into systems that actually reach production.",
+    "viewService": "View service",
+    "cases": {
+      "aiAgentsSwarm": {
+        "industry": "Marketing & Advertising",
+        "headline": "From scattered marketing tasks to a coordinated AI agent swarm",
+        "quote": "Cabana Data cut the time a marketing team needed to pull up campaign history from 20 minutes to 2 minutes by building a swarm of 8 specialized AI agents on LangChain.",
+        "summary": "The account management, strategy, media, creative, design, and digital platform teams relied on manual, disconnected processes to research campaigns, define audiences, write copy, produce visual concepts, and assemble decks — each task in a different tool, with no shared memory. We built a master AI agent overseeing 8 specialized sub-agents on LangChain, which interprets the user's request and automatically routes it to the right specialist.",
+        "metrics": {
+          "m1": { "value": "20 min → 2 min", "label": "to search campaign history and gather what's needed for a new one" },
+          "m2": { "value": "7 departments", "label": "synced on one data source", "context": "custom platform built on Google BigQuery" },
+          "m3": { "value": "100%", "label": "of user actions on the AI platform logged and auditable" }
+        },
+        "service": "Custom AI Agents",
+        "serviceHref": "/services/custom-ai-agents"
+      },
+      "excelToBigquery": {
+        "industry": "Marketing",
+        "headline": "How we automated reporting and won back 40 hours/month of analysis time",
+        "quote": "Cabana Data eliminated 40 hours per week of manual reporting work for a digital advertising client by automating 45 entities across 8 platforms in Google BigQuery.",
+        "summary": "A client with a major digital advertising presence hit a critical bottleneck: reporting was built on metrics platforms → spreadsheets with hundreds of formulas → visualization tools. Reports crashed, filters took up to 4 minutes, and formulas became unmanageable. We designed a custom-fit data architecture and implemented a robust layer of automated flows and transformations in Google BigQuery, replacing the manual logic entirely.",
+        "metrics": {
+          "m1": { "value": "40 hours/week", "label": "of manual work eliminated" },
+          "m2": { "value": "45 entities × 8 platforms", "label": "automated" },
+          "m3": { "value": "0", "label": "human errors remaining" }
+        },
+        "service": "Data Engineering",
+        "serviceHref": "/services/data-engineering"
+      },
+      "salesQuotaVisibility": {
+        "industry": "Beverages & Distribution",
+        "headline": "Real-time sales quota visibility on a scalable transactional architecture",
+        "quote": "Cabana Data built a sales quota tracking platform meeting 98.6% of FIFCO's cybersecurity checklist, consolidating 3 data sources into a single model.",
+        "summary": "This company needed to consolidate quota progress, sales targets, and commitment tracking into a single platform. We built a custom full-stack application (Angular + NestJS + BigQuery) with integrated SSO authentication that syncs data daily and powers real-time reporting for reps, supervisors, and managers. The result: hierarchical visibility into goal completion and an audited system meeting 98.6% of FIFCO's cybersecurity checklist.",
+        "metrics": {
+          "m1": { "value": "3 → 1", "label": "sources of truth consolidated into a single data model" },
+          "m2": { "value": "98.6%", "label": "cybersecurity compliance" },
+          "m3": { "value": "4 levels", "label": "of quota visibility (rep, supervisor, area, management)" }
+        },
+        "service": "Full-Stack Application Development",
+        "serviceHref": "/services/application-development"
+      }
+    }
+  },
   "solution": {
     "tagline": "OUR APPROACH",
     "headline": "From data chaos to an organization that",
@@ -149,6 +197,12 @@
     "ctaTalk": "Let's talk!",
     "ctaServices": "View Services"
   },
+  "teamTeaser": {
+    "tagline": "Our Team",
+    "headline": "The experts behind every project",
+    "description": "A dedicated team of data, development, and design specialists — no subcontractors, no middlemen.",
+    "cta": "Meet the full team"
+  },
   "techStack": {
     "tagline": "Technology Stack",
     "headline": "Core Technology Partners",
@@ -198,6 +252,9 @@
       "linkedin": "LinkedIn",
       "twitter": "X (Twitter)"
     },
+    "contactUs": "Contact us",
+    "email": "Email",
+    "phone": "Phone",
     "copyright": "Copyright",
     "location": "San José, Costa Rica"
   },
