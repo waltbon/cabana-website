@@ -103,6 +103,15 @@ const OFFER_CATALOG_SERVICES = [
   { slug: "product-design-discovery", msgKey: "productDesignDiscovery" },
 ] as const;
 
+// Team members with a confirmed public LinkedIn profile (sameAs for Person schema).
+// Only include people who have explicitly shared their profile URL — do not guess or scrape.
+const TEAM_MEMBERS_WITH_PROFILE = [
+  { name: "Walter Bonilla", roleKey: "techLead", sameAs: "https://www.linkedin.com/in/waltbon/" },
+  { name: "Evelyn Gabriela Bonilla", roleKey: "adminManager", sameAs: "https://www.linkedin.com/in/gabriela-bonilla-a3b0991b8/" },
+  { name: "Thomas Huber", roleKey: "dataEngineer", sameAs: "https://www.linkedin.com/in/thomas-huber-kelly-63885b31a/" },
+  { name: "Rebeca Viana", roleKey: "uxDesigner", sameAs: "https://www.linkedin.com/in/rebecaviana/" },
+] as const;
+
 // JSON-LD structured data (Organization + WebSite + OfferCatalog schemas)
 function getJsonLd(
   locale: string,
@@ -112,6 +121,17 @@ function getJsonLd(
     string,
     { seo?: { title?: string; description?: string } }
   >;
+
+  const roleLabels = (messages.about as { team?: { roles?: Record<string, string> } })
+    ?.team?.roles;
+
+  const employee = TEAM_MEMBERS_WITH_PROFILE.map(({ name, roleKey, sameAs }) => ({
+    "@type": "Person",
+    name,
+    jobTitle: roleLabels?.[roleKey] ?? roleKey,
+    sameAs,
+    worksFor: { "@id": `${siteConfig.site_domain}/#organization` },
+  }));
 
   const hasOfferCatalog = {
     "@type": "OfferCatalog",
@@ -161,6 +181,7 @@ function getJsonLd(
         },
         areaServed: "Worldwide",
         hasOfferCatalog,
+        employee,
         serviceType: [
           "Data Strategy & Consulting",
           "Data Engineering & Architecture",
