@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowRight, Handshake, Database, Code, Figma } from "lucide-react";
+import { ArrowRight, Handshake, Users, Database, Code, Figma } from "lucide-react";
 import { Section, Container } from "@/components/craft";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -12,9 +12,11 @@ import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 // roleKey values map to the shared "about.team.roles" translations
 const featuredMembers = [
   { id: 1, name: "Walter", roleKey: "techLead", icon: Handshake },
-  { id: 2, name: "Thomas", roleKey: "dataEngineer", icon: Database },
-  { id: 3, name: "Melissa", roleKey: "developer", icon: Code },
-  { id: 4, name: "Rebeca", roleKey: "uxDesigner", icon: Figma },
+  { id: 2, name: "Evelyn", roleKey: "adminManager", icon: Users },
+  { id: 3, name: "Thomas", roleKey: "dataEngineer", icon: Database },
+  { id: 4, name: "Eduardo", roleKey: "dataEngineer", icon: Database },
+  { id: 5, name: "Melissa", roleKey: "developer", icon: Code },
+  { id: 6, name: "Rebeca", roleKey: "uxDesigner", icon: Figma },
 ];
 
 export function TeamTeaserSection() {
