@@ -37,13 +37,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.productDesignDiscovery.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/product-design-discovery" : `/${locale}/services/product-design-discovery`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/product-design-discovery` : `${siteConfig.site_domain}/${locale}/services/product-design-discovery`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -88,6 +91,7 @@ export default async function ProductDesignDiscoveryPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/product-design-discovery"
+        serviceType="Product Design & Discovery"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/product-design-discovery" }]}

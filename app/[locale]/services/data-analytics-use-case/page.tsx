@@ -37,13 +37,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.dataAnalyticsUseCase.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/data-analytics-use-case" : `/${locale}/services/data-analytics-use-case`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/data-analytics-use-case` : `${siteConfig.site_domain}/${locale}/services/data-analytics-use-case`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -91,6 +94,7 @@ export default async function DataAnalyticsUseCasePage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/data-analytics-use-case"
+        serviceType="Data Analytics Consulting"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/data-analytics-use-case" }]}

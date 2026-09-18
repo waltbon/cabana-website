@@ -37,13 +37,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.dataEngineering.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/data-engineering" : `/${locale}/services/data-engineering`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/data-engineering` : `${siteConfig.site_domain}/${locale}/services/data-engineering`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -82,6 +85,7 @@ export default async function DataEngineeringPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/data-engineering"
+        serviceType="Data Engineering"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/data-engineering" }]}

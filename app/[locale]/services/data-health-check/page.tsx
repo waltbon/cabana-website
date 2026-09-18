@@ -39,13 +39,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.dataHealthCheck.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/data-health-check" : `/${locale}/services/data-health-check`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/data-health-check` : `${siteConfig.site_domain}/${locale}/services/data-health-check`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -87,6 +90,7 @@ export default async function DataHealthCheckPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/data-health-check"
+        serviceType="Data Health Assessment"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/data-health-check" }]}

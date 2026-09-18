@@ -89,9 +89,19 @@
         "quote": "Cabana Data cut the time a marketing team needed to pull up campaign history from 20 minutes to 2 minutes by building a swarm of 8 specialized AI agents on LangChain.",
         "summary": "The account management, strategy, media, creative, design, and digital platform teams relied on manual, disconnected processes to research campaigns, define audiences, write copy, produce visual concepts, and assemble decks — each task in a different tool, with no shared memory. We built a master AI agent overseeing 8 specialized sub-agents on LangChain, which interprets the user's request and automatically routes it to the right specialist.",
         "metrics": {
-          "m1": { "value": "20 min → 2 min", "label": "to search campaign history and gather what's needed for a new one" },
-          "m2": { "value": "7 departments", "label": "synced on one data source", "context": "custom platform built on Google BigQuery" },
-          "m3": { "value": "100%", "label": "of user actions on the AI platform logged and auditable" }
+          "m1": {
+            "value": "20 min → 2 min",
+            "label": "to search campaign history and gather what's needed for a new one"
+          },
+          "m2": {
+            "value": "7 departments",
+            "label": "synced on one data source",
+            "context": "custom platform built on Google BigQuery"
+          },
+          "m3": {
+            "value": "100%",
+            "label": "of user actions on the AI platform logged and auditable"
+          }
         },
         "service": "Custom AI Agents",
         "serviceHref": "/services/custom-ai-agents",
@@ -104,9 +114,18 @@
         "quote": "Cabana Data eliminated 40 hours per week of manual reporting work for a digital advertising client by automating 45 entities across 8 platforms in Google BigQuery.",
         "summary": "A client with a major digital advertising presence hit a critical bottleneck: reporting was built on metrics platforms → spreadsheets with hundreds of formulas → visualization tools. Reports crashed, filters took up to 4 minutes, and formulas became unmanageable. We designed a custom-fit data architecture and implemented a robust layer of automated flows and transformations in Google BigQuery, replacing the manual logic entirely.",
         "metrics": {
-          "m1": { "value": "40 hours/week", "label": "of manual work eliminated" },
-          "m2": { "value": "45 entities × 8 platforms", "label": "automated" },
-          "m3": { "value": "0", "label": "human errors remaining" }
+          "m1": {
+            "value": "40 hours/week",
+            "label": "of manual work eliminated"
+          },
+          "m2": {
+            "value": "45 entities × 8 platforms",
+            "label": "automated"
+          },
+          "m3": {
+            "value": "0",
+            "label": "human errors remaining"
+          }
         },
         "service": "Data Engineering",
         "serviceHref": "/services/data-engineering",
@@ -119,9 +138,18 @@
         "quote": "Cabana Data built a sales quota tracking platform meeting 98.6% of FIFCO's cybersecurity checklist, consolidating 3 data sources into a single model.",
         "summary": "This company needed to consolidate quota progress, sales targets, and commitment tracking into a single platform. We built a custom full-stack application (Angular + NestJS + BigQuery) with integrated SSO authentication that syncs data daily and powers real-time reporting for reps, supervisors, and managers. The result: hierarchical visibility into goal completion and an audited system meeting 98.6% of FIFCO's cybersecurity checklist.",
         "metrics": {
-          "m1": { "value": "3 → 1", "label": "sources of truth consolidated into a single data model" },
-          "m2": { "value": "98.6%", "label": "cybersecurity compliance" },
-          "m3": { "value": "4 levels", "label": "of quota visibility (rep, supervisor, area, management)" }
+          "m1": {
+            "value": "3 → 1",
+            "label": "sources of truth consolidated into a single data model"
+          },
+          "m2": {
+            "value": "98.6%",
+            "label": "cybersecurity compliance"
+          },
+          "m3": {
+            "value": "4 levels",
+            "label": "of quota visibility (rep, supervisor, area, management)"
+          }
         },
         "service": "Full-Stack Application Development",
         "serviceHref": "/services/application-development",
@@ -553,6 +581,7 @@
       },
       "seo": {
         "title": "AI Readiness Assessment",
+        "metaTitle": "AI Readiness Assessment for Mid-Market Companies",
         "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and delivers a clear action plan — in 2 to 3 weeks."
       }
     },
@@ -685,6 +714,7 @@
       },
       "seo": {
         "title": "Custom Application Development",
+        "metaTitle": "Custom Application Development for Mid-Market Companies",
         "description": "We build web and mobile applications on cloud-native architecture, ready to grow alongside your operation."
       }
     },
@@ -821,6 +851,7 @@
       },
       "seo": {
         "title": "Custom AI Agents for Business",
+        "metaTitle": "Custom AI Agents for Mid-Market Companies",
         "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations."
       }
     },
@@ -953,6 +984,7 @@
       },
       "seo": {
         "title": "Dashboards & Data Analytics",
+        "metaTitle": "Dashboards & Data Analytics for Mid-Market Companies",
         "description": "We turn your metrics into interactive, automated dashboards — Power BI or Looker, with the security and governance your operation needs."
       }
     },
@@ -1094,6 +1126,7 @@
       },
       "seo": {
         "title": "Data Analytics Roadmap & Use Cases",
+        "metaTitle": "Data Analytics Roadmap & Use Cases for Businesses",
         "description": "We turn your real business questions into a prioritized, executable roadmap — with quick wins visible in weeks, not months."
       }
     },
@@ -1230,6 +1263,7 @@
       },
       "seo": {
         "title": "Strategic Data Consulting",
+        "metaTitle": "Strategic Data Consulting for Mid-Market Companies",
         "description": "We assess where you stand and define what to build first — with evidence, not opinion."
       }
     },
@@ -1367,6 +1401,7 @@
       },
       "seo": {
         "title": "Data Engineering Services",
+        "metaTitle": "Data Engineering Services for Mid-Market Companies",
         "description": "We build the infrastructure that cleans, organizes, and centralizes your information — and on that foundation, we apply Machine Learning to predict instead of just looking backward."
       }
     },
@@ -1515,6 +1550,7 @@
       },
       "seo": {
         "title": "Data Health Check Assessment",
+        "metaTitle": "Data Health Check Assessment for Mid-Market Companies",
         "description": "We assess 6 dimensions of your data infrastructure and tell you, with evidence, how ready your company is to scale."
       }
     },
@@ -1658,6 +1694,7 @@
       },
       "seo": {
         "title": "Digital Product Modernization",
+        "metaTitle": "Digital Product Modernization for Mid-Market Companies",
         "description": "From the system nobody wants to touch anymore to the digital product your operation needs today — with the right design and architecture from the start."
       }
     },
@@ -1795,6 +1832,7 @@
       },
       "seo": {
         "title": "Product Design & Discovery",
+        "metaTitle": "Product Design & Discovery for Mid-Market Companies",
         "description": "Real user research, information architecture, and visual design — before a single line of code gets written."
       }
     },

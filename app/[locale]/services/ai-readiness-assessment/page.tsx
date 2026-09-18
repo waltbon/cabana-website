@@ -20,13 +20,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.rutaIA.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/ai-readiness-assessment" : `/${locale}/services/ai-readiness-assessment`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/ai-readiness-assessment` : `${siteConfig.site_domain}/${locale}/services/ai-readiness-assessment`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -40,6 +43,7 @@ export default async function AIReadinessAssessmentPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/ai-readiness-assessment"
+        serviceType="AI Readiness Assessment"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/ai-readiness-assessment" }]}
