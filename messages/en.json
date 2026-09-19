@@ -1331,6 +1331,36 @@
         "headline": "50+ BigQuery pipelines in production",
         "description": "This isn't theory. It's real experience building and maintaining data infrastructure that runs every single day."
       },
+      "caseStudy": {
+        "tagline": "Case study",
+        "industry": "Marketing",
+        "headline": "How we automated report generation and won back 40 hours/week of data analysis",
+        "summary": "A client with a significant digital advertising presence faced a critical bottleneck: their reporting was built on ad-campaign metrics platforms → spreadsheets with hundreds of formulas → visualization tools (Power BI and Google Data Studio). Every day, the incremental sync of campaign data added more complexity. Reports crashed, filters took up to 4 minutes to run, and the formulas became unmanageable, generating constant errors that compromised data reliability. We ran an exhaustive inventory of every data source, designed a data architecture tailored to the organization, and implemented a robust layer of automated flows and transformations in Google BigQuery. The solution fully replaced the manual spreadsheet logic with reliable, auditable data pipelines.",
+        "metrics": {
+          "hoursSaved": {
+            "value": "40 hours/week",
+            "label": "of manual work eliminated"
+          },
+          "entitiesAutomated": {
+            "value": "45 entities × 8 platforms",
+            "label": "of digital data automated"
+          },
+          "errorsEliminated": {
+            "value": "100%",
+            "label": "of human errors eliminated from the process"
+          }
+        },
+        "relatedService": {
+          "label": "Dashboards & Data Analytics",
+          "href": "/services/dashboards-analytics-interfaces"
+        },
+        "date": "February 2025",
+        "author": {
+          "name": "Walter Bonilla",
+          "role": "Technical Lead",
+          "linkedin": "https://www.linkedin.com/in/waltbon/"
+        }
+      },
       "logistics": {
         "tagline": "Zero-friction logistics",
         "items": {
@@ -1474,7 +1504,8 @@
           "report": "An executive report with scoring — 0 to 10 on each dimension, with critical blockers identified.",
           "remediation": "A technical remediation plan — what to fix first and why, with owners assigned.",
           "roadmap": "A visual roadmap for the First Build Cycle — what to build first, in an executive format for the board."
-        }
+        },
+        "imageAlt": "Data Health Check deliverables"
       },
       "credibility": {
         "headline": "Proof of rigor: DAMA-DMBOK",

@@ -40,13 +40,13 @@ export function ServiceHero({
           <div className="flex flex-1 flex-col gap-8">
             <div className="flex flex-col gap-6">
               <FadeIn>
-                <Badge variant={'green'}>
+                <Badge variant={'green'} className="text-md font-bold rounded-sm">
                   {tagline}
                 </Badge>
               </FadeIn>
 
               <FadeIn delay={0.1}>
-                <h1 className="text-5xl font-bold leading-tight tracking-tight md:text-[48px]">
+                <h1 className="text-5xl font-bold leading-tight tracking-tight md:text-6xl">
                   {headlineDark}{" "}
                   <span className="text-gradient-cabana">{headlineBlue}</span>
                 </h1>
@@ -71,7 +71,7 @@ export function ServiceHero({
 
           {/* Right Column - Illustration */}
           <FadeIn direction="left" className="w-full shrink-0 lg:w-[45%] hidden md:flex">
-            <div className="relative aspect-square w-full overflow-hidden rounded-3xl bg-section-slate">
+            <div className="relative aspect-square w-full overflow-hidden rounded-3xl">
               {illustration ? (
                 illustration
               ) : imageSrc ? (
