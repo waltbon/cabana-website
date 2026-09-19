@@ -18,8 +18,6 @@ import {
   RotateCcw,
 } from "lucide-react";
 import { ServiceHero } from "../_components/service-hero";
-import { DiagnosticScan } from "../_components/illustrations/diagnostic-scan";
-import { DeliverablesProgress } from "../_components/illustrations/deliverables-progress";
 import { ServiceProblem } from "../_components/service-problem";
 import { ServiceDimensions } from "../_components/service-dimensions";
 import { ServiceDeliverables } from "../_components/service-deliverables";
@@ -98,7 +96,7 @@ export default async function DataHealthCheckPage() {
         headlineBlue={tHero("headlineBlue")}
         description={tHero("description")}
         cta={{ label: tHero("cta"), href: "/contact" }}
-        illustration={<DiagnosticScan className="h-full w-full p-12" />}
+        imageSrc="/services/data-strategy/data-health-check/hero1.webp"
         imageAlt={tHero("imageAlt")}
       />
 
@@ -175,7 +173,8 @@ export default async function DataHealthCheckPage() {
           tDeliverables("items.remediation"),
           tDeliverables("items.roadmap"),
         ]}
-        illustration={<DeliverablesProgress className="h-full w-full p-8" />}
+        imageSrc="/services/data-strategy/data-health-check/deliverables.webp"
+        imageAlt={tDeliverables("imageAlt")}
       />
 
       <ServiceCredibility

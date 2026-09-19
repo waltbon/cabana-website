@@ -762,7 +762,8 @@
           "report": "Reporte ejecutivo con scoring — 0 a 10 en cada dimensión, con blockers críticos identificados.",
           "remediation": "Plan de remediación técnica — qué corregir primero y por qué, con dueños asignados.",
           "roadmap": "Roadmap visual del Primer Ciclo de Build — qué construir primero, en formato ejecutivo para junta directiva."
-        }
+        },
+        "imageAlt": "Entregables del Diagnóstico de Salud de Datos"
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
@@ -1589,6 +1590,36 @@
       "credibility": {
         "headline": "50+ pipelines de BigQuery en producción",
         "description": "No es teoría. Es experiencia real construyendo y manteniendo infraestructura de datos que opera todos los días."
+      },
+      "caseStudy": {
+        "tagline": "Caso de estudio",
+        "industry": "Marketing",
+        "headline": "Cómo automatizamos la generación de reportes y ganamos 40 horas/semana en análisis de datos",
+        "summary": "Un cliente con presencia importante en publicidad digital enfrentaba un cuello de botella crítico: su reportería estaba construida sobre plataformas de métricas de campañas publicitarias → hojas de cálculo con cientos de fórmulas → visualizadores (Power BI y Google Data Studio). Cada día, la sincronización incremental de datos de campañas publicitarias acumulaba complejidad. Los reportes colapsaban, los filtros tardaban hasta 4 minutos en ejecutarse, y las fórmulas se volvieron incontrolables, generando errores constantes que comprometían la confiabilidad de los datos. Realizamos un inventario exhaustivo de todas las fuentes de datos, diseñamos una arquitectura de datos a la medida de la organización, e implementamos una capa robusta de flujos y transformaciones automáticas en Google BigQuery. La solución reemplazó por completo la lógica manual de las hojas de cálculo con pipelines de datos confiables y auditables.",
+        "metrics": {
+          "hoursSaved": {
+            "value": "40 horas/semana",
+            "label": "de trabajo manual erradicado"
+          },
+          "entitiesAutomated": {
+            "value": "45 entidades × 8 plataformas",
+            "label": "de datos digitales automatizadas"
+          },
+          "errorsEliminated": {
+            "value": "100%",
+            "label": "de los errores humanos erradicados del proceso"
+          }
+        },
+        "relatedService": {
+          "label": "Dashboards y Analítica de Datos",
+          "href": "/services/dashboards-analytics-interfaces"
+        },
+        "date": "Febrero 2025",
+        "author": {
+          "name": "Walter Bonilla",
+          "role": "Líder Técnico",
+          "linkedin": "https://www.linkedin.com/in/waltbon/"
+        }
       },
       "logistics": {
         "tagline": "Logística de fricción cero",

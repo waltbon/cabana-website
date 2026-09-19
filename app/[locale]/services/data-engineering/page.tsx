@@ -22,6 +22,7 @@ import { ServiceProblem } from "../_components/service-problem";
 import { ServiceDimensions } from "../_components/service-dimensions";
 import { ServiceDeliverables } from "../_components/service-deliverables";
 import { ServiceCredibility } from "../_components/service-credibility";
+import { ServiceCaseStudy } from "../_components/service-case-study";
 import { ServiceLogistics } from "../_components/service-logistics";
 import { ServicePersonas } from "../_components/service-personas";
 import { ContactCTASection } from "../_components/contact-cta-section";
@@ -69,6 +70,9 @@ export default async function DataEngineeringPage() {
   );
   const tCredibility = await getTranslations(
     "services.dataEngineering.credibility",
+  );
+  const tCaseStudy = await getTranslations(
+    "services.dataEngineering.caseStudy",
   );
   const tLogistics = await getTranslations(
     "services.dataEngineering.logistics",
@@ -164,6 +168,37 @@ export default async function DataEngineeringPage() {
         icon={Workflow}
         headline={tCredibility("headline")}
         description={tCredibility("description")}
+      />
+
+      <ServiceCaseStudy
+        tagline={tCaseStudy("tagline")}
+        industry={tCaseStudy("industry")}
+        headline={tCaseStudy("headline")}
+        summary={tCaseStudy("summary")}
+        metrics={[
+          {
+            value: tCaseStudy("metrics.hoursSaved.value"),
+            label: tCaseStudy("metrics.hoursSaved.label"),
+          },
+          {
+            value: tCaseStudy("metrics.entitiesAutomated.value"),
+            label: tCaseStudy("metrics.entitiesAutomated.label"),
+          },
+          {
+            value: tCaseStudy("metrics.errorsEliminated.value"),
+            label: tCaseStudy("metrics.errorsEliminated.label"),
+          },
+        ]}
+        relatedService={{
+          label: tCaseStudy("relatedService.label"),
+          href: tCaseStudy("relatedService.href"),
+        }}
+        date={tCaseStudy("date")}
+        author={{
+          name: tCaseStudy("author.name"),
+          role: tCaseStudy("author.role"),
+          linkedin: tCaseStudy("author.linkedin"),
+        }}
       />
 
       <ServiceLogistics
