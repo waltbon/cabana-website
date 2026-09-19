@@ -89,9 +89,19 @@
         "quote": "Cabana Data redujo de 20 minutos a 2 minutos el tiempo que un equipo de marketing tarda en reunir el historial de campañas, implementando un swarm de 8 agentes de IA especializados sobre LangChain.",
         "summary": "El equipo de gestión de cuentas, estrategia, medios, creatividad, diseño y gestión de plataformas digitales dependía de procesos manuales y desconectados para investigar campañas, definir audiencias, redactar copy, producir conceptos visuales y armar presentaciones — cada tarea en una herramienta distinta, sin memoria compartida. Implementamos un Agente de IA maestro a cargo de 8 subagentes especializados sobre LangChain, que interpreta la solicitud del usuario y delega automáticamente en el especialista correcto.",
         "metrics": {
-          "m1": { "value": "20 min → 2 min", "label": "en buscar el historial de campañas y reunir la información para diseñar una nueva" },
-          "m2": { "value": "7 departamentos", "label": "sincronizados en una sola fuente de datos", "context": "plataforma a la medida sobre Google BigQuery" },
-          "m3": { "value": "100%", "label": "de las acciones de usuarios en la plataforma de IA quedan bajo control y bitácora" }
+          "m1": {
+            "value": "20 min → 2 min",
+            "label": "en buscar el historial de campañas y reunir la información para diseñar una nueva"
+          },
+          "m2": {
+            "value": "7 departamentos",
+            "label": "sincronizados en una sola fuente de datos",
+            "context": "plataforma a la medida sobre Google BigQuery"
+          },
+          "m3": {
+            "value": "100%",
+            "label": "de las acciones de usuarios en la plataforma de IA quedan bajo control y bitácora"
+          }
         },
         "service": "Custom AI Agents",
         "serviceHref": "/services/custom-ai-agents",
@@ -104,9 +114,18 @@
         "quote": "Cabana Data eliminó 40 horas semanales de trabajo manual en reportería para un cliente de publicidad digital, automatizando 45 entidades de 8 plataformas distintas en Google BigQuery.",
         "summary": "Un cliente con presencia importante en publicidad digital enfrentaba un cuello de botella crítico: su reportería estaba construida sobre plataformas de métricas → hojas de cálculo con cientos de fórmulas → visualizadores. Los reportes colapsaban, los filtros tardaban hasta 4 minutos, y las fórmulas se volvían incontrolables. Diseñamos una arquitectura de datos a la medida e implementamos una capa robusta de flujos y transformaciones automáticas en Google BigQuery, reemplazando por completo la lógica manual.",
         "metrics": {
-          "m1": { "value": "40 horas/semana", "label": "de trabajo manual erradicado" },
-          "m2": { "value": "45 entidades × 8 plataformas", "label": "digitales automatizadas" },
-          "m3": { "value": "0", "label": "errores humanos remanentes" }
+          "m1": {
+            "value": "40 horas/semana",
+            "label": "de trabajo manual erradicado"
+          },
+          "m2": {
+            "value": "45 entidades × 8 plataformas",
+            "label": "digitales automatizadas"
+          },
+          "m3": {
+            "value": "0",
+            "label": "errores humanos remanentes"
+          }
         },
         "service": "Data Engineering",
         "serviceHref": "/services/data-engineering",
@@ -119,9 +138,18 @@
         "quote": "Cabana Data construyó una plataforma de seguimiento de quota de ventas que cumple 98.6% del checklist de ciberseguridad de FIFCO, consolidando 3 fuentes de datos en un único modelo.",
         "summary": "Esta compañía necesitaba consolidar quota progress, sales targets y commitment tracking en una plataforma única. Construimos una aplicación full-stack a la medida (Angular + NestJS + BigQuery) con autenticación SSO integrada, que sincroniza datos diarios y alimenta reportería en tiempo real para agentes, supervisores y gerentes. El resultado: visibilidad jerárquica de cumplimiento de objetivos y un sistema auditado que cumple 98.6% del checklist de ciberseguridad de FIFCO.",
         "metrics": {
-          "m1": { "value": "3 → 1", "label": "fuentes de verdad consolidadas en un único modelo de datos" },
-          "m2": { "value": "98.6%", "label": "cumplimiento de ciberseguridad" },
-          "m3": { "value": "4 niveles", "label": "de visibilidad de quota (agente, supervisor, área, gerencia)" }
+          "m1": {
+            "value": "3 → 1",
+            "label": "fuentes de verdad consolidadas en un único modelo de datos"
+          },
+          "m2": {
+            "value": "98.6%",
+            "label": "cumplimiento de ciberseguridad"
+          },
+          "m3": {
+            "value": "4 niveles",
+            "label": "de visibilidad de quota (agente, supervisor, área, gerencia)"
+          }
         },
         "service": "Full-Stack Application Development",
         "serviceHref": "/services/application-development",
@@ -553,6 +581,7 @@
       },
       "seo": {
         "title": "Diagnóstico de Preparación para IA",
+        "metaTitle": "Diagnóstico de Preparación para IA Empresarial",
         "description": "Ruta IA es nuestro diagnóstico técnico que evalúa tu infraestructura de datos, identifica los bloqueos reales para implementar IA, y te entrega un plan claro de acción — en 2 a 3 semanas."
       }
     },
@@ -689,6 +718,7 @@
       },
       "seo": {
         "title": "Consultoría Estratégica de Datos",
+        "metaTitle": "Consultoría Estratégica de Datos para Empresas",
         "description": "Evaluamos dónde estás parado y definimos qué construir primero — con evidencia, no con opinión."
       }
     },
@@ -761,7 +791,8 @@
           "report": "Reporte ejecutivo con scoring — 0 a 10 en cada dimensión, con blockers críticos identificados.",
           "remediation": "Plan de remediación técnica — qué corregir primero y por qué, con dueños asignados.",
           "roadmap": "Roadmap visual del Primer Ciclo de Build — qué construir primero, en formato ejecutivo para junta directiva."
-        }
+        },
+        "imageAlt": "Entregables del Diagnóstico de Salud de Datos"
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
@@ -837,6 +868,7 @@
       },
       "seo": {
         "title": "Diagnóstico de Salud de Datos",
+        "metaTitle": "Diagnóstico de Salud de Datos para tu Empresa",
         "description": "Evaluamos 6 dimensiones de tu infraestructura de datos y te decimos, con evidencia, qué tan lista está tu empresa para escalar."
       }
     },
@@ -978,6 +1010,7 @@
       },
       "seo": {
         "title": "Casos de Uso de Analítica de Datos",
+        "metaTitle": "Casos de Uso de Analítica de Datos para Empresas",
         "description": "Convertimos tus preguntas de negocio reales en una ruta priorizada y ejecutable — con quick wins visibles en semanas, no meses."
       }
     },
@@ -1121,6 +1154,7 @@
       },
       "seo": {
         "title": "Modernización de Productos Digitales",
+        "metaTitle": "Modernización de Productos Digitales para Empresas",
         "description": "Del sistema que ya nadie quiere tocar al producto digital que tu operación necesita hoy — con el diseño y la arquitectura correctos desde el inicio."
       }
     },
@@ -1258,6 +1292,7 @@
       },
       "seo": {
         "title": "Diseño y Descubrimiento de Productos",
+        "metaTitle": "Diseño y Descubrimiento de Productos Digitales",
         "description": "Investigación real con usuarios, arquitectura de información y diseño visual — antes de que se escriba una sola línea de código."
       }
     },
@@ -1390,6 +1425,7 @@
       },
       "seo": {
         "title": "Desarrollo de Aplicaciones a la Medida",
+        "metaTitle": "Desarrollo de Aplicaciones a la Medida para Empresas",
         "description": "Construimos aplicaciones web y móviles sobre arquitectura cloud-native, listas para crecer junto a tu operación."
       }
     },
@@ -1522,6 +1558,7 @@
       },
       "seo": {
         "title": "Dashboards y Analítica de Datos",
+        "metaTitle": "Dashboards y Analítica de Datos para Empresas",
         "description": "Convertimos tus métricas en dashboards interactivos y automatizados — Power BI o Looker, con la seguridad y gobernanza que tu operación necesita."
       }
     },
@@ -1588,6 +1625,36 @@
       "credibility": {
         "headline": "50+ pipelines de BigQuery en producción",
         "description": "No es teoría. Es experiencia real construyendo y manteniendo infraestructura de datos que opera todos los días."
+      },
+      "caseStudy": {
+        "tagline": "Caso de estudio",
+        "industry": "Marketing",
+        "headline": "Cómo automatizamos la generación de reportes y ganamos 40 horas/semana en análisis de datos",
+        "summary": "Un cliente con presencia importante en publicidad digital enfrentaba un cuello de botella crítico: su reportería estaba construida sobre plataformas de métricas de campañas publicitarias → hojas de cálculo con cientos de fórmulas → visualizadores (Power BI y Google Data Studio). Cada día, la sincronización incremental de datos de campañas publicitarias acumulaba complejidad. Los reportes colapsaban, los filtros tardaban hasta 4 minutos en ejecutarse, y las fórmulas se volvieron incontrolables, generando errores constantes que comprometían la confiabilidad de los datos. Realizamos un inventario exhaustivo de todas las fuentes de datos, diseñamos una arquitectura de datos a la medida de la organización, e implementamos una capa robusta de flujos y transformaciones automáticas en Google BigQuery. La solución reemplazó por completo la lógica manual de las hojas de cálculo con pipelines de datos confiables y auditables.",
+        "metrics": {
+          "hoursSaved": {
+            "value": "40 horas/semana",
+            "label": "de trabajo manual erradicado"
+          },
+          "entitiesAutomated": {
+            "value": "45 entidades × 8 plataformas",
+            "label": "de datos digitales automatizadas"
+          },
+          "errorsEliminated": {
+            "value": "100%",
+            "label": "de los errores humanos erradicados del proceso"
+          }
+        },
+        "relatedService": {
+          "label": "Dashboards y Analítica de Datos",
+          "href": "/services/dashboards-analytics-interfaces"
+        },
+        "date": "Febrero 2025",
+        "author": {
+          "name": "Walter Bonilla",
+          "role": "Líder Técnico",
+          "linkedin": "https://www.linkedin.com/in/waltbon/"
+        }
       },
       "logistics": {
         "tagline": "Logística de fricción cero",
@@ -1659,6 +1726,7 @@
       },
       "seo": {
         "title": "Ingeniería de Datos",
+        "metaTitle": "Ingeniería de Datos para Empresas",
         "description": "Construimos la infraestructura que limpia, organiza y centraliza tu información — y sobre esa base, aplicamos Machine Learning para predecir en vez de solo mirar hacia atrás."
       }
     },
@@ -1795,6 +1863,7 @@
       },
       "seo": {
         "title": "Agentes de IA a la Medida",
+        "metaTitle": "Agentes de IA a la Medida para Empresas",
         "description": "Diseñamos y construimos agentes que razonan, colaboran y ejecutan tareas reales — conectados a tus datos privados, sin alucinaciones."
       }
     },

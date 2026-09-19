@@ -18,8 +18,6 @@ import {
   RotateCcw,
 } from "lucide-react";
 import { ServiceHero } from "../_components/service-hero";
-import { DiagnosticScan } from "../_components/illustrations/diagnostic-scan";
-import { DeliverablesProgress } from "../_components/illustrations/deliverables-progress";
 import { ServiceProblem } from "../_components/service-problem";
 import { ServiceDimensions } from "../_components/service-dimensions";
 import { ServiceDeliverables } from "../_components/service-deliverables";
@@ -39,13 +37,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.dataHealthCheck.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/data-health-check" : `/${locale}/services/data-health-check`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/data-health-check` : `${siteConfig.site_domain}/${locale}/services/data-health-check`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -87,6 +88,7 @@ export default async function DataHealthCheckPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/data-health-check"
+        serviceType="Data Health Assessment"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/data-health-check" }]}
@@ -98,7 +100,7 @@ export default async function DataHealthCheckPage() {
         headlineBlue={tHero("headlineBlue")}
         description={tHero("description")}
         cta={{ label: tHero("cta"), href: "/contact" }}
-        illustration={<DiagnosticScan className="h-full w-full p-12" />}
+        imageSrc="/services/data-strategy/data-health-check/hero1.webp"
         imageAlt={tHero("imageAlt")}
       />
 
@@ -175,7 +177,8 @@ export default async function DataHealthCheckPage() {
           tDeliverables("items.remediation"),
           tDeliverables("items.roadmap"),
         ]}
-        illustration={<DeliverablesProgress className="h-full w-full p-8" />}
+        imageSrc="/services/data-strategy/data-health-check/deliverables.webp"
+        imageAlt={tDeliverables("imageAlt")}
       />
 
       <ServiceCredibility

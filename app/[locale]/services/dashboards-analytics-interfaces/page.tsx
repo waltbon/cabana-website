@@ -35,13 +35,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.dashboardsAnalyticsInterfaces.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/dashboards-analytics-interfaces" : `/${locale}/services/dashboards-analytics-interfaces`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/dashboards-analytics-interfaces` : `${siteConfig.site_domain}/${locale}/services/dashboards-analytics-interfaces`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -85,6 +88,7 @@ export default async function DashboardsAnalyticsInterfacesPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/dashboards-analytics-interfaces"
+        serviceType="Business Intelligence & Dashboards"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/dashboards-analytics-interfaces" }]}

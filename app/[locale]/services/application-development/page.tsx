@@ -36,13 +36,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.applicationDevelopment.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/application-development" : `/${locale}/services/application-development`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/application-development` : `${siteConfig.site_domain}/${locale}/services/application-development`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -84,6 +87,7 @@ export default async function ApplicationDevelopmentPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/application-development"
+        serviceType="Custom Application Development"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/application-development" }]}

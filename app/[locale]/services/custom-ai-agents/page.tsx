@@ -36,13 +36,16 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services.customAIAgents.seo" });
   return {
-    title: t("title"),
+    title: t("metaTitle"),
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/custom-ai-agents" : `/${locale}/services/custom-ai-agents`,
     },
     openGraph: {
+      title: t("metaTitle"),
+      description: t("description"),
       url: locale === "es" ? `${siteConfig.site_domain}/services/custom-ai-agents` : `${siteConfig.site_domain}/${locale}/services/custom-ai-agents`,
+      images: [{ url: "/opengraph-image.jpeg", width: 1200, height: 630, alt: siteConfig.site_name }],
     },
   };
 }
@@ -81,6 +84,7 @@ export default async function CustomAIAgentsPage() {
         name={tSeo("title")}
         description={tSeo("description")}
         path="/services/custom-ai-agents"
+        serviceType="AI Agent Development"
       />
       <Breadcrumbs
         items={[{ name: "Services", href: "/services" }, { name: tSeo("title"), href: "/services/custom-ai-agents" }]}

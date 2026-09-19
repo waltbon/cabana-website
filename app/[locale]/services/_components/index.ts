@@ -14,6 +14,7 @@ export { ServiceOfferingsFlow } from "./service-offerings-flow";
 export { ServiceDimensions } from "./service-dimensions";
 export { ServiceDeliverables } from "./service-deliverables";
 export { ServiceCredibility } from "./service-credibility";
+export { ServiceCaseStudy } from "./service-case-study";
 export { ServiceLogistics } from "./service-logistics";
 export { ServicePersonas } from "./service-personas";
 export { ServiceSolution } from "./service-solution";
