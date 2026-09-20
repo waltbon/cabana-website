@@ -1018,7 +1018,8 @@
           "card": "A DUC-CARD for every use case — a formal document with the business question, the data needed, and the expected outcome.",
           "roadmap": "A prioritized roadmap — use cases classified into quick win, mid-term, and strategic.",
           "architecture": "An architecture proposal — recommended stack, gap analysis, and estimated effort, ready to hand off to Data Engineering."
-        }
+        },
+        "imageAlt": "Data Analytics Use Case deliverables"
       },
       "credibility": {
         "headline": "Proof of rigor: DAMA-DMBOK",

@@ -904,7 +904,8 @@
           "card": "DUC-CARD por cada caso de uso — documento formal con la pregunta de negocio, los datos necesarios y el resultado esperado.",
           "roadmap": "Roadmap priorizado — casos de uso clasificados en quick win, mediano plazo y estratégico.",
           "architecture": "Propuesta de arquitectura — stack recomendado, gap analysis y esfuerzo estimado, lista para pasar a Data Engineering."
-        }
+        },
+        "imageAlt": "Entregables de Casos de Uso de Analítica de Datos"
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
