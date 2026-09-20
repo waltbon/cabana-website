@@ -1154,7 +1154,8 @@
           "diagnosis": "A diagnosis or map of use cases, with evidence and prioritization.",
           "roadmap": "An executable roadmap — what to build first and why.",
           "engineering": "A clear path to Data Engineering, if you decide to move into implementation."
-        }
+        },
+        "imageAlt": "Data Consulting deliverables"
       },
       "credibility": {
         "headline": "Proof of rigor: DAMA-DMBOK",

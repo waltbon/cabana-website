@@ -613,7 +613,8 @@
           "diagnosis": "Diagnóstico o mapa de casos de uso, con evidencia y priorización.",
           "roadmap": "Roadmap ejecutable — qué construir primero y por qué.",
           "engineering": "Ruta clara hacia Data Engineering, si decides avanzar a implementación."
-        }
+        },
+        "imageAlt": "Entregables de la Consultoría de Datos"
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
