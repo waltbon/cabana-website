@@ -96,7 +96,7 @@ export default async function DataHealthCheckPage() {
         headlineBlue={tHero("headlineBlue")}
         description={tHero("description")}
         cta={{ label: tHero("cta"), href: "/contact" }}
-        imageSrc="/services/data-strategy/data-health-check/hero1.webp"
+        imageSrc="/services/data-strategy/data-health-check/hero.webp"
         imageAlt={tHero("imageAlt")}
       />
 
