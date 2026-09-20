@@ -100,7 +100,7 @@ export default async function DataAnalyticsUseCasePage() {
         headlineBlue={tHero("headlineBlue")}
         description={tHero("description")}
         cta={{ label: tHero("cta"), href: "/contact" }}
-        imageSrc="/services/data-strategy/data-user-case/hero.webp"
+        imageSrc="/services/data-strategy/data-analytics-use-case/hero.webp"
         imageAlt={tHero("imageAlt")}
       />
 
@@ -168,7 +168,7 @@ export default async function DataAnalyticsUseCasePage() {
           tDeliverables("items.roadmap"),
           tDeliverables("items.architecture"),
         ]}
-        imageSrc="/services/data-strategy/data-user-case/deliverables.webp"
+        imageSrc="/services/data-strategy/data-analytics-use-case/deliverables.webp"
         imageAlt={tDeliverables("imageAlt")}
       />
 
