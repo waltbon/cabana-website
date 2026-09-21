@@ -2,28 +2,28 @@
   "metadata": {
     "home": {
       "title": "Data Engineering & AI Consulting in Costa Rica | CabanaData",
-      "description": "Specialized Data Engineering and AI consulting for mid-market companies in Costa Rica and LATAM. Built on Google Cloud."
+      "description": "Specialized data engineering and artificial intelligence consulting for mid-market companies in Costa Rica and LATAM. Built on Google Cloud."
     },
     "about": {
       "title": "About Us",
-      "description": "Meet the Cabana Data team. We transform ideas and business needs into impactful, data-driven solutions."
+      "description": "Meet the Cabana Data team. We turn ideas and business needs into impactful, data-driven solutions."
     },
     "services": {
       "title": "Services",
-      "description": "Data Strategy & Consulting, Data Engineering & Architecture, Custom Application Development, and AI & Machine Learning Solutions."
+      "description": "Data Strategy and Consulting, Data Engineering and Architecture, Custom Application Development, and AI and Machine Learning Solutions."
     },
     "contact": {
       "title": "Contact Us",
-      "description": "Get a free 30-minute Data Strategy Session with one of our tech leaders."
+      "description": "Get a free 30-minute Data Strategy session with one of our technical leaders."
     },
     "blog": {
-      "title": "Blog Posts",
-      "description": "Browse all our blog posts about data strategy, engineering, and AI."
+      "title": "Blog",
+      "description": "Explore all our articles on data strategy, engineering, and AI."
     }
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "services": "Services",
     "servicesOverview": "All Services",
     "dataConsulting": "Strategic Data Consulting",
@@ -38,41 +38,41 @@
     "aiReadinessAssessment": "Ruta IA — AI Readiness Assessment",
     "blog": "Blog",
     "contact": "Contact",
-    "getStarted": "Schedule a Consultation",
+    "getStarted": "Book a Consultation",
     "costaRica": "Costa Rica",
     "skipToContent": "Skip to main content",
     "caseStudies": "Case Studies",
     "careers": "Careers",
-    "caseStudiesOverview": "All cases",
+    "caseStudiesOverview": "All Case Studies",
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
   },
   "hero": {
-    "tagline": "DATA ENGINEERING & AI CONSULTING",
-    "headline": "Data Engineering & AI Consulting for Mid-Market Companies",
-    "headlineHighlight": "in Costa Rica and LATAM — Built on Google Cloud.",
-    "description": "We bring deep engineering expertise and hands-on delivery to companies that need their data infrastructure to work — from strategy to production, on Google Cloud.",
-    "cta": "Schedule a Consultation"
+    "tagline": "DATA ENGINEERING · APPLICATIONS · AI",
+    "headline": "We modernize how organizations operate, decide, and compete —",
+    "headlineHighlight": "with data, applications, and AI built to last.",
+    "description": "Cabana Data is an engineering team specialized in Google Cloud. We work with companies in Costa Rica, LATAM, and the United States that need technology built to work in production, not just in presentations.",
+    "cta": "Book a Consultation"
   },
   "problem": {
-    "tagline": "Where Data Initiatives Fail",
-    "headline": "The Gap Between Data",
-    "headlineHighlight": "and Business Value",
-    "description": "Most data initiatives stall not because of technology, but because of structural gaps in how data is governed, connected, and used for decisions.",
+    "tagline": "Three Symptoms. One Root Problem.",
+    "headline": "Organizations that fail to scale technologically",
+    "headlineHighlight": "don't have a budget problem",
+    "description": "They have systems that were never designed to grow. The same patterns show up in data, in operations, and in AI initiatives — and they all share the same root cause.",
     "items": {
       "dataChaos": {
-        "title": "Data Lives in Silos",
-        "description": "Organizations accumulate data across dozens of tools over time. Without deliberate integration architecture, reporting becomes manual and trust in numbers erodes.",
-        "consequence": "When every team maintains their own data exports, alignment meetings replace decisions."
+        "title": "Data that can't be used to make decisions",
+        "description": "Not because it doesn't exist — but because it lives fragmented, ungoverned, in tools that don't talk to each other. Every department works from its own version of the numbers.",
+        "consequence": "When there's no shared source of truth, meetings replace decisions and trust in the data erodes with every contradictory report."
       },
       "inefficientProcesses": {
-        "title": "Definitions Diverge Across Teams",
-        "description": "Without a shared semantic layer, the same metric means different things to different teams — slowing down decisions and eroding confidence in data.",
-        "consequence": "The fix isn't more dashboards. It's governed, unified data at the foundation."
+        "title": "Processes that depend on people, not systems",
+        "description": "Manual workflows, Excel reports, operations that only work because someone knows how to run them. When that knowledge never makes it into a system, scaling becomes impossible.",
+        "consequence": "Operational risk grows with every undocumented process. What works today because someone is holding it together becomes tomorrow's most expensive point of failure."
       },
       "uncertainFuture": {
-        "title": "AI Requires a Foundation First",
-        "description": "AI and automation initiatives fail when the underlying data pipelines are fragile. The bottleneck is rarely the model — it's the infrastructure feeding it.",
-        "consequence": "Companies that invest in the data foundation first see compounding returns as each AI initiative builds on reliable, governed data."
+        "title": "AI initiatives that never reach production",
+        "description": "Not for lack of ambition — but because the infrastructure behind them was never ready. AI projects that fail almost always fail before a single line of model code is written.",
+        "consequence": "They fail in the data, in the processes, in the architecture. AI isn't the problem — it's the mirror that reflects everything that should have been built first."
       }
     }
   },
@@ -84,23 +84,23 @@
     "viewService": "View service",
     "cases": {
       "aiAgentsSwarm": {
-        "industry": "Marketing & Advertising",
-        "headline": "From scattered marketing tasks to a coordinated AI agent swarm",
-        "quote": "Cabana Data cut the time a marketing team needed to pull up campaign history from 20 minutes to 2 minutes by building a swarm of 8 specialized AI agents on LangChain.",
-        "summary": "The account management, strategy, media, creative, design, and digital platform teams relied on manual, disconnected processes to research campaigns, define audiences, write copy, produce visual concepts, and assemble decks — each task in a different tool, with no shared memory. We built a master AI agent overseeing 8 specialized sub-agents on LangChain, which interprets the user's request and automatically routes it to the right specialist.",
+        "industry": "Marketing / Advertising",
+        "headline": "From scattered marketing tasks to a coordinated swarm of AI agents",
+        "quote": "Cabana Data cut the time a marketing team spends pulling together campaign history from 20 minutes to 2, by implementing a swarm of 8 specialized AI agents on top of LangChain.",
+        "summary": "The account management, strategy, media, creative, design, and digital platform management teams relied on manual, disconnected processes to research campaigns, define audiences, write copy, produce visual concepts, and put together presentations — each task in a different tool, with no shared memory. We implemented a master AI Agent overseeing 8 specialized subagents built on LangChain, which interprets the user's request and automatically delegates it to the right specialist.",
         "metrics": {
           "m1": {
             "value": "20 min → 2 min",
-            "label": "to search campaign history and gather what's needed for a new one"
+            "label": "to find campaign history and gather the information needed to design a new one"
           },
           "m2": {
             "value": "7 departments",
-            "label": "synced on one data source",
+            "label": "synced to a single data source",
             "context": "custom platform built on Google BigQuery"
           },
           "m3": {
             "value": "100%",
-            "label": "of user actions on the AI platform logged and auditable"
+            "label": "of user actions on the AI platform are logged and under control"
           }
         },
         "service": "Custom AI Agents",
@@ -110,9 +110,9 @@
       },
       "excelToBigquery": {
         "industry": "Marketing",
-        "headline": "How we automated reporting and won back 40 hours/month of analysis time",
-        "quote": "Cabana Data eliminated 40 hours per week of manual reporting work for a digital advertising client by automating 45 entities across 8 platforms in Google BigQuery.",
-        "summary": "A client with a major digital advertising presence hit a critical bottleneck: reporting was built on metrics platforms → spreadsheets with hundreds of formulas → visualization tools. Reports crashed, filters took up to 4 minutes, and formulas became unmanageable. We designed a custom-fit data architecture and implemented a robust layer of automated flows and transformations in Google BigQuery, replacing the manual logic entirely.",
+        "headline": "How we automated report generation and saved 40 hours/month in data analysis",
+        "quote": "Cabana Data eliminated 40 hours a week of manual reporting work for a digital advertising client, automating 45 entities across 8 different platforms in Google BigQuery.",
+        "summary": "A client with a significant presence in digital advertising faced a critical bottleneck: their reporting was built on metrics platforms → spreadsheets with hundreds of formulas → visualization tools. Reports would crash, filters took up to 4 minutes to run, and the formulas became unmanageable. We designed a custom data architecture and implemented a robust layer of automated flows and transformations in Google BigQuery, completely replacing the manual logic.",
         "metrics": {
           "m1": {
             "value": "40 hours/week",
@@ -120,11 +120,11 @@
           },
           "m2": {
             "value": "45 entities × 8 platforms",
-            "label": "automated"
+            "label": "of digital data automated"
           },
           "m3": {
             "value": "0",
-            "label": "human errors remaining"
+            "label": "remaining human errors"
           }
         },
         "service": "Data Engineering",
@@ -134,9 +134,9 @@
       },
       "salesQuotaVisibility": {
         "industry": "Beverages & Distribution",
-        "headline": "Real-time sales quota visibility on a scalable transactional architecture",
-        "quote": "Cabana Data built a sales quota tracking platform meeting 98.6% of the client's cybersecurity checklist, consolidating 3 data sources into a single model.",
-        "summary": "This company needed to consolidate quota progress, sales targets, and commitment tracking into a single platform. We built a custom full-stack application (Angular + NestJS + BigQuery) with integrated SSO authentication that syncs data daily and powers real-time reporting for reps, supervisors, and managers. The result: hierarchical visibility into goal completion and an audited system meeting 98.6% of the client's cybersecurity checklist.",
+        "headline": "Real-time sales quota visibility with scalable transactional architecture",
+        "quote": "Cabana Data built a sales quota tracking platform that meets 98.6% of the client's cybersecurity checklist, consolidating 3 data sources into a single model.",
+        "summary": "This company needed to consolidate quota progress, sales targets, and commitment tracking into a single platform. We built a custom full-stack application (Angular + NestJS + BigQuery) with integrated SSO authentication, syncing data daily and powering real-time reporting for agents, supervisors, and managers. The result: hierarchical visibility into goal completion and an audited system that meets 98.6% of the client's cybersecurity checklist.",
         "metrics": {
           "m1": {
             "value": "3 → 1",
@@ -148,7 +148,7 @@
           },
           "m3": {
             "value": "4 levels",
-            "label": "of quota visibility (rep, supervisor, area, management)"
+            "label": "of quota visibility (agent, supervisor, area, management)"
           }
         },
         "service": "Full-Stack Application Development",
@@ -160,95 +160,95 @@
   },
   "solution": {
     "tagline": "OUR APPROACH",
-    "headline": "From data chaos to an organization that",
-    "headlineHighlight": "decides with clarity",
-    "description": "Each layer builds on the last. Our methodology runs from diagnostic to production, ensuring every investment has a clear business justification.",
+    "headline": "Services We",
+    "headlineHighlight": "Offer",
+    "description": "Each layer builds on the one before it. Our methodology goes from diagnosis to production, making sure every investment has a clear business justification.",
     "whatYouGet": "What you get:",
     "outcome": "Outcome",
-    "learnMore": "Learn more",
+    "learnMore": "Go to service",
     "services": {
       "dataConsulting": {
         "title": "Data Consulting",
-        "description": "Before building anything, we make sure you're solving the right problem. Through discovery workshops and technical analysis, we map your current reality, identify gaps, and create an actionable roadmap.",
+        "description": "Before building anything, we connect data sources that have been running in parallel for years without ever talking to each other. Through discovery workshops and technical analysis, we map your current reality, identify gaps, and define what order to build in.",
         "whatYouGetList": {
-          "wyg1": "AI Readiness Assessment",
-          "wyg2": "Data Health Check",
+          "wyg1": "AI readiness assessment",
+          "wyg2": "Data diagnosis",
           "wyg3": "Data quality and governance audit",
           "wyg4": "Prioritized data investment roadmap"
         },
-        "outcome": "You stop building the wrong thing. Every dollar spent on data infrastructure from here forward has a clear business justification."
+        "outcome": "By the end of the process, your organization knows exactly what it has, what it's missing, and in what order to build it. No assumptions, no generic roadmaps."
       },
       "dataEngineering": {
-        "title": "Data Engineering & Architecture",
-        "description": "We connect your systems and build the infrastructure that turns fragmented data into a single, reliable source of truth. Built on Google Cloud Platform with BigQuery and Dataform at the core.",
+        "title": "Data Engineering",
+        "description": "We build data infrastructure from the ground up for organizations operating without a consolidated source of truth. Automated pipelines that replace the chaos of manual exports and systems that were never designed to integrate.",
         "whatYouGetList": {
           "wyg1": "Data warehouse design and implementation",
           "wyg2": "Automated ETL/ELT pipelines",
           "wyg3": "Real-time data integration",
-          "wyg4": "Scalable, cost-effective architecture"
+          "wyg4": "Scalable architecture on Google Cloud"
         },
-        "outcome": "Your team stops arguing over whose numbers are right. One source of truth, always current, accessible across every tool you use."
+        "outcome": "Your team stops chasing the right number and starts using it to make decisions. A warehouse that didn't exist before becomes the central source for the whole organization."
       },
       "appsDashboards": {
         "title": "Custom Applications",
-        "description": "We design and build operational platforms for organizations running their business on email, spreadsheets, and processes that depend on key people. Every application is built from the real process — validated with Design Thinking — not a generic template stretched to fit.",
+        "description": "We design and build operational platforms for organizations running their business through emails, spreadsheets, and processes that depend on key people. Every application is built around the real process — validated with Design Thinking — not a generic template adapted halfway.",
         "whatYouGetList": {
-          "wyg1": "Digital Product Feasibility Study",
+          "wyg1": "Digital product feasibility study",
           "wyg2": "Design Thinking workshops and UX/UI design",
           "wyg3": "Operational and internal platforms",
           "wyg4": "Workflow automation"
         },
-        "outcome": "Your team moves from operating without a system to a centralized platform they actually use — because it was built exactly for how they work."
+        "outcome": "The team goes from operating without a system to having a centralized platform they actually use — because it was built exactly around how they work."
       },
       "dashboards": {
-        "title": "Dashboards & Data Analytics",
-        "description": "We turn data that's already defined and prioritized into interactive, automated dashboards. Power BI or Looker, with the governance and security your operation needs — so leaving manual reporting behind is the starting point, not the goal.",
+        "title": "Dashboards and Data Analytics",
+        "description": "We turn data that's already defined and prioritized into interactive, automated dashboards. Power BI or Looker, with the governance and security your operation needs — so that no longer exporting reports by hand is the starting point, not the finish line.",
         "whatYouGetList": {
-          "wyg1": "Interactive dashboards and reporting",
+          "wyg1": "Interactive dashboards and reports",
           "wyg2": "Automated data refresh",
           "wyg3": "Row-level security (RLS) by user role",
           "wyg4": "Power BI and Looker integration"
         },
-        "outcome": "Your team stops waiting on Friday's report and starts exploring their own data in real time."
+        "outcome": "Your team stops waiting for Friday's report and starts exploring its own data in real time."
       },
       "aiSystems": {
-        "title": "AI & Intelligent Systems",
-        "description": "With a solid foundation in place, AI can finally deliver on its promise. We implement intelligent systems that automate processes, surface insights, and enable predictive decision-making.",
+        "title": "AI and Intelligent Systems",
+        "description": "We implement AI systems that run at the core of the operation, not in a slide deck. Models that make real-time decisions, built on well-designed data infrastructure — because without that foundation, no model makes it to production.",
         "whatYouGetList": {
-          "wyg1": "Process automation with AI",
+          "wyg1": "AI-driven process automation",
           "wyg2": "LLM integration and AI-powered features",
           "wyg3": "Predictive analytics",
           "wyg4": "Intelligent routing and recommendations"
         },
-        "outcome": "AI that works in production — not a proof of concept that gets shelved after the pilot."
+        "outcome": "Not a shelved pilot. A model in production making real-time operational decisions today — built on the infrastructure that makes it sustainable."
       }
     }
   },
   "whyUs": {
     "eyebrow": "HOW WE WORK",
     "headline": "No black boxes. No surprises.",
-    "subhead": "You'll know what we're doing, why, and what comes next—at every stage.",
+    "subhead": "You'll know what we're doing, why, and what's next — at every stage.",
     "ctaTalk": "Let's talk!",
     "ctaServices": "View Services"
   },
   "teamTeaser": {
     "tagline": "Our Team",
     "headline": "The experts behind every project",
-    "description": "A dedicated team of data, development, and design specialists — no subcontractors, no middlemen.",
+    "description": "A team specialized in data, development, and design — no subcontracting, no middlemen.",
     "cta": "Meet the full team"
   },
   "techStack": {
-    "tagline": "Technology Stack",
-    "headline": "Core Technology Partners",
-    "description": "The platforms and tools at the center of every engagement.",
+    "tagline": "Tech Stack",
+    "headline": "Key Technology Partners",
+    "description": "The platforms and tools at the center of every project.",
     "items": {
       "aws": {
         "name": "Amazon Web Services",
-        "description": "Secondary cloud for multi-cloud client environments"
+        "description": "Secondary cloud for clients' multi-cloud environments"
       },
       "gcp": {
         "name": "Google Cloud",
-        "description": "Our primary cloud platform for every engagement"
+        "description": "Our primary cloud platform for every project"
       },
       "bigquery": {
         "name": "Google BigQuery",
@@ -256,7 +256,7 @@
       },
       "powerbi": {
         "name": "Microsoft Power BI",
-        "description": "Enterprise-grade BI and self-service reporting layer"
+        "description": "Enterprise BI layer and self-service reporting"
       },
       "postgresql": {
         "name": "PostgreSQL",
@@ -268,7 +268,7 @@
       },
       "nodeJs": {
         "name": "Node.js",
-        "description": "Backend runtime"
+        "description": "Backend"
       },
       "nestJs": {
         "name": "Nest.js",
@@ -325,43 +325,43 @@
     }
   },
   "cta": {
-    "headline": "Let's Map Your",
-    "headlineHighlight": "Data Foundation.",
-    "button": "Schedule a Consultation"
+    "headline": "Let's talk!",
+    "headlineHighlight": "Speak with an expert today",
+    "button": "Book a consultation"
   },
   "footer": {
     "links": {
       "services": "Services",
       "caseStudies": "Case Studies",
-      "about": "About",
+      "about": "About Us",
       "blog": "Blog",
       "contact": "Contact"
     },
-    "followUs": "Follow us",
+    "followUs": "Follow Us",
     "social": {
       "linkedin": "LinkedIn",
       "twitter": "X (Twitter)"
     },
-    "contactUs": "Contact us",
+    "contactUs": "Contact Us",
     "email": "Email",
     "phone": "Phone",
-    "copyright": "Copyright",
+    "copyright": "All rights reserved",
     "location": "San José, Costa Rica"
   },
   "about": {
     "hero": {
       "headline": "Data Engineering Specialists for",
       "headlineHighlight": "Mid-Market Companies",
-      "description": "Cabana Data is a specialized consulting firm delivering data engineering, architecture, and AI solutions to companies across Costa Rica and LATAM since 2018.",
+      "description": "Cabana Data is a specialized consulting firm delivering data engineering, architecture, and AI solutions to companies in Costa Rica and LATAM since 2021.",
       "cta": "Talk to Our Team"
     },
     "team": {
       "tagline": "Our Team",
       "headline": "The Experts Behind Your Projects",
-      "description": "We are a team of data, development and design experts. Together, we create bold solutions that connect and inspire.",
+      "description": "We're a team of experts in data, development, and design. Together, we build bold solutions that connect and inspire.",
       "roles": {
-        "techLead": "Tech Lead",
-        "adminManager": "Admin Manager",
+        "techLead": "Technical Lead",
+        "adminManager": "Administrative Manager",
         "dataEngineer": "Data Engineer",
         "developer": "Developer",
         "seniorDeveloper": "Senior Developer",
@@ -369,18 +369,18 @@
       }
     },
     "story": {
-      "quote": "From a single project to a specialized practice — we've built this firm by staying close to the engineering work.",
+      "quote": "From a single project to a specialized practice — we built this firm by staying close to the engineering work.",
       "quoteAuthor": "Walter Bonilla",
-      "quoteRole": "Founder & Tech Lead",
+      "quoteRole": "Founder and Technical Lead",
       "headline": "Deep expertise,",
       "headlineHighlight": "Real delivery.",
-      "description": "We are a dedicated team with purpose. Our goal is to be the most reliable data engineering partner for mid-market companies in Costa Rica and LATAM.",
-      "gotProject": "Got a project?",
+      "description": "We're a dedicated team with purpose. Our goal is to be the most trusted data engineering partner for mid-market companies in Costa Rica and LATAM.",
+      "gotProject": "Have a project?",
       "cta": "Talk to Our Team"
     },
     "seo": {
       "title": "About Us",
-      "description": "Meet the Cabana Data team. We are data, development, and design experts building software for enterprises and helping businesses become data-driven."
+      "description": "Meet the Cabana Data team. We're experts in data, development, and design who build software for companies and help businesses become data-driven."
     }
   },
   "services": {
@@ -388,7 +388,7 @@
       "tagline": "Our core services",
       "headline": "Everything we do is",
       "headlineHighlight": "Data-Driven",
-      "description": "We have 5 tiers of data services to support your company and enable you to make data-driven decisions.",
+      "description": "We offer 5 tiers of data services to support your company and enable data-driven decision-making.",
       "ctaTalk": "Let's talk!",
       "ctaView": "View service tiers"
     },
@@ -397,7 +397,7 @@
       "headline": "Solutions to Transform Your",
       "headlineHighlight": "Business with Data",
       "description1": "You're sitting on a goldmine of data. The challenge is turning it into a strategic asset that drives growth, efficiency, and innovation.",
-      "description2": "Our services are designed as an end-to-end ecosystem to help you at every stage of your data journey.",
+      "description2": "Our services are designed as an end-to-end ecosystem to support you at every stage of your data journey.",
       "learnMore": "Go to "
     },
     "process": {
@@ -410,7 +410,7 @@
         "items": {
           "dhc": {
             "subtitle": "DHC (Data Health Check)",
-            "description": "We assess 6 dimensions of your data operation and calibrate the result as a team, to remove individual bias — 4 steps: intake, scoring, calibration, delivery."
+            "description": "We assess 6 dimensions of your data operation and calibrate the results as a team, to remove individual bias — 4 steps: assessment, scoring, calibration, delivery."
           },
           "duc": {
             "subtitle": "DUC (Data Analytics Use Case)",
@@ -419,11 +419,11 @@
         }
       },
       "dataEngineering": {
-        "title": "Data Engineering & Architecture",
-        "description": "We design the storage architecture, build the extraction and transformation pipelines, and — when the use case calls for it — develop and deploy Machine Learning models to production. One service, scoped to what your organization needs."
+        "title": "Data Engineering and Architecture",
+        "description": "We design the storage architecture, build the extraction and transformation pipelines, and — when the use case calls for it — develop and deploy Machine Learning models in production. One service, scoped to what your organization actually needs."
       },
       "appsDashboards": {
-        "title": "Applications & Dashboards",
+        "title": "Applications and Dashboards",
         "items": {
           "productDesign": {
             "subtitle": "Product Design & Discovery",
@@ -435,144 +435,144 @@
           },
           "dashboards": {
             "subtitle": "Dashboards & Analytics",
-            "description": "From your already-prioritized data sources to an interactive, automated dashboard with access governance."
+            "description": "From your already-prioritized data sources to an interactive dashboard, automated and with access governance."
           }
         }
       },
       "aiSystems": {
-        "title": "AI & Intelligent Systems",
+        "title": "AI and Intelligent Systems",
         "items": {
           "rutaIa": {
-            "subtitle": "AI Roadmap (Ruta IA)",
-            "description": "AI-maturity diagnostic across 6 dimensions, in 2 to 3 weeks, with an executable roadmap and a board-level presentation."
+            "subtitle": "Ruta IA",
+            "description": "AI maturity assessment across 6 dimensions, in 2 to 3 weeks, with an executable roadmap and board presentation."
           },
           "agentDevelopment": {
             "subtitle": "Agent Development",
-            "description": "We build agents connected to your real data (RAG), able to collaborate with each other (Swarm) and execute concrete actions (Tool Calling)."
+            "description": "Building agents connected to your real data (RAG), capable of collaborating with each other (Swarm) and executing concrete actions (Tool Calling)."
           }
         }
       }
     },
     "faq": {
       "tagline": "FAQ",
-      "headline": "Frequently Asked",
-      "headlineHighlight": "Questions",
+      "headline": "Frequently",
+      "headlineHighlight": "Asked Questions",
       "description": "Get answers to common questions about our data services and how we can help your business.",
       "items": {
         "whatServices": {
           "question": "What data services does Cabana Data offer?",
-          "answer": "We offer 4 service lines: Data Consulting (diagnostics and use-case definition), Data Engineering & Architecture (infrastructure, pipelines, and Machine Learning), Custom Applications & Dashboards (digital products and visual analytics), and AI & Intelligent Systems (AI-maturity diagnostics and custom agents). Each can be engaged independently, depending on the stage your organization is at."
+          "answer": "We offer 4 service lines: Data Consulting (diagnosis and use case definition), Data Engineering and Architecture (infrastructure, pipelines, and Machine Learning), Custom Applications and Dashboards (digital products and visual analytics), and AI and Intelligent Systems (AI maturity diagnosis and custom agents). Each can be engaged independently, depending on where your organization stands."
         },
         "projectDuration": {
           "question": "How long does a typical data engineering project take?",
-          "answer": "It depends on scope — whether it's just architecture and pipelines, or also includes a Machine Learning component. We define it precisely after understanding your data sources and goals, usually in the first conversation."
+          "answer": "It varies by scope — whether it's just architecture and pipelines, or also includes a Machine Learning component. We define it precisely after understanding your data sources and goals, usually in the first conversation."
         },
         "cloudPlatforms": {
           "question": "Do you work with cloud platforms like AWS, GCP, and Azure?",
-          "answer": "Google Cloud is our standard platform for every project, with real hands-on experience in AWS for clients already running there. We have specific knowledge of Microsoft Fabric for clients with data initiatives already built on that ecosystem, though it isn't our standard for application deployment."
+          "answer": "Google Cloud is our standard platform for every project, with real hands-on experience in AWS as well for clients already operating there. We also have specific knowledge of Microsoft Fabric for clients with data initiatives already built on that ecosystem, though it's not our standard for application deployment."
         },
         "industries": {
           "question": "What industries do you serve?",
-          "answer": "We work with mid-size companies in Costa Rica and LATAM across sectors like financial services, retail/CPG, marketing agencies, and logistics — organizations that need technology that works in production, not in a slide deck."
+          "answer": "We work with mid-sized companies in Costa Rica and LATAM across sectors like financial services, retail/CPG, marketing agencies, and logistics — organizations that need technology that works in production, not just in presentations."
         },
         "security": {
           "question": "How do you ensure data security and compliance?",
-          "answer": "We apply technical security best practices on every project — access control, anonymization of sensitive data at the source, row-level security in dashboards. We don't offer legal compliance consulting (GDPR, local regulations); we recommend that assessment be handled by a specialized legal advisor in parallel to our technical work."
+          "answer": "We apply strong technical security practices on every project — access control, anonymization of sensitive data at the source, row-level security on dashboards. We don't offer legal compliance consulting (GDPR, local regulations); we recommend that this assessment be handled by a specialized legal advisor in parallel with our technical work."
         }
       }
     },
     "getReady": {
       "headlineDark": "Ready to",
       "headlineBlue": "Activate Your Data?",
-      "description": "We create an intelligent layer on top of your existing systems, unlocking the value you already own without replacing the tools you use.",
+      "description": "We build an intelligent layer on top of your existing systems, unlocking the value you already have without needing to replace the tools you use.",
       "items": {
         "discovery": {
-          "title": "Discovery & Strategy",
-          "description": "We start by mapping out a clear strategy, ensuring every technical step is tied directly to achieving your most important business goals."
+          "title": "Discovery and Strategy",
+          "description": "We start by mapping out a clear strategy, making sure every technical step is directly tied to achieving your most important business goals."
         },
         "engineering": {
-          "title": "Engineering & Architecture",
-          "description": "We engineer the technical foundation, connecting your disparate systems and transforming siloed information into a single, reliable source of truth."
+          "title": "Engineering and Architecture",
+          "description": "We build the technical foundation, connecting your disparate systems and turning fragmented information into a single, reliable source of truth."
         },
         "design": {
-          "title": "Design & Development",
-          "description": "We build the custom applications that make your data accessible and interactive for your whole team — and, once your metrics are prioritized, the dashboards that bring them together in one place."
+          "title": "Design and Development",
+          "description": "We build the custom applications that make your data accessible and interactive for your whole team — and, once your metrics are prioritized, the dashboards that bring them all together in one place."
         },
         "ai": {
-          "title": "AI & Machine Learning Solutions",
-          "description": "We activate your data with AI, automating processes and generating the predictive insights that enable truly future-focused decisions."
+          "title": "AI and Machine Learning Solutions",
+          "description": "We activate your data with AI, automating processes and generating the predictive insights that let you make truly forward-looking decisions."
         }
       },
       "cta": "Let's talk!",
-      "imageAlt": "Team collaborating on data analytics"
+      "imageAlt": "Team collaborating on data analysis"
     },
     "why": {
-      "headlineBlue": "Your Data is Already Here.",
-      "headlineDark": "You're Just Not Using It.",
-      "description1": "Your most valuable insights are likely trapped right now inside the systems you use every day. Your ERP holds decades of operational history, your CRM contains every customer interaction, and your team is still investing time in manual reports.",
-      "description2": "This data is the key to unlocking immense value, yet for many businesses, it remains a dormant asset—fragmented, inaccessible, and unused for critical decision-making. You have the raw materials, but not the factory to process them.",
+      "headlineBlue": "Your Data Is Already Here.",
+      "headlineDark": "You Just Aren't Using It.",
+      "description1": "Your most valuable insights are probably trapped right now inside the systems you use every day. Your ERP holds decades of operational history, your CRM stores every customer interaction, and your team keeps spending time on manual reports.",
+      "description2": "This data is the key to unlocking enormous value, but for many companies it remains a dormant asset — fragmented, inaccessible, and unused for critical decision-making. You have the raw materials, but not the factory to process them.",
       "cta": "Let's talk!",
       "imageAlt": "Data systems visualization"
     },
     "contactCta": {
       "headline": "Ready to start your data journey?",
-      "description": "Let's discuss how we can help transform your business with data.",
-      "cta": "Get in touch"
+      "description": "Let's talk about how we can help transform your business with data.",
+      "cta": "Contact Us"
     },
     "rutaIA": {
       "hero": {
         "tagline": "AI READINESS ASSESSMENT",
         "headline": "Is your company ready for AI?",
         "headlineHighlight": "Find out before you invest.",
-        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and delivers a clear action plan — in 2 to 3 weeks.",
-        "cta": "Schedule your assessment →"
+        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and gives you a clear action plan — in 2 to 3 weeks.",
+        "cta": "Get your assessment"
       },
       "problem": {
-        "tagline": "The problem no one talks about",
-        "headline": "Most AI initiatives fail before they even start",
+        "tagline": "The problem no one mentions",
+        "headline": "Most AI initiatives fail before they start",
         "body1": "Not because the technology doesn't work. But because the data foundation isn't ready.",
-        "body2": "Fragmented data, inconsistent pipelines, no governance, no process documentation — these are the real blockers that prevent AI projects from delivering results.",
+        "body2": "Fragmented data, inconsistent pipelines, no governance, no process documentation — these are the real blockers keeping AI projects from delivering results.",
         "conclusion": "Before investing in AI, you need to know exactly where you stand."
       },
       "dimensions": {
-        "tagline": "What we evaluate",
+        "tagline": "What we assess",
         "headline": "6 dimensions of AI maturity",
         "items": {
           "quality": {
             "num": "01",
             "title": "Data quality and integrity",
             "question": "Is your data reliable, complete, and consistent?",
-            "description": "We evaluate the coverage, completeness, and consistency of your data sources. We identify duplication issues, null values, and discrepancies between systems that affect the quality of any AI model."
+            "description": "We assess the coverage, completeness, and consistency of your data sources. We identify duplication issues, null values, and discrepancies between systems that affect the quality of any AI model."
           },
           "infrastructure": {
             "num": "02",
             "title": "Infrastructure and pipelines",
             "question": "Does your architecture support AI workloads in production?",
-            "description": "We review your data stack: storage, orchestration, latency, and scalability. An AI model in production requires reliable pipelines and an infrastructure that supports variable demand."
+            "description": "We review your data stack: storage, orchestration, latency, and scalability. An AI model in production requires reliable pipelines and infrastructure that can handle variable demand."
           },
           "governance": {
             "num": "03",
             "title": "Governance and privacy",
-            "question": "Do you have control over who accesses and how your data is used?",
-            "description": "We audit access controls, retention policies, regulatory compliance (GDPR, CCPA, local laws), and the traceability mechanisms that support the ethical and secure use of data."
+            "question": "Do you control who accesses your data and how it's used?",
+            "description": "We audit access controls, retention policies, regulatory compliance (GDPR, CCPA, local laws), and the traceability mechanisms that support ethical and secure data use."
           },
           "maturity": {
             "num": "04",
             "title": "Process maturity",
             "question": "Are your processes documented and reproducible?",
-            "description": "We analyze the level of documentation, automation, and reproducibility of your workflows. Manual and undocumented processes are one of the biggest obstacles to scaling AI."
+            "description": "We analyze the level of documentation, automation, and reproducibility of your workflows. Manual, undocumented processes are one of the biggest obstacles to scaling AI."
           },
           "strategy": {
             "num": "05",
-            "title": "Strategy and AI use cases",
-            "question": "Do you know what you want AI for — and do you have the budget to execute it?",
-            "description": "We evaluate whether there is a clear vision of priority use cases, defined success criteria, and alignment between the technical area and the business to prioritize and finance AI initiatives."
+            "title": "AI strategy and use cases",
+            "question": "Do they know what they want AI for — and have the budget to execute it?",
+            "description": "We assess whether there's a clear vision of priority use cases, defined success criteria, and alignment between the technical team and the business to prioritize and fund AI initiatives."
           },
           "talent": {
             "num": "06",
             "title": "Talent and organizational capacity",
-            "question": "Who is going to operate, maintain, and evolve this?",
-            "description": "We map the current team's capabilities, knowledge gaps, and the organizational structure necessary to sustain AI operations in production over the long term."
+            "question": "Who's going to operate, maintain, and evolve this?",
+            "description": "We map the current team's capabilities, knowledge gaps, and the organizational structure needed to sustain AI operations in production long term."
           }
         }
       },
@@ -583,11 +583,11 @@
         "items": {
           "diagnosis": {
             "title": "Maturity diagnosis",
-            "description": "A visual report with your current score in each evaluated dimension, with specific findings and technical evidence."
+            "description": "A visual report with your current score in each dimension assessed, with specific findings and technical evidence."
           },
           "blockers": {
-            "title": "Blockers map",
-            "description": "Clear identification of what is preventing you from implementing AI today, ordered by impact and urgency."
+            "title": "Blocker map",
+            "description": "A clear identification of what's stopping you from implementing AI today, ranked by impact and urgency."
           },
           "roadmap": {
             "title": "Prioritized roadmap",
@@ -597,47 +597,755 @@
       },
       "trustSignal": {
         "headline": "Built on the most rigorous AI standards",
-        "body1": "Cabana Data is in the process of obtaining ISO 42001 certification — the international standard for AI management systems. This means our assessment methodology is aligned with the governance, transparency, and accountability requirements that regulators and enterprise clients will demand in the coming years.",
+        "body1": "Cabana Data is in the process of ISO 42001 certification — the international standard for AI management systems. This means our assessment methodology is aligned with the governance, transparency, and accountability requirements that regulators and enterprise clients will demand in the coming years.",
         "body2": "When you hire Ruta IA, you're not hiring a checklist. You're hiring the rigor of an international framework adapted to the Latin American reality.",
         "badge": "Certification in progress"
       },
       "timeline": {
         "headline": "Clear, fast, and no surprises",
         "duration": "2 to 3 weeks",
-        "durationLabel": "Complete assessment",
-        "price": "From $5,000 USD",
+        "durationLabel": "Full assessment",
+        "price": "Starting at $5,000 USD",
         "priceLabel": "Introductory price",
-        "description": "We work with your team in a non-invasive way. Without disrupting operations, without unnecessary system access. Only the technical interviews and architecture reviews needed to give you an honest assessment."
+        "description": "We work with your team in a non-invasive way. No disrupting operations, no unnecessary access to systems. Just the technical interviews and architecture reviews needed to give you an honest assessment."
       },
       "personas": {
-        "tagline": "Who is Ruta IA for?",
+        "tagline": "Who Ruta IA is for",
         "headline": "Ruta IA is for you if...",
         "items": {
           "cto": {
             "badge": "CTO / Technology Director",
             "title": "You want to implement AI but need to know what to fix first",
-            "description": "You want to implement AI but need to know what to resolve first in your data infrastructure before committing budget."
+            "description": "You want to implement AI but need to know what to fix first in your data infrastructure before committing budget."
           },
           "coo": {
             "badge": "COO / Operations Director",
-            "title": "You've heard about AI in operations but aren't sure your company has the foundation",
+            "title": "You've heard about AI applied to operations but don't know if your company has the foundation",
             "description": "You've heard about AI applied to operations but don't know if your company has the foundation for it to actually work."
           },
           "tech": {
-            "badge": "Technology Company",
+            "badge": "Technology company",
             "title": "You want to offer AI capabilities to your clients and need a technical partner",
-            "description": "You want to offer AI capabilities to your clients and need a technical partner to validate and build the right infrastructure from the start."
+            "description": "You want to offer AI capabilities to your clients and need a technical partner who can validate and build the right infrastructure from the start."
           }
         }
       },
       "cta": {
-        "headline": "Your next step in AI starts with clarity, not guesswork.",
-        "description": "Schedule a 30-minute call. No commitment. We'll tell you if Ruta IA makes sense for your company.",
+        "headline": "Your next step in AI starts with clarity, not with bets.",
+        "description": "Book a 30-minute call. No commitment. We'll tell you if Ruta IA makes sense for your company.",
         "button": "Request an Assessment"
       },
       "seo": {
         "title": "AI Readiness Assessment",
-        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and delivers a clear action plan — in 2 to 3 weeks."
+        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and gives you a clear action plan — in 2 to 3 weeks."
+      }
+    },
+    "dataConsulting": {
+      "hero": {
+        "tagline": "STRATEGIC DATA CONSULTING",
+        "headlineDark": "Most companies don't need more data.",
+        "headlineBlue": "They need to know what to do with what they already have.",
+        "description": "We assess where you stand and define what to build first — with evidence, not opinion.",
+        "cta": "Let's talk about your data",
+        "imageAlt": "Strategic data consulting"
+      },
+      "problem": {
+        "tagline": "Why most data initiatives never take off",
+        "headline": "The problem is almost never the tool",
+        "items": {
+          "decisions": {
+            "title": "Decisions made blind",
+            "description": "Teams keep deciding by gut feeling because they don't trust the numbers they have — or because different departments arrive at different figures for the same metric. Without a reliable source, every important decision turns into a negotiation over who's right, instead of what to do."
+          },
+          "tools": {
+            "title": "Investing in tools without a prior diagnosis",
+            "description": "Companies that buy dashboards, BI platforms, or AI projects before knowing whether their data infrastructure can support them. The result: budget spent on a solution that inherits the same problems it had before."
+          },
+          "direction": {
+            "title": "Data with no business direction",
+            "description": "Sources, tables, and reports pile up, but no one has translated that into concrete business questions. The technical team doesn't know what to prioritize because no one has defined what decision each piece of data should enable."
+          },
+          "quickWins": {
+            "title": "Scattered initiatives with no quick wins",
+            "description": "Data projects that promise transformation in 12-18 months, with nothing tangible in the first few weeks — which erodes the executive team's confidence before the project can prove any value."
+          }
+        }
+      },
+      "offerings": {
+        "tagline": "Two ways to bring clarity, depending on where you are",
+        "headlineDark": "Diagnosis or direction —",
+        "headlineBlue": "it depends on what you already know",
+        "items": {
+          "dhc": {
+            "title": "Data Health Check (DHC)",
+            "whatIsIt": "Not sure if your data infrastructure can support what you want to build? We assess 6 dimensions of your operation and tell you, with evidence, where you stand.",
+            "link": "View DHC page →"
+          },
+          "duc": {
+            "title": "Data Analytics Use Case (DUC)",
+            "whatIsIt": "Already know you have data but not which questions to answer with it? We turn your real business questions into a prioritized, executable path.",
+            "link": "View DUC page →"
+          }
+        },
+        "note": "Note: they're not sequential or mutually required — each company enters through whichever one fits."
+      },
+      "deliverables": {
+        "tagline": "What you receive",
+        "headlineDark": "A plan you can execute,",
+        "headlineBlue": "not one more opinion",
+        "items": {
+          "diagnosis": "A diagnosis or use-case map, with evidence and prioritization.",
+          "roadmap": "An executable roadmap — what to build first and why.",
+          "engineering": "A clear path to Data Engineering, if you decide to move to implementation."
+        },
+        "imageAlt": "Data Consulting deliverables"
+      },
+      "credibility": {
+        "headline": "Proof of rigor: DAMA-DMBOK",
+        "description": "You're not hiring a technical opinion. You're hiring an international data management standard, adapted to the Central American reality."
+      },
+      "logistics": {
+        "tagline": "Zero-friction logistics",
+        "items": {
+          "duration": {
+            "label": "Duration",
+            "description": "Varies by path (DHC and DUC each have their own 2- to 4+-week processes)."
+          },
+          "workMode": {
+            "label": "Work mode",
+            "description": "Scheduled interviews and workshops with your stakeholders — no invasive or permanent access to critical systems."
+          }
+        }
+      },
+      "personas": {
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
+        "items": {
+          "cto": {
+            "title": "CTO / Head of Data",
+            "description": "Knows something isn't working in their infrastructure or reports, but has no objective evidence to justify a larger investment."
+          },
+          "coo": {
+            "title": "COO / Operations Director",
+            "description": "Wants data-driven decisions, but doesn't trust current reports because every department tells a different story."
+          },
+          "growth": {
+            "title": "Growing company",
+            "description": "Growing fast, and its manual data processes no longer scale with the size of the operation."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Clarity about your data isn't a luxury — it's the first real step.",
+        "description": "",
+        "cta": "Book 30 minutes, no commitment"
+      },
+      "faq": {
+        "tagline": "Frequently asked questions",
+        "headline": "Frequently",
+        "headlineHighlight": "Asked Questions",
+        "description": "",
+        "items": {
+          "whyNotBuild": {
+            "question": "Why can't we just start building directly?",
+            "answer": "You could — and sometimes that's the right call. But if you've never diagnosed your infrastructure or prioritized use cases, building without that clarity almost always ends up solving the wrong problem, or building something no one in the business ends up using."
+          },
+          "genericConsulting": {
+            "question": "Is this the same as generic \"digital transformation\" consulting?",
+            "answer": "No. We don't deliver a PDF of abstract recommendations. DHC delivers an objective score across 6 dimensions with evidence, not opinion. DUC delivers a DUC-CARD for each use case, with a prioritized roadmap and technical path. Both are anchored in DAMA-DMBOK, the international data management standard — not an improvised framework."
+          },
+          "bothServices": {
+            "question": "Do we need to do both services (DHC and DUC), or just one?",
+            "answer": "It depends on where you stand. If you already know your infrastructure is solid and just need to define what to build, you can go straight to DUC. If you're not sure about your data foundation, we start with DHC. We define it together in the first conversation — not before."
+          },
+          "howInvasive": {
+            "question": "How invasive is the process for our team?",
+            "answer": "We work through scheduled interviews and workshops, not permanent access to critical systems. The time we ask of your stakeholders is limited and scheduled in advance."
+          },
+          "notReady": {
+            "question": "What happens if the diagnosis shows we're not ready for what we wanted to do?",
+            "answer": "We tell you directly, without softening it. We'd rather tell you the truth about the real blockers than let you move forward into a project that's going to fail because the foundation wasn't ready."
+          },
+          "cost": {
+            "question": "How much does it cost?",
+            "answer": "It's quoted based on your organization's specific scope — we don't have a single list price. What we can give you on the first call is clarity on which path (DHC, DUC, or both) makes sense for your case."
+          }
+        }
+      },
+      "seo": {
+        "title": "Strategic Data Consulting",
+        "description": "We assess where you stand and define what to build first — with evidence, not opinion."
+      }
+    },
+    "dataHealthCheck": {
+      "hero": {
+        "tagline": "DATA HEALTH CHECK",
+        "headlineDark": "Building without a diagnosis",
+        "headlineBlue": "is guessing",
+        "description": "We assess 6 dimensions of your data infrastructure and tell you, with evidence, how ready your company is to scale.",
+        "cta": "Request your Data Health Check",
+        "imageAlt": "Data health check"
+      },
+      "problem": {
+        "tagline": "What almost no one diagnoses before investing",
+        "headline": "The symptom is never the real problem",
+        "items": {
+          "dashboards": {
+            "title": "Dashboards no one uses",
+            "description": "The visualization tool was built before fixing the quality of the data feeding it. The result is a pretty report that no one checks because no one trusts the numbers it shows."
+          },
+          "ownTruth": {
+            "title": "Every department has its own truth",
+            "description": "There's no single source of truth, so meetings turn into debates about which number is correct instead of conversations about what decision to make."
+          },
+          "silentFailures": {
+            "title": "AI projects that fail silently",
+            "description": "Investment goes into models or automation on data that was never ready to support them — and the project fails because of the foundation, not the technology."
+          },
+          "unknownSeverity": {
+            "title": "No one really knows how bad the problem is",
+            "description": "There's a general feeling that \"the data is a mess,\" but without objective evidence of where the problem lies or how urgent it is to fix."
+          }
+        }
+      },
+      "dimensions": {
+        "tagline": "6 dimensions of your data operation",
+        "headline": "It's not opinion, it's evidence",
+        "items": {
+          "sources": {
+            "title": "Data sources",
+            "description": "Origin and reliability of where the information comes from."
+          },
+          "infrastructure": {
+            "title": "Infrastructure",
+            "description": "How information is stored and moved today."
+          },
+          "quality": {
+            "title": "Quality and consistency",
+            "description": "How reliable and clean the data is."
+          },
+          "governance": {
+            "title": "Governance and access",
+            "description": "Who controls what, and under what rules."
+          },
+          "consumption": {
+            "title": "Consumption and visibility",
+            "description": "How dashboards and reports are used today."
+          },
+          "team": {
+            "title": "Team and documentation",
+            "description": "How prepared the internal team is to sustain this."
+          }
+        }
+      },
+      "deliverables": {
+        "tagline": "What you receive",
+        "headlineDark": "An action plan,",
+        "headlineBlue": "not a PDF of opinions",
+        "items": {
+          "report": "Executive report with scoring — 0 to 10 on each dimension, with critical blockers identified.",
+          "remediation": "Technical remediation plan — what to fix first and why, with assigned owners.",
+          "roadmap": "Visual roadmap for the First Build Cycle — what to build first, in an executive format for the board."
+        },
+        "imageAlt": "Data Health Check deliverables"
+      },
+      "credibility": {
+        "headline": "Proof of rigor: DAMA-DMBOK",
+        "description": "You're not hiring a technical opinion. You're hiring an international data management standard, adapted to the Central American reality."
+      },
+      "logistics": {
+        "tagline": "Zero-friction logistics",
+        "items": {
+          "duration": {
+            "label": "Duration",
+            "description": "A structured process, with scheduled interviews and workshops — not a permanent audit."
+          },
+          "workMode": {
+            "label": "Work mode",
+            "description": "No invasive access to critical systems — we work with existing documentation and direct conversation with your team."
+          }
+        }
+      },
+      "personas": {
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
+        "items": {
+          "cto": {
+            "title": "CTO / Head of Data",
+            "description": "Suspects there are underlying problems but has no objective evidence to justify a larger investment."
+          },
+          "coo": {
+            "title": "COO",
+            "description": "Wants to invest in analytics or AI, but needs to know first if the foundation can support it."
+          },
+          "failedBefore": {
+            "title": "Company that already tried a data project and it failed",
+            "description": "Wants to understand what went wrong before trying again."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Building without a diagnosis is guessing. Start with evidence.",
+        "description": "",
+        "cta": "Request your Data Health Check"
+      },
+      "faq": {
+        "tagline": "Frequently asked questions",
+        "headline": "Frequently",
+        "headlineHighlight": "Asked Questions",
+        "description": "",
+        "items": {
+          "whyDiagnose": {
+            "question": "Why do I need a diagnosis before investing in tools?",
+            "answer": "Because a new tool built on messy data only inherits the same mess, faster and more expensively."
+          },
+          "itAudit": {
+            "question": "Is this the same as an IT audit?",
+            "answer": "No. We don't assess legal compliance or perimeter security; we assess whether your data can support the decisions and projects you want to build."
+          },
+          "howInvasive": {
+            "question": "How invasive is it for our team?",
+            "answer": "Scheduled interviews and review of existing documentation — no permanent access to critical systems."
+          },
+          "notReady": {
+            "question": "What happens if the result is that we're not ready?",
+            "answer": "We tell you with evidence, not opinion, and give you the exact plan to get there."
+          },
+          "duration": {
+            "question": "How long does the process take?",
+            "answer": "It varies depending on the complexity of your organization; it's defined in the first conversation."
+          },
+          "cost": {
+            "question": "How much does it cost?",
+            "answer": "It's quoted based on your specific scope; we define it together after understanding your context."
+          }
+        }
+      },
+      "seo": {
+        "title": "Data Health Check",
+        "description": "We assess 6 dimensions of your data infrastructure and tell you, with evidence, how ready your company is to scale."
+      }
+    },
+    "dataAnalyticsUseCase": {
+      "hero": {
+        "tagline": "DATA ANALYTICS USE CASES",
+        "headlineDark": "You have the data.",
+        "headlineBlue": "You're missing what to ask it.",
+        "description": "We turn your real business questions into a prioritized, executable path — with quick wins visible in weeks, not months.",
+        "cta": "Define your use cases",
+        "imageAlt": "Data analytics use cases"
+      },
+      "problem": {
+        "tagline": "Why having data isn't the same as using it",
+        "headline": "Accumulating data isn't the same as having direction",
+        "items": {
+          "noOwner": {
+            "title": "Initiatives with no clear business owner",
+            "description": "Data projects that start from IT, without a business area having defined what decision needs to improve."
+          },
+          "everythingPriority": {
+            "title": "Everything looks like a priority, nothing gets prioritized",
+            "description": "Without an objective method for deciding which use case to tackle first, everything competes for attention at the same time."
+          },
+          "noQuickWins": {
+            "title": "Months of work with nothing tangible to show",
+            "description": "Data projects that promise long-term transformation, with no quick wins to build confidence along the way."
+          },
+          "trendDriven": {
+            "title": "Architecture chosen by trend, not real need",
+            "description": "A platform or stack is chosen without a real gap analysis of what the actual use case requires."
+          }
+        }
+      },
+      "process": {
+        "tagline": "A 4-phase system, not an isolated workshop",
+        "headlineDark": "From the business question",
+        "headlineBlue": "to the technical path",
+        "steps": {
+          "workshop": {
+            "title": "DUC-01 — Workshop",
+            "description": "A structured workshop to surface the real business questions your team needs answered, not the ones IT assumes."
+          },
+          "definition": {
+            "title": "DUC-02 — Definition",
+            "description": "We document each use case in a formal card, with business context, data requirements, and expected outcome — validated and approved by your team."
+          },
+          "roadmap": {
+            "title": "DUC-03 — Roadmap",
+            "description": "We prioritize objectively by impact and feasibility, guaranteeing at least one executable quick win in the first few weeks."
+          },
+          "architecture": {
+            "title": "DUC-04 — Architecture",
+            "description": "We define the exact technical path: what stack, what effort, and what gaps need to close to build it."
+          }
+        }
+      },
+      "deliverables": {
+        "tagline": "What you receive",
+        "headlineDark": "An executable path,",
+        "headlineBlue": "not a list of ideas",
+        "items": {
+          "card": "A DUC-CARD for each use case — a formal document with the business question, the data required, and the expected outcome.",
+          "roadmap": "A prioritized roadmap — use cases classified as quick win, medium term, or strategic.",
+          "architecture": "An architecture proposal — recommended stack, gap analysis, and estimated effort, ready to move into Data Engineering."
+        },
+        "imageAlt": "Data Analytics Use Case deliverables"
+      },
+      "credibility": {
+        "headline": "Proof of rigor: DAMA-DMBOK",
+        "description": "You're not hiring a brainstorm. You're hiring a method aligned with an international data management standard, with objective and traceable prioritization."
+      },
+      "logistics": {
+        "tagline": "Zero-friction logistics",
+        "items": {
+          "duration": {
+            "label": "Duration",
+            "description": "A 2-4 hour workshop, with documentation and prioritization in the following weeks."
+          },
+          "workMode": {
+            "label": "Work mode",
+            "description": "Based on workshops with your business stakeholders — no permanent system access required, and no disruption to operations."
+          }
+        }
+      },
+      "personas": {
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
+        "items": {
+          "cto": {
+            "title": "CTO / Head of Data",
+            "description": "Has the infrastructure but needs the business to define what to build first."
+          },
+          "coo": {
+            "title": "COO",
+            "description": "Knows there's value in the company's data, but no one has translated it into a concrete plan."
+          },
+          "scattered": {
+            "title": "Company with data scattered across departments",
+            "description": "Each team has its own metrics and no one has prioritized what to solve first at the organizational level."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Stop accumulating data with no direction. Start with a real business question.",
+        "description": "",
+        "cta": "Define your use cases"
+      },
+      "faq": {
+        "tagline": "Frequently asked questions",
+        "headline": "Frequently",
+        "headlineHighlight": "Asked Questions",
+        "description": "",
+        "items": {
+          "needsDHC": {
+            "question": "Do I need to have done a Data Health Check first?",
+            "answer": "It's not required. If you already know your infrastructure is solid, you can start here directly; if you're not sure, DUC-01 includes a quick validation."
+          },
+          "replacesConsultant": {
+            "question": "Does this replace a data strategy consultant?",
+            "answer": "This isn't a generic brainstorm: every use case is documented, objectively prioritized, and paired with a concrete technical path, not just an abstract recommendation."
+          },
+          "duration": {
+            "question": "How long does the whole process take?",
+            "answer": "The initial workshop takes 2 to 4 hours; documenting and prioritizing the use cases takes a few additional weeks, depending on how many are prioritized."
+          },
+          "splitPhases": {
+            "question": "Can I hire just the workshop, or just the architecture?",
+            "answer": "The 4 phases are sold as a single system — each one directly feeds the next, so they aren't split up separately."
+          },
+          "afterRoadmap": {
+            "question": "What happens after we receive the roadmap?",
+            "answer": "You can move straight into Data Engineering with the technical path already defined, or take whatever time you need before deciding."
+          },
+          "cost": {
+            "question": "How much does it cost?",
+            "answer": "It's quoted based on how many use cases are prioritized and the complexity of your organization; we define it in the first conversation."
+          }
+        }
+      },
+      "seo": {
+        "title": "Data Analytics Use Cases",
+        "description": "We turn your real business questions into a prioritized, executable path — with quick wins visible in weeks, not months."
+      }
+    },
+    "digitalProduct": {
+      "hero": {
+        "tagline": "DIGITAL PRODUCT MODERNIZATION",
+        "headlineDark": "Your legacy system doesn't need another patch.",
+        "headlineBlue": "It needs to be rebuilt right.",
+        "description": "From the system no one wants to touch anymore to the digital product your operation needs today — with the right design and architecture from the start.",
+        "cta": "Tell us about your project",
+        "imageAlt": "Digital product modernization"
+      },
+      "problem": {
+        "tagline": "Why legacy systems become a burden",
+        "headline": "Every patch costs more than the last one",
+        "items": {
+          "survived": {
+            "title": "Systems that outlived the people who built them",
+            "description": "Software critical to the operation, but that no one on the team fully understands anymore or dares to modify."
+          },
+          "manualWorkarounds": {
+            "title": "Manual workarounds compensating for what the system no longer does",
+            "description": "The team developed workarounds and parallel spreadsheets to survive the current system's limitations."
+          },
+          "datedInterfaces": {
+            "title": "Interfaces that were modern 10 years ago",
+            "description": "The business logic may still be valid, but the user experience drives away the people who use it every day."
+          },
+          "fearOfBreaking": {
+            "title": "Fear of touching what \"more or less\" works",
+            "description": "Modernization gets postponed indefinitely because no one wants to be responsible for breaking something critical."
+          }
+        }
+      },
+      "offerings": {
+        "tagline": "From validation to a live product",
+        "headlineDark": "Design, build, and analytics —",
+        "headlineBlue": "in the right order",
+        "flowLabel": "Main flow",
+        "branchLabel": "Specialized branch",
+        "items": {
+          "design": {
+            "title": "Product Design & Discovery",
+            "whatIsIt": "We validate that we're solving the right problem before writing a single line of code: user research, information architecture, and visual design built on your existing brand.",
+            "link": "View Product Design & Discovery page →"
+          },
+          "development": {
+            "title": "Application Development",
+            "whatIsIt": "We build the web or mobile application on a cloud-native architecture that actually scales, connecting validated design with your operation's real business logic.",
+            "link": "View Application Development page →"
+          },
+          "dashboards": {
+            "title": "Dashboards & Analytics Interfaces",
+            "whatIsIt": "If your data use cases are already defined, we turn that information into visual panels your team actually uses to make decisions.",
+            "link": "View Dashboards & Analytics Interfaces page →"
+          }
+        },
+        "note": "Note: Design & Discovery and Application Development usually go together as a flow; Dashboards requires having already defined your use cases with DUC (Data Consulting)."
+      },
+      "deliverables": {
+        "tagline": "What you receive",
+        "headlineDark": "A product in production,",
+        "headlineBlue": "not a pretty prototype",
+        "items": {
+          "prototypes": "Prototypes validated with real users — before you invest in development.",
+          "application": "An application running in a scalable cloud environment — with CI/CD and monitoring from day one.",
+          "designSystem": "A reusable design system — so the product keeps evolving without starting from scratch every time."
+        }
+      },
+      "credibility": {
+        "headline": "Proof of rigor: Design Thinking as methodology, not buzzword",
+        "description": "We don't design based on taste. Every visual and flow decision is backed by real research with your users, not design trends."
+      },
+      "logistics": {
+        "tagline": "Zero-friction logistics",
+        "items": {
+          "duration": {
+            "label": "Duration",
+            "description": "Varies depending on whether it's design, development, or both — estimated in the first conversation based on real scope."
+          },
+          "workMode": {
+            "label": "Work mode",
+            "description": "Co-creation and validation workshops with your team — not an external team working blind for months without feedback."
+          }
+        }
+      },
+      "personas": {
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
+        "items": {
+          "cto": {
+            "title": "CTO with a critical legacy system",
+            "description": "Knows it needs modernizing but doesn't want to risk the current operation."
+          },
+          "coo": {
+            "title": "COO tired of parallel manual processes",
+            "description": "Wants the system to do what the team currently compensates for with spreadsheets."
+          },
+          "triedBefore": {
+            "title": "Company that already tried to modernize and the result went unused",
+            "description": "Wants to make sure this time the design is validated with real users before building."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Modernizing isn't patching. It's rebuilding right, once.",
+        "description": "",
+        "cta": "Tell us about your project"
+      },
+      "faq": {
+        "tagline": "Frequently asked questions",
+        "headline": "Frequently",
+        "headlineHighlight": "Asked Questions",
+        "description": "",
+        "items": {
+          "partialModernization": {
+            "question": "Do you have to redesign everything, or can you modernize just one part?",
+            "answer": "It depends on the scope we define together; we can start with the most critical module and expand later."
+          },
+          "legacyData": {
+            "question": "What happens to the data we already have in the legacy system?",
+            "answer": "It's migrated as part of the project; if the migration is complex, it may require support from Data Engineering."
+          },
+          "skipDesign": {
+            "question": "Do we need the design service if we already have wireframes ready?",
+            "answer": "No, you can go straight into Application Development if you already have validated design."
+          },
+          "duration": {
+            "question": "How long does it take to modernize a legacy system?",
+            "answer": "It varies a lot depending on complexity; we define it precisely after understanding your current system."
+          },
+          "worseThanExpected": {
+            "question": "What happens if during the project we find something worse than expected in the current system?",
+            "answer": "We tell you right away and adjust the scope with evidence — we don't let it become a surprise at the end."
+          },
+          "cost": {
+            "question": "How much does it cost?",
+            "answer": "It's quoted based on the project's specific scope; we give you clarity on the range in the first call."
+          }
+        }
+      },
+      "seo": {
+        "title": "Digital Product Modernization",
+        "description": "From the system no one wants to touch anymore to the digital product your operation needs today — with the right design and architecture from the start."
+      }
+    },
+    "productDesignDiscovery": {
+      "hero": {
+        "tagline": "DIGITAL PRODUCT DESIGN",
+        "headlineDark": "The problem isn't your design.",
+        "headlineBlue": "It's that you never validated the problem.",
+        "description": "Real user research, information architecture, and visual design — before a single line of code is written.",
+        "cta": "Start your product discovery",
+        "imageAlt": "Digital product design"
+      },
+      "problem": {
+        "tagline": "Why digital products fail before they're born",
+        "headline": "No one asked if this was what needed to be built",
+        "items": {
+          "unvalidated": {
+            "title": "Requirements that never went through the end user",
+            "description": "What the business thinks is needed gets documented, without validating it with the people who will actually use the product."
+          },
+          "skipToHiFi": {
+            "title": "Prototypes that jump straight to high fidelity",
+            "description": "Investment goes into visual design before validating that the flow and structure make sense."
+          },
+          "noDesignSystem": {
+            "title": "Nonexistent or inconsistent design systems",
+            "description": "Every new screen is designed from scratch, with no reusable components or visual consistency."
+          },
+          "hiddenFriction": {
+            "title": "Friction the business doesn't see but the user suffers",
+            "description": "Complicated flows that no one tested with real users before building them."
+          }
+        }
+      },
+      "process": {
+        "tagline": "3 phases, in the right order",
+        "headlineDark": "Empathy, structure, and aesthetics —",
+        "headlineBlue": "in that order",
+        "steps": {
+          "designThinking": {
+            "title": "Design Thinking",
+            "description": "Empathy and discovery with real users, defining the real problem, rapid low-fidelity prototyping."
+          },
+          "ux": {
+            "title": "UX",
+            "description": "Information architecture, wireframes, user flows, and usability testing."
+          },
+          "ui": {
+            "title": "UI",
+            "description": "Design system, visual design built on your brand, micro-interactions."
+          }
+        }
+      },
+      "deliverables": {
+        "tagline": "What you receive",
+        "headlineDark": "Prototypes ready to build,",
+        "headlineBlue": "not sketches",
+        "items": {
+          "prototypes": "High-fidelity prototypes validated with real users.",
+          "designSystem": "A reusable design system for the entire product.",
+          "userFlows": "Documented user flows, ready for any development team to implement."
+        }
+      },
+      "credibility": {
+        "headline": "Proof of rigor: Design Thinking as methodology, not buzzword",
+        "description": "We don't design based on taste. Every decision is backed by real research with your users."
+      },
+      "logistics": {
+        "tagline": "Zero-friction logistics",
+        "items": {
+          "duration": {
+            "label": "Duration",
+            "description": "Varies depending on the product's complexity; estimated in the first conversation."
+          },
+          "workMode": {
+            "label": "Work mode",
+            "description": "Co-creation workshops with your team and end users — not a designer working in isolation for weeks."
+          }
+        }
+      },
+      "personas": {
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
+        "items": {
+          "newProduct": {
+            "title": "New, unvalidated product",
+            "description": "You have the business idea but don't know if the flow makes sense for the real user."
+          },
+          "redesign": {
+            "title": "Redesign of a product no one uses",
+            "description": "The system exists, but users avoid it or get frustrated with it."
+          },
+          "noDesigner": {
+            "title": "Technical team with no in-house designer",
+            "description": "You need prototypes ready to build, without hiring a full-time role."
+          }
+        }
+      },
+      "cta": {
+        "headline": "Good design isn't optional. It's what decides whether the product gets used.",
+        "description": "",
+        "cta": "Start your product discovery"
+      },
+      "faq": {
+        "tagline": "Frequently asked questions",
+        "headline": "Frequently",
+        "headlineHighlight": "Asked Questions",
+        "description": "",
+        "items": {
+          "alsoBuilds": {
+            "question": "Do you also build the product, or just design it?",
+            "answer": "We can do both (see Application Development), but you can also keep just the design and build with your own team."
+          },
+          "needsBrand": {
+            "question": "Do we need to have a defined brand before starting?",
+            "answer": "Yes, we use your existing brand guidelines; we don't include creating a brand from scratch."
+          },
+          "duration": {
+            "question": "How long does the design process take?",
+            "answer": "It depends on the product's complexity; we give you an estimate after understanding the scope."
+          },
+          "realUsers": {
+            "question": "Do you validate with real users or just the internal team?",
+            "answer": "With real users whenever possible — it's the foundation of the entire Design Thinking process."
+          },
+          "ideaDoesntWork": {
+            "question": "What happens if during discovery we realize the original idea doesn't work?",
+            "answer": "We tell you with evidence from the research, and adjust direction before development investment begins."
+          },
+          "cost": {
+            "question": "How much does it cost?",
+            "answer": "It's quoted based on the product's complexity and scope; we define it in the first conversation."
+          }
+        }
+      },
+      "seo": {
+        "title": "Product Design & Discovery",
+        "description": "Real user research, information architecture, and visual design — before a single line of code is written."
       }
     },
     "applicationDevelopment": {
@@ -650,12 +1358,12 @@
         "imageAlt": "Custom application development"
       },
       "problem": {
-        "tagline": "Why software built \"fast\" gets expensive later",
-        "headline": "What gets built fast, gets rebuilt later",
+        "tagline": "Why software that's \"quick to build\" gets expensive later",
+        "headline": "What gets built fast gets rebuilt later",
         "items": {
           "improvised": {
             "title": "Improvised architecture from day one",
-            "description": "Technical decisions made for speed, not for whether they can withstand business growth."
+            "description": "Technical decisions made for speed, not for whether they'll hold up as the business grows."
           },
           "singlePerson": {
             "title": "Applications that depend on a single person",
@@ -663,21 +1371,21 @@
           },
           "manualDeploys": {
             "title": "Manual, risky deployments",
-            "description": "Updating the system means crossing your fingers, with no automation or real testing environments."
+            "description": "Updating the system means crossing your fingers, with no automation or real test environments."
           },
           "genericSoftware": {
             "title": "Generic software for a specific problem",
-            "description": "Templates or off-the-shelf solutions that don't reflect the company's actual business logic."
+            "description": "Templates or off-the-shelf solutions that don't reflect the company's real business logic."
           }
         }
       },
       "includes": {
-        "tagline": "Backend, frontend, and deployment — as a single piece",
-        "headline": "Architecture that holds up, not one that just survives",
+        "tagline": "Backend, frontend, and deployment — as one piece",
+        "headline": "Architecture that holds up, not just survives",
         "items": {
           "backend": {
             "title": "Architecture and Backend",
-            "description": "Cloud-native (GCP as the standard), APIs and microservices, optimized databases."
+            "description": "Cloud-native (GCP as standard), APIs and microservices, optimized databases."
           },
           "frontend": {
             "title": "Frontend",
@@ -690,12 +1398,12 @@
         }
       },
       "deliverables": {
-        "tagline": "What you get",
+        "tagline": "What you receive",
         "headlineDark": "An application in production,",
         "headlineBlue": "not a demo",
         "items": {
-          "application": "An application running in a real cloud environment, not just a test setting.",
-          "cicd": "A configured CI/CD pipeline, so you can ship updates without interrupting service.",
+          "application": "An application running in a real cloud environment, not just a test environment.",
+          "cicd": "A configured CI/CD pipeline, to ship updates without interrupting service.",
           "monitoring": "Active monitoring and alerts, to catch errors before your users do."
         }
       },
@@ -707,31 +1415,31 @@
             "description": "Varies by scope; defined after receiving prototypes and business rules."
           },
           "workMode": {
-            "label": "Way of working",
-            "description": "Incremental delivery, with constant validation — not a single handoff after months of work."
+            "label": "Work mode",
+            "description": "Incremental delivery, with constant validation — not a single delivery at the end of months of work."
           }
         }
       },
       "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
         "items": {
           "cto": {
-            "title": "A CTO with a system that can't keep up with growth",
+            "title": "CTO with a system that can't keep up with growth",
             "description": "Needs real architecture, not another patch."
           },
           "coo": {
-            "title": "A COO with manual processes that should be automated",
+            "title": "COO with manual processes that should be automated",
             "description": "Needs custom business logic, not a generic template."
           },
           "designReady": {
-            "title": "A company that already has the design ready",
+            "title": "Company that already has the design ready",
             "description": "Just needs the technical team to build it right."
           }
         }
       },
       "cta": {
-        "headline": "Build it once, right. Not five times, fast.",
+        "headline": "Build once, right. Not five times, fast.",
         "description": "",
         "cta": "Tell us about your project"
       },
@@ -742,170 +1450,34 @@
         "description": "",
         "items": {
           "needsDesign": {
-            "question": "Do we need to have UX/UI design ready before starting?",
+            "question": "Do we need UX/UI design ready before starting?",
             "answer": "Yes, or we can connect you with Product Design & Discovery first if you don't have it yet."
           },
           "onlyGCP": {
-            "question": "Do you only work with Google Cloud?",
-            "answer": "GCP is our standard, but we also have real experience with AWS if your company is already there."
+            "question": "Do you only work on Google Cloud?",
+            "answer": "GCP is our standard, with real hands-on experience in AWS as well if your company is already there."
           },
           "whoPaysHosting": {
             "question": "Who pays for hosting and licenses?",
-            "answer": "Cloud infrastructure costs are covered by the client, so ownership of your account always stays with you."
+            "answer": "Cloud infrastructure cost is billed to the client, so ownership of your account always stays with you."
           },
           "postLaunchSupport": {
-            "question": "Does this include post-launch support?",
-            "answer": "It does not include level-1 support (end-user support); if you need ongoing maintenance, we discuss that separately."
+            "question": "Does it include support after launch?",
+            "answer": "It doesn't include level-1 support (end-user support); if you need ongoing maintenance, we discuss it separately."
           },
           "integrations": {
             "question": "Can you integrate the system with our current tools (CRM, payment gateway, etc.)?",
-            "answer": "Yes, that's part of API and microservice development."
+            "answer": "Yes, that's part of the API and microservices development."
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "Pricing is quoted based on specific technical scope; we define it after reviewing your business rules and requirements."
+            "answer": "It's quoted based on the specific technical scope; we define it after reviewing your business rules and requirements."
           }
         }
       },
       "seo": {
         "title": "Custom Application Development",
         "description": "We build web and mobile applications on cloud-native architecture, ready to grow alongside your operation."
-      }
-    },
-    "customAIAgents": {
-      "hero": {
-        "tagline": "CUSTOM AI AGENTS",
-        "headlineDark": "Generic AI has limits.",
-        "headlineBlue": "AI that knows your business doesn't.",
-        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations.",
-        "cta": "Tell us what you want to automate",
-        "imageAlt": "Custom AI agents"
-      },
-      "problem": {
-        "tagline": "Why generic AI doesn't solve real business problems",
-        "headline": "ChatGPT doesn't know your company. That's why it can't solve your problems.",
-        "items": {
-          "dontKnowData": {
-            "title": "AI tools that don't know your data",
-            "description": "Generic chatbots with no access to your actual information, so they make up answers or give generalities."
-          },
-          "stopsAtResponse": {
-            "title": "Automation that stops at the response",
-            "description": "The AI replies, but can't execute the actual action (create a ticket, update a record, send an email)."
-          },
-          "hallucinations": {
-            "title": "Justified fear of hallucinations",
-            "description": "The uncertainty of AI making up information has kept many companies from adopting it in critical processes."
-          },
-          "noDataFoundation": {
-            "title": "AI projects without a ready data foundation",
-            "description": "An agent gets built on top of messy information, and the result inherits that mess."
-          }
-        }
-      },
-      "offerings": {
-        "tagline": "Two ways to move forward, depending on where you are",
-        "headlineDark": "Diagnosis or build —",
-        "headlineBlue": "you decide where to start",
-        "items": {
-          "rutaIA": {
-            "title": "AI Roadmap",
-            "whatIsIt": "Not sure if your company is ready to adopt AI? We assess your maturity across 6 dimensions and deliver an executable roadmap.",
-            "link": "View AI Roadmap →"
-          },
-          "agentDevelopment": {
-            "title": "Agent Development",
-            "whatIsIt": "Already know what process you want to automate? We build the custom AI agent, connected to your real systems.",
-            "link": "View Agent Development page →"
-          }
-        },
-        "note": "Note: these are independent of each other — going through the AI Roadmap before building an agent is not required."
-      },
-      "deliverables": {
-        "tagline": "What you get",
-        "headlineDark": "An agent that executes,",
-        "headlineBlue": "not just responds",
-        "items": {
-          "roadmapOrAgent": "An AI adoption roadmap (if you start with the AI Roadmap) or a working agent in production (if you start with Agent Development).",
-          "realConnection": "A real connection to your data and systems — no hallucinations, with the tools needed to take action.",
-          "referenceCases": "Real reference cases — like Dupla, the agent we built for MadGroup."
-        }
-      },
-      "credibility": {
-        "headline": "Dupla, MadGroup's AI agent",
-        "description": "It's not a concept. Dupla already operates in production, connecting multiple data sources of digital campaign metrics for MadGroup."
-      },
-      "logistics": {
-        "tagline": "Zero-friction logistics",
-        "items": {
-          "duration": {
-            "label": "Duration",
-            "description": "Varies depending on whether it's diagnosis (AI Roadmap: 2-3 weeks) or build (Agent Development: depends on complexity)."
-          },
-          "workMode": {
-            "label": "Way of working",
-            "description": "Requires access to your knowledge base and relevant systems — with clear guardrails defined from the start."
-          }
-        }
-      },
-      "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
-        "items": {
-          "cto": {
-            "title": "A CTO who already tried generic AI and it wasn't enough",
-            "description": "Needs an agent connected to their company's real data."
-          },
-          "coo": {
-            "title": "A COO who wants to automate a repetitive process",
-            "description": "Isn't looking for a chatbot, wants the agent to execute the entire task."
-          },
-          "noWhereToStart": {
-            "title": "A company that doesn't yet know where to start with AI",
-            "description": "Needs an honest diagnosis first, before investing."
-          }
-        }
-      },
-      "cta": {
-        "headline": "The AI that transforms your business is the one that knows your business.",
-        "description": "",
-        "cta": "Tell us what you want to automate"
-      },
-      "faq": {
-        "tagline": "Frequently asked questions",
-        "headline": "Frequently",
-        "headlineHighlight": "Asked Questions",
-        "description": "",
-        "items": {
-          "needsRutaIA": {
-            "question": "Do we need to do the AI Roadmap before building an agent?",
-            "answer": "It's not required; if you already know exactly which process to automate, we can go straight to Agent Development."
-          },
-          "hallucinationRisk": {
-            "question": "How real is the risk of AI making up information?",
-            "answer": "It's real if it's not implemented well; that's why we build with RAG and specific controls so the agent admits when it doesn't know something, instead of guessing."
-          },
-          "realExperience": {
-            "question": "Do you have real experience, or is this just theory?",
-            "answer": "Yes: we developed Dupla, MadGroup's AI agent, which connects multiple data sources of digital campaign metrics."
-          },
-          "needsCleanData": {
-            "question": "Do we need our data organized before starting?",
-            "answer": "It helps a lot to have it clean; if not, we can coordinate that with Data Engineering first."
-          },
-          "unsupervisedDecisions": {
-            "question": "Can the agent make decisions on its own, without supervision?",
-            "answer": "It can be configured with human-in-the-loop supervision for critical decisions, based on what we define together."
-          },
-          "cost": {
-            "question": "How much does it cost?",
-            "answer": "It varies by format (AI Roadmap starts at USD 4,000; Agent Development is quoted based on technical scope)."
-          }
-        }
-      },
-      "seo": {
-        "title": "Custom AI Agents for Business",
-        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations."
       }
     },
     "dashboardsAnalyticsInterfaces": {
@@ -919,11 +1491,11 @@
       },
       "problem": {
         "tagline": "Why having data isn't the same as understanding it",
-        "headline": "A report nobody understands is the same as having no data",
+        "headline": "A report no one understands is the same as having no data",
         "items": {
           "lateReports": {
             "title": "Manual reports that arrive late",
-            "description": "Someone exports and puts together the report by hand every week, with all the risk of error that implies."
+            "description": "Someone exports and assembles the report by hand every week, with the error risk that entails."
           },
           "wrongVisibility": {
             "title": "Everyone sees what they shouldn't",
@@ -931,16 +1503,16 @@
           },
           "prettyUseless": {
             "title": "Pretty dashboards that answer nothing",
-            "description": "Visualizations chosen for looks, not for the business question they were supposed to answer."
+            "description": "Visualizations chosen for aesthetics, not for the business question they were meant to answer."
           },
           "staleData": {
-            "title": "Constant manual updating",
+            "title": "Constant manual refreshing",
             "description": "Without automation, the dashboard is always one step behind the reality of the business."
           }
         }
       },
       "includes": {
-        "tagline": "From data source to decision",
+        "tagline": "From the data source to the decision",
         "headline": "Foundation, design, and governance — the 3 layers that matter",
         "items": {
           "modeling": {
@@ -949,21 +1521,21 @@
           },
           "visualDesign": {
             "title": "Visual Design and Data Experience",
-            "description": "The right visualizations, information architecture with drill-down, applied branding."
+            "description": "The right visualizations, information architecture with drill-down, brand applied."
           },
           "governance": {
             "title": "Implementation and Governance",
-            "description": "Automated refreshes, row-level security (RLS), publishing, and training."
+            "description": "Automated refresh, row-level security (RLS), publishing, and training."
           }
         }
       },
       "deliverables": {
-        "tagline": "What you get",
-        "headlineDark": "A dashboard your team",
-        "headlineBlue": "actually uses",
+        "tagline": "What you receive",
+        "headlineDark": "A dashboard",
+        "headlineBlue": "your team actually uses",
         "items": {
-          "dashboard": "An interactive dashboard published on Power BI Service or Looker, with automatic refresh.",
-          "rls": "Row-level security configured — each user sees only what they're supposed to.",
+          "dashboard": "An interactive dashboard published in Power BI Service or Looker, with automatic refresh.",
+          "rls": "Row-level security configured — every user sees only what they should.",
           "training": "Training for your team so they can explore the data on their own."
         }
       },
@@ -972,28 +1544,28 @@
         "items": {
           "duration": {
             "label": "Duration",
-            "description": "Varies by the complexity of the data model; estimated once available sources are known."
+            "description": "Varies by the complexity of the data model; estimated after reviewing the available sources."
           },
           "workMode": {
-            "label": "Way of working",
+            "label": "Work mode",
             "description": "Requires read-only access to your data sources — no write access or control over your systems."
           }
         }
       },
       "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
         "items": {
           "coo": {
-            "title": "A COO with no real-time visibility",
+            "title": "COO with no real-time visibility",
             "description": "Depends on manual reports that arrive late and already outdated."
           },
           "dataTeam": {
-            "title": "A data team without the capacity to build the visual layer",
+            "title": "Data team without the capacity to build the visual interface",
             "description": "Already has clean data, but is missing the consumption layer."
           },
           "multiRole": {
-            "title": "A company with multiple roles that need to see different things",
+            "title": "Company with multiple roles that need to see different things",
             "description": "Needs real governance over who sees what information."
           }
         }
@@ -1015,18 +1587,18 @@
           },
           "buildsWarehouse": {
             "question": "Do you also build the data warehouse if it doesn't exist?",
-            "answer": "Not as part of this service; if your data infrastructure doesn't exist or isn't sufficient, it gets coordinated as an additional Data Engineering project."
+            "answer": "Not as part of this service; if your data infrastructure doesn't exist or is insufficient, it's coordinated as an additional Data Engineering project."
           },
           "licenseCost": {
             "question": "What about the Power BI or Looker license?",
-            "answer": "You acquire it directly; we build on top of whichever platform you choose."
+            "answer": "You acquire it directly; we build on top of whatever platform you choose."
           },
           "rowLevelSecurity": {
             "question": "Can you make sure only certain users see certain information?",
-            "answer": "Yes, that's part of the standard implementation (row-level security)."
+            "answer": "Yes, it's part of the standard implementation (row-level security)."
           },
           "predictiveModels": {
-            "question": "Does this include predictive or AI models?",
+            "question": "Does it include predictive or AI models?",
             "answer": "No, this service is descriptive and diagnostic analytics; for predictive models, see Data Engineering."
           },
           "cost": {
@@ -1036,295 +1608,16 @@
         }
       },
       "seo": {
-        "title": "Dashboards & Data Analytics",
+        "title": "Dashboards and Data Analytics",
         "description": "We turn your metrics into interactive, automated dashboards — Power BI or Looker, with the security and governance your operation needs."
-      }
-    },
-    "dataAnalyticsUseCase": {
-      "hero": {
-        "tagline": "DATA ANALYTICS USE CASES",
-        "headlineDark": "You have the data.",
-        "headlineBlue": "You're missing the right questions to ask it.",
-        "description": "We turn your real business questions into a prioritized, executable roadmap — with quick wins visible in weeks, not months.",
-        "cta": "Define your use cases",
-        "imageAlt": "Data analytics use cases"
-      },
-      "problem": {
-        "tagline": "Why having data isn't the same as using it",
-        "headline": "Accumulating data isn't the same as having direction",
-        "items": {
-          "noOwner": {
-            "title": "Initiatives with no clear business owner",
-            "description": "Data projects that start from IT, without a business area having defined which decision needs to improve."
-          },
-          "everythingPriority": {
-            "title": "Everything looks like a priority, nothing gets prioritized",
-            "description": "Without an objective method for deciding which use case to tackle first, everything competes for attention at once."
-          },
-          "noQuickWins": {
-            "title": "Months of work with nothing tangible to show",
-            "description": "Data projects that promise long-term transformation, with no quick wins along the way to build trust."
-          },
-          "trendDriven": {
-            "title": "Architecture chosen by trend, not real need",
-            "description": "A platform or stack gets picked without a real gap analysis of what the specific use case requires."
-          }
-        }
-      },
-      "process": {
-        "tagline": "A 4-phase system, not a one-off workshop",
-        "headlineDark": "From the business question",
-        "headlineBlue": "to the technical roadmap",
-        "steps": {
-          "workshop": {
-            "title": "DUC-01 — Workshop",
-            "description": "A structured workshop to surface the real business questions your team needs answered, not the ones IT assumes."
-          },
-          "definition": {
-            "title": "DUC-02 — Definition",
-            "description": "We document each use case in a formal record, with business context, data requirements, and expected outcome — validated and approved by your team."
-          },
-          "roadmap": {
-            "title": "DUC-03 — Roadmap",
-            "description": "We prioritize objectively by impact and feasibility, guaranteeing at least one executable quick win in the first few weeks."
-          },
-          "architecture": {
-            "title": "DUC-04 — Architecture",
-            "description": "We define the exact technical path: what stack, what effort, and what gaps need to be closed to build it."
-          }
-        }
-      },
-      "deliverables": {
-        "tagline": "What you get",
-        "headlineDark": "An executable roadmap,",
-        "headlineBlue": "not a list of ideas",
-        "items": {
-          "card": "A DUC-CARD for every use case — a formal document with the business question, the data needed, and the expected outcome.",
-          "roadmap": "A prioritized roadmap — use cases classified into quick win, mid-term, and strategic.",
-          "architecture": "An architecture proposal — recommended stack, gap analysis, and estimated effort, ready to hand off to Data Engineering."
-        },
-        "imageAlt": "Data Analytics Use Case deliverables"
-      },
-      "credibility": {
-        "headline": "Proof of rigor: DAMA-DMBOK",
-        "description": "You're not hiring a brainstorming session. You're hiring a method aligned with an international data management standard, with objective, traceable prioritization."
-      },
-      "logistics": {
-        "tagline": "Zero-friction logistics",
-        "items": {
-          "duration": {
-            "label": "Duration",
-            "description": "A 2-4 hour workshop, with documentation and prioritization completed in the following weeks."
-          },
-          "workMode": {
-            "label": "Way of working",
-            "description": "Based on workshops with your business stakeholders — no permanent system access required, and it doesn't interrupt operations."
-          }
-        }
-      },
-      "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
-        "items": {
-          "cto": {
-            "title": "CTO / Head of Data",
-            "description": "Has the infrastructure but needs the business to define what to build first."
-          },
-          "coo": {
-            "title": "COO",
-            "description": "Knows there's value in the company's data, but no one has translated it into a concrete plan."
-          },
-          "scattered": {
-            "title": "A company with data scattered across teams",
-            "description": "Each team has its own metrics, and no one has prioritized what to solve first at the organizational level."
-          }
-        }
-      },
-      "cta": {
-        "headline": "Stop accumulating data without direction. Start with a real business question.",
-        "description": "",
-        "cta": "Define your use cases"
-      },
-      "faq": {
-        "tagline": "Frequently asked questions",
-        "headline": "Frequently",
-        "headlineHighlight": "Asked Questions",
-        "description": "",
-        "items": {
-          "needsDHC": {
-            "question": "Do I need to have done a Data Health Check first?",
-            "answer": "It's not required. If you already know your infrastructure is solid, you can start here directly; if you're not sure, DUC-01 includes a quick validation."
-          },
-          "replacesConsultant": {
-            "question": "Does this replace a data strategy consultant?",
-            "answer": "This isn't a generic brainstorm: every use case ends up documented, objectively prioritized, and paired with a concrete technical path, not just an abstract recommendation."
-          },
-          "duration": {
-            "question": "How long does the whole process take?",
-            "answer": "The initial workshop takes 2 to 4 hours; documenting and prioritizing the use cases takes a few additional weeks, depending on how many are prioritized."
-          },
-          "splitPhases": {
-            "question": "Can I hire just the workshop, or just the architecture phase?",
-            "answer": "The 4 phases are sold as a single system — each one feeds directly into the next, so they aren't split up separately."
-          },
-          "afterRoadmap": {
-            "question": "What happens after I receive the roadmap?",
-            "answer": "You can move straight into Data Engineering with the technical path already defined, or take whatever time you need before deciding."
-          },
-          "cost": {
-            "question": "How much does it cost?",
-            "answer": "It's quoted based on how many use cases get prioritized and the complexity of your organization; we define it in the first conversation."
-          }
-        }
-      },
-      "seo": {
-        "title": "Data Analytics Roadmap & Use Cases",
-        "description": "We turn your real business questions into a prioritized, executable roadmap — with quick wins visible in weeks, not months."
-      }
-    },
-    "dataConsulting": {
-      "hero": {
-        "tagline": "STRATEGIC DATA CONSULTING",
-        "headlineDark": "Most companies don't need more data.",
-        "headlineBlue": "They need to know what to do with what they already have.",
-        "description": "We assess where you stand and define what to build first — with evidence, not opinion.",
-        "cta": "Let's talk about your data",
-        "imageAlt": "Strategic data consulting"
-      },
-      "problem": {
-        "tagline": "Why most data initiatives never take off",
-        "headline": "The problem is almost never the tool",
-        "items": {
-          "decisions": {
-            "title": "Decisions made blind",
-            "description": "Teams keep deciding by gut feeling because they don't trust the numbers they have — or because different areas arrive at different figures for the same metric. Without a reliable source, every major decision turns into a negotiation over who's right, not over what to do."
-          },
-          "tools": {
-            "title": "Investing in tools without a prior diagnosis",
-            "description": "Companies buying dashboards, BI platforms, or AI projects before knowing whether their data infrastructure can support them. The result: budget spent on a solution that inherits the same problems it had before."
-          },
-          "direction": {
-            "title": "Data with no business direction",
-            "description": "Sources, tables, and reports pile up, but no one has translated that into concrete business questions. The technical team doesn't know what to prioritize because no one has defined what decision each piece of data should enable."
-          },
-          "quickWins": {
-            "title": "Scattered initiatives with no quick wins",
-            "description": "Data projects that promise transformation in 12-18 months, with nothing tangible in the first few weeks — eroding executive confidence before the project can prove any value."
-          }
-        }
-      },
-      "offerings": {
-        "tagline": "Two ways to bring clarity, depending on where you are",
-        "headlineDark": "Diagnosis or direction —",
-        "headlineBlue": "it depends on what you already know",
-        "items": {
-          "dhc": {
-            "title": "Data Health Check (DHC)",
-            "whatIsIt": "Not sure if your data infrastructure can support what you want to build? We assess 6 dimensions of your operation and tell you, with evidence, where you stand.",
-            "link": "View DHC page →"
-          },
-          "duc": {
-            "title": "Data Analytics Use Case (DUC)",
-            "whatIsIt": "Already know you have data but not which questions to ask of it? We turn your real business questions into a prioritized, executable roadmap.",
-            "link": "View DUC page →"
-          }
-        },
-        "note": "Note: these aren't sequential or mutually required — each company enters through whichever one fits."
-      },
-      "deliverables": {
-        "tagline": "What you get",
-        "headlineDark": "A plan you can execute,",
-        "headlineBlue": "not one more opinion",
-        "items": {
-          "diagnosis": "A diagnosis or map of use cases, with evidence and prioritization.",
-          "roadmap": "An executable roadmap — what to build first and why.",
-          "engineering": "A clear path to Data Engineering, if you decide to move into implementation."
-        },
-        "imageAlt": "Data Consulting deliverables"
-      },
-      "credibility": {
-        "headline": "Proof of rigor: DAMA-DMBOK",
-        "description": "You're not hiring a technical opinion. You're hiring an international data management standard, adapted to the Central American reality."
-      },
-      "logistics": {
-        "tagline": "Zero-friction logistics",
-        "items": {
-          "duration": {
-            "label": "Duration",
-            "description": "Varies by path (DHC and DUC each have their own 2 to 4+ week process)."
-          },
-          "workMode": {
-            "label": "Way of working",
-            "description": "Focused interviews and workshops with your stakeholders — no invasive or permanent access to critical systems."
-          }
-        }
-      },
-      "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
-        "items": {
-          "cto": {
-            "title": "CTO / Head of Data",
-            "description": "Knows something isn't working in their infrastructure or reports, but has no objective evidence to justify a larger investment."
-          },
-          "coo": {
-            "title": "COO / Director of Operations",
-            "description": "Wants data-driven decisions, but doesn't trust current reports because every area tells a different story."
-          },
-          "growth": {
-            "title": "A growing company",
-            "description": "Is scaling fast and its manual data processes no longer keep up with the size of the operation."
-          }
-        }
-      },
-      "cta": {
-        "headline": "Clarity about your data isn't a luxury, it's the first real step.",
-        "description": "",
-        "cta": "Book 30 minutes, no commitment"
-      },
-      "faq": {
-        "tagline": "Frequently asked questions",
-        "headline": "Frequently",
-        "headlineHighlight": "Asked Questions",
-        "description": "",
-        "items": {
-          "whyNotBuild": {
-            "question": "Why can't we just start building directly?",
-            "answer": "You could — and sometimes that's the right call. But if you've never diagnosed your infrastructure or prioritized use cases, building without that clarity almost always ends up solving the wrong problem, or building something no one in the business ends up using."
-          },
-          "genericConsulting": {
-            "question": "Is this the same as generic \"digital transformation\" consulting?",
-            "answer": "No. We don't hand you a PDF of abstract recommendations. DHC delivers an objective score across 6 dimensions, backed by evidence, not opinion. DUC delivers a DUC-CARD for every use case, with a prioritized roadmap and technical path. Both are anchored in DAMA-DMBOK, the international data management standard — not an improvised framework."
-          },
-          "bothServices": {
-            "question": "Do we need both services (DHC and DUC), or just one?",
-            "answer": "It depends on where you stand. If you already know your infrastructure is solid and just need to define what to build, you can go straight to DUC. If you're not sure about your data foundation, we start with DHC. We define it together in the first conversation — not before."
-          },
-          "howInvasive": {
-            "question": "How invasive is the process for our team?",
-            "answer": "We work through focused interviews and workshops, not permanent access to critical systems. The time we ask of your stakeholders is limited and scheduled in advance."
-          },
-          "notReady": {
-            "question": "What happens if the diagnosis shows we're not ready for what we wanted to do?",
-            "answer": "We tell you directly, without softening it. We'd rather tell you the truth about the real blockers than let you move forward into a project that's going to fail because the foundation wasn't ready."
-          },
-          "cost": {
-            "question": "How much does it cost?",
-            "answer": "Pricing is quoted based on the specific scope of your organization — we don't have a single list price. What we can give you in the first call is clarity on which path (DHC, DUC, or both) makes sense for your case."
-          }
-        }
-      },
-      "seo": {
-        "title": "Strategic Data Consulting",
-        "description": "We assess where you stand and define what to build first — with evidence, not opinion."
       }
     },
     "dataEngineering": {
       "hero": {
         "tagline": "DATA ENGINEERING",
         "headlineDark": "Siloed data is a liability.",
-        "headlineBlue": "Centralized data is your biggest asset.",
-        "description": "We build the infrastructure that cleans, organizes, and centralizes your information — and on that foundation, we apply Machine Learning to predict instead of just looking backward.",
+        "headlineBlue": "Centralized data is your greatest asset.",
+        "description": "We build the infrastructure that cleans, organizes, and centralizes your information — and on that foundation, apply Machine Learning to predict instead of just looking back.",
         "cta": "Talk to our data team",
         "imageAlt": "Data engineering"
       },
@@ -1338,7 +1631,7 @@
           },
           "manualExtraction": {
             "title": "Manual, fragile extraction processes",
-            "description": "Someone exports, merges, and cleans data by hand every week, with guaranteed room for error."
+            "description": "Someone exports, cross-references, and cleans data by hand every week, with guaranteed room for error."
           },
           "doesntScale": {
             "title": "Infrastructure that doesn't scale with the business",
@@ -1346,7 +1639,7 @@
           },
           "dirtyData": {
             "title": "Predictive models built on dirty data",
-            "description": "Investment goes into Machine Learning before there's a clean data foundation to support it."
+            "description": "Investment goes into Machine Learning before having a clean database to support it."
           }
         }
       },
@@ -1364,30 +1657,30 @@
           },
           "ml": {
             "title": "Data Science and Machine Learning",
-            "description": "Custom predictive models (demand, fraud, recommendations), deployed to production via MLOps."
+            "description": "Custom predictive models (demand, fraud, recommendation), deployed to production via MLOps."
           }
         },
-        "note": "Note: these 3 layers aren't sold separately — each project's scope varies, and often all 3 are needed together."
+        "note": "Note: these 3 layers aren't sold separately — the scope of each project varies, and often all 3 are needed together."
       },
       "deliverables": {
-        "tagline": "What you get",
+        "tagline": "What you receive",
         "headlineDark": "A data foundation",
         "headlineBlue": "that supports real decisions",
         "items": {
           "infrastructure": "Centralized infrastructure (Data Warehouse/Lake) as a single source of truth.",
           "pipelines": "Automated pipelines, with no manual extraction or cleaning processes.",
-          "models": "ML models in production, when the use case calls for it, making decisions in real time."
+          "models": "ML models in production, if the use case calls for it, making real-time decisions."
         }
       },
       "credibility": {
         "headline": "50+ BigQuery pipelines in production",
-        "description": "This isn't theory. It's real experience building and maintaining data infrastructure that runs every single day."
+        "description": "This isn't theory. It's real experience building and maintaining data infrastructure that runs every day."
       },
       "caseStudy": {
         "tagline": "Case study",
         "industry": "Marketing",
-        "headline": "How we automated report generation and won back 40 hours/week of data analysis",
-        "summary": "A client with a significant digital advertising presence faced a critical bottleneck: their reporting was built on ad-campaign metrics platforms → spreadsheets with hundreds of formulas → visualization tools (Power BI and Google Data Studio). Every day, the incremental sync of campaign data added more complexity. Reports crashed, filters took up to 4 minutes to run, and the formulas became unmanageable, generating constant errors that compromised data reliability. We ran an exhaustive inventory of every data source, designed a data architecture tailored to the organization, and implemented a robust layer of automated flows and transformations in Google BigQuery. The solution fully replaced the manual spreadsheet logic with reliable, auditable data pipelines.",
+        "headline": "How we automated report generation and saved 40 hours/week in data analysis",
+        "summary": "A client with a significant presence in digital advertising faced a critical bottleneck: their reporting was built on advertising campaign metrics platforms → spreadsheets with hundreds of formulas → visualization tools (Power BI and Google Data Studio). Every day, the incremental sync of advertising campaign data added more complexity. Reports would crash, filters took up to 4 minutes to run, and the formulas became unmanageable, generating constant errors that compromised data reliability. We conducted a thorough inventory of every data source, designed a data architecture tailored to the organization, and implemented a robust layer of automated flows and transformations in Google BigQuery. The solution completely replaced the spreadsheets' manual logic with reliable, auditable data pipelines.",
         "metrics": {
           "hoursSaved": {
             "value": "40 hours/week",
@@ -1403,7 +1696,7 @@
           }
         },
         "relatedService": {
-          "label": "Dashboards & Data Analytics",
+          "label": "Dashboards and Data Analytics",
           "href": "/services/dashboards-analytics-interfaces"
         },
         "date": "February 2025",
@@ -1421,25 +1714,25 @@
             "description": "Varies by scope (architecture, pipelines, ML, or all 3); defined after requirements gathering."
           },
           "workMode": {
-            "label": "Way of working",
-            "description": "Read access to your data sources — it doesn't interrupt your production transactional systems while the new infrastructure is being built."
+            "label": "Work mode",
+            "description": "Read access to your data sources — doesn't disrupt your live transactional systems while the new infrastructure is built."
           }
         }
       },
       "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
         "items": {
           "cto": {
-            "title": "A CTO with data fragmented across systems",
-            "description": "Needs a single source of truth before they can trust any report or model."
+            "title": "CTO with data fragmented across systems",
+            "description": "Needs a single source of truth before trusting any report or model."
           },
           "coo": {
-            "title": "A COO who wants to automate decisions, not just report on them",
+            "title": "COO who wants to automate decisions, not just report them",
             "description": "Already has reports, but wants the system to decide or recommend, not just show numbers."
           },
           "mlFailed": {
-            "title": "A company that already tried Machine Learning and it failed",
+            "title": "Company that already tried Machine Learning and it failed",
             "description": "Invested in a predictive model that never worked well because the underlying data wasn't ready."
           }
         }
@@ -1456,8 +1749,8 @@
         "description": "",
         "items": {
           "needsDHCorDUC": {
-            "question": "Do we need to do a Data Health Check or DUC before this service?",
-            "answer": "It's not required. If you already know what you need to build, we can go straight to gathering technical requirements."
+            "question": "Do we need a Data Health Check or DUC before this service?",
+            "answer": "It's not required. If you already know what you need to build, we can go straight to technical requirements gathering."
           },
           "includesDashboards": {
             "question": "Does this include building dashboards too?",
@@ -1477,269 +1770,113 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on data volume, the number of sources to integrate, and whether it includes a Machine Learning component; we define it in the first conversation."
+            "answer": "It's quoted based on data volume, number of sources to integrate, and whether it includes a Machine Learning component; we define it in the first conversation."
           }
         }
       },
       "seo": {
-        "title": "Data Engineering Services",
-        "description": "We build the infrastructure that cleans, organizes, and centralizes your information — and on that foundation, we apply Machine Learning to predict instead of just looking backward."
+        "title": "Data Engineering",
+        "description": "We build the infrastructure that cleans, organizes, and centralizes your information — and on that foundation, apply Machine Learning to predict instead of just looking back."
       }
     },
-    "dataHealthCheck": {
+    "customAIAgents": {
       "hero": {
-        "tagline": "DATA HEALTH DIAGNOSIS",
-        "headlineDark": "Building without a diagnosis",
-        "headlineBlue": "is guessing",
-        "description": "We assess 6 dimensions of your data infrastructure and tell you, with evidence, how ready your company is to scale.",
-        "cta": "Request your Data Health Check",
-        "imageAlt": "Data health diagnosis"
+        "tagline": "CUSTOM AI AGENTS",
+        "headlineDark": "Generic AI has limits.",
+        "headlineBlue": "AI that knows your business doesn't.",
+        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations.",
+        "cta": "Tell us what you want to automate",
+        "imageAlt": "Custom AI agents"
       },
       "problem": {
-        "tagline": "What almost no one diagnoses before investing",
-        "headline": "The symptom is never the real problem",
+        "tagline": "Why generic AI doesn't solve real business problems",
+        "headline": "ChatGPT doesn't know your company. That's why it can't solve your problems.",
         "items": {
-          "dashboards": {
-            "title": "Dashboards nobody uses",
-            "description": "The visualization tool was built before fixing the quality of the data feeding it. The result is a pretty report nobody checks because nobody trusts the numbers it shows."
+          "dontKnowData": {
+            "title": "AI tools that don't know your data",
+            "description": "Generic chatbots with no access to your real information, so they make up answers or give generalities."
           },
-          "ownTruth": {
-            "title": "Every area has its own version of the truth",
-            "description": "There's no single source of truth, so meetings turn into debates over which number is correct instead of conversations about what decision to make."
+          "stopsAtResponse": {
+            "title": "Automation that stops at the response",
+            "description": "The AI answers, but can't execute the actual action (create a ticket, update a record, send an email)."
           },
-          "silentFailures": {
-            "title": "AI projects that fail silently",
-            "description": "Investment goes into models or automation on top of data that was never ready to support them — and the project fails because of the foundation, not the technology."
+          "hallucinations": {
+            "title": "Justified fear of hallucinations",
+            "description": "The uncertainty of AI making up information has kept many companies from adopting it in critical processes."
           },
-          "unknownSeverity": {
-            "title": "Nobody really knows how bad the problem is",
-            "description": "There's a general sense that \"the data is a mess,\" but no objective evidence of where the problem is or how urgent it is to fix."
-          }
-        }
-      },
-      "dimensions": {
-        "tagline": "6 dimensions of your data operation",
-        "headline": "It's not opinion, it's evidence",
-        "items": {
-          "sources": {
-            "title": "Data sources",
-            "description": "The origin and reliability of where the information comes from."
-          },
-          "infrastructure": {
-            "title": "Infrastructure",
-            "description": "How information is stored and moved today."
-          },
-          "quality": {
-            "title": "Quality and consistency",
-            "description": "How reliable and clean the data is."
-          },
-          "governance": {
-            "title": "Governance and access",
-            "description": "Who controls what, and under what rules."
-          },
-          "consumption": {
-            "title": "Consumption and visibility",
-            "description": "How dashboards and reports are used today."
-          },
-          "team": {
-            "title": "Team and documentation",
-            "description": "How prepared the internal team is to sustain all of this."
-          }
-        }
-      },
-      "deliverables": {
-        "tagline": "What you get",
-        "headlineDark": "An action plan,",
-        "headlineBlue": "not a PDF of opinions",
-        "items": {
-          "report": "An executive report with scoring — 0 to 10 on each dimension, with critical blockers identified.",
-          "remediation": "A technical remediation plan — what to fix first and why, with owners assigned.",
-          "roadmap": "A visual roadmap for the First Build Cycle — what to build first, in an executive format for the board."
-        },
-        "imageAlt": "Data Health Check deliverables"
-      },
-      "credibility": {
-        "headline": "Proof of rigor: DAMA-DMBOK",
-        "description": "You're not hiring a technical opinion. You're hiring an international data management standard, adapted to the Central American reality."
-      },
-      "logistics": {
-        "tagline": "Zero-friction logistics",
-        "items": {
-          "duration": {
-            "label": "Duration",
-            "description": "A structured process, with focused interviews and workshops — not an ongoing audit."
-          },
-          "workMode": {
-            "label": "Way of working",
-            "description": "No invasive access to critical systems — we work with existing documentation and direct conversation with your team."
-          }
-        }
-      },
-      "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
-        "items": {
-          "cto": {
-            "title": "CTO / Head of Data",
-            "description": "Suspects there are deeper problems but has no objective evidence to justify a bigger investment."
-          },
-          "coo": {
-            "title": "COO",
-            "description": "Wants to invest in analytics or AI, but needs to know first whether the foundation can support it."
-          },
-          "failedBefore": {
-            "title": "A company that already tried a data project and it failed",
-            "description": "Wants to understand what went wrong before trying again."
-          }
-        }
-      },
-      "cta": {
-        "headline": "Building without a diagnosis is guessing. Start with evidence.",
-        "description": "",
-        "cta": "Request your Data Health Check"
-      },
-      "faq": {
-        "tagline": "Frequently asked questions",
-        "headline": "Frequently",
-        "headlineHighlight": "Asked Questions",
-        "description": "",
-        "items": {
-          "whyDiagnose": {
-            "question": "Why do I need a diagnosis before investing in tools?",
-            "answer": "Because a new tool built on top of messy data only inherits the same mess, faster and more expensively."
-          },
-          "itAudit": {
-            "question": "Is this the same as an IT audit?",
-            "answer": "No. We don't assess legal compliance or perimeter security; we assess whether your data can support the decisions and projects you want to build."
-          },
-          "howInvasive": {
-            "question": "How invasive is this for our team?",
-            "answer": "Focused interviews and review of existing documentation — no permanent access to critical systems."
-          },
-          "notReady": {
-            "question": "What happens if the result is that we're not ready?",
-            "answer": "We tell you with evidence, not opinion, and hand you the exact plan to get there."
-          },
-          "duration": {
-            "question": "How long does the process take?",
-            "answer": "It varies based on the complexity of your organization; defined in the first conversation."
-          },
-          "cost": {
-            "question": "How much does it cost?",
-            "answer": "It's quoted based on the specific scope; we define it together after understanding your context."
-          }
-        }
-      },
-      "seo": {
-        "title": "Data Health Check Assessment",
-        "description": "We assess 6 dimensions of your data infrastructure and tell you, with evidence, how ready your company is to scale."
-      }
-    },
-    "digitalProduct": {
-      "hero": {
-        "tagline": "DIGITAL PRODUCT MODERNIZATION",
-        "headlineDark": "Your legacy system doesn't need another patch.",
-        "headlineBlue": "It needs to be rebuilt right.",
-        "description": "From the system nobody wants to touch anymore to the digital product your operation needs today — with the right design and architecture from the start.",
-        "cta": "Tell us about your project",
-        "imageAlt": "Digital product modernization"
-      },
-      "problem": {
-        "tagline": "Why legacy systems become a burden",
-        "headline": "Every patch costs more than the last one",
-        "items": {
-          "survived": {
-            "title": "Systems that outlived the person who built them",
-            "description": "Software critical to the operation, but that no one on the team fully understands or dares to modify anymore."
-          },
-          "manualWorkarounds": {
-            "title": "Manual processes compensating for what the system no longer does",
-            "description": "The team has built workarounds and parallel spreadsheets to survive the limitations of the current system."
-          },
-          "datedInterfaces": {
-            "title": "Interfaces that were modern 10 years ago",
-            "description": "The business logic may still be valid, but the user experience drives away the people who use it every day."
-          },
-          "fearOfBreaking": {
-            "title": "Fear of touching what already works \"more or less\"",
-            "description": "Modernization gets postponed indefinitely because no one wants to be responsible for breaking something critical."
+          "noDataFoundation": {
+            "title": "AI projects with no data foundation ready",
+            "description": "An agent gets built on top of messy information, and the result inherits that mess."
           }
         }
       },
       "offerings": {
-        "tagline": "From validation to a product in production",
-        "headlineDark": "Design, build, and analytics —",
-        "headlineBlue": "in the right order",
-        "flowLabel": "Main flow",
-        "branchLabel": "Specialized branch",
+        "tagline": "Two ways forward, depending on where you are",
+        "headlineDark": "Diagnosis or build —",
+        "headlineBlue": "you decide where to start",
         "items": {
-          "design": {
-            "title": "Product Design & Discovery",
-            "whatIsIt": "We validate that we're solving the right problem before writing a single line of code: user research, information architecture, and visual design on top of your existing brand.",
-            "link": "View Product Design & Discovery page →"
+          "rutaIA": {
+            "title": "Ruta IA",
+            "whatIsIt": "Not sure if your company is ready to adopt AI? We assess your maturity across 6 dimensions and deliver an executable roadmap.",
+            "link": "View Ruta IA →"
           },
-          "development": {
-            "title": "Application Development",
-            "whatIsIt": "We build the web or mobile application on cloud-native architecture that actually scales, connecting validated design with your operation's real business logic.",
-            "link": "View Application Development page →"
-          },
-          "dashboards": {
-            "title": "Dashboards & Analytics Interfaces",
-            "whatIsIt": "If you already have your data use cases defined, we turn that information into visual dashboards your team actually uses to make decisions.",
-            "link": "View Dashboards & Analytics Interfaces page →"
+          "agentDevelopment": {
+            "title": "Agent Development",
+            "whatIsIt": "Already know what process you want to automate? We build the custom AI agent, connected to your real systems.",
+            "link": "View Agent Development page →"
           }
         },
-        "note": "Note: Design & Discovery and Application Development usually go together as a flow; Dashboards requires having your use cases already defined through DUC (Data Consulting)."
+        "note": "Note: they're independent of each other — going through Ruta IA before building an agent isn't required."
       },
       "deliverables": {
-        "tagline": "What you get",
-        "headlineDark": "A product in production,",
-        "headlineBlue": "not a pretty prototype",
+        "tagline": "What you receive",
+        "headlineDark": "An agent that executes,",
+        "headlineBlue": "not just responds",
         "items": {
-          "prototypes": "Prototypes validated with real users — before investing in development.",
-          "application": "An application running in a scalable cloud environment — with CI/CD and monitoring from day one.",
-          "designSystem": "A reusable design system — so the product keeps evolving without starting from scratch each time."
+          "roadmapOrAgent": "An AI adoption roadmap (if you go through Ruta IA) or a working agent in production (if you go through Agent Development).",
+          "realConnection": "Real connection to your data and systems — no hallucinations, with the tools needed to take action.",
+          "referenceCases": "Real reference cases — like Dupla, the agent we built for MadGroup."
         }
       },
       "credibility": {
-        "headline": "Proof of rigor: Design Thinking as a methodology, not a buzzword",
-        "description": "We don't design based on taste. Every visual and flow decision is backed by real research with your users, not design trends."
+        "headline": "Dupla, MadGroup's AI agent",
+        "description": "It's not a concept. Dupla already runs connecting multiple digital campaign metrics data sources for MadGroup, in production."
       },
       "logistics": {
         "tagline": "Zero-friction logistics",
         "items": {
           "duration": {
             "label": "Duration",
-            "description": "Varies depending on whether it's design, development, or both — estimated in the first conversation based on real scope."
+            "description": "Varies depending on whether it's assessment (Ruta IA: 2-3 weeks) or build (Agent Development: depends on complexity)."
           },
           "workMode": {
-            "label": "Way of working",
-            "description": "Co-creation and validation workshops with your team — not an outside team working blind for months without feedback."
+            "label": "Work mode",
+            "description": "Requires access to your knowledge base and relevant systems — with clear guardrails defined from the start."
           }
         }
       },
       "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
+        "tagline": "Who it's for",
+        "headline": "Do you recognize yourself here?",
         "items": {
           "cto": {
-            "title": "A CTO with a critical legacy system",
-            "description": "Knows it needs modernizing but doesn't want to risk the current operation."
+            "title": "CTO who already tried generic AI and it wasn't enough",
+            "description": "Needs an agent connected to the company's real data."
           },
           "coo": {
-            "title": "A COO tired of parallel manual processes",
-            "description": "Wants the system to do what the team currently compensates for with spreadsheets."
+            "title": "COO who wants to automate a repetitive process",
+            "description": "Isn't looking for a chatbot, wants the agent to execute the full task."
           },
-          "triedBefore": {
-            "title": "A company that already tried modernizing and the result went unused",
-            "description": "Wants to make sure this time the design gets validated with real users before building."
+          "noWhereToStart": {
+            "title": "Company that still doesn't know where to start with AI",
+            "description": "Needs an honest diagnosis first before investing."
           }
         }
       },
       "cta": {
-        "headline": "Modernizing isn't patching. It's rebuilding right, once.",
+        "headline": "The AI that transforms your business is the one that knows your business.",
         "description": "",
-        "cta": "Tell us about your project"
+        "cta": "Tell us what you want to automate"
       },
       "faq": {
         "tagline": "Frequently asked questions",
@@ -1747,198 +1884,61 @@
         "headlineHighlight": "Asked Questions",
         "description": "",
         "items": {
-          "partialModernization": {
-            "question": "Do you have to redesign everything, or can you modernize just one part?",
-            "answer": "It depends on the scope we define together; we can start with the most critical module and expand from there."
+          "needsRutaIA": {
+            "question": "Do we need to do Ruta IA before building an agent?",
+            "answer": "It's not required; if you already know exactly which process to automate, we can go straight to Agent Development."
           },
-          "legacyData": {
-            "question": "What happens to the data we already have in the legacy system?",
-            "answer": "It gets migrated as part of the project; if the migration is complex, it may require support from Data Engineering."
+          "hallucinationRisk": {
+            "question": "How real is the risk of AI making up information?",
+            "answer": "It's real if it's not implemented well; that's why we build with RAG and specific controls so the agent admits when it doesn't know something, instead of guessing."
           },
-          "skipDesign": {
-            "question": "Do we need the design service if we already have wireframes ready?",
-            "answer": "No, you can go straight to Application Development if you already have validated design."
+          "realExperience": {
+            "question": "Do you have real experience, or is it just theory?",
+            "answer": "Yes: we built Dupla, MadGroup's AI agent, which connects multiple digital campaign metrics data sources."
           },
-          "duration": {
-            "question": "How long does it take to modernize a legacy system?",
-            "answer": "It varies a lot depending on complexity; we define it precisely after understanding your current system."
+          "needsCleanData": {
+            "question": "Do we need our data organized before starting?",
+            "answer": "It helps a lot to have it clean; if it isn't, we can coordinate with Data Engineering first."
           },
-          "worseThanExpected": {
-            "question": "What happens if, during the project, we find something worse than expected in the current system?",
-            "answer": "We tell you right away and adjust scope with evidence — we don't let it be a surprise at the end."
+          "unsupervisedDecisions": {
+            "question": "Can the agent make decisions on its own, without supervision?",
+            "answer": "It can be configured with human-in-the-loop supervision for critical decisions, based on what we define together."
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the specific scope of the project; we give you clarity on the range in the first call."
+            "answer": "It varies by format (Ruta IA starts at USD 4,000; Agent Development is quoted based on technical scope)."
           }
         }
       },
       "seo": {
-        "title": "Digital Product Modernization",
-        "description": "From the system nobody wants to touch anymore to the digital product your operation needs today — with the right design and architecture from the start."
-      }
-    },
-    "productDesignDiscovery": {
-      "hero": {
-        "tagline": "DIGITAL PRODUCT DESIGN",
-        "headlineDark": "The problem isn't your design.",
-        "headlineBlue": "It's that you never validated the problem.",
-        "description": "Real user research, information architecture, and visual design — before a single line of code gets written.",
-        "cta": "Start your product discovery",
-        "imageAlt": "Digital product design"
-      },
-      "problem": {
-        "tagline": "Why digital products fail before they're born",
-        "headline": "Nobody asked if this was even what needed to be built",
-        "items": {
-          "unvalidated": {
-            "title": "Requirements that never went through the end user",
-            "description": "What the business believes is needed gets documented, without validating it with the people who will actually use the product."
-          },
-          "skipToHiFi": {
-            "title": "Prototypes that jump straight to high fidelity",
-            "description": "Investment goes into visual design before validating that the flow and structure make sense."
-          },
-          "noDesignSystem": {
-            "title": "Nonexistent or inconsistent design systems",
-            "description": "Every new screen gets designed from scratch, with no reusable components or visual consistency."
-          },
-          "hiddenFriction": {
-            "title": "Friction the business doesn't see but the user feels",
-            "description": "Complicated flows that nobody tested with real users before building them."
-          }
-        }
-      },
-      "process": {
-        "tagline": "3 phases, in the right order",
-        "headlineDark": "Empathy, structure, and aesthetics —",
-        "headlineBlue": "in that order",
-        "steps": {
-          "designThinking": {
-            "title": "Design Thinking",
-            "description": "Empathy and discovery with real users, defining the real problem, rapid low-fidelity prototyping."
-          },
-          "ux": {
-            "title": "UX",
-            "description": "Information architecture, wireframes, user flows, and usability testing."
-          },
-          "ui": {
-            "title": "UI",
-            "description": "Design system, visual design on top of your brand, micro-interactions."
-          }
-        }
-      },
-      "deliverables": {
-        "tagline": "What you get",
-        "headlineDark": "Prototypes ready to build,",
-        "headlineBlue": "not sketches",
-        "items": {
-          "prototypes": "High-fidelity prototypes validated with real users.",
-          "designSystem": "A reusable design system for the entire product.",
-          "userFlows": "Documented user flows, ready for any development team to implement."
-        }
-      },
-      "credibility": {
-        "headline": "Proof of rigor: Design Thinking as a methodology, not a buzzword",
-        "description": "We don't design based on taste. Every decision is backed by real research with your users."
-      },
-      "logistics": {
-        "tagline": "Zero-friction logistics",
-        "items": {
-          "duration": {
-            "label": "Duration",
-            "description": "Varies based on product complexity; estimated in the first conversation."
-          },
-          "workMode": {
-            "label": "Way of working",
-            "description": "Co-creation workshops with your team and end users — not a designer working in isolation for weeks."
-          }
-        }
-      },
-      "personas": {
-        "tagline": "Who this is for",
-        "headline": "Does this sound like you?",
-        "items": {
-          "newProduct": {
-            "title": "A new, unvalidated product",
-            "description": "You have the business idea but don't know if the flow makes sense to real users."
-          },
-          "redesign": {
-            "title": "Redesign of a product nobody uses",
-            "description": "The system exists, but users avoid it or get frustrated with it."
-          },
-          "noDesigner": {
-            "title": "A technical team with no in-house designer",
-            "description": "You need prototypes ready to build, without hiring a full-time role."
-          }
-        }
-      },
-      "cta": {
-        "headline": "Designing well isn't optional. It's what decides whether the product gets used or not.",
-        "description": "",
-        "cta": "Start your product discovery"
-      },
-      "faq": {
-        "tagline": "Frequently asked questions",
-        "headline": "Frequently",
-        "headlineHighlight": "Asked Questions",
-        "description": "",
-        "items": {
-          "alsoBuilds": {
-            "question": "Do you also build the product, or just design it?",
-            "answer": "We can do both (see Application Development), but you can also keep just the design and build it with your own team."
-          },
-          "needsBrand": {
-            "question": "Do we need a defined brand before starting?",
-            "answer": "Yes, we use your existing brand guidelines; we don't include brand creation from scratch."
-          },
-          "duration": {
-            "question": "How long does the design process take?",
-            "answer": "It depends on the product's complexity; we give you an estimate after understanding the scope."
-          },
-          "realUsers": {
-            "question": "Do you validate with real users or just with the internal team?",
-            "answer": "With real users whenever possible — it's the foundation of the entire Design Thinking process."
-          },
-          "ideaDoesntWork": {
-            "question": "What happens if, during discovery, we realize the original idea doesn't work?",
-            "answer": "We tell you with evidence from the research, and adjust direction before any investment goes into development."
-          },
-          "cost": {
-            "question": "How much does it cost?",
-            "answer": "It's quoted based on the product's complexity and scope; we define it in the first conversation."
-          }
-        }
-      },
-      "seo": {
-        "title": "Product Design & Discovery",
-        "description": "Real user research, information architecture, and visual design — before a single line of code gets written."
+        "title": "Custom AI Agents",
+        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations."
       }
     },
     "seo": {
-      "title": "Data Engineering & AI Consulting Services",
-      "description": "We help companies across Latin America and the U.S. build scalable, professional-grade data pipelines"
+      "title": "Data Engineering and AI Consulting",
+      "description": "We help companies in Latin America and the United States build scalable, professional-grade data pipelines"
     }
   },
   "contact": {
     "tagline": "The form.",
-    "headline": "Let's Talk Data!",
-    "description": "Fill out this form to get a 30-minute Data Strategy Session with one of our tech leaders.",
+    "headline": "Let's talk!",
+    "description": "Fill out this form to get a 30-minute session with one of our technical leaders.",
     "form": {
       "firstName": "First Name",
       "lastName": "Last Name",
-      "email": "Corporate email",
-      "phone": "Phone number",
-      "position": "Job Position",
+      "email": "Work Email",
+      "phone": "Phone Number",
+      "position": "Position",
       "referral": "How did you hear about us?",
       "comments": "Additional comments for our team",
-      "commentsPlaceholder": "Space to let us know how can we help in your own words...",
+      "commentsPlaceholder": "Space to tell us how we can help you, in your own words...",
       "pleaseSelect": "Please select",
-      "privacy": "By submitting this form, you acknowledge that Cabana Data will process your personal information in accordance with their privacy policy",
+      "privacy": "By submitting this form, you acknowledge that Cabana Data will process your personal information in accordance with its privacy policy",
       "submit": "Send me scheduling options",
-      "submitting": "Sending...",
+      "submitting": "Submitting...",
       "submitAnother": "Submit another request",
-      "title": "Schedule your session",
+      "title": "Book your session",
       "timeEstimate": "Takes 1 minute",
       "responseTime": "We respond within 24 business hours."
     },
@@ -1959,7 +1959,7 @@
       "other": "Other"
     },
     "success": {
-      "title": "Thank you for reaching out!",
+      "title": "Thanks for reaching out!",
       "message": "We've received your request and will send you scheduling options shortly."
     },
     "error": {
@@ -1967,29 +1967,29 @@
       "default": "Something went wrong. Please try again."
     },
     "sidebar": {
-      "paragraph1": "If becoming a data-driven company feels daunting, this session is for you. Success with data requires a full review across your people, processes, and technology.",
-      "paragraph2": "Connect with one of our experts who will assess your specific challenges and map out the concrete steps to empower your team with data-driven decision-making.",
-      "notAboutData": "Not about Data?",
+      "paragraph1": "If becoming a data-driven company feels overwhelming, we can help.",
+      "paragraph2": "Connect with one of our experts, who will assess your specific challenges and map out the concrete steps to empower your team with data-driven decision-making.",
+      "notAboutData": "Not about data?",
       "connectLinkedIn": "Connect with us on",
       "linkedin": "LinkedIn.",
-      "calendarCta": "Schedule on Google Calendar"
+      "calendarCta": "Book on Google Calendar"
     },
     "seo": {
       "title": "Contact Us",
-      "description": "Get a free session with our technology experts. Let's discuss how we can help transform your business with modern solutions."
+      "description": "We offer a free session with our technology experts. Let's discuss how we can help transform your business with modern solutions."
     }
   },
   "blog": {
     "postSidebar": {
-      "badge": "Data Consulting",
+      "badge": "Data consulting",
       "heading": "Want to know where your company stands?",
-      "description": "Leave us your information and one of our experts will reach out to discuss the state of your data infrastructure.",
+      "description": "Leave us your information and one of our experts will get in touch to talk about the state of your data infrastructure.",
       "submitLabel": "I want to talk to an expert →",
       "disclaimer": "No commitment · Response within 24h"
     },
-    "title": "All Posts",
-    "postsFound": "{count} post(s) found",
-    "search": "Search posts...",
+    "title": "All Articles",
+    "postsFound": "{count} article(s) found",
+    "search": "Search articles...",
     "filters": {
       "allTags": "All Tags",
       "allCategories": "All Categories",
@@ -1999,7 +1999,7 @@
       "noAuthors": "No authors found",
       "reset": "Reset Filters"
     },
-    "empty": "No posts found",
+    "empty": "No articles found",
     "publishedBy": "Published {date} by"
   },
   "common": {
@@ -2014,8 +2014,8 @@
   },
   "ourClients": {
     "eyebrow": "Trusted By",
-    "headline": "Companies Across Costa Rica and LATAM",
-    "description": "A selection of the organizations we've worked with across data engineering, AI, and custom analytics projects.",
+    "headline": "Organizations",
+    "description": "Already running on structured data, custom applications, and AI in production.",
     "metric": ""
   },
   "caseStudies": {
@@ -2027,14 +2027,14 @@
     },
     "grid": {
       "readCaseStudy": "Read case study",
-      "comingSoon": "Coming soon",
+      "comingSoon": "Coming Soon",
       "cases": {
         "personalytics": {
-          "title": "Crafting a One-of-a-Kind Media Planning Platform",
+          "title": "Building a One-of-a-Kind Media Planning Platform",
           "description": "We designed the data architecture and reactive pipelines behind Personalytics — giving London Media a proprietary planning product powered by unified, real-time audience intelligence.",
-          "tag": "Reactive Data Analysis",
+          "tag": "Reactive Data Analytics",
           "stat1Label": "Data sources unified",
-          "stat2Label": "Manual work reduction"
+          "stat2Label": "Reduction in manual work"
         }
       }
     },
@@ -2042,8 +2042,8 @@
       "hero": {
         "backLink": "All Case Studies",
         "eyebrow": "Case Study",
-        "headline": "Crafting a One-of-a-Kind",
-        "headlineHighlight": "Media Planning Platform"
+        "headline": "Building a",
+        "headlineHighlight": "One-of-a-Kind Media Planning Platform"
       },
       "clientOverview": {
         "labelClient": "Client",
@@ -2051,60 +2051,60 @@
         "labelIndustry": "Industry",
         "labelService": "Service",
         "labelYear": "Year",
-        "valueIndustry": "Media & Advertising",
-        "valueService": "Reactive Data Analysis",
-        "description1": "London Media is a full-service media agency specializing in data-driven campaign planning and audience targeting for brands across Latin America. With a growing client base and increasingly complex data requirements, they needed a unified platform that could centralize media performance data and power smarter planning decisions.",
-        "description2": "Personalytics is their proprietary media planning tool — built from the ground up alongside Cabana Data to transform raw audience and performance signals into actionable planning intelligence."
+        "valueIndustry": "Media and Advertising",
+        "valueService": "Reactive Data Analytics",
+        "description1": "London Media is a full-service media agency specialized in data-driven campaign planning and audience segmentation for brands across Latin America. With a growing client base and increasingly complex data requirements, they needed a unified platform to centralize media performance data and power smarter planning decisions.",
+        "description2": "Personalytics is their proprietary media planning tool — built from the ground up alongside Cabana Data to turn raw audience and performance signals into actionable planning intelligence."
       },
       "challenge": {
-        "badge": "Reactive Data Analysis",
+        "badge": "Reactive Data Analytics",
         "title": "The Challenge",
-        "p1": "London Media was operating across multiple disconnected data sources — ad platforms, CRM tools, spreadsheet exports, and third-party audience providers. Campaign planners spent hours manually consolidating data before any meaningful analysis could begin.",
-        "p2": "The absence of a unified data layer made it impossible to build a reliable, real-time planning product. Personalytics needed a solid data foundation before a single feature could be shipped.",
-        "p3": "The team needed a partner who could design the data architecture from scratch, integrate heterogeneous sources, and deliver a reactive pipeline that could power a product used daily by media planners.",
+        "p1": "London Media operated with multiple disconnected data sources — ad platforms, CRM tools, spreadsheet exports, and third-party audience providers. Campaign planners spent hours manually consolidating data before any meaningful analysis could begin.",
+        "p2": "The lack of a unified data layer made it impossible to build a reliable, real-time planning product. Personalytics needed a solid data foundation before a single feature could launch.",
+        "p3": "The team needed a partner who could design the data architecture from scratch, integrate heterogeneous sources, and deliver a reactive pipeline capable of powering a product used daily by media planners.",
         "imagePlaceholder": "Image coming soon"
       },
       "approach": {
         "eyebrow": "Strategy",
         "title": "Our Approach",
-        "description": "Rather than patching over existing chaos, we built the data infrastructure Personalytics needed to be a world-class product.",
+        "description": "Instead of patching the existing chaos, we built the data infrastructure Personalytics needed to be a world-class product.",
         "imagePlaceholder": "Image coming soon",
-        "step1Title": "Data Strategy & Auditing",
+        "step1Title": "Data Strategy and Audit",
         "step1Description": "We mapped every data source London Media relied on — ad platforms, audience providers, CRM exports — and defined a consolidation strategy that eliminated silos without disrupting existing workflows.",
-        "step2Title": "Defining Data Architecture",
-        "step2Description": "We designed a cloud-native data pipeline on Google BigQuery, ingesting real-time and batch data from 8+ sources into a unified semantic layer that Personalytics could query reliably.",
-        "step3Title": "Decision Design & Outcomes",
-        "step3Description": "With clean, structured data in place, we modeled the audience and performance entities that drive planning intelligence — giving media planners the signals they need, when they need them."
+        "step2Title": "Data Architecture Definition",
+        "step2Description": "We designed a cloud-native data pipeline on Google BigQuery, ingesting real-time and batch data from more than 8 sources into a unified semantic layer that Personalytics could query reliably.",
+        "step3Title": "Decision and Outcome Design",
+        "step3Description": "With clean, structured data in place, we modeled the audience and performance entities that power planning intelligence — giving media planners the signals they need, when they need them."
       },
       "results": {
-        "eyebrow": "Outcomes",
-        "title": "Results That Moved the Needle",
+        "eyebrow": "Results",
+        "title": "Results That Made a Difference",
         "stat1Label": "The Goal",
         "stat1Value": "1 Platform",
-        "stat1Description": "Unify 8+ fragmented data sources into a single, queryable layer powering all of Personalytics's planning features.",
+        "stat1Description": "Unify more than 8 fragmented data sources into a single, queryable layer that powers all of Personalytics' planning functions.",
         "stat2Label": "The Numbers",
         "stat2Value": "24×",
         "stat2Description": "Reduction in time spent manually consolidating data — from days to hours, freeing planners to focus on strategy.",
         "stat3Label": "The Achievement",
-        "stat3Value": "Real-Time",
-        "stat3Description": "Audience and performance signals now flow reactively into Personalytics, enabling live campaign adjustments without engineering bottlenecks."
+        "stat3Value": "Real Time",
+        "stat3Description": "Audience and performance signals now flow reactively into Personalytics, enabling live campaign adjustments with no engineering bottlenecks."
       },
       "impact": {
         "eyebrow": "Impact",
-        "title": "World-changer",
+        "title": "Transformative",
         "titleHighlight": "Industry Impact",
-        "description": "Beyond the technical delivery, this engagement redefined how London Media operates — and opened a new product category in the media planning space.",
+        "description": "Beyond the technical delivery, this project redefined how London Media operates — and opened up a new product category in the media planning space.",
         "impact1": "Personalytics launched as a fully functional product, with a data layer capable of scaling to thousands of campaigns.",
-        "impact2": "Media planners reduced manual data work by 95%, shifting from spreadsheet consolidation to real-time platform interaction.",
-        "impact3": "London Media gained a proprietary competitive advantage — a planning product no competitor offers in their market.",
-        "impact4": "The pipeline architecture now supports multi-client deployments, turning a single project into a scalable product line.",
-        "impact5": "Data governance and lineage were established from day one, setting the foundation for future AI and ML capabilities."
+        "impact2": "Media planners cut manual data work by 95%, moving from spreadsheet consolidation to real-time interaction with the platform.",
+        "impact3": "London Media gained a proprietary competitive edge — a planning product no competitor offers in their market.",
+        "impact4": "The pipeline architecture now supports multi-client deployments, turning a one-off project into a scalable product line.",
+        "impact5": "Data governance and lineage were established from day one, laying the groundwork for future AI and ML capabilities."
       },
       "takeaway": {
         "eyebrow": "Reflection",
         "title": "Key Takeaway",
-        "p1": "Personalytics didn't just need a dashboard — it needed a data product mindset applied end-to-end. By treating the data layer as a first-class product component, London Media was able to ship faster, scale smarter, and compete on a fundamentally different level.",
-        "p2": "The lesson is universal: before you can build intelligent products, you need intelligent data infrastructure. That's what Cabana Data delivers.",
+        "p1": "Personalytics didn't just need a dashboard — it needed a data product mindset applied end to end. By treating the data layer as a first-class product component, London Media was able to launch faster, scale smarter, and compete at a fundamentally different level.",
+        "p2": "The lesson is universal: before you can build smart products, you need smart data infrastructure. That's what Cabana Data delivers.",
         "highlight1": "A product is only as good as its data foundation.",
         "highlight2": "Reactive pipelines turn static reports into living intelligence.",
         "highlight3": "Data architecture is a product decision, not a backend detail."
@@ -2120,12 +2120,12 @@
         "case2Tag": "Data Strategy",
         "case2Title": "Transforming Academic Performance Reporting with Unified Data",
         "case3Tag": "AI Readiness",
-        "case3Title": "Laying the Data Foundation for AI-Powered Retail Operations"
+        "case3Title": "Building the Data Foundation for AI-Driven Retail Operations"
       }
     },
     "seo": {
-      "title": "Case Studies — Real Work, Real Results",
-      "description": "Explore how Cabana Data has helped companies across Latin America solve complex data challenges — from reactive pipelines to AI-ready architectures."
+      "title": "Case Studies — Real Results",
+      "description": "Discover how Cabana Data has helped companies across Latin America solve complex data challenges — from reactive pipelines to AI-ready architectures."
     }
   },
   "languageSwitcher": {
@@ -2134,8 +2134,8 @@
   },
   "careers": {
     "seo": {
-      "title": "Careers — Join Our Team",
-      "description": "Explore open positions at Cabana Data. We move fast, hold a high bar, and work with clients who depend on what we build."
+      "title": "Careers — Join the Team",
+      "description": "Explore open positions at Cabana Data. We move fast, hold high standards, and work with clients who rely on what we build."
     }
   },
   "privacidad": {
