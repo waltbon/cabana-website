@@ -13,10 +13,8 @@ import {
   TrendingUp,
 } from "lucide-react";
 import { ServiceHero } from "../_components/service-hero";
-import { DataConvergence } from "../_components/illustrations/data-convergence";
 import { DiagnosticGrid } from "../_components/illustrations/diagnostic-grid";
 import { PriorityRoadmap } from "../_components/illustrations/priority-roadmap";
-import { DeliverablesProgress } from "../_components/illustrations/deliverables-progress";
 import { ServiceProblem } from "../_components/service-problem";
 import { ServiceOfferings } from "../_components/service-offerings";
 import { ServiceDeliverables } from "../_components/service-deliverables";
@@ -91,7 +89,7 @@ export default async function DataConsultingPage() {
         headlineBlue={tHero("headlineBlue")}
         description={tHero("description")}
         cta={{ label: tHero("cta"), href: "/contact" }}
-        illustration={<DataConvergence className="h-full w-full p-12" />}
+        imageSrc="/services/data-strategy/hero.webp"
         imageAlt={tHero("imageAlt")}
       />
 
@@ -150,12 +148,13 @@ export default async function DataConsultingPage() {
         tagline={tDeliverables("tagline")}
         headlineDark={tDeliverables("headlineDark")}
         headlineBlue={tDeliverables("headlineBlue")}
-        illustration={<DeliverablesProgress className="h-full w-full p-8" />}
         items={[
           tDeliverables("items.diagnosis"),
           tDeliverables("items.roadmap"),
           tDeliverables("items.engineering"),
         ]}
+        imageSrc="/services/data-strategy/deliverables.webp"
+        imageAlt={tDeliverables("imageAlt")}
       />
 
       <ServiceCredibility

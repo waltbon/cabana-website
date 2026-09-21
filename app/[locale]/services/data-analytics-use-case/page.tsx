@@ -16,8 +16,6 @@ import {
   Shuffle,
 } from "lucide-react";
 import { ServiceHero } from "../_components/service-hero";
-import { DecisionPriority } from "../_components/illustrations/decision-priority";
-import { DeliverablesProgress } from "../_components/illustrations/deliverables-progress";
 import { ServiceProblem } from "../_components/service-problem";
 import { ServiceProcess } from "../_components/service-process";
 import { ServiceDeliverables } from "../_components/service-deliverables";
@@ -102,7 +100,7 @@ export default async function DataAnalyticsUseCasePage() {
         headlineBlue={tHero("headlineBlue")}
         description={tHero("description")}
         cta={{ label: tHero("cta"), href: "/contact" }}
-        illustration={<DecisionPriority className="h-full w-full p-12" />}
+        imageSrc="/services/data-strategy/data-analytics-use-case/hero.webp"
         imageAlt={tHero("imageAlt")}
       />
 
@@ -170,7 +168,8 @@ export default async function DataAnalyticsUseCasePage() {
           tDeliverables("items.roadmap"),
           tDeliverables("items.architecture"),
         ]}
-        illustration={<DeliverablesProgress className="h-full w-full p-8" />}
+        imageSrc="/services/data-strategy/data-analytics-use-case/deliverables.webp"
+        imageAlt={tDeliverables("imageAlt")}
       />
 
       <ServiceCredibility

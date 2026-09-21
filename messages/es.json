@@ -89,9 +89,19 @@
         "quote": "Cabana Data redujo de 20 minutos a 2 minutos el tiempo que un equipo de marketing tarda en reunir el historial de campañas, implementando un swarm de 8 agentes de IA especializados sobre LangChain.",
         "summary": "El equipo de gestión de cuentas, estrategia, medios, creatividad, diseño y gestión de plataformas digitales dependía de procesos manuales y desconectados para investigar campañas, definir audiencias, redactar copy, producir conceptos visuales y armar presentaciones — cada tarea en una herramienta distinta, sin memoria compartida. Implementamos un Agente de IA maestro a cargo de 8 subagentes especializados sobre LangChain, que interpreta la solicitud del usuario y delega automáticamente en el especialista correcto.",
         "metrics": {
-          "m1": { "value": "20 min → 2 min", "label": "en buscar el historial de campañas y reunir la información para diseñar una nueva" },
-          "m2": { "value": "7 departamentos", "label": "sincronizados en una sola fuente de datos", "context": "plataforma a la medida sobre Google BigQuery" },
-          "m3": { "value": "100%", "label": "de las acciones de usuarios en la plataforma de IA quedan bajo control y bitácora" }
+          "m1": {
+            "value": "20 min → 2 min",
+            "label": "en buscar el historial de campañas y reunir la información para diseñar una nueva"
+          },
+          "m2": {
+            "value": "7 departamentos",
+            "label": "sincronizados en una sola fuente de datos",
+            "context": "plataforma a la medida sobre Google BigQuery"
+          },
+          "m3": {
+            "value": "100%",
+            "label": "de las acciones de usuarios en la plataforma de IA quedan bajo control y bitácora"
+          }
         },
         "service": "Custom AI Agents",
         "serviceHref": "/services/custom-ai-agents",
@@ -104,9 +114,18 @@
         "quote": "Cabana Data eliminó 40 horas semanales de trabajo manual en reportería para un cliente de publicidad digital, automatizando 45 entidades de 8 plataformas distintas en Google BigQuery.",
         "summary": "Un cliente con presencia importante en publicidad digital enfrentaba un cuello de botella crítico: su reportería estaba construida sobre plataformas de métricas → hojas de cálculo con cientos de fórmulas → visualizadores. Los reportes colapsaban, los filtros tardaban hasta 4 minutos, y las fórmulas se volvían incontrolables. Diseñamos una arquitectura de datos a la medida e implementamos una capa robusta de flujos y transformaciones automáticas en Google BigQuery, reemplazando por completo la lógica manual.",
         "metrics": {
-          "m1": { "value": "40 horas/semana", "label": "de trabajo manual erradicado" },
-          "m2": { "value": "45 entidades × 8 plataformas", "label": "digitales automatizadas" },
-          "m3": { "value": "0", "label": "errores humanos remanentes" }
+          "m1": {
+            "value": "40 horas/semana",
+            "label": "de trabajo manual erradicado"
+          },
+          "m2": {
+            "value": "45 entidades × 8 plataformas",
+            "label": "digitales automatizadas"
+          },
+          "m3": {
+            "value": "0",
+            "label": "errores humanos remanentes"
+          }
         },
         "service": "Data Engineering",
         "serviceHref": "/services/data-engineering",
@@ -116,12 +135,21 @@
       "salesQuotaVisibility": {
         "industry": "Bebidas & Distribución",
         "headline": "Visibilidad en tiempo real de quota de ventas con arquitectura transaccional escalable",
-        "quote": "Cabana Data construyó una plataforma de seguimiento de quota de ventas que cumple 98.6% del checklist de ciberseguridad de FIFCO, consolidando 3 fuentes de datos en un único modelo.",
-        "summary": "Esta compañía necesitaba consolidar quota progress, sales targets y commitment tracking en una plataforma única. Construimos una aplicación full-stack a la medida (Angular + NestJS + BigQuery) con autenticación SSO integrada, que sincroniza datos diarios y alimenta reportería en tiempo real para agentes, supervisores y gerentes. El resultado: visibilidad jerárquica de cumplimiento de objetivos y un sistema auditado que cumple 98.6% del checklist de ciberseguridad de FIFCO.",
+        "quote": "Cabana Data construyó una plataforma de seguimiento de quota de ventas que cumple 98.6% del checklist de ciberseguridad del cliente, consolidando 3 fuentes de datos en un único modelo.",
+        "summary": "Esta compañía necesitaba consolidar quota progress, sales targets y commitment tracking en una plataforma única. Construimos una aplicación full-stack a la medida (Angular + NestJS + BigQuery) con autenticación SSO integrada, que sincroniza datos diarios y alimenta reportería en tiempo real para agentes, supervisores y gerentes. El resultado: visibilidad jerárquica de cumplimiento de objetivos y un sistema auditado que cumple 98.6% del checklist de ciberseguridad del cliente.",
         "metrics": {
-          "m1": { "value": "3 → 1", "label": "fuentes de verdad consolidadas en un único modelo de datos" },
-          "m2": { "value": "98.6%", "label": "cumplimiento de ciberseguridad" },
-          "m3": { "value": "4 niveles", "label": "de visibilidad de quota (agente, supervisor, área, gerencia)" }
+          "m1": {
+            "value": "3 → 1",
+            "label": "fuentes de verdad consolidadas en un único modelo de datos"
+          },
+          "m2": {
+            "value": "98.6%",
+            "label": "cumplimiento de ciberseguridad"
+          },
+          "m3": {
+            "value": "4 niveles",
+            "label": "de visibilidad de quota (agente, supervisor, área, gerencia)"
+          }
         },
         "service": "Full-Stack Application Development",
         "serviceHref": "/services/application-development",
@@ -237,6 +265,62 @@
       "docker": {
         "name": "Docker",
         "description": "Despliegues en contenedores para entornos reproducibles"
+      },
+      "nodeJs": {
+        "name": "Node.js",
+        "description": "Backend"
+      },
+      "nestJs": {
+        "name": "Nest.js",
+        "description": "Backend"
+      },
+      "python": {
+        "name": "Python",
+        "description": "Backend"
+      },
+      "dotNet": {
+        "name": ".NET",
+        "description": "Backend"
+      },
+      "typescriptBackend": {
+        "name": "TypeScript",
+        "description": "Backend"
+      },
+      "reactNative": {
+        "name": "React Native",
+        "description": "Mobile"
+      },
+      "react": {
+        "name": "React",
+        "description": "Frontend"
+      },
+      "nextJs": {
+        "name": "Next.js",
+        "description": "Frontend"
+      },
+      "typescriptFrontend": {
+        "name": "TypeScript",
+        "description": "Frontend"
+      },
+      "angular": {
+        "name": "Angular",
+        "description": "Frontend"
+      },
+      "gcpCloud": {
+        "name": "GCP",
+        "description": "Cloud"
+      },
+      "azure": {
+        "name": "Azure",
+        "description": "Cloud"
+      },
+      "awsCloud": {
+        "name": "AWS",
+        "description": "Cloud"
+      },
+      "vercel": {
+        "name": "Vercel",
+        "description": "Cloud"
       }
     }
   },
@@ -613,7 +697,8 @@
           "diagnosis": "Diagnóstico o mapa de casos de uso, con evidencia y priorización.",
           "roadmap": "Roadmap ejecutable — qué construir primero y por qué.",
           "engineering": "Ruta clara hacia Data Engineering, si decides avanzar a implementación."
-        }
+        },
+        "imageAlt": "Entregables de la Consultoría de Datos"
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
@@ -761,7 +846,8 @@
           "report": "Reporte ejecutivo con scoring — 0 a 10 en cada dimensión, con blockers críticos identificados.",
           "remediation": "Plan de remediación técnica — qué corregir primero y por qué, con dueños asignados.",
           "roadmap": "Roadmap visual del Primer Ciclo de Build — qué construir primero, en formato ejecutivo para junta directiva."
-        }
+        },
+        "imageAlt": "Entregables del Diagnóstico de Salud de Datos"
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
@@ -902,7 +988,8 @@
           "card": "DUC-CARD por cada caso de uso — documento formal con la pregunta de negocio, los datos necesarios y el resultado esperado.",
           "roadmap": "Roadmap priorizado — casos de uso clasificados en quick win, mediano plazo y estratégico.",
           "architecture": "Propuesta de arquitectura — stack recomendado, gap analysis y esfuerzo estimado, lista para pasar a Data Engineering."
-        }
+        },
+        "imageAlt": "Entregables de Casos de Uso de Analítica de Datos"
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
@@ -1588,6 +1675,36 @@
       "credibility": {
         "headline": "50+ pipelines de BigQuery en producción",
         "description": "No es teoría. Es experiencia real construyendo y manteniendo infraestructura de datos que opera todos los días."
+      },
+      "caseStudy": {
+        "tagline": "Caso de estudio",
+        "industry": "Marketing",
+        "headline": "Cómo automatizamos la generación de reportes y ganamos 40 horas/semana en análisis de datos",
+        "summary": "Un cliente con presencia importante en publicidad digital enfrentaba un cuello de botella crítico: su reportería estaba construida sobre plataformas de métricas de campañas publicitarias → hojas de cálculo con cientos de fórmulas → visualizadores (Power BI y Google Data Studio). Cada día, la sincronización incremental de datos de campañas publicitarias acumulaba complejidad. Los reportes colapsaban, los filtros tardaban hasta 4 minutos en ejecutarse, y las fórmulas se volvieron incontrolables, generando errores constantes que comprometían la confiabilidad de los datos. Realizamos un inventario exhaustivo de todas las fuentes de datos, diseñamos una arquitectura de datos a la medida de la organización, e implementamos una capa robusta de flujos y transformaciones automáticas en Google BigQuery. La solución reemplazó por completo la lógica manual de las hojas de cálculo con pipelines de datos confiables y auditables.",
+        "metrics": {
+          "hoursSaved": {
+            "value": "40 horas/semana",
+            "label": "de trabajo manual erradicado"
+          },
+          "entitiesAutomated": {
+            "value": "45 entidades × 8 plataformas",
+            "label": "de datos digitales automatizadas"
+          },
+          "errorsEliminated": {
+            "value": "100%",
+            "label": "de los errores humanos erradicados del proceso"
+          }
+        },
+        "relatedService": {
+          "label": "Dashboards y Analítica de Datos",
+          "href": "/services/dashboards-analytics-interfaces"
+        },
+        "date": "Febrero 2025",
+        "author": {
+          "name": "Walter Bonilla",
+          "role": "Líder Técnico",
+          "linkedin": "https://www.linkedin.com/in/waltbon/"
+        }
       },
       "logistics": {
         "tagline": "Logística de fricción cero",
