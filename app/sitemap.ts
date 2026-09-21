@@ -24,6 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${domain}/services/product-design-discovery`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/contact`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/careers`, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${domain}/ruta-ia`, changeFrequency: "monthly", priority: 0.8 },
     // case-studies not yet approved by customer — omit until launched
     { url: `${domain}/posts`, changeFrequency: "weekly", priority: 0.8 },
     // English locale (/en/ prefix)

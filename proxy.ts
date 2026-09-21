@@ -5,6 +5,9 @@ import { routing } from "./i18n/routing";
 const intlMiddleware = createMiddleware(routing);
 
 export function proxy(request: NextRequest) {
+  if (request.nextUrl.pathname.startsWith("/ruta-ia")) {
+    return;
+  }
   return intlMiddleware(request);
 }
 
@@ -15,6 +18,7 @@ export const config = {
     // - _next (Next.js internals)
     // - static files (with extensions)
     // - llms.txt files
-    "/((?!api|_next|.*\\.[^/]+$|llms\\.txt|llms-full\\.txt).*)",
+    // - ruta-ia (standalone landing page, outside next-intl routing)
+    "/((?!api|_next|.*\\.[^/]+$|llms\\.txt|llms-full\\.txt|ruta-ia).*)",
   ],
 };
