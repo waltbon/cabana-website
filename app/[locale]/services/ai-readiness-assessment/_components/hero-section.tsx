@@ -45,7 +45,7 @@ export async function HeroSection() {
                 size="lg"
                 className="rounded-lg bg-cabana-blue px-8 hover:bg-cabana-blue/90"
               >
-                <Link href="https://ruta-ai.cabanadata.com" target="_blank">
+                <Link href="/ruta-ia">
                   {t("cta")}
                   <ArrowRight className="size-4" />
                 </Link>

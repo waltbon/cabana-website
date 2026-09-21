@@ -9,8 +9,10 @@ const font = Reddit_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
 const SITE_URL = "https://cabanadata.com/ruta-ia";
 
+const SITE_ORIGIN = "https://cabanadata.com";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
+  metadataBase: new URL(SITE_ORIGIN),
   title: {
     default: "Ruta IA: Diagnóstico, Preparación y Planificación Empresarial",
     template: "%s | Ruta IA",
@@ -31,12 +33,21 @@ export const metadata: Metadata = {
     siteName: "Cabana Data",
     locale: "es_CR",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Cabana Data",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ruta IA — ¿Tu empresa está lista para la IA?",
     description:
       "Diagnóstico y estrategia para empresas en Costa Rica sobre Inteligencia Artificial, con un plan claro de acción",
+    images: ["/opengraph-image.jpeg"],
   },
   robots: {
     index: true,
