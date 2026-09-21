@@ -135,8 +135,8 @@
       "salesQuotaVisibility": {
         "industry": "Bebidas & Distribución",
         "headline": "Visibilidad en tiempo real de quota de ventas con arquitectura transaccional escalable",
-        "quote": "Cabana Data construyó una plataforma de seguimiento de quota de ventas que cumple 98.6% del checklist de ciberseguridad de FIFCO, consolidando 3 fuentes de datos en un único modelo.",
-        "summary": "Esta compañía necesitaba consolidar quota progress, sales targets y commitment tracking en una plataforma única. Construimos una aplicación full-stack a la medida (Angular + NestJS + BigQuery) con autenticación SSO integrada, que sincroniza datos diarios y alimenta reportería en tiempo real para agentes, supervisores y gerentes. El resultado: visibilidad jerárquica de cumplimiento de objetivos y un sistema auditado que cumple 98.6% del checklist de ciberseguridad de FIFCO.",
+        "quote": "Cabana Data construyó una plataforma de seguimiento de quota de ventas que cumple 98.6% del checklist de ciberseguridad del cliente, consolidando 3 fuentes de datos en un único modelo.",
+        "summary": "Esta compañía necesitaba consolidar quota progress, sales targets y commitment tracking en una plataforma única. Construimos una aplicación full-stack a la medida (Angular + NestJS + BigQuery) con autenticación SSO integrada, que sincroniza datos diarios y alimenta reportería en tiempo real para agentes, supervisores y gerentes. El resultado: visibilidad jerárquica de cumplimiento de objetivos y un sistema auditado que cumple 98.6% del checklist de ciberseguridad del cliente.",
         "metrics": {
           "m1": {
             "value": "3 → 1",
