@@ -35,7 +35,7 @@ const XIcon = ({ className }: { className?: string }) => (
 
 // Footer navigation link keys
 const footerLinkKeys = [
-  { key: "services", href: "/services" },
+  { key: "capabilities", href: "/capacidades" },
   // { key: "caseStudies", href: "/case-studies" },
   { key: "about", href: "/about" },
   { key: "blog", href: "/posts" },

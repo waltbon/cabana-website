@@ -26,8 +26,8 @@
     "about": "About Us",
     "services": "Services",
     "servicesOverview": "All Services",
-    "dataConsulting": "Strategic Data Consulting",
-    "digitalProduct": "Digital Product Modernization",
+    "dataConsulting": "Data Consulting",
+    "digitalProduct": "Digital Product",
     "dataEngineering": "Data Engineering",
     "customAIAgents": "Custom AI Agents",
     "dataHealthCheck": "Data Health Check",
@@ -44,7 +44,10 @@
     "caseStudies": "Case Studies",
     "careers": "Careers",
     "caseStudiesOverview": "All Case Studies",
-    "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
+    "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence",
+    "capabilities": "Capabilities",
+    "capabilitiesOverview": "All capabilities",
+    "customAiAgents": "Custom AI Agents"
   },
   "hero": {
     "tagline": "DATA ENGINEERING · APPLICATIONS · AI",
@@ -335,7 +338,8 @@
       "caseStudies": "Case Studies",
       "about": "About Us",
       "blog": "Blog",
-      "contact": "Contact"
+      "contact": "Contact",
+      "capabilities": "Capabilities"
     },
     "followUs": "Follow Us",
     "social": {
@@ -2453,6 +2457,422 @@
       "title": "Already have the idea? Let's take it to production.",
       "body": "In a 20-minute conversation with whoever decides the investment, we review whether your idea fits AI First Move.",
       "button": "Book a conversation"
+    }
+  },
+  "capacidades": {
+    "meta": {
+      "title": "Custom data and AI consulting | Cabana Data",
+      "description": "Data Consulting, Data Engineering, Digital Product and Custom AI Agents: custom data and AI projects for companies with a decision and a budget.",
+      "ogTitle": "Cabana Data capabilities: data, applications and AI agents",
+      "ogDescription": "Data and AI projects quoted to scope, by the same team behind Ruta IA and AI First Move.",
+      "breadcrumbHome": "Home",
+      "breadcrumb": "Capabilities"
+    },
+    "hero": {
+      "eyebrow": "Custom projects",
+      "title": "Capabilities: data and AI consulting for custom projects",
+      "body": "If you already know what you want to build and the budget is approved, we quote it to scope. It is the same team that delivers Ruta IA and AI First Move.",
+      "proof": "More than 50 data pipelines on Google BigQuery running in production.",
+      "ctaPrimary": "Book a conversation",
+      "ctaSecondary": "See the capabilities"
+    },
+    "list": {
+      "overline": "Four capabilities",
+      "title": "One team, four ways to build with data and AI",
+      "link": "See the capability"
+    },
+    "items": [
+      {
+        "name": "Data Consulting",
+        "term": "Data consulting",
+        "body": "Governance, quality and architecture for your data, plus a data investment roadmap."
+      },
+      {
+        "name": "Data Engineering",
+        "term": "Data engineering",
+        "body": "Integration of your systems, data warehouse, automated pipelines and dashboards in Power BI or Looker."
+      },
+      {
+        "name": "Digital Product",
+        "term": "Custom applications",
+        "body": "Web and mobile platforms built from your real process, ready for production."
+      },
+      {
+        "name": "Custom AI Agents",
+        "term": "Custom AI agents",
+        "body": "Agents connected to your data that prepare the work. Your team approves what gets executed."
+      }
+    ],
+    "bridge": {
+      "title": "No decision or budget yet?",
+      "items": [
+        {
+          "tag": "Ruta IA · 4 weeks",
+          "text": "If you don't know where to start with AI, start with Ruta IA: 4 weeks at a fixed price.",
+          "link": "Explore Ruta IA"
+        },
+        {
+          "tag": "AI First Move · 10 weeks",
+          "text": "If you already chose the idea and need board approval, AI First Move takes it to production in 10 weeks, at a fixed price.",
+          "link": "Explore AI First Move"
+        }
+      ]
+    },
+    "stack": {
+      "title": "The technologies we work with",
+      "intro": "We choose technology to fit your operation. Google Cloud is our standard.",
+      "groups": [
+        {
+          "label": "Data and analytics",
+          "items": [
+            "Google BigQuery",
+            "Power BI",
+            "Looker"
+          ]
+        },
+        {
+          "label": "Cloud",
+          "items": [
+            "Google Cloud",
+            "Azure",
+            "AWS",
+            "Vercel"
+          ]
+        },
+        {
+          "label": "Backend",
+          "items": [
+            "Node.js",
+            "NestJS",
+            "Python",
+            ".NET",
+            "TypeScript"
+          ]
+        },
+        {
+          "label": "Frontend and mobile",
+          "items": [
+            "React",
+            "Next.js",
+            "Angular",
+            "React Native"
+          ]
+        },
+        {
+          "label": "AI agents",
+          "items": [
+            "LangChain"
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "title": "How we quote",
+      "body": "Every project is quoted to scope, after we understand it with your team. There is no list price and no packages."
+    },
+    "cta": {
+      "title": "Tell us what you want to build",
+      "body": "In a 20-minute conversation with whoever owns the investment decision, we review the scope and explain how we would quote it.",
+      "button": "Book a conversation"
+    },
+    "common": {
+      "faqTitle": "Frequently asked questions",
+      "stackLabel": "Stack",
+      "seeCase": "See the case"
+    },
+    "dataConsulting": {
+      "meta": {
+        "title": "Data Consulting · Data consulting services | Cabana Data",
+        "description": "Data consulting in Costa Rica: data governance and quality, target architecture and a data investment roadmap. Quoted to scope.",
+        "serviceType": "Data consulting"
+      },
+      "hero": {
+        "name": "Data Consulting",
+        "term": "Data consulting to decide with numbers you can trust",
+        "subtitle": "When every department arrives with a different number, the tool is not the problem. We organize your data so the company decides with a single version of the numbers.",
+        "ctaSecondary": "Data Consulting or Ruta IA?"
+      },
+      "problems": {
+        "title": "When you need data consulting",
+        "items": [
+          {
+            "title": "Every department has its own version of the numbers",
+            "body": "Meetings are spent arguing which figure is right, not what to do."
+          },
+          {
+            "title": "Tools get bought before the data is organized",
+            "body": "A new dashboard or platform inherits the same problems the previous one had."
+          },
+          {
+            "title": "Data has no owner and no definition",
+            "body": "Nobody knows who is accountable for each data point or which decision it should enable."
+          }
+        ]
+      },
+      "services": {
+        "title": "What we do",
+        "items": [
+          {
+            "title": "Data governance and quality",
+            "body": "We define owners, rules and quality controls, based on the international DAMA-DMBOK standard."
+          },
+          {
+            "title": "Target data architecture",
+            "body": "We design how your systems should connect to have a single source of truth."
+          },
+          {
+            "title": "Metric definitions",
+            "body": "We agree with your departments on what each indicator means and which system it comes from."
+          },
+          {
+            "title": "Data investment roadmap",
+            "body": "What to build first and why, based on effort and impact."
+          }
+        ]
+      },
+      "how": "We work through interviews and workshops with your departments, with read-only access to your systems. We don't interrupt your operation.",
+      "vsRutaIa": {
+        "title": "Data Consulting or Ruta IA?",
+        "body": "If your question is where to start with AI, the starting point is Ruta IA: 4 weeks at a fixed price. Data Consulting solves a data problem you have already identified, and is quoted to scope.",
+        "link": "Explore Ruta IA"
+      },
+      "next": "If you decide to build what the roadmap defines, the next step is a Data Engineering project.",
+      "nextLink": "See Data Engineering"
+    },
+    "dataEngineering": {
+      "meta": {
+        "title": "Data Engineering · Data engineering in Costa Rica | Cabana Data",
+        "description": "Data engineering in Costa Rica: we integrate your systems into a data warehouse, automate data loading and build your dashboards.",
+        "serviceType": "Data engineering"
+      },
+      "hero": {
+        "name": "Data Engineering",
+        "term": "Data engineering in Costa Rica",
+        "subtitle": "A single source of truth for your company. We integrate your systems, automate data loading and bring it to dashboards your team uses to decide.",
+        "ctaSecondary": "See the case"
+      },
+      "problems": {
+        "title": "When every system has its own version of the truth",
+        "items": [
+          {
+            "title": "Systems that don't talk to each other",
+            "body": "CRM, ERP and spreadsheets with different data about the same customer or the same sale."
+          },
+          {
+            "title": "Reports built by hand",
+            "body": "Someone exports, joins and cleans data every week, with errors nobody catches in time."
+          },
+          {
+            "title": "Reports that break as you grow",
+            "body": "What worked with a thousand records stops working with a million."
+          },
+          {
+            "title": "Predictive models on dirty data",
+            "body": "Money goes into prediction before there is a reliable foundation to support it."
+          }
+        ]
+      },
+      "services": {
+        "title": "What we build",
+        "intro": "Four layers that are usually combined. The scope is defined with you.",
+        "items": [
+          {
+            "title": "Architecture and storage",
+            "body": "Data warehouse, data lake or data marts designed to grow with your operation."
+          },
+          {
+            "title": "Integration and transformation",
+            "body": "Automated pipelines that extract, clean and load your data with no manual work."
+          },
+          {
+            "title": "Dashboards and analytics",
+            "body": "Interactive dashboards in Power BI or Looker, refreshed automatically, with access based on each user's role."
+          },
+          {
+            "title": "Predictive models",
+            "body": "When the case calls for it, demand, fraud or recommendation models in production."
+          }
+        ]
+      },
+      "proof": "More than 50 Google BigQuery pipelines in production, running every day.",
+      "stack": "Google BigQuery, Google Cloud, Python, Power BI and Looker.",
+      "case": {
+        "industry": "Case · Digital advertising",
+        "body": "Their reporting depended on spreadsheets with hundreds of formulas, and filters took up to 4 minutes. We replaced it with automated pipelines on Google BigQuery.",
+        "metrics": [
+          {
+            "value": "45",
+            "label": "entities from 8 digital platforms automated"
+          }
+        ]
+      },
+      "how": "We work with read-only access to your sources. We don't interrupt your production systems while we build.",
+      "faq": [
+        {
+          "question": "Does it include dashboards?",
+          "answer": "Yes. Dashboards and analytics are part of Data Engineering. We build them on integrated data, so the number is the same in every report."
+        },
+        {
+          "question": "Do I need to do Ruta IA first?",
+          "answer": "No. If you already know your data gap, you can start here directly. If your question is where to start with AI, the starting point is Ruta IA."
+        },
+        {
+          "question": "Do you only work with Google Cloud?",
+          "answer": "Google Cloud is our standard. We also work with Azure and AWS when your operation is already there."
+        }
+      ]
+    },
+    "digitalProduct": {
+      "meta": {
+        "title": "Digital Product · Custom applications | Cabana Data",
+        "description": "Custom application development in Costa Rica: web and mobile platforms built from your real process, ready for production.",
+        "serviceType": "Custom application development"
+      },
+      "hero": {
+        "name": "Digital Product",
+        "term": "Custom application development",
+        "subtitle": "When the operation lives in emails, spreadsheets and key people, we build the platform your team needs, based on how it actually works.",
+        "ctaSecondary": "See the case"
+      },
+      "problems": {
+        "title": "When the operation depends on people, not systems",
+        "items": [
+          {
+            "title": "Processes only one person knows how to run",
+            "body": "If that person is out, the operation stops. And scaling is impossible."
+          },
+          {
+            "title": "Generic software for a specific problem",
+            "body": "Templates that don't reflect the real logic of your business and only half fit."
+          },
+          {
+            "title": "Updating the system is a risk",
+            "body": "Manual deployments, with no test environments or monitoring."
+          }
+        ]
+      },
+      "services": {
+        "title": "What we do",
+        "items": [
+          {
+            "title": "Discovery and design",
+            "body": "Feasibility study, Design Thinking workshops and UX/UI design, validated against your real process."
+          },
+          {
+            "title": "Web and mobile build",
+            "body": "Cloud applications, with interfaces in React, Next.js, Angular or React Native and services in Node.js, NestJS, Python or .NET."
+          },
+          {
+            "title": "Deployment and monitoring",
+            "body": "Continuous deployment, separate test and production environments, and alerts to catch errors before your users do."
+          }
+        ]
+      },
+      "proof": "We deliver in increments and validate with your team at every delivery, not at the end of months of work.",
+      "case": {
+        "industry": "Case · Beverages and distribution",
+        "body": "A custom platform to track the sales quota, with single sign-on and data synced every day.",
+        "metrics": [
+          {
+            "value": "3 → 1",
+            "label": "From 3 data sources to 1 single model"
+          },
+          {
+            "value": "98.6 %",
+            "label": "of the client's cybersecurity checklist"
+          },
+          {
+            "value": "4 levels",
+            "label": "of visibility: agent, supervisor, area and management"
+          }
+        ]
+      }
+    },
+    "customAiAgents": {
+      "meta": {
+        "title": "Custom AI Agents · Custom AI agents | Cabana Data",
+        "description": "Custom AI agents for companies: connected to your data and systems, they prepare the work and your team approves every action with an effect.",
+        "serviceType": "Custom AI agents"
+      },
+      "hero": {
+        "name": "Custom AI Agents",
+        "term": "Custom AI agents for companies",
+        "subtitle": "Agents that know your data and your processes. They gather information, recommend and draft; your team decides what gets executed.",
+        "ctaSecondary": "See the case"
+      },
+      "problems": {
+        "title": "When generic AI falls short",
+        "items": [
+          {
+            "title": "Generic AI doesn't know your company",
+            "body": "It answers with generalities because it has no access to your real data."
+          },
+          {
+            "title": "Information is spread across many tools",
+            "body": "Each task lives in a different system and nobody has the full history."
+          },
+          {
+            "title": "Nobody controls what the AI does",
+            "body": "Without a log or approval, nobody can explain an action in an audit or to the board."
+          }
+        ]
+      },
+      "services": {
+        "title": "What we build",
+        "items": [
+          {
+            "title": "Agents connected to your data",
+            "body": "They read your systems and knowledge base, and answer with your information, not generalities."
+          },
+          {
+            "title": "Specialized agents working together",
+            "body": "A main agent understands the request and hands it to the right specialist."
+          },
+          {
+            "title": "Approval and audit log",
+            "body": "A person on your team approves before sending, changing records or moving money. Every action is logged."
+          }
+        ]
+      },
+      "principle": {
+        "title": "AI proposes, your team decides",
+        "body": "It is how you put agents in production without opening risks with your customers, your records or your money. The agent does the heavy lifting; your team signs off.",
+        "items": [
+          "A person on your team approves before sending, changing records or moving money.",
+          "Every agent action is recorded in an audit log."
+        ]
+      },
+      "stack": "LangChain, Python and Google BigQuery.",
+      "case": {
+        "industry": "Case · Marketing and advertising",
+        "body": "A main agent and 8 specialized agents on LangChain, in a platform that brings together information from 7 departments.",
+        "metrics": [
+          {
+            "value": "20 → 2 min",
+            "label": "to gather the campaign history"
+          },
+          {
+            "value": "100 %",
+            "label": "of user actions under control and logged"
+          }
+        ]
+      },
+      "bridge": "Is this your first AI use case and you need board approval? AI First Move takes it to production in 10 weeks, at a fixed price.",
+      "bridgeLink": "Explore AI First Move",
+      "faq": [
+        {
+          "question": "Can the agent act on its own?",
+          "answer": "Not on actions with an effect. The agent reads, recommends and drafts; a person on your team approves before sending, changing records or moving money."
+        },
+        {
+          "question": "Do you build chatbots to serve your customers?",
+          "answer": "No. The agents we build are used by people in your company, not by the public or third parties."
+        },
+        {
+          "question": "Does my data need to be in order?",
+          "answer": "An agent is only as good as the data it can access. If it isn't ready, start with Data Engineering or, if you don't know where to start, with Ruta IA."
+        }
+      ]
     }
   }
 }

@@ -11,6 +11,20 @@ const securityHeaders = [
   { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
 ];
 
+// [old path, new path] — applied to "/" and "/en"
+const SERVICES_REDIRECTS: [string, string][] = [
+  ["/services", "/capacidades"],
+  ["/services/data-consulting", "/capacidades/consultoria-de-datos"],
+  ["/services/data-strategy", "/capacidades/consultoria-de-datos"],
+  ["/services/data-engineering", "/capacidades/ingenieria-de-datos"],
+  ["/services/dashboards-analytics-interfaces", "/capacidades/ingenieria-de-datos"],
+  ["/services/digital-product", "/capacidades/producto-digital"],
+  ["/services/application-development", "/capacidades/producto-digital"],
+  ["/services/product-design-discovery", "/capacidades/producto-digital"],
+  ["/services/custom-ai-agents", "/capacidades/agentes-ia-a-medida"],
+  ["/services/ai-readiness-assessment", "/ruta-ia"],
+];
+
 const nextConfig: NextConfig = {
   output: "standalone",
   async headers() {
@@ -32,6 +46,18 @@ const nextConfig: NextConfig = {
         destination: "https://cabanadata.com/:path*",
         permanent: true,
       },
+      // /services was replaced by /capacidades (docs/seo/redirects.csv).
+      // Slugs stay in Spanish for /en until the English keyword map lands.
+      ...SERVICES_REDIRECTS.flatMap(([source, destination]) => [
+        { source, destination, statusCode: 301 },
+        {
+          source: `/en${source}`,
+          destination: destination.startsWith("/ruta-ia")
+            ? destination
+            : `/en${destination}`,
+          statusCode: 301,
+        },
+      ]),
       // case-studies pulled until customer approves content; keep any
       // indexed/bookmarked URLs from 404ing.
       {
