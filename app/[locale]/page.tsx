@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
-import {
-  HeroSection,
-  ProblemSection,
-  SolutionSection,
-  ResultsSection,
-  TeamTeaserSection,
-  WhyUsSection,
-  TechStackSection,
-  CTASection,
-} from "./_components";
-import { OurClientsSection } from "./_components/our-clients-section";
+import { getTranslations } from "next-intl/server";
+import { siteConfig } from "@/site.config";
+import { JsonLd } from "@/components/capacidades/json-ld";
+import { localePath } from "@/components/capacidades/config";
+import { CTASection } from "@/components/capacidades/cta-section";
+import { HeroSection } from "./_components/hero-section";
+import { ClientsSection } from "./_components/clients-section";
+import { SymptomsSection } from "./_components/symptoms-section";
+import { JourneySection } from "./_components/journey-section";
+import { ServicesSection } from "./_components/services-section";
+import { MethodSection } from "./_components/method-section";
+import { CasesSection } from "./_components/cases-section";
+import { CapabilitiesSection } from "./_components/capabilities-section";
 
 export async function generateMetadata({
   params,
@@ -17,40 +19,65 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const isEs = locale === "es";
+  const t = await getTranslations({ locale, namespace: "inicio.meta" });
+  const url = `${siteConfig.site_domain}${localePath(locale)}`;
+
   return {
-    title: isEs
-      ? "Cabana Data | Ingeniería de Datos y Consultoría de IA en Costa Rica"
-      : "Cabana Data | Data Engineering & AI Consulting in Costa Rica",
-    description: isEs
-      ? "Consultoría especializada en ingeniería y ciencia de datos, software e IA para empresas en Costa Rica y Latam."
-      : "Specialized Data Engineering and AI consulting for mid-market companies in Costa Rica and LATAM.",
+    // The copy's title already ends in "| Cabana Data"; skip the layout template
+    title: { absolute: t("title") },
+    description: t("description"),
     alternates: {
-      canonical: isEs ? "/" : "/en",
+      canonical: localePath(locale),
+      languages: { es: localePath("es"), en: localePath("en") },
     },
-    openGraph: {
-      title: isEs
-        ? "Cabana Data | Ingeniería de Datos y Consultoría de IA en Costa Rica"
-        : "Cabana Data | Data Engineering & AI Consulting in Costa Rica",
-      description: isEs
-        ? "Consultoría especializada en ingeniería y ciencia de datos, software e IA para empresas en Costa Rica y Latam."
-        : "Specialized Data Engineering and AI consulting for mid-market companies in Costa Rica and LATAM.",
-    },
+    openGraph: { title: t("ogTitle"), description: t("ogDescription"), url },
+    twitter: { title: t("ogTitle"), description: t("ogDescription") },
   };
 }
+
+// Extends the layout's Organization node (same @id) with the home entity data
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": `${siteConfig.site_domain}/#organization`,
+  name: siteConfig.site_name,
+  url: siteConfig.site_domain,
+  logo: `${siteConfig.site_domain}/logo-horizontal-light.svg`,
+  foundingDate: "2021",
+  email: siteConfig.site_email,
+  telephone: siteConfig.site_phone,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "San José",
+    addressCountry: "CR",
+  },
+  areaServed: ["Costa Rica", "Latinoamérica"],
+  makesOffer: [
+    { name: "Ruta IA", path: "/ruta-ia" },
+    { name: "AI First Move", path: "/ai-first-move" },
+  ].map(({ name, path }) => ({
+    "@type": "Offer",
+    itemOffered: {
+      "@type": "Service",
+      name,
+      url: `${siteConfig.site_domain}${path}`,
+    },
+  })),
+};
 
 export default function Home() {
   return (
     <>
+      <JsonLd schemas={[organizationSchema]} />
       <HeroSection />
-      <OurClientsSection />
-      <ProblemSection />
-      <SolutionSection />
-      <ResultsSection />
-      <TeamTeaserSection />
-      <WhyUsSection />
-      <TechStackSection />
-      <CTASection />
+      <ClientsSection />
+      <SymptomsSection />
+      <JourneySection />
+      <ServicesSection />
+      <MethodSection />
+      <CasesSection />
+      <CapabilitiesSection />
+      <CTASection namespace="inicio.cta" className="bg-section-light" />
     </>
   );
 }

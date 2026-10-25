@@ -38,7 +38,7 @@
     "aiReadinessAssessment": "Ruta IA — AI Readiness Assessment",
     "blog": "Blog",
     "contact": "Contact",
-    "getStarted": "Book a Consultation",
+    "getStarted": "Book a conversation",
     "costaRica": "Costa Rica",
     "skipToContent": "Skip to main content",
     "caseStudies": "Case Studies",
@@ -48,118 +48,6 @@
     "capabilities": "Capabilities",
     "capabilitiesOverview": "All capabilities",
     "customAiAgents": "Custom AI Agents"
-  },
-  "hero": {
-    "tagline": "DATA ENGINEERING · APPLICATIONS · AI",
-    "headline": "We modernize how organizations operate, decide, and compete —",
-    "headlineHighlight": "with data, applications, and AI built to last.",
-    "description": "Cabana Data is an engineering team specialized in Google Cloud. We work with companies in Costa Rica, LATAM, and the United States that need technology built to work in production, not just in presentations.",
-    "cta": "Book a Consultation"
-  },
-  "problem": {
-    "tagline": "Three Symptoms. One Root Problem.",
-    "headline": "Organizations that fail to scale technologically",
-    "headlineHighlight": "don't have a budget problem",
-    "description": "They have systems that were never designed to grow. The same patterns show up in data, in operations, and in AI initiatives — and they all share the same root cause.",
-    "items": {
-      "dataChaos": {
-        "title": "Data that can't be used to make decisions",
-        "description": "Not because it doesn't exist — but because it lives fragmented, ungoverned, in tools that don't talk to each other. Every department works from its own version of the numbers.",
-        "consequence": "When there's no shared source of truth, meetings replace decisions and trust in the data erodes with every contradictory report."
-      },
-      "inefficientProcesses": {
-        "title": "Processes that depend on people, not systems",
-        "description": "Manual workflows, Excel reports, operations that only work because someone knows how to run them. When that knowledge never makes it into a system, scaling becomes impossible.",
-        "consequence": "Operational risk grows with every undocumented process. What works today because someone is holding it together becomes tomorrow's most expensive point of failure."
-      },
-      "uncertainFuture": {
-        "title": "AI initiatives that never reach production",
-        "description": "Not for lack of ambition — but because the infrastructure behind them was never ready. AI projects that fail almost always fail before a single line of model code is written.",
-        "consequence": "They fail in the data, in the processes, in the architecture. AI isn't the problem — it's the mirror that reflects everything that should have been built first."
-      }
-    }
-  },
-  "results": {
-    "tagline": "Real Results",
-    "headline": "Real projects.",
-    "headlineHighlight": "Measurable impact.",
-    "description": "This is how we turn scattered data and manual processes into systems that actually reach production.",
-    "viewService": "View service",
-    "cases": {
-      "aiAgentsSwarm": {
-        "industry": "Marketing / Advertising",
-        "headline": "From scattered marketing tasks to a coordinated swarm of AI agents",
-        "quote": "Cabana Data cut the time a marketing team spends pulling together campaign history from 20 minutes to 2, by implementing a swarm of 8 specialized AI agents on top of LangChain.",
-        "summary": "The account management, strategy, media, creative, design, and digital platform management teams relied on manual, disconnected processes to research campaigns, define audiences, write copy, produce visual concepts, and put together presentations — each task in a different tool, with no shared memory. We implemented a master AI Agent overseeing 8 specialized subagents built on LangChain, which interprets the user's request and automatically delegates it to the right specialist.",
-        "metrics": {
-          "m1": {
-            "value": "20 min → 2 min",
-            "label": "to find campaign history and gather the information needed to design a new one"
-          },
-          "m2": {
-            "value": "7 departments",
-            "label": "synced to a single data source",
-            "context": "custom platform built on Google BigQuery"
-          },
-          "m3": {
-            "value": "100%",
-            "label": "of user actions on the AI platform are logged and under control"
-          }
-        },
-        "service": "Custom AI Agents",
-        "serviceHref": "/services/custom-ai-agents",
-        "dateLabel": "January 2026",
-        "dateISO": "2026-01-01"
-      },
-      "excelToBigquery": {
-        "industry": "Marketing",
-        "headline": "How we automated report generation and saved 40 hours/month in data analysis",
-        "quote": "Cabana Data eliminated 40 hours a week of manual reporting work for a digital advertising client, automating 45 entities across 8 different platforms in Google BigQuery.",
-        "summary": "A client with a significant presence in digital advertising faced a critical bottleneck: their reporting was built on metrics platforms → spreadsheets with hundreds of formulas → visualization tools. Reports would crash, filters took up to 4 minutes to run, and the formulas became unmanageable. We designed a custom data architecture and implemented a robust layer of automated flows and transformations in Google BigQuery, completely replacing the manual logic.",
-        "metrics": {
-          "m1": {
-            "value": "40 hours/week",
-            "label": "of manual work eliminated"
-          },
-          "m2": {
-            "value": "45 entities × 8 platforms",
-            "label": "of digital data automated"
-          },
-          "m3": {
-            "value": "0",
-            "label": "remaining human errors"
-          }
-        },
-        "service": "Data Engineering",
-        "serviceHref": "/services/data-engineering",
-        "dateLabel": "February 2025",
-        "dateISO": "2025-02-01"
-      },
-      "salesQuotaVisibility": {
-        "industry": "Beverages & Distribution",
-        "headline": "Real-time sales quota visibility with scalable transactional architecture",
-        "quote": "Cabana Data built a sales quota tracking platform that meets 98.6% of the client's cybersecurity checklist, consolidating 3 data sources into a single model.",
-        "summary": "This company needed to consolidate quota progress, sales targets, and commitment tracking into a single platform. We built a custom full-stack application (Angular + NestJS + BigQuery) with integrated SSO authentication, syncing data daily and powering real-time reporting for agents, supervisors, and managers. The result: hierarchical visibility into goal completion and an audited system that meets 98.6% of the client's cybersecurity checklist.",
-        "metrics": {
-          "m1": {
-            "value": "3 → 1",
-            "label": "sources of truth consolidated into a single data model"
-          },
-          "m2": {
-            "value": "98.6%",
-            "label": "cybersecurity compliance"
-          },
-          "m3": {
-            "value": "4 levels",
-            "label": "of quota visibility (agent, supervisor, area, management)"
-          }
-        },
-        "service": "Full-Stack Application Development",
-        "serviceHref": "/services/application-development",
-        "dateLabel": "March 2025",
-        "dateISO": "2025-03-01"
-      }
-    }
   },
   "solution": {
     "tagline": "OUR APPROACH",
@@ -226,111 +114,6 @@
         "outcome": "Not a shelved pilot. A model in production making real-time operational decisions today — built on the infrastructure that makes it sustainable."
       }
     }
-  },
-  "whyUs": {
-    "eyebrow": "HOW WE WORK",
-    "headline": "No black boxes. No surprises.",
-    "subhead": "You'll know what we're doing, why, and what's next — at every stage.",
-    "ctaTalk": "Let's talk!",
-    "ctaServices": "View Services"
-  },
-  "teamTeaser": {
-    "tagline": "Our Team",
-    "headline": "The experts behind every project",
-    "description": "A team specialized in data, development, and design — no subcontracting, no middlemen.",
-    "cta": "Meet the full team"
-  },
-  "techStack": {
-    "tagline": "Tech Stack",
-    "headline": "Key Technology Partners",
-    "description": "The platforms and tools at the center of every project.",
-    "items": {
-      "aws": {
-        "name": "Amazon Web Services",
-        "description": "Secondary cloud for clients' multi-cloud environments"
-      },
-      "gcp": {
-        "name": "Google Cloud",
-        "description": "Our primary cloud platform for every project"
-      },
-      "bigquery": {
-        "name": "Google BigQuery",
-        "description": "Serverless data warehouse at the core of our analytics stack"
-      },
-      "powerbi": {
-        "name": "Microsoft Power BI",
-        "description": "Enterprise BI layer and self-service reporting"
-      },
-      "postgresql": {
-        "name": "PostgreSQL",
-        "description": "Reliable relational engine for transactional workloads"
-      },
-      "docker": {
-        "name": "Docker",
-        "description": "Containerized deployments for reproducible environments"
-      },
-      "nodeJs": {
-        "name": "Node.js",
-        "description": "Backend"
-      },
-      "nestJs": {
-        "name": "Nest.js",
-        "description": "Backend"
-      },
-      "python": {
-        "name": "Python",
-        "description": "Backend"
-      },
-      "dotNet": {
-        "name": ".NET",
-        "description": "Backend"
-      },
-      "typescriptBackend": {
-        "name": "TypeScript",
-        "description": "Backend"
-      },
-      "reactNative": {
-        "name": "React Native",
-        "description": "Mobile"
-      },
-      "react": {
-        "name": "React",
-        "description": "Frontend"
-      },
-      "nextJs": {
-        "name": "Next.js",
-        "description": "Frontend"
-      },
-      "typescriptFrontend": {
-        "name": "TypeScript",
-        "description": "Frontend"
-      },
-      "angular": {
-        "name": "Angular",
-        "description": "Frontend"
-      },
-      "gcpCloud": {
-        "name": "GCP",
-        "description": "Cloud"
-      },
-      "azure": {
-        "name": "Azure",
-        "description": "Cloud"
-      },
-      "awsCloud": {
-        "name": "AWS",
-        "description": "Cloud"
-      },
-      "vercel": {
-        "name": "Vercel",
-        "description": "Cloud"
-      }
-    }
-  },
-  "cta": {
-    "headline": "Let's talk!",
-    "headlineHighlight": "Speak with an expert today",
-    "button": "Book a consultation"
   },
   "footer": {
     "links": {
@@ -2016,12 +1799,6 @@
     "next": "Next",
     "previous": "Previous"
   },
-  "ourClients": {
-    "eyebrow": "Trusted By",
-    "headline": "Organizations",
-    "description": "Already running on structured data, custom applications, and AI in production.",
-    "metric": ""
-  },
   "caseStudies": {
     "hero": {
       "tagline": "Portfolio",
@@ -2873,6 +2650,170 @@
           "answer": "An agent is only as good as the data it can access. If it isn't ready, start with Data Engineering or, if you don't know where to start, with Ruta IA."
         }
       ]
+    }
+  },
+  "inicio": {
+    "meta": {
+      "title": "AI consulting in Costa Rica | Cabana Data",
+      "description": "AI consulting for mid-sized companies in Costa Rica and Latin America: know where to start with AI in 4 weeks and take your first use case to production.",
+      "ogTitle": "Cabana Data: know where to start with AI, and start right",
+      "ogDescription": "Ruta IA tells you where to start. AI First Move puts your first AI use case in production. With evidence from your operation, not opinions."
+    },
+    "hero": {
+      "eyebrow": "AI consulting for mid-sized companies",
+      "title": "Know where to start with AI. And start right.",
+      "subtitle": "We are an artificial intelligence consultancy in Costa Rica for mid-sized companies in Latin America. We help you choose where to start, with evidence from your operation, and put the first use case in production.",
+      "doors": [
+        {
+          "label": "I don't know where to start",
+          "hint": "Ruta IA · 4 weeks",
+          "href": "/ruta-ia"
+        },
+        {
+          "label": "I already have the idea",
+          "hint": "AI First Move · 10 weeks",
+          "href": "/ai-first-move"
+        }
+      ]
+    },
+    "clients": {
+      "title": "Companies already working with us"
+    },
+    "symptoms": {
+      "eyebrow": "Three symptoms, one underlying problem",
+      "title": "The problem is rarely a lack of AI ideas",
+      "intro": "What's missing is knowing which one comes first, whether your data supports it and how to take it to production.",
+      "items": [
+        {
+          "title": "Every area has its own AI idea",
+          "body": "And nobody knows which comes first or whether the data is enough for any of them."
+        },
+        {
+          "title": "The board wants progress on AI",
+          "body": "And in the meeting, the answer to \"where do we start?\" is an opinion."
+        },
+        {
+          "title": "AI initiatives never reach production",
+          "body": "And without something running in your operation, nobody approves budget for what's next."
+        }
+      ]
+    },
+    "journey": {
+      "title": "One journey, two entry points",
+      "intro": "First you know where to start. Then you start, with a use case in production.",
+      "steps": [
+        {
+          "label": "Starting point",
+          "title": "Scattered ideas",
+          "body": "Every area has its own and nobody has ranked them."
+        },
+        {
+          "label": "4 weeks",
+          "title": "Ruta IA",
+          "body": "Your top 5 AI opportunities, ranked, and which ones your data supports today."
+        },
+        {
+          "label": "10 weeks",
+          "title": "AI First Move",
+          "body": "The first use case in production and the investment case for the board."
+        },
+        {
+          "label": "Next",
+          "title": "Implementation project",
+          "body": "The next use cases, with budget approved on your own evidence."
+        }
+      ],
+      "directEntry": "If the decision-maker has already chosen the idea, you can go straight to AI First Move. Ruta IA is not a required step."
+    },
+    "services": {
+      "title": "Two services, each with a fixed price and timeline",
+      "items": [
+        {
+          "door": "I don't know where to start",
+          "name": "Ruta IA",
+          "summary": "The assessment that tells you which AI opportunities to start with and whether your data supports them.",
+          "facts": [
+            "4 weeks + 30 days of follow-up",
+            "Fixed price, no \"it depends\""
+          ],
+          "cta": "See Ruta IA",
+          "href": "/ruta-ia"
+        },
+        {
+          "door": "I already have the idea",
+          "name": "AI First Move",
+          "summary": "Your first AI use case in production, with the investment case that funds the next ones.",
+          "facts": [
+            "10 weeks, in two cycles",
+            "Fixed price, no \"it depends\""
+          ],
+          "cta": "See AI First Move",
+          "href": "/ai-first-move"
+        }
+      ]
+    },
+    "method": {
+      "title": "An AI consultancy in Costa Rica that works with evidence",
+      "body": "Every recommendation comes from interviews with your people and a direct review of your systems, not a generic benchmark. If an idea isn't ready, we tell you, along with what needs to be solved."
+    },
+    "principle": {
+      "title": "AI proposes, your team decides",
+      "body": "In the first use case, AI reads, recommends or drafts, and a person on your team approves before any action takes effect. That way it reaches production without opening a risk you'd later have to explain to the board.",
+      "link": "See how we work"
+    },
+    "cases": {
+      "eyebrow": "In production, not in slide decks",
+      "title": "Measurable results in our clients' operations",
+      "link": "See the case",
+      "items": [
+        {
+          "industry": "Marketing and advertising",
+          "title": "AI agents that gather campaign history",
+          "metric": "From 20 to 2 minutes",
+          "metricLabel": "to gather campaign history before designing a new one"
+        },
+        {
+          "industry": "Digital advertising",
+          "title": "Automated reporting in Google BigQuery",
+          "metric": "45 entities from 8 platforms",
+          "metricLabel": "digital, automated in Google BigQuery"
+        },
+        {
+          "industry": "Beverages and distribution",
+          "title": "Sales quota tracking on a single platform",
+          "metric": "From 3 sources to 1",
+          "metricLabel": "a single data model for agents, supervisors and management"
+        }
+      ],
+      "cta": "See all cases"
+    },
+    "capabilities": {
+      "title": "If you already have a decision and budget",
+      "intro": "We quote custom projects with the same team that delivers Ruta IA and AI First Move.",
+      "items": [
+        {
+          "name": "Data Engineering",
+          "body": "System integration, data warehouse and dashboards."
+        },
+        {
+          "name": "Data Consulting",
+          "body": "Governance, quality and architecture of your data."
+        },
+        {
+          "name": "Digital Product",
+          "body": "Custom web and mobile applications for your operation."
+        },
+        {
+          "name": "Custom AI Agents",
+          "body": "Custom AI agents, connected to your data and approved by your team."
+        }
+      ],
+      "cta": "See capabilities"
+    },
+    "cta": {
+      "title": "Where does your company stand with AI?",
+      "body": "In a 20-minute conversation with whoever decides the investment, we review the right starting point: Ruta IA, AI First Move or a custom project.",
+      "button": "Book a conversation"
     }
   }
 }

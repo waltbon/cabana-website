@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { HeroSection } from "./_components/hero-section";
 import { CasesGridSection } from "./_components/cases-grid-section";
-import { CTASection } from "../_components/cta-section";
+import { CTASection } from "@/components/capacidades/cta-section";
 
 export async function generateMetadata({
   params,
@@ -30,7 +30,7 @@ export default function CaseStudiesPage() {
       />
       <HeroSection />
       <CasesGridSection />
-      <CTASection />
+      <CTASection namespace="inicio.cta" />
     </>
   );
 }
