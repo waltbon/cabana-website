@@ -1,0 +1,61 @@
+origen,destino,motivo
+/,/,Inicio: sin cambio de URL (no redirect)
+/en,/en,Inicio en: sin cambio de URL (no redirect)
+/es,/,301 en lugar del 307 actual de next-intl; /es tiene 12 clics y 66 impresiones en GSC
+/es/:path*,/:path*,301 en lugar del 307 actual; locale por defecto sin prefijo
+/services,/capacidades,Hub de servicios pasa a Capacidades
+/en/services,/en/capabilities,Hub de servicios pasa a Capacidades | slug en PROVISIONAL — pendiente keyword map en
+/services/ai-readiness-assessment,/ruta-ia,Servicio reemplazado por Ruta IA (el CTA actual ya enlaza a /ruta-ia)
+/en/services/ai-readiness-assessment,/en/ai-opportunity-assessment,Servicio reemplazado por Ruta IA (el CTA actual ya enlaza a /ruta-ia) | slug en PROVISIONAL — pendiente keyword map en
+/services/data-health-check,/ruta-ia,Diagnóstico de datos absorbido por Ruta IA ('si los datos soportan las oportunidades'); confirmar con dirección
+/en/services/data-health-check,/en/ai-opportunity-assessment,Diagnóstico de datos absorbido por Ruta IA ('si los datos soportan las oportunidades'); confirmar con dirección | slug en PROVISIONAL — pendiente keyword map en
+/services/data-analytics-use-case,/ai-first-move,Un caso llevado a producción = AI First Move; confirmar con dirección
+/en/services/data-analytics-use-case,/en/ai-first-move,Un caso llevado a producción = AI First Move; confirmar con dirección | slug en PROVISIONAL — pendiente keyword map en
+/services/data-consulting,/capacidades/consultoria-de-datos,Capacidad a medida (brief §5)
+/en/services/data-consulting,/en/capabilities/data-consulting,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
+/services/data-engineering,/capacidades/ingenieria-de-datos,Capacidad a medida (brief §5)
+/en/services/data-engineering,/en/capabilities/data-engineering,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
+/services/digital-product,/capacidades/producto-digital,Capacidad a medida (brief §5)
+/en/services/digital-product,/en/capabilities/digital-product,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
+/services/application-development,/capacidades/producto-digital,Consolidado en Digital Product
+/en/services/application-development,/en/capabilities/digital-product,Consolidado en Digital Product | slug en PROVISIONAL — pendiente keyword map en
+/services/product-design-discovery,/capacidades/producto-digital,Consolidado en Digital Product
+/en/services/product-design-discovery,/en/capabilities/digital-product,Consolidado en Digital Product | slug en PROVISIONAL — pendiente keyword map en
+/services/dashboards-analytics-interfaces,/capacidades/ingenieria-de-datos,Consolidado en Data Engineering (alternativa: Digital Product); confirmar
+/en/services/dashboards-analytics-interfaces,/en/capabilities/data-engineering,Consolidado en Data Engineering (alternativa: Digital Product); confirmar | slug en PROVISIONAL — pendiente keyword map en
+/services/custom-ai-agents,/capacidades/agentes-ia-a-medida,Capacidad a medida (brief §5)
+/en/services/custom-ai-agents,/en/capabilities/custom-ai-agents,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
+/services/data-strategy,/capacidades/consultoria-de-datos,URL antigua (WordPress) con sesión orgánica en GA4; hoy 404
+/about,/como-trabajamos,No hay página Nosotros en la arquitectura objetivo; el método vive en Cómo trabajamos. Decidir si se conserva /about
+/en/about,/en/how-we-work,Igual que /about | slug en PROVISIONAL — pendiente keyword map en
+/contact,/agendar,Contacto pasa a Agendar
+/contact/,/agendar,Variante con slash (hoy 308 a /contact) — evitar cadena
+/en/contact,/en/book-a-call,Contacto pasa a Agendar | slug en PROVISIONAL — pendiente keyword map en
+/case-studies,/casos,Hoy 307 a /; pasa a Casos cuando haya casos aprobados
+/case-studies/:path*,/casos,Hoy 307 a /
+/en/case-studies,/en/case-studies,Hoy 307 a /en | slug en PROVISIONAL — pendiente keyword map en
+/en/case-studies/:path*,/en/case-studies,Hoy 307 a /en | slug en PROVISIONAL — pendiente keyword map en
+/posts,/blog,Archivo del blog pasa a /blog; los artículos mantienen /posts/<slug> (ver nota en 00-baseline.md)
+/en/posts,/en/blog,Archivo del blog | slug en PROVISIONAL — pendiente keyword map en
+/posts/infraestructura-que-no-esta-lista-para-ia,/posts/infraestructura-que-no-esta-lista-para-ia,Artículo: mantiene su ruta (no redirect)
+/en/posts/infraestructura-que-no-esta-lista-para-ia,/posts/infraestructura-que-no-esta-lista-para-ia,Hoy 200 duplicado con canonical a ES; el artículo solo existe en español
+/posts/inversion-en-ia,/posts/inversion-en-ia,Artículo: mantiene su ruta (no redirect)
+/en/posts/inversion-en-ia,/posts/inversion-en-ia,Hoy 200 duplicado con canonical a ES; el artículo solo existe en español
+/posts/el-error-mas-caro-en-un-proyecto-de-datos,/posts/el-error-mas-caro-en-un-proyecto-de-datos,Artículo: mantiene su ruta (no redirect)
+/en/posts/el-error-mas-caro-en-un-proyecto-de-datos,/posts/el-error-mas-caro-en-un-proyecto-de-datos,Hoy 200 duplicado con canonical a ES; el artículo solo existe en español
+/posts/metodologia-aer,/posts/metodologia-aer,Artículo: mantiene su ruta (no redirect)
+/en/posts/metodologia-aer,/posts/metodologia-aer,Hoy 200 duplicado con canonical a ES; el artículo solo existe en español
+/careers,/careers,Fuera de la arquitectura objetivo; se conserva (decidir si queda en footer)
+/careers/:id,/careers/:id,Se conserva
+/en/careers,/en/careers,Se conserva; hoy H1 sin traducir
+/privacidad,/privacidad,Legal: se conserva
+/en/privacidad,/en/privacidad,Legal: se conserva (slug en español en /en; evaluar /en/privacy)
+/ruta-ia,/ruta-ia,Sin cambio de URL; pasa a ser la página de servicio canónica
+/en/ruta-ia,/en/ai-opportunity-assessment,Hoy 404 | slug en PROVISIONAL — pendiente keyword map en
+/portfolio-item/:path*,/,Residuo WordPress con impresiones en GSC; hoy 308 → 404
+/area-item/:path*,/,Residuo WordPress con impresiones en GSC; hoy 308 → 404
+https://www.cabanadata.com/:path*,https://cabanadata.com/:path*,Ya existe (308); aplicar el mapa también en www para evitar cadenas
+http://cabanadata.com/:path*,https://cabanadata.com/:path*,Ya existe (308 a https)
+https://ruta-ai.cabanadata.com/,https://cabanadata.com/ruta-ia,Subdominio duplica la landing (canonical propio); 20 clics/217 impr. en 16 meses — consolidar en el dominio principal
+https://ruta-ai.cabanadata.com/evaluation,https://cabanadata.com/ruta-ia,Checklist de madurez; alternativa: migrarlo a /blog o a un recurso descargable enlazado desde /ruta-ia. Confirmar
+https://ruta-ai.cabanadata.com/:path*,https://cabanadata.com/ruta-ia,Comodín para el resto del subdominio
