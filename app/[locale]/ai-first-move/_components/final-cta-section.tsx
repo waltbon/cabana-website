@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { getTranslations } from "next-intl/server";
-import { calendarUrl } from "../lib/calendar";
+import { calendarUrl } from "@/lib/calendar";
 
 export async function FinalCTASection() {
   const t = await getTranslations("aiFirstMove.cta");

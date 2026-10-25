@@ -26,9 +26,9 @@
     "about": "Nosotros",
     "services": "Servicios",
     "servicesOverview": "Todos los Servicios",
-    "dataConsulting": "Consultoría Estratégica de Datos",
-    "digitalProduct": "Modernización de Productos Digitales",
-    "dataEngineering": "Ingeniería de Datos",
+    "dataConsulting": "Data Consulting",
+    "digitalProduct": "Digital Product",
+    "dataEngineering": "Data Engineering",
     "customAIAgents": "Agentes de IA a la Medida",
     "dataHealthCheck": "Data Health Check",
     "dataAnalyticsUseCase": "Data Analytics Use Case",
@@ -44,7 +44,10 @@
     "caseStudies": "Casos de Éxito",
     "careers": "Carreras",
     "caseStudiesOverview": "Todos los casos",
-    "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence"
+    "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence",
+    "capabilities": "Capacidades",
+    "capabilitiesOverview": "Todas las capacidades",
+    "customAiAgents": "Custom AI Agents"
   },
   "hero": {
     "tagline": "INGENIERÍA DE DATOS · APLICACIONES · IA",
@@ -335,7 +338,8 @@
       "caseStudies": "Casos de Éxito",
       "about": "Nosotros",
       "blog": "Blog",
-      "contact": "Contacto"
+      "contact": "Contacto",
+      "capabilities": "Capacidades"
     },
     "followUs": "Síguenos",
     "social": {
@@ -2453,6 +2457,422 @@
       "title": "¿Ya tiene la idea? Llevémosla a producción.",
       "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos si su idea encaja en AI First Move.",
       "button": "Agendar una conversación"
+    }
+  },
+  "capacidades": {
+    "meta": {
+      "title": "Consultoría de datos e IA a medida | Cabana Data",
+      "description": "Data Consulting, Data Engineering, Digital Product y Custom AI Agents: proyectos de datos e IA a medida para empresas con decisión y presupuesto.",
+      "ogTitle": "Capacidades de Cabana Data: datos, aplicaciones y agentes de IA",
+      "ogDescription": "Proyectos de datos e IA cotizados a medida, con el mismo equipo de Ruta IA y AI First Move.",
+      "breadcrumbHome": "Inicio",
+      "breadcrumb": "Capacidades"
+    },
+    "hero": {
+      "eyebrow": "Proyectos a medida",
+      "title": "Capacidades: consultoría de datos e IA para proyectos a medida",
+      "body": "Si ya sabe qué quiere construir y tiene el presupuesto aprobado, lo cotizamos a medida. Es el mismo equipo que entrega Ruta IA y AI First Move.",
+      "proof": "Más de 50 flujos de datos (pipelines) en Google BigQuery funcionando en producción.",
+      "ctaPrimary": "Agendar una conversación",
+      "ctaSecondary": "Ver las capacidades"
+    },
+    "list": {
+      "overline": "Cuatro capacidades",
+      "title": "Un equipo, cuatro formas de construir con datos e IA",
+      "link": "Ver la capacidad"
+    },
+    "items": [
+      {
+        "name": "Data Consulting",
+        "term": "Consultoría de datos",
+        "body": "Gobierno, calidad y arquitectura de sus datos, y una hoja de ruta de inversión en datos."
+      },
+      {
+        "name": "Data Engineering",
+        "term": "Ingeniería de datos",
+        "body": "Integración de sus sistemas, data warehouse, flujos automáticos y dashboards en Power BI o Looker."
+      },
+      {
+        "name": "Digital Product",
+        "term": "Aplicaciones a la medida",
+        "body": "Plataformas web y móviles construidas desde su proceso real, listas para producción."
+      },
+      {
+        "name": "Custom AI Agents",
+        "term": "Agentes de IA a medida",
+        "body": "Agentes conectados a sus datos que preparan el trabajo. Su equipo aprueba lo que se ejecuta."
+      }
+    ],
+    "bridge": {
+      "title": "¿Todavía no tiene decisión o presupuesto?",
+      "items": [
+        {
+          "tag": "Ruta IA · 4 semanas",
+          "text": "Si no sabe por dónde empezar con IA, empiece con Ruta IA: 4 semanas y precio fijo.",
+          "link": "Conocer Ruta IA"
+        },
+        {
+          "tag": "AI First Move · 10 semanas",
+          "text": "Si ya eligió la idea y le falta la aprobación de la junta, AI First Move la lleva a producción en 10 semanas, con precio fijo.",
+          "link": "Conocer AI First Move"
+        }
+      ]
+    },
+    "stack": {
+      "title": "Las tecnologías con que trabajamos",
+      "intro": "Elegimos la tecnología según su operación. Google Cloud es nuestro estándar.",
+      "groups": [
+        {
+          "label": "Datos y analítica",
+          "items": [
+            "Google BigQuery",
+            "Power BI",
+            "Looker"
+          ]
+        },
+        {
+          "label": "Nube",
+          "items": [
+            "Google Cloud",
+            "Azure",
+            "AWS",
+            "Vercel"
+          ]
+        },
+        {
+          "label": "Backend",
+          "items": [
+            "Node.js",
+            "NestJS",
+            "Python",
+            ".NET",
+            "TypeScript"
+          ]
+        },
+        {
+          "label": "Frontend y móvil",
+          "items": [
+            "React",
+            "Next.js",
+            "Angular",
+            "React Native"
+          ]
+        },
+        {
+          "label": "Agentes de IA",
+          "items": [
+            "LangChain"
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Cómo cotizamos",
+      "body": "Cada proyecto se cotiza a medida, después de entender el alcance con su equipo. No hay precio de lista ni paquetes."
+    },
+    "cta": {
+      "title": "Cuéntenos qué quiere construir",
+      "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos el alcance y le explicamos cómo lo cotizaríamos.",
+      "button": "Agendar una conversación"
+    },
+    "common": {
+      "faqTitle": "Preguntas frecuentes",
+      "stackLabel": "Stack",
+      "seeCase": "Ver el caso"
+    },
+    "dataConsulting": {
+      "meta": {
+        "title": "Data Consulting · Consultoría de datos | Cabana Data",
+        "description": "Consultoría de datos en Costa Rica: gobierno y calidad de datos, arquitectura objetivo y una hoja de ruta de inversión en datos. Cotización a medida.",
+        "serviceType": "Consultoría de datos"
+      },
+      "hero": {
+        "name": "Data Consulting",
+        "term": "Consultoría de datos para decidir con números confiables",
+        "subtitle": "Cuando cada área llega a un número distinto, el problema no es la herramienta. Ordenamos sus datos para que la empresa decida con una sola versión de los números.",
+        "ctaSecondary": "¿Data Consulting o Ruta IA?"
+      },
+      "problems": {
+        "title": "Cuándo hace falta una consultoría de datos",
+        "items": [
+          {
+            "title": "Cada área tiene su versión de los números",
+            "body": "Las reuniones se van en discutir qué cifra es la correcta, no en qué hacer."
+          },
+          {
+            "title": "Se compran herramientas antes de ordenar los datos",
+            "body": "Un tablero o una plataforma nueva hereda los mismos problemas que tenía la anterior."
+          },
+          {
+            "title": "Los datos no tienen dueño ni definición",
+            "body": "Nadie sabe quién responde por cada dato ni qué decisión debería habilitar."
+          }
+        ]
+      },
+      "services": {
+        "title": "Qué hacemos",
+        "items": [
+          {
+            "title": "Gobierno y calidad de datos",
+            "body": "Definimos dueños, reglas y controles de calidad, con base en el estándar internacional DAMA-DMBOK."
+          },
+          {
+            "title": "Arquitectura de datos objetivo",
+            "body": "Diseñamos cómo deben conectarse sus sistemas para tener una sola fuente de verdad."
+          },
+          {
+            "title": "Definición de métricas",
+            "body": "Acordamos con sus áreas qué significa cada indicador y de qué sistema sale."
+          },
+          {
+            "title": "Hoja de ruta de inversión en datos",
+            "body": "Qué construir primero y por qué, según esfuerzo e impacto."
+          }
+        ]
+      },
+      "how": "Trabajamos con entrevistas y talleres con sus áreas, y con acceso de lectura a sus sistemas. No interrumpimos su operación.",
+      "vsRutaIa": {
+        "title": "¿Data Consulting o Ruta IA?",
+        "body": "Si su pregunta es por dónde empezar con IA, el punto de partida es Ruta IA: 4 semanas y precio fijo. Data Consulting resuelve un problema de datos que usted ya identificó, y se cotiza a medida.",
+        "link": "Conocer Ruta IA"
+      },
+      "next": "Si decide construir lo que define la hoja de ruta, el siguiente paso es un proyecto de Data Engineering.",
+      "nextLink": "Ver Data Engineering"
+    },
+    "dataEngineering": {
+      "meta": {
+        "title": "Data Engineering · Ingeniería de datos en Costa Rica | Cabana Data",
+        "description": "Ingeniería de datos en Costa Rica: integramos sus sistemas en un data warehouse, automatizamos la carga de datos y construimos sus dashboards.",
+        "serviceType": "Ingeniería de datos"
+      },
+      "hero": {
+        "name": "Data Engineering",
+        "term": "Ingeniería de datos en Costa Rica",
+        "subtitle": "Una sola fuente de verdad para su empresa. Integramos sus sistemas, automatizamos la carga de datos y la llevamos a dashboards que su equipo usa para decidir.",
+        "ctaSecondary": "Ver el caso"
+      },
+      "problems": {
+        "title": "Cuando cada sistema tiene su propia versión de la verdad",
+        "items": [
+          {
+            "title": "Sistemas que no se hablan",
+            "body": "CRM, ERP y hojas de cálculo con datos distintos sobre el mismo cliente o la misma venta."
+          },
+          {
+            "title": "Reportes armados a mano",
+            "body": "Alguien exporta, cruza y limpia datos cada semana, con errores que nadie detecta a tiempo."
+          },
+          {
+            "title": "Reportes que colapsan al crecer",
+            "body": "Lo que funcionaba con mil registros deja de funcionar con un millón."
+          },
+          {
+            "title": "Modelos predictivos sobre datos sucios",
+            "body": "Se invierte en predicción antes de tener una base confiable que la sostenga."
+          }
+        ]
+      },
+      "services": {
+        "title": "Qué construimos",
+        "intro": "Cuatro capas que suelen combinarse. El alcance se define con usted.",
+        "items": [
+          {
+            "title": "Arquitectura y almacenamiento",
+            "body": "Data warehouse, data lake o data marts diseñados para crecer con su operación."
+          },
+          {
+            "title": "Integración y transformación",
+            "body": "Flujos automáticos (pipelines) que extraen, limpian y cargan sus datos sin trabajo manual."
+          },
+          {
+            "title": "Dashboards y analítica",
+            "body": "Tableros interactivos en Power BI o Looker, con actualización automática y acceso según el rol de cada usuario."
+          },
+          {
+            "title": "Modelos predictivos",
+            "body": "Si el caso lo requiere, modelos de demanda, fraude o recomendación en producción."
+          }
+        ]
+      },
+      "proof": "Más de 50 pipelines de Google BigQuery en producción, operando todos los días.",
+      "stack": "Google BigQuery, Google Cloud, Python, Power BI y Looker.",
+      "case": {
+        "industry": "Caso · Publicidad digital",
+        "body": "Su reportería dependía de hojas de cálculo con cientos de fórmulas, y los filtros tardaban hasta 4 minutos. La reemplazamos con flujos automáticos en Google BigQuery.",
+        "metrics": [
+          {
+            "value": "45",
+            "label": "entidades de 8 plataformas digitales automatizadas"
+          }
+        ]
+      },
+      "how": "Trabajamos con acceso de lectura a sus fuentes. No interrumpimos sus sistemas en producción mientras construimos.",
+      "faq": [
+        {
+          "question": "¿Incluye dashboards?",
+          "answer": "Sí. Los dashboards y la analítica son parte de Data Engineering. Los construimos sobre datos ya integrados, para que el número sea el mismo en todos los reportes."
+        },
+        {
+          "question": "¿Tengo que hacer Ruta IA antes?",
+          "answer": "No. Si ya sabe cuál es su brecha de datos, puede empezar directamente aquí. Si su pregunta es por dónde empezar con IA, el punto de partida es Ruta IA."
+        },
+        {
+          "question": "¿Trabajan solo con Google Cloud?",
+          "answer": "Google Cloud es nuestro estándar. También trabajamos con Azure y AWS cuando su operación ya está ahí."
+        }
+      ]
+    },
+    "digitalProduct": {
+      "meta": {
+        "title": "Digital Product · Aplicaciones a la medida | Cabana Data",
+        "description": "Desarrollo de aplicaciones a la medida en Costa Rica: plataformas web y móviles construidas desde su proceso real, listas para producción.",
+        "serviceType": "Desarrollo de aplicaciones a la medida"
+      },
+      "hero": {
+        "name": "Digital Product",
+        "term": "Desarrollo de aplicaciones a la medida",
+        "subtitle": "Cuando la operación vive en correos, hojas de cálculo y personas clave, construimos la plataforma que su equipo necesita, a partir de cómo trabaja realmente.",
+        "ctaSecondary": "Ver el caso"
+      },
+      "problems": {
+        "title": "Cuando la operación depende de personas, no de sistemas",
+        "items": [
+          {
+            "title": "Procesos que solo alguien sabe hacer",
+            "body": "Si esa persona falta, la operación se detiene. Y escalar es imposible."
+          },
+          {
+            "title": "Software genérico para un problema específico",
+            "body": "Plantillas que no reflejan la lógica real de su negocio y se adaptan a medias."
+          },
+          {
+            "title": "Actualizar el sistema es un riesgo",
+            "body": "Despliegues manuales, sin entornos de prueba ni monitoreo."
+          }
+        ]
+      },
+      "services": {
+        "title": "Qué hacemos",
+        "items": [
+          {
+            "title": "Descubrimiento y diseño",
+            "body": "Estudio de factibilidad, talleres de Design Thinking y diseño UX/UI, validados con su proceso real."
+          },
+          {
+            "title": "Construcción web y móvil",
+            "body": "Aplicaciones en la nube, con interfaces en React, Next.js, Angular o React Native y servicios en Node.js, NestJS, Python o .NET."
+          },
+          {
+            "title": "Despliegue y monitoreo",
+            "body": "Despliegue continuo, entornos separados de prueba y producción, y alertas para detectar errores antes que sus usuarios."
+          }
+        ]
+      },
+      "proof": "Entregamos por partes y validamos con su equipo en cada entrega, no al final de meses de trabajo.",
+      "case": {
+        "industry": "Caso · Bebidas y distribución",
+        "body": "Una plataforma a la medida para seguir la cuota de ventas, con inicio de sesión único y datos sincronizados cada día.",
+        "metrics": [
+          {
+            "value": "3 → 1",
+            "label": "De 3 fuentes de datos a 1 modelo único"
+          },
+          {
+            "value": "98.6 %",
+            "label": "del checklist de ciberseguridad del cliente"
+          },
+          {
+            "value": "4 niveles",
+            "label": "de visibilidad: agente, supervisor, área y gerencia"
+          }
+        ]
+      }
+    },
+    "customAiAgents": {
+      "meta": {
+        "title": "Custom AI Agents · Agentes de IA a medida | Cabana Data",
+        "description": "Agentes de IA a medida para empresas: conectados a sus datos y sistemas, preparan el trabajo y su equipo aprueba cada acción con efecto.",
+        "serviceType": "Agentes de IA a medida"
+      },
+      "hero": {
+        "name": "Custom AI Agents",
+        "term": "Agentes de IA a medida para empresas",
+        "subtitle": "Agentes que conocen sus datos y sus procesos. Reúnen la información, recomiendan y redactan; su equipo decide qué se ejecuta.",
+        "ctaSecondary": "Ver el caso"
+      },
+      "problems": {
+        "title": "Cuando la IA genérica no alcanza",
+        "items": [
+          {
+            "title": "La IA genérica no conoce su empresa",
+            "body": "Responde con generalidades porque no tiene acceso a sus datos reales."
+          },
+          {
+            "title": "La información está repartida en muchas herramientas",
+            "body": "Cada tarea vive en un sistema distinto y nadie tiene la historia completa."
+          },
+          {
+            "title": "Nadie controla lo que hace la IA",
+            "body": "Sin registro ni aprobación, nadie puede explicar una acción en una auditoría o en junta."
+          }
+        ]
+      },
+      "services": {
+        "title": "Qué construimos",
+        "items": [
+          {
+            "title": "Agentes conectados a sus datos",
+            "body": "Leen sus sistemas y su base de conocimiento, y responden con su información, no con generalidades."
+          },
+          {
+            "title": "Agentes especializados que trabajan coordinados",
+            "body": "Un agente principal entiende la solicitud y la delega en el especialista correcto."
+          },
+          {
+            "title": "Aprobación y bitácora",
+            "body": "Una persona de su equipo aprueba antes de enviar, modificar registros o mover dinero. Cada acción queda registrada."
+          }
+        ]
+      },
+      "principle": {
+        "title": "La IA propone, su equipo decide",
+        "body": "Es la forma de poner agentes en producción sin abrir riesgos con sus clientes, sus registros o su dinero. El agente hace el trabajo pesado; su equipo firma.",
+        "items": [
+          "Una persona de su equipo aprueba antes de enviar, modificar registros o mover dinero.",
+          "Cada acción del agente queda registrada en bitácora."
+        ]
+      },
+      "stack": "LangChain, Python y Google BigQuery.",
+      "case": {
+        "industry": "Caso · Marketing y publicidad",
+        "body": "Un agente principal y 8 agentes especializados sobre LangChain, en una plataforma que une la información de 7 departamentos.",
+        "metrics": [
+          {
+            "value": "20 → 2 min",
+            "label": "para reunir el historial de campañas"
+          },
+          {
+            "value": "100 %",
+            "label": "de las acciones de los usuarios bajo control y en bitácora"
+          }
+        ]
+      },
+      "bridge": "¿Es su primer caso de IA y necesita la aprobación de la junta? AI First Move lo lleva a producción en 10 semanas, con precio fijo.",
+      "bridgeLink": "Conocer AI First Move",
+      "faq": [
+        {
+          "question": "¿El agente puede actuar por sí solo?",
+          "answer": "No en acciones con efecto. El agente lee, recomienda y redacta; una persona de su equipo aprueba antes de enviar, modificar registros o mover dinero."
+        },
+        {
+          "question": "¿Construyen chatbots para atender a sus clientes?",
+          "answer": "No. Los agentes que construimos los usan personas de su empresa, no el público ni terceros."
+        },
+        {
+          "question": "¿Necesito tener mis datos ordenados?",
+          "answer": "El agente es tan bueno como los datos a los que accede. Si no están listos, conviene empezar por Data Engineering o, si no sabe por dónde empezar, por Ruta IA."
+        }
+      ]
     }
   }
 }

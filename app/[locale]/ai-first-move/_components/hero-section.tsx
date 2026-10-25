@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { PlasmaField } from "@/components/plasma-field";
 import { getTranslations } from "next-intl/server";
-import { calendarUrl } from "../lib/calendar";
+import { calendarUrl } from "@/lib/calendar";
 
 const factIcons = [CalendarRange, BadgeDollarSign, Rocket];
 

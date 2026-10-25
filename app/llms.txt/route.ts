@@ -12,7 +12,7 @@ ${siteConfig.site_description}
 
 - [Home](${siteConfig.site_domain}): Overview of Cabana Data services and value proposition
 - [About](${siteConfig.site_domain}/about): Company mission, team, and values
-- [Services](${siteConfig.site_domain}/services): Data engineering, analytics, and AI services
+- [Capabilities](${siteConfig.site_domain}/capacidades): Data Consulting, Data Engineering, Digital Product and Custom AI Agents, quoted to scope
 - [Blog](${siteConfig.site_domain}/posts): Insights on data strategy and engineering
 - [Contact](${siteConfig.site_domain}/contact): Get in touch with our team
 

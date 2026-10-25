@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Box, CalendarRange, Wallet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getTranslations } from "next-intl/server";
-import { calendarUrl } from "../lib/calendar";
+import { calendarUrl } from "@/lib/calendar";
 
 export async function PricingSection() {
   const t = await getTranslations("aiFirstMove.pricing");

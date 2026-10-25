@@ -10,11 +10,11 @@ import Link from "next/link";
 
 // Service configuration (non-translated data)
 const services = [
-  { key: "dataConsulting", icon: PlaneIcon, href: "/services/data-consulting" },
-  { key: "dataEngineering", icon: Cloud, href: "/services/data-engineering" },
-  { key: "appsDashboards", icon: AppWindowIcon, href: "/services/application-development" },
-  { key: "dashboards", icon: BarChart3, href: "/services/dashboards-analytics-interfaces" },
-  { key: "aiSystems", icon: Sparkles, href: "/services/custom-ai-agents" },
+  { key: "dataConsulting", icon: PlaneIcon, href: "/capacidades/consultoria-de-datos" },
+  { key: "dataEngineering", icon: Cloud, href: "/capacidades/ingenieria-de-datos" },
+  { key: "appsDashboards", icon: AppWindowIcon, href: "/capacidades/producto-digital" },
+  { key: "dashboards", icon: BarChart3, href: "/capacidades/ingenieria-de-datos" },
+  { key: "aiSystems", icon: Sparkles, href: "/capacidades/agentes-ia-a-medida" },
 ];
 
 export function SolutionSection() {

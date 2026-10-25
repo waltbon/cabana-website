@@ -89,18 +89,12 @@ export async function generateMetadata({
   };
 }
 
-// Service pages included in the homepage OfferCatalog (slug + messages key under "services")
+// Capability pages included in the homepage OfferCatalog (path + messages key under "capacidades")
 const OFFER_CATALOG_SERVICES = [
-  { slug: "data-consulting", msgKey: "dataConsulting" },
-  { slug: "data-engineering", msgKey: "dataEngineering" },
-  { slug: "application-development", msgKey: "applicationDevelopment" },
-  { slug: "dashboards-analytics-interfaces", msgKey: "dashboardsAnalyticsInterfaces" },
-  { slug: "custom-ai-agents", msgKey: "customAIAgents" },
-  { slug: "ai-readiness-assessment", msgKey: "rutaIA" },
-  { slug: "data-health-check", msgKey: "dataHealthCheck" },
-  { slug: "data-analytics-use-case", msgKey: "dataAnalyticsUseCase" },
-  { slug: "digital-product", msgKey: "digitalProduct" },
-  { slug: "product-design-discovery", msgKey: "productDesignDiscovery" },
+  { path: "/capacidades/consultoria-de-datos", msgKey: "dataConsulting" },
+  { path: "/capacidades/ingenieria-de-datos", msgKey: "dataEngineering" },
+  { path: "/capacidades/producto-digital", msgKey: "digitalProduct" },
+  { path: "/capacidades/agentes-ia-a-medida", msgKey: "customAiAgents" },
 ] as const;
 
 // Team members with a confirmed public LinkedIn profile (sameAs for Person schema).
@@ -117,9 +111,9 @@ function getJsonLd(
   locale: string,
   messages: Awaited<ReturnType<typeof getMessages>>
 ) {
-  const servicesMessages = messages.services as Record<
+  const capabilitiesMessages = messages.capacidades as unknown as Record<
     string,
-    { seo?: { title?: string; description?: string } }
+    { hero?: { name?: string }; meta?: { description?: string } }
   >;
 
   const roleLabels = (messages.about as { team?: { roles?: Record<string, string> } })
@@ -136,15 +130,15 @@ function getJsonLd(
   const hasOfferCatalog = {
     "@type": "OfferCatalog",
     name: locale === "es" ? "Servicios de Cabana Data" : "Cabana Data Services",
-    itemListElement: OFFER_CATALOG_SERVICES.map(({ slug, msgKey }) => {
-      const seo = servicesMessages[msgKey]?.seo;
+    itemListElement: OFFER_CATALOG_SERVICES.map(({ path, msgKey }) => {
+      const capability = capabilitiesMessages[msgKey];
       return {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: seo?.title ?? slug,
-          description: seo?.description ?? "",
-          url: `${siteConfig.site_domain}/services/${slug}`,
+          name: capability?.hero?.name ?? msgKey,
+          description: capability?.meta?.description ?? "",
+          url: `${siteConfig.site_domain}${path}`,
         },
       };
     }),
