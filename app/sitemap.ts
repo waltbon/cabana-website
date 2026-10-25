@@ -25,12 +25,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${domain}/contact`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/careers`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${domain}/ruta-ia`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${domain}/ai-first-move`, changeFrequency: "monthly", priority: 0.8 },
     // case-studies not yet approved by customer — omit until launched
     { url: `${domain}/posts`, changeFrequency: "weekly", priority: 0.8 },
     // English locale (/en/ prefix)
     { url: `${domain}/en`, changeFrequency: "monthly", priority: 1 },
     { url: `${domain}/en/about`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${domain}/en/services`, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${domain}/en/ai-first-move`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/services/ai-readiness-assessment`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/services/application-development`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/services/custom-ai-agents`, changeFrequency: "monthly", priority: 0.8 },

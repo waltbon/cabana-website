@@ -1,102 +1,128 @@
 import { Navbar } from "./_components/navbar";
 import { Footer } from "./_components/footer";
 import { HeroSection } from "./_components/hero-section";
-import { ProblemSection } from "./_components/problem-section";
-import { TheSolutionSection } from "./_components/the-solution-section";
-import { DimensionsSection } from "./_components/dimensions-section";
-import { HowItWorksSection } from "./_components/how-it-works-section";
-import { TiersSection } from "./_components/tiers-section";
-import { ProfilesSection } from "./_components/profiles-section";
-import { WorkshopsSection } from "./_components/workshops-section";
+import { MomentSection } from "./_components/moment-section";
+import { PromiseSection } from "./_components/promise-section";
+import { DeliverablesSection } from "./_components/deliverables-section";
+import { ProcessSection } from "./_components/process-section";
+import { ClientTimeSection } from "./_components/client-time-section";
+import { PricingSection } from "./_components/pricing-section";
+import { NotForSection } from "./_components/not-for-section";
+import { FaqSection, type FaqItem } from "./_components/faq-section";
 import { FinalCTASection } from "./_components/final-cta-section";
-import { ClientsSection } from "./_components/clients-section";
-import { CaseStudiesSection } from "./_components/case-studies-section";
-import { FaqSection } from "./_components/faq-section";
-import { SampleReportSection } from "./_components/sample-report-section";
-import { dimensions } from "./data/dimensions";
-import { faqItems } from "./data/faq";
-import { ORGANIZATION_ID, AUTHOR_ID } from "./layout";
+import { getRutaIaTranslations } from "./lib/i18n";
+import { ORGANIZATION_ID, AUTHOR_ID, SERVICE_ID } from "./layout";
 
-const SITE_URL = "https://cabanadata.com/ruta-ia";
+const SITE_ORIGIN = "https://cabanadata.com";
+const SITE_URL = `${SITE_ORIGIN}/ruta-ia`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const WEBPAGE_ID = `${SITE_URL}/#webpage`;
 
-const websiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": WEBSITE_ID,
-  name: "Ruta IA",
-  url: SITE_URL,
-  inLanguage: "es",
-  publisher: { "@id": ORGANIZATION_ID },
-};
+export default async function RutaIAPage() {
+  const [tMeta, tNav, tFaq] = await Promise.all([
+    getRutaIaTranslations("meta"),
+    getRutaIaTranslations("nav"),
+    getRutaIaTranslations("faq"),
+  ]);
+  const faqItems = tFaq.raw("items") as FaqItem[];
 
-const webPageSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "@id": WEBPAGE_ID,
-  name: "Ruta IA: Diagnóstico, Preparación y Planificación Empresarial",
-  url: SITE_URL,
-  inLanguage: "es",
-  isPartOf: { "@id": WEBSITE_ID },
-  datePublished: "2026-03-30",
-  dateModified: "2026-09-20",
-  author: { "@id": AUTHOR_ID },
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  isPartOf: { "@id": WEBPAGE_ID },
-  mainEntity: [
-    ...dimensions.map((d) => ({
-      "@type": "Question",
-      name: d.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: d.description,
+  const schemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": WEBSITE_ID,
+      name: "Ruta IA",
+      url: SITE_URL,
+      inLanguage: "es",
+      publisher: { "@id": ORGANIZATION_ID },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": WEBPAGE_ID,
+      name: tMeta("title"),
+      description: tMeta("description"),
+      url: SITE_URL,
+      inLanguage: "es",
+      isPartOf: { "@id": WEBSITE_ID },
+      about: { "@id": SERVICE_ID },
+      datePublished: "2026-03-30",
+      dateModified: "2026-10-25",
+      author: { "@id": AUTHOR_ID },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": SERVICE_ID,
+      name: "Ruta IA",
+      serviceType: tMeta("serviceType"),
+      description: tMeta("description"),
+      provider: { "@id": ORGANIZATION_ID },
+      areaServed: ["Costa Rica", "Latinoamérica"],
+      url: SITE_URL,
+      offers: {
+        "@type": "Offer",
+        price: "12000",
+        priceCurrency: "USD",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          price: "12000",
+          priceCurrency: "USD",
+          valueAddedTaxIncluded: false,
+        },
       },
-    })),
-    ...faqItems.map((f) => ({
-      "@type": "Question",
-      name: f.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: f.answer,
-      },
-    })),
-  ],
-};
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      isPartOf: { "@id": WEBPAGE_ID },
+      mainEntity: faqItems.map((f) => ({
+        "@type": "Question",
+        name: f.question,
+        acceptedAnswer: { "@type": "Answer", text: f.answer },
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: tMeta("breadcrumbHome"),
+          item: SITE_ORIGIN,
+        },
+        { "@type": "ListItem", position: 2, name: "Ruta IA", item: SITE_URL },
+      ],
+    },
+  ];
 
-export default function RutaIAPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      {schemas.map((schema) => (
+        <script
+          key={schema["@type"]}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+      <Navbar
+        labels={{
+          cta: tNav("cta"),
+          contact: tNav("contact"),
+          toggleMenu: tNav("toggleMenu"),
+        }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Navbar />
       <main>
         <HeroSection />
-        <ProblemSection />
-        <TheSolutionSection />
-        <DimensionsSection />
-        <SampleReportSection />
-        <HowItWorksSection />
-        <TiersSection />
-        <ClientsSection />
-        <CaseStudiesSection />
+        <MomentSection />
+        <PromiseSection />
+        <DeliverablesSection />
+        <ProcessSection />
+        <ClientTimeSection />
+        <PricingSection />
+        <NotForSection />
         <FaqSection />
-        <ProfilesSection />
-        <WorkshopsSection />
         <FinalCTASection />
       </main>
       <Footer />

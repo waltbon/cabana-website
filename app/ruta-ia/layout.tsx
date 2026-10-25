@@ -3,7 +3,7 @@ import { Reddit_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
 import { cn } from "@/lib/utils";
-import { dimensions } from "./data/dimensions";
+import { getRutaIaTranslations } from "./lib/i18n";
 
 const font = Reddit_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -11,55 +11,54 @@ const SITE_URL = "https://cabanadata.com/ruta-ia";
 
 const SITE_ORIGIN = "https://cabanadata.com";
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_ORIGIN),
-  title: {
-    default: "Ruta IA: Diagnóstico, Preparación y Planificación Empresarial",
-    template: "%s | Ruta IA",
-  },
-  description:
-    "Diagnóstico y estrategia para empresas en Costa Rica sobre Inteligencia Artificial, con un plan claro de acción",
-  authors: [{ name: "Cabana Data", url: "https://cabanadata.com" }],
-  creator: "Cabana Data",
-  publisher: "Cabana Data",
-  alternates: {
-    canonical: SITE_URL,
-  },
-  openGraph: {
-    title: "Ruta IA: Diagnóstico, Preparación y Planificación Empresarial",
-    description:
-      "Diagnóstico y estrategia para empresas en Costa Rica sobre Inteligencia Artificial, con un plan claro de acción",
-    url: SITE_URL,
-    siteName: "Cabana Data",
-    locale: "es_CR",
-    type: "website",
-    images: [
-      {
-        url: "/opengraph-image.jpeg",
-        width: 1200,
-        height: 630,
-        alt: "Cabana Data",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Ruta IA — ¿Tu empresa está lista para la IA?",
-    description:
-      "Diagnóstico y estrategia para empresas en Costa Rica sobre Inteligencia Artificial, con un plan claro de acción",
-    images: ["/opengraph-image.jpeg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getRutaIaTranslations("meta");
+  const images = [
+    {
+      url: "/opengraph-image.jpeg",
+      width: 1200,
+      height: 630,
+      alt: "Cabana Data",
+    },
+  ];
+
+  return {
+    metadataBase: new URL(SITE_ORIGIN),
+    title: t("title"),
+    description: t("description"),
+    authors: [{ name: "Cabana Data", url: "https://cabanadata.com" }],
+    creator: "Cabana Data",
+    publisher: "Cabana Data",
+    alternates: {
+      canonical: SITE_URL,
+    },
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      url: SITE_URL,
+      siteName: "Cabana Data",
+      locale: "es_CR",
+      type: "website",
+      images,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      images: images.map((image) => image.url),
+    },
+    robots: {
       index: true,
       follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
-  },
-};
+  };
+}
 
 // Shared @id anchors so Organization/Person/Service are single nodes
 // referenced (not duplicated) by the WebPage/FAQPage schema in page.tsx.
@@ -85,38 +84,6 @@ const authorSchema = {
   worksFor: { "@id": ORGANIZATION_ID },
 };
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": SERVICE_ID,
-  name: "Ruta IA",
-  serviceType: "Ruta IA: Diagnóstico, Preparación y Planificación Empresarial",
-  description:
-    "Diagnóstico y estrategia para empresas en Costa Rica sobre Inteligencia Artificial, con un plan claro de acción",
-  provider: { "@id": ORGANIZATION_ID },
-  areaServed: {
-    "@type": "Country",
-    name: "Costa Rica",
-  },
-  url: SITE_URL,
-  audience: {
-    "@type": "BusinessAudience",
-    audienceType: "CTOs, COOs, Data Leaders y empresas de tecnología",
-  },
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Dimensiones evaluadas",
-    itemListElement: dimensions.map((d) => ({
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Service",
-        name: d.title,
-        description: d.description,
-      },
-    })),
-  },
-};
-
 export default function RutaIALayout({
   children,
 }: {
@@ -139,12 +106,6 @@ export default function RutaIALayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(organizationSchema),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(serviceSchema),
           }}
         />
         <script
