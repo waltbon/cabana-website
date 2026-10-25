@@ -2143,5 +2143,178 @@
       "title": "Privacy Policy",
       "description": "Learn how Cabana Data collects, uses, and protects your personal data in accordance with GDPR, CCPA, and applicable data protection laws."
     }
+  },
+  "rutaIa": {
+    "meta": {
+      "title": "Ruta IA: AI assessment for companies | Cabana Data",
+      "description": "In 4 weeks, learn which AI opportunities to start with and whether your data supports them. Fixed price: USD 12,000 + VAT.",
+      "ogTitle": "Ruta IA: know where to start with AI",
+      "ogDescription": "Your top 5 AI opportunities, ranked and checked against your data, in 4 weeks.",
+      "serviceType": "AI assessment for companies",
+      "breadcrumbHome": "Home"
+    },
+    "nav": {
+      "cta": "Book a conversation",
+      "contact": "Contact us",
+      "toggleMenu": "Open or close the menu"
+    },
+    "hero": {
+      "eyebrow": "AI assessment for companies",
+      "title": "Ruta IA: the AI assessment that tells you where to start",
+      "subtitle": "In 4 weeks you get your top 5 AI opportunities, ranked: which ones you can start now and what needs fixing to enable the rest.",
+      "facts": [
+        "4 weeks + 30 days of follow-up",
+        "USD 12,000 + VAT, fixed price",
+        "Based on your data and your people"
+      ],
+      "ctaPrimary": "Book a conversation",
+      "ctaSecondary": "See what's included"
+    },
+    "moment": {
+      "title": "When someone asks \"where do we start with AI?\"",
+      "body": [
+        "The board or headquarters wants progress on AI. Every area has its own idea, and nobody knows which one should come first or whether the data is good enough for any of them.",
+        "In that meeting, the answer is usually an opinion. Ruta IA replaces it with evidence from your own operation: interviews with your people and a direct review of your systems."
+      ]
+    },
+    "promise": {
+      "title": "What leadership knows at the end",
+      "items": [
+        "Which AI opportunities to start with, in order.",
+        "Which ones your data supports today.",
+        "What needs fixing to enable the rest, and in what order."
+      ]
+    },
+    "deliverables": {
+      "title": "What you get from the AI assessment",
+      "items": [
+        {
+          "title": "AI Opportunity Map",
+          "body": "Your top 5 opportunities, ranked. Each one marked as ready to start, needs remediation or not now, with the business decision it drives, its owner and what blocks it."
+        },
+        {
+          "title": "Executive report",
+          "body": "The health of your data, what blocks AI today and whether the problem leadership thought it had is the real one."
+        },
+        {
+          "title": "Remediation roadmap",
+          "body": "What to fix in your data and in what order, based on effort and impact."
+        },
+        {
+          "title": "Readout session",
+          "body": "We present the results to leadership and answer their questions."
+        },
+        {
+          "title": "30-day follow-up",
+          "body": "Two calls, at 7 and 21 days, to support the decision."
+        }
+      ],
+      "note": "\"Ready to start\" means your data doesn't block it. Whether it can be built is confirmed in the next stage."
+    },
+    "process": {
+      "title": "How it works: 4 weeks, with evidence from your operation",
+      "steps": [
+        {
+          "label": "Week 1",
+          "title": "Kickoff and opportunity workshop",
+          "body": "We bring leadership and area leads together to record each AI idea with the business decision it drives and its owner."
+        },
+        {
+          "label": "Weeks 2 and 3",
+          "title": "Interviews and systems review",
+          "body": "We talk with your people and review your systems directly to see what data exists and what state it's in."
+        },
+        {
+          "label": "Week 4",
+          "title": "Assessment and readout",
+          "body": "We rank the opportunities, build the map and present it to leadership."
+        },
+        {
+          "label": "30 days later",
+          "title": "Follow-up",
+          "body": "Two calls to support the decision on the next step."
+        }
+      ],
+      "method": "Everything comes from interviews with your people and a review of your systems, not from a generic benchmark."
+    },
+    "clientTime": {
+      "title": "How much time it asks of your team",
+      "intro": "Our team does the heavy lifting. On your side, the time is concentrated in a few sessions:",
+      "items": [
+        {
+          "role": "Leadership",
+          "body": "A 60-minute kickoff meeting and the 120-minute readout session."
+        },
+        {
+          "role": "Leadership and area leads",
+          "body": "A 140-minute opportunity workshop."
+        },
+        {
+          "role": "Key people in the operation",
+          "body": "Up to 8 one-on-one interviews."
+        },
+        {
+          "role": "Technology",
+          "body": "Read access to the relevant systems or, if that isn't possible, screen-sharing sessions."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "One price, one scope, no surprises",
+      "price": "USD 12,000",
+      "tax": "+ VAT · fixed price",
+      "duration": "4 weeks + 30 days of follow-up",
+      "scope": "For 1 or 2 business units",
+      "payment": "30% on signing and 70% on delivery",
+      "credit": "If you hire an implementation project within the following 90 days, we credit 50% of what you invested in Ruta IA.",
+      "cta": "Book a conversation"
+    },
+    "notFor": {
+      "title": "When Ruta IA isn't the starting point",
+      "items": [
+        "If the decision-maker has already chosen the AI idea, the next step is AI First Move.",
+        "If you already have the decision, budget and mandate, a direct project is a better fit.",
+        "If you already know your data gap, a Data Engineering project is a better fit.",
+        "If it involves more than two business units with different architectures, or an industrial plant environment, Ruta IA isn't designed for that scope."
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Do you deliver a business case for each opportunity?",
+          "answer": "No. Ruta IA tells you where to start and whether your data supports it. The investment case is built with real evidence, by taking the first case to production with AI First Move."
+        },
+        {
+          "question": "Our team can make the list of ideas. What does Ruta IA add?",
+          "answer": "The list, yes. What Ruta IA adds is checking it against your data with evidence, and an outside view that can tell leadership its favorite idea isn't ready without internal political cost."
+        },
+        {
+          "question": "What if no idea is ready?",
+          "answer": "We tell you, with what needs fixing and in what order. Knowing it in 4 weeks costs less than finding out halfway through a project."
+        },
+        {
+          "question": "Why pay for an assessment if implementation comes next?",
+          "answer": "Because half of it is credited: if you hire an implementation project within the following 90 days, we credit 50% of what you invested."
+        },
+        {
+          "question": "How much time does it take from my team?",
+          "answer": "A few concentrated sessions: a 60-minute kickoff meeting, a 140-minute workshop, up to 8 one-on-one interviews and a 120-minute readout session."
+        },
+        {
+          "question": "Do you need access to our systems?",
+          "answer": "We ask for read access to the relevant systems. If that isn't possible, we review the data in screen-sharing sessions with your team."
+        },
+        {
+          "question": "Do I have to go through Ruta IA before AI First Move?",
+          "answer": "No. If the decision-maker has already chosen the idea, you can start directly with AI First Move."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Where should your company start with AI?",
+      "body": "In a 20-minute conversation with whoever decides the investment, we review whether Ruta IA is the right starting point for your company.",
+      "button": "Book a conversation"
+    }
   }
 }

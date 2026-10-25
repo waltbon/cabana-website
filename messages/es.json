@@ -2143,5 +2143,178 @@
       "title": "Política de Privacidad",
       "description": "Conoce cómo Cabana Data recopila, usa y protege tus datos personales de acuerdo con el RGPD, CCPA y las leyes de protección de datos aplicables."
     }
+  },
+  "rutaIa": {
+    "meta": {
+      "title": "Ruta IA: diagnóstico de IA para empresas | Cabana Data",
+      "description": "Sepa en 4 semanas por cuáles oportunidades de IA empezar y si sus datos las soportan. Precio fijo: USD 12,000 + IVA.",
+      "ogTitle": "Ruta IA: sepa por dónde empezar con IA",
+      "ogDescription": "Sus 5 mejores oportunidades de IA, ordenadas y contrastadas contra sus datos, en 4 semanas.",
+      "serviceType": "Diagnóstico de IA para empresas",
+      "breadcrumbHome": "Inicio"
+    },
+    "nav": {
+      "cta": "Agendar una conversación",
+      "contact": "Contáctanos",
+      "toggleMenu": "Abrir o cerrar el menú"
+    },
+    "hero": {
+      "eyebrow": "Diagnóstico de IA para empresas",
+      "title": "Ruta IA: el diagnóstico de IA que le dice por dónde empezar",
+      "subtitle": "En 4 semanas recibe sus 5 mejores oportunidades de IA, ordenadas: cuáles puede arrancar ya y qué hay que resolver para habilitar las demás.",
+      "facts": [
+        "4 semanas + 30 días de seguimiento",
+        "USD 12,000 + IVA, precio fijo",
+        "Basado en sus datos y su gente"
+      ],
+      "ctaPrimary": "Agendar una conversación",
+      "ctaSecondary": "Ver qué incluye"
+    },
+    "moment": {
+      "title": "Cuando alguien pregunta \"¿por dónde empezamos con IA?\"",
+      "body": [
+        "La junta o la casa matriz piden avanzar con IA. Cada área tiene su idea, y nadie sabe cuál conviene primero ni si los datos alcanzan para alguna.",
+        "En esa reunión, la respuesta suele ser una opinión. Ruta IA la reemplaza con evidencia de su propia operación: entrevistas a su gente y revisión directa de sus sistemas."
+      ]
+    },
+    "promise": {
+      "title": "Lo que la dirección sabe al terminar",
+      "items": [
+        "Por cuáles oportunidades de IA empezar, en orden.",
+        "Cuáles soportan hoy sus datos.",
+        "Qué hay que resolver para habilitar las demás, y en qué orden."
+      ]
+    },
+    "deliverables": {
+      "title": "Qué recibe en el diagnóstico de IA",
+      "items": [
+        {
+          "title": "Mapa de Oportunidades de IA",
+          "body": "Sus 5 mejores oportunidades ordenadas. Cada una marcada como lista para arrancar, requiere remediación o no ahora, con la decisión de negocio que mueve, su dueño y lo que la bloquea."
+        },
+        {
+          "title": "Reporte ejecutivo",
+          "body": "La salud de sus datos, qué bloquea la IA hoy y si el problema que la dirección creía tener es el real."
+        },
+        {
+          "title": "Roadmap de remediación",
+          "body": "Qué arreglar en sus datos y en qué orden, según esfuerzo e impacto."
+        },
+        {
+          "title": "Sesión de devolución",
+          "body": "Presentamos los resultados a la dirección y respondemos sus preguntas."
+        },
+        {
+          "title": "Seguimiento de 30 días",
+          "body": "Dos llamadas, a los 7 y a los 21 días, para acompañar la decisión."
+        }
+      ],
+      "note": "\"Lista para arrancar\" significa que sus datos no la bloquean. La viabilidad de construirla se confirma en la siguiente etapa."
+    },
+    "process": {
+      "title": "Cómo funciona: 4 semanas, con evidencia de su operación",
+      "steps": [
+        {
+          "label": "Semana 1",
+          "title": "Arranque y taller de oportunidades",
+          "body": "Reunimos a la dirección y a los líderes de área para registrar cada idea de IA con la decisión de negocio que mueve y su dueño."
+        },
+        {
+          "label": "Semanas 2 y 3",
+          "title": "Entrevistas y revisión de sistemas",
+          "body": "Conversamos con su gente y revisamos directamente sus sistemas para ver qué datos existen y en qué estado están."
+        },
+        {
+          "label": "Semana 4",
+          "title": "Evaluación y devolución",
+          "body": "Ordenamos las oportunidades, armamos el mapa y lo presentamos a la dirección."
+        },
+        {
+          "label": "30 días después",
+          "title": "Seguimiento",
+          "body": "Dos llamadas para acompañar la decisión sobre el siguiente paso."
+        }
+      ],
+      "method": "Todo sale de entrevistas a su gente y de la revisión de sus sistemas, no de un benchmark genérico."
+    },
+    "clientTime": {
+      "title": "Cuánto tiempo pide a su equipo",
+      "intro": "El trabajo pesado lo hace nuestro equipo. De su lado, el tiempo se concentra en pocos espacios:",
+      "items": [
+        {
+          "role": "Dirección",
+          "body": "Una reunión de arranque de 60 minutos y la sesión de devolución de 120 minutos."
+        },
+        {
+          "role": "Dirección y líderes de área",
+          "body": "Un taller de oportunidades de 140 minutos."
+        },
+        {
+          "role": "Personas clave de la operación",
+          "body": "Hasta 8 entrevistas individuales."
+        },
+        {
+          "role": "Tecnología",
+          "body": "Acceso de lectura a los sistemas relevantes o, si no es posible, sesiones de pantalla compartida."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Un precio, un alcance, sin sorpresas",
+      "price": "USD 12,000",
+      "tax": "+ IVA · precio fijo",
+      "duration": "4 semanas + 30 días de seguimiento",
+      "scope": "Para 1 o 2 unidades de negocio",
+      "payment": "30 % a la firma y 70 % a la entrega",
+      "credit": "Si contrata un proyecto de implementación en los 90 días siguientes, le acreditamos el 50 % de lo invertido en Ruta IA.",
+      "cta": "Agendar una conversación"
+    },
+    "notFor": {
+      "title": "Cuándo Ruta IA no es el punto de partida",
+      "items": [
+        "Si quien decide ya eligió la idea de IA, el siguiente paso es AI First Move.",
+        "Si ya tiene decisión, presupuesto y mandato, conviene un proyecto directo.",
+        "Si ya sabe cuál es su brecha de datos, conviene un proyecto de Data Engineering.",
+        "Si involucra más de dos unidades de negocio con arquitecturas distintas, o un entorno industrial de planta, Ruta IA no está diseñado para ese alcance."
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Me entregan el business case de cada oportunidad?",
+          "answer": "No. Ruta IA le dice por dónde empezar y si sus datos lo soportan. El caso de inversión se construye con evidencia real, al llevar el primer caso a producción con AI First Move."
+        },
+        {
+          "question": "Nuestro equipo puede hacer la lista de ideas. ¿Qué aporta Ruta IA?",
+          "answer": "La lista, sí. Lo que aporta Ruta IA es contrastarla contra sus datos con evidencia, y una mirada externa que puede decirle a la dirección que su idea favorita no está lista sin costo político interno."
+        },
+        {
+          "question": "¿Y si ninguna idea está lista?",
+          "answer": "Se lo decimos, con lo que hay que resolver y en qué orden. Saberlo en 4 semanas cuesta menos que descubrirlo a mitad de un proyecto."
+        },
+        {
+          "question": "¿Por qué pagar un diagnóstico si después viene la implementación?",
+          "answer": "Porque la mitad se acredita: si contrata un proyecto de implementación en los 90 días siguientes, le reconocemos el 50 % de lo invertido."
+        },
+        {
+          "question": "¿Cuánto tiempo le toma a mi equipo?",
+          "answer": "Pocos espacios concentrados: una reunión de arranque de 60 minutos, un taller de 140 minutos, hasta 8 entrevistas individuales y una sesión de devolución de 120 minutos."
+        },
+        {
+          "question": "¿Necesitan acceso a nuestros sistemas?",
+          "answer": "Pedimos acceso de lectura a los sistemas relevantes. Si no es posible, revisamos los datos en sesiones de pantalla compartida con su equipo."
+        },
+        {
+          "question": "¿Tengo que pasar por Ruta IA antes de AI First Move?",
+          "answer": "No. Si quien decide ya eligió la idea, puede empezar directamente con AI First Move."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Por dónde empezar con IA en su empresa?",
+      "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos si Ruta IA es el punto de partida correcto para su empresa.",
+      "button": "Agendar una conversación"
+    }
   }
 }

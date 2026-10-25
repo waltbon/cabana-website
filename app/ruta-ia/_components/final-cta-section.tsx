@@ -1,41 +1,24 @@
-"use client";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { calendarUrl, getRutaIaTranslations } from "../lib/i18n";
 
-import { motion } from "framer-motion";
-import { LeadCaptureForm } from "./lead-capture-form";
-import { fadeUp } from "../lib/variants";
+export async function FinalCTASection() {
+  const t = await getRutaIaTranslations("cta");
 
-export function FinalCTASection() {
   return (
-    <section id="contact" className="py-16 bg-section-light">
+    <section id="contact" className="bg-background px-4 py-12 md:py-24">
       <div className="container">
-        <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
-        >
-          <div className="rounded-2xl border border-border bg-card p-8 md:p-12 max-w-2xl mx-auto">
-            {/* Heading */}
-            <div className="text-center mb-8 space-y-3">
-              <h2 className="text-foreground">
-                Tu próximo paso en IA empieza con una decisión, no con una lista.
-              </h2>
-              <p className="text-[14px] text-muted-foreground leading-[1.7] max-w-md mx-auto">
-                Agenda una llamada de 30 minutos. Sin compromiso. Te escuchamos, evaluamos cuál de los tres formatos de Ruta IA aplica a tu empresa y te orientamos sobre los próximos pasos concretos.
-              </p>
-            </div>
-
-            {/* Form */}
-            <LeadCaptureForm
-              submitLabel="Conectar por correo →"
-              layout="grid"
-            />
-
-            <p className="text-[11px] text-muted-foreground text-center mt-4 leading-[1.6]">
-              30 minutos · Sin compromiso.
-            </p>
-          </div>
-        </motion.div>
+        <div className="flex flex-col items-center gap-6 rounded-xl bg-section-dark px-6 py-14 text-center md:py-24">
+          <h2 className="text-gradient-cabana-light text-3xl md:text-5xl max-w-3xl">
+            {t("title")}
+          </h2>
+          <p className="text-lg text-slate-300 max-w-2xl">{t("body")}</p>
+          <Button asChild size="lg" className="w-full sm:w-auto">
+            <Link href={calendarUrl} target="_blank" rel="noopener noreferrer">
+              {t("button")}
+            </Link>
+          </Button>
+        </div>
       </div>
     </section>
   );

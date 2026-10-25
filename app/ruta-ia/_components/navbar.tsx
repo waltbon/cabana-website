@@ -7,9 +7,13 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
-const calendarUrl = process.env.NEXT_PUBLIC_DISCOVERY_CALENDAR_URL ?? "#";
+const calendarUrl = process.env.NEXT_PUBLIC_DISCOVERY_CALENDAR_URL ?? "#contact";
 
-export function Navbar() {
+interface NavbarProps {
+  labels: { cta: string; contact: string; toggleMenu: string };
+}
+
+export function Navbar({ labels }: NavbarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
@@ -25,14 +29,14 @@ export function Navbar() {
           <Button asChild variant="default" size="sm" className="font-semibold">
             <a href={calendarUrl} target="_blank" rel="noopener noreferrer">
               <CalendarCheck2 />
-              Agendar con un experto
+              {labels.cta}
             </a>
           </Button>
 
           <Button asChild variant="secondary" size="sm">
             <a href="#contact" rel="noopener noreferrer">
               <PencilIcon />
-              Contáctanos
+              {labels.contact}
             </a>
           </Button>
         </div>
@@ -41,7 +45,7 @@ export function Navbar() {
         <button
           className="md:hidden p-1 text-muted-foreground"
           onClick={() => setMobileOpen((v) => !v)}
-          aria-label="Toggle menu"
+          aria-label={labels.toggleMenu}
         >
           {mobileOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
@@ -59,7 +63,7 @@ export function Navbar() {
             <Button asChild variant="default" size="lg" className="w-full">
               <a href={calendarUrl} target="_blank" rel="noopener noreferrer">
                 <CalendarCheck2 />
-                Agendar con un experto
+                {labels.cta}
               </a>
             </Button>
           </li>
@@ -67,7 +71,7 @@ export function Navbar() {
             <Button asChild variant="secondary" size="lg" className="w-full">
               <a href="#contact" rel="noopener noreferrer">
                 <PencilIcon />
-                Contáctanos
+                {labels.contact}
               </a>
             </Button>
           </li>
