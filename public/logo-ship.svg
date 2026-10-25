@@ -20,18 +20,18 @@
     <circle cx="164" cy="190" r="130" stroke="#16364d" stroke-width="3" fill="none" opacity="0.2"/>
 
     <!-- Medium ring -->
-    <circle cx="164" cy="190" r="90" stroke="#0048ff" stroke-width="2" fill="none" opacity="0.3"/>
+    <circle cx="164" cy="190" r="90" stroke="#0000d3" stroke-width="2" fill="none" opacity="0.3"/>
 
     <!-- Inner ring -->
     <circle cx="164" cy="190" r="50" stroke="#57ff8f" stroke-width="2" fill="none" opacity="0.4"/>
 
     <!-- Center dot -->
-    <circle cx="164" cy="190" r="15" fill="#0048ff" opacity="0.6"/>
+    <circle cx="164" cy="190" r="15" fill="#0000d3" opacity="0.6"/>
 
     <!-- Data points -->
     <circle cx="100" cy="120" r="8" fill="#57ff8f"/>
-    <circle cx="228" cy="120" r="8" fill="#0048ff"/>
-    <circle cx="100" cy="260" r="8" fill="#0048ff"/>
+    <circle cx="228" cy="120" r="8" fill="#0000d3"/>
+    <circle cx="100" cy="260" r="8" fill="#0000d3"/>
     <circle cx="228" cy="260" r="8" fill="#57ff8f"/>
     <circle cx="164" cy="80" r="10" fill="#16364d"/>
     <circle cx="164" cy="300" r="10" fill="#16364d"/>
@@ -47,12 +47,12 @@
 
   <!-- Floating elements -->
   <circle cx="450" cy="150" r="6" fill="#57ff8f" opacity="0.6"/>
-  <circle cx="480" cy="200" r="4" fill="#0048ff" opacity="0.5"/>
+  <circle cx="480" cy="200" r="4" fill="#0000d3" opacity="0.5"/>
   <circle cx="420" cy="180" r="5" fill="#16364d" opacity="0.4"/>
 
   <defs>
     <linearGradient id="shipGradient" x1="135" y1="0" x2="520" y2="350" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0048ff"/>
+      <stop offset="0%" stop-color="#0000d3"/>
       <stop offset="100%" stop-color="#57ff8f"/>
     </linearGradient>
   </defs>

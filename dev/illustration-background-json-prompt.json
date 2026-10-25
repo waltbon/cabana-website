@@ -9,7 +9,7 @@
     "color_profile": {
       "type": "Analogous Gradient",
       "start_color": "#F0F4F8 (Cool Off-White/Light Gray for the sky)",
-      "end_color": "#0048ff (cabana blue)",
+      "end_color": "#0000d3 (cabana blue)",
       "background": "#FFFFFF (Pure White)",
       "cabana_green": "#57ff8f (as a single sparing highlight)",
       "application": "Soft gradient fills applied to the layered shapes, getting slightly darker towards the bottom"

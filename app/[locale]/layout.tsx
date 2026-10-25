@@ -84,7 +84,7 @@ export async function generateMetadata({
       },
     },
     other: {
-      "theme-color": "#0048ff",
+      "theme-color": "#0000d3",
     },
   };
 }

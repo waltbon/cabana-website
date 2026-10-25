@@ -206,7 +206,7 @@
         --popover: 0 0% 100%;
         --popover-foreground: 222.2 47.4% 11.2%;
 
-        /* Primary - Cabana Blue #0048ff */
+        /* Primary - Cabana Blue #0000d3 */
         --primary: 240 100% 41.4%;
         --primary-foreground: 210 40% 98%;
 
@@ -314,7 +314,7 @@
 @layer utilities {
     /* Gradient text effect for "Big Advantage" */
     .text-gradient-cabana {
-        background: linear-gradient(to right, #0048ff, #57ff8f);
+        background: linear-gradient(to right, #0000d3, #57ff8f);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -329,7 +329,7 @@
     }
 
     .bg-gradient-cabana {
-        background: linear-gradient(to right, #0048ff1d, #57ff8f15);
+        background: linear-gradient(to right, #0000d31d, #57ff8f15);
     }
 
     /* Section backgrounds */

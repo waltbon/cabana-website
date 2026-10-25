@@ -25,7 +25,7 @@ export function ArchitectureBuild({ className }: ArchitectureBuildProps) {
           width={b.w}
           height={32}
           rx={6}
-          fill="#0048ff"
+          fill="#0000d3"
           opacity={b.opacity}
         />
       ))}

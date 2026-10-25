@@ -32,7 +32,7 @@ export function DeliverablesProgress({ className }: DeliverablesProgressProps) {
               width={bar.width}
               height={36}
               rx={8}
-              fill={isLast ? "#57ff8f" : "#0048ff"}
+              fill={isLast ? "#57ff8f" : "#0000d3"}
               opacity={bar.opacity}
             />
             <circle

@@ -16,10 +16,10 @@ export function CloudBuild({ className }: CloudBuildProps) {
       focusable="false"
     >
       {/* cloud shape, built from overlapping circles */}
-      <circle cx={140} cy={110} r={40} fill="#0048ff" opacity={0.9} />
-      <circle cx={190} cy={90} r={50} fill="#0048ff" />
-      <circle cx={245} cy={115} r={38} fill="#0048ff" opacity={0.9} />
-      <rect x={120} y={110} width={150} height={45} rx={22} fill="#0048ff" />
+      <circle cx={140} cy={110} r={40} fill="#0000d3" opacity={0.9} />
+      <circle cx={190} cy={90} r={50} fill="#0000d3" />
+      <circle cx={245} cy={115} r={38} fill="#0000d3" opacity={0.9} />
+      <rect x={120} y={110} width={150} height={45} rx={22} fill="#0000d3" />
 
       {/* assembling blocks below */}
       <rect x={70} y={175} width={30} height={30} rx={6} fill="#16364d" opacity={0.4} />

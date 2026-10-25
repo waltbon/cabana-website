@@ -21,7 +21,7 @@ export function EmpathyStructure({ className }: EmpathyStructureProps) {
     <svg viewBox="0 0 400 400" className={className} role="img" aria-label="" focusable="false">
       {/* scattered user signals */}
       {users.map((u, i) => (
-        <circle key={i} cx={u.cx} cy={u.cy} r={9} fill="#0048ff" opacity={0.7} />
+        <circle key={i} cx={u.cx} cy={u.cy} r={9} fill="#0000d3" opacity={0.7} />
       ))}
 
       {/* research lens */}
@@ -29,11 +29,11 @@ export function EmpathyStructure({ className }: EmpathyStructureProps) {
       <line x1={138} y1={208} x2={165} y2={235} stroke="#16364d" strokeWidth={7} strokeLinecap="round" opacity={0.5} />
 
       {/* resolving into a structured wireframe */}
-      <rect x={220} y={90} width={150} height={190} rx={10} fill="none" stroke="#0048ff" strokeWidth={4} />
-      <line x1={220} y1={125} x2={370} y2={125} stroke="#0048ff" strokeWidth={4} />
-      <circle cx={236} cy={107} r={4} fill="#0048ff" />
-      <rect x={236} y={145} width={100} height={12} rx={4} fill="#0048ff" opacity={0.4} />
-      <rect x={236} y={170} width={70} height={12} rx={4} fill="#0048ff" opacity={0.25} />
+      <rect x={220} y={90} width={150} height={190} rx={10} fill="none" stroke="#0000d3" strokeWidth={4} />
+      <line x1={220} y1={125} x2={370} y2={125} stroke="#0000d3" strokeWidth={4} />
+      <circle cx={236} cy={107} r={4} fill="#0000d3" />
+      <rect x={236} y={145} width={100} height={12} rx={4} fill="#0000d3" opacity={0.4} />
+      <rect x={236} y={170} width={70} height={12} rx={4} fill="#0000d3" opacity={0.25} />
       <rect x={236} y={205} width={60} height={24} rx={6} fill="#57ff8f" />
     </svg>
   );

@@ -124,7 +124,7 @@ export default async function Page({
             <div className="absolute inset-0 bg-linear-to-t from-cabana-dark via-cabana-dark/60 to-transparent" />
           </>
         ) : (
-          <div className="absolute inset-0 bg-linear-to-br from-[#0048ff]/10 via-transparent to-cabana-green/5" />
+          <div className="absolute inset-0 bg-linear-to-br from-[#0000d3]/10 via-transparent to-cabana-green/5" />
         )}
 
         <Container className="relative z-10 py-16 md:py-24 max-w-5xl">
@@ -133,7 +133,7 @@ export default async function Page({
             <div className="mb-5">
               <Link
                 href={`/posts/?category=${post.category}`}
-                className="inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold tracking-widest uppercase bg-[#0048ff] text-white hover:bg-[#0048ff]/80 transition-colors"
+                className="inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold tracking-widest uppercase bg-[#0000d3] text-white hover:bg-[#0000d3]/80 transition-colors"
               >
                 {category.name}
               </Link>
@@ -155,7 +155,7 @@ export default async function Page({
           {/* Author + Date */}
           <div className="flex flex-wrap items-center gap-3 text-sm">
             <div className="flex items-center gap-2">
-              <div className="w-7 h-7 rounded-full bg-[#0048ff] flex items-center justify-center text-white font-bold text-xs shrink-0">
+              <div className="w-7 h-7 rounded-full bg-[#0000d3] flex items-center justify-center text-white font-bold text-xs shrink-0">
                 {post.author?.charAt(0).toUpperCase()}
               </div>
               <Link

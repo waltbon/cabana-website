@@ -21,7 +21,7 @@ export function PriorityRoadmap({ className }: PriorityRoadmapProps) {
       aria-label=""
       focusable="false"
     >
-      <circle cx={40} cy={110} r={10} fill="#0048ff" />
+      <circle cx={40} cy={110} r={10} fill="#0000d3" />
       {branches.map((b, i) => (
         <g key={i}>
           <line x1={40} y1={110} x2={140} y2={b.y} stroke={b.color} strokeWidth={4} opacity={b.opacity} />

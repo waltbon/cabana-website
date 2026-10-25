@@ -11,7 +11,7 @@
       "color_profile": {
         "type": "Flat fill, single-accent, high contrast — no gradients",
         "background": "#FFFFFF (pure white) full-bleed solid panel — bold filled shapes and thick strokes carry the impact, not a dark ground",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework, the dominant color covering most of the composition",
+        "primary_shape": "#0000d3 (cabana blue) — solid filled shapes and thick linework, the dominant color covering most of the composition",
         "depth_layer": "#16364d (cabana navy, lighter tint) — layered shapes behind the main blue layer for depth, subtle contrast against the white background",
         "highlight": "#57ff8f (cabana green) — one sparing highlight marking the single most important point in the composition, the moment of visual resolution",
         "application": "Solid filled shapes, thick strokes, layered overlapping elements for depth — no gradients, no hairline strokes, no floating isolated icons"
@@ -48,7 +48,7 @@
       },
       "color_profile": {
         "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
+        "primary_shape": "#0000d3 (cabana blue) — solid filled shapes and thick linework",
         "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
         "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
         "background": "transparent",
@@ -86,7 +86,7 @@
       },
       "color_profile": {
         "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
+        "primary_shape": "#0000d3 (cabana blue) — solid filled shapes and thick linework",
         "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
         "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
         "background": "transparent",
@@ -124,7 +124,7 @@
       },
       "color_profile": {
         "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
+        "primary_shape": "#0000d3 (cabana blue) — solid filled shapes and thick linework",
         "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
         "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
         "background": "transparent",
@@ -162,7 +162,7 @@
       },
       "color_profile": {
         "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
+        "primary_shape": "#0000d3 (cabana blue) — solid filled shapes and thick linework",
         "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
         "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
         "background": "transparent",
@@ -201,7 +201,7 @@
       "color_profile": {
         "type": "Flat fill, single-accent, high contrast — no gradients",
         "background": "#FFFFFF (pure white) full-bleed solid panel — bold filled shapes and thick strokes carry the impact, not a dark ground",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework, the dominant color covering most of the composition",
+        "primary_shape": "#0000d3 (cabana blue) — solid filled shapes and thick linework, the dominant color covering most of the composition",
         "depth_layer": "#16364d (cabana navy, lighter tint) — layered shapes behind the main blue layer for depth, subtle contrast against the white background",
         "highlight": "#57ff8f (cabana green) — one sparing highlight marking the single most important point in the composition, the moment of visual resolution",
         "application": "Solid filled shapes, thick strokes, layered overlapping elements for depth — no gradients, no hairline strokes, no floating isolated icons"
@@ -238,7 +238,7 @@
       },
       "color_profile": {
         "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
+        "primary_shape": "#0000d3 (cabana blue) — solid filled shapes and thick linework",
         "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
         "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
         "background": "transparent",
@@ -276,7 +276,7 @@
       },
       "color_profile": {
         "type": "Flat fill, single-accent, high contrast — no gradients",
-        "primary_shape": "#0048ff (cabana blue) — solid filled shapes and thick linework",
+        "primary_shape": "#0000d3 (cabana blue) — solid filled shapes and thick linework",
         "depth_layer": "#16364d (cabana navy) — layered secondary shapes for depth",
         "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill covering the whole shape",
         "background": "transparent",
@@ -314,7 +314,7 @@
       },
       "color_profile": {
         "type": "Flat fill, single-accent — no gradients",
-        "primary_line": "#0048ff (cabana blue) — main linework, kept light/thin",
+        "primary_line": "#0000d3 (cabana blue) — main linework, kept light/thin",
         "depth_shape": "#16364d (cabana navy) — secondary/shadow shapes only, minimal use",
         "highlight": "#57ff8f (cabana green) — one sparing highlight only, never a fill",
         "background": "#e0e6f5 (cabana light) or #FFFFFF (pure white) solid ground — must stay legible once dark headline text sits on top at low opacity",
