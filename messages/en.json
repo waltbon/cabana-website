@@ -2316,5 +2316,143 @@
       "body": "In a 20-minute conversation with whoever decides the investment, we review whether Ruta IA is the right starting point for your company.",
       "button": "Book a conversation"
     }
+  },
+  "aiFirstMove": {
+    "meta": {
+      "title": "AI First Move: take your first AI use case to production | Cabana Data",
+      "description": "In 10 weeks, your first AI use case in production and the investment case to take the rest to the board. Fixed price: USD 24,500 + VAT.",
+      "ogTitle": "AI First Move: your first AI use case, up and running",
+      "ogDescription": "An AI use case in production, built with your team, and the evidence to fund the next ones.",
+      "serviceType": "First AI use case in production",
+      "breadcrumbHome": "Home"
+    },
+    "hero": {
+      "eyebrow": "First AI use case in production",
+      "title": "AI First Move: take your first AI use case to production",
+      "subtitle": "In 10 weeks you have the first use case running and the investment case to take the rest to the board, built with your team and with numbers from your own operation.",
+      "facts": [
+        "10 weeks, in two cycles",
+        "USD 24,500 + VAT, fixed price",
+        "Ends in production, run by your team"
+      ],
+      "ctaPrimary": "Book a conversation",
+      "ctaSecondary": "See what's included"
+    },
+    "moment": {
+      "title": "When you know where to start, but approval is missing",
+      "body": [
+        "The decision-maker has already chosen the idea and there's conviction to move forward. What's missing is approval for a big project, and a document won't get it.",
+        "The board approves what it sees working. AI First Move gives you that evidence: a real use case in your operation and the numbers to fund the next ones."
+      ],
+      "bridge": "Ruta IA tells you where to start. AI First Move is starting."
+    },
+    "promise": {
+      "title": "What you have at the end",
+      "items": [
+        "An AI use case running in production, operated by your team.",
+        "An investment case you can defend before the board or headquarters, with numbers from your own operation."
+      ]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "items": [
+        {
+          "title": "A use case in production",
+          "body": "Built with your team as part of the work. At the end, your people can operate it."
+        },
+        {
+          "title": "The use case definition",
+          "body": "The scope of the use case, documented and approved with you before building."
+        },
+        {
+          "title": "The investment case",
+          "body": "Target architecture, effort, sequence and estimated return, calculated on the real evidence from the use case built."
+        },
+        {
+          "title": "Preparation to present it",
+          "body": "A session to prepare whoever will present the investment case inside the company."
+        }
+      ]
+    },
+    "process": {
+      "title": "How it works: two cycles, 10 weeks",
+      "cycles": [
+        {
+          "label": "Cycle 1 · Weeks 1 to 7",
+          "title": "Build",
+          "body": "In the first week we confirm the use case is viable with your data. Then we build it with your technical team inside and put it in production."
+        },
+        {
+          "label": "Cycle 2 · Weeks 8 to 10",
+          "title": "Investment case",
+          "body": "We turn the evidence from the use case built into the argument to fund the next ones, and we prepare whoever will present it."
+        }
+      ],
+      "differentiator": "What we build stays running: it ends in production, with your team operating it."
+    },
+    "principle": {
+      "title": "AI proposes, your team decides",
+      "body": "In the first use case, AI reads, recommends or drafts, and a person on your team approves before any action with an effect. That's how it reaches production in 10 weeks without opening a risk you later have to explain to the board.",
+      "items": [
+        "A person approves before sending, changing records or moving money.",
+        "It's used by people in your company, not by customers or third parties."
+      ]
+    },
+    "clientTime": {
+      "title": "How much time it asks of your team",
+      "body": "One technical person, a few hours a week. Our team does the build, and your technical person takes part so they can operate the use case."
+    },
+    "pricing": {
+      "title": "One price, one use case, no surprises",
+      "price": "USD 24,500",
+      "tax": "+ VAT · fixed price",
+      "duration": "10 weeks, in two cycles",
+      "scope": "One small or medium use case, with data that already exists and is accessible",
+      "payment": "30% at the start, 40% at the end of cycle 1 and 30% at the end of cycle 2",
+      "cta": "Book a conversation"
+    },
+    "notFor": {
+      "title": "When AI First Move isn't the starting point",
+      "items": [
+        "If the decision-maker hasn't chosen an idea yet, or there are several unranked ones, the starting point is Ruta IA.",
+        "If you already have the decision, budget and mandate, a direct project is a better fit.",
+        "If your data isn't accessible today, a Data Engineering project should come first.",
+        "If you need a large use case or several at once, we quote it separately."
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Isn't it expensive for a single use case?",
+          "answer": "You're not buying a use case: you're buying approval for the whole program. The working use case and the investment case are what convince the board to fund the next ones."
+        },
+        {
+          "question": "How many people from my team need to take part?",
+          "answer": "One technical person, a few hours a week. Our team does the build."
+        },
+        {
+          "question": "Can you include a second use case?",
+          "answer": "AI First Move is one use case. A second one is a separate program, with its own scope."
+        },
+        {
+          "question": "Do I have to do Ruta IA first?",
+          "answer": "No. If the decision-maker has already chosen the idea, you can start directly with AI First Move. If there are several unranked ideas, Ruta IA is the best starting point."
+        },
+        {
+          "question": "Do you need to build data infrastructure?",
+          "answer": "No. The use case uses data that already exists and is accessible. If your data isn't ready, a Data Engineering project should come first."
+        },
+        {
+          "question": "Why does a person approve what the AI proposes?",
+          "answer": "Because it's how you reach production in 10 weeks without opening risks with customers, records or money. In the first use case, AI proposes and your team decides."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Already have the idea? Let's take it to production.",
+      "body": "In a 20-minute conversation with whoever decides the investment, we review whether your idea fits AI First Move.",
+      "button": "Book a conversation"
+    }
   }
 }

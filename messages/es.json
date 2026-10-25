@@ -2316,5 +2316,143 @@
       "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos si Ruta IA es el punto de partida correcto para su empresa.",
       "button": "Agendar una conversación"
     }
+  },
+  "aiFirstMove": {
+    "meta": {
+      "title": "AI First Move: lleve su primer caso de IA a producción | Cabana Data",
+      "description": "En 10 semanas, su primer caso de IA en producción y el caso de inversión para llevar el resto a junta. Precio fijo: USD 24,500 + IVA.",
+      "ogTitle": "AI First Move: su primer caso de IA, funcionando",
+      "ogDescription": "Un caso de IA en producción, construido con su equipo, y la evidencia para financiar los siguientes.",
+      "serviceType": "Primer caso de IA en producción",
+      "breadcrumbHome": "Inicio"
+    },
+    "hero": {
+      "eyebrow": "Primer caso de IA en producción",
+      "title": "AI First Move: lleve su primer caso de IA a producción",
+      "subtitle": "En 10 semanas tiene el primer caso funcionando y el caso de inversión para llevar el resto a junta, construido con su equipo y con números de su propia operación.",
+      "facts": [
+        "10 semanas, en dos ciclos",
+        "USD 24,500 + IVA, precio fijo",
+        "Termina en producción, operado por su equipo"
+      ],
+      "ctaPrimary": "Agendar una conversación",
+      "ctaSecondary": "Ver qué incluye"
+    },
+    "moment": {
+      "title": "Cuando ya saben por dónde empezar, pero falta la aprobación",
+      "body": [
+        "Quien decide ya eligió la idea y hay convicción de avanzar. Lo que no hay es aprobación para un proyecto grande, y un documento no la va a conseguir.",
+        "La junta aprueba lo que ve funcionando. AI First Move le da esa evidencia: un caso real en su operación y los números para financiar los siguientes."
+      ],
+      "bridge": "Ruta IA le dice por dónde empezar. AI First Move es empezar."
+    },
+    "promise": {
+      "title": "Lo que tiene al terminar",
+      "items": [
+        "Un caso de IA funcionando en producción, que su equipo opera.",
+        "Un caso de inversión que puede defender ante junta directiva o casa matriz, con números de su propia operación."
+      ]
+    },
+    "deliverables": {
+      "title": "Qué recibe",
+      "items": [
+        {
+          "title": "Un caso de uso en producción",
+          "body": "Construido con su equipo dentro del trabajo. Al terminar, su gente queda capaz de operarlo."
+        },
+        {
+          "title": "La definición del caso",
+          "body": "El alcance del caso, documentado y aprobado con usted antes de construir."
+        },
+        {
+          "title": "El caso de inversión",
+          "body": "Arquitectura destino, esfuerzo, secuencia y retorno estimado, calculados sobre la evidencia real del caso construido."
+        },
+        {
+          "title": "Preparación para presentarlo",
+          "body": "Una sesión para preparar a quien presentará el caso de inversión dentro de la empresa."
+        }
+      ]
+    },
+    "process": {
+      "title": "Cómo funciona: dos ciclos, 10 semanas",
+      "cycles": [
+        {
+          "label": "Ciclo 1 · Semanas 1 a 7",
+          "title": "Construcción",
+          "body": "En la primera semana confirmamos que el caso es viable con sus datos. Después lo construimos con su equipo técnico adentro y lo ponemos en producción."
+        },
+        {
+          "label": "Ciclo 2 · Semanas 8 a 10",
+          "title": "Caso de inversión",
+          "body": "Convertimos la evidencia del caso construido en el argumento para financiar los siguientes, y preparamos a quien lo presentará."
+        }
+      ],
+      "differentiator": "Lo que construimos se queda funcionando: termina en producción, con su equipo operándolo."
+    },
+    "principle": {
+      "title": "La IA propone, su equipo decide",
+      "body": "En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción en 10 semanas sin abrir un riesgo que después tenga que explicar en junta.",
+      "items": [
+        "Una persona aprueba antes de enviar, modificar registros o mover dinero.",
+        "La usan personas de su empresa, no clientes ni terceros."
+      ]
+    },
+    "clientTime": {
+      "title": "Cuánto tiempo pide a su equipo",
+      "body": "Una persona técnica, unas horas por semana. La construcción la hace nuestro equipo, y su persona técnica participa para quedar capaz de operar el caso."
+    },
+    "pricing": {
+      "title": "Un precio, un caso, sin sorpresas",
+      "price": "USD 24,500",
+      "tax": "+ IVA · precio fijo",
+      "duration": "10 semanas, en dos ciclos",
+      "scope": "Un caso de uso de tamaño pequeño o mediano, con datos que ya existen y son accesibles",
+      "payment": "30 % al inicio, 40 % al cierre del ciclo 1 y 30 % al cierre del ciclo 2",
+      "cta": "Agendar una conversación"
+    },
+    "notFor": {
+      "title": "Cuándo AI First Move no es el punto de partida",
+      "items": [
+        "Si todavía no hay una idea elegida por quien decide, o hay varias sin ordenar, el punto de partida es Ruta IA.",
+        "Si ya tiene decisión, presupuesto y mandato, conviene un proyecto directo.",
+        "Si sus datos no son accesibles hoy, primero conviene un proyecto de Data Engineering.",
+        "Si necesita un caso grande o varios a la vez, lo cotizamos a medida."
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿No es caro para un solo caso de uso?",
+          "answer": "No está comprando un caso de uso: está comprando la aprobación del programa completo. El caso funcionando y el caso de inversión son lo que convence a la junta de financiar los siguientes."
+        },
+        {
+          "question": "¿Cuánta gente de mi equipo tiene que participar?",
+          "answer": "Una persona técnica, unas horas por semana. La construcción la hace nuestro equipo."
+        },
+        {
+          "question": "¿Pueden incluir un segundo caso?",
+          "answer": "AI First Move es un caso. Un segundo caso es un programa aparte, con su propio alcance."
+        },
+        {
+          "question": "¿Tengo que hacer Ruta IA primero?",
+          "answer": "No. Si quien decide ya eligió la idea, puede empezar directamente con AI First Move. Si hay varias ideas sin ordenar, Ruta IA es el mejor punto de partida."
+        },
+        {
+          "question": "¿Necesitan construir infraestructura de datos?",
+          "answer": "No. El caso usa datos que ya existen y son accesibles. Si sus datos no están listos, primero conviene un proyecto de Data Engineering."
+        },
+        {
+          "question": "¿Por qué una persona aprueba lo que propone la IA?",
+          "answer": "Porque es la forma de llegar a producción en 10 semanas sin abrir riesgos con clientes, registros o dinero. En el primer caso, la IA propone y su equipo decide."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Ya tiene la idea? Llevémosla a producción.",
+      "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos si su idea encaja en AI First Move.",
+      "button": "Agendar una conversación"
+    }
   }
 }
