@@ -120,7 +120,14 @@ NEXT_PUBLIC_GA_ID="G-..."     # Google Analytics measurement ID
 
 ## Design System (Cabana Data)
 
-Design tokens are defined in `app/globals.css` and extracted from Figma.
+Design tokens are implemented in `app/globals.css`. The design source of truth is `design/design-system.pen`.
+
+### `.pen` Design File
+- `design/design-system.pen` holds the design system (`Foundations` and `Components` frames), page baselines (`PG/<route>`) and change screens (`CH-<slug>/...`)
+- The file is encrypted: access it only through the `pencil` MCP tools, never with Read or Grep
+- **Read `design/DESIGN-RULES.md` before designing or implementing any UI** — it is the single source of UI rules (tokens, components, naming, design-to-code mapping, checklist)
+- `design/BASELINES.md` tracks each route's baseline status and design debt; update it when a baseline is drawn or a change is merged
+- Only one person/session edits the `.pen` at a time; merge `.pen` changes quickly (git cannot merge it)
 
 ### Brand Colors
 | Token | Value | Usage |
@@ -153,3 +160,7 @@ Design tokens are defined in `app/globals.css` and extracted from Figma.
 - Figma file: "Parte I - Cabana Data"
 - Use Figma MCP server for design context
 - Extract design tokens from Figma variables when updating styles
+
+## Content Guidelines
+
+`docs/content/` holds the guide documents for site content (tone of voice, marketing brief, etc.). **Read and follow them before writing or editing any copy** — page text, `messages/es.json` / `messages/en.json`, blog posts, CTAs and SEO metadata. If a guide conflicts with existing copy, the guide wins; flag the conflict instead of resolving it silently.
