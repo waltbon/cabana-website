@@ -1949,7 +1949,8 @@
         "Based on your data and your people"
       ],
       "ctaPrimary": "Book a conversation",
-      "ctaSecondary": "See what's included"
+      "ctaSecondary": "See what's included",
+      "imageAlt": "Consultant at a whiteboard with prioritized ideas"
     },
     "moment": {
       "title": "When someone asks \"where do we start with AI?\"",
@@ -2117,7 +2118,8 @@
         "Ends in production, run by your team"
       ],
       "ctaPrimary": "Book a conversation",
-      "ctaSecondary": "See what's included"
+      "ctaSecondary": "See what's included",
+      "imageAlt": "Team reviewing an AI use case from their operation on a laptop"
     },
     "moment": {
       "title": "When you know where to start, but approval is missing",

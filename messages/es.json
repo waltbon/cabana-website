@@ -1949,7 +1949,8 @@
         "Basado en sus datos y su gente"
       ],
       "ctaPrimary": "Agendar una conversación",
-      "ctaSecondary": "Ver qué incluye"
+      "ctaSecondary": "Ver qué incluye",
+      "imageAlt": "Consultor frente a una pizarra con ideas priorizadas"
     },
     "moment": {
       "title": "Cuando alguien pregunta \"¿por dónde empezamos con IA?\"",
@@ -2117,7 +2118,8 @@
         "Termina en producción, operado por su equipo"
       ],
       "ctaPrimary": "Agendar una conversación",
-      "ctaSecondary": "Ver qué incluye"
+      "ctaSecondary": "Ver qué incluye",
+      "imageAlt": "Equipo revisando en una laptop un caso de IA en su operación"
     },
     "moment": {
       "title": "Cuando ya saben por dónde empezar, pero falta la aprobación",
