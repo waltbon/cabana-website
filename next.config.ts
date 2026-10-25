@@ -58,6 +58,9 @@ const nextConfig: NextConfig = {
           statusCode: 301,
         },
       ]),
+      // Spanish is unprefixed; make /es a permanent redirect instead of
+      // next-intl's 307 so search engines consolidate on "/".
+      { source: "/es", destination: "/", statusCode: 301 },
       // case-studies pulled until customer approves content; keep any
       // indexed/bookmarked URLs from 404ing.
       {
