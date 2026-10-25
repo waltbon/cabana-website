@@ -47,7 +47,7 @@ export function DataConvergence({ className }: DataConvergenceProps) {
     >
       {/* scattered points, left */}
       {SCATTER_POINTS.map((p, i) => (
-        <circle key={i} cx={p.cx} cy={p.cy} r={p.r} fill="#0048ff" />
+        <circle key={i} cx={p.cx} cy={p.cy} r={p.r} fill="#0000d3" />
       ))}
 
       {/* converging lines from scatter into the grid's leftmost column */}
@@ -74,7 +74,7 @@ export function DataConvergence({ className }: DataConvergenceProps) {
                 y1={cy}
                 x2={GRID_COLS[ci + 1]}
                 y2={cy}
-                stroke="#0048ff"
+                stroke="#0000d3"
                 strokeWidth={3}
               />
             ))
@@ -88,13 +88,13 @@ export function DataConvergence({ className }: DataConvergenceProps) {
             y1={cy}
             x2={cx}
             y2={GRID_ROWS[ri + 1]}
-            stroke="#0048ff"
+            stroke="#0000d3"
             strokeWidth={3}
           />
         )),
       )}
       {gridNodes.map((n, i) => (
-        <circle key={i} cx={n.cx} cy={n.cy} r={6} fill="#ffffff" stroke="#0048ff" strokeWidth={3} />
+        <circle key={i} cx={n.cx} cy={n.cy} r={6} fill="#ffffff" stroke="#0000d3" strokeWidth={3} />
       ))}
 
       {/* connector from grid's rightmost column into the resolved output point */}
@@ -103,7 +103,7 @@ export function DataConvergence({ className }: DataConvergenceProps) {
         y1={centerRow}
         x2={outputX}
         y2={centerRow}
-        stroke="#0048ff"
+        stroke="#0000d3"
         strokeWidth={3}
       />
 

@@ -18,7 +18,7 @@ export function DecisionPriority({ className }: DecisionPriorityProps) {
 
   return (
     <svg viewBox="0 0 400 400" className={className} role="img" aria-label="" focusable="false">
-      <circle cx={60} cy={220} r={14} fill="#0048ff" />
+      <circle cx={60} cy={220} r={14} fill="#0000d3" />
       <text
         x={60}
         y={225}

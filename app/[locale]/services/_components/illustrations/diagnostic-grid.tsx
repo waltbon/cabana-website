@@ -28,7 +28,7 @@ export function DiagnosticGrid({ className }: DiagnosticGridProps) {
             width={40}
             height={40}
             rx={8}
-            fill={ri === flagged.row && ci === flagged.col ? "#57ff8f" : "#0048ff"}
+            fill={ri === flagged.row && ci === flagged.col ? "#57ff8f" : "#0000d3"}
             opacity={ri === flagged.row && ci === flagged.col ? 1 : 0.15 + (ci / cols.length) * 0.5}
           />
         )),

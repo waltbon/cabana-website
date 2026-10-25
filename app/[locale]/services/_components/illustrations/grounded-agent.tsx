@@ -21,13 +21,13 @@ export function GroundedAgent({ className }: GroundedAgentProps) {
       {/* agent node, hexagonal — not a literal robot */}
       <polygon
         points="200,140 240,165 240,215 200,240 160,215 160,165"
-        fill="#0048ff"
+        fill="#0000d3"
       />
       <circle cx={200} cy={190} r={14} fill="#ffffff" />
 
       {/* solid ground connection to real data source */}
       <rect x={175} y={280} width={50} height={40} rx={8} fill="#16364d" />
-      <line x1={200} y1={240} x2={200} y2={280} stroke="#0048ff" strokeWidth={6} />
+      <line x1={200} y1={240} x2={200} y2={280} stroke="#0000d3" strokeWidth={6} />
 
       {/* executed actions branching out, each a completed check */}
       <line x1={240} y1={175} x2={310} y2={140} stroke="#57ff8f" strokeWidth={5} strokeLinecap="round" />

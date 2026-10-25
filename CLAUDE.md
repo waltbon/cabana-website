@@ -125,7 +125,7 @@ Design tokens are defined in `app/globals.css` and extracted from Figma.
 ### Brand Colors
 | Token | Value | Usage |
 |-------|-------|-------|
-| `--color-cabana-blue` | `#0048ff` | Primary brand, buttons, links |
+| `--color-cabana-blue` | `#0000d3` | Primary brand, buttons, links |
 | `--color-cabana-green` | `#57ff8f` | Gradient accent |
 | `--color-cabana-dark` | `#0f172a` | Dark sections (hero, CTA) |
 | `--color-cabana-navy` | `#16364d` | Icon wrappers |
@@ -133,7 +133,7 @@ Design tokens are defined in `app/globals.css` and extracted from Figma.
 | `--color-cabana-slate` | `#f1f5f9` | Alternate light backgrounds |
 
 ### Typography
-- **Font**: Montserrat (configured in layout.tsx)
+- **Font**: Reddit Sans (configured in layout.tsx)
 - **Heading XL**: 72px - Hero headlines
 - **Heading LG**: 36px - Section titles
 - **Heading MD**: 24px - Subheadings

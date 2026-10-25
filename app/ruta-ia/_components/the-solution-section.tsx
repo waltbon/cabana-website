@@ -79,13 +79,13 @@ export function TheSolutionSection() {
       />
       <div
         className="pointer-events-none absolute -bottom-40 -right-24 size-[520px] rounded-full opacity-15 blur-3xl"
-        style={{ background: "radial-gradient(circle, #0048ff 0%, transparent 70%)" }}
+        style={{ background: "radial-gradient(circle, #0000d3 0%, transparent 70%)" }}
         aria-hidden="true"
       />
       {/* Top accent stripe to signal the solution reveal */}
       <div
         className="absolute top-0 left-0 h-1 w-full"
-        style={{ background: "linear-gradient(to right, #0048ff, #57ff8f)" }}
+        style={{ background: "linear-gradient(to right, #0000d3, #57ff8f)" }}
         aria-hidden="true"
       />
 

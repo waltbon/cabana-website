@@ -28,11 +28,11 @@ export function CentralizedPipeline({ className }: CentralizedPipelineProps) {
       {/* pipeline funnel into the warehouse */}
       <path
         d="M150 165 L150 205 L200 195 L200 175 Z"
-        fill="#0048ff"
+        fill="#0000d3"
       />
 
       {/* central warehouse */}
-      <rect x={200} y={140} width={90} height={110} rx={12} fill="#0048ff" />
+      <rect x={200} y={140} width={90} height={110} rx={12} fill="#0000d3" />
       <line x1={200} y1={170} x2={290} y2={170} stroke="#ffffff" strokeWidth={3} opacity={0.5} />
       <line x1={200} y1={200} x2={290} y2={200} stroke="#ffffff" strokeWidth={3} opacity={0.5} />
       <line x1={200} y1={230} x2={290} y2={230} stroke="#ffffff" strokeWidth={3} opacity={0.5} />

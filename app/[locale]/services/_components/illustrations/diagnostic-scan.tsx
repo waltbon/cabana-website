@@ -18,7 +18,7 @@ export function DiagnosticScan({ className }: DiagnosticScanProps) {
   return (
     <svg viewBox="0 0 400 400" className={className} role="img" aria-label="" focusable="false">
       {layers.map((l, i) => (
-        <rect key={i} x={70} y={l.y} width={l.w} height={36} rx={8} fill="#0048ff" opacity={0.18 + i * 0.14} />
+        <rect key={i} x={70} y={l.y} width={l.w} height={36} rx={8} fill="#0000d3" opacity={0.18 + i * 0.14} />
       ))}
 
       {/* crack in the third layer, hidden under the surface */}

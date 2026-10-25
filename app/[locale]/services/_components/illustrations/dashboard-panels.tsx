@@ -18,7 +18,7 @@ export function DashboardPanels({ className }: DashboardPanelsProps) {
       focusable="false"
     >
       {/* bar chart panel */}
-      <rect x={30} y={30} width={180} height={160} rx={10} fill="none" stroke="#0048ff" strokeWidth={4} />
+      <rect x={30} y={30} width={180} height={160} rx={10} fill="none" stroke="#0000d3" strokeWidth={4} />
       {bars.map((h, i) => (
         <rect
           key={i}
@@ -27,18 +27,18 @@ export function DashboardPanels({ className }: DashboardPanelsProps) {
           width={18}
           height={h}
           rx={4}
-          fill={i === 3 ? "#57ff8f" : "#0048ff"}
+          fill={i === 3 ? "#57ff8f" : "#0000d3"}
           opacity={i === 3 ? 1 : 0.55}
         />
       ))}
 
       {/* KPI card panel */}
-      <rect x={230} y={30} width={100} height={70} rx={10} fill="#0048ff" />
+      <rect x={230} y={30} width={100} height={70} rx={10} fill="#0000d3" />
       <rect x={245} y={50} width={50} height={10} rx={4} fill="#ffffff" opacity={0.85} />
       <rect x={245} y={68} width={30} height={16} rx={4} fill="#57ff8f" />
 
       {/* trend line panel */}
-      <rect x={230} y={115} width={100} height={75} rx={10} fill="none" stroke="#0048ff" strokeWidth={4} />
+      <rect x={230} y={115} width={100} height={75} rx={10} fill="none" stroke="#0000d3" strokeWidth={4} />
       <polyline
         points="245,175 265,150 285,160 305,130 320,140"
         fill="none"
