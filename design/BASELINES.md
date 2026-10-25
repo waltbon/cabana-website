@@ -14,7 +14,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 | Frame | Archivo | Estado | Commit | Deuda |
 |---|---|---|---|---|
-| `PG/index` | `app/[locale]/page.tsx` | pendiente | — | — |
+| `PG/index` | `app/[locale]/page.tsx` | pendiente | — | Rediseño en curso en `CH-inicio: pantallas` (rama `feat/inicio`). El baseline del Inicio anterior no se dibujó: la página se reemplaza completa; al mergear, `CH-inicio/Landing` pasa a ser `PG/index`. |
 | `PG/about` | `app/[locale]/about/page.tsx` | pendiente | — | — |
 | `PG/contact` | `app/[locale]/contact/page.tsx` | pendiente | — | Dibujar estados del formulario: base, enviando, enviado, error. |
 | `PG/careers` | `app/[locale]/careers/page.tsx` | pendiente | — | — |

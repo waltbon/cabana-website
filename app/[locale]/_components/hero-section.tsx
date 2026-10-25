@@ -1,60 +1,42 @@
-"use client";
-
-import { Link } from "@/i18n/navigation";
-import { ArrowRight } from "lucide-react";
-import { useTranslations } from "next-intl";
-import { Container } from "@/components/craft";
+import { getTranslations } from "next-intl/server";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { FadeIn, Parallax } from "@/components/animations";
 import { PlasmaField } from "@/components/plasma-field";
+import { ServiceLink } from "./service-link";
 
-export function HeroSection() {
-  const t = useTranslations("hero");
+type Door = { label: string; hint: string; href: string };
+
+export async function HeroSection() {
+  const t = await getTranslations("inicio.hero");
+  const doors = t.raw("doors") as Door[];
 
   return (
-    <section className="relative overflow-hidden py-20 md:pb-12 md:pt-12 text-center">
+    <section className="relative overflow-hidden bg-section-dark py-16 md:pt-28 md:pb-28">
+      {/* WebGL background */}
       <PlasmaField className="absolute inset-0 w-full h-full" />
-      <Container className="relative z-10 max-w-7xl px-6">
-        <div className="flex flex-col items-center gap-8 text-center">
-          {/* Tagline */}
-          <FadeIn>
-            <span className="text-sm font-extrabold uppercase text-white">
-              {t("tagline")}
-            </span>
-          </FadeIn>
+      {/* Overlay for text legibility */}
+      <div className="absolute inset-0 bg-black/55 pointer-events-none" />
 
-          {/* Main Headline */}
-          <FadeIn delay={0.1}>
-            <h1 className="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl lg:leading-none">
-              {t("headline")} <br />
-              <span className="text-gradient-cabana">
-                {t("headlineHighlight")}
-              </span>
-            </h1>
-          </FadeIn>
-
-          {/* Subheadline */}
-          <FadeIn delay={0.2}>
-            <p className="max-w-2xl text-lg text-white/90 md:text-xl">
-              {t("description")}
-            </p>
-          </FadeIn>
-
-          {/* CTA Button */}
-          <FadeIn delay={0.3}>
-            <Button
-              asChild
-              size="lg"
-              className="mt-4 gap-2 rounded-lg bg-cabana-blue px-6 text-cabana-light hover:bg-cabana-blue/90"
-            >
-              <Link href="/contact">
-                {t("cta")}
-                <ArrowRight className="size-4" />
-              </Link>
-            </Button>
-          </FadeIn>
+      <div className="relative z-10 container flex flex-col items-center gap-6 text-center md:gap-8">
+        <Badge variant="pretitle">{t("eyebrow")}</Badge>
+        <h1 className="text-white text-4xl md:text-7xl max-w-5xl">
+          {t("title")}
+        </h1>
+        <p className="text-lg md:text-xl text-slate-300 max-w-3xl">
+          {t("subtitle")}
+        </p>
+        {/* Both doors carry the same visual weight: same size, same variant */}
+        <div className="flex w-full flex-col gap-4 pt-2 sm:w-auto sm:flex-row">
+          {doors.map((door) => (
+            <div key={door.href} className="flex flex-col items-center gap-3 sm:w-[21.25rem]">
+              <Button asChild size="lg" className="w-full">
+                <ServiceLink href={door.href}>{door.label}</ServiceLink>
+              </Button>
+              <span className="text-sm text-slate-300">{door.hint}</span>
+            </div>
+          ))}
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

@@ -8,7 +8,7 @@ export async function PrincipleSection() {
   const items = t.raw("items") as string[];
 
   return (
-    <section className="bg-background py-16 md:py-24">
+    <section id="principio" className="scroll-mt-14 bg-background py-16 md:py-24">
       <div className="container grid gap-8 lg:grid-cols-2 lg:gap-20">
         <div className="flex flex-col gap-4">
           <h2 className="text-foreground">{t("title")}</h2>

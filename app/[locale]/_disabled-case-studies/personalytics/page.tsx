@@ -7,7 +7,7 @@ import { ResultsSection } from "./_components/results-section";
 import { ImpactSection } from "./_components/impact-section";
 import { TakeawaySection } from "./_components/takeaway-section";
 import { MoreCasesSection } from "./_components/more-cases-section";
-import { CTASection } from "../../_components/cta-section";
+import { CTASection } from "@/components/capacidades/cta-section";
 import { getCaseStudyById } from "@/data/_disabled-case-studies";
 import NotFound from "../../not-found";
 

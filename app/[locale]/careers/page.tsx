@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
 import { HeroSection, JobsListSection } from "./_components";
-import { CTASection } from "../_components/cta-section";
+import { CTASection } from "@/components/capacidades/cta-section";
 import { siteConfig } from "@/site.config";
 
 export async function generateMetadata({
@@ -33,7 +33,7 @@ export default function CareersPage() {
       />
       <HeroSection />
       <JobsListSection />
-      <CTASection />
+      <CTASection namespace="inicio.cta" />
     </>
   );
 }
