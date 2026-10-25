@@ -5562,6 +5562,3456 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "Q4cjMB",
+      "x": 1400,
+      "y": 8580,
+      "name": "CH-ai-first-move: pantallas",
+      "fill": "#E5E7EB",
+      "gap": 120,
+      "padding": 80,
+      "children": [
+        {
+          "type": "frame",
+          "id": "z4lqS",
+          "name": "CH-ai-first-move/Landing",
+          "clip": true,
+          "width": 1440,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "HdQ13",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "MwCgn",
+              "name": "Hero",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                120,
+                80,
+                112,
+                80
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "AfuBQ",
+                  "type": "ref",
+                  "ref": "hn4I4",
+                  "name": "Eyebrow",
+                  "descendants": {
+                    "xmZiN": {
+                      "content": "PRIMER CASO DE IA EN PRODUCCIÓN"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "N20ulh",
+                  "name": "H1",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 1040,
+                  "content": "AI First Move: lleve su primer caso de IA a producción",
+                  "lineHeight": 1,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 72,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "jex4F",
+                  "name": "Subtitle",
+                  "fill": "#CBD5E1",
+                  "textGrowth": "fixed-width",
+                  "width": 760,
+                  "content": "En 10 semanas tiene el primer caso funcionando y el caso de inversión para llevar el resto a junta, construido con su equipo y con números de su propia operación.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "g734O",
+                  "name": "CTAs",
+                  "gap": 12,
+                  "padding": [
+                    8,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "xPtPi",
+                      "type": "ref",
+                      "ref": "BIJEs",
+                      "name": "CTA primary",
+                      "descendants": {
+                        "biwyZ": {
+                          "content": "Agendar una conversación"
+                        }
+                      }
+                    },
+                    {
+                      "id": "oZc3m",
+                      "type": "ref",
+                      "ref": "QCuy5",
+                      "name": "CTA secondary",
+                      "height": 44,
+                      "descendants": {
+                        "U4otP": {
+                          "content": "Ver qué incluye"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f8OF00",
+                  "name": "Facts",
+                  "gap": 40,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L1G94",
+                      "name": "Fact",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "m1x0S",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "calendar-range",
+                          "library": "lucide",
+                          "fill": "$cabana-green"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KCdwe",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "10 semanas, en dos ciclos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "P2sKr4",
+                      "name": "Fact",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "plfLW",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "badge-dollar-sign",
+                          "library": "lucide",
+                          "fill": "$cabana-green"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qHtRM",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "USD 24,500 + IVA, precio fijo",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "S53fg",
+                      "name": "Fact",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "v9Wii",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "rocket",
+                          "library": "lucide",
+                          "fill": "$cabana-green"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qr4ST",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "Termina en producción, operado por su equipo",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "J0xz6o",
+              "name": "Moment",
+              "width": "fill_container",
+              "fill": "$background",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nhKJx",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sZ5Pu",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cuando ya saben por dónde empezar, pero falta la aprobación",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M4CiR",
+                  "name": "Right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sJ3hg",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Quien decide ya eligió la idea y hay convicción de avanzar. Lo que no hay es aprobación para un proyecto grande, y un documento no la va a conseguir.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UZ4Gl",
+                      "name": "Body",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La junta aprueba lo que ve funcionando. AI First Move le da esa evidencia: un caso real en su operación y los números para financiar los siguientes.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XyPfB",
+                      "name": "Bridge",
+                      "fill": "$primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ruta IA le dice por dónde empezar. AI First Move es empezar.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PtrXg",
+              "name": "Promise",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KK5UH",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lo que tiene al terminar",
+                  "lineHeight": 1.11,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "dPgtM",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "glUYe",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FdmdY",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "content": "01",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HvFtw",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Un caso de IA funcionando en producción, que su equipo opera.",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qdzvj",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "L7BUGe",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "content": "02",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bILOc",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Un caso de inversión que puede defender ante junta directiva o casa matriz, con números de su propia operación.",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tZeoT",
+              "name": "Deliverables",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Gr6BI",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Qué recibe",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "M1sXy",
+                  "name": "Grid",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "id": "dTdZ0",
+                      "type": "ref",
+                      "ref": "VEEsa",
+                      "name": "Card featured",
+                      "width": "fill_container",
+                      "height": 544,
+                      "fill": "$cabana-light",
+                      "justifyContent": "end",
+                      "descendants": {
+                        "DMkHP": {
+                          "icon": "rocket"
+                        },
+                        "a2QkH": {
+                          "content": "Un caso de uso en producción"
+                        },
+                        "V4NBnI": {
+                          "content": "Construido con su equipo dentro del trabajo. Al terminar, su gente queda capaz de operarlo."
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qKaka",
+                      "name": "Rest",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "K7pua",
+                          "name": "Row",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "Yvcci",
+                              "type": "ref",
+                              "ref": "VEEsa",
+                              "name": "Card",
+                              "width": "fill_container",
+                              "height": 260,
+                              "descendants": {
+                                "DMkHP": {
+                                  "icon": "file-check"
+                                },
+                                "a2QkH": {
+                                  "content": "La definición del caso"
+                                },
+                                "V4NBnI": {
+                                  "content": "El alcance del caso, documentado y aprobado con usted antes de construir."
+                                }
+                              }
+                            },
+                            {
+                              "id": "dINS6",
+                              "type": "ref",
+                              "ref": "VEEsa",
+                              "name": "Card",
+                              "width": "fill_container",
+                              "height": 260,
+                              "descendants": {
+                                "DMkHP": {
+                                  "icon": "trending-up"
+                                },
+                                "a2QkH": {
+                                  "content": "El caso de inversión"
+                                },
+                                "V4NBnI": {
+                                  "content": "Arquitectura destino, esfuerzo, secuencia y retorno estimado, calculados sobre la evidencia real del caso construido."
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BW4gQ",
+                          "name": "Row",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "CP7PG",
+                              "type": "ref",
+                              "ref": "VEEsa",
+                              "name": "Card",
+                              "width": "fill_container",
+                              "height": 260,
+                              "descendants": {
+                                "DMkHP": {
+                                  "icon": "presentation"
+                                },
+                                "a2QkH": {
+                                  "content": "Preparación para presentarlo"
+                                },
+                                "V4NBnI": {
+                                  "content": "Una sesión para preparar a quien presentará el caso de inversión dentro de la empresa."
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QNzv9",
+              "name": "Process",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xKsrY",
+                  "name": "H2",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 760,
+                  "content": "Cómo funciona: dos ciclos, 10 semanas",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "u76oQZ",
+                  "name": "Timeline",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FONSZ",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "Wx5Ft",
+                          "name": "Bar",
+                          "fill": "$cabana-green",
+                          "width": "fill_container",
+                          "height": 4
+                        },
+                        {
+                          "id": "Qmzmd",
+                          "type": "ref",
+                          "ref": "QMziD",
+                          "name": "Label",
+                          "descendants": {
+                            "cU6Au": {
+                              "content": "Ciclo 1 · Semanas 1 a 7"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "q5Ta3",
+                          "name": "Title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Construcción",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JLFFn",
+                          "name": "Body",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "En la primera semana confirmamos que el caso es viable con sus datos. Después lo construimos con su equipo técnico adentro y lo ponemos en producción.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a8YLX",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "is4zB",
+                          "name": "Bar",
+                          "fill": "$cabana-green",
+                          "width": "fill_container",
+                          "height": 4
+                        },
+                        {
+                          "id": "V9Q9Ir",
+                          "type": "ref",
+                          "ref": "QMziD",
+                          "name": "Label",
+                          "descendants": {
+                            "cU6Au": {
+                              "content": "Ciclo 2 · Semanas 8 a 10"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "haWV1",
+                          "name": "Title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Caso de inversión",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ojLvA",
+                          "name": "Body",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Convertimos la evidencia del caso construido en el argumento para financiar los siguientes, y preparamos a quien lo presentará.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Pb89L",
+                  "name": "Method",
+                  "fill": "$cabana-lime",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lo que construimos se queda funcionando: termina en producción, con su equipo operándolo.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PDDK1",
+              "name": "Principle",
+              "width": "fill_container",
+              "fill": "$background",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "M0nJrX",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ldS9p",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La IA propone, su equipo decide",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X1VMc",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción en 10 semanas sin abrir un riesgo que después tenga que explicar en junta.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mdyhr",
+                  "name": "Rules",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Vv69A",
+                      "name": "Rule",
+                      "width": "fill_container",
+                      "fill": "$section-light",
+                      "cornerRadius": "$radius-xl",
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "W4HMRJ",
+                          "type": "ref",
+                          "ref": "yxVk4",
+                          "name": "Icon Wrapper",
+                          "descendants": {
+                            "OHGIk": {
+                              "icon": "user-check"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "BH4Td",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Una persona aprueba antes de enviar, modificar registros o mover dinero.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OsoyC",
+                      "name": "Rule",
+                      "width": "fill_container",
+                      "fill": "$section-light",
+                      "cornerRadius": "$radius-xl",
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "Z0RbH",
+                          "type": "ref",
+                          "ref": "yxVk4",
+                          "name": "Icon Wrapper",
+                          "descendants": {
+                            "OHGIk": {
+                              "icon": "building-2"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "m4cgBH",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "La usan personas de su empresa, no clientes ni terceros.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lDrJs",
+              "name": "Client time",
+              "width": "fill_container",
+              "fill": "$section-slate",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SepDE",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "gap": 80,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uYM7e",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cuánto tiempo pide a su equipo",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zqjyP",
+                      "name": "Text",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Una persona técnica, unas horas por semana. La construcción la hace nuestro equipo, y su persona técnica participa para quedar capaz de operar el caso.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wz4Jy",
+              "name": "Pricing",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XV6ZM",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Un precio, un caso, sin sorpresas",
+                  "lineHeight": 1.11,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "wKuvb",
+                  "name": "Price card",
+                  "width": 880,
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "gap": 48,
+                  "padding": 48,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CNTAL",
+                      "name": "Price",
+                      "width": 300,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BRPAF",
+                          "name": "Amount",
+                          "fill": "$cabana-blue",
+                          "content": "USD 24,500",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t1Gd7O",
+                          "name": "Tax",
+                          "fill": "$muted-foreground",
+                          "content": "+ IVA · precio fijo",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "id": "S0hcB",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "CTA",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "Agendar una conversación"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xFLH2",
+                      "name": "Terms",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VXOuD",
+                          "name": "Term",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "xVcSG",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "calendar-range",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            },
+                            {
+                              "type": "text",
+                              "id": "o7GTQ4",
+                              "name": "Text",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "10 semanas, en dos ciclos",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FMers",
+                          "name": "Term",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "D3xhHa",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "box",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            },
+                            {
+                              "type": "text",
+                              "id": "G07QmX",
+                              "name": "Text",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Un caso de uso de tamaño pequeño o mediano, con datos que ya existen y son accesibles",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "A3IIB",
+                          "name": "Term",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "eM0Ki",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "wallet",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xRQIE",
+                              "name": "Text",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "30 % al inicio, 40 % al cierre del ciclo 1 y 30 % al cierre del ciclo 2",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aTI96",
+              "name": "Not for",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B7JzC1",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cuándo AI First Move no es el punto de partida",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "HIwSU",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "no6Ki",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "x8CQ3",
+                          "name": "Item",
+                          "width": "fill_container",
+                          "fill": "$card",
+                          "cornerRadius": "$radius-xl",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "SsaSj",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "arrow-right-left",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "zeshW",
+                              "name": "Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "hQJXk",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Si todavía no hay una idea elegida por quien decide, o hay varias sin ordenar, el punto de partida es Ruta IA.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vHG9N",
+                          "name": "Item",
+                          "width": "fill_container",
+                          "fill": "$card",
+                          "cornerRadius": "$radius-xl",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "fj800",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "arrow-right-left",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "bVLzT",
+                              "name": "Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "I66JIx",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Si ya tiene decisión, presupuesto y mandato, conviene un proyecto directo.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l6nyEF",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mRhjp",
+                          "name": "Item",
+                          "width": "fill_container",
+                          "fill": "$card",
+                          "cornerRadius": "$radius-xl",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "jHrSF",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "arrow-right-left",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "oGbJ7",
+                              "name": "Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ThKn4",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Si sus datos no son accesibles hoy, primero conviene un proyecto de Data Engineering.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rEaqo",
+                          "name": "Item",
+                          "width": "fill_container",
+                          "fill": "$card",
+                          "cornerRadius": "$radius-xl",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "N7h0v",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "arrow-right-left",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "UUACt",
+                              "name": "Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Z0L01",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Si necesita un caso grande o varios a la vez, lo cotizamos a medida.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Qdmvc",
+              "name": "FAQ",
+              "width": "fill_container",
+              "fill": "$background",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "e8yUt",
+                  "name": "Left",
+                  "width": 400,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XAzzz",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Preguntas frecuentes",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nesUt",
+                  "name": "Accordion",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Byiba",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GYWkU",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sW4Ro",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿No es caro para un solo caso de uso?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "y69o5",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-up",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "z9i7AM",
+                          "name": "Text",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "No está comprando un caso de uso: está comprando la aprobación del programa completo. El caso funcionando y el caso de inversión son lo que convence a la junta de financiar los siguientes.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ht3OW",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "al5nY",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "VAdRg",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Cuánta gente de mi equipo tiene que participar?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "kUQ3I",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gebuR",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sNoRv",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "av1By",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Pueden incluir un segundo caso?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "ukHbv",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rsp1L",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lLdhh",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zBqJc",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Tengo que hacer Ruta IA primero?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "JpdVD",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x5PrP",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ImvIp",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "a4TW16",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Necesitan construir infraestructura de datos?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "E4qpyJ",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HQtdg",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KBbDa",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XRiYH",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Por qué una persona aprueba lo que propone la IA?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "lG2pV",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MfX4R",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "id": "gj9On",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿Ya tiene la idea? Llevémosla a producción."
+                    },
+                    "IvrLz": {
+                      "content": "En una conversación de 20 minutos con quien decide la inversión, revisamos si su idea encaja en AI First Move."
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Agendar una conversación"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "vL1wD",
+              "type": "ref",
+              "ref": "arSuf",
+              "name": "Footer",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iVeAk",
+          "name": "CH-ai-first-move/Landing (móvil)",
+          "clip": true,
+          "width": 390,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "XCaid",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "V6ItMZ",
+              "name": "Hero",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                72,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "ekm8T",
+                  "type": "ref",
+                  "ref": "hn4I4",
+                  "name": "Eyebrow",
+                  "descendants": {
+                    "xmZiN": {
+                      "content": "PRIMER CASO DE IA EN PRODUCCIÓN"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "wbQ3F",
+                  "name": "H1",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "AI First Move: lleve su primer caso de IA a producción",
+                  "lineHeight": 1,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Bbykn",
+                  "name": "Subtitle",
+                  "fill": "#CBD5E1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "En 10 semanas tiene el primer caso funcionando y el caso de inversión para llevar el resto a junta, construido con su equipo y con números de su propia operación.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ODWzl",
+                  "name": "CTAs",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    8,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "J9vrE",
+                      "type": "ref",
+                      "ref": "BIJEs",
+                      "name": "CTA primary",
+                      "width": "fill_container",
+                      "descendants": {
+                        "biwyZ": {
+                          "content": "Agendar una conversación"
+                        }
+                      }
+                    },
+                    {
+                      "id": "p72Re2",
+                      "type": "ref",
+                      "ref": "QCuy5",
+                      "name": "CTA secondary",
+                      "height": 44,
+                      "width": "fill_container",
+                      "descendants": {
+                        "U4otP": {
+                          "content": "Ver qué incluye"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EB5wV",
+                  "name": "Facts",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Vw1wy",
+                      "name": "Fact",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "kzTDg",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "calendar-range",
+                          "library": "lucide",
+                          "fill": "$cabana-green"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HL2fb",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "10 semanas, en dos ciclos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HGUA3",
+                      "name": "Fact",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "HEc8x",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "badge-dollar-sign",
+                          "library": "lucide",
+                          "fill": "$cabana-green"
+                        },
+                        {
+                          "type": "text",
+                          "id": "E3LEHj",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "USD 24,500 + IVA, precio fijo",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gLW9F",
+                      "name": "Fact",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "O929C",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "rocket",
+                          "library": "lucide",
+                          "fill": "$cabana-green"
+                        },
+                        {
+                          "type": "text",
+                          "id": "H8tIt",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "Termina en producción, operado por su equipo",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KmINq",
+              "name": "Moment",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iCngb",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bvi30",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cuando ya saben por dónde empezar, pero falta la aprobación",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CHKiW",
+                  "name": "Right",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HYa7I",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Quien decide ya eligió la idea y hay convicción de avanzar. Lo que no hay es aprobación para un proyecto grande, y un documento no la va a conseguir.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p3Fwq",
+                      "name": "Body",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La junta aprueba lo que ve funcionando. AI First Move le da esa evidencia: un caso real en su operación y los números para financiar los siguientes.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uAEFu",
+                      "name": "Bridge",
+                      "fill": "$primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ruta IA le dice por dónde empezar. AI First Move es empezar.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NXg7f",
+              "name": "Promise",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l8jJr",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lo que tiene al terminar",
+                  "lineHeight": 1.11,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "o4fRIp",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fu1hg",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l8MDL",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "content": "01",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CPOCP",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Un caso de IA funcionando en producción, que su equipo opera.",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Miyjl",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nx72h",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "content": "02",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qhpmM",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Un caso de inversión que puede defender ante junta directiva o casa matriz, con números de su propia operación.",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Tjotk",
+              "name": "Deliverables",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yVaYx",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Qué recibe",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "KeNuQ",
+                  "name": "Grid",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "id": "Q0xLE",
+                      "type": "ref",
+                      "ref": "VEEsa",
+                      "name": "Card featured",
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "fill": "$cabana-light",
+                      "justifyContent": "end",
+                      "descendants": {
+                        "DMkHP": {
+                          "icon": "rocket"
+                        },
+                        "a2QkH": {
+                          "content": "Un caso de uso en producción",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container"
+                        },
+                        "V4NBnI": {
+                          "content": "Construido con su equipo dentro del trabajo. Al terminar, su gente queda capaz de operarlo."
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FlAVj",
+                      "name": "Rest",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "j9SsoX",
+                          "name": "Row",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "i8MpK",
+                              "type": "ref",
+                              "ref": "VEEsa",
+                              "name": "Card",
+                              "width": "fill_container",
+                              "height": "fit_content",
+                              "descendants": {
+                                "DMkHP": {
+                                  "icon": "file-check"
+                                },
+                                "a2QkH": {
+                                  "content": "La definición del caso",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container"
+                                },
+                                "V4NBnI": {
+                                  "content": "El alcance del caso, documentado y aprobado con usted antes de construir."
+                                }
+                              }
+                            },
+                            {
+                              "id": "Zz8p8",
+                              "type": "ref",
+                              "ref": "VEEsa",
+                              "name": "Card",
+                              "width": "fill_container",
+                              "height": "fit_content",
+                              "descendants": {
+                                "DMkHP": {
+                                  "icon": "trending-up"
+                                },
+                                "a2QkH": {
+                                  "content": "El caso de inversión",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container"
+                                },
+                                "V4NBnI": {
+                                  "content": "Arquitectura destino, esfuerzo, secuencia y retorno estimado, calculados sobre la evidencia real del caso construido."
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZQiCe",
+                          "name": "Row",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "f50XcQ",
+                              "type": "ref",
+                              "ref": "VEEsa",
+                              "name": "Card",
+                              "width": "fill_container",
+                              "height": "fit_content",
+                              "descendants": {
+                                "DMkHP": {
+                                  "icon": "presentation"
+                                },
+                                "a2QkH": {
+                                  "content": "Preparación para presentarlo",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container"
+                                },
+                                "V4NBnI": {
+                                  "content": "Una sesión para preparar a quien presentará el caso de inversión dentro de la empresa."
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k9b5BQ",
+              "name": "Process",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xli4x",
+                  "name": "H2",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cómo funciona: dos ciclos, 10 semanas",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "Hzrsf",
+                  "name": "Timeline",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vUkN7",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "I9ucm",
+                          "name": "Bar",
+                          "fill": "$cabana-green",
+                          "width": "fill_container",
+                          "height": 4
+                        },
+                        {
+                          "id": "g3UWiP",
+                          "type": "ref",
+                          "ref": "QMziD",
+                          "name": "Label",
+                          "descendants": {
+                            "cU6Au": {
+                              "content": "Ciclo 1 · Semanas 1 a 7"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "BDnMU",
+                          "name": "Title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Construcción",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XzPkC",
+                          "name": "Body",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "En la primera semana confirmamos que el caso es viable con sus datos. Después lo construimos con su equipo técnico adentro y lo ponemos en producción.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "g5OnO",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "yA4PK",
+                          "name": "Bar",
+                          "fill": "$cabana-green",
+                          "width": "fill_container",
+                          "height": 4
+                        },
+                        {
+                          "id": "D5COY",
+                          "type": "ref",
+                          "ref": "QMziD",
+                          "name": "Label",
+                          "descendants": {
+                            "cU6Au": {
+                              "content": "Ciclo 2 · Semanas 8 a 10"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "S3WzHw",
+                          "name": "Title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Caso de inversión",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YOX1w",
+                          "name": "Body",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Convertimos la evidencia del caso construido en el argumento para financiar los siguientes, y preparamos a quien lo presentará.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "K9VmFR",
+                  "name": "Method",
+                  "fill": "$cabana-lime",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lo que construimos se queda funcionando: termina en producción, con su equipo operándolo.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wxb3P",
+              "name": "Principle",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aGJCg",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NIUkC",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La IA propone, su equipo decide",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zesam",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción en 10 semanas sin abrir un riesgo que después tenga que explicar en junta.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dWzHS",
+                  "name": "Rules",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "go0wy",
+                      "name": "Rule",
+                      "width": "fill_container",
+                      "fill": "$section-light",
+                      "cornerRadius": "$radius-xl",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "id": "rdzki",
+                          "type": "ref",
+                          "ref": "yxVk4",
+                          "name": "Icon Wrapper",
+                          "descendants": {
+                            "OHGIk": {
+                              "icon": "user-check"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "LJoxL",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Una persona aprueba antes de enviar, modificar registros o mover dinero.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tSLvv",
+                      "name": "Rule",
+                      "width": "fill_container",
+                      "fill": "$section-light",
+                      "cornerRadius": "$radius-xl",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "id": "TI0dd",
+                          "type": "ref",
+                          "ref": "yxVk4",
+                          "name": "Icon Wrapper",
+                          "descendants": {
+                            "OHGIk": {
+                              "icon": "building-2"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "gvxoi",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "La usan personas de su empresa, no clientes ni terceros.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j2LOY",
+              "name": "Client time",
+              "width": "fill_container",
+              "fill": "$section-slate",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "N0FUH",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kTxzE",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cuánto tiempo pide a su equipo",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BiV1B",
+                      "name": "Text",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Una persona técnica, unas horas por semana. La construcción la hace nuestro equipo, y su persona técnica participa para quedar capaz de operar el caso.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XgXU0",
+              "name": "Pricing",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F2ppq8",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Un precio, un caso, sin sorpresas",
+                  "lineHeight": 1.11,
+                  "textAlign": "center",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "EwfMV",
+                  "name": "Price card",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a2m2h5",
+                      "name": "Price",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xqGVy",
+                          "name": "Amount",
+                          "fill": "$cabana-blue",
+                          "content": "USD 24,500",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RPiAc",
+                          "name": "Tax",
+                          "fill": "$muted-foreground",
+                          "content": "+ IVA · precio fijo",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "id": "NZUnK",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "CTA",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "Agendar una conversación"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y6dZzQ",
+                      "name": "Terms",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QKBCx",
+                          "name": "Term",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "itgy4",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "calendar-range",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hFEhS",
+                              "name": "Text",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "10 semanas, en dos ciclos",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AM2MP",
+                          "name": "Term",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "jkc8z",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "box",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bzXEc",
+                              "name": "Text",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Un caso de uso de tamaño pequeño o mediano, con datos que ya existen y son accesibles",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j12qPU",
+                          "name": "Term",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Cf2aM",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "wallet",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cZlm3",
+                              "name": "Text",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "30 % al inicio, 40 % al cierre del ciclo 1 y 30 % al cierre del ciclo 2",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U983Yh",
+              "name": "Not for",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B4hYb3",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cuándo AI First Move no es el punto de partida",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "YYUmJ",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "U3CEO",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EpXAu",
+                          "name": "Item",
+                          "width": "fill_container",
+                          "fill": "$card",
+                          "cornerRadius": "$radius-xl",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "AJX5X",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "arrow-right-left",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IqVqs",
+                              "name": "Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aEvjk",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Si todavía no hay una idea elegida por quien decide, o hay varias sin ordenar, el punto de partida es Ruta IA.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zLkIX",
+                          "name": "Item",
+                          "width": "fill_container",
+                          "fill": "$card",
+                          "cornerRadius": "$radius-xl",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ev77w",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "arrow-right-left",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DSbtz",
+                              "name": "Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "jiku7",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Si ya tiene decisión, presupuesto y mandato, conviene un proyecto directo.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ECfRB",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "abUJ8",
+                          "name": "Item",
+                          "width": "fill_container",
+                          "fill": "$card",
+                          "cornerRadius": "$radius-xl",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ZktFr",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "arrow-right-left",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "cFBif",
+                              "name": "Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "P9sYJ",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Si sus datos no son accesibles hoy, primero conviene un proyecto de Data Engineering.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g8hTO",
+                          "name": "Item",
+                          "width": "fill_container",
+                          "fill": "$card",
+                          "cornerRadius": "$radius-xl",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "WGO5d",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "arrow-right-left",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rbPJP",
+                              "name": "Body",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "p2coCA",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Si necesita un caso grande o varios a la vez, lo cotizamos a medida.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CBrGp",
+              "name": "FAQ",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Tfi3S",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U7Uz2D",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Preguntas frecuentes",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HQoXo",
+                  "name": "Accordion",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n4RzjL",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rDxbR",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "n569tk",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿No es caro para un solo caso de uso?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "uPzel",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-up",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Boso3",
+                          "name": "Text",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "No está comprando un caso de uso: está comprando la aprobación del programa completo. El caso funcionando y el caso de inversión son lo que convence a la junta de financiar los siguientes.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RC3xm",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PCySD",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pQSnw",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Cuánta gente de mi equipo tiene que participar?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "uWvyb",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XjvEJ",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "epyGI",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fpeYR",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Pueden incluir un segundo caso?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "a4EdhW",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z5YSCt",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "i5YaA5",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fBqzl",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Tengo que hacer Ruta IA primero?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "i1Fxcb",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y0GNW",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nSTog",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "S03DY",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Necesitan construir infraestructura de datos?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "koZPK",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cE7jD",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vl1cX",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zlUjq",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Por qué una persona aprueba lo que propone la IA?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "W497H0",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VUqec",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                48,
+                16
+              ],
+              "children": [
+                {
+                  "id": "kgSAw",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "padding": [
+                    56,
+                    24
+                  ],
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿Ya tiene la idea? Llevémosla a producción.",
+                      "width": "fill_container",
+                      "fontSize": 32
+                    },
+                    "IvrLz": {
+                      "content": "En una conversación de 20 minutos con quien decide la inversión, revisamos si su idea encaja en AI First Move.",
+                      "width": "fill_container",
+                      "fontSize": 16
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Agendar una conversación"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "C0UVP",
+              "type": "ref",
+              "ref": "arSuf",
+              "name": "Footer",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {
