@@ -25,10 +25,10 @@ export async function ClientsSection() {
               <Image
                 src={client.logo}
                 alt={client.name}
-                width={130}
-                height={48}
-                className="h-12 w-auto object-contain"
-                style={{ width: "auto" }}
+                width={128}
+                height={40}
+                // Logo files are trimmed to their content, so a shared box keeps them balanced
+                className="h-10 w-32 object-contain"
               />
             </li>
           ))}
