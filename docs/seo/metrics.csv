@@ -1,0 +1,2 @@
+date,lint_errors,lint_warnings,hreflang_pages,sitemap_pages,redirects_applied,redirects_total,gsc_clicks_7d,gsc_impressions_7d,gsc_nonbrand_clicks_7d,gsc_nonbrand_impressions_7d,gsc_avg_position_7d,drift_regressions,notes
+2026-10-25,2,39,0,,11,37,,,0,,,0,"Línea base (00-baseline.md); GSC 16m: 111 clics, 3812 impresiones, todo marca"

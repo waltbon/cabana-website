@@ -1,0 +1,146 @@
+{
+  "$comment": "Reglas de seo-lint (scripts/seo-lint.mjs). Fuente: docs/content/GUIA-TONO.md (glosario y checklist) y docs/instructions/01-investigacion-seo.md (términos prohibidos). Si una regla cambia, cambia primero la guía. Las excepciones se justifican con una entrada de docs/seo/DECISIONS.md.",
+
+  "namespaces": {
+    "$comment": "Namespaces de messages/*.json que el lint revisa, con la ruta que los publica. Los namespaces heredados que no están aquí (services, about, solution...) se ignoran hasta que su página se rehaga o se redirija.",
+    "inicio": "/",
+    "rutaIa": "/ruta-ia",
+    "aiFirstMove": "/ai-first-move",
+    "capacidades": "/capacidades",
+    "nav": "*",
+    "footer": "*",
+    "common": "*",
+    "metadata": "*"
+  },
+
+  "terms": [
+    {
+      "id": "ruta-ia-casos-de-uso",
+      "pattern": "casos? de uso",
+      "locales": ["es"],
+      "namespaces": ["rutaIa"],
+      "severity": "error",
+      "reason": "Ruta IA entrega oportunidades, nunca casos de uso (GUIA-TONO, glosario).",
+      "use": "oportunidades"
+    },
+    {
+      "id": "ruta-ia-use-cases",
+      "pattern": "use cases?",
+      "locales": ["en"],
+      "namespaces": ["rutaIa"],
+      "severity": "error",
+      "reason": "Ruta IA delivers opportunities, never use cases.",
+      "use": "opportunities"
+    },
+    {
+      "id": "ruta-ia-roi",
+      "pattern": "ROI|business case|retorno|return on investment",
+      "locales": ["es", "en"],
+      "namespaces": ["rutaIa"],
+      "severity": "error",
+      "reason": "Ruta IA no entrega business case ni ROI; eso es AI First Move.",
+      "use": "saber por dónde empezar"
+    },
+    {
+      "id": "ruta-ia-validada",
+      "pattern": "confirmadas?|validadas?|garantizadas?|confirmed|validated|guaranteed",
+      "locales": ["es", "en"],
+      "namespaces": ["rutaIa"],
+      "severity": "warning",
+      "reason": "Una oportunidad 'lista' no está confirmada ni validada. Revisar el contexto.",
+      "use": "lista para arrancar"
+    },
+    {
+      "id": "afm-poc",
+      "pattern": "PoC|pruebas? de concepto|proofs? of concept|pilotos?|pilots?|prototipos?|prototypes?",
+      "locales": ["es", "en"],
+      "namespaces": ["aiFirstMove"],
+      "severity": "error",
+      "reason": "AI First Move no es piloto, PoC ni prototipo (GUIA-TONO, glosario; conflicto C2).",
+      "use": "en producción, operado por su equipo"
+    },
+    {
+      "id": "agente-autonomo",
+      "pattern": "agentes? autónomos?|automatización total|autonomous agents?|full automation",
+      "locales": ["es", "en"],
+      "namespaces": ["*"],
+      "severity": "error",
+      "reason": "Cabana se posiciona en 'la IA propone, su equipo decide' (conflicto C10).",
+      "use": "la IA propone, su equipo decide"
+    },
+    {
+      "id": "precio-desde",
+      "pattern": "desde USD|a partir de USD|según alcance|starting at|from USD|starting from",
+      "locales": ["es", "en"],
+      "namespaces": ["*"],
+      "severity": "error",
+      "reason": "Precio fijo y completo, nunca 'desde' ni 'según alcance'.",
+      "use": "USD 12,000 + IVA / USD 24,500 + IVA"
+    },
+    {
+      "id": "tiers",
+      "pattern": "tiers?|plan (básico|estándar|premium)|(basic|standard|premium) plan",
+      "locales": ["es", "en"],
+      "namespaces": ["*"],
+      "severity": "error",
+      "reason": "Sin tiers ni planes (brief §1.3).",
+      "use": "precio fijo, un solo envase"
+    },
+    {
+      "id": "sponsor",
+      "pattern": "sponsors?",
+      "locales": ["es"],
+      "namespaces": ["*"],
+      "severity": "error",
+      "reason": "'Sponsor' es interno; en el sitio se escribe 'quien decide' o 'la dirección' (conflicto C4).",
+      "use": "quien decide la inversión"
+    },
+    {
+      "id": "codigos-internos",
+      "pattern": "DHC|DUC|DUC-CARD|DHC-O|RIA|AIF|WBS",
+      "caseSensitive": true,
+      "locales": ["es", "en"],
+      "namespaces": ["*"],
+      "severity": "error",
+      "reason": "Nunca se publican códigos internos (brief §9).",
+      "use": "el nombre del servicio o 'nuestro método'"
+    },
+    {
+      "id": "tuteo",
+      "pattern": "tú|tu|tus|vos|contigo",
+      "locales": ["es"],
+      "namespaces": ["*"],
+      "severity": "error",
+      "reason": "Usted en todo el sitio, sin excepción (conflicto C7).",
+      "use": "usted / su / sus"
+    },
+    {
+      "id": "benchmark",
+      "pattern": "benchmarks?|mejores prácticas",
+      "locales": ["es"],
+      "namespaces": ["*"],
+      "severity": "warning",
+      "reason": "Preferir 'evidencia de su operación' (GUIA-TONO, glosario). Válido si se usa en contraste.",
+      "use": "evidencia de su operación"
+    }
+  ],
+
+  "exceptions": [
+    {
+      "$comment": "La FAQ cita la objeción del brief §3.6 para negarla ('¿Me dan el business case?' → No).",
+      "rule": "ruta-ia-roi",
+      "key": "rutaIa.faq.items.0.question",
+      "decision": "D-001"
+    }
+  ],
+
+  "meta": {
+    "titleMax": 60,
+    "descriptionMin": 70,
+    "descriptionMax": 160
+  },
+
+  "robots": {
+    "requiredAgents": ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "PerplexityBot", "Google-Extended"]
+  }
+}

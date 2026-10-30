@@ -37,6 +37,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.claude
+# Claude Code: keep local state out, share the SEO loop agents and skills
+.claude/*
+!.claude/agents/
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/seo-*/
 .factory
 RAILWAY-SETUP.md
