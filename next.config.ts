@@ -61,6 +61,10 @@ const nextConfig: NextConfig = {
       // Spanish is unprefixed; make /es a permanent redirect instead of
       // next-intl's 307 so search engines consolidate on "/".
       { source: "/es", destination: "/", statusCode: 301 },
+      // WordPress leftovers (docs/seo/redirects.csv); declared without the
+      // locale prefix so they run before next-intl's proxy rewrites.
+      { source: "/portfolio-item/:path*", destination: "/", statusCode: 301 },
+      { source: "/area-item/:path*", destination: "/", statusCode: 301 },
       // case-studies pulled until customer approves content; keep any
       // indexed/bookmarked URLs from 404ing.
       {
