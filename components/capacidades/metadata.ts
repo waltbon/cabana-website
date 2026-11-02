@@ -24,6 +24,7 @@ export async function capabilitiesMetadata(
       languages: {
         es: localePath("es", path),
         en: localePath("en", path),
+        "x-default": localePath("es", path),
       },
     },
     openGraph: { title: ogTitle, description: ogDescription, url },
