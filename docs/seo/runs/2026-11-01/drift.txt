@@ -1,0 +1,509 @@
+
+*** 1 CRITICAL finding(s) ***
+    3 WARNING finding(s)
+    2 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/",
+  "baseline_id": 1,
+  "baseline_timestamp": "2026-10-25T16:11:44.459197+00:00",
+  "comparison_timestamp": "2026-11-02T03:18:55.719364+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 6,
+    "critical": 1,
+    "warning": 3,
+    "info": 2
+  },
+  "triggered_findings": [
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": true,
+      "old_value": "Modernizamos la forma en que las organizaciones operan, deciden y compiten \u2014con datos, aplicaciones e IA construidos para durar.",
+      "new_value": "Sepa por d\u00f3nde empezar con IA. Y empiece bien.",
+      "message": "H1 changed significantly (similarity: 18%). Verify keyword targeting is preserved."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "Cabana Data | Ingenier\u00eda de Datos y Consultor\u00eda de IA en Costa Rica",
+      "new_value": "Consultor\u00eda de inteligencia artificial en Costa Rica | Cabana Data",
+      "message": "Title tag text has changed. Monitor CTR in Search Console over 2 weeks."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "Consultor\u00eda especializada en ingenier\u00eda y ciencia de datos, software e IA para empresas en Costa Rica y Latam.",
+      "new_value": "Consultor\u00eda de IA para empresas medianas en Costa Rica y Latinoam\u00e9rica: sepa por d\u00f3nde empezar con IA en 4 semanas y lle...",
+      "message": "Meta description has changed. Verify it includes target keywords and CTA."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "9a56402fb6aa...",
+      "new_value": "c00263b65827...",
+      "message": "Schema/JSON-LD content has been modified. Validate with /seo schema."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "8 H2s",
+      "new_value": "8 H2s",
+      "message": "H2 heading structure changed (8 -> 8 headings)."
+    },
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "834ab3e9296d...",
+      "new_value": "190daf14d7cf...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "3 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com",
+      "new_value": "https://cabanadata.com",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Modernizamos la forma en que las organizaciones operan, deciden y compiten \u2014con datos, aplicaciones e IA construidos para durar.",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Cabana Data | Ingenier\u00eda de Datos y Consultor\u00eda de IA en Costa Rica",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "3 schema block(s)",
+      "message": "No new schema added."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+
+*** 1 CRITICAL finding(s) ***
+    3 WARNING finding(s)
+    2 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/en",
+  "baseline_id": 2,
+  "baseline_timestamp": "2026-10-25T16:11:45.165461+00:00",
+  "comparison_timestamp": "2026-11-02T03:18:56.424093+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 6,
+    "critical": 1,
+    "warning": 3,
+    "info": 2
+  },
+  "triggered_findings": [
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": true,
+      "old_value": "We modernize how organizations operate, decide, and compete \u2014with data, applications, and AI built to last.",
+      "new_value": "Know where to start with AI. And start right.",
+      "message": "H1 changed significantly (similarity: 28%). Verify keyword targeting is preserved."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "Cabana Data | Data Engineering & AI Consulting in Costa Rica",
+      "new_value": "AI consulting in Costa Rica | Cabana Data",
+      "message": "Title tag text has changed. Monitor CTR in Search Console over 2 weeks."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "Specialized Data Engineering and AI consulting for mid-market companies in Costa Rica and LATAM.",
+      "new_value": "AI consulting for mid-sized companies in Costa Rica and Latin America: know where to start with AI in 4 weeks and take y...",
+      "message": "Meta description has changed. Verify it includes target keywords and CTA."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "52a5d4e21d49...",
+      "new_value": "1b29ca32aec2...",
+      "message": "Schema/JSON-LD content has been modified. Validate with /seo schema."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "8 H2s",
+      "new_value": "8 H2s",
+      "message": "H2 heading structure changed (8 -> 8 headings)."
+    },
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "72606424d9b3...",
+      "new_value": "9e2fcc8e4133...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "3 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/en",
+      "new_value": "https://cabanadata.com/en",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/en",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "We modernize how organizations operate, decide, and compete \u2014with data, applications, and AI built to last.",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Cabana Data | Data Engineering & AI Consulting in Costa Rica",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "3 schema block(s)",
+      "message": "No new schema added."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+
+*** 1 CRITICAL finding(s) ***
+    3 WARNING finding(s)
+    2 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/ruta-ia",
+  "baseline_id": 3,
+  "baseline_timestamp": "2026-10-25T16:11:45.813611+00:00",
+  "comparison_timestamp": "2026-11-02T03:18:57.132270+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 6,
+    "critical": 1,
+    "warning": 3,
+    "info": 2
+  },
+  "triggered_findings": [
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": true,
+      "old_value": "Tu primera decisi\u00f3n de IA, tomada conevidencia",
+      "new_value": "Ruta IA: el diagn\u00f3stico de IA que le dice por d\u00f3nde empezar",
+      "message": "H1 changed significantly (similarity: 34%). Verify keyword targeting is preserved."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "Ruta IA: Diagn\u00f3stico, Preparaci\u00f3n y Planificaci\u00f3n Empresarial",
+      "new_value": "Ruta IA: diagn\u00f3stico de IA para empresas | Cabana Data",
+      "message": "Title tag text has changed. Monitor CTR in Search Console over 2 weeks."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "Diagn\u00f3stico y estrategia para empresas en Costa Rica sobre Inteligencia Artificial, con un plan claro de acci\u00f3n",
+      "new_value": "Sepa en 4 semanas por cu\u00e1les oportunidades de IA empezar y si sus datos las soportan. Precio fijo: USD 12,000 + IVA.",
+      "message": "Meta description has changed. Verify it includes target keywords and CTA."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": true,
+      "old_value": "35650a831e23...",
+      "new_value": "31594b1b8189...",
+      "message": "Schema/JSON-LD content has been modified. Validate with /seo schema."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "12 H2s",
+      "new_value": "9 H2s",
+      "message": "H2 heading structure changed (12 -> 9 headings)."
+    },
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "f006a8306fec...",
+      "new_value": "12721b597257...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "6 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/ruta-ia",
+      "new_value": "https://cabanadata.com/ruta-ia",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/ruta-ia",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Tu primera decisi\u00f3n de IA, tomada conevidencia",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Ruta IA: Diagn\u00f3stico, Preparaci\u00f3n y Planificaci\u00f3n Empresarial",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:site_name",
+        "og:locale",
+        "og:image",
+        "og:image:width",
+        "og:image:height",
+        "og:image:alt",
+        "og:type"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "7 schema block(s)",
+      "message": "No new schema added."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+{
+  "error": "No baseline found for https://cabanadata.com/ai-first-move. Run `drift baseline` first."
+}
+{
+  "error": "No baseline found for https://cabanadata.com/en/ai-first-move. Run `drift baseline` first."
+}
+{
+  "error": "No baseline found for https://cabanadata.com/capacidades. Run `drift baseline` first."
+}
+{
+  "error": "No baseline found for https://cabanadata.com/en/capacidades. Run `drift baseline` first."
+}

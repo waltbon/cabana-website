@@ -1,2 +1,3 @@
 date,lint_errors,lint_warnings,hreflang_pages,sitemap_pages,redirects_applied,redirects_total,gsc_clicks_7d,gsc_impressions_7d,gsc_nonbrand_clicks_7d,gsc_nonbrand_impressions_7d,gsc_avg_position_7d,drift_regressions,notes
 2026-10-25,2,39,0,,11,37,,,0,,,0,"Línea base (00-baseline.md); GSC 16m: 111 clics, 3812 impresiones, todo marca"
+2026-11-01,0,60,16,31,11,37,1,80,0,0,,0,"Primera corrida; GSC ventana 23-29 oct (previa: 2 clics, 95 imp.). Advertencias suman chequeos en vivo, no comparables con la base estática (39). Consultas anonimizadas: no-marca visible = 0. Drift esperado en /, /en, /ruta-ia (#19, #21, 267504f)"
