@@ -16,6 +16,11 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/contact" : `/${locale}/contact`,
+      languages: {
+        es: "/contact",
+        en: "/en/contact",
+        "x-default": "/contact",
+      },
     },
     openGraph: {
       url: locale === "es" ? `${siteConfig.site_domain}/contact` : `${siteConfig.site_domain}/${locale}/contact`,

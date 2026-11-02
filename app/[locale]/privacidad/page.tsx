@@ -15,6 +15,11 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/privacidad" : `/${locale}/privacidad`,
+      languages: {
+        es: "/privacidad",
+        en: "/en/privacidad",
+        "x-default": "/privacidad",
+      },
     },
   };
 }

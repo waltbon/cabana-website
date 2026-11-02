@@ -35,6 +35,11 @@ export async function generateMetadata({
       : "Artículos sobre ingeniería de datos, adopción de IA y arquitectura del equipo de Cabana Data.",
     alternates: {
       canonical: locale === "es" ? "/posts" : `/${locale}/posts`,
+      languages: {
+        es: "/posts",
+        en: "/en/posts",
+        "x-default": "/posts",
+      },
     },
     openGraph: {
       url: locale === "es" ? `${siteConfig.site_domain}/posts` : `${siteConfig.site_domain}/${locale}/posts`,
