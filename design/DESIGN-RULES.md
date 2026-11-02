@@ -201,7 +201,6 @@ Se resuelven en un cambio explícito, nunca en silencio.
 | Tema | `.pen` | Código | Criterio |
 |---|---|---|---|
 | Formato de color | hex | `hsl()` en `:root` / `.dark` | Mismo valor. El código manda para el valor final. |
-| Fondo del footer | `#F3F4F6` | `bg-gray-100` | Proponer token `section-gray` o usar `section-slate`. |
 | Logo | texto "Cabana Data" | SVG en `public/` | Reemplazar por imagen del logo en el `.pen`. |
 | Tokens `heading-sm-*` | no existen | referenciados por `h4` sin definir | Definir en `globals.css` y en el `.pen`. |
 | Componentes sin par | — | `Accordion`, `Carousel`, `Drawer`, `Sheet`, `Select`, `Pagination`, `NavigationMenu`, `DropdownMenu`, `Stat` | Agregar al `.pen` antes de usarlos en una pantalla nueva. |
