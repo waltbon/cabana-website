@@ -1,0 +1,98 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "cabana"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4,
+      "query": "cabana"
+    },
+    {
+      "keys": [
+        "cabana a"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 50,
+      "query": "cabana a"
+    },
+    {
+      "keys": [
+        "cabana ai"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3,
+      "query": "cabana ai"
+    },
+    {
+      "keys": [
+        "cabana app"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 77,
+      "query": "cabana app"
+    },
+    {
+      "keys": [
+        "cabana software"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 23.5,
+      "query": "cabana software"
+    },
+    {
+      "keys": [
+        "cabsna"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4,
+      "query": "cabsna"
+    },
+    {
+      "keys": [
+        "data kabana"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4,
+      "query": "data kabana"
+    },
+    {
+      "keys": [
+        "google cabana"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9,
+      "query": "google cabana"
+    }
+  ],
+  "totals": {
+    "clicks": 0,
+    "impressions": 17,
+    "ctr": 0.0,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 8,
+  "error": null,
+  "date_range": {
+    "start": "2026-10-16",
+    "end": "2026-10-22"
+  }
+}
