@@ -157,7 +157,7 @@ Frame `Components` del `.pen`:
 ## 5. Layout y responsive
 
 - Todo con flex/grid y la escala de espaciado. Posición absoluta solo para decoración y overlays.
-- Contenedor: utilidad `container` (`max-w-[1280px]` desde 1400 px, padding `container-padding-x`).
+- Contenedor: utilidad `container` (`max-w-[1200px]` desde `sm`, centrado; padding lateral 24 px móvil, 32 px `md`, 48 px `lg`).
 - Ritmo de página: alternar fondos de sección (`background` → `section-light` → `cabana-dark` …) para separar bloques; no usar divisores donde basta el cambio de fondo.
 - Cada página funciona en móvil (390 px) y escritorio (1440 px). Breakpoints de Tailwind (`sm`, `md`, `lg`, `xl`); sin media queries propias.
 
