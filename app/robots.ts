@@ -11,9 +11,9 @@ export default function robots(): MetadataRoute.Robots {
       },
       // AI Crawlers - explicitly allowed for LLM SEO
       { userAgent: "GPTBot", allow: "/" },
+      { userAgent: "OAI-SearchBot", allow: "/" },
       { userAgent: "ChatGPT-User", allow: "/" },
-      { userAgent: "Claude-Web", allow: "/" },
-      { userAgent: "Anthropic-AI", allow: "/" },
+      { userAgent: "ClaudeBot", allow: "/" },
       { userAgent: "PerplexityBot", allow: "/" },
       { userAgent: "Bytespider", allow: "/" },
       { userAgent: "Google-Extended", allow: "/" },
