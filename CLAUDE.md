@@ -161,6 +161,13 @@ Design tokens are implemented in `app/globals.css`. The design source of truth i
 - Use Figma MCP server for design context
 - Extract design tokens from Figma variables when updating styles
 
+## SEO Continuous Improvement Loop
+
+- Strategy, KPIs and approval gates: `docs/seo/STRATEGY.md`. Backlog: `docs/seo/BACKLOG.md`. Decisions only leadership can make: `docs/seo/DECISIONS.md`
+- `pnpm seo:lint` (`scripts/seo-lint.mjs`) enforces the tone guide's glossary, meta lengths, sitemap/hreflang/robots consistency; rules live in `docs/seo/rules.json`. Runs in CI on PRs. `--live https://cabanadata.com` adds production checks
+- `/seo-weekly` measures (lint live, Search Console, drift) and updates the backlog via the `seo-strategist` agent; `/seo-fix [B-xxx]` implements one backlog item per PR via `seo-implementer` (+ `brand-guardian` for visible copy)
+- Agents never resolve brief/guide conflicts and never change slugs or visible copy without a recorded decision or explicit human approval
+
 ## Content Guidelines
 
 `docs/content/` holds the guide documents for site content (tone of voice, marketing brief, etc.). **Read and follow them before writing or editing any copy** — page text, `messages/es.json` / `messages/en.json`, blog posts, CTAs and SEO metadata. If a guide conflicts with existing copy, the guide wins; flag the conflict instead of resolving it silently.

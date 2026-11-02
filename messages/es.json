@@ -133,7 +133,8 @@
     "email": "Correo",
     "phone": "Teléfono",
     "copyright": "Derechos reservados",
-    "location": "San José, Costa Rica"
+    "location": "San José, Costa Rica",
+    "privacy": "Política de Privacidad"
   },
   "about": {
     "hero": {

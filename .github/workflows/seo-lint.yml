@@ -1,0 +1,24 @@
+name: SEO lint
+
+on:
+  pull_request:
+    paths:
+      - "messages/**"
+      - "app/**"
+      - "data/blog/**"
+      - "next.config.ts"
+      - "docs/seo/rules.json"
+      - "docs/seo/redirects.csv"
+      - "scripts/seo-lint.mjs"
+
+jobs:
+  seo-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # No dependencies: the script only uses node built-ins
+      - name: Run seo-lint
+        run: node scripts/seo-lint.mjs

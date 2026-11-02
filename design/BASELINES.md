@@ -48,7 +48,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 Afecta a todo el sitio. Se resuelve con un cambio propio, no al dibujar baselines.
 
 - `h4` usa `--heading-sm-size` / `--heading-sm-line-height`, que no están definidos en `globals.css`.
-- Footer usa `bg-gray-100` (sin token).
+- Footer compacto (fondo `cabana-dark`): textos en `slate-300`/`slate-400` y divisor `white/10` sin token en el `.pen` (hex sueltos).
 - El logo en el `.pen` es texto; falta la imagen del logo real.
 - Componentes del código sin par en el `.pen`: `Accordion`, `Carousel`, `Drawer`, `Sheet`, `Select`, `Pagination`, `NavigationMenu`, `DropdownMenu`, `Stat`.
 
