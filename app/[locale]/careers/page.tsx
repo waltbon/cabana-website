@@ -17,6 +17,11 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/careers" : `/${locale}/careers`,
+      languages: {
+        es: "/careers",
+        en: "/en/careers",
+        "x-default": "/careers",
+      },
     },
     openGraph: {
       url: locale === "es" ? `${siteConfig.site_domain}/careers` : `${siteConfig.site_domain}/${locale}/careers`,
