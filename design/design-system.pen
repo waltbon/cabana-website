@@ -899,139 +899,155 @@
               "id": "arSuf",
               "name": "Footer",
               "reusable": true,
-              "width": "fill_container",
-              "fill": "#F3F4F6",
+              "width": 1440,
+              "fill": "$cabana-dark",
               "layout": "vertical",
-              "gap": 32,
-              "padding": [
-                64,
-                24
-              ],
-              "alignItems": "center",
               "children": [
                 {
-                  "type": "text",
-                  "id": "b5hL83",
-                  "name": "Logo",
-                  "fill": "$foreground",
-                  "content": "Cabana Data",
-                  "fontFamily": "$font-sans",
-                  "fontSize": 24,
-                  "fontWeight": "700"
-                },
-                {
                   "type": "frame",
-                  "id": "Nb6dM",
-                  "name": "Links",
-                  "gap": 32,
+                  "id": "u5dLA",
+                  "name": "Fila principal",
+                  "width": "fill_container",
+                  "padding": [
+                    28,
+                    64
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "text",
-                      "id": "J516qm",
-                      "name": "Home",
-                      "fill": "$muted-foreground",
-                      "content": "Home",
+                      "id": "AzAWQ",
+                      "name": "Logo",
+                      "fill": "#ffffff",
+                      "content": "Cabana Data",
                       "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
+                      "fontSize": 20,
+                      "fontWeight": "700"
                     },
                     {
-                      "type": "text",
-                      "id": "sSFWC",
-                      "name": "About",
-                      "fill": "$muted-foreground",
-                      "content": "About",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
+                      "type": "frame",
+                      "id": "T6jyD",
+                      "name": "Links",
+                      "gap": 32,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OMFbV",
+                          "fill": "#cbd5e1",
+                          "content": "Capacidades",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DzBq7",
+                          "fill": "#cbd5e1",
+                          "content": "Nosotros",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L1jnk",
+                          "fill": "#cbd5e1",
+                          "content": "Blog",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YG6Jz",
+                          "fill": "#cbd5e1",
+                          "content": "Contacto",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "EvNqO",
-                      "name": "Services",
-                      "fill": "$muted-foreground",
-                      "content": "Services",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "JYV4H",
-                      "name": "Blog",
-                      "fill": "$muted-foreground",
-                      "content": "Blog",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "eKerK",
-                      "name": "Contact",
-                      "fill": "$muted-foreground",
-                      "content": "Contact",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
+                      "type": "frame",
+                      "id": "ESXI5",
+                      "name": "Contacto",
+                      "gap": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vsjDN",
+                          "fill": "#cbd5e1",
+                          "content": "info@cabanadata.com",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WaLE2",
+                          "fill": "#cbd5e1",
+                          "content": "+506 8511-5245",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "vkBxx",
+                          "name": "linkedin",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "linkedin",
+                          "library": "lucide",
+                          "fill": "#ffffff"
+                        }
+                      ]
                     }
                   ]
                 },
                 {
                   "type": "rectangle",
-                  "id": "H9EdCT",
+                  "id": "r6BTNo",
                   "name": "Divider",
-                  "fill": "$border",
+                  "fill": "#ffffff1f",
                   "width": "fill_container",
                   "height": 1
                 },
                 {
                   "type": "frame",
-                  "id": "Ueb4Q",
-                  "name": "Social",
-                  "gap": 20,
+                  "id": "PyHUi",
+                  "name": "Franja legal",
+                  "width": "fill_container",
+                  "padding": [
+                    16,
+                    64
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
                   "children": [
                     {
-                      "type": "icon",
-                      "id": "c5UpC",
-                      "name": "linkedin",
-                      "width": 24,
-                      "height": 24,
-                      "icon": "linkedin",
-                      "library": "lucide",
-                      "fill": "$foreground"
+                      "type": "text",
+                      "id": "rdkpj",
+                      "fill": "#94a3b8",
+                      "content": "© 2026 cabanadata.com · San José, Costa Rica 🇨🇷",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
-                      "type": "icon",
-                      "id": "DaLws",
-                      "name": "instagram",
-                      "width": 24,
-                      "height": 24,
-                      "icon": "instagram",
-                      "library": "lucide",
-                      "fill": "$foreground"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "C3K9u",
-                      "name": "facebook",
-                      "width": 24,
-                      "height": 24,
-                      "icon": "facebook",
-                      "library": "lucide",
-                      "fill": "$foreground"
+                      "type": "text",
+                      "id": "pSa0U",
+                      "fill": "#94a3b8",
+                      "content": "Política de Privacidad",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
-                },
-                {
-                  "type": "text",
-                  "id": "ZWRuC",
-                  "name": "Copyright",
-                  "fill": "$muted-foreground",
-                  "content": "© 2026 Cabana Data. All rights reserved.",
-                  "fontFamily": "$font-sans",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
                 }
               ]
             }
@@ -29099,6 +29115,347 @@
               "ref": "arSuf",
               "name": "Footer",
               "width": "fill_container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "b2L0yZ",
+      "x": 0,
+      "y": 6000,
+      "name": "CH-footer-compacto: pantallas",
+      "fill": "$background",
+      "layout": "vertical",
+      "gap": 64,
+      "padding": 64,
+      "children": [
+        {
+          "type": "frame",
+          "id": "KhZcg",
+          "name": "CH-footer-compacto/Footer",
+          "clip": true,
+          "width": 1440,
+          "fill": "$cabana-dark",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "M0CuXp",
+              "name": "Fila principal",
+              "width": "fill_container",
+              "padding": [
+                28,
+                64
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L9z3GD",
+                  "name": "Logo",
+                  "fill": "#ffffff",
+                  "content": "Cabana Data",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "uG9n5",
+                  "name": "Links",
+                  "gap": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "J0jZ5",
+                      "fill": "#cbd5e1",
+                      "content": "Capacidades",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aCCk9",
+                      "fill": "#cbd5e1",
+                      "content": "Nosotros",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OOpMl",
+                      "fill": "#cbd5e1",
+                      "content": "Blog",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jymnw",
+                      "fill": "#cbd5e1",
+                      "content": "Contacto",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C6SrzU",
+                  "name": "Contacto",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O7S1R",
+                      "fill": "#cbd5e1",
+                      "content": "info@cabanadata.com",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j4nm0",
+                      "fill": "#cbd5e1",
+                      "content": "+506 8511-5245",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "bBSij",
+                      "name": "linkedin",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "linkedin",
+                      "library": "lucide",
+                      "fill": "#ffffff"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "mzi0p",
+              "name": "Divider",
+              "fill": "#ffffff1f",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "Dafws",
+              "name": "Franja legal",
+              "width": "fill_container",
+              "padding": [
+                16,
+                64
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mdLjU",
+                  "fill": "#94a3b8",
+                  "content": "© 2026 cabanadata.com · San José, Costa Rica 🇨🇷",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aL6Bx",
+                  "fill": "#94a3b8",
+                  "content": "Política de Privacidad",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XIDOJ",
+          "name": "CH-footer-compacto/Footer (móvil)",
+          "clip": true,
+          "width": 390,
+          "fill": "$cabana-dark",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "VwZtS",
+              "name": "Logo",
+              "fill": "#ffffff",
+              "content": "Cabana Data",
+              "fontFamily": "$font-sans",
+              "fontSize": 20,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "SPKGq",
+              "name": "Links",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xjhYp",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D2iLiO",
+                      "fill": "#cbd5e1",
+                      "content": "Capacidades",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ytObL",
+                      "fill": "#cbd5e1",
+                      "content": "Nosotros",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "La9OE",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kZauZ",
+                      "fill": "#cbd5e1",
+                      "content": "Blog",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U4ei5",
+                      "fill": "#cbd5e1",
+                      "content": "Contacto",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RZvSn",
+              "name": "Contacto",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w5NQi",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mNx6w",
+                      "fill": "#cbd5e1",
+                      "content": "info@cabanadata.com",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kjPk6",
+                      "fill": "#cbd5e1",
+                      "content": "+506 8511-5245",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "QH2UA",
+                  "name": "linkedin",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "linkedin",
+                  "library": "lucide",
+                  "fill": "#ffffff"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "y7VJrk",
+              "name": "Divider",
+              "fill": "#ffffff1f",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "y6dhp",
+              "name": "Franja legal",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NMw3w",
+                  "fill": "#94a3b8",
+                  "content": "© 2026 cabanadata.com · San José, Costa Rica 🇨🇷",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "FfMJ6",
+                  "fill": "#94a3b8",
+                  "content": "Política de Privacidad",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
             }
           ]
         }
