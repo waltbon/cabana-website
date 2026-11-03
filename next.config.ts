@@ -65,6 +65,9 @@ const nextConfig: NextConfig = {
       // locale prefix so they run before next-intl's proxy rewrites.
       { source: "/portfolio-item/:path*", destination: "/", statusCode: 301 },
       { source: "/area-item/:path*", destination: "/", statusCode: 301 },
+      // Posts exist only in Spanish; /en/posts/<slug> was a duplicate with a
+      // canonical to es (docs/seo/redirects.csv). The /en archive stays.
+      { source: "/en/posts/:slug", destination: "/posts/:slug", statusCode: 301 },
       // case-studies pulled until customer approves content; keep any
       // indexed/bookmarked URLs from 404ing.
       {
