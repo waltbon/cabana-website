@@ -1,0 +1,88 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "cabana"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4,
+      "query": "cabana"
+    },
+    {
+      "keys": [
+        "cabana a"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 50,
+      "query": "cabana a"
+    },
+    {
+      "keys": [
+        "cabana ag"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 22,
+      "query": "cabana ag"
+    },
+    {
+      "keys": [
+        "cabana ai"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 2.7,
+      "query": "cabana ai"
+    },
+    {
+      "keys": [
+        "cabana app"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 58.2,
+      "query": "cabana app"
+    },
+    {
+      "keys": [
+        "cabana consultores"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 57,
+      "query": "cabana consultores"
+    },
+    {
+      "keys": [
+        "cabana software"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 29.8,
+      "query": "cabana software"
+    }
+  ],
+  "totals": {
+    "clicks": 0,
+    "impressions": 21,
+    "ctr": 0.0,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 7,
+  "error": null,
+  "date_range": {
+    "start": "2026-10-18",
+    "end": "2026-10-24"
+  }
+}

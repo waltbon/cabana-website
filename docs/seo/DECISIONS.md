@@ -45,3 +45,4 @@ Estados: `abierta` · `decidida` · `descartada`.
 | Q10 | Redirects por confirmar: `data-health-check` → `/ruta-ia`, `data-analytics-use-case` → `/ai-first-move`, `dashboards-analytics-interfaces` → Data Engineering, `/about` → `/como-trabajamos` | B-004 | abierta |
 | Q11 | ¿Se mueven los posts de `/posts/<slug>` a `/blog/<slug>`? | — | abierta |
 | Q12 | Dominios de SmartGo360 y Novitec | Competencia | abierta |
+| Q13 | `/services/dashboards-analytics-interfaces` ya responde 301 → `/capacidades/ingenieria-de-datos` en producción (lint `redirects` 2026-11-03, estado `applied`), pero Q10 lo lista como "por confirmar" y `redirects.csv` dice "alternativa: Digital Product; confirmar". ¿Se ratifica el destino Data Engineering o se cambia a Digital Product? Relacionada con Q6 (dónde queda "Dashboards y analítica"). Registrado el 2026-11-03 | Q10 (parte), Q6 | abierta |

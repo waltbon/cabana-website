@@ -1,0 +1,98 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "agentes ia personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 43,
+      "query": "agentes ia personalizados"
+    },
+    {
+      "keys": [
+        "cabana ai"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 7,
+      "query": "cabana ai"
+    },
+    {
+      "keys": [
+        "cabana app"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 29.7,
+      "query": "cabana app"
+    },
+    {
+      "keys": [
+        "cabana capital login"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27,
+      "query": "cabana capital login"
+    },
+    {
+      "keys": [
+        "cabana consultores"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 25,
+      "query": "cabana consultores"
+    },
+    {
+      "keys": [
+        "cabana software"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 44.5,
+      "query": "cabana software"
+    },
+    {
+      "keys": [
+        "data architecture consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90,
+      "query": "data architecture consulting"
+    },
+    {
+      "keys": [
+        "ruta ai"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "query": "ruta ai"
+    }
+  ],
+  "totals": {
+    "clicks": 0,
+    "impressions": 28,
+    "ctr": 0.0,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 8,
+  "error": null,
+  "date_range": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  }
+}
