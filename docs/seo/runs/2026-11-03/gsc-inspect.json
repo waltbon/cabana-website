@@ -1,0 +1,274 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "total": 7,
+  "results": [
+    {
+      "url": "https://cabanadata.com/",
+      "property": "sc-domain:cabanadata.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-11-03T17:58:49Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://cabanadata.com/es",
+          "https://dzj.me/3dd07d944d2ed541be3a844a69c5c025-show.html",
+          "https://www.zebol.com/",
+          "http://cabanadata.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://cabanadata.com/",
+        "user_canonical": "https://cabanadata.com/",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://cabanadata.com/en",
+      "property": "sc-domain:cabanadata.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-10-24T18:33:07Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://cabanadata.com/",
+          "https://aloa.co/blog/12-best-sites-to-hire-costa-rica-software-development-teams",
+          "https://landing.aloa.co/blog/12-best-sites-to-hire-costa-rica-software-development-teams"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://cabanadata.com/en",
+        "user_canonical": "https://cabanadata.com/en",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://cabanadata.com/ruta-ia",
+      "property": "sc-domain:cabanadata.com",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://cabanadata.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://cabanadata.com/ai-first-move",
+      "property": "sc-domain:cabanadata.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-10-31T05:11:34Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://cabanadata.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://cabanadata.com/ai-first-move",
+        "user_canonical": "https://cabanadata.com/ai-first-move",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://cabanadata.com/en/ai-first-move",
+      "property": "sc-domain:cabanadata.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-10-31T04:53:21Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://cabanadata.com/ai-first-move",
+          "https://cabanadata.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://cabanadata.com/en/ai-first-move",
+        "user_canonical": "https://cabanadata.com/en/ai-first-move",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://cabanadata.com/capacidades",
+      "property": "sc-domain:cabanadata.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-11-01T20:25:50Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://cabanadata.com/en/capacidades"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://cabanadata.com/capacidades",
+        "user_canonical": "https://cabanadata.com/capacidades",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://cabanadata.com/en/capacidades",
+      "property": "sc-domain:cabanadata.com",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-10-31T04:45:37Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://cabanadata.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://cabanadata.com/en/capacidades",
+        "user_canonical": "https://cabanadata.com/en/capacidades",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": {
+        "verdict": "PASS",
+        "detected_items": [
+          {
+            "type": "Breadcrumbs",
+            "items": [
+              {
+                "name": "Unnamed item",
+                "issues": []
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "error": null
+    }
+  ],
+  "summary": {
+    "pass": 6,
+    "fail": 0,
+    "neutral": 1,
+    "error": 0
+  },
+  "error": null
+}

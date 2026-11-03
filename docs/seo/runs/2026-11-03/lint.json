@@ -6,7 +6,7 @@
   ],
   "summary": {
     "errors": 0,
-    "warnings": 35
+    "warnings": 47
   },
   "findings": [
     {
@@ -90,6 +90,136 @@
       "excerpt": "Explore all our articles on data strategy, engineering, and AI."
     },
     {
+      "check": "content",
+      "severity": "warning",
+      "message": "\"Tu\": Usted en todo el sitio, sin excepción (conflicto C7). Usar: usted / su / sus.",
+      "rule": "tuteo",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "key": "posts.infraestructura-que-no-esta-lista-para-ia.title",
+      "excerpt": "Tu infraestructura actual no está lista pa…"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "\"sabés\": Usted en todo el sitio, sin excepción; el voseo del brief se convierte a usted (GUIA-TONO, conflicto C7). Usar: usted: sabe, quiere, tiene, puede, está, haga.",
+      "rule": "voseo",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "key": "posts.infraestructura-que-no-esta-lista-para-ia.title",
+      "excerpt": "…está lista para IA — y probablemente lo sabés"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "Title de 88 caracteres con el sufijo \"| Cabana Data\" (máx. 60); Google lo corta",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "rule": "title-length",
+      "key": "posts.infraestructura-que-no-esta-lista-para-ia.title",
+      "excerpt": "Tu infraestructura actual no está lista para IA — y probablemente lo sabés | Cabana Data"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "Meta description de 293 caracteres (rango 70–160)",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "rule": "description-length",
+      "key": "posts.infraestructura-que-no-esta-lista-para-ia.excerpt",
+      "excerpt": "La presión llega desde arriba. La junta directiva escuchó que la competencia está modernizando sus operaciones con IA. El CEO quiere resultados visibles. Y el CTO — que entiende mejor que nadie lo que hay debajo del capó — sabe que lo que tienen hoy no va a aguantar lo que les están pidiendo."
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "Title de 82 caracteres con el sufijo \"| Cabana Data\" (máx. 60); Google lo corta",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "rule": "title-length",
+      "key": "posts.inversion-en-ia.title",
+      "excerpt": "Están invirtiendo en IA. Están cometiendo el error más caro del año. | Cabana Data"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "Meta description de 167 caracteres (rango 70–160)",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "rule": "description-length",
+      "key": "posts.inversion-en-ia.excerpt",
+      "excerpt": "La presión por adoptar inteligencia artificial es real. Pero la forma en que la mayoría de las empresas lo está haciendo hoy las va a dejar en el mismo lugar — o peor."
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "Title de 69 caracteres con el sufijo \"| Cabana Data\" (máx. 60); Google lo corta",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "rule": "title-length",
+      "key": "posts.el-error-mas-caro-en-un-proyecto-de-datos.title",
+      "excerpt": "El error más caro en un proyecto de datos no es técnico | Cabana Data"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "Meta description de 184 caracteres (rango 70–160)",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "rule": "description-length",
+      "key": "posts.el-error-mas-caro-en-un-proyecto-de-datos.excerpt",
+      "excerpt": "Los clientes llegan pidiendo un dashboard. Casi siempre, el problema real es otro. Después de varios proyectos en Costa Rica y LATAM, el patrón es demasiado consistente para ignorarlo."
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "\"Estás\": Usted en todo el sitio, sin excepción; el voseo del brief se convierte a usted (GUIA-TONO, conflicto C7). Usar: usted: sabe, quiere, tiene, puede, está, haga.",
+      "rule": "voseo",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "key": "posts.metodologia-aer.cta.title",
+      "excerpt": "¿Estás evaluando una decisión arquitectónica?"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "\"querés\": Usted en todo el sitio, sin excepción; el voseo del brief se convierte a usted (GUIA-TONO, conflicto C7). Usar: usted: sabe, quiere, tiene, puede, está, haga.",
+      "rule": "voseo",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "key": "posts.metodologia-aer.cta.description",
+      "excerpt": "Si querés hablar sobre el proceso antes de compro…"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "\"podés\": Usted en todo el sitio, sin excepción; el voseo del brief se convierte a usted (GUIA-TONO, conflicto C7). Usar: usted: sabe, quiere, tiene, puede, está, haga.",
+      "rule": "voseo",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "key": "posts.metodologia-aer.cta.description",
+      "excerpt": "…oceso antes de comprometer presupuesto, podés escribir directamente o visitar cabanad…"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "Title de 95 caracteres con el sufijo \"| Cabana Data\" (máx. 60); Google lo corta",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "rule": "title-length",
+      "key": "posts.metodologia-aer.title",
+      "excerpt": "Metodología AER – Arquitectura traducida a nivel de negocio para tomar decisiones | Cabana Data"
+    },
+    {
+      "check": "content",
+      "severity": "warning",
+      "message": "Meta description de 217 caracteres (rango 70–160)",
+      "file": "data/blog/index.ts",
+      "locale": "es",
+      "rule": "description-length",
+      "key": "posts.metodologia-aer.excerpt",
+      "excerpt": "Un cliente llegó con años de marcos de trabajo propios, un equipo que ya usaba IA en su operación diaria, y una pregunta que ninguna llamada de 30 minutos iba a responder: ¿hacia dónde debería ir nuestra arquitectura?"
+    },
+    {
       "check": "routes",
       "severity": "warning",
       "message": "El sitemap lista /about, que el mapa redirige a /como-trabajamos",
@@ -170,13 +300,6 @@
       "rule": "sitemap-redirected"
     },
     {
-      "check": "routes",
-      "severity": "warning",
-      "message": "/privacidad tiene página pero no está en el sitemap",
-      "file": "app/[locale]/privacidad/page.tsx",
-      "rule": "sitemap-missing"
-    },
-    {
       "check": "live",
       "severity": "warning",
       "message": "Title de 66 caracteres",
@@ -248,21 +371,6 @@
     {
       "check": "live",
       "severity": "warning",
-      "message": "Title de 95 caracteres",
-      "key": "https://cabanadata.com/posts/metodologia-aer",
-      "rule": "title-length",
-      "excerpt": "Metodología AER – Arquitectura traducida a nivel de negocio para tomar decisiones | Cabana Data"
-    },
-    {
-      "check": "live",
-      "severity": "warning",
-      "message": "Meta description de 217 caracteres",
-      "key": "https://cabanadata.com/posts/metodologia-aer",
-      "rule": "description-length"
-    },
-    {
-      "check": "live",
-      "severity": "warning",
       "message": "Title de 88 caracteres",
       "key": "https://cabanadata.com/posts/infraestructura-que-no-esta-lista-para-ia",
       "rule": "title-length",
@@ -288,6 +396,21 @@
       "severity": "warning",
       "message": "Meta description de 184 caracteres",
       "key": "https://cabanadata.com/posts/el-error-mas-caro-en-un-proyecto-de-datos",
+      "rule": "description-length"
+    },
+    {
+      "check": "live",
+      "severity": "warning",
+      "message": "Title de 95 caracteres",
+      "key": "https://cabanadata.com/posts/metodologia-aer",
+      "rule": "title-length",
+      "excerpt": "Metodología AER – Arquitectura traducida a nivel de negocio para tomar decisiones | Cabana Data"
+    },
+    {
+      "check": "live",
+      "severity": "warning",
+      "message": "Meta description de 217 caracteres",
+      "key": "https://cabanadata.com/posts/metodologia-aer",
       "rule": "description-length"
     },
     {
@@ -581,6 +704,29 @@
         {
           "lang": "x-default",
           "href": "https://cabanadata.com/ai-first-move"
+        }
+      ],
+      "h1": 1
+    },
+    {
+      "url": "https://cabanadata.com/privacidad",
+      "status": 200,
+      "title": "Política de Privacidad | Cabana Data",
+      "description": "Conoce cómo Cabana Data recopila, usa y protege tus datos personales de acuerdo con el RGPD, CCPA y las leyes de protección de datos aplicables.",
+      "robots": "index, follow",
+      "canonical": "https://cabanadata.com/privacidad",
+      "hreflang": [
+        {
+          "lang": "es",
+          "href": "https://cabanadata.com/privacidad"
+        },
+        {
+          "lang": "en",
+          "href": "https://cabanadata.com/en/privacidad"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://cabanadata.com/privacidad"
         }
       ],
       "h1": 1
@@ -880,6 +1026,29 @@
         {
           "lang": "x-default",
           "href": "https://cabanadata.com/careers"
+        }
+      ],
+      "h1": 1
+    },
+    {
+      "url": "https://cabanadata.com/en/privacidad",
+      "status": 200,
+      "title": "Privacy Policy | Cabana Data",
+      "description": "Learn how Cabana Data collects, uses, and protects your personal data in accordance with GDPR, CCPA, and applicable data protection laws.",
+      "robots": "index, follow",
+      "canonical": "https://cabanadata.com/en/privacidad",
+      "hreflang": [
+        {
+          "lang": "es",
+          "href": "https://cabanadata.com/privacidad"
+        },
+        {
+          "lang": "en",
+          "href": "https://cabanadata.com/en/privacidad"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://cabanadata.com/privacidad"
         }
       ],
       "h1": 1
@@ -1245,33 +1414,33 @@
       "origin": "/en/posts/infraestructura-que-no-esta-lista-para-ia",
       "destination": "/posts/infraestructura-que-no-esta-lista-para-ia",
       "reason": "Hoy 200 duplicado con canonical a ES; el artículo solo existe en español\r",
-      "status": 200,
-      "location": null,
-      "state": "pending"
+      "status": 301,
+      "location": "/posts/infraestructura-que-no-esta-lista-para-ia",
+      "state": "applied"
     },
     {
       "origin": "/en/posts/inversion-en-ia",
       "destination": "/posts/inversion-en-ia",
       "reason": "Hoy 200 duplicado con canonical a ES; el artículo solo existe en español\r",
-      "status": 200,
-      "location": null,
-      "state": "pending"
+      "status": 301,
+      "location": "/posts/inversion-en-ia",
+      "state": "applied"
     },
     {
       "origin": "/en/posts/el-error-mas-caro-en-un-proyecto-de-datos",
       "destination": "/posts/el-error-mas-caro-en-un-proyecto-de-datos",
       "reason": "Hoy 200 duplicado con canonical a ES; el artículo solo existe en español\r",
-      "status": 200,
-      "location": null,
-      "state": "pending"
+      "status": 301,
+      "location": "/posts/el-error-mas-caro-en-un-proyecto-de-datos",
+      "state": "applied"
     },
     {
       "origin": "/en/posts/metodologia-aer",
       "destination": "/posts/metodologia-aer",
       "reason": "Hoy 200 duplicado con canonical a ES; el artículo solo existe en español\r",
-      "status": 200,
-      "location": null,
-      "state": "pending"
+      "status": 301,
+      "location": "/posts/metodologia-aer",
+      "state": "applied"
     },
     {
       "origin": "/en/ruta-ia",
