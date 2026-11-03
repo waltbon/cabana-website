@@ -39,6 +39,11 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: locale === "es" ? "/services/data-analytics-use-case" : `/${locale}/services/data-analytics-use-case`,
+      languages: {
+        es: "/services/data-analytics-use-case",
+        en: "/en/services/data-analytics-use-case",
+        "x-default": "/services/data-analytics-use-case",
+      },
     },
     openGraph: {
       url: locale === "es" ? `${siteConfig.site_domain}/services/data-analytics-use-case` : `${siteConfig.site_domain}/${locale}/services/data-analytics-use-case`,

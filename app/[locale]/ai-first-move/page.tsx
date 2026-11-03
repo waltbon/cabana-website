@@ -34,6 +34,11 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       canonical: localePath(locale, PATH),
+      languages: {
+        es: localePath("es", PATH),
+        en: localePath("en", PATH),
+        "x-default": localePath("es", PATH),
+      },
     },
     openGraph: {
       title: t("ogTitle"),

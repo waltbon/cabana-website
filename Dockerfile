@@ -12,11 +12,6 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-# Build arguments for environment variables needed at build time
-ARG WORDPRESS_URL
-ARG WORDPRESS_HOSTNAME
-ENV WORDPRESS_URL=$WORDPRESS_URL
-ENV WORDPRESS_HOSTNAME=$WORDPRESS_HOSTNAME
 ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN pnpm build

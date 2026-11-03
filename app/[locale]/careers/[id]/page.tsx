@@ -23,6 +23,11 @@ export async function generateMetadata({
     description: career.shortDescription,
     alternates: {
       canonical: `/careers/${career.id}`,
+      // Job posts exist only in Spanish (same pattern as /posts/[slug])
+      languages: {
+        es: `/careers/${career.id}`,
+        "x-default": `/careers/${career.id}`,
+      },
     },
   };
 }
