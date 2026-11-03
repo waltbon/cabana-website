@@ -3,6 +3,8 @@
 //
 // Rules live in docs/seo/rules.json (derived from docs/content/GUIA-TONO.md).
 // No dependencies: runs in CI without `pnpm install`.
+// The "content" check covers messages/*.json and the blog posts in data/blog
+// (title, excerpt, cta; warnings only, see rules.blog).
 //
 // Usage:
 //   node scripts/seo-lint.mjs                      # content + routes (static, CI)
@@ -139,6 +141,88 @@ function checkContent() {
           excerpt: title,
         });
       }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// blog: title/excerpt/cta of each post in data/blog (TypeScript source, read
+// without a TS toolchain). Everything is reported as warning (B-011).
+// ---------------------------------------------------------------------------
+
+const TS_STRING = /(\w+)\s*:\s*("(?:[^"\\\n]|\\.)*"|'(?:[^'\\\n]|\\.)*'|`(?:[^`\\]|\\.)*`)/g;
+
+function unquote(literal) {
+  if (literal.startsWith('"')) return JSON.parse(literal);
+  return literal.slice(1, -1).replace(/\\(.)/g, "$1");
+}
+
+function readPosts(file) {
+  const src = readFileSync(join(ROOT, file), "utf8")
+    .split("\n")
+    .filter((line) => !/^\s*\/\//.test(line))
+    .join("\n");
+  // Each post starts at its `slug:`; a `cta: { ... }` block may follow.
+  return src.split(/(?=\bslug\s*:)/).slice(1).map((chunk) => {
+    const [main, cta] = chunk.split(/\bcta\s*:\s*\{/);
+    const fields = (text) => {
+      const out = {};
+      for (const m of (text ?? "").matchAll(TS_STRING)) out[m[1]] ??= unquote(m[2]);
+      return out;
+    };
+    const post = fields(main);
+    if (cta) post.cta = fields(cta.split("}")[0]);
+    return post;
+  });
+}
+
+function checkBlog() {
+  const { source: file, locale, titleSuffix = "" } = rules.blog;
+  const { titleMax, descriptionMin, descriptionMax } = rules.meta;
+  const terms = rules.terms
+    .filter((t) => t.locales.includes(locale) && (t.namespaces.includes("*") || t.namespaces.includes("blog")))
+    .map((t) => ({ ...t, regex: termRegex(t) }));
+
+  for (const post of readPosts(file)) {
+    const prefix = `posts.${post.slug}`;
+    const texts = [
+      [`${prefix}.title`, post.title],
+      [`${prefix}.excerpt`, post.excerpt],
+      [`${prefix}.cta.title`, post.cta?.title],
+      [`${prefix}.cta.description`, post.cta?.description],
+    ].filter(([, text]) => typeof text === "string");
+
+    for (const [key, text] of texts) {
+      for (const term of terms) {
+        for (const match of text.matchAll(term.regex)) {
+          if (isException(term.id, key)) continue;
+          report("content", "warning", `"${match[0]}": ${term.reason} Usar: ${term.use}.`, {
+            rule: term.id, file, locale, key,
+            excerpt: excerpt(text, match.index, match[0].length),
+          });
+        }
+      }
+    }
+
+    const base = { file, locale };
+    if (typeof post.title === "string") {
+      const rendered = `${post.title}${titleSuffix}`;
+      if (rendered.length > titleMax) {
+        report("content", "warning", `Title de ${rendered.length} caracteres con el sufijo "${titleSuffix.trim()}" (máx. ${titleMax}); Google lo corta`, {
+          ...base, rule: "title-length", key: `${prefix}.title`, excerpt: rendered,
+        });
+      }
+    }
+    // The excerpt is the meta description (generateMetadata strips HTML)
+    const description = post.excerpt?.replace(/<[^>]*>/g, "").trim();
+    if (!description) {
+      report("content", "warning", "Post sin excerpt: no tiene meta description", {
+        ...base, rule: "description-missing", key: `${prefix}.excerpt`,
+      });
+    } else if (description.length > descriptionMax || description.length < descriptionMin) {
+      report("content", "warning", `Meta description de ${description.length} caracteres (rango ${descriptionMin}–${descriptionMax})`, {
+        ...base, rule: "description-length", key: `${prefix}.excerpt`, excerpt: description,
+      });
     }
   }
 }
@@ -351,7 +435,10 @@ async function checkLive() {
 // ---------------------------------------------------------------------------
 
 const live = {};
-if (checks.includes("content")) checkContent();
+if (checks.includes("content")) {
+  checkContent();
+  if (rules.blog) checkBlog();
+}
 if (checks.includes("routes")) checkRoutes();
 if (checks.includes("live")) {
   if (!liveBase) {
