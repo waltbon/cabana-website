@@ -18,3 +18,15 @@ export const getAllPostSlugs = (): { slug: string }[] => {
 export const getPostBySlug = (slug: string): Post | undefined => {
     return POSTS.find(p => p.slug === slug);
 }
+
+/** Posts sorted newest first, optionally narrowed by category and a text search over title and excerpt. */
+export const getPosts = ({ category, search }: { category?: string; search?: string } = {}): Post[] => {
+    const term = search?.trim().toLowerCase();
+    return [...POSTS]
+        .filter(p => !category || p.category === category)
+        .filter(p => !term || `${p.title} ${p.excerpt}`.toLowerCase().includes(term))
+        .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+export const formatPostDate = (date: string, locale: string): string =>
+    new Date(date).toLocaleDateString(locale, { day: "numeric", month: "short", year: "numeric" });

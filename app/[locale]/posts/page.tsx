@@ -1,23 +1,16 @@
-import {
-  Pagination,
-  PaginationContent,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from "@/components/ui/pagination";
-
-import { Section, Container, Prose } from "@/components/craft";
-import { PostCard } from "@/components/posts/post-card";
-import { FilterPosts } from "@/components/posts/filter";
-import { SearchInput } from "@/components/posts/search-input";
-
+import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import { AUTHORS } from "@/data/blog/authors.data";
-import { CATEGORIES } from "@/data/blog/categories.data";
-import { TAGS } from "@/data/blog/tag.data";
-import { POSTS } from "@/data/blog";
+
+import { PostCard } from "@/components/posts/post-card";
+import { SearchInput } from "@/components/posts/search-input";
+import { CTASection } from "@/components/capacidades/cta-section";
+import { getPosts } from "@/lib/blog";
+import { POST_SERVICES } from "@/lib/blog-services";
 import { siteConfig } from "@/site.config";
+
+import { PostsHeader } from "./_components/posts-header";
+import { CategoryChips } from "./_components/category-chips";
+import { FeaturedPost } from "./_components/featured-post";
 
 export async function generateMetadata({
   params,
@@ -51,132 +44,58 @@ export const dynamic = "auto";
 export const revalidate = 600;
 
 export default async function Page({
+  params,
   searchParams,
 }: {
-  searchParams: Promise<{
-    author?: string;
-    tag?: string;
-    category?: string;
-    page?: string;
-    search?: string;
-  }>;
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ category?: string; search?: string }>;
 }) {
-  const params = await searchParams;
-  const { author, tag, category, page: pageParam, search } = params;
+  const { locale } = await params;
+  const { category, search } = await searchParams;
+  const t = await getTranslations("blog");
 
-  // Handle pagination
-  const page = pageParam ? parseInt(pageParam, 10) : 1;
-  const postsPerPage = 9;
-
-  // Fetch data based on search parameters using efficient pagination
-  // const [postsResponse, authors, tags, categories] = await Promise.all([
-  //   getPostsPaginated(page, postsPerPage, { author, tag, category, search }),
-  //   search ? searchAuthors(search) : AUTHORS,
-  //   search ? searchTags(search) : [],
-  //   search ? searchCategories(search) : CATEGORIES,
-  // ]);
-
-  // const { data: posts, headers } = postsResponse;
-  const { total, totalPages } = { total: 1, totalPages: 1};
-
-  // Create pagination URL helper
-  const createPaginationUrl = (newPage: number) => {
-    const params = new URLSearchParams();
-    if (newPage > 1) params.set("page", newPage.toString());
-    if (category) params.set("category", category);
-    if (author) params.set("author", author);
-    if (tag) params.set("tag", tag);
-    if (search) params.set("search", search);
-    return `/posts${params.toString() ? `?${params.toString()}` : ""}`;
-  };
+  const [featured, ...rest] = getPosts({ category, search });
+  const cta = POST_SERVICES["ruta-ia"];
 
   return (
-    <Section>
-      <Container>
-        <div className="space-y-8">
-          <Prose>
-            <h1>Blog</h1>
-            <p className="text-muted-foreground">
-              {total} {total === 1 ? "post" : "posts"} found
-              {search && " matching your search"}
-            </p>
-          </Prose>
+    <>
+      <PostsHeader />
 
-          <div className="space-y-4">
+      <section className="px-4 pt-12 pb-16 md:pb-24">
+        <div className="container flex flex-col gap-10 md:gap-14">
+          <div className="flex flex-col-reverse gap-4 lg:flex-row lg:items-center lg:justify-between">
+            <CategoryChips selected={category} search={search} />
             <SearchInput defaultValue={search} />
-
-            <FilterPosts
-              authors={AUTHORS}
-              tags={TAGS}
-              categories={CATEGORIES}
-              selectedAuthor={author}
-              selectedTag={tag}
-              selectedCategory={category}
-            />
           </div>
 
-          {POSTS.length > 0 ? (
-            <div className="grid md:grid-cols-3 gap-4">
-              {POSTS.map((post) => (
-                <PostCard key={post.slug} post={post} />
-              ))}
-            </div>
+          {featured ? (
+            <>
+              <FeaturedPost post={featured} locale={locale} />
+
+              {rest.length > 0 && (
+                <div className="flex flex-col gap-6">
+                  <h2 className="text-2xl">{t("moreArticles")}</h2>
+                  <div className="grid gap-8 md:grid-cols-3 md:gap-6">
+                    {rest.map((post) => (
+                      <PostCard key={post.slug} post={post} locale={locale} />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
           ) : (
-            <div className="h-24 w-full border rounded-lg bg-accent/25 flex items-center justify-center">
-              <p>No posts found</p>
-            </div>
-          )}
-
-          {totalPages > 1 && (
-            <div className="flex justify-center items-center py-8">
-              <Pagination>
-                <PaginationContent>
-                  {page > 1 && (
-                    <PaginationItem>
-                      <PaginationPrevious
-                        href={createPaginationUrl(page - 1)}
-                      />
-                    </PaginationItem>
-                  )}
-
-                  {Array.from({ length: totalPages }, (_, i) => i + 1)
-                    .filter((pageNum) => {
-                      // Show current page, first page, last page, and 2 pages around current
-                      return (
-                        pageNum === 1 ||
-                        pageNum === totalPages ||
-                        Math.abs(pageNum - page) <= 1
-                      );
-                    })
-                    .map((pageNum, index, array) => {
-                      const showEllipsis =
-                        index > 0 && pageNum - array[index - 1] > 1;
-                      return (
-                        <div key={pageNum} className="flex items-center">
-                          {showEllipsis && <span className="px-2">...</span>}
-                          <PaginationItem>
-                            <PaginationLink
-                              href={createPaginationUrl(pageNum)}
-                              isActive={pageNum === page}
-                            >
-                              {pageNum}
-                            </PaginationLink>
-                          </PaginationItem>
-                        </div>
-                      );
-                    })}
-
-                  {page < totalPages && (
-                    <PaginationItem>
-                      <PaginationNext href={createPaginationUrl(page + 1)} />
-                    </PaginationItem>
-                  )}
-                </PaginationContent>
-              </Pagination>
+            <div className="flex h-24 w-full items-center justify-center rounded-xl border bg-section-light">
+              <p className="text-muted-foreground">{t("empty")}</p>
             </div>
           )}
         </div>
-      </Container>
-    </Section>
+      </section>
+
+      <CTASection
+        namespace={`blog.cta.${cta.key}`}
+        href={cta.href}
+        className="bg-section-light"
+      />
+    </>
   );
 }

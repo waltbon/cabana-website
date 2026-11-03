@@ -19,8 +19,8 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | `PG/contact` | `app/[locale]/contact/page.tsx` | pendiente | — | Dibujar estados del formulario: base, enviando, enviado, error. |
 | `PG/careers` | `app/[locale]/careers/page.tsx` | pendiente | — | — |
 | `PG/careers/[id]` | `app/[locale]/careers/[id]/page.tsx` | pendiente | — | — |
-| `PG/posts` | `app/[locale]/posts/page.tsx` | pendiente | — | Dibujar estados: con resultados, búsqueda sin resultados. |
-| `PG/posts/[slug]` | `app/[locale]/posts/[slug]/page.tsx` | pendiente | — | Hex sueltos (`bg-[#0000d3]`, `from-[#0000d3]/10`): migrar a `bg-primary` / `from-primary/10`. |
+| `PG/posts` | `app/[locale]/posts/page.tsx` | desactualizado | `54e8880` | Estados dibujados: con resultados y sin resultados (escritorio y móvil). Textos quemados en inglés ("Blog", "post(s) found", "Search posts...", "Reset Filters", "No posts found") aunque existen las claves `blog.*` en `es.json`; contador fijo (`total: 1`); filtros y búsqueda no filtran (`POSTS` sin filtrar), así que el estado sin resultados no se alcanza hoy. Typo "eonctraron" en `filter.tsx`. `PostCard` con fecha en `en-US` y `bg-accent/30` (en el `.pen` va `accent` sólido). `el-error-mas-caro-en-un-proyecto-de-datos.png` no existe en `public/blog/` (en el `.pen` se dibuja sin imagen). Rediseño en `CH-blog-rediseno` (rama `feat/blog-rediseno`): al mergear, reemplazar este baseline por esos frames y borrar el contenedor `CH`. |
+| `PG/posts/[slug]` | `app/[locale]/posts/[slug]/page.tsx` | desactualizado | `54e8880` | Dibujado con `infraestructura-que-no-esta-lista-para-ia` (artículo truncado). Hex sueltos (`bg-[#0000d3]`, `from-[#0000d3]/10`): migrar a `bg-primary` / `from-primary/10`. Dos `h1` por página (hero + `#` del MDX). `MdxLayout` fuerza `prose-headings:text-black` y tamaños propios (h1 48, h3 30) fuera de la escala. Fecha en `en-US`. Sidebar: tuteo/voseo ("Contáctanos", "Dejanos tu información", "Tu nombre") contra la guía de tono; labels a 11 px (`text-[11px]`) fuera de la escala; claves `blog.postSidebar` de `es.json` sin usar. Meta line del MDX muestra códigos internos ("D2 · Infraestructura"). Rediseño en `CH-blog-rediseno` (rama `feat/blog-rediseno`): al mergear, reemplazar este baseline por esos frames y borrar el contenedor `CH`. |
 | `PG/privacidad` | `app/[locale]/privacidad/page.tsx` | pendiente | — | — |
 | `PG/services` | `app/[locale]/services/page.tsx` | pendiente | — | Hex sueltos en `_components` de services (6 archivos, sin contar ilustraciones). |
 | `PG/services/data-consulting` | `app/[locale]/services/data-consulting/page.tsx` | pendiente | — | — |
@@ -50,7 +50,7 @@ Afecta a todo el sitio. Se resuelve con un cambio propio, no al dibujar baseline
 - `h4` usa `--heading-sm-size` / `--heading-sm-line-height`, que no están definidos en `globals.css`.
 - Footer compacto (fondo `cabana-dark`): textos en `slate-300`/`slate-400` y divisor `white/10` sin token en el `.pen` (hex sueltos).
 - El logo en el `.pen` es texto; falta la imagen del logo real.
-- Componentes del código sin par en el `.pen`: `Accordion`, `Carousel`, `Drawer`, `Sheet`, `Select`, `Pagination`, `NavigationMenu`, `DropdownMenu`, `Stat`.
+- Componentes del código sin par en el `.pen`: `Accordion`, `Carousel`, `Drawer`, `Sheet`, `Pagination`, `NavigationMenu`, `DropdownMenu`, `Stat`.
 
 ---
 

@@ -47,28 +47,36 @@ const INDUSTRIES = [
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 
+const STAGES = [
+  "Tenemos varias ideas y no sabemos cuál",
+  "La dirección ya eligió una idea",
+  "Ya tenemos presupuesto y decisión",
+] as const;
+
 const FREE_DOMAINS = ["gmail.com", "hotmail.com", "yahoo.com", "outlook.com", "icloud.com"];
 
 const leadSchema = z
   .object({
-    fullName: z.string().min(2, "Ingresa tu nombre completo."),
+    fullName: z.string().min(2, "Ingrese su nombre completo."),
     corporateEmail: z
       .string()
-      .email("Ingresa un email válido.")
+      .email("Ingrese un correo válido.")
       .refine(
         (v) => !FREE_DOMAINS.some((d) => v.toLowerCase().endsWith(`@${d}`)),
-        { message: "Por favor usa tu email corporativo." }
+        { message: "Use su correo corporativo." }
       ),
-    company: z.string().min(2, "Ingresa el nombre de tu empresa."),
-    role: z.string().min(2, "Ingresa tu rol o cargo."),
-    industry: z.string().min(1, "Selecciona tu industria."),
+    company: z.string().min(2, "Ingrese el nombre de su empresa."),
+    role: z.string().min(2, "Ingrese su cargo."),
+    industry: z.string().min(1, "Seleccione su industria."),
     customIndustry: z.string().optional(),
+    decisionMaker: z.string().optional(),
+    stage: z.string().optional(),
   })
   .refine(
     (data) =>
       data.industry !== "Otro" ||
       (data.customIndustry !== undefined && data.customIndustry.trim().length >= 2),
-    { message: "Describe tu industria.", path: ["customIndustry"] }
+    { message: "Describa su industria.", path: ["customIndustry"] }
   );
 
 type LeadFormValues = z.infer<typeof leadSchema>;
@@ -80,6 +88,8 @@ interface LeadCaptureFormProps {
   layout?: "stacked" | "grid";
   onSubmitSuccess?: () => void;
   className?: string;
+  /** Adds who decides the investment and where they stand (blog sidebar). */
+  qualify?: boolean;
 }
 
 // ─── Component ────────────────────────────────────────────────────────────────
@@ -89,6 +99,7 @@ export function LeadCaptureForm({
   layout = "stacked",
   onSubmitSuccess,
   className,
+  qualify = false,
 }: LeadCaptureFormProps) {
   const [submitted, setSubmitted] = useState(false);
   const [submittedName, setSubmittedName] = useState("");
@@ -102,6 +113,8 @@ export function LeadCaptureForm({
       role: "",
       industry: "",
       customIndustry: "",
+      decisionMaker: "",
+      stage: "",
     },
   });
 
@@ -120,6 +133,7 @@ export function LeadCaptureForm({
         company: values.company,
         role: values.role,
         industry: resolvedIndustry,
+        ...(qualify && { decisionMaker: values.decisionMaker, stage: values.stage }),
       }),
     });
 
@@ -145,7 +159,7 @@ export function LeadCaptureForm({
               ¡Gracias{submittedName ? `, ${submittedName}` : ""}!
             </p>
             <p className="text-sm text-muted-foreground mt-0.5">
-              Recibimos tu información. Uno de nuestros expertos se pondrá en contacto contigo en las próximas 24 horas.
+              Recibimos su información. Una persona de nuestro equipo se pondrá en contacto con usted.
             </p>
           </div>
         </div>
@@ -179,13 +193,13 @@ export function LeadCaptureForm({
             name="fullName"
             render={({ field }) => (
               <FormItem className={cn(layout === "grid" && "space-y-1 mb-3")}>
-                <FormLabel className="text-[11px] font-medium text-muted-foreground">
+                <FormLabel className="text-xs font-medium text-muted-foreground">
                   Nombre completo
                 </FormLabel>
                 <FormControl>
-                  <Input placeholder="Tu nombre" className="h-9 text-sm" {...field} />
+                  <Input placeholder="Su nombre" className="h-9 text-sm" {...field} />
                 </FormControl>
-                <FormMessage className="text-[11px]" />
+                <FormMessage className="text-xs" />
               </FormItem>
             )}
           />
@@ -195,8 +209,8 @@ export function LeadCaptureForm({
             name="corporateEmail"
             render={({ field }) => (
               <FormItem className={cn(layout === "grid" && "space-y-1 mb-3")}>
-                <FormLabel className="text-[11px] font-medium text-muted-foreground">
-                  Email corporativo
+                <FormLabel className="text-xs font-medium text-muted-foreground">
+                  Correo corporativo
                 </FormLabel>
                 <FormControl>
                   <Input
@@ -206,7 +220,7 @@ export function LeadCaptureForm({
                     {...field}
                   />
                 </FormControl>
-                <FormMessage className="text-[11px]" />
+                <FormMessage className="text-xs" />
               </FormItem>
             )}
           />
@@ -216,13 +230,13 @@ export function LeadCaptureForm({
             name="company"
             render={({ field }) => (
               <FormItem className={cn(layout === "grid" && "space-y-1 mb-3")}>
-                <FormLabel className="text-[11px] font-medium text-muted-foreground">
+                <FormLabel className="text-xs font-medium text-muted-foreground">
                   Empresa
                 </FormLabel>
                 <FormControl>
-                  <Input placeholder="Nombre de tu empresa" className="h-9 text-sm" {...field} />
+                  <Input placeholder="Nombre de su empresa" className="h-9 text-sm" {...field} />
                 </FormControl>
-                <FormMessage className="text-[11px]" />
+                <FormMessage className="text-xs" />
               </FormItem>
             )}
           />
@@ -232,13 +246,13 @@ export function LeadCaptureForm({
             name="role"
             render={({ field }) => (
               <FormItem className={cn(layout === "grid" && "space-y-1 mb-3")}>
-                <FormLabel className="text-[11px] font-medium text-muted-foreground">
-                  Rol / Cargo
+                <FormLabel className="text-xs font-medium text-muted-foreground">
+                  Cargo
                 </FormLabel>
                 <FormControl>
-                  <Input placeholder="Tu rol" className="h-9 text-sm" {...field} />
+                  <Input placeholder="Su cargo" className="h-9 text-sm" {...field} />
                 </FormControl>
-                <FormMessage className="text-[11px]" />
+                <FormMessage className="text-xs" />
               </FormItem>
             )}
           />
@@ -248,18 +262,18 @@ export function LeadCaptureForm({
             name="industry"
             render={({ field }) => (
               <FormItem className={cn(layout === "grid" && "space-y-1 mb-3", "col-span-full")}>
-                <FormLabel className="text-[11px] font-medium text-muted-foreground">
+                <FormLabel className="text-xs font-medium text-muted-foreground">
                   Industria
                 </FormLabel>
                 <FormControl>
                   <select {...field} className={selectClass}>
-                    <option value="" disabled>Selecciona tu industria</option>
+                    <option value="" disabled>Seleccione su industria</option>
                     {INDUSTRIES.map((ind) => (
                       <option key={ind} value={ind}>{ind}</option>
                     ))}
                   </select>
                 </FormControl>
-                <FormMessage className="text-[11px]" />
+                <FormMessage className="text-xs" />
               </FormItem>
             )}
           />
@@ -270,16 +284,56 @@ export function LeadCaptureForm({
               name="customIndustry"
               render={({ field }) => (
                 <FormItem className={cn(layout === "grid" && "space-y-1 mb-3", "col-span-full")}>
-                  <FormLabel className="text-[11px] font-medium text-muted-foreground">
-                    ¿Cuál es tu industria?
+                  <FormLabel className="text-xs font-medium text-muted-foreground">
+                    ¿Cuál es su industria?
                   </FormLabel>
                   <FormControl>
-                    <Input placeholder="Describe tu industria" className="h-9 text-sm" {...field} />
+                    <Input placeholder="Describa su industria" className="h-9 text-sm" {...field} />
                   </FormControl>
-                  <FormMessage className="text-[11px]" />
+                  <FormMessage className="text-xs" />
                 </FormItem>
               )}
             />
+          )}
+          {qualify && (
+            <>
+              <FormField
+                control={form.control}
+                name="decisionMaker"
+                render={({ field }) => (
+                  <FormItem className={cn(layout === "grid" && "space-y-1 mb-3", "col-span-full")}>
+                    <FormLabel className="text-xs font-medium text-muted-foreground">
+                      ¿Quién decide la inversión?
+                    </FormLabel>
+                    <FormControl>
+                      <Input placeholder="Cargo de quien aprobaría el presupuesto" className="h-9 text-sm" {...field} />
+                    </FormControl>
+                    <FormMessage className="text-xs" />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="stage"
+                render={({ field }) => (
+                  <FormItem className={cn(layout === "grid" && "space-y-1 mb-3", "col-span-full")}>
+                    <FormLabel className="text-xs font-medium text-muted-foreground">
+                      ¿En qué punto están?
+                    </FormLabel>
+                    <FormControl>
+                      <select {...field} className={selectClass}>
+                        <option value="">Seleccione una opción</option>
+                        {STAGES.map((stage) => (
+                          <option key={stage} value={stage}>{stage}</option>
+                        ))}
+                      </select>
+                    </FormControl>
+                    <FormMessage className="text-xs" />
+                  </FormItem>
+                )}
+              />
+            </>
           )}
         </div>
 

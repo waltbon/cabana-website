@@ -1768,27 +1768,44 @@
     }
   },
   "blog": {
-    "postSidebar": {
-      "badge": "Consultoría de datos",
-      "heading": "¿Querés saber dónde está tu empresa?",
-      "description": "Dejanos tu información y uno de nuestros expertos se pondrá en contacto para conversar sobre el estado de tu infraestructura de datos.",
-      "submitLabel": "Quiero hablar con un experto →",
-      "disclaimer": "Sin compromiso · Respuesta en menos de 24h"
-    },
-    "title": "Todos los Artículos",
-    "postsFound": "{count} artículo(s) encontrado(s)",
+    "pretitle": "Blog",
+    "heading": "Por dónde empezar con IA, y cómo empezar bien",
+    "subtitle": "Artículos de nuestro equipo sobre estrategia de datos, IA y arquitectura, con lo que vemos en proyectos en producción.",
     "search": "Buscar artículos...",
-    "filters": {
-      "allTags": "Todas las Etiquetas",
-      "allCategories": "Todas las Categorías",
-      "allAuthors": "Todos los Autores",
-      "noTags": "No se encontraron etiquetas",
-      "noCategories": "No se encontraron categorías",
-      "noAuthors": "No se encontraron autores",
-      "reset": "Restablecer Filtros"
-    },
+    "allCategories": "Todos",
+    "categoriesLabel": "Filtrar por categoría",
+    "featured": "Más reciente",
+    "readArticle": "Leer artículo",
+    "moreArticles": "Más artículos",
     "empty": "No se encontraron artículos",
-    "publishedBy": "Publicado {date} por"
+    "backToBlog": "Volver al blog",
+    "keepReading": "Siga leyendo",
+    "cta": {
+      "rutaIa": {
+        "title": "¿No sabe por dónde empezar con IA?",
+        "body": "En 4 semanas, Ruta IA le entrega sus 5 mejores oportunidades de IA, ordenadas. También le dice si sus datos las soportan.",
+        "button": "Conocer Ruta IA"
+      },
+      "aiFirstMove": {
+        "title": "¿Ya sabe qué caso de IA quiere construir?",
+        "body": "En 10 semanas, AI First Move pone su primer caso de uso en producción. Además, le entrega el caso de inversión para llevar a la junta.",
+        "button": "Conocer AI First Move"
+      }
+    },
+    "postSidebar": {
+      "rutaIa": {
+        "badge": "Ruta IA",
+        "heading": "¿Quiere saber qué idea de IA soportan sus datos hoy?",
+        "description": "Cuéntenos en qué punto está. Una persona de nuestro equipo lo contactará para ver si Ruta IA es el paso que le conviene."
+      },
+      "aiFirstMove": {
+        "badge": "AI First Move",
+        "heading": "¿Ya sabe qué caso de IA quiere construir?",
+        "description": "Cuéntenos en qué punto está. Una persona de nuestro equipo lo contactará para ver si AI First Move es el paso que le conviene."
+      },
+      "submitLabel": "Agende una conversación",
+      "disclaimer": "Sin compromiso"
+    }
   },
   "common": {
     "readMore": "Leer más",

@@ -12,6 +12,8 @@ const leadContactSchema = z.object({
   company: z.string().min(2),
   role: z.string().min(2),
   industry: z.string().min(1),
+  decisionMaker: z.string().optional(),
+  stage: z.string().optional(),
 });
 
 /**
@@ -33,6 +35,12 @@ export async function POST(request: NextRequest) {
       referral: "website",
       privacy: true,
       industry: data.industry,
+      comments: [
+        data.decisionMaker && `Quién decide la inversión: ${data.decisionMaker}`,
+        data.stage && `En qué punto están: ${data.stage}`,
+      ]
+        .filter(Boolean)
+        .join("\n") || undefined,
     });
 
     return NextResponse.json({

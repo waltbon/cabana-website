@@ -1,15 +1,18 @@
 
-import Image from "next/image";
-import { Section, Container } from "@/components/craft";
+import type { ComponentProps } from "react";
+import { getTranslations } from "next-intl/server";
 import { ArticleSchema } from "@/components/seo/article-schema";
 import { siteConfig } from "@/site.config";
 
-import { Link } from "@/i18n/navigation";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getAllPostSlugs, getPostBySlug, getCategoryBySlug, getAuthorByName } from "@/lib/blog";
+import { getAllPostSlugs, getPostBySlug, getCategoryBySlug, getAuthorByName, getPosts, formatPostDate } from "@/lib/blog";
+import { getPostService } from "@/lib/blog-services";
+import { PostCard, PostThumbnail } from "@/components/posts/post-card";
+import { CTASection } from "@/components/capacidades/cta-section";
 import MdxLayout from "@/components/mdx-layout";
 import { PostSidebar } from "./_components/post-sidebar";
+import { PostHeader } from "./_components/post-header";
 
 export async function generateStaticParams() {
   return getAllPostSlugs();
@@ -69,12 +72,17 @@ export async function generateMetadata({
   };
 }
 
+/** The page header already renders the post title as h1; MDX headings start one level down. */
+function MdxH1(props: ComponentProps<"h2">) {
+  return <h2 {...props} />;
+}
+
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string; locale: string }>;
 }) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const post = getPostBySlug(slug);
   const { default: Post } = await import(`@/content/es/${slug}.mdx`)
 
@@ -82,15 +90,12 @@ export default async function Page({
     notFound();
   }
 
-  const featuredMedia = post.featuredMediaSourceUrl;
-
-  const date = new Date(post.date).toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
+  const t = await getTranslations("blog");
+  const date = formatPostDate(post.date, locale);
   const category = getCategoryBySlug(post.category);
   const author = getAuthorByName(post.author);
+  const service = getPostService(post.service);
+  const related = getPosts().filter((p) => p.slug !== post.slug).slice(0, 3);
 
   // Strip HTML for plain text description
   const description = post.excerpt.trim();
@@ -110,78 +115,48 @@ export default async function Page({
         inLanguage="es"
       />
 
-      {/* ── Post Hero Header ── */}
-      <div className="relative bg-cabana-dark overflow-hidden flex items-end min-h-[480px] md:min-h-[560px]">
-        {featuredMedia ? (
-          <>
-            <Image
-              src={featuredMedia}
-              alt={post.title}
-              fill
-              className="object-cover opacity-20"
+      <PostHeader post={post} date={date} categoryName={category?.name} backLabel={t("backToBlog")} />
+
+      {post.featuredMediaSourceUrl && (
+        <div className="bg-linear-to-b from-section-light from-50% to-background to-50% px-4">
+          <div className="container max-w-5xl">
+            <PostThumbnail
+              post={post}
+              className="aspect-video md:aspect-[1024/540]"
+              sizes="(min-width: 1024px) 1024px, 100vw"
               priority
             />
-            <div className="absolute inset-0 bg-linear-to-t from-cabana-dark via-cabana-dark/60 to-transparent" />
-          </>
-        ) : (
-          <div className="absolute inset-0 bg-linear-to-br from-[#0000d3]/10 via-transparent to-cabana-green/5" />
-        )}
-
-        <Container className="relative z-10 py-16 md:py-24 max-w-5xl">
-          {/* Category badge */}
-          {category && (
-            <div className="mb-5">
-              <Link
-                href={`/posts/?category=${post.category}`}
-                className="inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold tracking-widest uppercase bg-[#0000d3] text-white hover:bg-[#0000d3]/80 transition-colors"
-              >
-                {category.name}
-              </Link>
-            </div>
-          )}
-
-          {/* Title */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight max-w-7xl mb-5">
-            <span dangerouslySetInnerHTML={{ __html: post.title }} />
-          </h1>
-
-          {/* Excerpt */}
-          {description && (
-            <p className="text-base md:text-lg text-white/60 max-w-2xl mb-8 leading-relaxed">
-              {description}
-            </p>
-          )}
-
-          {/* Author + Date */}
-          <div className="flex flex-wrap items-center gap-3 text-sm">
-            <div className="flex items-center gap-2">
-              <div className="w-7 h-7 rounded-full bg-[#0000d3] flex items-center justify-center text-white font-bold text-xs shrink-0">
-                {post.author?.charAt(0).toUpperCase()}
-              </div>
-              <Link
-                href={`/posts/?author=${post.author}`}
-                className="text-white/80 hover:text-white font-medium transition-colors"
-              >
-                {post.author}
-              </Link>
-            </div>
-            <span className="text-white/25">·</span>
-            <time dateTime={post.date} className="text-white/50">
-              {date}
-            </time>
           </div>
-        </Container>
-      </div>
+        </div>
+      )}
 
-      {/* ── Article Body ── */}
-      <Section>
-        <Container className="max-w-6xl">
-          <div className="grid lg:grid-cols-[1fr_340px] gap-12 items-start">
-            <MdxLayout><Post /></MdxLayout>
-            <PostSidebar />
+      <section className="px-4 pt-10 pb-16 md:pt-16 md:pb-24">
+        <div className="container max-w-6xl">
+          <div className="grid lg:grid-cols-[minmax(0,720px)_340px] lg:justify-between gap-12 items-start">
+            <MdxLayout><Post components={{ h1: MdxH1 }} /></MdxLayout>
+            <PostSidebar serviceKey={service.key} />
           </div>
-        </Container>
-      </Section>
+        </div>
+      </section>
+
+      {related.length > 0 && (
+        <section className="bg-section-light px-4 py-16 md:py-24">
+          <div className="container flex flex-col gap-8">
+            <h2 className="text-3xl md:text-4xl">{t("keepReading")}</h2>
+            <div className="grid gap-8 md:grid-cols-3 md:gap-6">
+              {related.map((p) => (
+                <PostCard key={p.slug} post={p} locale={locale} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <CTASection
+        namespace={`blog.cta.${service.key}`}
+        href={service.href}
+        className="bg-section-light pt-0 md:pt-0"
+      />
     </>
   );
 }

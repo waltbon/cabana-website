@@ -1768,27 +1768,44 @@
     }
   },
   "blog": {
-    "postSidebar": {
-      "badge": "Data consulting",
-      "heading": "Want to know where your company stands?",
-      "description": "Leave us your information and one of our experts will get in touch to talk about the state of your data infrastructure.",
-      "submitLabel": "I want to talk to an expert →",
-      "disclaimer": "No commitment · Response within 24h"
-    },
-    "title": "All Articles",
-    "postsFound": "{count} article(s) found",
+    "pretitle": "Blog",
+    "heading": "Where to start with AI, and how to start right",
+    "subtitle": "Articles from our team on data strategy, AI and architecture, based on what we see in projects running in production.",
     "search": "Search articles...",
-    "filters": {
-      "allTags": "All Tags",
-      "allCategories": "All Categories",
-      "allAuthors": "All Authors",
-      "noTags": "No tags found",
-      "noCategories": "No categories found",
-      "noAuthors": "No authors found",
-      "reset": "Reset Filters"
-    },
+    "allCategories": "All",
+    "categoriesLabel": "Filter by category",
+    "featured": "Latest",
+    "readArticle": "Read article",
+    "moreArticles": "More articles",
     "empty": "No articles found",
-    "publishedBy": "Published {date} by"
+    "backToBlog": "Back to blog",
+    "keepReading": "Keep reading",
+    "cta": {
+      "rutaIa": {
+        "title": "Not sure where to start with AI?",
+        "body": "In 4 weeks, Ruta IA gives you your 5 best AI opportunities, ranked. It also tells you whether your data can support them.",
+        "button": "Explore Ruta IA"
+      },
+      "aiFirstMove": {
+        "title": "Already know which AI use case you want to build?",
+        "body": "In 10 weeks, AI First Move puts your first use case into production. It also gives you the investment case to take to your board.",
+        "button": "Explore AI First Move"
+      }
+    },
+    "postSidebar": {
+      "rutaIa": {
+        "badge": "Ruta IA",
+        "heading": "Want to know which AI idea your data can support today?",
+        "description": "Tell us where you stand. Someone from our team will contact you to see whether Ruta IA is the right next step."
+      },
+      "aiFirstMove": {
+        "badge": "AI First Move",
+        "heading": "Already know which AI use case you want to build?",
+        "description": "Tell us where you stand. Someone from our team will contact you to see whether AI First Move is the right next step."
+      },
+      "submitLabel": "Book a conversation",
+      "disclaimer": "No commitment"
+    }
   },
   "common": {
     "readMore": "Read more",

@@ -1,6 +1,7 @@
 "use client";
 
 import { m } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { Badge } from "@/components/ui/badge";
 import { LeadCaptureForm } from "@/components/contact/LeadFormCapture";
 
@@ -9,7 +10,9 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
-export function PostSidebar() {
+export function PostSidebar({ serviceKey }: { serviceKey: "rutaIa" | "aiFirstMove" }) {
+  const t = useTranslations("blog.postSidebar");
+
   return (
     <m.div
       variants={fadeUp}
@@ -20,21 +23,21 @@ export function PostSidebar() {
     >
       <div className="rounded-xl border border-border bg-card p-6 space-y-4">
         <div>
-          <Badge variant="green" className="mb-2 text-xs font-semibold uppercase tracking-widest">
-            Converse con un experto
+          <Badge variant="pretitle" className="mb-2">
+            {t(`${serviceKey}.badge`)}
           </Badge>
           <h3 className="text-xl font-bold text-foreground leading-snug mb-2">
-            Contáctanos
+            {t(`${serviceKey}.heading`)}
           </h3>
-          <p className="text-sm text-muted-foreground leading-5">
-            Dejanos tu información y uno de nuestros expertos se pondrá en contacto para conversar sobre tu iniciativa.
+          <p className="text-sm text-muted-foreground">
+            {t(`${serviceKey}.description`)}
           </p>
         </div>
 
-        <LeadCaptureForm submitLabel="Quiero hablar con un experto →" />
+        <LeadCaptureForm submitLabel={t("submitLabel")} qualify />
 
-        <p className="text-xs text-muted-foreground text-center leading-[1.6]">
-          Sin compromiso · Pronta respuesta
+        <p className="text-xs text-muted-foreground text-center">
+          {t("disclaimer")}
         </p>
       </div>
     </m.div>
