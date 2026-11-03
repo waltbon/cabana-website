@@ -9,17 +9,17 @@ export type PostCategoryType =
 export const CATEGORIES: PostCategory[] = [
     {
         slug: 'data-strategy',
-        name: 'Estrategia de Datos',
+        name: 'Estrategia de datos',
         description: ''
     },
     {
         slug: 'ai',
-        name: 'Inteligencia Artificial',
+        name: 'Inteligencia artificial',
         description: ''
     },
     {
         slug: 'software-architecture',
-        name: 'Arquitectura de Software',
+        name: 'Arquitectura de software',
         description: ''
     }
 ]

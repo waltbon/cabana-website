@@ -130,7 +130,9 @@ Frame `Components` del `.pen`:
 | `Button` | `Default`, `Secondary`, `Outline`, `Ghost`, `Destructive`, `Large` | `components/ui/button.tsx` |
 | `Badge` | `Default`, `Secondary`, `Green`, `Pretitle`, `Outline` | `components/ui/badge.tsx` |
 | `Input Field` | — (label + input) | `components/ui/input.tsx`, `label.tsx`, `form.tsx` |
+| `Select` | — (trigger con valor y chevron) | `components/ui/select.tsx` |
 | `Card` | — (icono, título, descripción) | `components/ui/card.tsx` |
+| `Post Card` | `Post Card` (baseline), `Post Card/Clean` (propuesta en `CH-blog-rediseno`) | `components/posts/post-card.tsx` |
 | `Icon Wrapper` | `sm`, `md`, `lg`, `gradient` | utilidades `.icon-wrapper-*` en `globals.css` |
 | `Nav` | — | `components/nav/*`, `menu.config.ts` |
 | `Section Header` | — (pretítulo, título, subtítulo) | `_components` de cada página |
@@ -203,7 +205,7 @@ Se resuelven en un cambio explícito, nunca en silencio.
 | Formato de color | hex | `hsl()` en `:root` / `.dark` | Mismo valor. El código manda para el valor final. |
 | Logo | texto "Cabana Data" | SVG en `public/` | Reemplazar por imagen del logo en el `.pen`. |
 | Tokens `heading-sm-*` | no existen | referenciados por `h4` sin definir | Definir en `globals.css` y en el `.pen`. |
-| Componentes sin par | — | `Accordion`, `Carousel`, `Drawer`, `Sheet`, `Select`, `Pagination`, `NavigationMenu`, `DropdownMenu`, `Stat` | Agregar al `.pen` antes de usarlos en una pantalla nueva. |
+| Componentes sin par | — | `Accordion`, `Carousel`, `Drawer`, `Sheet`, `Pagination`, `NavigationMenu`, `DropdownMenu`, `Stat` | Agregar al `.pen` antes de usarlos en una pantalla nueva. |
 | Modo oscuro | `mode: dark` con valores | `.dark` | No obligatorio; verificar solo si el cambio lo activa. |
 
 ---

@@ -1,63 +1,66 @@
 import Image from "next/image";
+import { FileText } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
+import { Badge } from "@/components/ui/badge";
 import { Post } from "@/types/blog/post";
+import { getCategoryBySlug, formatPostDate } from "@/lib/blog";
 import { cn } from "@/lib/utils";
 
-export function PostCard({ post }: { post: Post }) {
-  const date = new Date(post.date).toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
-
+export function PostThumbnail({
+  post,
+  className,
+  sizes = "(min-width: 768px) 33vw, 100vw",
+  priority,
+}: {
+  post: Post;
+  className?: string;
+  sizes?: string;
+  priority?: boolean;
+}) {
   return (
-    <Link
-      href={`/posts/${post.slug}`}
+    <div
       className={cn(
-        "border p-4 bg-accent/30 rounded-lg group flex justify-between flex-col not-prose gap-8",
-        "hover:bg-accent/75 transition-all"
+        "relative w-full overflow-hidden rounded-xl bg-cabana-dark flex items-center justify-center",
+        className
       )}
     >
-      <div className="flex flex-col gap-4">
-        <div className="h-48 w-full overflow-hidden relative rounded-md border flex items-center justify-center bg-muted">
-          {post.featuredMediaSourceUrl ? (
-            <Image
-              className="h-full w-full object-cover"
-              src={post.featuredMediaSourceUrl}
-              alt={post.title || "Post thumbnail"}
-              width={400}
-              height={200}
-            />
-          ) : (
-            <div className="flex items-center justify-center w-full h-full text-muted-foreground">
-              No image available
-            </div>
-          )}
-        </div>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: post.title || "Untitled Post",
-          }}
-          className="text-xl text-primary font-medium group-hover:underline decoration-muted-foreground underline-offset-4 decoration-dotted transition-all"
-        ></div>
-        <div
-          className="text-sm"
-          dangerouslySetInnerHTML={{
-            __html: post.excerpt
-              ? post.excerpt.split(" ").slice(0, 12).join(" ").trim() +
-                "..."
-              : "No excerpt available",
-          }}
-        ></div>
-      </div>
+      {post.featuredMediaSourceUrl ? (
+        <Image
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          src={post.featuredMediaSourceUrl}
+          alt={post.title}
+          fill
+          sizes={sizes}
+          priority={priority}
+        />
+      ) : (
+        <FileText className="size-8 text-cabana-green" aria-hidden="true" />
+      )}
+    </div>
+  );
+}
 
-      <div className="flex flex-col gap-4">
-        <hr />
-        <div className="flex justify-between items-center text-xs">
-          <p>{post.category || "Uncategorized"}</p>
-          <p>{date}</p>
-        </div>
+export function PostCard({ post, locale }: { post: Post; locale: string }) {
+  const category = getCategoryBySlug(post.category);
+
+  return (
+    <Link href={`/posts/${post.slug}`} className="group flex flex-col gap-4 not-prose">
+      <PostThumbnail post={post} className="aspect-video" />
+      <div className="flex flex-col gap-2">
+        {category && (
+          <Badge variant="outline" className="self-start">
+            {category.name}
+          </Badge>
+        )}
+        <h3
+          className="text-xl leading-snug group-hover:text-primary transition-colors"
+          dangerouslySetInnerHTML={{ __html: post.title }}
+        />
+        <p className="text-sm text-muted-foreground line-clamp-2">{post.excerpt}</p>
+        <time dateTime={post.date} className="text-xs text-muted-foreground">
+          {formatPostDate(post.date, locale)}
+        </time>
       </div>
     </Link>
   );

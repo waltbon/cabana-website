@@ -2,7 +2,7 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ServiceLink } from "./service-link";
+import { ServiceLink } from "@/components/service-link";
 
 type Door = { label: string; hint: string; href: string };
 

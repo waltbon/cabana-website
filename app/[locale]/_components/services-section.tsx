@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { BadgeDollarSign, CalendarRange } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ServiceLink } from "./service-link";
+import { ServiceLink } from "@/components/service-link";
 
 type Service = {
   door: string;

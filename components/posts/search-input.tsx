@@ -1,11 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { Input } from "@/components/ui/input";
 
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { useDebouncedCallback } from "use-debounce";
 
 export function SearchInput({ defaultValue }: { defaultValue?: string }) {
+  const t = useTranslations("blog");
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
@@ -22,11 +24,13 @@ export function SearchInput({ defaultValue }: { defaultValue?: string }) {
 
   return (
     <Input
-      type="text"
+      type="search"
       name="search"
-      placeholder="Search posts..."
+      aria-label={t("search")}
+      placeholder={t("search")}
       defaultValue={defaultValue}
       onChange={(e) => handleSearch(e.target.value)}
+      className="lg:w-80"
     />
   );
 }

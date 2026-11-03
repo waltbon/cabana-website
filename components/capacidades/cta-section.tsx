@@ -3,13 +3,17 @@ import { Button } from "@/components/ui/button";
 import { getTranslations } from "next-intl/server";
 import { calendarUrl } from "@/lib/calendar";
 import { cn } from "@/lib/utils";
+import { ServiceLink } from "@/components/service-link";
 
 /** Dark closing CTA block; `namespace` points at a { title, body, button } message group. */
 export async function CTASection({
   namespace = "capacidades.cta",
+  href,
   className,
 }: {
   namespace?: string;
+  /** Internal service page; without it the button opens the calendar */
+  href?: string;
   /** Overrides the section background (default `bg-background`) */
   className?: string;
 }) {
@@ -27,9 +31,13 @@ export async function CTASection({
           </h2>
           <p className="text-lg text-slate-300 max-w-2xl">{t("body")}</p>
           <Button asChild size="lg" className="w-full sm:w-auto">
-            <Link href={calendarUrl} target="_blank" rel="noopener noreferrer">
-              {t("button")}
-            </Link>
+            {href ? (
+              <ServiceLink href={href}>{t("button")}</ServiceLink>
+            ) : (
+              <Link href={calendarUrl} target="_blank" rel="noopener noreferrer">
+                {t("button")}
+              </Link>
+            )}
           </Button>
         </div>
       </div>
