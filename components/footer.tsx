@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/navigation";
+import { ServiceLink } from "@/components/service-link";
 import { Section, Container } from "@/components/craft";
 import { siteConfig } from "@/site.config";
 import Image from "next/image";
@@ -20,6 +21,7 @@ const LinkedInIcon = ({ className }: { className?: string }) => (
 
 // Footer navigation link keys
 const footerLinkKeys = [
+  { key: "rutaIa", href: "/ruta-ia" },
   { key: "capabilities", href: "/capacidades" },
   // { key: "caseStudies", href: "/case-studies" },
   { key: "about", href: "/about" },
@@ -59,9 +61,9 @@ export const Footer = () => {
 
             <nav className="grid grid-cols-2 gap-x-4 gap-y-3 md:flex md:gap-8">
               {footerLinkKeys.map((link) => (
-                <Link key={link.href} href={link.href} className={mutedLink}>
+                <ServiceLink key={link.href} href={link.href} className={mutedLink}>
                   {t(`links.${link.key}`)}
-                </Link>
+                </ServiceLink>
               ))}
             </nav>
 
