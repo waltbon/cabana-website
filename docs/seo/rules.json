@@ -122,8 +122,24 @@
       "severity": "warning",
       "reason": "Preferir 'evidencia de su operación' (GUIA-TONO, glosario). Válido si se usa en contraste.",
       "use": "evidencia de su operación"
+    },
+    {
+      "id": "voseo",
+      "pattern": "sabés|querés|tenés|podés|estás|sos|hacé|hacés|mirá|escribí|escribinos|agendá|empezá|contá|contanos|decinos|conocé|descubrí|necesitás|buscás|evaluás|pensá|probá|vení|dejá|elegí|pedí|solicitá|completá|fijate|imaginá|contactanos|comunicate",
+      "locales": ["es"],
+      "namespaces": ["blog"],
+      "severity": "warning",
+      "reason": "Usted en todo el sitio, sin excepción; el voseo del brief se convierte a usted (GUIA-TONO, conflicto C7).",
+      "use": "usted: sabe, quiere, tiene, puede, está, haga"
     }
   ],
+
+  "blog": {
+    "$comment": "Posts del blog. Title, description (excerpt) y CTA salen de data/blog/index.ts (app/[locale]/posts/[slug]/page.tsx: generateMetadata y hero); el cuerpo es content/es/<slug>.mdx y no se revisa aquí. Se aplican los términos con namespace '*' o 'blog'; todo hallazgo sale como warning hasta que el copy de los posts se apruebe (B-011). titleSuffix es el template del layout (app/[locale]/layout.tsx).",
+    "source": "data/blog/index.ts",
+    "locale": "es",
+    "titleSuffix": " | Cabana Data"
+  },
 
   "exceptions": [
     {
