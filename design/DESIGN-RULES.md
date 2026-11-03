@@ -132,7 +132,7 @@ Frame `Components` del `.pen`:
 | `Input Field` | — (label + input) | `components/ui/input.tsx`, `label.tsx`, `form.tsx` |
 | `Select` | — (trigger con valor y chevron) | `components/ui/select.tsx` |
 | `Card` | — (icono, título, descripción) | `components/ui/card.tsx` |
-| `Post Card` | `Post Card` (baseline), `Post Card/Clean` (propuesta en `CH-blog-rediseno`) | `components/posts/post-card.tsx` |
+| `Post Card` | — (imagen, categoría, título, extracto, fecha) | `components/posts/post-card.tsx` |
 | `Icon Wrapper` | `sm`, `md`, `lg`, `gradient` | utilidades `.icon-wrapper-*` en `globals.css` |
 | `Nav` | — | `components/nav/*`, `menu.config.ts` |
 | `Section Header` | — (pretítulo, título, subtítulo) | `_components` de cada página |

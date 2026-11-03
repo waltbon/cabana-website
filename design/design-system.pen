@@ -684,7 +684,7 @@
                 {
                   "type": "frame",
                   "id": "tiBKG",
-                  "name": "Post Card/Clean",
+                  "name": "Post Card",
                   "reusable": true,
                   "width": 384,
                   "layout": "vertical",
@@ -765,133 +765,6 @@
                           "name": "Date",
                           "fill": "$muted-foreground",
                           "content": "2 jun 2026",
-                          "fontFamily": "$font-sans",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "TSFQX",
-              "name": "Post Card",
-              "reusable": true,
-              "width": 384,
-              "fill": "$accent",
-              "cornerRadius": "$radius-lg",
-              "stroke": "$border",
-              "strokeWidth": 1,
-              "layout": "vertical",
-              "gap": 32,
-              "padding": 16,
-              "justifyContent": "space_between",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "c7XDs",
-                  "name": "Top",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "j08nG",
-                      "name": "Thumbnail",
-                      "clip": true,
-                      "width": "fill_container",
-                      "height": 192,
-                      "fill": "$muted",
-                      "cornerRadius": "$radius-md",
-                      "stroke": "$border",
-                      "strokeWidth": 1,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "xI2ll",
-                          "name": "No image",
-                          "fill": "$muted-foreground",
-                          "content": "No image available",
-                          "fontFamily": "$font-sans",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "iRJ9F",
-                      "name": "Title",
-                      "fill": "$primary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Título del artículo",
-                      "lineHeight": 1.4,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 20,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "text",
-                      "id": "QFIMw",
-                      "name": "Excerpt",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Extracto del artículo...",
-                      "lineHeight": 1.5,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "H5vXwg",
-                  "name": "Meta",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "type": "rectangle",
-                      "id": "mHEDt",
-                      "name": "Divider",
-                      "fill": "$border",
-                      "width": "fill_container",
-                      "height": 1
-                    },
-                    {
-                      "type": "frame",
-                      "id": "ceSnM",
-                      "name": "Meta Row",
-                      "width": "fill_container",
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "Gsgxt",
-                          "name": "Category",
-                          "fill": "$foreground",
-                          "content": "Categoría",
-                          "fontFamily": "$font-sans",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "EUbKE",
-                          "name": "Date",
-                          "fill": "$foreground",
-                          "content": "May 17, 2026",
                           "fontFamily": "$font-sans",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -29732,2224 +29605,8 @@
       "children": [
         {
           "type": "frame",
-          "id": "XEXdy",
-          "name": "PG/posts",
-          "clip": true,
-          "width": 1440,
-          "fill": "$background",
-          "layout": "vertical",
-          "children": [
-            {
-              "id": "YJ16Y",
-              "type": "ref",
-              "ref": "T4uoY9",
-              "name": "Nav",
-              "width": "fill_container"
-            },
-            {
-              "type": "frame",
-              "id": "hxBP0",
-              "name": "Posts Section",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 32,
-              "padding": [
-                32,
-                120
-              ],
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "wMXMk",
-                  "name": "Header",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "B5jew3",
-                      "name": "H1",
-                      "fill": "$foreground",
-                      "content": "Blog",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 36,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "p4lXZ6",
-                      "name": "Count",
-                      "fill": "$muted-foreground",
-                      "content": "1 post found",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "bfwDB",
-                  "name": "Search & Filters",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "id": "QgzY5",
-                      "type": "ref",
-                      "ref": "yfPxe",
-                      "name": "Search",
-                      "width": "fill_container",
-                      "descendants": {
-                        "Qh7Zy": {
-                          "enabled": false
-                        },
-                        "BTYs8": {
-                          "content": "Search posts..."
-                        }
-                      }
-                    },
-                    {
-                      "type": "frame",
-                      "id": "z90sz",
-                      "name": "Filters",
-                      "width": "fill_container",
-                      "gap": 8,
-                      "padding": [
-                        16,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "id": "aiefs",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todas las etiquetas"
-                            }
-                          }
-                        },
-                        {
-                          "id": "UfuHQ",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todas las categorías"
-                            }
-                          }
-                        },
-                        {
-                          "id": "paWCX",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todos los autores"
-                            }
-                          }
-                        },
-                        {
-                          "id": "gvzwD",
-                          "type": "ref",
-                          "ref": "QCuy5",
-                          "name": "Reset Filters",
-                          "width": 170,
-                          "descendants": {
-                            "U4otP": {
-                              "content": "Reset Filters"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "tZcj9",
-                  "name": "Grid Row",
-                  "width": "fill_container",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "id": "LsAzx",
-                      "type": "ref",
-                      "ref": "TSFQX",
-                      "name": "Post Card",
-                      "width": "fill_container",
-                      "height": 419,
-                      "descendants": {
-                        "j08nG": {
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "../public/blog/infraestructura-que-no-esta-lista-para-ia.png",
-                            "mode": "cover"
-                          }
-                        },
-                        "xI2ll": {
-                          "enabled": false
-                        },
-                        "iRJ9F": {
-                          "content": "Tu infraestructura actual no está lista para IA — y probablemente lo sabés"
-                        },
-                        "QFIMw": {
-                          "content": "La presión llega desde arriba. La junta directiva escuchó que la competencia está..."
-                        },
-                        "Gsgxt": {
-                          "content": "Inteligencia Artificial"
-                        },
-                        "EUbKE": {
-                          "content": "May 17, 2026"
-                        }
-                      }
-                    },
-                    {
-                      "id": "IehXI",
-                      "type": "ref",
-                      "ref": "TSFQX",
-                      "name": "Post Card",
-                      "width": "fill_container",
-                      "height": 419,
-                      "descendants": {
-                        "j08nG": {
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "../public/blog/inversion-en-ia.png",
-                            "mode": "cover"
-                          }
-                        },
-                        "xI2ll": {
-                          "enabled": false
-                        },
-                        "iRJ9F": {
-                          "content": "Están invirtiendo en IA. Están cometiendo el error más caro del año."
-                        },
-                        "QFIMw": {
-                          "content": "La presión por adoptar inteligencia artificial es real. Pero la forma en que..."
-                        },
-                        "Gsgxt": {
-                          "content": "Estrategia de Datos"
-                        },
-                        "EUbKE": {
-                          "content": "May 7, 2026"
-                        }
-                      }
-                    },
-                    {
-                      "id": "HnBe8",
-                      "type": "ref",
-                      "ref": "TSFQX",
-                      "name": "Post Card",
-                      "width": "fill_container",
-                      "height": 419,
-                      "descendants": {
-                        "iRJ9F": {
-                          "content": "El error más caro en un proyecto de datos no es técnico"
-                        },
-                        "QFIMw": {
-                          "content": "Los clientes llegan pidiendo un dashboard. Casi siempre, el problema real es..."
-                        },
-                        "Gsgxt": {
-                          "content": "Estrategia de Datos"
-                        },
-                        "EUbKE": {
-                          "content": "May 30, 2026"
-                        }
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "fOwQ8",
-                  "name": "Grid Row",
-                  "width": "fill_container",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "id": "LSHOr",
-                      "type": "ref",
-                      "ref": "TSFQX",
-                      "name": "Post Card",
-                      "width": "fill_container",
-                      "height": 419,
-                      "descendants": {
-                        "iRJ9F": {
-                          "content": "Metodología AER – Arquitectura traducida a nivel de negocio para tomar decisiones"
-                        },
-                        "QFIMw": {
-                          "content": "Un cliente llegó con años de marcos de trabajo propios, un equipo que ya..."
-                        },
-                        "Gsgxt": {
-                          "content": "Arquitectura de Software"
-                        },
-                        "EUbKE": {
-                          "content": "June 2, 2026"
-                        }
-                      }
-                    },
-                    {
-                      "type": "frame",
-                      "id": "fLVlz",
-                      "name": "Empty cell",
-                      "width": "fill_container",
-                      "height": 10
-                    },
-                    {
-                      "type": "frame",
-                      "id": "W2SqPY",
-                      "name": "Empty cell",
-                      "width": "fill_container",
-                      "height": 10
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "FjAqW",
-              "type": "ref",
-              "ref": "arSuf",
-              "name": "Footer",
-              "width": "fill_container"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "iP0Ij",
-          "name": "PG/posts (móvil)",
-          "clip": true,
-          "width": 390,
-          "fill": "$background",
-          "layout": "vertical",
-          "children": [
-            {
-              "id": "Qg1rA",
-              "type": "ref",
-              "ref": "T4uoY9",
-              "name": "Nav",
-              "width": "fill_container"
-            },
-            {
-              "type": "frame",
-              "id": "hG21l",
-              "name": "Posts Section",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 32,
-              "padding": [
-                32,
-                24
-              ],
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "jV5aI",
-                  "name": "Header",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "QTtls",
-                      "name": "H1",
-                      "fill": "$foreground",
-                      "content": "Blog",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 30,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "UVQ3R",
-                      "name": "Count",
-                      "fill": "$muted-foreground",
-                      "content": "1 post found",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "JDR8W",
-                  "name": "Search & Filters",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "id": "iSdeQ",
-                      "type": "ref",
-                      "ref": "yfPxe",
-                      "name": "Search",
-                      "width": "fill_container",
-                      "descendants": {
-                        "Qh7Zy": {
-                          "enabled": false
-                        },
-                        "BTYs8": {
-                          "content": "Search posts..."
-                        }
-                      }
-                    },
-                    {
-                      "type": "frame",
-                      "id": "ALefo",
-                      "name": "Filters",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        16,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "id": "YsNut",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todas las etiquetas"
-                            }
-                          }
-                        },
-                        {
-                          "id": "x9dRjF",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todas las categorías"
-                            }
-                          }
-                        },
-                        {
-                          "id": "A9DrOT",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todos los autores"
-                            }
-                          }
-                        },
-                        {
-                          "id": "XgdHe",
-                          "type": "ref",
-                          "ref": "QCuy5",
-                          "name": "Reset Filters",
-                          "width": "fill_container",
-                          "descendants": {
-                            "U4otP": {
-                              "content": "Reset Filters"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "EEIkn",
-                  "name": "Grid",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "id": "dz2I9",
-                      "type": "ref",
-                      "ref": "TSFQX",
-                      "name": "Post Card",
-                      "width": "fill_container",
-                      "height": "fit_content",
-                      "descendants": {
-                        "j08nG": {
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "../public/blog/infraestructura-que-no-esta-lista-para-ia.png",
-                            "mode": "cover"
-                          }
-                        },
-                        "xI2ll": {
-                          "enabled": false
-                        },
-                        "iRJ9F": {
-                          "content": "Tu infraestructura actual no está lista para IA — y probablemente lo sabés"
-                        },
-                        "QFIMw": {
-                          "content": "La presión llega desde arriba. La junta directiva escuchó que la competencia está..."
-                        },
-                        "Gsgxt": {
-                          "content": "Inteligencia Artificial"
-                        },
-                        "EUbKE": {
-                          "content": "May 17, 2026"
-                        }
-                      }
-                    },
-                    {
-                      "id": "RMnWq",
-                      "type": "ref",
-                      "ref": "TSFQX",
-                      "name": "Post Card",
-                      "width": "fill_container",
-                      "height": "fit_content",
-                      "descendants": {
-                        "j08nG": {
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "../public/blog/inversion-en-ia.png",
-                            "mode": "cover"
-                          }
-                        },
-                        "xI2ll": {
-                          "enabled": false
-                        },
-                        "iRJ9F": {
-                          "content": "Están invirtiendo en IA. Están cometiendo el error más caro del año."
-                        },
-                        "QFIMw": {
-                          "content": "La presión por adoptar inteligencia artificial es real. Pero la forma en que..."
-                        },
-                        "Gsgxt": {
-                          "content": "Estrategia de Datos"
-                        },
-                        "EUbKE": {
-                          "content": "May 7, 2026"
-                        }
-                      }
-                    },
-                    {
-                      "id": "whBQI",
-                      "type": "ref",
-                      "ref": "TSFQX",
-                      "name": "Post Card",
-                      "width": "fill_container",
-                      "height": "fit_content",
-                      "descendants": {
-                        "iRJ9F": {
-                          "content": "El error más caro en un proyecto de datos no es técnico"
-                        },
-                        "QFIMw": {
-                          "content": "Los clientes llegan pidiendo un dashboard. Casi siempre, el problema real es..."
-                        },
-                        "Gsgxt": {
-                          "content": "Estrategia de Datos"
-                        },
-                        "EUbKE": {
-                          "content": "May 30, 2026"
-                        }
-                      }
-                    },
-                    {
-                      "id": "fYrIS",
-                      "type": "ref",
-                      "ref": "TSFQX",
-                      "name": "Post Card",
-                      "width": "fill_container",
-                      "height": "fit_content",
-                      "descendants": {
-                        "iRJ9F": {
-                          "content": "Metodología AER – Arquitectura traducida a nivel de negocio para tomar decisiones"
-                        },
-                        "QFIMw": {
-                          "content": "Un cliente llegó con años de marcos de trabajo propios, un equipo que ya..."
-                        },
-                        "Gsgxt": {
-                          "content": "Arquitectura de Software"
-                        },
-                        "EUbKE": {
-                          "content": "June 2, 2026"
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "V6Pd1s",
-              "type": "ref",
-              "ref": "arSuf",
-              "name": "Footer",
-              "width": "fill_container"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "a942c",
-          "name": "PG/posts (sin resultados)",
-          "clip": true,
-          "width": 1440,
-          "fill": "$background",
-          "layout": "vertical",
-          "children": [
-            {
-              "id": "sKFqk",
-              "type": "ref",
-              "ref": "T4uoY9",
-              "name": "Nav",
-              "width": "fill_container"
-            },
-            {
-              "type": "frame",
-              "id": "v0TNTK",
-              "name": "Posts Section",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 32,
-              "padding": [
-                32,
-                120
-              ],
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "LQy4k",
-                  "name": "Header",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "khIGY",
-                      "name": "H1",
-                      "fill": "$foreground",
-                      "content": "Blog",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 36,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "UnfoE",
-                      "name": "Count",
-                      "fill": "$muted-foreground",
-                      "content": "1 post found matching your search",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "upBRr",
-                  "name": "Search & Filters",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "id": "wo2Ky",
-                      "type": "ref",
-                      "ref": "yfPxe",
-                      "name": "Search",
-                      "width": "fill_container",
-                      "descendants": {
-                        "Qh7Zy": {
-                          "enabled": false
-                        },
-                        "BTYs8": {
-                          "content": "Search posts..."
-                        }
-                      }
-                    },
-                    {
-                      "type": "frame",
-                      "id": "r83LL",
-                      "name": "Filters",
-                      "width": "fill_container",
-                      "gap": 8,
-                      "padding": [
-                        16,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "id": "u91F0c",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todas las etiquetas"
-                            }
-                          }
-                        },
-                        {
-                          "id": "p9ZRUg",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todas las categorías"
-                            }
-                          }
-                        },
-                        {
-                          "id": "pb7f7",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todos los autores"
-                            }
-                          }
-                        },
-                        {
-                          "id": "WJ0d4",
-                          "type": "ref",
-                          "ref": "QCuy5",
-                          "name": "Reset Filters",
-                          "width": 170,
-                          "descendants": {
-                            "U4otP": {
-                              "content": "Reset Filters"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "z3Dgn",
-                  "name": "Empty",
-                  "width": "fill_container",
-                  "height": 96,
-                  "fill": "$accent",
-                  "cornerRadius": "$radius-lg",
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "hpc7i",
-                      "name": "Empty text",
-                      "fill": "$foreground",
-                      "content": "No posts found",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "Ro7R6",
-              "type": "ref",
-              "ref": "arSuf",
-              "name": "Footer",
-              "width": "fill_container"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "HHWWN",
-          "name": "PG/posts (sin resultados, móvil)",
-          "clip": true,
-          "width": 390,
-          "fill": "$background",
-          "layout": "vertical",
-          "children": [
-            {
-              "id": "X1HNbw",
-              "type": "ref",
-              "ref": "T4uoY9",
-              "name": "Nav",
-              "width": "fill_container"
-            },
-            {
-              "type": "frame",
-              "id": "C56Qr",
-              "name": "Posts Section",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 32,
-              "padding": [
-                32,
-                24
-              ],
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "u7l6HD",
-                  "name": "Header",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "RgElh",
-                      "name": "H1",
-                      "fill": "$foreground",
-                      "content": "Blog",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 30,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "iqJ9B",
-                      "name": "Count",
-                      "fill": "$muted-foreground",
-                      "content": "1 post found matching your search",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "WOFu4",
-                  "name": "Search & Filters",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "id": "KY8OY",
-                      "type": "ref",
-                      "ref": "yfPxe",
-                      "name": "Search",
-                      "width": "fill_container",
-                      "descendants": {
-                        "Qh7Zy": {
-                          "enabled": false
-                        },
-                        "BTYs8": {
-                          "content": "Search posts..."
-                        }
-                      }
-                    },
-                    {
-                      "type": "frame",
-                      "id": "hp9SC",
-                      "name": "Filters",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        16,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "id": "JGgvU",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todas las etiquetas"
-                            }
-                          }
-                        },
-                        {
-                          "id": "p19bOz",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todas las categorías"
-                            }
-                          }
-                        },
-                        {
-                          "id": "rLH0L",
-                          "type": "ref",
-                          "ref": "V50eNv",
-                          "name": "Select",
-                          "width": "fill_container",
-                          "descendants": {
-                            "EhGLV": {
-                              "content": "Todos los autores"
-                            }
-                          }
-                        },
-                        {
-                          "id": "b2fzQ",
-                          "type": "ref",
-                          "ref": "QCuy5",
-                          "name": "Reset Filters",
-                          "width": "fill_container",
-                          "descendants": {
-                            "U4otP": {
-                              "content": "Reset Filters"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "FypNp",
-                  "name": "Empty",
-                  "width": "fill_container",
-                  "height": 96,
-                  "fill": "$accent",
-                  "cornerRadius": "$radius-lg",
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "K0By3",
-                      "name": "Empty text",
-                      "fill": "$foreground",
-                      "content": "No posts found",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "cUwdv",
-              "type": "ref",
-              "ref": "arSuf",
-              "name": "Footer",
-              "width": "fill_container"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "y7dfNq",
-          "name": "PG/posts/[slug]",
-          "clip": true,
-          "width": 1440,
-          "fill": "$background",
-          "layout": "vertical",
-          "children": [
-            {
-              "id": "Zpihd",
-              "type": "ref",
-              "ref": "T4uoY9",
-              "name": "Nav",
-              "width": "fill_container"
-            },
-            {
-              "type": "frame",
-              "id": "I5njlh",
-              "name": "Post Hero",
-              "clip": true,
-              "width": "fill_container",
-              "height": 560,
-              "fill": [
-                "$cabana-dark",
-                {
-                  "type": "image",
-                  "opacity": 0.2,
-                  "enabled": true,
-                  "url": "../public/blog/infraestructura-que-no-esta-lista-para-ia.png",
-                  "mode": "cover"
-                },
-                {
-                  "type": "gradient",
-                  "gradientType": "linear",
-                  "enabled": true,
-                  "rotation": 0,
-                  "size": {
-                    "height": 1
-                  },
-                  "colors": [
-                    {
-                      "color": "#0F172A00",
-                      "position": 0
-                    },
-                    {
-                      "color": "#0F172A99",
-                      "position": 0.5
-                    },
-                    {
-                      "color": "#0F172AFF",
-                      "position": 1
-                    }
-                  ]
-                }
-              ],
-              "layout": "vertical",
-              "gap": 20,
-              "padding": [
-                96,
-                208
-              ],
-              "justifyContent": "end",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "Gv2Mw",
-                  "name": "Category badge",
-                  "fill": "$cabana-blue",
-                  "cornerRadius": 999,
-                  "padding": [
-                    4,
-                    12
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "qJPC0",
-                      "name": "Label",
-                      "fill": "#FFFFFF",
-                      "content": "INTELIGENCIA ARTIFICIAL",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "600",
-                      "letterSpacing": 1.8
-                    }
-                  ]
-                },
-                {
-                  "type": "text",
-                  "id": "qQS2Z",
-                  "name": "H1",
-                  "fill": "#FFFFFF",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Tu infraestructura actual no está lista para IA — y probablemente lo sabés",
-                  "lineHeight": 1.25,
-                  "fontFamily": "$font-sans",
-                  "fontSize": 48,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "CG30m",
-                  "name": "Excerpt",
-                  "fill": "#FFFFFF99",
-                  "textGrowth": "fixed-width",
-                  "width": 672,
-                  "content": "La presión llega desde arriba. La junta directiva escuchó que la competencia está modernizando sus operaciones con IA. El CEO quiere resultados visibles. Y el CTO — que entiende mejor que nadie lo que hay debajo del capó — sabe que lo que tienen hoy no va a aguantar lo que les están pidiendo.",
-                  "lineHeight": 1.625,
-                  "fontFamily": "$font-sans",
-                  "fontSize": 18,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "jJcrV",
-                  "name": "Author + Date",
-                  "gap": 12,
-                  "padding": [
-                    12,
-                    0,
-                    0,
-                    0
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "xGWFa",
-                      "name": "Avatar",
-                      "width": 28,
-                      "height": 28,
-                      "fill": "$cabana-blue",
-                      "cornerRadius": 999,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "r33iv",
-                          "name": "Initial",
-                          "fill": "#FFFFFF",
-                          "content": "W",
-                          "fontFamily": "$font-sans",
-                          "fontSize": 12,
-                          "fontWeight": "700"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "c7n4gv",
-                      "name": "Author",
-                      "fill": "#FFFFFFCC",
-                      "content": "Walter Bonilla",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "text",
-                      "id": "z6quq",
-                      "name": "Dot",
-                      "fill": "#FFFFFF40",
-                      "content": "·",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "M69IR",
-                      "name": "Date",
-                      "fill": "#FFFFFF80",
-                      "content": "May 17, 2026",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "gyZW0",
-              "name": "Article Body",
-              "width": "fill_container",
-              "gap": 48,
-              "padding": [
-                48,
-                144
-              ],
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "jY17e",
-                  "name": "Article (Prose)",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 20,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "ugiUQ",
-                      "name": "Meta line",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "`Para líderes técnicos (CTO)` · `D2 · Infraestructura` · 5 min de lectura",
-                      "lineHeight": 1.7,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "L6OevT",
-                      "name": "H1 (MDX)",
-                      "fill": "#000000",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tu infraestructura actual no está lista para IA — y probablemente lo sabés",
-                      "lineHeight": 1.1,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 48,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "gJgwF",
-                      "name": "Blockquote",
-                      "width": "fill_container",
-                      "stroke": "$border",
-                      "strokeWidth": {
-                        "left": 4
-                      },
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        20
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "J8gfS",
-                          "name": "Quote",
-                          "fill": "$foreground",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "No es una crítica. Es el diagnóstico más común que encontramos cuando llegamos a hablar con equipos técnicos que quieren dar el siguiente paso. La buena noticia: tiene solución.",
-                          "lineHeight": 1.6,
-                          "fontFamily": "$font-sans",
-                          "fontSize": 16,
-                          "fontWeight": "500",
-                          "fontStyle": "italic"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "rectangle",
-                      "id": "MOfyK",
-                      "name": "HR",
-                      "fill": "$border",
-                      "width": "fill_container",
-                      "height": 1
-                    },
-                    {
-                      "type": "text",
-                      "id": "L955ip",
-                      "name": "H3",
-                      "fill": "#000000",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "La situación",
-                      "lineHeight": 1.3,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 30,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "IVE8d",
-                      "name": "P",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "La presión llega desde arriba. La junta directiva escuchó que la competencia está modernizando sus operaciones con IA. El CEO quiere resultados visibles. Y el CTO — que entiende mejor que nadie lo que hay debajo del capó — sabe que lo que tienen hoy no va a aguantar lo que les están pidiendo.",
-                      "lineHeight": 1.75,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "RLUhF",
-                      "name": "P",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "No porque el equipo no sea capaz. Sino porque nadie construyó la infraestructura pensando en esto.",
-                      "lineHeight": 1.75,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "uizkk",
-                      "name": "P",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Es el escenario más común que encontramos: empresas con operaciones reales, equipos comprometidos y voluntad genuina de mejorar — pero con una base tecnológica que fue creciendo de forma orgánica, parcheando lo que se rompía, sin una estrategia de datos detrás.",
-                      "lineHeight": 1.75,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "rectangle",
-                      "id": "xU0DI",
-                      "name": "HR",
-                      "fill": "$border",
-                      "width": "fill_container",
-                      "height": 1
-                    },
-                    {
-                      "type": "text",
-                      "id": "e9WBv",
-                      "name": "H3",
-                      "fill": "#000000",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Lo que encontramos cuando revisamos",
-                      "lineHeight": 1.3,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 30,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "s8rRa",
-                      "name": "H4",
-                      "fill": "#000000",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "El patrón más común",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 24,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "UO6xb",
-                      "name": "UL",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        24
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "EX9zg",
-                          "name": "LI",
-                          "fill": "$foreground",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "•  Procesos críticos que dependen de una o dos personas que saben cómo hacerlos funcionar — sin documentación, sin respaldo",
-                          "lineHeight": 1.75,
-                          "fontFamily": "$font-sans",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "P8ORa",
-                          "name": "LI",
-                          "fill": "$foreground",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "•  Datos que viven en hojas de Excel que alguien actualiza manualmente, en lugar de una base de datos estructurada",
-                          "lineHeight": 1.75,
-                          "fontFamily": "$font-sans",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "Y88PLR",
-                          "name": "LI",
-                          "fill": "$foreground",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "•  Reportes que colapsan o tardan minutos en cargar porque la fuente no está optimizada para consultas de análisis",
-                          "lineHeight": 1.75,
-                          "fontFamily": "$font-sans",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "oWDxu",
-                      "name": "Truncation note",
-                      "fill": "$muted-foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "[… continúa el artículo MDX]",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal",
-                      "fontStyle": "italic"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "jwXK6",
-                  "name": "Post Sidebar",
-                  "width": 340,
-                  "fill": "$card",
-                  "cornerRadius": "$radius-xl",
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 16,
-                  "padding": 24,
-                  "children": [
-                    {
-                      "id": "FYWSV",
-                      "type": "ref",
-                      "ref": "QMziD",
-                      "name": "Badge",
-                      "descendants": {
-                        "cU6Au": {
-                          "content": "CONVERSE CON UN EXPERTO",
-                          "letterSpacing": 1.5
-                        }
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "id": "z8LDa",
-                      "name": "H3",
-                      "fill": "$foreground",
-                      "content": "Contáctanos",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 20,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "JdRgB",
-                      "name": "Description",
-                      "fill": "$muted-foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Dejanos tu información y uno de nuestros expertos se pondrá en contacto para conversar sobre tu iniciativa.",
-                      "lineHeight": 1.45,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "HSLOT",
-                      "name": "Lead Capture Form",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 12,
-                      "children": [
-                        {
-                          "id": "GCwgp",
-                          "type": "ref",
-                          "ref": "yfPxe",
-                          "name": "Nombre completo",
-                          "width": "fill_container",
-                          "descendants": {
-                            "Qh7Zy": {
-                              "content": "Nombre completo",
-                              "fontSize": 11,
-                              "fill": "$muted-foreground"
-                            },
-                            "Z4Mfj": {
-                              "height": 36
-                            },
-                            "BTYs8": {
-                              "content": "Tu nombre"
-                            }
-                          }
-                        },
-                        {
-                          "id": "whBrT",
-                          "type": "ref",
-                          "ref": "yfPxe",
-                          "name": "Email corporativo",
-                          "width": "fill_container",
-                          "descendants": {
-                            "Qh7Zy": {
-                              "content": "Email corporativo",
-                              "fontSize": 11,
-                              "fill": "$muted-foreground"
-                            },
-                            "Z4Mfj": {
-                              "height": 36
-                            },
-                            "BTYs8": {
-                              "content": "email@empresa.com"
-                            }
-                          }
-                        },
-                        {
-                          "id": "QuKxR",
-                          "type": "ref",
-                          "ref": "yfPxe",
-                          "name": "Empresa",
-                          "width": "fill_container",
-                          "descendants": {
-                            "Qh7Zy": {
-                              "content": "Empresa",
-                              "fontSize": 11,
-                              "fill": "$muted-foreground"
-                            },
-                            "Z4Mfj": {
-                              "height": 36
-                            },
-                            "BTYs8": {
-                              "content": "Nombre de tu empresa"
-                            }
-                          }
-                        },
-                        {
-                          "id": "ujTnM",
-                          "type": "ref",
-                          "ref": "yfPxe",
-                          "name": "Rol / Cargo",
-                          "width": "fill_container",
-                          "descendants": {
-                            "Qh7Zy": {
-                              "content": "Rol / Cargo",
-                              "fontSize": 11,
-                              "fill": "$muted-foreground"
-                            },
-                            "Z4Mfj": {
-                              "height": 36
-                            },
-                            "BTYs8": {
-                              "content": "Tu rol"
-                            }
-                          }
-                        },
-                        {
-                          "type": "frame",
-                          "id": "vpelB",
-                          "name": "Industria",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 8,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "Ws95d",
-                              "name": "Label",
-                              "fill": "$muted-foreground",
-                              "content": "Industria",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 11,
-                              "fontWeight": "500"
-                            },
-                            {
-                              "id": "i4q1K",
-                              "type": "ref",
-                              "ref": "V50eNv",
-                              "name": "Select",
-                              "width": "fill_container",
-                              "height": 36,
-                              "descendants": {
-                                "EhGLV": {
-                                  "content": "¿Cuál es tu industria?",
-                                  "fill": "$muted-foreground"
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "uVIvR",
-                      "type": "ref",
-                      "ref": "fIFx1",
-                      "name": "Submit",
-                      "width": "fill_container",
-                      "descendants": {
-                        "snZLg": {
-                          "content": "Quiero hablar con un experto →"
-                        }
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "id": "F9Fjh",
-                      "name": "Disclaimer",
-                      "fill": "$muted-foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Sin compromiso · Pronta respuesta",
-                      "lineHeight": 1.6,
-                      "textAlign": "center",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "TLAfu",
-              "type": "ref",
-              "ref": "arSuf",
-              "name": "Footer",
-              "width": "fill_container"
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "gxEyC",
-          "name": "PG/posts/[slug] (móvil)",
-          "clip": true,
-          "width": 390,
-          "fill": "$background",
-          "layout": "vertical",
-          "children": [
-            {
-              "id": "QObwd",
-              "type": "ref",
-              "ref": "T4uoY9",
-              "name": "Nav",
-              "width": "fill_container"
-            },
-            {
-              "type": "frame",
-              "id": "s3Brt",
-              "name": "Post Hero",
-              "clip": true,
-              "width": "fill_container",
-              "fill": [
-                "$cabana-dark",
-                {
-                  "type": "image",
-                  "opacity": 0.2,
-                  "enabled": true,
-                  "url": "../public/blog/infraestructura-que-no-esta-lista-para-ia.png",
-                  "mode": "cover"
-                },
-                {
-                  "type": "gradient",
-                  "gradientType": "linear",
-                  "enabled": true,
-                  "rotation": 0,
-                  "size": {
-                    "height": 1
-                  },
-                  "colors": [
-                    {
-                      "color": "#0F172A00",
-                      "position": 0
-                    },
-                    {
-                      "color": "#0F172A99",
-                      "position": 0.5
-                    },
-                    {
-                      "color": "#0F172AFF",
-                      "position": 1
-                    }
-                  ]
-                }
-              ],
-              "layout": "vertical",
-              "gap": 20,
-              "padding": [
-                64,
-                24
-              ],
-              "justifyContent": "end",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "PFq7e",
-                  "name": "Category badge",
-                  "fill": "$cabana-blue",
-                  "cornerRadius": 999,
-                  "padding": [
-                    4,
-                    12
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "ksCGC",
-                      "name": "Label",
-                      "fill": "#FFFFFF",
-                      "content": "INTELIGENCIA ARTIFICIAL",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "600",
-                      "letterSpacing": 1.8
-                    }
-                  ]
-                },
-                {
-                  "type": "text",
-                  "id": "Z7YVY",
-                  "name": "H1",
-                  "fill": "#FFFFFF",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Tu infraestructura actual no está lista para IA — y probablemente lo sabés",
-                  "lineHeight": 1.25,
-                  "fontFamily": "$font-sans",
-                  "fontSize": 30,
-                  "fontWeight": "700"
-                },
-                {
-                  "type": "text",
-                  "id": "gav5O",
-                  "name": "Excerpt",
-                  "fill": "#FFFFFF99",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "La presión llega desde arriba. La junta directiva escuchó que la competencia está modernizando sus operaciones con IA. El CEO quiere resultados visibles. Y el CTO — que entiende mejor que nadie lo que hay debajo del capó — sabe que lo que tienen hoy no va a aguantar lo que les están pidiendo.",
-                  "lineHeight": 1.625,
-                  "fontFamily": "$font-sans",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "KE24H",
-                  "name": "Author + Date",
-                  "gap": 12,
-                  "padding": [
-                    12,
-                    0,
-                    0,
-                    0
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "kduCO",
-                      "name": "Avatar",
-                      "width": 28,
-                      "height": 28,
-                      "fill": "$cabana-blue",
-                      "cornerRadius": 999,
-                      "justifyContent": "center",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "H4riJ",
-                          "name": "Initial",
-                          "fill": "#FFFFFF",
-                          "content": "W",
-                          "fontFamily": "$font-sans",
-                          "fontSize": 12,
-                          "fontWeight": "700"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "c0psl",
-                      "name": "Author",
-                      "fill": "#FFFFFFCC",
-                      "content": "Walter Bonilla",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "text",
-                      "id": "F02pT",
-                      "name": "Dot",
-                      "fill": "#FFFFFF40",
-                      "content": "·",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "SoSjm",
-                      "name": "Date",
-                      "fill": "#FFFFFF80",
-                      "content": "May 17, 2026",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "rQX58",
-              "name": "Article Body",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 48,
-              "padding": [
-                32,
-                24
-              ],
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "OBBCH",
-                  "name": "Article (Prose)",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 20,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "ETala",
-                      "name": "Meta line",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "`Para líderes técnicos (CTO)` · `D2 · Infraestructura` · 5 min de lectura",
-                      "lineHeight": 1.7,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "dHAJo",
-                      "name": "H1 (MDX)",
-                      "fill": "#000000",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Tu infraestructura actual no está lista para IA — y probablemente lo sabés",
-                      "lineHeight": 1.1,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 36,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "tvhGM",
-                      "name": "Blockquote",
-                      "width": "fill_container",
-                      "stroke": "$border",
-                      "strokeWidth": {
-                        "left": 4
-                      },
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        20
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "rSpUr",
-                          "name": "Quote",
-                          "fill": "$foreground",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "No es una crítica. Es el diagnóstico más común que encontramos cuando llegamos a hablar con equipos técnicos que quieren dar el siguiente paso. La buena noticia: tiene solución.",
-                          "lineHeight": 1.6,
-                          "fontFamily": "$font-sans",
-                          "fontSize": 16,
-                          "fontWeight": "500",
-                          "fontStyle": "italic"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "rectangle",
-                      "id": "P8tZb",
-                      "name": "HR",
-                      "fill": "$border",
-                      "width": "fill_container",
-                      "height": 1
-                    },
-                    {
-                      "type": "text",
-                      "id": "S4m0k",
-                      "name": "H3",
-                      "fill": "#000000",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "La situación",
-                      "lineHeight": 1.3,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 24,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "sUIXK",
-                      "name": "P",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "La presión llega desde arriba. La junta directiva escuchó que la competencia está modernizando sus operaciones con IA. El CEO quiere resultados visibles. Y el CTO — que entiende mejor que nadie lo que hay debajo del capó — sabe que lo que tienen hoy no va a aguantar lo que les están pidiendo.",
-                      "lineHeight": 1.75,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "txgTq",
-                      "name": "P",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "No porque el equipo no sea capaz. Sino porque nadie construyó la infraestructura pensando en esto.",
-                      "lineHeight": 1.75,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "I1omGX",
-                      "name": "P",
-                      "fill": "$foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Es el escenario más común que encontramos: empresas con operaciones reales, equipos comprometidos y voluntad genuina de mejorar — pero con una base tecnológica que fue creciendo de forma orgánica, parcheando lo que se rompía, sin una estrategia de datos detrás.",
-                      "lineHeight": 1.75,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 16,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "rectangle",
-                      "id": "zK9ls",
-                      "name": "HR",
-                      "fill": "$border",
-                      "width": "fill_container",
-                      "height": 1
-                    },
-                    {
-                      "type": "text",
-                      "id": "gsY2e",
-                      "name": "H3",
-                      "fill": "#000000",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Lo que encontramos cuando revisamos",
-                      "lineHeight": 1.3,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 24,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "A7wvvu",
-                      "name": "H4",
-                      "fill": "#000000",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "El patrón más común",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 20,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "UiqgE",
-                      "name": "UL",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        0,
-                        0,
-                        24
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "vFzCq",
-                          "name": "LI",
-                          "fill": "$foreground",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "•  Procesos críticos que dependen de una o dos personas que saben cómo hacerlos funcionar — sin documentación, sin respaldo",
-                          "lineHeight": 1.75,
-                          "fontFamily": "$font-sans",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "U9DO6q",
-                          "name": "LI",
-                          "fill": "$foreground",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "•  Datos que viven en hojas de Excel que alguien actualiza manualmente, en lugar de una base de datos estructurada",
-                          "lineHeight": 1.75,
-                          "fontFamily": "$font-sans",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "dTHvi",
-                          "name": "LI",
-                          "fill": "$foreground",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "•  Reportes que colapsan o tardan minutos en cargar porque la fuente no está optimizada para consultas de análisis",
-                          "lineHeight": 1.75,
-                          "fontFamily": "$font-sans",
-                          "fontSize": 16,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "Y6r8K",
-                      "name": "Truncation note",
-                      "fill": "$muted-foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "[… continúa el artículo MDX]",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal",
-                      "fontStyle": "italic"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Y0Y7y",
-                  "name": "Post Sidebar",
-                  "width": "fill_container",
-                  "fill": "$card",
-                  "cornerRadius": "$radius-xl",
-                  "stroke": "$border",
-                  "strokeWidth": 1,
-                  "layout": "vertical",
-                  "gap": 16,
-                  "padding": 24,
-                  "children": [
-                    {
-                      "id": "J8uYKE",
-                      "type": "ref",
-                      "ref": "QMziD",
-                      "name": "Badge",
-                      "descendants": {
-                        "cU6Au": {
-                          "content": "CONVERSE CON UN EXPERTO",
-                          "letterSpacing": 1.5
-                        }
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "id": "yDNJy",
-                      "name": "H3",
-                      "fill": "$foreground",
-                      "content": "Contáctanos",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 20,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "G4z7y",
-                      "name": "Description",
-                      "fill": "$muted-foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Dejanos tu información y uno de nuestros expertos se pondrá en contacto para conversar sobre tu iniciativa.",
-                      "lineHeight": 1.45,
-                      "fontFamily": "$font-sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Z1Vcu4",
-                      "name": "Lead Capture Form",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 12,
-                      "children": [
-                        {
-                          "id": "sUWdB",
-                          "type": "ref",
-                          "ref": "yfPxe",
-                          "name": "Nombre completo",
-                          "width": "fill_container",
-                          "descendants": {
-                            "Qh7Zy": {
-                              "content": "Nombre completo",
-                              "fontSize": 11,
-                              "fill": "$muted-foreground"
-                            },
-                            "Z4Mfj": {
-                              "height": 36
-                            },
-                            "BTYs8": {
-                              "content": "Tu nombre"
-                            }
-                          }
-                        },
-                        {
-                          "id": "QhtLx",
-                          "type": "ref",
-                          "ref": "yfPxe",
-                          "name": "Email corporativo",
-                          "width": "fill_container",
-                          "descendants": {
-                            "Qh7Zy": {
-                              "content": "Email corporativo",
-                              "fontSize": 11,
-                              "fill": "$muted-foreground"
-                            },
-                            "Z4Mfj": {
-                              "height": 36
-                            },
-                            "BTYs8": {
-                              "content": "email@empresa.com"
-                            }
-                          }
-                        },
-                        {
-                          "id": "e7Ja72",
-                          "type": "ref",
-                          "ref": "yfPxe",
-                          "name": "Empresa",
-                          "width": "fill_container",
-                          "descendants": {
-                            "Qh7Zy": {
-                              "content": "Empresa",
-                              "fontSize": 11,
-                              "fill": "$muted-foreground"
-                            },
-                            "Z4Mfj": {
-                              "height": 36
-                            },
-                            "BTYs8": {
-                              "content": "Nombre de tu empresa"
-                            }
-                          }
-                        },
-                        {
-                          "id": "NjpNn",
-                          "type": "ref",
-                          "ref": "yfPxe",
-                          "name": "Rol / Cargo",
-                          "width": "fill_container",
-                          "descendants": {
-                            "Qh7Zy": {
-                              "content": "Rol / Cargo",
-                              "fontSize": 11,
-                              "fill": "$muted-foreground"
-                            },
-                            "Z4Mfj": {
-                              "height": 36
-                            },
-                            "BTYs8": {
-                              "content": "Tu rol"
-                            }
-                          }
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ZdV6K",
-                          "name": "Industria",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 8,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "XEgmM",
-                              "name": "Label",
-                              "fill": "$muted-foreground",
-                              "content": "Industria",
-                              "fontFamily": "$font-sans",
-                              "fontSize": 11,
-                              "fontWeight": "500"
-                            },
-                            {
-                              "id": "rF7wr",
-                              "type": "ref",
-                              "ref": "V50eNv",
-                              "name": "Select",
-                              "width": "fill_container",
-                              "height": 36,
-                              "descendants": {
-                                "EhGLV": {
-                                  "content": "¿Cuál es tu industria?",
-                                  "fill": "$muted-foreground"
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "b2e7H",
-                      "type": "ref",
-                      "ref": "fIFx1",
-                      "name": "Submit",
-                      "width": "fill_container",
-                      "descendants": {
-                        "snZLg": {
-                          "content": "Quiero hablar con un experto →"
-                        }
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "id": "Hct5I",
-                      "name": "Disclaimer",
-                      "fill": "$muted-foreground",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Sin compromiso · Pronta respuesta",
-                      "lineHeight": 1.6,
-                      "textAlign": "center",
-                      "fontFamily": "$font-sans",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "rQnFI",
-              "type": "ref",
-              "ref": "arSuf",
-              "name": "Footer",
-              "width": "fill_container"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "WYnKU",
-      "x": 6851,
-      "y": 31436,
-      "name": "CH-blog-rediseno: pantallas",
-      "fill": "#E5E7EB",
-      "gap": 120,
-      "padding": 80,
-      "children": [
-        {
-          "type": "frame",
           "id": "AFHOy",
-          "name": "CH-blog-rediseno/Blog",
+          "name": "PG/posts",
           "clip": true,
           "width": 1440,
           "fill": "$background",
@@ -32460,7 +30117,7 @@
         {
           "type": "frame",
           "id": "DtREL",
-          "name": "CH-blog-rediseno/Blog (móvil)",
+          "name": "PG/posts (móvil)",
           "clip": true,
           "width": 390,
           "fill": "$background",
@@ -32961,8 +30618,565 @@
         },
         {
           "type": "frame",
+          "id": "b2KYeV",
+          "name": "PG/posts (sin resultados)",
+          "clip": true,
+          "width": 1440,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "JGYnA",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "P18MF",
+              "name": "Header",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                96,
+                120,
+                64,
+                120
+              ],
+              "children": [
+                {
+                  "id": "qAbYg",
+                  "type": "ref",
+                  "ref": "KdO27",
+                  "name": "Section Header",
+                  "width": 880,
+                  "descendants": {
+                    "j9TFy/xmZiN": {
+                      "content": "BLOG"
+                    },
+                    "LFkZv": {
+                      "content": "Por dónde empezar con IA, y cómo empezar bien",
+                      "fontSize": 72,
+                      "lineHeight": 1
+                    },
+                    "YO5fF": {
+                      "content": "Artículos de nuestro equipo sobre estrategia de datos, IA y arquitectura, con lo que vemos en proyectos en producción.",
+                      "fontSize": 18
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T8Sqc",
+              "name": "Posts Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 56,
+              "padding": [
+                48,
+                120,
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "azzFh",
+                  "name": "Toolbar",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "x7MIYL",
+                      "name": "Category Chips",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mZojh",
+                          "name": "Chip Todos",
+                          "height": 36,
+                          "fill": "$primary",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "klA0z",
+                              "name": "Label",
+                              "fill": "$primary-foreground",
+                              "content": "Todos",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "V6uq0",
+                          "name": "Chip Estrategia de Datos",
+                          "height": 36,
+                          "fill": "$background",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "k6PSwJ",
+                              "name": "Label",
+                              "fill": "$foreground",
+                              "content": "Estrategia de datos",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "htPmg",
+                          "name": "Chip Inteligencia Artificial",
+                          "height": 36,
+                          "fill": "$background",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XSzJ8",
+                              "name": "Label",
+                              "fill": "$foreground",
+                              "content": "Inteligencia artificial",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nJPqr",
+                          "name": "Chip Arquitectura de Software",
+                          "height": 36,
+                          "fill": "$background",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SUsPn",
+                              "name": "Label",
+                              "fill": "$foreground",
+                              "content": "Arquitectura de software",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "b66zk",
+                      "type": "ref",
+                      "ref": "yfPxe",
+                      "name": "Search",
+                      "width": 320,
+                      "descendants": {
+                        "Qh7Zy": {
+                          "enabled": false
+                        },
+                        "BTYs8": {
+                          "content": "zzzz",
+                          "fill": "$foreground"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vd2Gf",
+                  "name": "Empty",
+                  "width": "fill_container",
+                  "height": 96,
+                  "fill": "$section-light",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BuUZ9",
+                      "name": "Empty text",
+                      "fill": "$muted-foreground",
+                      "content": "No se encontraron artículos",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gz9PX",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "id": "L0G0y8",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿No sabe por dónde empezar con IA?"
+                    },
+                    "IvrLz": {
+                      "content": "En 4 semanas, Ruta IA le entrega sus 5 mejores oportunidades de IA, ordenadas. También le dice si sus datos las soportan."
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Conocer Ruta IA"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "s1Wq8D",
+              "type": "ref",
+              "ref": "arSuf",
+              "name": "Footer",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D5mlI",
+          "name": "PG/posts (sin resultados, móvil)",
+          "clip": true,
+          "width": 390,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "VPifX",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "cnOLS",
+              "name": "Header",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                64,
+                24,
+                40,
+                24
+              ],
+              "children": [
+                {
+                  "id": "qlv5Y",
+                  "type": "ref",
+                  "ref": "KdO27",
+                  "name": "Section Header",
+                  "width": "fill_container",
+                  "descendants": {
+                    "j9TFy/xmZiN": {
+                      "content": "BLOG"
+                    },
+                    "LFkZv": {
+                      "content": "Por dónde empezar con IA, y cómo empezar bien",
+                      "fontSize": 36,
+                      "lineHeight": 1.1
+                    },
+                    "YO5fF": {
+                      "content": "Artículos de nuestro equipo sobre estrategia de datos, IA y arquitectura, con lo que vemos en proyectos en producción.",
+                      "fontSize": 16
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u98zHE",
+              "name": "Posts Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                32,
+                24,
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s7PmCv",
+                  "name": "Toolbar",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "E0J1Ps",
+                      "type": "ref",
+                      "ref": "yfPxe",
+                      "name": "Search",
+                      "width": "fill_container",
+                      "descendants": {
+                        "Qh7Zy": {
+                          "enabled": false
+                        },
+                        "BTYs8": {
+                          "content": "zzzz",
+                          "fill": "$foreground"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sricP",
+                      "name": "Category Chips (scroll horizontal)",
+                      "clip": true,
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qlQSD",
+                          "name": "Chip Todos",
+                          "height": 36,
+                          "fill": "$primary",
+                          "cornerRadius": 999,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qX2dQ",
+                              "name": "Label",
+                              "fill": "$primary-foreground",
+                              "content": "Todos",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lVyFJ",
+                          "name": "Chip Estrategia de Datos",
+                          "height": 36,
+                          "fill": "$background",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "p85YBo",
+                              "name": "Label",
+                              "fill": "$foreground",
+                              "content": "Estrategia de datos",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e7iqQx",
+                          "name": "Chip Inteligencia Artificial",
+                          "height": 36,
+                          "fill": "$background",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FyLgh",
+                              "name": "Label",
+                              "fill": "$foreground",
+                              "content": "Inteligencia artificial",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "L8pN4",
+                          "name": "Chip Arquitectura de Software",
+                          "height": 36,
+                          "fill": "$background",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zPKru",
+                              "name": "Label",
+                              "fill": "$foreground",
+                              "content": "Arquitectura de software",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NGFq7",
+                  "name": "Empty",
+                  "width": "fill_container",
+                  "height": 96,
+                  "fill": "$section-light",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K8tTt5",
+                      "name": "Empty text",
+                      "fill": "$muted-foreground",
+                      "content": "No se encontraron artículos",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D81a0",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "padding": [
+                48,
+                16
+              ],
+              "children": [
+                {
+                  "id": "wMXTC",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "width": "fill_container",
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿No sabe por dónde empezar con IA?",
+                      "fontSize": 30,
+                      "width": "fill_container"
+                    },
+                    "IvrLz": {
+                      "content": "En 4 semanas, Ruta IA le entrega sus 5 mejores oportunidades de IA, ordenadas. También le dice si sus datos las soportan.",
+                      "width": "fill_container"
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Conocer Ruta IA"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "aeulc",
+              "type": "ref",
+              "ref": "arSuf",
+              "name": "Footer",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
           "id": "HV51o",
-          "name": "CH-blog-rediseno/Artículo",
+          "name": "PG/posts/[slug]",
           "clip": true,
           "width": 1440,
           "fill": "$background",
@@ -33808,7 +32022,7 @@
         {
           "type": "frame",
           "id": "U5D6Ds",
-          "name": "CH-blog-rediseno/Artículo (móvil)",
+          "name": "PG/posts/[slug] (móvil)",
           "clip": true,
           "width": 390,
           "fill": "$background",
