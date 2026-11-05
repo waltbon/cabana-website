@@ -64,7 +64,7 @@ El script termina con código 0 aunque fallen las consultas: revisa `summary.err
 
 ## 2 · Interpretar
 
-1. **No-marca:** separa las consultas que contienen `cabana`, `ruta ia`, `ruta ai` o `ai first move`. Suma clics e impresiones no-marca de las dos ventanas.
+1. **GSC y no-marca:** no calcules a mano. Corre `node scripts/gsc-summary.mjs "$RUN"` (con `--json > "$RUN/gsc-summary.json"` si quieres guardarlo). Da, para las dos ventanas, clics e impresiones del sitio (de `gsc-page.json`), la posición media ponderada por impresiones de las consultas visibles (la API devuelve `totals.position = 0`) y el desglose marca / no-marca (no-marca excluye `cabana`, `ruta ia`, `ruta ai`, `ai first move`). En `metrics.csv`, `gsc_avg_position_7d` es la posición de consultas visibles. Si el script dice "sin datos", la métrica queda vacía.
 2. **Drift con contexto:** cruza cada hallazgo de drift con los merges desde la última corrida (`git log --merges --since=<fecha de la corrida anterior> --oneline` y los PR que citan `B-0xx`).
    - Si el cambio vino de un PR intencional, es **esperado**. Al final de la corrida, captura una baseline nueva de esa URL: `$PY "$SEO/scripts/drift_baseline.py" <url> --skip-cwv`.
    - Si no hay PR que lo explique, es una **regresión**: va al reporte y al backlog como P0.
