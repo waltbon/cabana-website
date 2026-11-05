@@ -4,7 +4,7 @@
   "url": "https://cabanadata.com/",
   "baseline_id": 38,
   "baseline_timestamp": "2026-11-02T03:19:29.786738+00:00",
-  "comparison_timestamp": "2026-11-03T20:37:27.667343+00:00",
+  "comparison_timestamp": "2026-11-03T22:56:17.819697+00:00",
   "summary": {
     "total_rules": 17,
     "triggered": 1,
@@ -18,7 +18,7 @@
       "severity": "INFO",
       "triggered": true,
       "old_value": "190daf14d7cf...",
-      "new_value": "c33c2f4dc042...",
+      "new_value": "b7b57ed9f9f0...",
       "message": "Page content has changed (HTML body hash differs from baseline)."
     }
   ],
@@ -165,7 +165,7 @@
   "url": "https://cabanadata.com/en",
   "baseline_id": 39,
   "baseline_timestamp": "2026-11-02T03:19:30.487274+00:00",
-  "comparison_timestamp": "2026-11-03T20:37:28.498300+00:00",
+  "comparison_timestamp": "2026-11-03T22:56:18.542783+00:00",
   "summary": {
     "total_rules": 17,
     "triggered": 1,
@@ -179,7 +179,7 @@
       "severity": "INFO",
       "triggered": true,
       "old_value": "9e2fcc8e4133...",
-      "new_value": "e78c50fded79...",
+      "new_value": "c22f20f646b5...",
       "message": "Page content has changed (HTML body hash differs from baseline)."
     }
   ],
@@ -326,7 +326,7 @@
   "url": "https://cabanadata.com/ruta-ia",
   "baseline_id": 40,
   "baseline_timestamp": "2026-11-02T03:19:31.184800+00:00",
-  "comparison_timestamp": "2026-11-03T20:37:29.204075+00:00",
+  "comparison_timestamp": "2026-11-03T22:56:19.183309+00:00",
   "summary": {
     "total_rules": 17,
     "triggered": 1,
@@ -340,7 +340,7 @@
       "severity": "INFO",
       "triggered": true,
       "old_value": "12721b597257...",
-      "new_value": "42cb30f9b1a0...",
+      "new_value": "e45dbaeadddd...",
       "message": "Page content has changed (HTML body hash differs from baseline)."
     }
   ],
@@ -494,7 +494,7 @@
   "url": "https://cabanadata.com/ai-first-move",
   "baseline_id": 41,
   "baseline_timestamp": "2026-11-02T03:19:32.032487+00:00",
-  "comparison_timestamp": "2026-11-03T20:37:29.961560+00:00",
+  "comparison_timestamp": "2026-11-03T22:56:19.971823+00:00",
   "summary": {
     "total_rules": 17,
     "triggered": 1,
@@ -508,7 +508,7 @@
       "severity": "INFO",
       "triggered": true,
       "old_value": "010ec121d490...",
-      "new_value": "f033e8164531...",
+      "new_value": "47b6d6148cee...",
       "message": "Page content has changed (HTML body hash differs from baseline)."
     }
   ],
@@ -655,7 +655,7 @@
   "url": "https://cabanadata.com/en/ai-first-move",
   "baseline_id": 42,
   "baseline_timestamp": "2026-11-02T03:19:32.721297+00:00",
-  "comparison_timestamp": "2026-11-03T20:37:30.767073+00:00",
+  "comparison_timestamp": "2026-11-03T22:56:20.808459+00:00",
   "summary": {
     "total_rules": 17,
     "triggered": 1,
@@ -669,7 +669,7 @@
       "severity": "INFO",
       "triggered": true,
       "old_value": "53b0664fad80...",
-      "new_value": "8cb4352abba4...",
+      "new_value": "229e948ae32b...",
       "message": "Page content has changed (HTML body hash differs from baseline)."
     }
   ],
@@ -816,7 +816,7 @@
   "url": "https://cabanadata.com/capacidades",
   "baseline_id": 43,
   "baseline_timestamp": "2026-11-02T03:19:33.390601+00:00",
-  "comparison_timestamp": "2026-11-03T20:37:31.564370+00:00",
+  "comparison_timestamp": "2026-11-03T22:56:21.578288+00:00",
   "summary": {
     "total_rules": 17,
     "triggered": 1,
@@ -830,7 +830,7 @@
       "severity": "INFO",
       "triggered": true,
       "old_value": "52dca2694203...",
-      "new_value": "1d58f947c910...",
+      "new_value": "d52622625b49...",
       "message": "Page content has changed (HTML body hash differs from baseline)."
     }
   ],
@@ -977,7 +977,7 @@
   "url": "https://cabanadata.com/en/capacidades",
   "baseline_id": 44,
   "baseline_timestamp": "2026-11-02T03:19:34.129328+00:00",
-  "comparison_timestamp": "2026-11-03T20:37:32.329056+00:00",
+  "comparison_timestamp": "2026-11-03T22:56:22.426152+00:00",
   "summary": {
     "total_rules": 17,
     "triggered": 1,
@@ -991,7 +991,7 @@
       "severity": "INFO",
       "triggered": true,
       "old_value": "4d40a857a283...",
-      "new_value": "83dc895dd0be...",
+      "new_value": "ba76efc8f296...",
       "message": "Page content has changed (HTML body hash differs from baseline)."
     }
   ],

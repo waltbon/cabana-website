@@ -1,69 +1,78 @@
-# Corrida SEO semanal · 2026-11-03 (validación del PR #27)
+# Corrida SEO 2026-11-03 (segunda del día, tras #29–#33)
 
-**Estado:** etapa 1 · Técnica. **Mejor** que el 2026-11-01. Los cinco ítems del PR #27 (B-001, B-002, B-006, B-018, B-024) quedaron confirmados en producción. Es una corrida de validación fuera de calendario, dos días después de la anterior.
+Reemplaza el reporte de las 14:41 (solo cubría #27; sigue en el historial de git). Esta corrida mide producción después de los merges #29–#33 y es la primera con URL Inspection.
 
-Ventanas GSC: actual 2026-10-25 → 2026-10-31; anterior 2026-10-18 → 2026-10-24. Las ventanas se traslapan en parte con la corrida anterior, que usó 23–29 oct, así que las cifras de GSC no son comparables una a una.
+**Estado:** etapa 1 (técnica), **mejor**. 0 errores de lint, hreflang en 33/33 páginas, 6 de 7 páginas objetivo indexadas. Sin regresiones.
+
+Ventanas GSC: actual 2026-10-25 → 2026-10-31; anterior 2026-10-18 → 2026-10-24 (las mismas que la corrida de las 14:41, así que GSC no cambia hasta la próxima semana).
 
 ## 1 · KPIs
 
-| KPI | 2026-11-01 | Actual | Meta |
+| Métrica | Anterior (11-03 14:41) | Actual | Meta |
 |---|---|---|---|
-| Errores `seo-lint` | 0 | **0** | 0 |
-| Advertencias `seo-lint` (estático + en vivo) | 60 | **35** | ≤ 5, todas justificadas |
-| Páginas del sitemap con hreflang | 16 / 31 | **30 / 31** | 100 % de las que tienen par |
-| Páginas con `x-default` | 4 / 31 | **30 / 31** | todas las que tienen hreflang |
-| Redirects del mapa aplicados | 11 / 37 | 11 / 37 (25 pendientes, 1 temporal) | 100 % de los confirmados |
-| Páginas del sitemap con 200 | 31 / 31 | 31 / 31 | 100 % |
-| Clics GSC 7 d | 1 | 2 | — |
-| Impresiones GSC 7 d (dimensión `page`) | 80 | 71 | — |
-| Clics no-marca 7 d | 0 | 0 | 30 / mes |
-| Impresiones no-marca 7 d (consultas visibles) | 0 | **2** | crecer |
-| Posición media 7 d (ponderada, consultas visibles) | sin datos | 29.5 | — |
+| Errores de lint | 0 | 0 | 0 |
+| Advertencias de lint | 35 | 47 | ≤ 5 justificadas |
+| Páginas con hreflang | 30/31 | 33/33 | 100 % de las que tienen par |
+| Redirects del mapa aplicados | 11/37 | 15/37 | 100 % de los confirmados |
+| Páginas objetivo indexadas | sin medir | 6/7 | 100 % |
+| Clics GSC 7d | 2 | 2 | n/a |
+| Impresiones GSC 7d | 71 | 71 | n/a |
+| Clics no-marca 7d | 0 | 0 | meta inicial 30/mes |
+| Impresiones no-marca 7d | 2 | 2 | creciente |
 | Regresiones de drift | 0 | 0 | 0 |
 
-Notas de lectura:
-- La posición media se calculó ponderando por impresiones las filas visibles de `gsc-query.json`, porque la API devuelve 0 en el total. Excluye las consultas anonimizadas; es indicativa, no una medida del sitio.
-- GSC anonimiza la mayoría de las consultas: con dimensión `query` se ven 28 impresiones y con `page` 71.
+## 2 · Confirmado en producción
 
-## 2 · Regresiones
+- **B-021 (#29):** `gsc_inspect.py` devolvió 7 resultados sin error (`pass 6, neutral 1`). Confirmado.
+- **B-005 (#33):** `/privacidad` y `/en/privacidad` están en `sitemap.xml`; el lint ya no reporta `sitemap-missing`. Confirmado.
+- **B-019 (#33):** los 4 `/en/posts/<slug>` responden 301 a `/posts/<slug>`; `/posts/<slug>` sigue en 200. Confirmado (redirects aplicados 11 → 15).
+
+## 3 · Regresiones
 
 Ninguna.
-- Drift: 0 hallazgos en las 7 URLs contra la baseline del 2026-11-01.
-- Lint: 0 hallazgos nuevos respecto a la corrida anterior.
-- Las 31 páginas del sitemap responden 200.
 
-## 3 · Lo que mejoró y qué PR lo explica
+- **Lint:** 0 errores.
+- **Drift:** las 7 páginas objetivo solo disparan `content_hash_changed` (INFO). Cero cambios en título, descripción, H1, canonical, robots o schema. El cambio de hash coincide con los merges #31–#33 y se toma como esperado. Se recapturó la baseline de las 7 URL.
+- **Advertencia `hreflang-missing` en `/ruta-ia`:** la página no tiene par en inglés (`/en/ai-opportunity-assessment` es provisional y no existe; `/en/ruta-ia` responde 404). No es regresión, es consecuencia de que la ruta no tiene par.
 
-Todo viene del PR #27 (commit `747eb6a`), validado en vivo:
+### Lint: nuevos, resueltos, persistentes
 
-| Ítem | Qué se confirmó en producción |
-|---|---|
-| B-001 | hreflang 16 → 30 de 31 páginas. 23 hallazgos `hreflang-missing` resueltos |
-| B-018 | `x-default` 4 → 30 de 31 páginas |
-| B-002 | Los 2 hallazgos `robots-agent` resueltos; `robots.txt` lista `OAI-SearchBot` y `ClaudeBot` |
-| B-024 | `robots.txt` repite `Disallow: /api/` y `/admin/` en cada bot nombrado (comprobado en `ClaudeBot`) |
-| B-006 | `/portfolio-item/x` y `/area-item/y` responden 301 → `/` (antes 308 → 404) |
+- **Resuelto:** `sitemap-missing` de `/privacidad` (B-005).
+- **Nuevos (+12):** todos en `data/blog/index.ts`, porque la parte técnica de B-011 (#30) ahora revisa los posts: 4 `title-length` (69–95 caracteres), 4 `description-length` (167–293) y 5 de voseo/tuteo ("sabés", "Estás", "querés", "podés", "Tu"). Es deuda que ya existía y ahora se ve; corregirla es copy visible y requiere tu aprobación.
+- **Persistentes:** 13 de título/descripción en páginas, 10 `sitemap-redirected` (el sitemap lista rutas viejas cuyos destinos aún no existen), 2 `benchmark`, 1 `ruta-ia-validada` (`messages/en.json`, "confirmed"), 1 `redirect-temporary` (`/case-studies` responde 307; el mapa pide 301 a `/casos`).
 
-Advertencias: 60 → 35 (23 `hreflang-missing` y 2 `robots-agent` resueltas). La que sigue de `hreflang-missing` es `/ruta-ia`, que no tiene par en inglés (B-007).
+## 4 · Indexación de páginas objetivo
 
-## 4 · Drift (contexto)
+| URL | Veredicto | Cobertura | Último rastreo | Canónica de Google |
+|---|---|---|---|---|
+| `/` | PASS | Submitted and indexed | 2026-11-03 | coincide |
+| `/en` | PASS | Submitted and indexed | 2026-10-24 | coincide |
+| `/ruta-ia` | NEUTRAL | **Discovered - currently not indexed** | nunca rastreada | sin dato |
+| `/ai-first-move` | PASS | Submitted and indexed | 2026-10-31 | coincide |
+| `/en/ai-first-move` | PASS | Submitted and indexed | 2026-10-31 | coincide |
+| `/capacidades` | PASS | Submitted and indexed | 2026-11-01 | coincide |
+| `/en/capacidades` | PASS | Submitted and indexed | 2026-10-31 | coincide |
 
-Sin cambios en `/`, `/en`, `/ruta-ia`, `/ai-first-move`, `/en/ai-first-move`, `/capacidades` y `/en/capacidades`. No hace falta capturar baseline nueva. La advertencia de CTR por el cambio de title de `/` y `/en` sigue abierta: `/en` tuvo 2 clics y 28 impresiones (CTR 7 %, pos. 6.2), `/` 0 clics y 14 impresiones (pos. 10.5). Es volumen muy bajo.
+Las indexadas tienen robots ALLOWED, indexing INDEXING_ALLOWED y fetch SUCCESSFUL. Es la primera medición, así que no hay páginas que hayan dejado de estar indexadas.
 
-## 5 · Oportunidades GSC
+`/ruta-ia` es la página objetivo de "diagnóstico de IA para empresas": Google la descubrió pero no la rastreó. Está en el sitemap pero no en el menú ni en el footer, y los posts enlazan al subdominio viejo (B-025).
 
-- **Primeras consultas no-marca visibles:** `agentes ia personalizados` (1 impresión, pos. 43) y `data architecture consulting` (1, pos. 90). Calzan con la página objetivo correcta: la primera cae en `/capacidades/agentes-ia-a-medida`, la segunda en `/en/capacidades/consultoria-de-datos`. No hay canibalización. Son muestras de una impresión: señal de indexación, no de ranking.
-- **Posición 4–20 con impresiones crecientes:** ninguna consulta no-marca.
-- **Páginas con impresiones y CTR 0:** `/` 14 (pos. 10.5), `/contact` 7 (pos. 22.6), `/services` 12 (pos. 41.2), `/about` 3.
-- **URLs heredadas que aún reciben impresiones:** `/services` (12) y `/services/data-consulting` (1). Los dos ya responden 301 a `/capacidades*` (aplicados); las impresiones vienen del índice viejo de Google y no requieren acción. `/services/dashboards-analytics-interfaces` también hace 301, pero su destino sigue por confirmar (Q13). `ruta-ai.cabanadata.com` suma 2 impresiones (B-009, bloqueado por acceso a Vercel).
-- **Nuevas en GSC:** `/en/capacidades/producto-digital` (pos. 3) y `/capacidades/agentes-ia-a-medida` ya aparecen: las páginas de Capacidades están indexadas al menos en parte.
+## 5 · Lo que mejoró
 
-## 6 · Fuentes sin datos
+- hreflang 30/31 → 33/33 y redirects 11 → 15, por #33 (B-019, B-005).
+- Primera medición de "páginas objetivo indexadas": 6/7.
 
-| Fuente | Motivo |
-|---|---|
-| Consultas no-marca completas | GSC anonimiza las de bajo volumen |
-| Posición media oficial | La API devuelve 0 en el total (cifra ponderada arriba, indicativa) |
-| Core Web Vitals | Sin API key de PageSpeed (B-015) |
-| Indexación (URL Inspection) | No se corrió (B-021) |
-| Dominios de referencia, DataForSEO | Sin acceso (B-015) |
+## 6 · Oportunidades de GSC
+
+Datos muy escasos (71 impresiones en 7 días, repartidas en 12 páginas): no alcanzan para priorizar por posición.
+
+- **Consultas no-marca visibles (2):** "agentes ia personalizados" (1 impresión, posición 43, página `/capacidades/agentes-ia-a-medida`) y "data architecture consulting" (1 impresión, posición 90, `/en/capacidades/consultoria-de-datos`). Cada una cae en la página que le corresponde: sin canibalización.
+- **Rutas viejas con impresiones:** `/services` (12, posición 41), `/contact` (7), `/about` (3) y `/en/services/data-analytics-use-case` (1). Siguen sin 301 porque sus destinos aún no existen.
+- **Subdominio viejo:** `ruta-ai.cabanadata.com` (2 impresiones). Pendiente el acceso a Vercel para su 301.
+
+## 7 · Fuentes sin datos
+
+- **Core Web Vitals:** sin API key de PageSpeed Insights; el drift corre con `--skip-cwv`.
+- **DataForSEO:** sin acceso; no hay posiciones top 10 por término principal.
+- **Dominios de referencia:** sin Moz ni Bing Webmaster.
+- **Leads y prospectos fuera del envase:** sin medir; falta definir la métrica con dirección.
