@@ -406,6 +406,12 @@ async function checkLive() {
     }
     if (page.h1 !== 1) report("live", "warning", `${page.h1} etiquetas <h1>`, { ...base, rule: "h1-count" });
     if (!page.hreflang.length) report("live", "warning", "Sin hreflang", { ...base, rule: "hreflang-missing" });
+    // Pages with an es/en pair must also declare x-default (B-018). Pages
+    // without the pair are covered by hreflang-missing or are single-locale.
+    const langs = new Set(page.hreflang.map((h) => h.lang?.toLowerCase()));
+    if (langs.has("es") && langs.has("en") && !langs.has("x-default")) {
+      report("live", "warning", "Hreflang es/en sin x-default", { ...base, rule: "hreflang-x-default-missing" });
+    }
     if (page.canonical && new URL(page.canonical, target).pathname !== new URL(target).pathname) {
       report("live", "warning", `Canonical apunta a ${page.canonical}`, { ...base, rule: "canonical-mismatch" });
     }
