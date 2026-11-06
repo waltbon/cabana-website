@@ -1,26 +1,4 @@
 {
-  "metadata": {
-    "home": {
-      "title": "Consultoría de datos e IA en Costa Rica | Cabana Data",
-      "description": "Consultoría especializada en ingeniería de datos e inteligencia artificial para empresas del mercado medio en Costa Rica y LATAM. Sobre Google Cloud."
-    },
-    "about": {
-      "title": "Nosotros",
-      "description": "Conoce al equipo de Cabana Data. Transformamos ideas y necesidades empresariales en soluciones impactantes basadas en datos."
-    },
-    "services": {
-      "title": "Servicios",
-      "description": "Estrategia y Consultoría de Datos, Ingeniería y Arquitectura de Datos, Desarrollo de Aplicaciones Personalizadas y Soluciones de IA y Machine Learning."
-    },
-    "contact": {
-      "title": "Contáctanos",
-      "description": "Obtén una sesión gratuita de 30 minutos de Estrategia de Datos con uno de nuestros líderes técnicos."
-    },
-    "blog": {
-      "title": "Blog",
-      "description": "Explora todos nuestros artículos sobre estrategia de datos, ingeniería e IA."
-    }
-  },
   "nav": {
     "home": "Inicio",
     "about": "Nosotros",

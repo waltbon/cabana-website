@@ -1,26 +1,4 @@
 {
-  "metadata": {
-    "home": {
-      "title": "Data & AI Consulting in Costa Rica | Cabana Data",
-      "description": "Specialized data engineering and artificial intelligence consulting for mid-market companies in Costa Rica and LATAM. Built on Google Cloud."
-    },
-    "about": {
-      "title": "About Us",
-      "description": "Meet the Cabana Data team. We turn ideas and business needs into impactful, data-driven solutions."
-    },
-    "services": {
-      "title": "Services",
-      "description": "Data Strategy and Consulting, Data Engineering and Architecture, Custom Application Development, and AI and Machine Learning Solutions."
-    },
-    "contact": {
-      "title": "Contact Us",
-      "description": "Get a free 30-minute Data Strategy session with one of our technical leaders."
-    },
-    "blog": {
-      "title": "Blog",
-      "description": "Explore all our articles on data strategy, engineering, and AI."
-    }
-  },
   "nav": {
     "home": "Home",
     "about": "About Us",
