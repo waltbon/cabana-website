@@ -2696,6 +2696,25 @@
           "hint": "AI First Move · 10 weeks",
           "href": "/ai-first-move"
         }
+      ],
+      "statsLabel": "Results from client projects",
+      "stats": [
+        {
+          "value": "50+",
+          "label": "pipelines in production"
+        },
+        {
+          "value": "20→2",
+          "label": "minutes per report"
+        },
+        {
+          "value": "45",
+          "label": "entities integrated"
+        },
+        {
+          "value": "4 wks",
+          "label": "to your roadmap"
+        }
       ]
     },
     "clients": {
@@ -2748,6 +2767,7 @@
       "directEntry": "If the decision-maker has already chosen the idea, you can go straight to AI First Move. Ruta IA is not a required step."
     },
     "services": {
+      "pretitle": "Services",
       "title": "Two services, each with a fixed price and timeline",
       "items": [
         {

@@ -2696,6 +2696,25 @@
           "hint": "AI First Move · 10 semanas",
           "href": "/ai-first-move"
         }
+      ],
+      "statsLabel": "Resultados en proyectos de clientes",
+      "stats": [
+        {
+          "value": "50+",
+          "label": "pipelines en producción"
+        },
+        {
+          "value": "20→2",
+          "label": "minutos por reporte"
+        },
+        {
+          "value": "45",
+          "label": "entidades integradas"
+        },
+        {
+          "value": "4 sem.",
+          "label": "para su hoja de ruta"
+        }
       ]
     },
     "clients": {
@@ -2748,6 +2767,7 @@
       "directEntry": "Si quien decide ya eligió la idea, puede entrar directo a AI First Move. Ruta IA no es un paso obligatorio."
     },
     "services": {
+      "pretitle": "Servicios",
       "title": "Dos servicios, cada uno con precio y plazo fijos",
       "items": [
         {
