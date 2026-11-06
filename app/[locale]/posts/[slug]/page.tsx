@@ -117,24 +117,11 @@ export default async function Page({
 
       <PostHeader post={post} date={date} categoryName={category?.name} backLabel={t("backToBlog")} />
 
-      {post.featuredMediaSourceUrl && (
-        <div className="bg-linear-to-b from-section-light from-50% to-background to-50% px-4">
-          <div className="container max-w-5xl">
-            <PostThumbnail
-              post={post}
-              className="aspect-video md:aspect-[1024/540]"
-              sizes="(min-width: 1024px) 1024px, 100vw"
-              priority
-            />
-          </div>
-        </div>
-      )}
-
       <section className="px-4 pt-10 pb-16 md:pt-16 md:pb-24">
         <div className="container max-w-6xl">
           <div className="grid lg:grid-cols-[minmax(0,720px)_340px] lg:justify-between gap-12 items-start">
             <MdxLayout><Post components={{ h1: MdxH1 }} /></MdxLayout>
-            <PostSidebar serviceKey={service.key} />
+            <PostSidebar />
           </div>
         </div>
       </section>

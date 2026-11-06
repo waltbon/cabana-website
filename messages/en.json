@@ -1772,18 +1772,10 @@
       }
     },
     "postSidebar": {
-      "rutaIa": {
-        "badge": "Ruta IA",
-        "heading": "Want to know which AI idea your data can support today?",
-        "description": "Tell us where you stand. Someone from our team will contact you to see whether Ruta IA is the right next step."
-      },
-      "aiFirstMove": {
-        "badge": "AI First Move",
-        "heading": "Already know which AI use case you want to build?",
-        "description": "Tell us where you stand. Someone from our team will contact you to see whether AI First Move is the right next step."
-      },
+      "heading": "Want to know what AI can do with your data?",
+      "description": "Tell us where you stand. Someone from our team will contact you.",
       "submitLabel": "Book a conversation",
-      "disclaimer": "No commitment"
+      "disclaimer": "No obligation"
     }
   },
   "common": {

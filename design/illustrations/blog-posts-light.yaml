@@ -1,0 +1,84 @@
+# Imágenes destacadas del blog (4 entradas) — light, 16:9, fondo blanco para recortar
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Uso: tarjetas del blog (aspect-video) y hero de cada post.
+# Una escena por entrada. Prompt común en `common_prompt`; cada escena añade el suyo.
+
+style_ref: cabana-ink-doodle
+theme: light
+background: transparent   # se genera en blanco puro y se recorta con white-to-alpha.py
+composition: single
+aspect_ratio: "16:9"
+accent_mode: highlight-one
+
+common_prompt: >
+  Thick, slightly wobbly black marker lines with double-line contours, solid ink
+  fills and diagonal hatching. Curved dotted arrows and four-point sparkles as
+  decoration. Isolated on a pure flat white #ffffff background, all object
+  interiors the same pure white, black #111111 ink. Only the one element named
+  below filled with flat neon green #57ff8f, outlined in ink; everything else
+  monochrome. No text, no letters, no words, no labels, no numbers anywhere. No
+  gradients, no shading, no realistic 3D. Clean vector, generous margins, 16:9.
+
+common_negative_prompt: >
+  text, letters, words, labels, captions, numbers, typography, checkerboard,
+  transparency grid, beige, cream, paper texture, off-white fills, gradient,
+  photorealistic, 3d render, glossy, shadow, logos, humanoid robot, blue,
+  multiple accent colors, background scenery, perfect geometric lines
+
+scenes:
+  - slug: infraestructura-que-no-esta-lista-para-ia
+    post: "¿Su infraestructura está lista para IA?"
+    export: public/blog/infraestructura-que-no-esta-lista-para-ia.webp
+    idea: "Un edificio en obra sobre cimientos de hojas de Excel; la base firme es lo que permite subir la IA."
+    accent_target: "el bloque de cimiento sólido que reemplaza a las hojas"
+    prompt: >
+      Hand-drawn ink doodle illustration of an office building under construction
+      with scaffolding, standing on a foundation made of stacked spreadsheet sheets
+      with small cracks. A crane lifts a small cube with a chip drawing up toward
+      the roof. One solid new foundation block sits beside the cracked sheets,
+      filled with flat neon green #57ff8f and outlined in ink. A stick figure
+      looks up from below with hands on hips.
+
+  - slug: inversion-en-ia
+    post: "Invertir en IA sin ordenar sus datos sale caro"
+    export: public/blog/inversion-en-ia.webp
+    idea: "Dos caminos desde un mismo punto: torre alta sobre papeles desordenados que se inclina, o pasar por ordenar y llegar a una torre baja y derecha."
+    accent_target: "la torre derecha del camino B"
+    prompt: >
+      Hand-drawn ink doodle illustration of two roads splitting from one starting
+      point. The left road leads to a tall tower balancing on a messy pile of loose
+      papers, tilting dangerously. The right road passes through a small sorting
+      station with tidy folders and arrives at a shorter, perfectly straight tower
+      on a neat stack. The straight tower is filled with flat neon green #57ff8f
+      and outlined in ink; the tilting tower stays ink only.
+
+  - slug: el-error-mas-caro-en-un-proyecto-de-datos
+    post: "Un dashboard no resuelve su problema de datos"
+    export: public/blog/el-error-mas-caro-en-un-proyecto-de-datos.webp
+    idea: "Alguien señala el tablero con gráficos; detrás, la pared tiene tuberías con fugas. Otra figura mira la pared."
+    accent_target: "la tubería reparada detrás del tablero"
+    prompt: >
+      Hand-drawn ink doodle illustration of a wall-mounted dashboard screen with
+      bar and line charts. One stick figure points at the dashboard. Behind and
+      below it, the wall is open showing leaking pipes and tangled cables. A second
+      stick figure looks at the pipes instead of the dashboard. One repaired pipe
+      segment is filled with flat neon green #57ff8f and outlined in ink; the
+      dashboard stays ink only.
+
+  - slug: metodologia-aer
+    post: "Cómo decidir su arquitectura antes del código"
+    export: public/blog/metodologia-aer.webp
+    idea: "Mesa de trabajo con tres maquetas de edificios distintos; una figura con regla y plano las compara y una lleva una banderita."
+    accent_target: "la maqueta recomendada (con la banderita)"
+    prompt: >
+      Hand-drawn ink doodle illustration of a drafting table with three small
+      scale-model buildings of different shapes side by side. A stick figure holding
+      a ruler and rolled blueprint compares them. One model has a small flag on top
+      and is filled with flat neon green #57ff8f, outlined in ink; the other two
+      stay ink only.
+
+# Después de generar cada imagen (original, nunca -transparent):
+#   uv run ./design/tools/white-to-alpha.py "<ruta>" "<scratchpad>/<slug>.png"
+#   recortar el margen y guardar como WebP quality=90 en `export`.
+# Nota: featuredMediaSourceUrl hoy es .png en data/blog/index.ts; las dos últimas
+# entradas lo tienen en null.

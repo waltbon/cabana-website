@@ -1772,16 +1772,8 @@
       }
     },
     "postSidebar": {
-      "rutaIa": {
-        "badge": "Ruta IA",
-        "heading": "¿Quiere saber qué idea de IA soportan sus datos hoy?",
-        "description": "Cuéntenos en qué punto está. Una persona de nuestro equipo lo contactará para ver si Ruta IA es el paso que le conviene."
-      },
-      "aiFirstMove": {
-        "badge": "AI First Move",
-        "heading": "¿Ya sabe qué caso de IA quiere construir?",
-        "description": "Cuéntenos en qué punto está. Una persona de nuestro equipo lo contactará para ver si AI First Move es el paso que le conviene."
-      },
+      "heading": "¿Quiere saber qué puede hacer con IA y sus datos?",
+      "description": "Cuéntenos en qué punto está. Una persona de nuestro equipo se pondrá en contacto con usted.",
       "submitLabel": "Agende una conversación",
       "disclaimer": "Sin compromiso"
     }

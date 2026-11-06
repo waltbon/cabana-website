@@ -36,6 +36,12 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | `PG/ruta-ia` | `app/ruta-ia/page.tsx` | pendiente | — | Fuera de `[locale]` (solo español). Hex y gradientes en línea en 5 archivos: migrar a `.text-gradient-cabana` / tokens. Las pantallas de `CH-ruta-ia` no tienen el hero dividido ni las ilustraciones (hero, Promise, card destacado de Deliverables); referencia en el frame `Ilustraciones`. |
 | `PG/ai-first-move` | `app/[locale]/ai-first-move/page.tsx` | pendiente | — | Las pantallas de `CH-ai-first-move` no tienen el hero dividido ni las ilustraciones (hero, Promise, card destacado de Deliverables); referencia en el frame `Ilustraciones`. |
 
+## Cambios en curso
+
+| Contenedor | Qué propone | Estado |
+|---|---|---|
+| `CH-posts-slug: pantallas` | Encabezado del post dividido (texto a la izquierda, imagen a la derecha) y barra lateral genérica en lugar del formulario de Ruta IA. Propuesta A (formulario compacto, en la página completa), B (solo CTA) y C (nombre y correo). El encabezado dividido ya está en código; falta elegir la barra lateral. | Propuestas dibujadas; al elegir y mergear, actualizar `PG/posts/[slug]` y borrar el `CH`. |
+
 ## Sin baseline
 
 | Ruta | Motivo |
