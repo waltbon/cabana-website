@@ -14,7 +14,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 | Frame | Archivo | Estado | Commit | Deuda |
 |---|---|---|---|---|
-| `PG/index` | `app/[locale]/page.tsx` | dibujado | `9fffc9a` | Enlaces subrayados del hero y de las tarjetas de servicios hechos a mano: falta la variante `Button/link` en el DS (`.pen` y código). Diagonales decorativas con `clip-path` arbitrario en código. Logos de clientes en escala de grises (`grayscale`) en código, a color en el `.pen`. Títulos de `capabilities` y `cases` (`text-2xl`, `text-lg`) fuera de la escala global de headings. |
+| `PG/index` | `app/[locale]/page.tsx` | dibujado | `0ff1f25` | Enlaces subrayados del hero y de las tarjetas de servicios hechos a mano: falta la variante `Button/link` en el DS (`.pen` y código). Diagonales decorativas con `clip-path` arbitrario en código. Logos de clientes en escala de grises (`grayscale`) en código, a color en el `.pen`. Títulos de `capabilities` y `cases` (`text-2xl`, `text-lg`) fuera de la escala global de headings. |
 | `PG/about` | `app/[locale]/about/page.tsx` | pendiente | — | — |
 | `PG/contact` | `app/[locale]/contact/page.tsx` | pendiente | — | Dibujar estados del formulario: base, enviando, enviado, error. |
 | `PG/careers` | `app/[locale]/careers/page.tsx` | pendiente | — | — |
@@ -46,9 +46,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 ## Ilustraciones
 
-Frame `Ilustraciones` del `.pen`: las ilustraciones de Ruta IA y AI First Move con su uso. Las imágenes del `.pen` apuntan a `design/images/illustrations/` (copias de las de `public/`); si se regenera una, se reemplazan ambas. Estilo y prompts: `design/illustration-style-doodle.yaml` y `design/illustrations/*.yaml`.
-
-Cambio en curso: `CH-ilustraciones-servicios: pantallas` (copia de `PG/index` con las ilustraciones en las tarjetas de servicios). Incluye el hero con la ilustración de la brújula (`public/home/hero-compass.webp`); en móvil el código usa un área cuadrada, el frame móvil todavía la dibuja 4:3. La foto anterior queda solo para el baseline en `design/images/baseline/home-hero-team.webp`: al mergear, actualizar `PG/index`, borrar esa foto y eliminar el contenedor.
+Frame `Ilustraciones` del `.pen`: las ilustraciones de Ruta IA y AI First Move con su uso. Las imágenes del `.pen` apuntan a `design/images/illustrations/` (copias de las de `public/`, incluido el hero del home); si se regenera una, se reemplazan ambas. Estilo y prompts: `design/illustration-style-doodle.yaml` y `design/illustrations/*.yaml`.
 
 ## Deuda global
 
