@@ -1,0 +1,104 @@
+# Escenas — Hero de cada /capacidades/* (tema dark)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+#
+# Hoy components/capacidades/capability-hero.tsx es solo texto sobre
+# bg-section-dark (#0f172a). Estas ilustraciones abren un hero dividido como el de
+# Ruta IA / AI First Move: formato 1:1, fondo opaco del mismo navy y
+# fit "contain" para que se vean enteras en escritorio y móvil.
+
+common:
+  theme: dark
+  background: solid
+  aspect_ratio: "1:1"
+  export: { size: "2000x2000", format: webp }
+  accent_mode: selective
+  colors:
+    background: "#0f172a"
+    ink: "#f1f5f9"
+    hatch: "#cbd5e1"
+    decor: "#94a3b8"
+    accent: "#57ff8f"
+    interiors: "#0f172a"
+  style_suffix: >
+    Thick, slightly wobbly off-white #f1f5f9 lines with double-line contours,
+    diagonal hatching in light gray #cbd5e1. All object interiors are the same
+    dark navy #0f172a as the background. Curved dotted arrows and small
+    four-point sparkles in muted slate #94a3b8. Keep all key objects inside the
+    central 85% of the frame. No text, no letters, no words, no labels, no
+    numbers anywhere. No gradients, no glow, no shading, no realistic 3D. Clean
+    vector look, generous margins.
+  negative_prompt: >
+    text, letters, words, labels, numbers, typography, white background, black
+    background, cream, beige, paper texture, white fills, glow, neon glow,
+    gradient, vignette, photorealistic, 3d render, glossy, shadow, logos, faces,
+    detailed people, humanoid robot, blue, multiple accent colors, landscape,
+    road, perfect geometric lines, objects cut at edges
+
+consultoria_de_datos:
+  concept: "Cada área con su número -> una sola versión de los números"
+  output: public/capacidades/hero-consultoria-de-datos.webp
+  accent_targets: "el tablero único sobre la mesa"
+  prompt: >
+    Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+    background, square 1:1 composition. Three simple stick figures stand around
+    the top and sides of the frame, each holding up a sheet with a different
+    small chart (a bar chart, a line chart, a pie chart), with small question
+    marks floating between them. In the center, a small table holds a single
+    board showing one clean chart and a check mark. Three dotted arrows run from
+    each figure's sheet to that central board. Only the central board filled with
+    flat neon green #57ff8f, outlined in off-white; everything else monochrome.
+    {style_suffix}
+
+ingenieria_de_datos:
+  concept: "Sistemas dispersos -> una sola fuente de verdad -> dashboard"
+  output: public/capacidades/hero-ingenieria-de-datos.webp
+  accent_targets: "el cilindro central y el dashboard"
+  prompt: >
+    Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+    background, square 1:1 composition. Around the edges sit several separate
+    systems: a server rack, a spreadsheet grid, a cloud, and a small screen with
+    contact cards. Each connects through a double-line pipe with small joints and
+    a few flow arrows to a large database cylinder in the center. From the
+    cylinder, one single pipe runs to a dashboard screen with small charts at the
+    bottom right. A small gear and a tiny clock near the pipes suggest automated
+    loading. Only the central database cylinder and the dashboard screen filled
+    with flat neon green #57ff8f, outlined in off-white; everything else
+    monochrome. {style_suffix}
+
+producto_digital:
+  concept: "La operación en correos y hojas de cálculo -> la plataforma a la medida"
+  output: public/capacidades/hero-producto-digital.webp
+  accent_targets: "el botón principal de la app"
+  prompt: >
+    Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+    background, square 1:1 composition, split into two moments. Lower left: a
+    cluttered desk piled with envelope icons, stacked spreadsheet sheets and
+    sticky notes, with a stressed simple stick figure holding its head and small
+    scribble lines above it. A curved dotted arrow climbs to the upper right: a
+    tidy app screen with a simple form, a small table and one large primary
+    button, and the same stick figure sitting calmly in front of it with a small
+    check above its head. Only the app's primary button filled with flat neon
+    green #57ff8f, outlined in off-white; everything else monochrome.
+    {style_suffix}
+
+agentes_ia_a_medida:
+  concept: "La IA reúne y redacta; una persona aprueba antes de ejecutar"
+  output: public/capacidades/hero-agentes-ia-a-medida.webp
+  accent_targets: "el sello de aprobación"
+  prompt: >
+    Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+    background, square 1:1 composition. On the left, a small friendly assistant
+    drawn as a boxy panel with two round gear-shaped eyes and a little antenna
+    (not a humanoid robot) gathers documents from three open folders and a
+    database cylinder, shown with dotted arrows flowing into it. The assistant
+    hands a draft sheet with squiggly lines to a simple stick figure on the
+    right, who stamps it with a large round approval seal before it goes out
+    through a small outbox tray. Only the approval seal filled with flat neon
+    green #57ff8f, outlined in off-white; everything else monochrome.
+    {style_suffix}
+
+# Post-proceso (lo hago yo al integrarlas)
+# - Igualar el fondo a #0f172a exacto (no usar white-to-alpha: borra la tinta clara).
+# - Guardar en public/capacidades/ y copia en design/images/illustrations/.
+# - Convertir CapabilityHero en hero dividido con imagen fit "contain" + alt por capacidad
+#   (pasa por brand-guardian) y reflejarlo en el .pen.

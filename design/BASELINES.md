@@ -46,7 +46,9 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 ## Ilustraciones
 
-Frame `Ilustraciones` del `.pen`: las ilustraciones de Ruta IA y AI First Move con su uso. Las imágenes del `.pen` apuntan a `design/images/illustrations/` (copias de las de `public/`, incluido el hero del home); si se regenera una, se reemplazan ambas. Estilo y prompts: `design/illustration-style-doodle.yaml` y `design/illustrations/*.yaml`.
+Frame `Ilustraciones` del `.pen`: las ilustraciones del home, Ruta IA, AI First Move y las cuatro capacidades, con su uso. Las imágenes del `.pen` apuntan a `design/images/illustrations/` (copias de las de `public/`, incluido el hero del home); si se regenera una, se reemplazan ambas. Estilo y prompts: `design/illustration-style-doodle.yaml` y `design/illustrations/*.yaml`.
+
+Las pantallas `CH-capacidades/*` (escritorio y móvil) ya tienen el hero dividido con la ilustración de cada capacidad (`components/capacidades/capability-hero.tsx`). En los frames móviles de Data Consulting, Digital Product y Custom AI Agents, el `Header` de `Services` aparece recortado; es previo a este cambio.
 
 ## Deuda global
 

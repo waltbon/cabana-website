@@ -2368,6 +2368,7 @@
         "name": "Data Consulting",
         "term": "Consultoría de datos para decidir con números confiables",
         "subtitle": "Cuando cada área llega a un número distinto, el problema no es la herramienta. Ordenamos sus datos para que la empresa decida con una sola versión de los números.",
+        "imageAlt": "Ilustración de tres personas con gráficos distintos cuyos datos llegan a un solo dashboard.",
         "ctaSecondary": "¿Data Consulting o Ruta IA?"
       },
       "problems": {
@@ -2427,6 +2428,7 @@
         "name": "Data Engineering",
         "term": "Ingeniería de datos en Costa Rica",
         "subtitle": "Una sola fuente de verdad para su empresa. Integramos sus sistemas, automatizamos la carga de datos y la llevamos a dashboards que su equipo usa para decidir.",
+        "imageAlt": "Ilustración de varios sistemas conectados a una sola base de datos que alimenta un dashboard.",
         "ctaSecondary": "Ver el caso"
       },
       "problems": {
@@ -2510,6 +2512,7 @@
         "name": "Digital Product",
         "term": "Desarrollo de aplicaciones a la medida",
         "subtitle": "Cuando la operación vive en correos, hojas de cálculo y personas clave, construimos la plataforma que su equipo necesita, a partir de cómo trabaja realmente.",
+        "imageAlt": "Ilustración de una persona que pasa de un escritorio lleno de correos y hojas de cálculo a una aplicación ordenada.",
         "ctaSecondary": "Ver el caso"
       },
       "problems": {
@@ -2576,6 +2579,7 @@
         "name": "Custom AI Agents",
         "term": "Agentes de IA a medida para empresas",
         "subtitle": "Agentes que conocen sus datos y sus procesos. Reúnen la información, recomiendan y redactan; su equipo decide qué se ejecuta.",
+        "imageAlt": "Ilustración de un agente que reúne documentos y redacta un borrador que una persona aprueba antes de enviarlo.",
         "ctaSecondary": "Ver el caso"
       },
       "problems": {
