@@ -11,9 +11,9 @@ No era una pregunta de tecnología. Era una pregunta de certeza.
 
 ## **El problema real detrás de la pregunta técnica**
 
-Nuestro cliente opera en el sector de finanzas personales en Costa Rica. Durante años construyeron metodologías propias, frameworks de trabajo, y procesos documentados que representan su ventaja competitiva.
+Nuestro cliente es una empresa mediana. Durante años construyó procesos propios y bien documentados. Esa forma de trabajar es parte de su ventaja.
 
-Cuando adoptaron IA, no fue un experimento aislado. Fue una transformación real que aceleró su operación. El equipo creció en capacidad. Los procesos mejoraron. Y con ese crecimiento llegó un problema nuevo: su negocio ahora dependía críticamente de una combinación de frameworks propios más herramientas de IA, y nadie tenía claridad sobre qué arquitectura técnica podría soportar ese crecimiento de forma sostenible.
+Cuando adoptaron IA, no fue un experimento aislado. Fue una transformación real que aceleró su operación. El equipo creció en capacidad. Los procesos mejoraron. Con ese crecimiento llegó un problema nuevo. Su operación ya dependía de sus procesos y de herramientas de IA. Nadie sabía qué arquitectura podía sostener ese crecimiento.
 
 La operación diaria del equipo ya giraba alrededor de documentos, hojas de cálculo y workflows que, aunque manejados con orden, se volvían cada vez más difíciles de controlar conforme la empresa crecía. La pregunta de fondo era: *¿cómo construimos algo que dure, sin apostarlo todo a una sola decisión tomada con información incompleta?*
 
@@ -71,9 +71,9 @@ Opcionalmente, el AEB puede activar secciones adicionales: modelo de datos, diag
 
 Para este cliente específico, el AEB produjo tres opciones arquitectónicas.
 
-**Opción A: Custom Full-Stack con RAG Layer.** Construir una aplicación web completa desde cero, con control máximo sobre el modelo de datos y la seguridad multi-tenant. Es la arquitectura más escalable y permite intercambiar la capa de IA según evolucionen los modelos. El costo: mayor inversión inicial y entre 4 y 7 meses para un MVP funcional.
+**Opción A: Custom Full-Stack con RAG Layer.** Construir una aplicación web completa desde cero, con control máximo sobre el modelo de datos y la seguridad. Es la arquitectura más escalable y permite intercambiar la capa de IA según evolucionen los modelos. El costo: mayor inversión inicial y entre 4 y 7 meses para un MVP funcional.
 
-**Opción B: Híbrida Low-Code Core con IA Custom.** Combinar una base operativa de bajo código (Supabase) con una capa de IA propia basada en RAG. Reduce el time-to-market a 6-10 semanas para el MVP y el costo de desarrollo es significativamente menor. El trade-off: menos control sobre la capa de datos base, y dependencia en un proveedor de low-code para la operación central. Esta fue la opción recomendada.
+**Opción B: Híbrida Low-Code Core con IA Custom.** Combinar una base operativa de bajo código con una capa de IA propia basada en RAG. Reduce el time-to-market a 6-10 semanas para el MVP y el costo de desarrollo es significativamente menor. El trade-off: menos control sobre la capa de datos base, y dependencia en un proveedor de low-code para la operación central. Esta fue la opción recomendada.
 
 **Opción C: SaaS Existente con Automatización.** Usar herramientas como Airtable como núcleo operativo, con Make o Zapier para automatizaciones. La más rápida de activar (2-4 semanas) y con costo inicial mínimo. El problema: no genera un producto propio, la escalabilidad es limitada, y la auditoría y seguridad de datos se vuelven difíciles de controlar conforme crece el negocio.
 
@@ -85,7 +85,7 @@ La Opción B fue recomendada porque el cliente necesitaba validar el flujo opera
 
 Aquí vale la pena ser directo: la arquitectura más escalable no es siempre la decisión correcta.
 
-La Opción A ofrece control máximo y escalabilidad a largo plazo. También requiere la mayor inversión y el timeline más largo. Para un negocio que está en proceso de validar qué parte de su operación realmente necesita un producto digital propio, invertir en una arquitectura full custom desde el día uno es asumir un riesgo de negocio innecesario.
+La Opción A ofrece control máximo y escalabilidad a largo plazo. También requiere la mayor inversión y el timeline más largo. Para un negocio que está en proceso de validar qué parte de su operación realmente necesita un producto digital, invertir en una arquitectura full custom desde el día uno es asumir un riesgo de negocio innecesario.
 
 La Opción B permite llegar a producción en semanas, no meses. Eso significa que el cliente puede empezar a usar el sistema, identificar qué funciona y qué necesita cambiar, y tomar decisiones de arquitectura futura con datos reales de uso en lugar de suposiciones.
 
