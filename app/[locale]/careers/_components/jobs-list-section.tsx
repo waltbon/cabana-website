@@ -28,7 +28,7 @@ export function JobsListSection() {
           <FadeIn>
             <div className="rounded-2xl border border-border bg-cabana-slate p-12 text-center">
               <p className="text-base text-muted-foreground">
-                No hay vacantes abiertas en este momento. Volvé pronto.
+                No hay vacantes abiertas en este momento. Vuelva pronto.
               </p>
             </div>
           </FadeIn>

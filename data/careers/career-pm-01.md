@@ -16,11 +16,11 @@ que está en buenas manos.
 
 ---
 
-## ¿Qué harás?
+## ¿Qué hará?
 
 - Gestionar una cartera de **4 a 6 cuentas simultáneas**: implementaciones de software,
   soporte continuo, consultoría técnica y desarrollo a la medida.
-- Ser el **punto de contacto principal** para tus clientes — desde el kick-off hasta
+- Ser el **punto de contacto principal** para los clientes a su cargo — desde el kick-off hasta
   el cierre, y en todo lo que venga después.
 - Participar activamente en **decisiones técnicas del día a día** junto al equipo de
   desarrollo: estimaciones, cambios de scope, integraciones, despliegues.
@@ -35,17 +35,17 @@ que está en buenas manos.
 
 ## ¿Qué buscamos?
 
-✅ 3 a 6 años gestionando proyectos tecnológicos con clientes externos — no solo
+✅ 2 a 6 años gestionando proyectos tecnológicos con clientes externos — no solo
 proyectos internos.
 
 ✅ Criterio técnico funcional: APIs, ciclos de desarrollo ágil, pruebas (unitarias,
-UAT, integración), ETLs, dashboards. No necesitás codificar, pero sí entender el
+UAT, integración), ETLs, dashboards. No necesita codificar, pero sí entender el
 costo real de las decisiones.
 
-✅ Capacidad de decirle **"no"** a un cliente con diplomacia — y de mantenerte firme
+✅ Capacidad de decirle **"no"** a un cliente con diplomacia — y de mantenerse firme
 cuando la conversación se pone tensa.
 
-✅ Disciplina de seguimiento sin que nadie te lo pida: actualizaciones de estado,
+✅ Disciplina de seguimiento sin que nadie se lo pida: actualizaciones de estado,
 gestión de riesgos, control de scope.
 
 ✅ Mentalidad de **co-dueño del resultado**, no de ejecutor de tareas.
@@ -54,13 +54,13 @@ gestión de riesgos, control de scope.
 
 ---
 
-## ¿Qué te diferenciará?
+## ¿Qué marcará la diferencia?
 
-- Has creado procesos de gestión en entornos donde no existían.
-- Podés moverte con comodidad entre una llamada con un gerente del cliente y una
+- Ha creado procesos de gestión en entornos donde no existían.
+- Puede moverse con comodidad entre una llamada con un gerente del cliente y una
   sesión de estimación con el equipo técnico.
-- Aprendés rápido cuando el contexto lo exige — con o sin un curso formal.
-- Tenés criterio para saber cuándo escalar y cuándo resolver por tu cuenta.
+- Aprende rápido cuando el contexto lo exige — con o sin un curso formal.
+- Tiene criterio para saber cuándo escalar y cuándo resolver por su cuenta.
 
 ---
 
@@ -87,9 +87,9 @@ gestión de riesgos, control de scope.
 5. Oferta
 
 > 💡 **Una nota sobre el caso práctico:** nuestras preguntas están basadas en
-> situaciones reales. No buscamos respuestas perfectas — buscamos cómo pensás,
-> cómo priorizás y cómo manejás la presión.
+> situaciones reales. No buscamos respuestas perfectas — buscamos cómo piensa,
+> cómo prioriza y cómo maneja la presión.
 
 ---
 
-## ¿Te identificás con
+## ¿Se identifica con este rol?
