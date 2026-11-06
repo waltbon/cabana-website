@@ -116,11 +116,8 @@ function checkContent() {
         }
       }
 
-      // Page meta: <ns>.meta and nested <ns>.<page>.meta (B-028) for page
-      // namespaces, metadata.<page> for legacy ones
-      const metas = ns === "metadata"
-        ? Object.entries(tree).map(([k, v]) => [`metadata.${k}`, v])
-        : [...nestedMetas(tree, ns)];
+      // Page meta: <ns>.meta and nested <ns>.<page>.meta (B-028)
+      const metas = [...nestedMetas(tree, ns)];
       for (const [key, meta] of metas) {
         checkMeta(file, locale, key, meta, titles);
       }
