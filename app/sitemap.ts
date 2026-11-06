@@ -37,7 +37,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${domain}/en/capacidades/producto-digital`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/capacidades/agentes-ia-a-medida`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/contact`, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${domain}/en/careers`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${domain}/en/privacidad`, changeFrequency: "yearly", priority: 0.3 },
     // case-studies not yet approved by customer — omit until launched
     { url: `${domain}/en/posts`, changeFrequency: "weekly", priority: 0.8 },

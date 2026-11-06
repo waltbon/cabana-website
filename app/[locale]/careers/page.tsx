@@ -16,15 +16,15 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical: locale === "es" ? "/careers" : `/${locale}/careers`,
+      // The careers section exists only in Spanish (same pattern as /careers/[id])
+      canonical: "/careers",
       languages: {
         es: "/careers",
-        en: "/en/careers",
         "x-default": "/careers",
       },
     },
     openGraph: {
-      url: locale === "es" ? `${siteConfig.site_domain}/careers` : `${siteConfig.site_domain}/${locale}/careers`,
+      url: `${siteConfig.site_domain}/careers`,
     },
   };
 }
