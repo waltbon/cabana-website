@@ -1947,7 +1947,7 @@
       ],
       "ctaPrimary": "Agendar una conversación",
       "ctaSecondary": "Ver qué incluye",
-      "imageAlt": "Consultor frente a una pizarra con ideas priorizadas"
+      "imageAlt": "Ilustración de un camino que va de la revisión de los datos a un plan de acción con las oportunidades de IA ordenadas."
     },
     "moment": {
       "title": "Cuando alguien pregunta \"¿por dónde empezamos con IA?\"",
@@ -1962,7 +1962,8 @@
         "Por cuáles oportunidades de IA empezar, en orden.",
         "Cuáles soportan hoy sus datos.",
         "Qué hay que resolver para habilitar las demás, y en qué orden."
-      ]
+      ],
+      "illustrationAlt": "Ilustración de un camino con cuatro paradas: revisión de los datos, bloqueos detectados, oportunidades de IA ordenadas y plan de acción."
     },
     "deliverables": {
       "title": "Qué recibe en el diagnóstico de IA",
@@ -2116,7 +2117,7 @@
       ],
       "ctaPrimary": "Agendar una conversación",
       "ctaSecondary": "Ver qué incluye",
-      "imageAlt": "Equipo revisando en una laptop un caso de IA en su operación"
+      "imageAlt": "Ilustración de un camino del caso de uso en producción, operado por su equipo, al caso de inversión presentado ante la junta."
     },
     "moment": {
       "title": "Cuando ya saben por dónde empezar, pero falta la aprobación",
@@ -2131,7 +2132,8 @@
       "items": [
         "Un caso de IA funcionando en producción, que su equipo opera.",
         "Un caso de inversión que puede defender ante junta directiva o casa matriz, con números de su propia operación."
-      ]
+      ],
+      "illustrationAlt": "Ilustración de un camino del caso de uso en producción, operado por su equipo, al caso de inversión presentado ante la junta."
     },
     "deliverables": {
       "title": "Qué recibe",
@@ -2662,7 +2664,7 @@
       "eyebrow": "Consultoría de IA para empresas medianas",
       "title": "Sepa por dónde empezar con IA. Y empiece bien.",
       "subtitle": "Somos una consultoría de inteligencia artificial en Costa Rica para empresas medianas de Latinoamérica. Le ayudamos a elegir por dónde empezar, con evidencia de su operación, y a poner el primer caso en producción.",
-      "imageAlt": "Equipo reunido en una sala de juntas durante una presentación",
+      "imageAlt": "Ilustración de una brújula entre datos dispersos que señala una sola oportunidad lista para arrancar.",
       "doors": [
         {
           "label": "No sé por dónde empezar",

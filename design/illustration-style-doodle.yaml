@@ -1,0 +1,191 @@
+# Estilo de ilustración "Doodle de tinta" — Cabana Data
+# Uso: pasar este YAML (o el prompt compilado al final) a un generador de imágenes
+# junto con un `subject`. Elegir `theme: light | dark`. Los elementos marcados
+# `accent: true` en la escena se pintan con el verde Cabana.
+
+version: 1
+name: cabana-ink-doodle
+description: >
+  Ilustraciones dibujadas a mano, estilo doodle de cuaderno con tinta, sobre temas
+  de datos, analítica y negocio. Trazo negro irregular, rellenos planos y tramas
+  de líneas, flechas punteadas curvas y destellos decorativos alrededor del objeto.
+
+# ---------------------------------------------------------------------------
+# 1. Parámetros de entrada
+# ---------------------------------------------------------------------------
+inputs:
+  theme: light            # light | dark
+  subject: ""             # p.ej. "dashboard en laptop con gráfico de líneas"
+  composition: single     # single | grid-2x2 | row-3
+  aspect_ratio: "1:1"     # 1:1 | 4:3 | 16:9
+  accent_mode: selective  # none | selective | highlight-one
+  background: solid       # solid | transparent
+  # transparent -> NO pedir "transparent background" en el prompt: los generadores
+  # pintan un tablero de ajedrez falso. Generar con background_for_cutout y
+  # recortar después (rembg, remove.bg, Photoshop "Quitar fondo").
+  # none          -> todo monocromo
+  # selective     -> solo los elementos con accent: true van en verde
+  # highlight-one -> un único elemento clave en verde (el dato o insight principal)
+
+# ---------------------------------------------------------------------------
+# 2. Paleta y temas
+# ---------------------------------------------------------------------------
+palette:
+  brand:
+    green: "#57ff8f"      # --color-cabana-green (acento)
+    blue: "#0000d3"       # --color-cabana-blue (no usar en doodles salvo pedido)
+    dark: "#0f172a"       # --color-cabana-dark
+  themes:
+    light:
+      background: "#fdf3e1"   # papel crema cálido
+      ink: "#111111"          # trazo y rellenos sólidos
+      hatch: "#111111"        # tramas
+      paper_fill: "#fdf3e1"   # interior de pantallas/hojas = fondo
+      accent: "#57ff8f"
+      accent_outline: "#111111" # el verde siempre va contorneado con tinta
+      decor: "#111111"        # flechas punteadas y destellos
+    dark:
+      background: "#0f172a"   # navy oscuro Cabana
+      ink: "#f1f5f9"          # tinta clara (tiza/gis)
+      hatch: "#cbd5e1"
+      paper_fill: "#0f172a"
+      accent: "#57ff8f"
+      accent_outline: "#f1f5f9"
+      decor: "#94a3b8"        # decoración más tenue que el objeto principal
+  # Fondo transparente: interiores y fondo deben ser del MISMO color plano para que
+  # el recorte los elimine juntos (sin parches beige dentro de pantallas o tarjetas).
+  transparent:
+    light:
+      background_for_cutout: "#ffffff"  # blanco puro, se elimina al recortar
+      paper_fill: "#ffffff"             # interiores = mismo blanco
+      ink: "#111111"
+    dark:
+      background_for_cutout: "#000000"  # negro puro, se elimina al recortar
+      paper_fill: "#000000"
+      ink: "#f1f5f9"
+    note: >
+      Nunca usar crema #fdf3e1 en modo transparente. Si un interior debe verse
+      opaco sobre la web, rellenarlo con trama o tinta sólida, no con color de papel.
+
+# ---------------------------------------------------------------------------
+# 3. Reglas de estilo
+# ---------------------------------------------------------------------------
+style:
+  medium: "dibujo a mano con rotulador/tinta, vectorizado"
+  line:
+    weight: "medio-grueso, 2–4 px a 500 px de ancho"
+    quality: "irregular, ligero temblor, grosor variable, esquinas redondeadas"
+    contours: "doble línea en bordes de objetos (contorno + borde interior paralelo)"
+    closure: "las líneas pueden no cerrarse del todo; pequeños solapes en las uniones"
+  fills:
+    solid: "bloques sólidos de tinta en marcos, sombras laterales y bases"
+    hatching: "tramas diagonales paralelas en barras, porciones de gráfico y caras en sombra"
+    lines_as_text: "texto simulado con líneas onduladas horizontales (nunca texto legible)"
+    empty: "áreas interiores del color del fondo"
+  perspective: "ligera 3/4 o frontal, sin perspectiva técnica; volumen insinuado con canto grueso"
+  shading: "sin degradados; volumen solo con relleno sólido o trama"
+  decoration:
+    arrows: "flechas curvas punteadas/discontinuas que rodean parcialmente al objeto, con punta abierta"
+    sparkles: "destellos tipo rombo/estrella de 4 puntas, pequeños, 2–4 por objeto"
+    loops: "pequeños bucles en las flechas punteadas"
+    badges: "burbuja de diálogo o círculo sólido con ícono simple (moneda, check, %) junto al objeto"
+  texture: "plana, sin ruido, sin sombras proyectadas realistas"
+  forbidden:
+    - degradados o brillos
+    - fotorrealismo o render 3D
+    - texto legible o números reales
+    - más de un color de acento
+    - contornos perfectos geométricos
+    - fondos con escenarios; solo color plano
+
+# ---------------------------------------------------------------------------
+# 4. Uso del verde (acento)
+# ---------------------------------------------------------------------------
+accent_rules:
+  color: "#57ff8f"
+  coverage: "máx. 10–15% del área de la ilustración"
+  application:
+    - "relleno plano dentro de un contorno de tinta (nunca verde sin contorno)"
+    - "puede sustituir a la trama en el elemento destacado"
+    - "en líneas de tendencia: trazo verde de igual grosor sobre fondo, con flecha final"
+  good_candidates:
+    - la barra más alta o la última barra de un gráfico
+    - la línea de tendencia ascendente
+    - una porción del gráfico de pastel (la separada)
+    - el badge/burbuja de insight
+    - un destello o punto de dato clave
+  avoid:
+    - marcos de dispositivos
+    - fondos de pantallas completos
+    - flechas decorativas punteadas
+
+# ---------------------------------------------------------------------------
+# 5. Biblioteca de elementos (reutilizables, no copiar literalmente la referencia)
+# ---------------------------------------------------------------------------
+elements:
+  devices: [laptop, monitor con pie, tablet, smartphone, pizarra con trípode, hoja/reporte]
+  charts: [barras, líneas, pastel en 3/4, dona, área, scatter, embudo, KPI card]
+  data_objects: [base de datos cilíndrica, nube, servidor, tabla/grilla, lupa, engranaje, documento con líneas]
+  badges: [moneda $, check, porcentaje, rayo, estrella, alerta]
+  decor: [flecha punteada curva, destello rombo, bucle punteado, puntos sueltos]
+
+# ---------------------------------------------------------------------------
+# 6. Esquema de escena (lo que cada ilustración define)
+# ---------------------------------------------------------------------------
+scene_schema:
+  objects:
+    - element: string        # de la biblioteca o libre
+      content: string        # qué muestra (p.ej. "gráfico de barras ascendente")
+      accent: false          # true -> parte pintada en verde
+      accent_target: string  # qué parte exacta lleva el verde
+      fill: hatch            # hatch | solid | empty
+  decor:
+    arrows: 2
+    sparkles: 3
+    badge: none              # none | coin | check | percent | ...
+
+# Ejemplo
+example_scene:
+  theme: light
+  composition: single
+  accent_mode: selective
+  objects:
+    - element: laptop
+      content: "dashboard con gráfico de barras ascendente y líneas de texto simulado"
+      fill: solid
+      accent: true
+      accent_target: "la última barra (la más alta)"
+    - element: badge
+      content: "círculo sólido con check"
+      accent: true
+      accent_target: "relleno del círculo"
+  decor: { arrows: 2, sparkles: 3 }
+
+# ---------------------------------------------------------------------------
+# 7. Plantilla de prompt (para Midjourney / DALL·E / Firefly / Ideogram, etc.)
+# ---------------------------------------------------------------------------
+prompt_template: >
+  Hand-drawn ink doodle illustration of {subject}. Thick, slightly wobbly black
+  marker lines with double-line contours, solid ink fills and diagonal hatching,
+  squiggly lines instead of text. Decorated with curved dotted arrows looping
+  around the object, small four-point sparkles and diamond doodles.
+  {background_clause} {ink} ink, no gradients, no shading, no realistic
+  3D, no readable text. {accent_clause} Clean vector, centered, generous margins,
+  {aspect_ratio}.
+
+accent_clause:
+  none: "Strictly monochrome."
+  selective: "Only {accent_targets} filled with flat neon green #57ff8f, outlined in ink; everything else monochrome."
+  highlight-one: "A single key element, {accent_targets}, filled with flat neon green #57ff8f, outlined in ink; everything else monochrome."
+
+background_clause:
+  solid: "Flat {background} background."
+  transparent: >
+    Isolated on a pure flat {background_for_cutout} background, all object
+    interiors the same pure {background_for_cutout}, no cream or beige tones,
+    no paper texture, no checkerboard pattern.
+
+negative_prompt: >
+  checkerboard, transparency grid, beige, cream, paper texture, off-white fills,
+  gradient, photorealistic, 3d render, glossy, shadow, readable text, numbers,
+  logos, multiple colors, blue, background scenery, perfect geometric lines

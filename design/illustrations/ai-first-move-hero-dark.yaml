@@ -1,0 +1,97 @@
+# Escena — Hero de AI First Move (tema dark)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Serie: mismo concepto que ai-first-move-light.yaml ("el camino continúa"),
+#        recompuesto en cuadrado como ruta-ia-hero-dark.yaml.
+# Sustituye: public/services/hero/ai-first-move-roadmap.webp (components/service-hero.tsx)
+#
+# Contenedor: bg-section-dark (#0f172a). Se usará image.fit = "contain",
+# así que la imagen se ve entera; el fondo idéntico al contenedor oculta el borde.
+
+style_ref: cabana-ink-doodle
+theme: dark
+background: solid
+composition: single
+aspect_ratio: "1:1"
+export:
+  size: "2000x2000"
+  format: webp
+safe_zone: "todo el contenido dentro del 85% central"
+accent_mode: selective
+
+layout: >
+  Camino en S que sube desde abajo a la izquierda hasta arriba a la derecha
+  (igual que el hero de Ruta IA), con las paradas alternando lados de la S.
+
+objects:
+  - element: banderín de inicio
+    content: "banderín ya plantado al inicio del camino, abajo a la izquierda (final de Ruta IA)"
+    fill: solid
+    accent: false
+  - element: obra
+    content: "ciclo 1, en la primera curva: andamio con caja abierta a medio armar, llave inglesa y casco"
+    fill: hatch
+    accent: false
+  - element: máquina en producción
+    content: "centro de la imagen: panel con engranajes entrelazados, líneas de movimiento, luz de encendido y una figura de palitos operando una palanca"
+    fill: hatch
+    accent: true
+    accent_target: "el engranaje principal y la luz de encendido"
+  - element: pizarra en mesa de junta
+    content: "ciclo 2, en la curva superior: pizarra en trípode con barras que suben, mesa y sillas vacías delante"
+    fill: empty
+    accent: true
+    accent_target: "la barra más alta"
+  - element: casos siguientes
+    content: "arriba a la derecha el camino se abre en tres ramas con banderines que se alejan"
+    fill: solid
+    accent: true
+    accent_target: "solo el banderín más cercano"
+
+decor:
+  arrows: 3
+  sparkles: 5
+  motion_lines: true
+
+colors:
+  background: "#0f172a"
+  ink: "#f1f5f9"
+  hatch: "#cbd5e1"
+  decor: "#94a3b8"
+  accent: "#57ff8f"
+  interiors: "#0f172a"
+
+prompt: >
+  Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+  background, square 1:1 composition. A winding road shaped like an S climbs from
+  the bottom left to the top right, drawn with light double lines and a dashed
+  center line, with three small light dots along it. The road starts at a small
+  flag already planted at the bottom left. Along the road, in order: a small
+  scaffold with a half-open cardboard box being assembled, a wrench and a hard hat
+  beside it; in the center, a machine panel with interlocking gears, short curved
+  motion lines and a small power light, with a simple stick figure operating a
+  lever next to it; higher up, a whiteboard on a tripod showing a rising bar chart
+  in front of a small meeting table with empty chairs. At the top right the road
+  splits into three branches fading into the distance, each with a small flag
+  getting smaller. Thick, slightly wobbly off-white #f1f5f9 lines with double-line
+  contours, diagonal hatching in light gray #cbd5e1. All object interiors are the
+  same dark navy #0f172a as the background. Curved dotted arrows in muted slate
+  #94a3b8 linking each stop, one with a small loop, and small four-point sparkles
+  around the machine and the whiteboard. Only the main gear, the power light, the
+  tallest bar and the nearest of the three distant flags filled with flat neon
+  green #57ff8f, outlined in off-white; everything else monochrome. Keep all
+  objects inside the central 85% of the frame. No text, no letters, no words, no
+  labels, no numbers anywhere. No gradients, no glow, no shading, no realistic 3D.
+  Clean vector look, generous margins.
+
+negative_prompt: >
+  text, letters, words, labels, numbers, typography, white background, black
+  background, cream, beige, paper texture, white fills, glow, neon glow, gradient,
+  vignette, photorealistic, 3d render, glossy, shadow, logos, faces, detailed
+  people, robot, blue, multiple accent colors, background scenery, perfect
+  geometric lines, objects cut at edges
+
+# Post-proceso (lo hago yo al integrarla)
+# - Igualar el fondo a #0f172a exacto (el generador suele dar un navy más claro).
+# - Exportar WebP 2000x2000 con nombre nuevo (p. ej. ai-first-move-roadmap.webp)
+#   para evitar la caché de next/image, y usar fit: "contain" en el hero.
+# - Actualizar hero.imageAlt de aiFirstMove en messages/*.json.

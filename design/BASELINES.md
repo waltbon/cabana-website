@@ -33,7 +33,8 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | `PG/services/data-engineering` | `app/[locale]/services/data-engineering/page.tsx` | pendiente | — | — |
 | `PG/services/custom-ai-agents` | `app/[locale]/services/custom-ai-agents/page.tsx` | pendiente | — | — |
 | `PG/services/ai-readiness-assessment` | `app/[locale]/services/ai-readiness-assessment/page.tsx` | pendiente | — | Hex sueltos en `_components`. |
-| `PG/ruta-ia` | `app/ruta-ia/page.tsx` | pendiente | — | Fuera de `[locale]` (solo español). Hex y gradientes en línea en 5 archivos: migrar a `.text-gradient-cabana` / tokens. |
+| `PG/ruta-ia` | `app/ruta-ia/page.tsx` | pendiente | — | Fuera de `[locale]` (solo español). Hex y gradientes en línea en 5 archivos: migrar a `.text-gradient-cabana` / tokens. Las pantallas de `CH-ruta-ia` no tienen el hero dividido ni las ilustraciones (hero, Promise, card destacado de Deliverables); referencia en el frame `Ilustraciones`. |
+| `PG/ai-first-move` | `app/[locale]/ai-first-move/page.tsx` | pendiente | — | Las pantallas de `CH-ai-first-move` no tienen el hero dividido ni las ilustraciones (hero, Promise, card destacado de Deliverables); referencia en el frame `Ilustraciones`. |
 
 ## Sin baseline
 
@@ -42,6 +43,12 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | `app/[locale]/_disabled-case-studies/*` | Desactivada (prefijo `_`). Dibujar solo si se reactiva. |
 | `/api/og`, `/api/contact` | Endpoints, no páginas. |
 | Nav, footer, menú móvil | Componentes del design system (`Components` → `Layout Blocks`), no rutas. |
+
+## Ilustraciones
+
+Frame `Ilustraciones` del `.pen`: las ilustraciones de Ruta IA y AI First Move con su uso. Las imágenes del `.pen` apuntan a `design/images/illustrations/` (copias de las de `public/`); si se regenera una, se reemplazan ambas. Estilo y prompts: `design/illustration-style-doodle.yaml` y `design/illustrations/*.yaml`.
+
+Cambio en curso: `CH-ilustraciones-servicios: pantallas` (copia de `PG/index` con las ilustraciones en las tarjetas de servicios). Incluye el hero con la ilustración de la brújula (`public/home/hero-compass.webp`); en móvil el código usa un área cuadrada, el frame móvil todavía la dibuja 4:3. La foto anterior queda solo para el baseline en `design/images/baseline/home-hero-team.webp`: al mergear, actualizar `PG/index`, borrar esa foto y eliminar el contenedor.
 
 ## Deuda global
 

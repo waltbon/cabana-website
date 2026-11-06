@@ -1947,7 +1947,7 @@
       ],
       "ctaPrimary": "Book a conversation",
       "ctaSecondary": "See what's included",
-      "imageAlt": "Consultant at a whiteboard with prioritized ideas"
+      "imageAlt": "Illustration of a road from a data review to an action plan with ranked AI opportunities."
     },
     "moment": {
       "title": "When someone asks \"where do we start with AI?\"",
@@ -1962,7 +1962,8 @@
         "Which AI opportunities to start with, in order.",
         "Which ones your data supports today.",
         "What needs fixing to enable the rest, and in what order."
-      ]
+      ],
+      "illustrationAlt": "Illustration of a road with four stops: data review, detected blockers, ranked AI opportunities and an action plan."
     },
     "deliverables": {
       "title": "What you get from the AI assessment",
@@ -2116,7 +2117,7 @@
       ],
       "ctaPrimary": "Book a conversation",
       "ctaSecondary": "See what's included",
-      "imageAlt": "Team reviewing an AI use case from their operation on a laptop"
+      "imageAlt": "Illustration of a road from a use case in production, run by your team, to an investment case presented to the board."
     },
     "moment": {
       "title": "When you know where to start, but approval is missing",
@@ -2131,7 +2132,8 @@
       "items": [
         "An AI use case running in production, operated by your team.",
         "An investment case you can defend before the board or headquarters, with numbers from your own operation."
-      ]
+      ],
+      "illustrationAlt": "Illustration of a road from a use case in production, run by your team, to an investment case presented to the board."
     },
     "deliverables": {
       "title": "What you get",
@@ -2662,7 +2664,7 @@
       "eyebrow": "AI consulting for mid-sized companies",
       "title": "Know where to start with AI. And start right.",
       "subtitle": "We are an artificial intelligence consultancy in Costa Rica for mid-sized companies in Latin America. We help you choose where to start, with evidence from your operation, and put the first use case in production.",
-      "imageAlt": "Team gathered in a boardroom during a presentation",
+      "imageAlt": "Illustration of a compass among scattered data pointing to a single opportunity ready to start.",
       "doors": [
         {
           "label": "I don't know where to start",

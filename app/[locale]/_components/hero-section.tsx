@@ -30,14 +30,14 @@ export async function HeroSection() {
           className="absolute inset-x-0 bottom-0 h-1/3 bg-section-dark-2 opacity-80 [clip-path:polygon(0_20%,40%_100%,0_100%)]"
         />
 
-        <div className="relative order-last aspect-4/3 w-full lg:absolute lg:inset-y-0 lg:right-0 lg:aspect-auto lg:w-[46%] lg:[clip-path:polygon(18%_0,100%_0,100%_100%,0_100%)]">
+        <div className="relative order-last aspect-square w-full lg:absolute lg:inset-y-0 lg:right-0 lg:aspect-auto lg:w-[46%] lg:[clip-path:polygon(18%_0,100%_0,100%_100%,0_100%)]">
           <Image
-            src="/home/hero-team.webp"
+            src="/home/hero-compass.webp"
             alt={t("imageAlt")}
             fill
             priority
             sizes="(min-width: 1024px) 46vw, 100vw"
-            className="object-cover"
+            className="object-contain lg:object-cover"
           />
         </div>
 

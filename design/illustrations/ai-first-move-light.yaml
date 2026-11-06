@@ -1,0 +1,77 @@
+# Escena — AI First Move: "el camino continúa" (tema light, fondo blanco para recortar)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Serie: continuación de ruta-ia-roadmap.yaml (mismo camino, mismo trazo)
+# Uso previsto: sección clara de /ai-first-move y tarjeta "AI First Move" del home.
+
+style_ref: cabana-ink-doodle
+series: ruta-ia-roadmap   # capítulo 2: arranca donde terminó Ruta IA
+theme: light
+background: transparent   # se genera en blanco puro y se recorta con design/tools/white-to-alpha.py
+composition: single
+aspect_ratio: "16:9"
+accent_mode: selective
+
+objects:
+  - element: banderín de inicio
+    content: "pequeño banderín ya plantado al borde izquierdo, donde arranca el camino (el final de Ruta IA)"
+    fill: solid
+    accent: false
+  - element: camino
+    content: "sendero sinuoso de izquierda a derecha, doble línea, línea central discontinua, tres hitos negros; al final se abre en tres ramas que se pierden hacia el fondo"
+    fill: empty
+    accent: false
+  - element: obra
+    content: "ciclo 1: andamio pequeño con una caja/módulo a medio armar, llave inglesa y casco al lado"
+    fill: hatch
+    accent: false
+  - element: máquina en producción
+    content: "panel con dos engranajes entrelazados y líneas de movimiento curvas, una pequeña luz de encendido, una persona sencilla (figura de palitos) junto a una palanca operándolo"
+    fill: hatch
+    accent: true
+    accent_target: "el engranaje principal y la luz de encendido"
+  - element: pizarra en mesa de junta
+    content: "ciclo 2: pizarra en trípode con gráfico de barras ascendente, frente a una mesa con tres sillas vacías"
+    fill: empty
+    accent: true
+    accent_target: "la barra más alta"
+  - element: casos siguientes
+    content: "al final del camino, tres banderines más pequeños en las ramas, alejándose en perspectiva"
+    fill: solid
+    accent: true
+    accent_target: "solo el banderín más cercano"
+
+decor:
+  arrows: 3        # punteadas: obra -> máquina -> pizarra -> banderines, una con bucle
+  sparkles: 4      # alrededor de la máquina y la pizarra
+  motion_lines: true  # líneas cortas curvas alrededor de los engranajes
+
+prompt: >
+  Hand-drawn ink doodle illustration of a winding road running from left to
+  right, drawn with double lines and a dashed center line, with three small black
+  dots along it. The road starts at a small flag already planted at the left edge.
+  Along the road, in order: a small scaffold with a half-assembled box module, a
+  wrench and a hard hat beside it; a machine panel with two interlocking gears,
+  short curved motion lines and a small power light, with a simple stick figure
+  operating a lever next to it; a whiteboard on a tripod showing a rising bar
+  chart in front of a small meeting table with three empty chairs. At the far
+  right the road splits into three branches fading into the distance, each with a
+  small flag getting smaller. Thick, slightly wobbly black marker lines with
+  double-line contours, solid ink fills and diagonal hatching. Curved dotted
+  arrows linking each stop, one with a small loop, and four-point sparkles around
+  the machine and the whiteboard. Isolated on a pure flat white #ffffff background,
+  all object interiors (road, boxes, panel, whiteboard, table) the same pure
+  white, black #111111 ink. Only the main gear, the power light, the tallest bar
+  and the nearest of the three distant flags filled with flat neon green #57ff8f,
+  outlined in ink; everything else monochrome. No text, no letters, no words, no
+  labels, no numbers anywhere. No gradients, no shading, no realistic 3D. Clean
+  vector, generous margins, 16:9.
+
+negative_prompt: >
+  text, letters, words, labels, captions, numbers, typography, checkerboard,
+  transparency grid, beige, cream, paper texture, off-white fills, gradient,
+  photorealistic, 3d render, glossy, shadow, logos, faces, detailed people,
+  multiple colors, blue, background scenery, perfect geometric lines, robot
+
+# Post-proceso
+#   uv run design/tools/white-to-alpha.py ai-first-move.png
+# Si queda tono crema: --lo 55 --hi 130. Exportar WebP.
