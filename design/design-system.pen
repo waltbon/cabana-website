@@ -33953,7 +33953,7 @@
             },
             {
               "type": "frame",
-              "id": "ecMR4",
+              "id": "zjxeg",
               "name": "Services",
               "clip": true,
               "width": "fill_container",
@@ -33967,7 +33967,7 @@
               "children": [
                 {
                   "type": "path",
-                  "id": "cXlvQ",
+                  "id": "x6JeD",
                   "layoutPosition": "absolute",
                   "x": 0,
                   "y": 0,
@@ -33986,14 +33986,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "SjoHF",
+                  "id": "y4nt1",
                   "name": "Header",
                   "width": "fill_container",
                   "layout": "vertical",
                   "gap": 20,
                   "children": [
                     {
-                      "id": "krg0Z",
+                      "id": "RSpiu",
                       "type": "ref",
                       "ref": "hn4I4",
                       "name": "Pretitle",
@@ -34005,7 +34005,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "Ke4uq",
+                      "id": "GOY01",
                       "name": "H2",
                       "fill": "#FFFFFF",
                       "textGrowth": "fixed-width",
@@ -34020,14 +34020,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Y6yOdy",
+                  "id": "ngSMz",
                   "name": "Cards",
                   "width": "fill_container",
                   "gap": 24,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "higmm",
+                      "id": "zZfgW",
                       "name": "Service card",
                       "width": "fill_container",
                       "height": 520,
@@ -34039,7 +34039,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "bvpV3",
+                          "id": "j1hN33",
                           "name": "Top",
                           "width": "fill_container",
                           "justifyContent": "space_between",
@@ -34047,7 +34047,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "CCnMG",
+                              "id": "VAAov",
                               "name": "Door",
                               "fill": "$cabana-blue",
                               "content": "NO SÉ POR DÓNDE EMPEZAR",
@@ -34058,7 +34058,7 @@
                             },
                             {
                               "type": "icon",
-                              "id": "u1pw1v",
+                              "id": "DMEPp",
                               "name": "Arrow",
                               "width": 28,
                               "height": 28,
@@ -34070,7 +34070,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "bOAsB",
+                          "id": "OITkn",
                           "name": "Body",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -34078,7 +34078,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "l8Flz4",
+                              "id": "X6kJ7",
                               "name": "H3",
                               "fill": "$cabana-dark",
                               "textGrowth": "fixed-width",
@@ -34091,7 +34091,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "P8C8tr",
+                              "id": "u8Sc6o",
                               "name": "Summary",
                               "fill": "#334155",
                               "textGrowth": "fixed-width",
@@ -34104,7 +34104,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "dBLfg",
+                              "id": "gaU1a",
                               "name": "Facts",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -34116,7 +34116,7 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "Za1Ko",
+                                  "id": "l2Bu9S",
                                   "name": "Fact",
                                   "width": "fill_container",
                                   "gap": 12,
@@ -34124,7 +34124,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "h0Ue4t",
+                                      "id": "dlCZG",
                                       "name": "Icon",
                                       "width": 20,
                                       "height": 20,
@@ -34134,7 +34134,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "lilVd",
+                                      "id": "vmayz",
                                       "name": "Text",
                                       "fill": "$cabana-dark",
                                       "textGrowth": "fixed-width",
@@ -34149,7 +34149,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "ZmCVT",
+                                  "id": "O7ks7x",
                                   "name": "Fact",
                                   "width": "fill_container",
                                   "gap": 12,
@@ -34157,7 +34157,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "m4zCO",
+                                      "id": "FNXd2",
                                       "name": "Icon",
                                       "width": 20,
                                       "height": 20,
@@ -34167,7 +34167,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "umVtB",
+                                      "id": "xygOV",
                                       "name": "Text",
                                       "fill": "$cabana-dark",
                                       "textGrowth": "fixed-width",
@@ -34184,14 +34184,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "F2nxS4",
+                              "id": "Mo2lf",
                               "name": "CTA link",
                               "layout": "vertical",
                               "gap": 6,
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "mdfWO",
+                                  "id": "ELAsn",
                                   "name": "Label",
                                   "fill": "$cabana-dark",
                                   "content": "Ver Ruta IA →",
@@ -34201,7 +34201,7 @@
                                 },
                                 {
                                   "type": "rectangle",
-                                  "id": "KIv4c",
+                                  "id": "DM0HB",
                                   "name": "Underline",
                                   "fill": "$cabana-blue",
                                   "width": 100,
@@ -34215,7 +34215,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "Tl0hl",
+                      "id": "d2vqk",
                       "name": "Service card",
                       "width": "fill_container",
                       "height": 520,
@@ -34227,7 +34227,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "CREtC",
+                          "id": "rXqBN",
                           "name": "Top",
                           "width": "fill_container",
                           "justifyContent": "space_between",
@@ -34235,7 +34235,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "DfLGb",
+                              "id": "hymGm",
                               "name": "Door",
                               "fill": "$cabana-green",
                               "content": "YA TENGO LA IDEA",
@@ -34246,7 +34246,7 @@
                             },
                             {
                               "type": "icon",
-                              "id": "aTBgQ",
+                              "id": "aILyB",
                               "name": "Arrow",
                               "width": 28,
                               "height": 28,
@@ -34258,7 +34258,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "tajB2",
+                          "id": "zgC8u",
                           "name": "Body",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -34266,7 +34266,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "mzAiU",
+                              "id": "IBGw6",
                               "name": "H3",
                               "fill": "#FFFFFF",
                               "textGrowth": "fixed-width",
@@ -34279,7 +34279,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "dfN0P",
+                              "id": "l2tkg",
                               "name": "Summary",
                               "fill": "#E0E6F5",
                               "textGrowth": "fixed-width",
@@ -34292,7 +34292,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "H6WpkN",
+                              "id": "JdNir",
                               "name": "Facts",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -34304,7 +34304,7 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "JVdH9",
+                                  "id": "U1VEUj",
                                   "name": "Fact",
                                   "width": "fill_container",
                                   "gap": 12,
@@ -34312,7 +34312,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "PLPIh",
+                                      "id": "fJY19",
                                       "name": "Icon",
                                       "width": 20,
                                       "height": 20,
@@ -34322,7 +34322,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "tvAhY",
+                                      "id": "JabTe",
                                       "name": "Text",
                                       "fill": "#FFFFFF",
                                       "textGrowth": "fixed-width",
@@ -34337,7 +34337,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "sLqFz",
+                                  "id": "fgdi2",
                                   "name": "Fact",
                                   "width": "fill_container",
                                   "gap": 12,
@@ -34345,7 +34345,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "w2lh7",
+                                      "id": "bZ7FZ",
                                       "name": "Icon",
                                       "width": 20,
                                       "height": 20,
@@ -34355,7 +34355,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "ugsrD",
+                                      "id": "zQonH",
                                       "name": "Text",
                                       "fill": "#FFFFFF",
                                       "textGrowth": "fixed-width",
@@ -34372,14 +34372,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "u2kBK",
+                              "id": "Y4MfV",
                               "name": "CTA link",
                               "layout": "vertical",
                               "gap": 6,
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "g7erF",
+                                  "id": "O6jgUE",
                                   "name": "Label",
                                   "fill": "#FFFFFF",
                                   "content": "Ver AI First Move →",
@@ -34389,7 +34389,7 @@
                                 },
                                 {
                                   "type": "rectangle",
-                                  "id": "IzPSc",
+                                  "id": "YszOx",
                                   "name": "Underline",
                                   "fill": "$cabana-green",
                                   "width": 141,
@@ -36265,7 +36265,7 @@
             },
             {
               "type": "frame",
-              "id": "s9PRqL",
+              "id": "uE9jo",
               "name": "Services",
               "clip": true,
               "width": "fill_container",
@@ -36279,7 +36279,7 @@
               "children": [
                 {
                   "type": "path",
-                  "id": "U4ssf",
+                  "id": "DQj6X",
                   "layoutPosition": "absolute",
                   "x": 0,
                   "y": 0,
@@ -36298,14 +36298,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "P0sd7W",
+                  "id": "q7Csvj",
                   "name": "Header",
                   "width": "fill_container",
                   "layout": "vertical",
                   "gap": 20,
                   "children": [
                     {
-                      "id": "kQ7Lp",
+                      "id": "Mukzk",
                       "type": "ref",
                       "ref": "hn4I4",
                       "name": "Pretitle",
@@ -36317,7 +36317,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "Hy5Ew",
+                      "id": "jPj8S",
                       "name": "H2",
                       "fill": "#FFFFFF",
                       "textGrowth": "fixed-width",
@@ -36332,7 +36332,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "IJtew",
+                  "id": "Xx0Yv",
                   "name": "Cards",
                   "width": "fill_container",
                   "layout": "vertical",
@@ -36340,7 +36340,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "pmEOX",
+                      "id": "ufdMm",
                       "name": "Service card",
                       "width": "fill_container",
                       "height": 460,
@@ -36352,7 +36352,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "ckfVZ",
+                          "id": "Rmkhq",
                           "name": "Top",
                           "width": "fill_container",
                           "justifyContent": "space_between",
@@ -36360,7 +36360,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "EIYSc",
+                              "id": "lEf7W",
                               "name": "Door",
                               "fill": "$cabana-blue",
                               "content": "NO SÉ POR DÓNDE EMPEZAR",
@@ -36371,7 +36371,7 @@
                             },
                             {
                               "type": "icon",
-                              "id": "qdZ6m",
+                              "id": "I7zPiz",
                               "name": "Arrow",
                               "width": 28,
                               "height": 28,
@@ -36383,7 +36383,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "tCYLn",
+                          "id": "cj0K3",
                           "name": "Body",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -36391,7 +36391,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "M5Ybkn",
+                              "id": "unKEy",
                               "name": "H3",
                               "fill": "$cabana-dark",
                               "textGrowth": "fixed-width",
@@ -36404,7 +36404,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "pRFIp",
+                              "id": "y6eaH",
                               "name": "Summary",
                               "fill": "#334155",
                               "textGrowth": "fixed-width",
@@ -36417,7 +36417,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "mcKZy",
+                              "id": "vpi4K",
                               "name": "Facts",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -36429,7 +36429,7 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "wQ8eC",
+                                  "id": "kDs4T",
                                   "name": "Fact",
                                   "width": "fill_container",
                                   "gap": 12,
@@ -36437,7 +36437,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "bkfhD",
+                                      "id": "wUiZL",
                                       "name": "Icon",
                                       "width": 20,
                                       "height": 20,
@@ -36447,7 +36447,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "b5rIoI",
+                                      "id": "fWBqn",
                                       "name": "Text",
                                       "fill": "$cabana-dark",
                                       "textGrowth": "fixed-width",
@@ -36462,7 +36462,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "i4MIfh",
+                                  "id": "W69YE",
                                   "name": "Fact",
                                   "width": "fill_container",
                                   "gap": 12,
@@ -36470,7 +36470,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "qWUjV",
+                                      "id": "D5gKNS",
                                       "name": "Icon",
                                       "width": 20,
                                       "height": 20,
@@ -36480,7 +36480,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "FjGry",
+                                      "id": "d8i85",
                                       "name": "Text",
                                       "fill": "$cabana-dark",
                                       "textGrowth": "fixed-width",
@@ -36497,14 +36497,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "jEUV9",
+                              "id": "Lt8ZR",
                               "name": "CTA link",
                               "layout": "vertical",
                               "gap": 6,
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "lShf9",
+                                  "id": "bka9m",
                                   "name": "Label",
                                   "fill": "$cabana-dark",
                                   "content": "Ver Ruta IA →",
@@ -36514,7 +36514,7 @@
                                 },
                                 {
                                   "type": "rectangle",
-                                  "id": "s94IJe",
+                                  "id": "Lo4xP",
                                   "name": "Underline",
                                   "fill": "$cabana-blue",
                                   "width": 100,
@@ -36528,7 +36528,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "aelv8",
+                      "id": "HTY92",
                       "name": "Service card",
                       "width": "fill_container",
                       "height": 460,
@@ -36540,7 +36540,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "Wwlvn",
+                          "id": "ypsy6",
                           "name": "Top",
                           "width": "fill_container",
                           "justifyContent": "space_between",
@@ -36548,7 +36548,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "SvVCs",
+                              "id": "QYfmi",
                               "name": "Door",
                               "fill": "$cabana-green",
                               "content": "YA TENGO LA IDEA",
@@ -36559,7 +36559,7 @@
                             },
                             {
                               "type": "icon",
-                              "id": "MOn78",
+                              "id": "IsJJE",
                               "name": "Arrow",
                               "width": 28,
                               "height": 28,
@@ -36571,7 +36571,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "uQOZK",
+                          "id": "xBWVh",
                           "name": "Body",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -36579,7 +36579,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "rNDbp",
+                              "id": "n3aDw",
                               "name": "H3",
                               "fill": "#FFFFFF",
                               "textGrowth": "fixed-width",
@@ -36592,7 +36592,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "iYEtR",
+                              "id": "G3VON",
                               "name": "Summary",
                               "fill": "#E0E6F5",
                               "textGrowth": "fixed-width",
@@ -36605,7 +36605,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "ph7ER",
+                              "id": "eAM4B",
                               "name": "Facts",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -36617,7 +36617,7 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "nMSqD",
+                                  "id": "mtqcq",
                                   "name": "Fact",
                                   "width": "fill_container",
                                   "gap": 12,
@@ -36625,7 +36625,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "Gpzpz",
+                                      "id": "jEcFZ",
                                       "name": "Icon",
                                       "width": 20,
                                       "height": 20,
@@ -36635,7 +36635,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "RYkDQ",
+                                      "id": "KkRXd",
                                       "name": "Text",
                                       "fill": "#FFFFFF",
                                       "textGrowth": "fixed-width",
@@ -36650,7 +36650,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "eOH78",
+                                  "id": "P63Lsx",
                                   "name": "Fact",
                                   "width": "fill_container",
                                   "gap": 12,
@@ -36658,7 +36658,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "VZyel",
+                                      "id": "UuILx",
                                       "name": "Icon",
                                       "width": 20,
                                       "height": 20,
@@ -36668,7 +36668,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "uGzk2",
+                                      "id": "EW3F0",
                                       "name": "Text",
                                       "fill": "#FFFFFF",
                                       "textGrowth": "fixed-width",
@@ -36685,14 +36685,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "muTPJ",
+                              "id": "zEpdq",
                               "name": "CTA link",
                               "layout": "vertical",
                               "gap": 6,
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "MjDFP",
+                                  "id": "pDbOy",
                                   "name": "Label",
                                   "fill": "#FFFFFF",
                                   "content": "Ver AI First Move →",
@@ -36702,7 +36702,7 @@
                                 },
                                 {
                                   "type": "rectangle",
-                                  "id": "S1Bt9G",
+                                  "id": "c891Cu",
                                   "name": "Underline",
                                   "fill": "$cabana-green",
                                   "width": 141,
