@@ -1,0 +1,105 @@
+# Escena — Hero del home: "la bifurcación" (tema dark)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Sustituye: public/home/hero-team.webp (app/[locale]/_components/hero-section.tsx)
+#
+# Contenedor: bg-cabana-dark (#0f172a), next/image fill + object-cover.
+#   - Desktop: 46% derecho del hero, mín. 720 px de alto -> vertical ~4:5.
+#     El borde izquierdo es diagonal (clip-path 18% arriba -> 0% abajo): la
+#     esquina superior izquierda se corta.
+#     La barra de cifras se superpone al borde inferior.
+#   - Mobile: ancho completo, aspect 4:3, debajo del texto.
+# Por eso: formato 4:5, contenido en el centro y a la derecha, esquina superior
+# izquierda y 15% inferior solo con decoración, y fondo opaco del mismo navy.
+
+style_ref: cabana-ink-doodle
+theme: dark
+background: solid
+composition: single
+aspect_ratio: "4:5"
+export:
+  size: "1600x2000"
+  format: webp
+  path: public/home/hero-crossroads.webp   # nombre nuevo: evita la caché de next/image
+safe_zone: >
+  Figura, poste y brújula dentro del rectángulo central (15–85% horizontal,
+  15–80% vertical). Esquina superior izquierda y franja inferior solo con
+  destellos o líneas sueltas.
+accent_mode: highlight-one   # el verde marca "por dónde empezar"
+
+concept: >
+  Una persona frente a un cruce de caminos: decidir por dónde empezar con IA.
+  Los dos senderos anticipan los dos servicios (mapa = Ruta IA, máquina =
+  AI First Move) sin repetir el camino de las tarjetas de abajo.
+
+objects:
+  - element: figura
+    content: "figura de palitos de espaldas, en la parte baja central, mirando el cruce, una mano en la barbilla"
+    fill: empty
+    accent: false
+  - element: brújula
+    content: "brújula grande en el suelo, frente a la figura, aguja apuntando hacia el sendero izquierdo"
+    fill: hatch
+    accent: true
+    accent_target: "la aguja"
+  - element: poste indicador
+    content: "poste de madera en el centro del cruce con dos tablas en forma de flecha, una a cada lado, sin texto (solo líneas onduladas)"
+    fill: hatch
+    accent: false
+  - element: sendero izquierdo
+    content: "sendero de doble línea que sube hacia la izquierda y termina en un mapa desplegado con marcas punteadas"
+    fill: empty
+    accent: false
+  - element: sendero derecho
+    content: "sendero de doble línea que sube hacia la derecha y termina en una máquina con engranajes y luz de encendido"
+    fill: empty
+    accent: false
+
+decor:
+  arrows: 2        # punteadas en #94a3b8 desde la figura hacia cada sendero, una con bucle
+  sparkles: 5      # alrededor de la brújula y en los extremos de los senderos
+  question_marks: 2  # pequeños signos de pregunta sobre la cabeza de la figura, en #94a3b8
+
+colors:
+  background: "#0f172a"
+  ink: "#f1f5f9"
+  hatch: "#cbd5e1"
+  decor: "#94a3b8"
+  accent: "#57ff8f"
+  interiors: "#0f172a"
+
+prompt: >
+  Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+  background, vertical 4:5 composition. A simple stick figure seen from behind
+  stands at the lower center, one hand on its chin, looking at a fork in the road
+  ahead, with two small question marks above its head. On the ground in front of
+  the figure lies a large round compass whose needle points toward the left path.
+  At the fork stands a wooden signpost with two blank arrow-shaped boards
+  pointing left and right, with squiggly lines instead of text. The left path,
+  drawn with light double lines and a dashed center line, climbs to the upper
+  left and ends at an unfolded paper map with a dotted route and a few marks. The
+  right path climbs to the upper right and ends at a boxy machine with
+  interlocking gears and a small power light. Thick, slightly wobbly off-white
+  #f1f5f9 lines with double-line contours, diagonal hatching in light gray
+  #cbd5e1 on the signpost and compass rim. All object interiors are the same dark
+  navy #0f172a as the background. Two curved dotted arrows in muted slate
+  #94a3b8 lead from the figure toward each path, one with a small loop, and small
+  four-point sparkles around the compass and at the end of each path. Only the
+  compass needle filled with flat neon green #57ff8f, outlined in off-white;
+  everything else monochrome. Keep the figure, signpost and compass in the
+  center of the frame; leave the top-left corner and the bottom 15% mostly empty.
+  No text, no letters, no words, no labels, no numbers anywhere. No gradients,
+  no glow, no shading, no realistic 3D. Clean vector look.
+
+negative_prompt: >
+  text, letters, words, labels, numbers, typography, white background, black
+  background, cream, beige, paper texture, white fills, glow, neon glow, gradient,
+  vignette, photorealistic, 3d render, glossy, shadow, logos, faces, detailed
+  people, robot, blue, multiple accent colors, landscape scenery, mountains, sky,
+  perfect geometric lines, objects cut at edges
+
+# Post-proceso (lo hago yo al integrarla)
+# - Igualar el fondo a #0f172a exacto.
+# - Guardar como public/home/hero-crossroads.webp y actualizar hero-section.tsx.
+# - Revisar el encuadre en desktop (diagonal + barra de cifras) y en móvil (4:3);
+#   si se corta algo importante, pasar a object-contain o ajustar object-position.
+# - Actualizar inicio.hero.imageAlt en messages/*.json (pasa por brand-guardian).

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { ArrowRight, ArrowUpRight, BadgeDollarSign, CalendarRange } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -22,12 +23,14 @@ const themes = [
     muted: "text-slate-700",
     accent: "text-cabana-blue",
     underline: "border-cabana-blue",
+    image: "/ruta-ai/roadmap.webp",
   },
   {
     card: "bg-cabana-blue text-white",
     muted: "text-cabana-light",
     accent: "text-cabana-green",
     underline: "border-cabana-green",
+    image: "/ai-first-move/roadmap-on-blue.webp",
   },
 ];
 
@@ -65,6 +68,16 @@ export async function ServicesSection() {
                   </span>
                   <ArrowUpRight className="size-7 shrink-0" aria-hidden />
                 </div>
+                {theme.image && (
+                  <Image
+                    src={theme.image}
+                    alt=""
+                    width={2000}
+                    height={1116}
+                    sizes="(min-width: 768px) 552px, 100vw"
+                    className="w-full rounded-lg"
+                  />
+                )}
                 <div className="flex flex-col gap-4">
                   <h3 className="text-4xl font-bold leading-tight md:text-5xl">{item.name}</h3>
                   <p className={cn("text-lg", theme.muted)}>{item.summary}</p>

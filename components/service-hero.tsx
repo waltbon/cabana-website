@@ -26,7 +26,8 @@ export function ServiceHero({
   ctaPrimaryHref: string;
   ctaSecondary: string;
   ctaSecondaryHref: string;
-  image: { src: string; alt: string };
+  /** `contain` for illustrations drawn on the hero's own dark background, so they are never cropped. */
+  image: { src: string; alt: string; fit?: "cover" | "contain" };
 }) {
   return (
     <section className="bg-background px-3 pt-3 pb-8 md:px-6 md:pt-6 md:pb-12">
@@ -38,7 +39,9 @@ export function ServiceHero({
             fill
             priority
             sizes="(min-width: 1024px) 42vw, 100vw"
-            className="object-cover lg:rounded-xl"
+            className={
+              image.fit === "contain" ? "object-contain" : "object-cover lg:rounded-xl"
+            }
           />
         </div>
         <div className="flex flex-1 flex-col justify-center gap-5 px-6 pt-8 pb-10 md:gap-6 lg:py-16 lg:pr-14 lg:pl-20">

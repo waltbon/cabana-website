@@ -1,0 +1,70 @@
+# Escena de ejemplo — Roadmap de Ruta IA (fondo blanco, listo para recortar)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+
+style_ref: cabana-ink-doodle
+theme: light
+background: transparent   # se genera en blanco puro y se recorta después
+composition: single
+aspect_ratio: "16:9"
+accent_mode: selective
+
+objects:
+  - element: camino
+    content: "sendero sinuoso de izquierda a derecha, doble línea, línea central discontinua, interior blanco"
+    accent: false
+  - element: base de datos
+    content: "cilindro con lupa encima y dos hojas sueltas con líneas onduladas"
+    fill: hatch
+    accent: false
+  - element: grilla
+    content: "tabla con algunas celdas tachadas y un triángulo de alerta"
+    fill: hatch
+    accent: false
+  - element: tarjetas
+    content: "cinco tarjetas en escalera, de menor a mayor"
+    fill: hatch
+    accent: true
+    accent_target: "la tarjeta más alta"
+  - element: pizarra
+    content: "pizarra en trípode con lista de checks y líneas onduladas, banderín en la cima"
+    fill: empty
+    accent: true
+    accent_target: "el banderín"
+  - element: badge
+    content: "sello circular con check junto a la pizarra"
+    accent: true
+    accent_target: "relleno del sello"
+  - element: hitos
+    content: "tres puntos negros sobre el camino"
+    fill: solid
+    accent: false
+
+decor:
+  arrows: 3      # flechas punteadas uniendo paradas, un bucle entre la grilla y las tarjetas
+  sparkles: 4    # alrededor de la pizarra
+
+prompt: >
+  Hand-drawn ink doodle illustration of a winding road climbing from bottom left
+  to top right, drawn with double lines and a dashed center line, with three small
+  black dots along it. Along the road: a database cylinder with a magnifying glass
+  and two loose papers with squiggly lines; a grid table with some crossed-out
+  cells and a small warning triangle; five cards stacked like steps from small to
+  tall; a whiteboard on a tripod with a checklist of check marks and squiggly lines,
+  a small flag on top and a round check seal beside it. Thick, slightly wobbly black
+  marker lines with double-line contours, solid ink fills and diagonal hatching.
+  Curved dotted arrows linking each stop, one with a small loop, and four-point
+  sparkles around the whiteboard. Isolated on a pure flat white #ffffff background,
+  all object interiors (road, cards, whiteboard, papers, grid cells) the same pure
+  white, black #111111 ink. Only the tallest card, the flag and the check seal
+  filled with flat neon green #57ff8f, outlined in ink; everything else monochrome.
+  No text, no letters, no words, no labels, no numbers anywhere. No gradients, no
+  shading, no realistic 3D. Clean vector, generous margins, 16:9.
+
+negative_prompt: >
+  text, letters, words, labels, captions, numbers, typography, checkerboard,
+  transparency grid, beige, cream, paper texture, off-white fills, gradient,
+  photorealistic, 3d render, glossy, shadow, logos, multiple colors, blue,
+  background scenery, perfect geometric lines
+
+# Después de generar: quitar el blanco (remove.bg, rembg o Photoshop "Quitar fondo")
+# para obtener el PNG transparente.

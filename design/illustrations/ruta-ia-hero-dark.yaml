@@ -1,0 +1,93 @@
+# Escena — Hero de Ruta IA (tema dark)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Sustituye: public/services/hero/ruta-ia-roadmap.webp (components/service-hero.tsx)
+#
+# Contenedor: bg-section-dark (#0f172a), next/image con object-cover.
+#   - Desktop: ~42% del ancho, mín. 640 px de alto -> casi cuadrado.
+#   - Mobile: ancho completo x 260 px -> franja horizontal (~1.45:1).
+# Por eso: formato 1:1, todo lo importante dentro del 60% central,
+# y fondo opaco del mismo navy (no hace falta recortar).
+
+style_ref: cabana-ink-doodle
+theme: dark
+background: solid          # #0f172a, idéntico al contenedor: se funde sin bordes
+composition: single
+aspect_ratio: "1:1"
+export:
+  size: "2000x2000"
+  format: webp
+  path: public/services/hero/ruta-ia-roadmap.webp
+safe_zone: "60% central; márgenes solo con camino, destellos y flechas"
+accent_mode: selective
+
+objects:
+  - element: camino
+    content: "sendero sinuoso que sube en S desde abajo a la izquierda hasta arriba a la derecha, doble línea, línea central discontinua, tres hitos"
+    fill: empty
+    accent: false
+  - element: base de datos
+    content: "cilindro con lupa y dos hojas sueltas con líneas onduladas, abajo a la izquierda"
+    fill: hatch
+    accent: false
+  - element: grilla
+    content: "tabla con celdas tachadas y triángulo de alerta, en la primera curva"
+    fill: hatch
+    accent: false
+  - element: tarjetas
+    content: "cinco tarjetas en escalera, de menor a mayor, en la segunda curva"
+    fill: hatch
+    accent: true
+    accent_target: "la tarjeta más alta"
+  - element: pizarra
+    content: "pizarra en trípode con lista de checks, banderín en la cima, arriba a la derecha"
+    fill: empty
+    accent: true
+    accent_target: "el banderín"
+  - element: badge
+    content: "sello circular con check junto a la pizarra"
+    accent: true
+    accent_target: "relleno del sello"
+
+decor:
+  arrows: 3        # punteadas, color decor (#94a3b8), una con bucle
+  sparkles: 5      # alrededor de la pizarra y uno junto a las tarjetas
+
+colors:
+  background: "#0f172a"
+  ink: "#f1f5f9"
+  hatch: "#cbd5e1"
+  decor: "#94a3b8"
+  accent: "#57ff8f"
+  interiors: "#0f172a"   # interiores = fondo, nunca blanco ni crema
+
+prompt: >
+  Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+  background, square 1:1 composition. A winding road shaped like an S climbs from
+  the bottom left to the top right, drawn with light double lines and a dashed
+  center line, with three small light dots along it. Along the road, in order: a
+  database cylinder with a magnifying glass and two loose papers with squiggly
+  lines; a grid table with some crossed-out cells and a small warning triangle;
+  five cards stacked like steps from small to tall; at the top, a whiteboard on a
+  tripod with a checklist of check marks and squiggly lines, a small flag on top
+  and a round check seal beside it. Thick, slightly wobbly off-white #f1f5f9 lines
+  with double-line contours, diagonal hatching in light gray #cbd5e1. All object
+  interiors are the same dark navy #0f172a as the background. Curved dotted arrows
+  in muted slate #94a3b8 linking each stop, one with a small loop, and small
+  four-point sparkles around the whiteboard. Only the tallest card, the flag and
+  the check seal filled with flat neon green #57ff8f, outlined in off-white;
+  everything else monochrome. Keep all key objects inside the central 60% of the
+  frame. No text, no letters, no words, no labels, no numbers anywhere. No
+  gradients, no glow, no shading, no realistic 3D. Clean vector look, generous
+  margins.
+
+negative_prompt: >
+  text, letters, words, labels, numbers, typography, white background, black
+  background, cream, beige, paper texture, white fills, glow, neon glow, gradient,
+  vignette, photorealistic, 3d render, glossy, shadow, logos, blue, multiple
+  accent colors, background scenery, perfect geometric lines, objects cut at edges
+
+# Post-proceso
+# - Si el fondo sale con otro tono, rellenarlo a #0f172a exacto (bote de pintura
+#   en Photoshop/Figma, tolerancia baja) para que no se note el borde del contenedor.
+# - Exportar WebP 2000x2000 y reemplazar public/services/hero/ruta-ia-roadmap.webp.
+# - Revisar el alt (hero.imageAlt en messages/*.json): debe describir el roadmap.

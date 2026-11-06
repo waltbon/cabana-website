@@ -5,6 +5,7 @@ import {
   TrendingUp,
   type LucideIcon,
 } from "lucide-react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { getTranslations } from "next-intl/server";
 
@@ -31,6 +32,16 @@ function DeliverableCard({
         className
       )}
     >
+      {featured && (
+        <Image
+          src="/ai-first-move/deliverable-machine.webp"
+          alt=""
+          width={2121}
+          height={1282}
+          sizes="(min-width: 1024px) 560px, 100vw"
+          className="mx-auto mb-auto h-auto w-full max-w-md"
+        />
+      )}
       <span className="icon-wrapper icon-wrapper-md">
         <Icon className="size-6 text-white" aria-hidden />
       </span>

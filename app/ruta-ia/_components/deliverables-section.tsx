@@ -7,6 +7,7 @@ import {
   Route,
   type LucideIcon,
 } from "lucide-react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { getRutaIaTranslations } from "../lib/i18n";
 
@@ -30,6 +31,16 @@ function DeliverableCard({
         featured ? "bg-cabana-light md:justify-end md:p-8" : "bg-card"
       )}
     >
+      {featured && (
+        <Image
+          src="/ruta-ai/deliverable-map.webp"
+          alt=""
+          width={1961}
+          height={1339}
+          sizes="(min-width: 1024px) 560px, 100vw"
+          className="mx-auto mb-auto h-auto w-full max-w-md"
+        />
+      )}
       <span className="icon-wrapper icon-wrapper-md">
         <Icon className="size-6 text-white" aria-hidden />
       </span>

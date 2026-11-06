@@ -1,0 +1,95 @@
+# Escena — Hero del home: "la brújula sobre los datos" (tema dark)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Alternativa a home-hero-dark.yaml (la bifurcación). Mismo contenedor y encuadre.
+# Sustituye: public/home/hero-team.webp (app/[locale]/_components/hero-section.tsx)
+#
+# Contenedor: bg-cabana-dark (#0f172a), next/image fill + object-cover.
+#   - Desktop: 46% derecho, mín. 720 px de alto -> vertical ~4:5; borde izquierdo
+#     diagonal (corta la esquina superior izquierda); barra de cifras sobre el borde inferior.
+#   - Mobile: ancho completo, aspect 4:3.
+
+style_ref: cabana-ink-doodle
+theme: dark
+background: solid
+composition: single
+aspect_ratio: "4:5"
+export:
+  size: "1600x2000"
+  format: webp
+  path: public/home/hero-compass.webp
+safe_zone: >
+  Brújula y tarjeta destacada dentro del rectángulo central (15–85% horizontal,
+  15–80% vertical). Esquina superior izquierda y franja inferior solo con
+  objetos dispersos de fondo o destellos.
+accent_mode: selective
+
+concept: >
+  Entre muchos datos y opciones dispersos, la brújula (Cabana) señala una sola
+  oportunidad: por dónde empezar. Simple e icónico; se lee igual en móvil.
+
+objects:
+  - element: brújula
+    content: "brújula grande en el centro, vista ligeramente desde arriba, con borde grueso, marcas cardinales como rayitas (sin letras) y la aguja apuntando hacia arriba a la derecha"
+    fill: hatch
+    accent: true
+    accent_target: "la aguja"
+  - element: objetos dispersos
+    content: "alrededor de la brújula, sobre la superficie: dos cilindros de base de datos, una tabla/grilla pequeña, hojas con líneas onduladas, un gráfico de barras pequeño, una nube, un engranaje suelto y unos post-its; algunos ligeramente torcidos, sin orden"
+    fill: hatch
+    accent: false
+  - element: tarjeta destacada
+    content: "arriba a la derecha, una sola tarjeta un poco levantada sobre las demás, con un check"
+    fill: solid
+    accent: true
+    accent_target: "el relleno de la tarjeta"
+  - element: trayectoria
+    content: "flecha punteada que sale de la punta de la aguja y llega a la tarjeta destacada"
+    accent: false
+
+decor:
+  arrows: 1        # solo la trayectoria aguja -> tarjeta, en #f1f5f9 para que se lea
+  sparkles: 4      # alrededor de la tarjeta destacada y de la brújula
+  motion_lines: false
+
+colors:
+  background: "#0f172a"
+  ink: "#f1f5f9"
+  hatch: "#cbd5e1"
+  decor: "#94a3b8"   # objetos dispersos más tenues que la brújula y la tarjeta
+  accent: "#57ff8f"
+  interiors: "#0f172a"
+
+prompt: >
+  Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+  background, vertical 4:5 composition. A large round compass sits in the center,
+  seen slightly from above, with a thick double-line rim and small tick marks
+  instead of letters; its needle points toward the upper right. Scattered loosely
+  around the compass, slightly tilted and in no particular order: two database
+  cylinders, a small grid table, sheets of paper with squiggly lines, a small bar
+  chart, a cloud, a loose gear and a few sticky notes, drawn in muted slate
+  #94a3b8 so they recede. At the upper right, a single card lifted slightly above
+  the rest, marked with a check, with small four-point sparkles around it. A
+  dotted arrow in off-white runs from the tip of the compass needle to that card.
+  The compass and the highlighted card use thick, slightly wobbly off-white
+  #f1f5f9 lines with double-line contours and diagonal hatching in light gray
+  #cbd5e1 on the compass rim. All object interiors are the same dark navy
+  #0f172a as the background. Only the compass needle and the highlighted card
+  filled with flat neon green #57ff8f, outlined in off-white; everything else
+  monochrome. Keep the compass and the highlighted card in the center of the
+  frame; leave the top-left corner and the bottom 15% with only scattered small
+  objects. No text, no letters, no words, no labels, no numbers anywhere, not
+  even N S E W on the compass. No gradients, no glow, no shading, no realistic
+  3D. Clean vector look.
+
+negative_prompt: >
+  text, letters, words, labels, numbers, N, S, E, W, cardinal letters,
+  typography, white background, black background, cream, beige, paper texture,
+  white fills, glow, neon glow, gradient, vignette, photorealistic, 3d render,
+  glossy, shadow, logos, people, faces, robot, blue, multiple accent colors,
+  landscape, map, road, perfect geometric lines, objects cut at edges
+
+# Post-proceso (lo hago yo al integrarla)
+# - Igualar el fondo a #0f172a exacto.
+# - Guardar como public/home/hero-compass.webp y actualizar hero-section.tsx.
+# - Revisar encuadre en desktop (diagonal + barra de cifras) y móvil (4:3).
+# - Actualizar inicio.hero.imageAlt en messages/*.json (pasa por brand-guardian).

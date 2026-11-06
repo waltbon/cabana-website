@@ -1,0 +1,59 @@
+# Escenas — Card destacado de "Qué recibe" (Ruta IA y AI First Move)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Contenedor: card featured, bg-cabana-light (#e0e6f5), texto abajo, ilustración arriba.
+# Generar en blanco puro y recortar con design/tools/white-to-alpha.py.
+
+common:
+  theme: light
+  background: transparent
+  aspect_ratio: "3:2"
+  accent_mode: selective
+  negative_prompt: >
+    text, letters, words, labels, captions, numbers, typography, checkerboard,
+    transparency grid, beige, cream, paper texture, off-white fills, gradient,
+    photorealistic, 3d render, glossy, shadow, logos, faces, detailed people,
+    robot, multiple colors, blue, background scenery, perfect geometric lines,
+    road, highway
+
+ruta_ia:
+  card: "Mapa de Oportunidades de IA"
+  output: public/ruta-ai/deliverable-map.webp
+  accent_targets: "el banderín de la primera marca y la aguja de la brújula"
+  prompt: >
+    Hand-drawn ink doodle illustration of an unfolded paper map with folded,
+    slightly curled edges, seen from a gentle three-quarter angle. On the map, a
+    simple terrain of squiggly contour lines and a few small doodle trees. Five
+    marked spots on the map connected in order by a dotted path: the first spot
+    has a small planted flag; the second and third spots each have a small wrench
+    icon; the fourth and fifth spots each have a small padlock icon. A magnifying
+    glass rests on the corner of the map and a round compass sits beside it. A few
+    four-point sparkles and one curved dotted arrow around the map. Thick, slightly
+    wobbly black marker lines with double-line contours, solid ink fills and
+    diagonal hatching on the folds. Isolated on a pure flat white #ffffff
+    background, map paper and all object interiors the same pure white, black
+    #111111 ink. Only the flag on the first spot and the compass needle filled
+    with flat neon green #57ff8f, outlined in ink; everything else monochrome. No
+    text, no letters, no words, no labels, no numbers anywhere. No gradients, no
+    shading, no realistic 3D. Clean vector, centered, generous margins, 3:2.
+
+ai_first_move:
+  card: "Un caso de uso en producción"
+  output: public/ai-first-move/deliverable-machine.webp
+  accent_targets: "el engranaje grande, la luz de encendido y el botón de aprobar"
+  prompt: >
+    Hand-drawn ink doodle illustration of a friendly machine in operation, seen
+    from the front. A boxy machine panel with interlocking gears of different
+    sizes behind a window, short curved motion lines around them and a small
+    power light on top. A small conveyor belt runs through the machine from left
+    to right: on the left, sheets of paper with squiggly lines go in; on the right,
+    the same sheets come out each marked with a check mark. Next to the machine, a
+    simple stick figure presses a large round approve button on a small pedestal.
+    A few four-point sparkles and one curved dotted arrow following the conveyor.
+    Thick, slightly wobbly black marker lines with double-line contours, solid ink
+    fills and diagonal hatching on the machine sides. Isolated on a pure flat
+    white #ffffff background, all object interiors the same pure white, black
+    #111111 ink. Only the largest gear, the power light and the approve button
+    filled with flat neon green #57ff8f, outlined in ink; everything else
+    monochrome. No text, no letters, no words, no labels, no numbers anywhere. No
+    gradients, no shading, no realistic 3D. Clean vector, centered, generous
+    margins, 3:2.

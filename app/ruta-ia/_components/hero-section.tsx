@@ -18,7 +18,7 @@ export async function HeroSection() {
       ctaPrimaryHref={calendarUrl}
       ctaSecondary={t("ctaSecondary")}
       ctaSecondaryHref="#incluye"
-      image={{ src: "/services/hero/ruta-ia.webp", alt: t("imageAlt") }}
+      image={{ src: "/services/hero/ruta-ia-roadmap.webp", alt: t("imageAlt"), fit: "contain" }}
     />
   );
 }
