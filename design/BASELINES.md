@@ -14,7 +14,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 | Frame | Archivo | Estado | Commit | Deuda |
 |---|---|---|---|---|
-| `PG/index` | `app/[locale]/page.tsx` | dibujado | `d29a0c7` | Fondo del hero es WebGL (`PlasmaField`): en el `.pen` se aproxima con un gradiente radial. Logos de clientes en escala de grises (`grayscale`) en código, a color en el `.pen`. Títulos de `capabilities` y `cases` (`text-2xl`, `text-lg`) fuera de la escala global de headings. |
+| `PG/index` | `app/[locale]/page.tsx` | dibujado | `9fffc9a` | Enlaces subrayados del hero y de las tarjetas de servicios hechos a mano: falta la variante `Button/link` en el DS (`.pen` y código). Diagonales decorativas con `clip-path` arbitrario en código. Logos de clientes en escala de grises (`grayscale`) en código, a color en el `.pen`. Títulos de `capabilities` y `cases` (`text-2xl`, `text-lg`) fuera de la escala global de headings. |
 | `PG/about` | `app/[locale]/about/page.tsx` | pendiente | — | — |
 | `PG/contact` | `app/[locale]/contact/page.tsx` | pendiente | — | Dibujar estados del formulario: base, enviando, enviado, error. |
 | `PG/careers` | `app/[locale]/careers/page.tsx` | pendiente | — | — |
