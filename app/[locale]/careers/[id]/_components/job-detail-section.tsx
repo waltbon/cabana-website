@@ -56,9 +56,9 @@ export function JobDetailSection({ career }: JobDetailSectionProps) {
               </p>
             </FadeIn>
 
-            <SectionBlock title="¿Qué harás?" items={career.responsibilities} />
+            <SectionBlock title="¿Qué hará?" items={career.responsibilities} />
             <SectionBlock title="¿Qué buscamos?" items={career.requirements} />
-            <SectionBlock title="¿Qué te diferenciará?" items={career.differentiators} />
+            <SectionBlock title="¿Qué marcará la diferencia?" items={career.differentiators} />
 
             <FadeIn>
               <div className="flex flex-col gap-4">
@@ -78,7 +78,7 @@ export function JobDetailSection({ career }: JobDetailSectionProps) {
                 <p className="mt-2 rounded-xl border border-cabana-blue/20 bg-cabana-blue/5 p-4 text-sm leading-relaxed text-muted-foreground">
                   <strong className="text-foreground">Una nota sobre el caso práctico:</strong>{" "}
                   nuestras preguntas están basadas en situaciones reales. No buscamos respuestas
-                  perfectas — buscamos cómo pensás, cómo priorizás y cómo manejás la presión.
+                  perfectas — buscamos cómo piensa, cómo prioriza y cómo maneja la presión.
                 </p>
               </div>
             </FadeIn>
