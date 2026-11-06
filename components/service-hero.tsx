@@ -30,18 +30,18 @@ export function ServiceHero({
 }) {
   return (
     <section className="bg-background px-3 pt-3 pb-8 md:px-6 md:pt-6 md:pb-12">
-      <div className="flex flex-col overflow-hidden rounded-xl bg-section-dark lg:min-h-160 lg:flex-row">
-        <div className="relative h-65 shrink-0 lg:order-last lg:h-auto lg:w-[42%] xl:w-165">
+      <div className="mx-auto flex max-w-[1200px] flex-col overflow-hidden rounded-xl bg-section-dark lg:min-h-160 lg:flex-row">
+        <div className="relative h-65 shrink-0 lg:order-last lg:h-auto lg:w-[42%]">
           <Image
             src={image.src}
             alt={image.alt}
             fill
             priority
-            sizes="(min-width: 1024px) 42vw, 100vw"
+            sizes="(min-width: 1200px) 504px, (min-width: 1024px) 42vw, 100vw"
             className="object-cover lg:rounded-xl"
           />
         </div>
-        <div className="flex flex-1 flex-col justify-center gap-5 px-6 pt-8 pb-10 md:gap-6 lg:py-16 lg:pr-14 lg:pl-20">
+        <div className="flex flex-1 flex-col justify-center gap-5 px-6 pt-8 pb-10 md:gap-6 lg:px-12 lg:py-16">
           <Badge variant="pretitle" className="self-start">
             {eyebrow}
           </Badge>
