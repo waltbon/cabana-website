@@ -1,0 +1,158 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "https://cabanadata.com/about"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 20.0,
+      "position": 8.8,
+      "page": "https://cabanadata.com/about"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/"
+      ],
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 23.7,
+      "page": "https://cabanadata.com/"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/contact"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 25.7,
+      "page": "https://cabanadata.com/contact"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en"
+      ],
+      "clicks": 0,
+      "impressions": 29,
+      "ctr": 0,
+      "position": 6.5,
+      "page": "https://cabanadata.com/en"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/data-analytics-use-case"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6,
+      "page": "https://cabanadata.com/en/services/data-analytics-use-case"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/product-design-discovery"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "page": "https://cabanadata.com/en/services/product-design-discovery"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/posts/inversion-en-ia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "page": "https://cabanadata.com/posts/inversion-en-ia"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/posts/metodologia-aer"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/posts/metodologia-aer"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/posts?author=Walter%20Bonilla"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3,
+      "page": "https://cabanadata.com/posts?author=Walter%20Bonilla"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 66.5,
+      "page": "https://cabanadata.com/services"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services/dashboards-analytics-interfaces"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 25.5,
+      "page": "https://cabanadata.com/services/dashboards-analytics-interfaces"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services/data-consulting"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 55,
+      "page": "https://cabanadata.com/services/data-consulting"
+    },
+    {
+      "keys": [
+        "https://ruta-ai.cabanadata.com/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 4.7,
+      "page": "https://ruta-ai.cabanadata.com/"
+    },
+    {
+      "keys": [
+        "https://ruta-ai.cabanadata.com/evaluation"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8,
+      "page": "https://ruta-ai.cabanadata.com/evaluation"
+    }
+  ],
+  "totals": {
+    "clicks": 1,
+    "impressions": 86,
+    "ctr": 1.16,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 14,
+  "error": null,
+  "date_range": {
+    "start": "2026-10-21",
+    "end": "2026-10-27"
+  }
+}
