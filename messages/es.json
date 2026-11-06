@@ -2674,6 +2674,21 @@
           "hint": "AI First Move · 10 semanas",
           "href": "/ai-first-move"
         }
+      ],
+      "statsLabel": "Resultados en proyectos de clientes",
+      "stats": [
+        {
+          "value": "50+",
+          "label": "pipelines de BigQuery en producción"
+        },
+        {
+          "value": "20→2 min",
+          "label": "para reunir el historial de campañas"
+        },
+        {
+          "value": "45",
+          "label": "entidades de 8 plataformas, automatizadas"
+        }
       ]
     },
     "clients": {
@@ -2726,6 +2741,7 @@
       "directEntry": "Si quien decide ya eligió la idea, puede entrar directo a AI First Move. Ruta IA no es un paso obligatorio."
     },
     "services": {
+      "pretitle": "Servicios",
       "title": "Dos servicios, cada uno con precio y plazo fijos",
       "items": [
         {
