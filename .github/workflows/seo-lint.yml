@@ -6,6 +6,7 @@ on:
       - "messages/**"
       - "app/**"
       - "data/blog/**"
+      - "content/**"
       - "next.config.ts"
       - "docs/seo/rules.json"
       - "docs/seo/redirects.csv"

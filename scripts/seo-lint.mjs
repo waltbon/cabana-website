@@ -236,6 +236,33 @@ function checkBlog() {
   }
 }
 
+function checkBlogBodies() {
+  const { bodies: dir, locale } = rules.blog;
+  if (!dir) return;
+  const terms = rules.terms
+    .filter((t) => t.locales.includes(locale) && (t.namespaces.includes("*") || t.namespaces.includes("blog")))
+    .map((t) => ({ ...t, regex: termRegex(t) }));
+
+  for (const name of readdirSync(join(ROOT, dir)).filter((f) => f.endsWith(".mdx")).sort()) {
+    const file = `${dir}/${name}`;
+    // Prose only: drop fenced code and link/image targets so URLs never match
+    const text = readFileSync(join(ROOT, file), "utf8")
+      .replace(/```[\s\S]*?```/g, (m) => m.replace(/[^\n]/g, " "))
+      .replace(/\]\([^)]*\)/g, "]()");
+    const key = `posts.${name.replace(/\.mdx$/, "")}.body`;
+    for (const term of terms) {
+      for (const match of text.matchAll(term.regex)) {
+        if (isException(term.id, key)) continue;
+        const line = text.slice(0, match.index).split("\n").length;
+        report("content", "warning", `"${match[0]}" (línea ${line}): ${term.reason} Usar: ${term.use}.`, {
+          rule: term.id, file, locale, key,
+          excerpt: excerpt(text, match.index, match[0].length),
+        });
+      }
+    }
+  }
+}
+
 function checkMeta(file, locale, key, meta, titles) {
   const { titleMax, descriptionMin, descriptionMax } = rules.meta;
   const base = { file, locale, key };
@@ -452,7 +479,10 @@ async function checkLive() {
 const live = {};
 if (checks.includes("content")) {
   checkContent();
-  if (rules.blog) checkBlog();
+  if (rules.blog) {
+    checkBlog();
+    checkBlogBodies();
+  }
 }
 if (checks.includes("routes")) checkRoutes();
 if (checks.includes("live")) {

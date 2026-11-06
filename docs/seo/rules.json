@@ -135,8 +135,9 @@
   ],
 
   "blog": {
-    "$comment": "Posts del blog. Title, description (excerpt) y CTA salen de data/blog/index.ts (app/[locale]/posts/[slug]/page.tsx: generateMetadata y hero); el cuerpo es content/es/<slug>.mdx y no se revisa aquí. Se aplican los términos con namespace '*' o 'blog'; todo hallazgo sale como warning hasta que el copy de los posts se apruebe (B-011). titleSuffix es el template del layout (app/[locale]/layout.tsx).",
+    "$comment": "Posts del blog. Title, description (excerpt) y CTA salen de data/blog/index.ts (app/[locale]/posts/[slug]/page.tsx: generateMetadata y hero); el cuerpo es content/es/<slug>.mdx y se revisa con los mismos términos (B-033). Se aplican los términos con namespace '*' o 'blog'; todo hallazgo sale como warning hasta que el copy de los posts se apruebe (B-011). titleSuffix es el template del layout (app/[locale]/layout.tsx).",
     "source": "data/blog/index.ts",
+    "bodies": "content/es",
     "locale": "es",
     "titleSuffix": " | Cabana Data"
   },
