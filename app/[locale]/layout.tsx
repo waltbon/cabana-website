@@ -1,5 +1,6 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
+import { GLOBAL_CLIENT_NAMESPACES, pickMessages } from "@/lib/messages";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
@@ -259,7 +260,9 @@ export default async function LocaleLayout({
         <noscript>
           <img height="1" width="1" style={{ display: "none" }} alt="" src="https://px.ads.linkedin.com/collect/?pid=10268489&fmt=gif" />
         </noscript>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider
+          messages={pickMessages(messages, GLOBAL_CLIENT_NAMESPACES)}
+        >
           {/* Skip to content link for accessibility */}
           <a
             href="#main-content"
