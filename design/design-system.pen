@@ -1,5 +1,5 @@
 {
-  "version": "2.21",
+  "version": "2.22",
   "children": [
     {
       "type": "frame",
@@ -10819,107 +10819,130 @@
               "name": "Hero",
               "width": "fill_container",
               "fill": "$cabana-dark",
-              "layout": "vertical",
-              "gap": 24,
+              "gap": 48,
               "padding": [
                 96,
                 120
               ],
+              "alignItems": "center",
               "children": [
                 {
-                  "type": "text",
-                  "id": "kkQpN",
-                  "name": "Breadcrumb",
-                  "fill": "#94A3B8",
-                  "content": "Inicio  /  Capacidades  /  Data Engineering",
-                  "fontFamily": "$font-sans",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
                   "type": "frame",
-                  "id": "U4DEF",
-                  "name": "H1",
-                  "width": 1000,
+                  "id": "qyucw",
+                  "name": "Copy",
+                  "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 8,
+                  "gap": 24,
                   "children": [
                     {
                       "type": "text",
-                      "id": "ehiNd",
-                      "name": "H1 · Brand",
-                      "fill": "$cabana-green",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Data Engineering",
+                      "id": "kkQpN",
+                      "name": "Breadcrumb",
+                      "fill": "#94A3B8",
+                      "content": "Inicio  /  Capacidades  /  Data Engineering",
                       "fontFamily": "$font-sans",
-                      "fontSize": 28,
-                      "fontWeight": "600"
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U4DEF",
+                      "name": "H1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ehiNd",
+                          "name": "H1 · Brand",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Data Engineering",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 28,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "k0RPlD",
+                          "name": "H1 · Term",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ingeniería de datos en Costa Rica",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 64,
+                          "fontWeight": "700"
+                        }
+                      ]
                     },
                     {
                       "type": "text",
-                      "id": "k0RPlD",
-                      "name": "H1 · Term",
-                      "fill": "#FFFFFF",
+                      "id": "fWBxQ",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Ingeniería de datos en Costa Rica",
-                      "lineHeight": 1.05,
+                      "content": "Una sola fuente de verdad para su empresa. Integramos sus sistemas, automatizamos la carga de datos y la llevamos a dashboards que su equipo usa para decidir.",
+                      "lineHeight": 1.5,
                       "fontFamily": "$font-sans",
-                      "fontSize": 64,
-                      "fontWeight": "700"
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b0gyL4",
+                      "name": "CTAs",
+                      "gap": 12,
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "id": "w7uPQ5",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "CTA primary",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "Agendar una conversación"
+                            }
+                          }
+                        },
+                        {
+                          "id": "ycNCF",
+                          "type": "ref",
+                          "ref": "QCuy5",
+                          "name": "CTA secondary",
+                          "height": 44,
+                          "descendants": {
+                            "U4otP": {
+                              "content": "Ver el caso"
+                            }
+                          }
+                        }
+                      ]
                     }
                   ]
-                },
-                {
-                  "type": "text",
-                  "id": "fWBxQ",
-                  "name": "Subtitle",
-                  "fill": "#CBD5E1",
-                  "textGrowth": "fixed-width",
-                  "width": 780,
-                  "content": "Una sola fuente de verdad para su empresa. Integramos sus sistemas, automatizamos la carga de datos y la llevamos a dashboards que su equipo usa para decidir.",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$font-sans",
-                  "fontSize": 20,
-                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
-                  "id": "b0gyL4",
-                  "name": "CTAs",
-                  "gap": 12,
-                  "padding": [
-                    8,
-                    0,
-                    0,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "id": "w7uPQ5",
-                      "type": "ref",
-                      "ref": "BIJEs",
-                      "name": "CTA primary",
-                      "descendants": {
-                        "biwyZ": {
-                          "content": "Agendar una conversación"
-                        }
-                      }
-                    },
-                    {
-                      "id": "ycNCF",
-                      "type": "ref",
-                      "ref": "QCuy5",
-                      "name": "CTA secondary",
-                      "height": 44,
-                      "descendants": {
-                        "U4otP": {
-                          "content": "Ver el caso"
-                        }
-                      }
-                    }
-                  ]
+                  "id": "FfiMw",
+                  "name": "Illustration",
+                  "width": 480,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-ingenieria-de-datos.webp",
+                    "mode": "contain"
+                  }
                 }
               ]
             },
@@ -13465,6 +13488,19 @@
                       }
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "u3GC9N",
+                  "name": "Illustration",
+                  "width": "fill_container",
+                  "height": 342,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-ingenieria-de-datos.webp",
+                    "mode": "contain"
+                  }
                 }
               ]
             },
@@ -14630,107 +14666,130 @@
               "name": "Hero",
               "width": "fill_container",
               "fill": "$cabana-dark",
-              "layout": "vertical",
-              "gap": 24,
+              "gap": 48,
               "padding": [
                 96,
                 120
               ],
+              "alignItems": "center",
               "children": [
                 {
-                  "type": "text",
-                  "id": "YRR07",
-                  "name": "Breadcrumb",
-                  "fill": "#94A3B8",
-                  "content": "Inicio  /  Capacidades  /  Data Consulting",
-                  "fontFamily": "$font-sans",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
                   "type": "frame",
-                  "id": "h7ABOC",
-                  "name": "H1",
-                  "width": 1000,
+                  "id": "eZARY",
+                  "name": "Copy",
+                  "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 8,
+                  "gap": 24,
                   "children": [
                     {
                       "type": "text",
-                      "id": "eGssV",
-                      "name": "H1 · Brand",
-                      "fill": "$cabana-green",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Data Consulting",
+                      "id": "YRR07",
+                      "name": "Breadcrumb",
+                      "fill": "#94A3B8",
+                      "content": "Inicio  /  Capacidades  /  Data Consulting",
                       "fontFamily": "$font-sans",
-                      "fontSize": 28,
-                      "fontWeight": "600"
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h7ABOC",
+                      "name": "H1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eGssV",
+                          "name": "H1 · Brand",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Data Consulting",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 28,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YDwyt",
+                          "name": "H1 · Term",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Consultoría de datos para decidir con números confiables",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 64,
+                          "fontWeight": "700"
+                        }
+                      ]
                     },
                     {
                       "type": "text",
-                      "id": "YDwyt",
-                      "name": "H1 · Term",
-                      "fill": "#FFFFFF",
+                      "id": "BT4kO",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Consultoría de datos para decidir con números confiables",
-                      "lineHeight": 1.05,
+                      "content": "Cuando cada área llega a un número distinto, el problema no es la herramienta. Ordenamos sus datos para que la empresa decida con una sola versión de los números.",
+                      "lineHeight": 1.5,
                       "fontFamily": "$font-sans",
-                      "fontSize": 64,
-                      "fontWeight": "700"
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CxpMY",
+                      "name": "CTAs",
+                      "gap": 12,
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "id": "XwBsD",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "CTA primary",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "Agendar una conversación"
+                            }
+                          }
+                        },
+                        {
+                          "id": "l4ycVl",
+                          "type": "ref",
+                          "ref": "QCuy5",
+                          "name": "CTA secondary",
+                          "height": 44,
+                          "descendants": {
+                            "U4otP": {
+                              "content": "¿Data Consulting o Ruta IA?"
+                            }
+                          }
+                        }
+                      ]
                     }
                   ]
-                },
-                {
-                  "type": "text",
-                  "id": "BT4kO",
-                  "name": "Subtitle",
-                  "fill": "#CBD5E1",
-                  "textGrowth": "fixed-width",
-                  "width": 780,
-                  "content": "Cuando cada área llega a un número distinto, el problema no es la herramienta. Ordenamos sus datos para que la empresa decida con una sola versión de los números.",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$font-sans",
-                  "fontSize": 20,
-                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
-                  "id": "CxpMY",
-                  "name": "CTAs",
-                  "gap": 12,
-                  "padding": [
-                    8,
-                    0,
-                    0,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "id": "XwBsD",
-                      "type": "ref",
-                      "ref": "BIJEs",
-                      "name": "CTA primary",
-                      "descendants": {
-                        "biwyZ": {
-                          "content": "Agendar una conversación"
-                        }
-                      }
-                    },
-                    {
-                      "id": "l4ycVl",
-                      "type": "ref",
-                      "ref": "QCuy5",
-                      "name": "CTA secondary",
-                      "height": 44,
-                      "descendants": {
-                        "U4otP": {
-                          "content": "¿Data Consulting o Ruta IA?"
-                        }
-                      }
-                    }
-                  ]
+                  "id": "lADEZ",
+                  "name": "Illustration",
+                  "width": 480,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-consultoria-de-datos.webp",
+                    "mode": "contain"
+                  }
                 }
               ]
             },
@@ -15637,107 +15696,130 @@
               "name": "Hero",
               "width": "fill_container",
               "fill": "$cabana-dark",
-              "layout": "vertical",
-              "gap": 24,
+              "gap": 48,
               "padding": [
                 96,
                 120
               ],
+              "alignItems": "center",
               "children": [
                 {
-                  "type": "text",
-                  "id": "vPuES",
-                  "name": "Breadcrumb",
-                  "fill": "#94A3B8",
-                  "content": "Inicio  /  Capacidades  /  Digital Product",
-                  "fontFamily": "$font-sans",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
                   "type": "frame",
-                  "id": "OBeqb",
-                  "name": "H1",
-                  "width": 1000,
+                  "id": "HDpJL",
+                  "name": "Copy",
+                  "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 8,
+                  "gap": 24,
                   "children": [
                     {
                       "type": "text",
-                      "id": "H3weU",
-                      "name": "H1 · Brand",
-                      "fill": "$cabana-green",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Digital Product",
+                      "id": "vPuES",
+                      "name": "Breadcrumb",
+                      "fill": "#94A3B8",
+                      "content": "Inicio  /  Capacidades  /  Digital Product",
                       "fontFamily": "$font-sans",
-                      "fontSize": 28,
-                      "fontWeight": "600"
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OBeqb",
+                      "name": "H1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "H3weU",
+                          "name": "H1 · Brand",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Digital Product",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 28,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BBq91",
+                          "name": "H1 · Term",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Desarrollo de aplicaciones a la medida",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 64,
+                          "fontWeight": "700"
+                        }
+                      ]
                     },
                     {
                       "type": "text",
-                      "id": "BBq91",
-                      "name": "H1 · Term",
-                      "fill": "#FFFFFF",
+                      "id": "Y54jk",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Desarrollo de aplicaciones a la medida",
-                      "lineHeight": 1.05,
+                      "content": "Cuando la operación vive en correos, hojas de cálculo y personas clave, construimos la plataforma que su equipo necesita, a partir de cómo trabaja realmente.",
+                      "lineHeight": 1.5,
                       "fontFamily": "$font-sans",
-                      "fontSize": 64,
-                      "fontWeight": "700"
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EIYv6",
+                      "name": "CTAs",
+                      "gap": 12,
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "id": "UlhKt",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "CTA primary",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "Agendar una conversación"
+                            }
+                          }
+                        },
+                        {
+                          "id": "h0K9iB",
+                          "type": "ref",
+                          "ref": "QCuy5",
+                          "name": "CTA secondary",
+                          "height": 44,
+                          "descendants": {
+                            "U4otP": {
+                              "content": "Ver el caso"
+                            }
+                          }
+                        }
+                      ]
                     }
                   ]
-                },
-                {
-                  "type": "text",
-                  "id": "Y54jk",
-                  "name": "Subtitle",
-                  "fill": "#CBD5E1",
-                  "textGrowth": "fixed-width",
-                  "width": 780,
-                  "content": "Cuando la operación vive en correos, hojas de cálculo y personas clave, construimos la plataforma que su equipo necesita, a partir de cómo trabaja realmente.",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$font-sans",
-                  "fontSize": 20,
-                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
-                  "id": "EIYv6",
-                  "name": "CTAs",
-                  "gap": 12,
-                  "padding": [
-                    8,
-                    0,
-                    0,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "id": "UlhKt",
-                      "type": "ref",
-                      "ref": "BIJEs",
-                      "name": "CTA primary",
-                      "descendants": {
-                        "biwyZ": {
-                          "content": "Agendar una conversación"
-                        }
-                      }
-                    },
-                    {
-                      "id": "h0K9iB",
-                      "type": "ref",
-                      "ref": "QCuy5",
-                      "name": "CTA secondary",
-                      "height": 44,
-                      "descendants": {
-                        "U4otP": {
-                          "content": "Ver el caso"
-                        }
-                      }
-                    }
-                  ]
+                  "id": "xqh9t",
+                  "name": "Illustration",
+                  "width": 480,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-producto-digital.webp",
+                    "mode": "contain"
+                  }
                 }
               ]
             },
@@ -16641,107 +16723,130 @@
               "name": "Hero",
               "width": "fill_container",
               "fill": "$cabana-dark",
-              "layout": "vertical",
-              "gap": 24,
+              "gap": 48,
               "padding": [
                 96,
                 120
               ],
+              "alignItems": "center",
               "children": [
                 {
-                  "type": "text",
-                  "id": "hjcxD",
-                  "name": "Breadcrumb",
-                  "fill": "#94A3B8",
-                  "content": "Inicio  /  Capacidades  /  Custom AI Agents",
-                  "fontFamily": "$font-sans",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
                   "type": "frame",
-                  "id": "jctdH",
-                  "name": "H1",
-                  "width": 1000,
+                  "id": "kdb8u",
+                  "name": "Copy",
+                  "width": "fill_container",
                   "layout": "vertical",
-                  "gap": 8,
+                  "gap": 24,
                   "children": [
                     {
                       "type": "text",
-                      "id": "zeEsR",
-                      "name": "H1 · Brand",
-                      "fill": "$cabana-green",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Custom AI Agents",
+                      "id": "hjcxD",
+                      "name": "Breadcrumb",
+                      "fill": "#94A3B8",
+                      "content": "Inicio  /  Capacidades  /  Custom AI Agents",
                       "fontFamily": "$font-sans",
-                      "fontSize": 28,
-                      "fontWeight": "600"
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jctdH",
+                      "name": "H1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zeEsR",
+                          "name": "H1 · Brand",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Custom AI Agents",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 28,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mKLSL",
+                          "name": "H1 · Term",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Agentes de IA a medida para empresas",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 64,
+                          "fontWeight": "700"
+                        }
+                      ]
                     },
                     {
                       "type": "text",
-                      "id": "mKLSL",
-                      "name": "H1 · Term",
-                      "fill": "#FFFFFF",
+                      "id": "JBgDW",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Agentes de IA a medida para empresas",
-                      "lineHeight": 1.05,
+                      "content": "Agentes que conocen sus datos y sus procesos. Reúnen la información, recomiendan y redactan; su equipo decide qué se ejecuta.",
+                      "lineHeight": 1.5,
                       "fontFamily": "$font-sans",
-                      "fontSize": 64,
-                      "fontWeight": "700"
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hr1ru",
+                      "name": "CTAs",
+                      "gap": 12,
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "id": "a9lnoI",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "CTA primary",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "Agendar una conversación"
+                            }
+                          }
+                        },
+                        {
+                          "id": "QTeQI",
+                          "type": "ref",
+                          "ref": "QCuy5",
+                          "name": "CTA secondary",
+                          "height": 44,
+                          "descendants": {
+                            "U4otP": {
+                              "content": "Ver el caso"
+                            }
+                          }
+                        }
+                      ]
                     }
                   ]
-                },
-                {
-                  "type": "text",
-                  "id": "JBgDW",
-                  "name": "Subtitle",
-                  "fill": "#CBD5E1",
-                  "textGrowth": "fixed-width",
-                  "width": 780,
-                  "content": "Agentes que conocen sus datos y sus procesos. Reúnen la información, recomiendan y redactan; su equipo decide qué se ejecuta.",
-                  "lineHeight": 1.5,
-                  "fontFamily": "$font-sans",
-                  "fontSize": 20,
-                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
-                  "id": "Hr1ru",
-                  "name": "CTAs",
-                  "gap": 12,
-                  "padding": [
-                    8,
-                    0,
-                    0,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "id": "a9lnoI",
-                      "type": "ref",
-                      "ref": "BIJEs",
-                      "name": "CTA primary",
-                      "descendants": {
-                        "biwyZ": {
-                          "content": "Agendar una conversación"
-                        }
-                      }
-                    },
-                    {
-                      "id": "QTeQI",
-                      "type": "ref",
-                      "ref": "QCuy5",
-                      "name": "CTA secondary",
-                      "height": 44,
-                      "descendants": {
-                        "U4otP": {
-                          "content": "Ver el caso"
-                        }
-                      }
-                    }
-                  ]
+                  "id": "l52wP",
+                  "name": "Illustration",
+                  "width": 480,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-agentes-ia-a-medida.webp",
+                    "mode": "contain"
+                  }
                 }
               ]
             },
@@ -18071,6 +18176,19 @@
                       }
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Tpbvv",
+                  "name": "Illustration",
+                  "width": "fill_container",
+                  "height": 342,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-consultoria-de-datos.webp",
+                    "mode": "contain"
+                  }
                 }
               ]
             },
@@ -19072,6 +19190,19 @@
                       }
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tEhBZ",
+                  "name": "Illustration",
+                  "width": "fill_container",
+                  "height": 342,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-producto-digital.webp",
+                    "mode": "contain"
+                  }
                 }
               ]
             },
@@ -20073,6 +20204,19 @@
                       }
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rAi7x",
+                  "name": "Illustration",
+                  "width": "fill_container",
+                  "height": 342,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-agentes-ia-a-medida.webp",
+                    "mode": "contain"
+                  }
                 }
               ]
             },
@@ -29935,6 +30079,211 @@
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
                   "content": "/ Hero",
+                  "fontFamily": "Reddit Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cL3hq",
+          "name": "Row",
+          "width": "fill_container",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "QscGw",
+              "name": "Capacidades · Consultoría de datos",
+              "width": 395,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yolA0",
+                  "name": "Image",
+                  "width": "fill_container",
+                  "height": 395,
+                  "fill": [
+                    "$cabana-dark",
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/illustrations/capacidades-consultoria-de-datos.webp",
+                      "mode": "contain"
+                    }
+                  ],
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "text",
+                  "id": "VIOLe",
+                  "name": "Name",
+                  "fill": "$foreground",
+                  "content": "Capacidades · Consultoría de datos",
+                  "fontFamily": "Reddit Sans",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "jte56",
+                  "name": "Usage",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "/capacidades/consultoria-de-datos Hero",
+                  "fontFamily": "Reddit Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AolVM",
+              "name": "Capacidades · Ingeniería de datos",
+              "width": 395,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "L0CIX",
+                  "name": "Image",
+                  "width": "fill_container",
+                  "height": 395,
+                  "fill": [
+                    "$cabana-dark",
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/illustrations/capacidades-ingenieria-de-datos.webp",
+                      "mode": "contain"
+                    }
+                  ],
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "text",
+                  "id": "sKF39",
+                  "name": "Name",
+                  "fill": "$foreground",
+                  "content": "Capacidades · Ingeniería de datos",
+                  "fontFamily": "Reddit Sans",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "BysFz",
+                  "name": "Usage",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "/capacidades/ingenieria-de-datos Hero",
+                  "fontFamily": "Reddit Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "koiNK",
+              "name": "Capacidades · Producto digital",
+              "width": 395,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gTmEh",
+                  "name": "Image",
+                  "width": "fill_container",
+                  "height": 395,
+                  "fill": [
+                    "$cabana-dark",
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/illustrations/capacidades-producto-digital.webp",
+                      "mode": "contain"
+                    }
+                  ],
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "text",
+                  "id": "ToOhC",
+                  "name": "Name",
+                  "fill": "$foreground",
+                  "content": "Capacidades · Producto digital",
+                  "fontFamily": "Reddit Sans",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "sV3d5",
+                  "name": "Usage",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "/capacidades/producto-digital Hero",
+                  "fontFamily": "Reddit Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wK4xI",
+              "name": "Capacidades · Agentes de IA",
+              "width": 395,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qaJiB",
+                  "name": "Image",
+                  "width": "fill_container",
+                  "height": 395,
+                  "fill": [
+                    "$cabana-dark",
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/illustrations/capacidades-agentes-ia-a-medida.webp",
+                      "mode": "contain"
+                    }
+                  ],
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "text",
+                  "id": "UbJMJ",
+                  "name": "Name",
+                  "fill": "$foreground",
+                  "content": "Capacidades · Agentes de IA",
+                  "fontFamily": "Reddit Sans",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "P1bwUi",
+                  "name": "Usage",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "/capacidades/agentes-ia-a-medida Hero",
                   "fontFamily": "Reddit Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
