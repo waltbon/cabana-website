@@ -2,7 +2,6 @@
 
 import { m } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { Badge } from "@/components/ui/badge";
 import { LeadCaptureForm } from "@/components/contact/LeadFormCapture";
 
 const fadeUp = {
@@ -10,7 +9,7 @@ const fadeUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
-export function PostSidebar({ serviceKey }: { serviceKey: "rutaIa" | "aiFirstMove" }) {
+export function PostSidebar() {
   const t = useTranslations("blog.postSidebar");
 
   return (
@@ -23,14 +22,11 @@ export function PostSidebar({ serviceKey }: { serviceKey: "rutaIa" | "aiFirstMov
     >
       <div className="rounded-xl border border-border bg-card p-6 space-y-4">
         <div>
-          <Badge variant="pretitle" className="mb-2">
-            {t(`${serviceKey}.badge`)}
-          </Badge>
           <h3 className="text-xl font-bold text-foreground leading-snug mb-2">
-            {t(`${serviceKey}.heading`)}
+            {t("heading")}
           </h3>
           <p className="text-sm text-muted-foreground">
-            {t(`${serviceKey}.description`)}
+            {t("description")}
           </p>
         </div>
 
