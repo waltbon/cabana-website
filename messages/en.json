@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "Data Engineering & AI Consulting in Costa Rica | CabanaData",
+      "title": "Data & AI Consulting in Costa Rica | Cabana Data",
       "description": "Specialized data engineering and artificial intelligence consulting for mid-market companies in Costa Rica and LATAM. Built on Google Cloud."
     },
     "about": {
@@ -2120,7 +2120,7 @@
   },
   "aiFirstMove": {
     "meta": {
-      "title": "AI First Move: take your first AI use case to production | Cabana Data",
+      "title": "AI First Move: first AI use case in production | Cabana Data",
       "description": "In 10 weeks, your first AI use case in production and the investment case to take the rest to the board. Fixed price: USD 24,500 + VAT.",
       "ogTitle": "AI First Move: your first AI use case, up and running",
       "ogDescription": "An AI use case in production, built with your team, and the evidence to fund the next ones.",
@@ -2439,7 +2439,7 @@
     },
     "dataEngineering": {
       "meta": {
-        "title": "Data Engineering · Data engineering in Costa Rica | Cabana Data",
+        "title": "Data engineering in Costa Rica | Cabana Data",
         "description": "Data engineering in Costa Rica: we integrate your systems into a data warehouse, automate data loading and build your dashboards.",
         "serviceType": "Data engineering"
       },
