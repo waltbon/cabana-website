@@ -11,6 +11,7 @@ Estados: `abierta` · `decidida` · `descartada`.
 | D-001 | La FAQ de Ruta IA cita "business case" para negarlo | Permitido solo en la pregunta de la FAQ que lo niega (brief §3.6). Excepción en `rules.json` | decidida | 2026-10-30 |
 | D-002 | "benchmark" usado en contraste ("no de un benchmark genérico") en `inicio.method.body` y `rutaIa.process.method`, es y en. La guía lo lista en "No usar"; el brief §3.3 usa la misma frase como mensaje clave del método. ¿Se permite en contraste y se registra como excepción en `rules.json` (como D-001), o se reescribe con "evidencia de su operación"? Manda la guía; la decide dirección. Bloquea B-020 | — | abierta | 2026-11-01 |
 | D-003 | "confirmed" en `rutaIa.deliverables.note` (en): "Whether it can be built is confirmed in the next stage". Repite brief §3.4 (lo que se confirma después es la viabilidad, no la oportunidad) y el texto es no lo marca ("se confirma"). ¿Excepción en `rules.json` para esta clave, o se reformula? Manda la guía; la decide dirección. Bloquea B-020 | — | abierta | 2026-11-01 |
+| D-004 | `/en/careers` está escrita en español con voseo y sin par en inglés (B-016). Opciones: (A) traducir la sección y las vacantes; (B) dejarla solo en español | B: la sección de carreras existe solo en español (mismo patrón que `/careers/[id]` y los posts). `/en/careers` sale del sitemap y declara canonical y hreflang a `/careers`. La corrección del texto a usted va en B-030 | decidida | 2026-11-06 |
 
 ## Conflictos heredados de la investigación (`03-resumen.md` §2)
 
