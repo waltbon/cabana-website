@@ -1,0 +1,218 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "https://cabanadata.com/en"
+      ],
+      "clicks": 2,
+      "impressions": 27,
+      "ctr": 7.41,
+      "position": 5.4,
+      "page": "https://cabanadata.com/en"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/"
+      ],
+      "clicks": 1,
+      "impressions": 10,
+      "ctr": 10.0,
+      "position": 13.9,
+      "page": "https://cabanadata.com/"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/about"
+      ],
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 23.3,
+      "page": "https://cabanadata.com/about"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/ai-first-move"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10,
+      "page": "https://cabanadata.com/ai-first-move"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 62.2,
+      "page": "https://cabanadata.com/capacidades"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/agentes-ia-a-medida"
+      ],
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0,
+      "position": 26.8,
+      "page": "https://cabanadata.com/capacidades/agentes-ia-a-medida"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/ingenieria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 54,
+      "page": "https://cabanadata.com/capacidades/ingenieria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/contact"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 19.4,
+      "page": "https://cabanadata.com/contact"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/ai-first-move"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3.5,
+      "page": "https://cabanadata.com/en/ai-first-move"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.2,
+      "page": "https://cabanadata.com/en/capacidades"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/agentes-ia-a-medida"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5,
+      "page": "https://cabanadata.com/en/capacidades/agentes-ia-a-medida"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/consultoria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 56,
+      "ctr": 0,
+      "position": 77.0,
+      "page": "https://cabanadata.com/en/capacidades/consultoria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/ingenieria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/en/capacidades/ingenieria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/producto-digital"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.8,
+      "page": "https://cabanadata.com/en/capacidades/producto-digital"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/posts?category=ai"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4,
+      "page": "https://cabanadata.com/en/posts?category=ai"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/data-analytics-use-case"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/en/services/data-analytics-use-case"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/posts"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/posts"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/privacidad"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "page": "https://cabanadata.com/privacidad"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 17.2,
+      "page": "https://cabanadata.com/services"
+    },
+    {
+      "keys": [
+        "https://ruta-ai.cabanadata.com/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5,
+      "page": "https://ruta-ai.cabanadata.com/"
+    }
+  ],
+  "totals": {
+    "clicks": 3,
+    "impressions": 176,
+    "ctr": 1.7,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 20,
+  "error": null,
+  "date_range": {
+    "start": "2026-10-28",
+    "end": "2026-11-03"
+  }
+}

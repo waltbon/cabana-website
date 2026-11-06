@@ -1,0 +1,258 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "agente de datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 29,
+      "query": "agente de datos"
+    },
+    {
+      "keys": [
+        "agente ia personalizado"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 54.5,
+      "query": "agente ia personalizado"
+    },
+    {
+      "keys": [
+        "agentes de ia personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 41.2,
+      "query": "agentes de ia personalizados"
+    },
+    {
+      "keys": [
+        "agentes ia personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 19,
+      "query": "agentes ia personalizados"
+    },
+    {
+      "keys": [
+        "cabana ai"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 6.6,
+      "query": "cabana ai"
+    },
+    {
+      "keys": [
+        "cabana app"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 91,
+      "query": "cabana app"
+    },
+    {
+      "keys": [
+        "cabana consultores"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5,
+      "query": "cabana consultores"
+    },
+    {
+      "keys": [
+        "cabana software"
+      ],
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 36.5,
+      "query": "cabana software"
+    },
+    {
+      "keys": [
+        "consultoria de ingenieria de datos"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 45.5,
+      "query": "consultoria de ingenieria de datos"
+    },
+    {
+      "keys": [
+        "custom ia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9,
+      "query": "custom ia"
+    },
+    {
+      "keys": [
+        "data architect consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 92,
+      "query": "data architect consulting"
+    },
+    {
+      "keys": [
+        "data architecture consultant"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 90,
+      "query": "data architecture consultant"
+    },
+    {
+      "keys": [
+        "data architecture consulting"
+      ],
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0,
+      "position": 82.0,
+      "query": "data architecture consulting"
+    },
+    {
+      "keys": [
+        "data base consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 66,
+      "query": "data base consulting"
+    },
+    {
+      "keys": [
+        "data consulting"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 49.5,
+      "query": "data consulting"
+    },
+    {
+      "keys": [
+        "data engineer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 76,
+      "query": "data engineer"
+    },
+    {
+      "keys": [
+        "data infrastructure consulting"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 94.8,
+      "query": "data infrastructure consulting"
+    },
+    {
+      "keys": [
+        "data modeling and architecture consulting"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 96.3,
+      "query": "data modeling and architecture consulting"
+    },
+    {
+      "keys": [
+        "database consulting"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 78.1,
+      "query": "database consulting"
+    },
+    {
+      "keys": [
+        "database consulting solutions"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 87.5,
+      "query": "database consulting solutions"
+    },
+    {
+      "keys": [
+        "database design consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 87,
+      "query": "database design consulting"
+    },
+    {
+      "keys": [
+        "ingenieria de datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 32,
+      "query": "ingenieria de datos"
+    },
+    {
+      "keys": [
+        "ruta ai"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "query": "ruta ai"
+    },
+    {
+      "keys": [
+        "web database consulting"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 36.5,
+      "query": "web database consulting"
+    }
+  ],
+  "totals": {
+    "clicks": 0,
+    "impressions": 100,
+    "ctr": 0.0,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 24,
+  "error": null,
+  "date_range": {
+    "start": "2026-10-28",
+    "end": "2026-11-03"
+  }
+}
