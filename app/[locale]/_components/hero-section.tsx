@@ -60,9 +60,11 @@ export async function HeroSection() {
                 <ArrowRight className="size-4" aria-hidden />
               </ServiceLink>
             </div>
-            <p className="text-sm text-slate-400">
-              {primary.hint} · {secondary.hint}
-            </p>
+            {/* One hint per door, visibly separate: the doors are alternatives, not steps */}
+            <ul className="flex flex-col gap-1 text-sm text-slate-400 sm:flex-row sm:gap-6">
+              <li>{primary.hint}</li>
+              <li>{secondary.hint}</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -71,12 +73,12 @@ export async function HeroSection() {
       <div className="relative pl-4 lg:-mt-24 lg:ml-auto lg:w-[58%] lg:pl-0">
         <dl
           aria-label={t("statsLabel")}
-          className="grid grid-cols-2 gap-6 rounded-l-xl bg-cabana-blue px-6 py-8 lg:grid-cols-4 lg:px-12 lg:py-10"
+          className="grid grid-cols-1 gap-6 rounded-l-xl bg-cabana-blue px-6 py-8 sm:grid-cols-3 lg:px-12 lg:py-10"
         >
           {stats.map((stat) => (
             <div key={stat.label} className="flex flex-col-reverse items-center gap-1 text-center">
-              <dt className="text-sm text-cabana-light">{stat.label}</dt>
-              <dd className="text-4xl font-bold leading-none text-white lg:text-5xl">
+              <dt className="max-w-48 text-sm text-cabana-light">{stat.label}</dt>
+              <dd className="whitespace-nowrap text-4xl font-bold leading-none text-white lg:text-5xl">
                 {stat.value}
               </dd>
             </div>

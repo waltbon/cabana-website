@@ -2701,19 +2701,15 @@
       "stats": [
         {
           "value": "50+",
-          "label": "pipelines en producción"
+          "label": "pipelines de BigQuery en producción"
         },
         {
-          "value": "20→2",
-          "label": "minutos por reporte"
+          "value": "20→2 min",
+          "label": "para reunir el historial de campañas"
         },
         {
           "value": "45",
-          "label": "entidades integradas"
-        },
-        {
-          "value": "4 sem.",
-          "label": "para su hoja de ruta"
+          "label": "entidades de 8 plataformas, automatizadas"
         }
       ]
     },
