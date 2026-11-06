@@ -32879,6 +32879,4353 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "cuUUf",
+      "x": 10590,
+      "y": -858,
+      "name": "CH-hero-split: pantallas",
+      "width": 2110,
+      "height": 8593,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "KB9NY",
+          "x": 80,
+          "y": 80,
+          "name": "CH-hero-split/Inicio",
+          "clip": true,
+          "width": 1440,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "gyJmO",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "mcznD",
+              "name": "Hero",
+              "clip": true,
+              "width": "fill_container",
+              "height": 840,
+              "fill": "#FFFFFF",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z3Rjr",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Dark band",
+                  "width": 1440,
+                  "height": 720,
+                  "fill": "$cabana-dark",
+                  "layout": "none"
+                },
+                {
+                  "type": "path",
+                  "id": "fsuu4",
+                  "x": 0,
+                  "y": 340,
+                  "name": "Deco diagonal 1",
+                  "opacity": 0.55,
+                  "geometry": "M0 0l760 380-760 0z",
+                  "viewBox": [
+                    0,
+                    0,
+                    760,
+                    380
+                  ],
+                  "fill": "#16364d",
+                  "width": 760,
+                  "height": 380
+                },
+                {
+                  "type": "path",
+                  "id": "hv5hG",
+                  "x": 0,
+                  "y": 510,
+                  "name": "Deco diagonal 2",
+                  "opacity": 0.8,
+                  "geometry": "M0 210l560 0-560-170z",
+                  "viewBox": [
+                    0,
+                    0,
+                    560,
+                    210
+                  ],
+                  "fill": "#1e212b",
+                  "width": 560,
+                  "height": 210
+                },
+                {
+                  "type": "frame",
+                  "id": "ipZG1",
+                  "x": 780,
+                  "y": 0,
+                  "name": "Hero photo",
+                  "width": 660,
+                  "height": 720,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../public/home/hero-team.webp",
+                    "mode": "cover"
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "Pi03m",
+                  "x": 780,
+                  "y": 0,
+                  "name": "Photo edge",
+                  "geometry": "M0 0l120 0-120 680z",
+                  "viewBox": [
+                    0,
+                    0,
+                    120,
+                    680
+                  ],
+                  "fill": "$cabana-dark",
+                  "width": 120,
+                  "height": 720
+                },
+                {
+                  "type": "frame",
+                  "id": "vGlVe",
+                  "x": 120,
+                  "y": 96,
+                  "name": "Text",
+                  "width": 600,
+                  "layout": "vertical",
+                  "gap": 28,
+                  "children": [
+                    {
+                      "id": "GTADA",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "CONSULTORÍA DE IA PARA EMPRESAS MEDIANAS"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "t2yFy",
+                      "name": "H1",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sepa por dónde empezar con IA. Y empiece bien.",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 64,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UcASA",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Somos una consultoría de inteligencia artificial en Costa Rica para empresas medianas de Latinoamérica. Le ayudamos a elegir por dónde empezar, con evidencia de su operación, y a poner el primer caso en producción.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vbZ49",
+                      "name": "CTAs",
+                      "gap": 32,
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "Hye6r",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "Primary CTA",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "No sé por dónde empezar"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aPsOo",
+                          "name": "Secondary link",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qedZv",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Ya tengo la idea →",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "r7cM8",
+                              "name": "Underline",
+                              "fill": "$cabana-green",
+                              "width": 133,
+                              "height": 2
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "loq4E",
+                      "name": "Hint",
+                      "fill": "#94A3B8",
+                      "content": "Ruta IA · 4 semanas   ·   AI First Move · 10 semanas",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C2LT1",
+                  "x": 600,
+                  "y": 650,
+                  "name": "Stats bar",
+                  "width": 840,
+                  "height": 170,
+                  "fill": "$cabana-blue",
+                  "cornerRadius": [
+                    12,
+                    0,
+                    0,
+                    12
+                  ],
+                  "padding": [
+                    0,
+                    48
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "H1RR0",
+                      "name": "Stat",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RJwuy",
+                          "name": "Value",
+                          "fill": "#FFFFFF",
+                          "content": "50+",
+                          "lineHeight": 1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "h9joxa",
+                          "name": "Label",
+                          "fill": "#E0E6F5",
+                          "content": "pipelines en producción",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aIZlY",
+                      "name": "Stat",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Wjri0",
+                          "name": "Value",
+                          "fill": "#FFFFFF",
+                          "content": "20→2",
+                          "lineHeight": 1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sgcb6",
+                          "name": "Label",
+                          "fill": "#E0E6F5",
+                          "content": "minutos por reporte",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XLdld",
+                      "name": "Stat",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R1kZJZ",
+                          "name": "Value",
+                          "fill": "#FFFFFF",
+                          "content": "45",
+                          "lineHeight": 1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YRRwi",
+                          "name": "Label",
+                          "fill": "#E0E6F5",
+                          "content": "entidades integradas",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q4LT9",
+                      "name": "Stat",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R1cWG",
+                          "name": "Value",
+                          "fill": "#FFFFFF",
+                          "content": "4 sem.",
+                          "lineHeight": 1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mgWm5",
+                          "name": "Label",
+                          "fill": "#E0E6F5",
+                          "content": "para su hoja de ruta",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jzOm2",
+              "name": "Clients",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                56,
+                120
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sZe5n",
+                  "name": "Title",
+                  "fill": "$muted-foreground",
+                  "content": "Empresas que ya trabajan con nosotros",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "nPewL",
+                  "name": "Logos",
+                  "gap": 64,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "euP53",
+                      "name": "ciisa",
+                      "width": 130,
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/ciisa.png",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zbB96",
+                      "name": "fifco",
+                      "width": 130,
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/fifco.png",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U3Td9L",
+                      "name": "london-media",
+                      "width": 130,
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/london-media.png",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kXsk2",
+                      "name": "siru",
+                      "width": 130,
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/siru.png",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RUq5A",
+                      "name": "zebol",
+                      "width": 130,
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/zebol.png",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A3GeLQ",
+                      "name": "huli",
+                      "width": 130,
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/huli.png",
+                        "mode": "contain"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "N8TiR",
+              "name": "Symptoms",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TetjY",
+                  "name": "Header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "Odhsv",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "TRES SÍNTOMAS, UN PROBLEMA DE FONDO"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "TuaQF",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": 768,
+                      "content": "El problema casi nunca es la falta de ideas de IA",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Xo29B",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lo que falta es saber cuál conviene primero, si sus datos la soportan y cómo llevarla a producción.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yI9V6",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RhIH4",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "VEEfv",
+                          "name": "Bar",
+                          "fill": "$primary",
+                          "width": 48,
+                          "height": 3
+                        },
+                        {
+                          "type": "icon",
+                          "id": "uMOcO",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "lightbulb",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ym6AC",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cada área tiene su idea de IA",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uPNZQ",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Y nadie sabe cuál conviene primero ni si los datos alcanzan para alguna.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aGMBe",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "yynqw",
+                          "name": "Bar",
+                          "fill": "$primary",
+                          "width": 48,
+                          "height": 3
+                        },
+                        {
+                          "type": "icon",
+                          "id": "e3d96",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "messages-square",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uEtKq",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "La junta pide avanzar con IA",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jqSNN",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Y en la reunión, la respuesta a \"¿por dónde empezamos?\" es una opinión.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tDvPN",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "DAFzd",
+                          "name": "Bar",
+                          "fill": "$primary",
+                          "width": 48,
+                          "height": 3
+                        },
+                        {
+                          "type": "icon",
+                          "id": "MnUrB",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "circle-pause",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ooXvw",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Las iniciativas de IA no llegan a producción",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wtUcH",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Y sin algo funcionando en su operación, nadie aprueba presupuesto para lo siguiente.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZMj7d",
+              "name": "Journey",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Q4JvJi",
+                  "name": "Header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "py93g",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Un recorrido con dos puntos de entrada",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VfMYv",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Primero se sabe por dónde empezar. Después se empieza, con un caso en producción.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sw1rQ",
+                  "name": "Steps",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zr1d6",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "$card",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OafWD",
+                          "name": "Label",
+                          "fill": "$primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "PUNTO DE PARTIDA",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ycmu2",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ideas sueltas",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "a5v5vz",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cada área tiene la suya y nadie las ha ordenado.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "TZ4ek",
+                      "name": "Arrow",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$muted-foreground"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "caRJc",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "$cabana-dark",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vo2VN",
+                          "name": "Label",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "4 SEMANAS",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tMOdJ",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ruta IA",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qnuzm",
+                          "name": "Body",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Sus 5 mejores oportunidades de IA, ordenadas, y cuáles soportan hoy sus datos.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "TONwO",
+                      "name": "Arrow",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$muted-foreground"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sMQJq",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "$cabana-dark",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qPMBo",
+                          "name": "Label",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "10 SEMANAS",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qk29M",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "AI First Move",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZFsBM",
+                          "name": "Body",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "El primer caso de uso en producción y el caso de inversión para la junta.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "v7MgK7",
+                      "name": "Arrow",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$muted-foreground"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ofsj7",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "$card",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YE1E3",
+                          "name": "Label",
+                          "fill": "$primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "DESPUÉS",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "A71p9",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Proyecto de implementación",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wfp4e",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Los siguientes casos, con presupuesto aprobado sobre evidencia propia.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ncccU",
+                  "name": "Direct entry",
+                  "width": "fill_container",
+                  "fill": "$cabana-light",
+                  "cornerRadius": 12,
+                  "gap": 12,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "e5Szc6",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "corner-down-right",
+                      "library": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iSU8g",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si quien decide ya eligió la idea, puede entrar directo a AI First Move. Ruta IA no es un paso obligatorio.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Zvq5g",
+              "name": "Services",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PKyQj",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Dos servicios, cada uno con precio y plazo fijos",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "tYifp",
+                  "name": "Cards",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ylBGV",
+                      "name": "Service card",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 40,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RCuOP",
+                          "name": "Door",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "NO SÉ POR DÓNDE EMPEZAR",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "j1KFW",
+                          "name": "H3",
+                          "fill": "$primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ruta IA",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LX2xV",
+                          "name": "Summary",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "El diagnóstico que le dice por cuáles oportunidades de IA empezar y si sus datos las soportan.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qYHUt",
+                          "name": "Facts",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "CtNUB",
+                              "name": "Fact",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "LReXI",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "calendar-range",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "A10gus",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "4 semanas + 30 días de seguimiento",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "E3RpQi",
+                              "name": "Fact",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "t8xp1b",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "badge-dollar-sign",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "WTvuy",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Precio fijo, sin \"depende\"",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "rj6VF",
+                          "type": "ref",
+                          "ref": "QCuy5",
+                          "name": "CTA",
+                          "height": 44,
+                          "descendants": {
+                            "U4otP": {
+                              "content": "Ver Ruta IA"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vuDEm",
+                      "name": "Service card",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 40,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hM106",
+                          "name": "Door",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "YA TENGO LA IDEA",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MUgYG",
+                          "name": "H3",
+                          "fill": "$primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "AI First Move",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L7I6t",
+                          "name": "Summary",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "El primer caso de IA en producción, con el caso de inversión que financia los siguientes.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "H6CBVA",
+                          "name": "Facts",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "pzQlx",
+                              "name": "Fact",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "NO1yz",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "calendar-range",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "VyW2E",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "10 semanas, en dos ciclos",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ee6GO",
+                              "name": "Fact",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "w5uXne",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "badge-dollar-sign",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "R5TCBz",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Precio fijo, sin \"depende\"",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "rqoxU",
+                          "type": "ref",
+                          "ref": "QCuy5",
+                          "name": "CTA",
+                          "height": 44,
+                          "descendants": {
+                            "U4otP": {
+                              "content": "Ver AI First Move"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mAujm",
+              "name": "Method",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f6kZL",
+                  "name": "Text",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OF77M",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Una consultoría de IA en Costa Rica que trabaja con evidencia",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZR2zZ",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cada recomendación sale de entrevistas a su gente y de la revisión directa de sus sistemas, no de un benchmark genérico. Si una idea no está lista, se lo decimos, con lo que hay que resolver.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GCAon",
+                  "name": "Principle",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "O0Dxk2",
+                      "name": "Icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "user-check",
+                      "library": "lucide",
+                      "fill": "$cabana-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uQhNI",
+                      "name": "H3",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La IA propone, su equipo decide",
+                      "lineHeight": 1.33,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HIL0G",
+                      "name": "Body",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción sin abrir un riesgo que después tenga que explicar en junta.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I7M7K",
+                      "name": "Link",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pdLYw",
+                          "name": "Label",
+                          "fill": "$cabana-green",
+                          "content": "Ver cómo trabajamos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "XaBk0",
+                          "name": "Arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$cabana-green"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZbTJq",
+              "name": "Cases",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xKHmN",
+                  "name": "Header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "an64Y",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "EN PRODUCCIÓN, NO EN PRESENTACIONES"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "U24dA",
+                      "name": "H2",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Resultados medibles en la operación de nuestros clientes",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "V4ddMt",
+                  "name": "Cards",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Gcw71",
+                      "name": "Case card",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark-2",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O5Z9A",
+                          "name": "Industry",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "MARKETING Y PUBLICIDAD",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "V9ttr",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Agentes de IA que reúnen el historial de campañas",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D7Xpas",
+                          "name": "Metric",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "De 20 a 2 minutos",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pQyYg",
+                          "name": "Metric label",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "para reunir el historial de campañas antes de diseñar una nueva",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "L1gtx",
+                          "name": "Link",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "atEkY",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Ver el caso",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "QDWUt",
+                              "name": "Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RGHKx",
+                      "name": "Case card",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark-2",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RerNF",
+                          "name": "Industry",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "PUBLICIDAD DIGITAL",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B3eaLz",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reportería automatizada en Google BigQuery",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dxxq4",
+                          "name": "Metric",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "45 entidades de 8 plataformas",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TCsns",
+                          "name": "Metric label",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "digitales automatizadas en Google BigQuery",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "C9Bn4U",
+                          "name": "Link",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PPid3",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Ver el caso",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "Yx1KM",
+                              "name": "Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vjRuv",
+                      "name": "Case card",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark-2",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ApKvz",
+                          "name": "Industry",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "BEBIDAS Y DISTRIBUCIÓN",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tBlL8",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Seguimiento de cuota de ventas en una sola plataforma",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P8khyf",
+                          "name": "Metric",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "De 3 fuentes a 1",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "potVC",
+                          "name": "Metric label",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "un único modelo de datos para agentes, supervisores y gerencia",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HRKWn",
+                          "name": "Link",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GRly2",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Ver el caso",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "TSx1O",
+                              "name": "Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pGvmL",
+              "name": "Capabilities",
+              "width": "fill_container",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "P8II3",
+                  "name": "Intro",
+                  "width": 416,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uGnIe",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si ya tiene decisión y presupuesto",
+                      "lineHeight": 1.33,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pfdve",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cotizamos proyectos a medida con el mismo equipo que entrega Ruta IA y AI First Move.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "Y1Ngb",
+                      "type": "ref",
+                      "ref": "QCuy5",
+                      "name": "CTA",
+                      "descendants": {
+                        "U4otP": {
+                          "content": "Ver capacidades"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d32bL",
+                  "name": "List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AEhUM",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        18,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Uy3kf",
+                          "name": "Name",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": 200,
+                          "content": "Data Engineering",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PtF8i",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ingeniería de datos: integración de sistemas, data warehouse y dashboards.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "wzL7M",
+                          "name": "Arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "o9t7T8",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        18,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Z48mu",
+                          "name": "Name",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": 200,
+                          "content": "Data Consulting",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fmXP4",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Consultoría de datos: gobierno, calidad y arquitectura de sus datos.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "rl5zJ",
+                          "name": "Arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aRVOM",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        18,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m4U6T0",
+                          "name": "Name",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": 200,
+                          "content": "Digital Product",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tmwh4",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Aplicaciones a la medida de su operación, web y móvil.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "bjBGU",
+                          "name": "Arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KL0dz",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 24,
+                      "padding": [
+                        18,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ot0aE",
+                          "name": "Name",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": 200,
+                          "content": "Custom AI Agents",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "r0xkE",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Agentes de IA a medida, conectados a sus datos y con aprobación de su equipo.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "ZVERI",
+                          "name": "Arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fbvlX",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "id": "YxmLt",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "width": "fill_container",
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿En qué punto está su empresa con la IA?"
+                    },
+                    "IvrLz": {
+                      "content": "En una conversación de 20 minutos con quien decide la inversión, revisamos cuál es el punto de partida correcto: Ruta IA, AI First Move o un proyecto a medida."
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Agendar una conversación"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "innnG",
+              "type": "ref",
+              "ref": "arSuf",
+              "name": "Footer",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tdaRy",
+          "x": 1640,
+          "y": 80,
+          "name": "CH-hero-split/Inicio (móvil)",
+          "clip": true,
+          "width": 390,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "P48d8",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "huViG",
+              "name": "Hero",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gcuBR",
+                  "name": "Dark band",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    56,
+                    16,
+                    48,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "id": "mpzJF",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "CONSULTORÍA DE IA PARA EMPRESAS MEDIANAS"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ozw3c",
+                      "name": "H1",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sepa por dónde empezar con IA. Y empiece bien.",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hkF28",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Somos una consultoría de inteligencia artificial en Costa Rica para empresas medianas de Latinoamérica. Le ayudamos a elegir por dónde empezar, con evidencia de su operación, y a poner el primer caso en producción.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "N7GSQb",
+                      "type": "ref",
+                      "ref": "BIJEs",
+                      "name": "Primary CTA",
+                      "width": "fill_container",
+                      "descendants": {
+                        "biwyZ": {
+                          "content": "No sé por dónde empezar"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KRNwK",
+                      "name": "Secondary link",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x76eYj",
+                          "name": "Label",
+                          "fill": "#FFFFFF",
+                          "content": "Ya tengo la idea →",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "ApmRU",
+                          "name": "Underline",
+                          "fill": "$cabana-green",
+                          "width": 133,
+                          "height": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pEhV2",
+                      "name": "Hint",
+                      "fill": "#94A3B8",
+                      "content": "Ruta IA · 4 semanas · AI First Move · 10 semanas",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hTH9H",
+                  "name": "Hero photo",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../public/home/hero-team.webp",
+                    "mode": "cover"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "t1Udr",
+                  "name": "Stats wrap",
+                  "width": "fill_container",
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PcMRG",
+                      "name": "Stats bar",
+                      "width": "fill_container",
+                      "fill": "$cabana-blue",
+                      "cornerRadius": [
+                        12,
+                        0,
+                        0,
+                        12
+                      ],
+                      "layout": "vertical",
+                      "gap": 24,
+                      "padding": [
+                        32,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qJKG6",
+                          "name": "Row",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "bkQE2",
+                              "name": "Stat",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "A5vK34",
+                                  "name": "Value",
+                                  "fill": "#FFFFFF",
+                                  "content": "50+",
+                                  "lineHeight": 1,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 36,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "RUfSx",
+                                  "name": "Label",
+                                  "fill": "#E0E6F5",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "pipelines en producción",
+                                  "textAlign": "center",
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "MFThN",
+                              "name": "Stat",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "lBbyE",
+                                  "name": "Value",
+                                  "fill": "#FFFFFF",
+                                  "content": "20→2",
+                                  "lineHeight": 1,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 36,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "vg91e",
+                                  "name": "Label",
+                                  "fill": "#E0E6F5",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "minutos por reporte",
+                                  "textAlign": "center",
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g6lWv2",
+                          "name": "Row",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "b34lLe",
+                              "name": "Stat",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "NwOE4",
+                                  "name": "Value",
+                                  "fill": "#FFFFFF",
+                                  "content": "45",
+                                  "lineHeight": 1,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 36,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "yylMP",
+                                  "name": "Label",
+                                  "fill": "#E0E6F5",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "entidades integradas",
+                                  "textAlign": "center",
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XtjnK",
+                              "name": "Stat",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "OL8r4",
+                                  "name": "Value",
+                                  "fill": "#FFFFFF",
+                                  "content": "4 sem.",
+                                  "lineHeight": 1,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 36,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "efIh7",
+                                  "name": "Label",
+                                  "fill": "#E0E6F5",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "para su hoja de ruta",
+                                  "textAlign": "center",
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pFKc6",
+              "name": "Clients",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                40,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RARPD",
+                  "name": "Title",
+                  "fill": "$muted-foreground",
+                  "content": "Empresas que ya trabajan con nosotros",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "Gilfw",
+                  "name": "Logos",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "C92DT7",
+                      "name": "ciisa",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/ciisa.png",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i09xav",
+                      "name": "fifco",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/fifco.png",
+                        "mode": "contain"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZMGPj",
+                  "name": "Logos",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cHytX",
+                      "name": "london-media",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/london-media.png",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZzpCN",
+                      "name": "siru",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/siru.png",
+                        "mode": "contain"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xHISQ",
+                  "name": "Logos",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FXIIw",
+                      "name": "zebol",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/zebol.png",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jnYeA",
+                      "name": "huli",
+                      "width": "fill_container",
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../public/clients/huli.png",
+                        "mode": "contain"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K6WSs",
+              "name": "Symptoms",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                64,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PBGGr",
+                  "name": "Header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "whQ8a",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "TRES SÍNTOMAS, UN PROBLEMA DE FONDO"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "g9D5ex",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "El problema casi nunca es la falta de ideas de IA",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Vt0mR",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lo que falta es saber cuál conviene primero, si sus datos la soportan y cómo llevarla a producción.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XWTrF",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "s8azSJ",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "OeYQs",
+                          "name": "Bar",
+                          "fill": "$primary",
+                          "width": 48,
+                          "height": 3
+                        },
+                        {
+                          "type": "icon",
+                          "id": "C6GReA",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "lightbulb",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ccjYy",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cada área tiene su idea de IA",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Oe95t",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Y nadie sabe cuál conviene primero ni si los datos alcanzan para alguna.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WG35V",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "hnT8K",
+                          "name": "Bar",
+                          "fill": "$primary",
+                          "width": 48,
+                          "height": 3
+                        },
+                        {
+                          "type": "icon",
+                          "id": "RCTmq",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "messages-square",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nT5MP",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "La junta pide avanzar con IA",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ukHzj",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Y en la reunión, la respuesta a \"¿por dónde empezamos?\" es una opinión.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IHSFa",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "stmdE",
+                          "name": "Bar",
+                          "fill": "$primary",
+                          "width": 48,
+                          "height": 3
+                        },
+                        {
+                          "type": "icon",
+                          "id": "tyLaL",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "circle-pause",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "E39nI",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Las iniciativas de IA no llegan a producción",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l049l5",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Y sin algo funcionando en su operación, nadie aprueba presupuesto para lo siguiente.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QeaXZ",
+              "name": "Journey",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                64,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "j4CqdM",
+                  "name": "Header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "arjwq",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Un recorrido con dos puntos de entrada",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wiXD7",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Primero se sabe por dónde empezar. Después se empieza, con un caso en producción.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xUn88",
+                  "name": "Steps",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TCSHP",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "p0Qr8",
+                          "name": "Label",
+                          "fill": "$primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "PUNTO DE PARTIDA",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rRMer",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ideas sueltas",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eJMie",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cada área tiene la suya y nadie las ha ordenado.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "gthBy",
+                      "name": "Arrow",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "arrow-down",
+                      "library": "lucide",
+                      "fill": "$muted-foreground"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dTpEV",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Hlacu",
+                          "name": "Label",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "4 SEMANAS",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tTdRs",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ruta IA",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eDNHO",
+                          "name": "Body",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Sus 5 mejores oportunidades de IA, ordenadas, y cuáles soportan hoy sus datos.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "gd2Ro",
+                      "name": "Arrow",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "arrow-down",
+                      "library": "lucide",
+                      "fill": "$muted-foreground"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d1J8X7",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sIfeO",
+                          "name": "Label",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "10 SEMANAS",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mNLYH",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "AI First Move",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kjQJE",
+                          "name": "Body",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "El primer caso de uso en producción y el caso de inversión para la junta.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "B0POo",
+                      "name": "Arrow",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "arrow-down",
+                      "library": "lucide",
+                      "fill": "$muted-foreground"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qv88F",
+                      "name": "Step",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gaQay",
+                          "name": "Label",
+                          "fill": "$primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "DESPUÉS",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hENm1",
+                          "name": "H3",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Proyecto de implementación",
+                          "lineHeight": 1.33,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "d9Fvh",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Los siguientes casos, con presupuesto aprobado sobre evidencia propia.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cDEed",
+                  "name": "Direct entry",
+                  "width": "fill_container",
+                  "fill": "$cabana-light",
+                  "cornerRadius": 12,
+                  "gap": 12,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "j9Yuw5",
+                      "name": "Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "corner-down-right",
+                      "library": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YhjZX",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si quien decide ya eligió la idea, puede entrar directo a AI First Move. Ruta IA no es un paso obligatorio.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nWSqO",
+              "name": "Services",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                64,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DGqU2",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Dos servicios, cada uno con precio y plazo fijos",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "j3sARP",
+                  "name": "Cards",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "O2hbPG",
+                      "name": "Service card",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "icqwn",
+                          "name": "Door",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "NO SÉ POR DÓNDE EMPEZAR",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zcBWE",
+                          "name": "H3",
+                          "fill": "$primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ruta IA",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LwWl5",
+                          "name": "Summary",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "El diagnóstico que le dice por cuáles oportunidades de IA empezar y si sus datos las soportan.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wV9Im",
+                          "name": "Facts",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "XHsJk",
+                              "name": "Fact",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "qIHYf",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "calendar-range",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "iEMmK",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "4 semanas + 30 días de seguimiento",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O0kJg",
+                              "name": "Fact",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Adkpi",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "badge-dollar-sign",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "p2CDD",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Precio fijo, sin \"depende\"",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Upjdp",
+                          "type": "ref",
+                          "ref": "QCuy5",
+                          "name": "CTA",
+                          "height": 44,
+                          "descendants": {
+                            "U4otP": {
+                              "content": "Ver Ruta IA"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CESGJ",
+                      "name": "Service card",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": 12,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "N1Oux8",
+                          "name": "Door",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "YA TENGO LA IDEA",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "T8TIl",
+                          "name": "H3",
+                          "fill": "$primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "AI First Move",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oIN62",
+                          "name": "Summary",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "El primer caso de IA en producción, con el caso de inversión que financia los siguientes.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b1gQy",
+                          "name": "Facts",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "w3pYK9",
+                              "name": "Fact",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "b6vsea",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "calendar-range",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "U3muv",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "10 semanas, en dos ciclos",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IuX25",
+                              "name": "Fact",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "X55rR",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "badge-dollar-sign",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "as2qA",
+                                  "name": "Text",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Precio fijo, sin \"depende\"",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "Snieh",
+                          "type": "ref",
+                          "ref": "QCuy5",
+                          "name": "CTA",
+                          "height": 44,
+                          "descendants": {
+                            "U4otP": {
+                              "content": "Ver AI First Move"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G0az1",
+              "name": "Method",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LaGGm",
+                  "name": "Text",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KULs2",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Una consultoría de IA en Costa Rica que trabaja con evidencia",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z8oTX",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cada recomendación sale de entrevistas a su gente y de la revisión directa de sus sistemas, no de un benchmark genérico. Si una idea no está lista, se lo decimos, con lo que hay que resolver.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lbuEJ",
+                  "name": "Principle",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "j2rDd",
+                      "name": "Icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "user-check",
+                      "library": "lucide",
+                      "fill": "$cabana-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dlIiz",
+                      "name": "H3",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La IA propone, su equipo decide",
+                      "lineHeight": 1.33,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a1vuuj",
+                      "name": "Body",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción sin abrir un riesgo que después tenga que explicar en junta.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LmK6p",
+                      "name": "Link",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "E8Uxmy",
+                          "name": "Label",
+                          "fill": "$cabana-green",
+                          "content": "Ver cómo trabajamos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "iW0kE",
+                          "name": "Arrow",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$cabana-green"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lCUsk",
+              "name": "Cases",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                64,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XgKfX",
+                  "name": "Header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "YlRwo",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "EN PRODUCCIÓN, NO EN PRESENTACIONES"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "p65NqP",
+                      "name": "H2",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Resultados medibles en la operación de nuestros clientes",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NGXXd",
+                  "name": "Cards",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ficDl",
+                      "name": "Case card",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark-2",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "QXVXV",
+                          "name": "Industry",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "MARKETING Y PUBLICIDAD",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "glTnW",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Agentes de IA que reúnen el historial de campañas",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O6arj",
+                          "name": "Metric",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "De 20 a 2 minutos",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 30,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "F16ef",
+                          "name": "Metric label",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "para reunir el historial de campañas antes de diseñar una nueva",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "f5pSHy",
+                          "name": "Link",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V4oC1R",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Ver el caso",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "CQK5A",
+                              "name": "Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "C4ajb",
+                      "name": "Case card",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark-2",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TEWFi",
+                          "name": "Industry",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "PUBLICIDAD DIGITAL",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ASkxM",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reportería automatizada en Google BigQuery",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uGVUA",
+                          "name": "Metric",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "45 entidades de 8 plataformas",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 30,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gzfiW",
+                          "name": "Metric label",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "digitales automatizadas en Google BigQuery",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Bd102",
+                          "name": "Link",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "B0PSHP",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Ver el caso",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "EFCcY",
+                              "name": "Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uybAQ",
+                      "name": "Case card",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark-2",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qUHI5",
+                          "name": "Industry",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "BEBIDAS Y DISTRIBUCIÓN",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rY9gj",
+                          "name": "H3",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Seguimiento de cuota de ventas en una sola plataforma",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ScKFO",
+                          "name": "Metric",
+                          "fill": "$cabana-green",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "De 3 fuentes a 1",
+                          "lineHeight": 1.11,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 30,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tcAz9",
+                          "name": "Metric label",
+                          "fill": "#CBD5E1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "un único modelo de datos para agentes, supervisores y gerencia",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CEyaA",
+                          "name": "Link",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t5k1oM",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Ver el caso",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "wOJ3N",
+                              "name": "Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oGicw",
+              "name": "Capabilities",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YkgyJ",
+                  "name": "Intro",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Wxzvn",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si ya tiene decisión y presupuesto",
+                      "lineHeight": 1.33,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z6H0x",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cotizamos proyectos a medida con el mismo equipo que entrega Ruta IA y AI First Move.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "asSeK",
+                      "type": "ref",
+                      "ref": "QCuy5",
+                      "name": "CTA",
+                      "descendants": {
+                        "U4otP": {
+                          "content": "Ver capacidades"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oQkLM",
+                  "name": "List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G4Ybt",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        18,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "um2IU",
+                          "name": "Name",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Data Engineering",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "A9CudK",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ingeniería de datos: integración de sistemas, data warehouse y dashboards.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YRNWY",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        18,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TR087",
+                          "name": "Name",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Data Consulting",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ed3jB",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Consultoría de datos: gobierno, calidad y arquitectura de sus datos.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BX6C8",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        18,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NNu4v",
+                          "name": "Name",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Digital Product",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O12Grs",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Aplicaciones a la medida de su operación, web y móvil.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZiN12",
+                      "name": "Row",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": [
+                        18,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wkCu8",
+                          "name": "Name",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Custom AI Agents",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P45Lh",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Agentes de IA a medida, conectados a sus datos y con aprobación de su equipo.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "A2bKu2",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "padding": [
+                48,
+                16
+              ],
+              "children": [
+                {
+                  "id": "bmYeg",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "width": "fill_container",
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿En qué punto está su empresa con la IA?"
+                    },
+                    "IvrLz": {
+                      "content": "En una conversación de 20 minutos con quien decide la inversión, revisamos cuál es el punto de partida correcto: Ruta IA, AI First Move o un proyecto a medida."
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Agendar una conversación"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "JYdCa",
+              "type": "ref",
+              "ref": "arSuf",
+              "name": "Footer",
+              "width": "fill_container"
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {
