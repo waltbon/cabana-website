@@ -56,6 +56,14 @@ function* leaves(value, path) {
   }
 }
 
+function* nestedMetas(value, path) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return;
+  for (const [k, v] of Object.entries(value)) {
+    if (k === "meta" && v && typeof v === "object" && typeof v.title === "string") yield [`${path}.meta`, v];
+    else yield* nestedMetas(v, `${path}.${k}`);
+  }
+}
+
 function isException(ruleId, key) {
   return rules.exceptions.some(
     (e) => e.rule === ruleId && (key === e.key || key.startsWith(`${e.key}.`))
@@ -108,10 +116,11 @@ function checkContent() {
         }
       }
 
-      // Page meta: <ns>.meta for page namespaces, metadata.<page> for legacy ones
+      // Page meta: <ns>.meta and nested <ns>.<page>.meta (B-028) for page
+      // namespaces, metadata.<page> for legacy ones
       const metas = ns === "metadata"
         ? Object.entries(tree).map(([k, v]) => [`metadata.${k}`, v])
-        : tree.meta ? [[`${ns}.meta`, tree.meta]] : [];
+        : [...nestedMetas(tree, ns)];
       for (const [key, meta] of metas) {
         checkMeta(file, locale, key, meta, titles);
       }
