@@ -19,7 +19,7 @@ export async function generateMetadata({
   if (!career) return {};
 
   return {
-    title: `${career.title} — Carreras | Cabana Data`,
+    title: `${career.title} — Carreras`,
     description: career.shortDescription,
     alternates: {
       canonical: `/careers/${career.id}`,
