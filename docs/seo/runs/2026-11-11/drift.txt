@@ -1,0 +1,1134 @@
+    1 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/",
+  "baseline_id": 52,
+  "baseline_timestamp": "2026-11-06T13:36:22.204819+00:00",
+  "comparison_timestamp": "2026-11-11T23:42:08.913766+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 1,
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  },
+  "triggered_findings": [
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "f500f8ebcbc6...",
+      "new_value": "a9d3edd5d22c...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "3 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com",
+      "new_value": "https://cabanadata.com",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Sepa por d\u00f3nde empezar con IA. Y empiece bien.",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Sepa por d\u00f3nde empezar con IA. Y empiece bien.",
+      "new_value": "Sepa por d\u00f3nde empezar con IA. Y empiece bien.",
+      "message": "H1 text is similar enough (similarity: 100%)."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Consultor\u00eda de IA en Costa Rica | Cabana Data",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Consultor\u00eda de IA en Costa Rica | Cabana Data",
+      "new_value": "Consultor\u00eda de IA en Costa Rica | Cabana Data",
+      "message": "Title text unchanged."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Consultor\u00eda de IA para empresas medianas en Costa Rica y Latinoam\u00e9rica: sepa por d\u00f3nde empezar con IA en 4 semanas y lle...",
+      "new_value": "Consultor\u00eda de IA para empresas medianas en Costa Rica y Latinoam\u00e9rica: sepa por d\u00f3nde empezar con IA en 4 semanas y lle...",
+      "message": "Meta description unchanged."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "c00263b65827...",
+      "new_value": "c00263b65827...",
+      "message": "Schema content hash unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "3 schema block(s)",
+      "message": "No new schema added."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "8 H2s",
+      "new_value": "8 H2s",
+      "message": "H2 structure unchanged."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+    1 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/en",
+  "baseline_id": 53,
+  "baseline_timestamp": "2026-11-06T13:36:22.947464+00:00",
+  "comparison_timestamp": "2026-11-11T23:42:09.654567+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 1,
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  },
+  "triggered_findings": [
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "552240cc6196...",
+      "new_value": "f6758770c639...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "3 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/en",
+      "new_value": "https://cabanadata.com/en",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/en",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Know where to start with AI. And start right.",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Know where to start with AI. And start right.",
+      "new_value": "Know where to start with AI. And start right.",
+      "message": "H1 text is similar enough (similarity: 100%)."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "AI consulting in Costa Rica | Cabana Data",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "AI consulting in Costa Rica | Cabana Data",
+      "new_value": "AI consulting in Costa Rica | Cabana Data",
+      "message": "Title text unchanged."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "AI consulting for mid-sized companies in Costa Rica and Latin America: know where to start with AI in 4 weeks and take y...",
+      "new_value": "AI consulting for mid-sized companies in Costa Rica and Latin America: know where to start with AI in 4 weeks and take y...",
+      "message": "Meta description unchanged."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "1b29ca32aec2...",
+      "new_value": "1b29ca32aec2...",
+      "message": "Schema content hash unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "3 schema block(s)",
+      "message": "No new schema added."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "8 H2s",
+      "new_value": "8 H2s",
+      "message": "H2 structure unchanged."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+    1 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/ruta-ia",
+  "baseline_id": 54,
+  "baseline_timestamp": "2026-11-06T13:36:23.743084+00:00",
+  "comparison_timestamp": "2026-11-11T23:42:10.311650+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 1,
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  },
+  "triggered_findings": [
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "5d1cf494359d...",
+      "new_value": "72a06977d728...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "7 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/ruta-ia",
+      "new_value": "https://cabanadata.com/ruta-ia",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/ruta-ia",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Ruta IA: el diagn\u00f3stico de IA que le dice por d\u00f3nde empezar",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Ruta IA: el diagn\u00f3stico de IA que le dice por d\u00f3nde empezar",
+      "new_value": "Ruta IA: el diagn\u00f3stico de IA que le dice por d\u00f3nde empezar",
+      "message": "H1 text is similar enough (similarity: 100%)."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Ruta IA: diagn\u00f3stico de IA para empresas | Cabana Data",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Ruta IA: diagn\u00f3stico de IA para empresas | Cabana Data",
+      "new_value": "Ruta IA: diagn\u00f3stico de IA para empresas | Cabana Data",
+      "message": "Title text unchanged."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Sepa en 4 semanas por cu\u00e1les oportunidades de IA empezar y si sus datos las soportan. Precio fijo: USD 12,000 + IVA.",
+      "new_value": "Sepa en 4 semanas por cu\u00e1les oportunidades de IA empezar y si sus datos las soportan. Precio fijo: USD 12,000 + IVA.",
+      "message": "Meta description unchanged."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:site_name",
+        "og:locale",
+        "og:image",
+        "og:image:width",
+        "og:image:height",
+        "og:image:alt",
+        "og:type"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "31594b1b8189...",
+      "new_value": "31594b1b8189...",
+      "message": "Schema content hash unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "7 schema block(s)",
+      "message": "No new schema added."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "9 H2s",
+      "new_value": "9 H2s",
+      "message": "H2 structure unchanged."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+    1 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/ai-first-move",
+  "baseline_id": 55,
+  "baseline_timestamp": "2026-11-06T13:36:24.453591+00:00",
+  "comparison_timestamp": "2026-11-11T23:42:11.116791+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 1,
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  },
+  "triggered_findings": [
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "83bd69087c9f...",
+      "new_value": "c746f5695d36...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "5 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/ai-first-move",
+      "new_value": "https://cabanadata.com/ai-first-move",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/ai-first-move",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "AI First Move: lleve su primer caso de IA a producci\u00f3n",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "AI First Move: lleve su primer caso de IA a producci\u00f3n",
+      "new_value": "AI First Move: lleve su primer caso de IA a producci\u00f3n",
+      "message": "H1 text is similar enough (similarity: 100%)."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "AI First Move: primer caso de IA en producci\u00f3n | Cabana Data",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "AI First Move: primer caso de IA en producci\u00f3n | Cabana Data",
+      "new_value": "AI First Move: primer caso de IA en producci\u00f3n | Cabana Data",
+      "message": "Title text unchanged."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "En 10 semanas, su primer caso de IA en producci\u00f3n y el caso de inversi\u00f3n para llevar el resto a junta. Precio fijo: USD ...",
+      "new_value": "En 10 semanas, su primer caso de IA en producci\u00f3n y el caso de inversi\u00f3n para llevar el resto a junta. Precio fijo: USD ...",
+      "message": "Meta description unchanged."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "9795336dc484...",
+      "new_value": "9795336dc484...",
+      "message": "Schema content hash unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "5 schema block(s)",
+      "message": "No new schema added."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "10 H2s",
+      "new_value": "10 H2s",
+      "message": "H2 structure unchanged."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+    1 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/en/ai-first-move",
+  "baseline_id": 56,
+  "baseline_timestamp": "2026-11-06T13:36:25.177448+00:00",
+  "comparison_timestamp": "2026-11-11T23:42:11.901868+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 1,
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  },
+  "triggered_findings": [
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "5b542e654bec...",
+      "new_value": "84447e9e014f...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "5 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/en/ai-first-move",
+      "new_value": "https://cabanadata.com/en/ai-first-move",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/en/ai-first-move",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "AI First Move: take your first AI use case to production",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "AI First Move: take your first AI use case to production",
+      "new_value": "AI First Move: take your first AI use case to production",
+      "message": "H1 text is similar enough (similarity: 100%)."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "AI First Move: first AI use case in production | Cabana Data",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "AI First Move: first AI use case in production | Cabana Data",
+      "new_value": "AI First Move: first AI use case in production | Cabana Data",
+      "message": "Title text unchanged."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "In 10 weeks, your first AI use case in production and the investment case to take the rest to the board. Fixed price: US...",
+      "new_value": "In 10 weeks, your first AI use case in production and the investment case to take the rest to the board. Fixed price: US...",
+      "message": "Meta description unchanged."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "befe244f7cbc...",
+      "new_value": "befe244f7cbc...",
+      "message": "Schema content hash unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "5 schema block(s)",
+      "message": "No new schema added."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "10 H2s",
+      "new_value": "10 H2s",
+      "message": "H2 structure unchanged."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+    1 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/capacidades",
+  "baseline_id": 57,
+  "baseline_timestamp": "2026-11-06T13:36:26.156953+00:00",
+  "comparison_timestamp": "2026-11-11T23:42:12.693814+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 1,
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  },
+  "triggered_findings": [
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "4c189b3918dc...",
+      "new_value": "7979a2fe999f...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "4 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/capacidades",
+      "new_value": "https://cabanadata.com/capacidades",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/capacidades",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Capacidades: consultor\u00eda de datos e IA para proyectos a medida",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Capacidades: consultor\u00eda de datos e IA para proyectos a medida",
+      "new_value": "Capacidades: consultor\u00eda de datos e IA para proyectos a medida",
+      "message": "H1 text is similar enough (similarity: 100%)."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Consultor\u00eda de datos e IA a medida | Cabana Data",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Consultor\u00eda de datos e IA a medida | Cabana Data",
+      "new_value": "Consultor\u00eda de datos e IA a medida | Cabana Data",
+      "message": "Title text unchanged."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Data Consulting, Data Engineering, Digital Product y Custom AI Agents: proyectos de datos e IA a medida para empresas co...",
+      "new_value": "Data Consulting, Data Engineering, Digital Product y Custom AI Agents: proyectos de datos e IA a medida para empresas co...",
+      "message": "Meta description unchanged."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "93a64c84956b...",
+      "new_value": "93a64c84956b...",
+      "message": "Schema content hash unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "4 schema block(s)",
+      "message": "No new schema added."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "5 H2s",
+      "new_value": "5 H2s",
+      "message": "H2 structure unchanged."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}
+    1 INFO finding(s)
+{
+  "status": "ok",
+  "url": "https://cabanadata.com/en/capacidades",
+  "baseline_id": 58,
+  "baseline_timestamp": "2026-11-06T13:36:27.065147+00:00",
+  "comparison_timestamp": "2026-11-11T23:42:13.556854+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 1,
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  },
+  "triggered_findings": [
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "03ef1e34e481...",
+      "new_value": "0db131ce8308...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "4 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/en/capacidades",
+      "new_value": "https://cabanadata.com/en/capacidades",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://cabanadata.com/en/capacidades",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "index, follow",
+      "new_value": "index, follow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Capabilities: data and AI consulting for custom projects",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Capabilities: data and AI consulting for custom projects",
+      "new_value": "Capabilities: data and AI consulting for custom projects",
+      "message": "H1 text is similar enough (similarity: 100%)."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Custom data and AI consulting | Cabana Data",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Custom data and AI consulting | Cabana Data",
+      "new_value": "Custom data and AI consulting | Cabana Data",
+      "message": "Title text unchanged."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Data Consulting, Data Engineering, Digital Product and Custom AI Agents: custom data and AI projects for companies with ...",
+      "new_value": "Data Consulting, Data Engineering, Digital Product and Custom AI Agents: custom data and AI projects for companies with ...",
+      "message": "Meta description unchanged."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "19837cb64651...",
+      "new_value": "19837cb64651...",
+      "message": "Schema content hash unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "4 schema block(s)",
+      "message": "No new schema added."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "5 H2s",
+      "new_value": "5 H2s",
+      "message": "H2 structure unchanged."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}

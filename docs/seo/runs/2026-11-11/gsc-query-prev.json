@@ -1,0 +1,168 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "agente de datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 29,
+      "query": "agente de datos"
+    },
+    {
+      "keys": [
+        "agentes de ia personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 56.7,
+      "query": "agentes de ia personalizados"
+    },
+    {
+      "keys": [
+        "agentes ia personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 17.6,
+      "query": "agentes ia personalizados"
+    },
+    {
+      "keys": [
+        "cabana ai"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.6,
+      "query": "cabana ai"
+    },
+    {
+      "keys": [
+        "cabana app"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 30,
+      "query": "cabana app"
+    },
+    {
+      "keys": [
+        "cabana capital login"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27,
+      "query": "cabana capital login"
+    },
+    {
+      "keys": [
+        "cabana consultores"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5,
+      "query": "cabana consultores"
+    },
+    {
+      "keys": [
+        "cabana software"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 40,
+      "query": "cabana software"
+    },
+    {
+      "keys": [
+        "data architecture consultant"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 93,
+      "query": "data architecture consultant"
+    },
+    {
+      "keys": [
+        "data architecture consulting"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 77.2,
+      "query": "data architecture consulting"
+    },
+    {
+      "keys": [
+        "data modeling and architecture consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 99,
+      "query": "data modeling and architecture consulting"
+    },
+    {
+      "keys": [
+        "database consulting"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 79.3,
+      "query": "database consulting"
+    },
+    {
+      "keys": [
+        "ingenieria de datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 32,
+      "query": "ingenieria de datos"
+    },
+    {
+      "keys": [
+        "ruta ai"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "query": "ruta ai"
+    },
+    {
+      "keys": [
+        "web database consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45,
+      "query": "web database consulting"
+    }
+  ],
+  "totals": {
+    "clicks": 0,
+    "impressions": 53,
+    "ctr": 0.0,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 15,
+  "error": null,
+  "date_range": {
+    "start": "2026-10-26",
+    "end": "2026-11-01"
+  }
+}
