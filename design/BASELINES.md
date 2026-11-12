@@ -15,7 +15,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | Frame | Archivo | Estado | Commit | Deuda |
 |---|---|---|---|---|
 | `PG/index` | `app/[locale]/page.tsx` | dibujado | `0ff1f25` | Enlaces subrayados del hero y de las tarjetas de servicios hechos a mano: falta la variante `Button/link` en el DS (`.pen` y código). Diagonales decorativas con `clip-path` arbitrario en código. Logos de clientes en escala de grises (`grayscale`) en código, a color en el `.pen`. Títulos de `capabilities` y `cases` (`text-2xl`, `text-lg`) fuera de la escala global de headings. |
-| `PG/about` | `app/[locale]/about/page.tsx` | pendiente | — | — |
+| `PG/como-trabajamos` | `app/[locale]/como-trabajamos/page.tsx` (y `how-we-work` en en) | dibujado | `5bc0bbb` | Usa `Feature Item` (Numbered). Foto del fundador más pequeña en código (`f4384b0`) ya reflejada. `/about` retirado con 301 (D-009): sin baseline. |
 | `PG/contact` | `app/[locale]/contact/page.tsx` | pendiente | — | Dibujar estados del formulario: base, enviando, enviado, error. |
 | `PG/careers` | `app/[locale]/careers/page.tsx` | pendiente | — | — |
 | `PG/careers/[id]` | `app/[locale]/careers/[id]/page.tsx` | pendiente | — | — |
@@ -41,7 +41,6 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | Contenedor | Qué propone | Estado |
 |---|---|---|
 | `CH-posts-slug: pantallas` | Encabezado del post dividido (texto a la izquierda, imagen a la derecha) y barra lateral genérica en lugar del formulario de Ruta IA. Propuesta A (formulario compacto, en la página completa), B (solo CTA) y C (nombre y correo). El encabezado dividido ya está en código; falta elegir la barra lateral. | Propuestas dibujadas; al elegir y mergear, actualizar `PG/posts/[slug]` y borrar el `CH`. |
-| `CH-como-trabajamos: pantallas` | Página nueva /como-trabajamos (B-012, D-009–D-012): hero con balanza, franja 3:1 sistemas + aprobación, servicios con roadmaps, Lo que no hacemos, equipo, fundador, CTA. Opciones de ítems en `Opciones ítems`. Nuevo componente `Feature Item` (Numbered, Icon). | Al mergear: crear `PG/como-trabajamos` desde la pantalla, borrar el `CH`. |
 
 ## Sin baseline
 
