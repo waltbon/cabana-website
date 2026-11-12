@@ -1,0 +1,56 @@
+{
+  "current": {
+    "date_range": {
+      "start": "2026-11-02",
+      "end": "2026-11-08"
+    },
+    "clicks": 5,
+    "impressions": 347,
+    "totals_source": "gsc-page",
+    "visible": {
+      "queries": 43,
+      "clicks": 0,
+      "impressions": 207,
+      "position": 57.4
+    },
+    "brand": {
+      "queries": 6,
+      "clicks": 0,
+      "impressions": 32,
+      "position": 26.5
+    },
+    "nonbrand": {
+      "queries": 37,
+      "clicks": 0,
+      "impressions": 175,
+      "position": 63.1
+    }
+  },
+  "previous": {
+    "date_range": {
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    "clicks": 2,
+    "impressions": 101,
+    "totals_source": "gsc-page",
+    "visible": {
+      "queries": 15,
+      "clicks": 0,
+      "impressions": 53,
+      "position": 43
+    },
+    "brand": {
+      "queries": 6,
+      "clicks": 0,
+      "impressions": 21,
+      "position": 22.9
+    },
+    "nonbrand": {
+      "queries": 9,
+      "clicks": 0,
+      "impressions": 32,
+      "position": 56.2
+    }
+  }
+}
