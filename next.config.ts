@@ -68,6 +68,12 @@ const nextConfig: NextConfig = {
       // Posts exist only in Spanish; /en/posts/<slug> was a duplicate with a
       // canonical to es (docs/seo/redirects.csv). The /en archive stays.
       { source: "/en/posts/:slug", destination: "/posts/:slug", statusCode: 301 },
+      // /about retired in favor of Cómo trabajamos (D-009). Each locale has
+      // its own slug, so the cross-locale variants redirect too.
+      { source: "/about", destination: "/como-trabajamos", statusCode: 301 },
+      { source: "/en/about", destination: "/en/how-we-work", statusCode: 301 },
+      { source: "/how-we-work", destination: "/como-trabajamos", statusCode: 301 },
+      { source: "/en/como-trabajamos", destination: "/en/how-we-work", statusCode: 301 },
       // case-studies pulled until customer approves content; keep any
       // indexed/bookmarked URLs from 404ing.
       {

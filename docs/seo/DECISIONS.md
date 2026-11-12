@@ -16,6 +16,10 @@ Estados: `abierta` · `decidida` · `descartada`.
 | D-006 | Nombre del método en `metodologia-aer` (B-026): AER (slug) vs AEB (cuerpo) | Sin acrónimo: el cuerpo habla de "la evaluación de arquitectura" y no presenta el método como producto con sigla (BRIEF §1.1). El slug `metodologia-aer` no cambia. LinkedIn de Walter Bonilla: `https://www.linkedin.com/in/waltbon/` | decidida | 2026-11-06 |
 | D-007 | CTA de Ruta IA en los posts y cierre de `el-error-mas-caro` (B-026) | Los CTA siguen la ficha vigente: "por dónde empezar con IA", 4 semanas, 5 mejores oportunidades; sin "assessment", "6 dimensiones" ni "2 a 3 semanas". El cierre de `el-error-mas-caro` va a Ruta IA en lugar de "Data Health Check", como puente hacia la intención de IA. Queda abierto qué servicio atiende a quien solo busca un dashboard (Q6, Q10, Q13) | decidida | 2026-11-06 |
 | D-008 | FAQ de `metodologia-aer`: "servicio standalone" y "el costo se descuenta del proyecto" (B-026) | Se quita la condición comercial: el sitio solo vende dos servicios con precio fijo (Ruta IA y AI First Move; BRIEF §1.3). La pregunta se reformula a "¿En qué momento del proyecto se hace la evaluación?" y no afirma que la evaluación se venda ni deje de venderse aparte | decidida | 2026-11-06 |
+| D-009 | `/about` y Cómo trabajamos (B-012, Q10 parte `/about`, C12 parte `/about`) | `/about` se retira: 301 a `/como-trabajamos` y `/en/about` → `/en/how-we-work`. Se crean `/como-trabajamos` y `/en/how-we-work`; el slug en inglés queda provisional hasta Q2/Q3. El equipo se muda a Cómo trabajamos, después de "El método". Decidido por Walter Bonilla | decidida | 2026-11-11 |
+| D-010 | Contenido de Cómo trabajamos (B-012, pendientes del copy v1) | Equipo publicado: Walter, Evelyn, Thomas, Eduardo y Melissa (sin Sergio ni Rebeca). Se quita `principle.items[2]` ("cada acción queda registrada"): no es práctica de todos los proyectos; queda solo el enlace al caso. Se quita la cita del fundador. La página sale en español y en inglés. Copy en `docs/content/pages/COMO-TRABAJAMOS.md`. Decidido por Walter Bonilla | decidida | 2026-11-11 |
+| D-011 | Enfoque y término SEO de Cómo trabajamos (B-012) | La página no habla de trabajar con IA (el Home ya lo cubre): habla de sistemas propios, seriedad en la ejecución y fases con criterio de salida verificable (base: Constitución de Sistemas v1.0). Término objetivo pasa a marca + método ("cómo trabajamos", "metodología de consultoría"). "IA con supervisión humana" / "human-in-the-loop AI implementation" se mueve a `/ai-first-move` (STRATEGY §3). Decidido por Walter Bonilla (opción A) | decidida | 2026-11-11 |
+| D-012 | Sección del fundador en Cómo trabajamos (B-012) | Se agrega una sección con foto de Walter Bonilla (avatar redondo) y una cita breve, antes del CTA. Reemplaza la parte de D-010 que quitaba la cita del fundador: la cita anterior de /about no vuelve; la nueva sigue el enfoque de D-011. Decidido por Walter Bonilla | decidida | 2026-11-11 |
 
 ## Conflictos heredados de la investigación (`03-resumen.md` §2)
 
@@ -32,7 +36,7 @@ Estados: `abierta` · `decidida` · `descartada`.
 | C9 | "USD X + IVA" no funciona en EE. UU. | — | abierta |
 | C10 | SERPs premian "autonomous"; Cabana se posiciona en human-in-the-loop | Guía | decidida |
 | C11 | Capacidad de un cliente por servicio vs. demanda en EE. UU. | — | abierta |
-| C12 | `/about`, `/careers`, `/privacidad` fuera de la arquitectura objetivo | — | abierta |
+| C12 | `/about`, `/careers`, `/privacidad` fuera de la arquitectura objetivo | `/about`: D-009 (se retira, 301 a `/como-trabajamos`). `/careers` y `/privacidad` siguen sin decidir | abierta |
 
 ## Preguntas abiertas para dirección (`03-resumen.md` §3)
 
@@ -47,7 +51,7 @@ Estados: `abierta` · `decidida` · `descartada`.
 | Q7 | ¿Permiso escrito para nombrar clientes en casos? ¿Casos publicables en inglés? | B-003 | abierta |
 | Q8 | ¿Cuánto tiempo del equipo del cliente toma Ruta IA? | FAQ Ruta IA | abierta |
 | Q9 | ¿Se crean perfiles en Clutch y Consultancy.org, y se actualiza The Manifest? | B-014 | abierta |
-| Q10 | Redirects por confirmar: `data-health-check` → `/ruta-ia`, `data-analytics-use-case` → `/ai-first-move`, `dashboards-analytics-interfaces` → Data Engineering, `/about` → `/como-trabajamos` | B-004 | abierta |
+| Q10 | Redirects por confirmar: `data-health-check` → `/ruta-ia`, `data-analytics-use-case` → `/ai-first-move`, `dashboards-analytics-interfaces` → Data Engineering, `/about` → `/como-trabajamos` (esta parte decidida en D-009, 2026-11-11) | B-004 | abierta |
 | Q11 | ¿Se mueven los posts de `/posts/<slug>` a `/blog/<slug>`? | — | abierta |
 | Q12 | Dominios de SmartGo360 y Novitec | Competencia | abierta |
 | Q13 | `/services/dashboards-analytics-interfaces` ya responde 301 → `/capacidades/ingenieria-de-datos` en producción (lint `redirects` 2026-11-03, estado `applied`), pero Q10 lo lista como "por confirmar" y `redirects.csv` dice "alternativa: Digital Product; confirmar". ¿Se ratifica el destino Data Engineering o se cambia a Digital Product? Relacionada con Q6 (dónde queda "Dashboards y analítica"). Registrado el 2026-11-03 | Q10 (parte), Q6 | abierta |

@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About Us",
+    "about": "How we work",
     "services": "Services",
     "servicesOverview": "All Services",
     "dataConsulting": "Data Consulting",
@@ -98,7 +98,7 @@
       "rutaIa": "Ruta IA",
       "services": "Services",
       "caseStudies": "Case Studies",
-      "about": "About Us",
+      "about": "How we work",
       "blog": "Blog",
       "contact": "Contact",
       "capabilities": "Capabilities"
@@ -114,41 +114,6 @@
     "copyright": "All rights reserved",
     "location": "San José, Costa Rica",
     "privacy": "Privacy Policy"
-  },
-  "about": {
-    "hero": {
-      "headline": "Data Engineering Specialists for",
-      "headlineHighlight": "Mid-Market Companies",
-      "description": "Cabana Data is a specialized consulting firm delivering data engineering, architecture, and AI solutions to companies in Costa Rica and LATAM since 2021.",
-      "cta": "Talk to Our Team"
-    },
-    "team": {
-      "tagline": "Our Team",
-      "headline": "The Experts Behind Your Projects",
-      "description": "We're a team of experts in data, development, and design. Together, we build bold solutions that connect and inspire.",
-      "roles": {
-        "techLead": "Technical Lead",
-        "adminManager": "Administrative Manager",
-        "dataEngineer": "Data Engineer",
-        "developer": "Developer",
-        "seniorDeveloper": "Senior Developer",
-        "uxDesigner": "UX/UI Designer"
-      }
-    },
-    "story": {
-      "quote": "From a single project to a specialized practice — we built this firm by staying close to the engineering work.",
-      "quoteAuthor": "Walter Bonilla",
-      "quoteRole": "Founder and Technical Lead",
-      "headline": "Deep expertise,",
-      "headlineHighlight": "Real delivery.",
-      "description": "We're a dedicated team with purpose. Our goal is to be the most trusted data engineering partner for mid-market companies in Costa Rica and LATAM.",
-      "gotProject": "Have a project?",
-      "cta": "Talk to Our Team"
-    },
-    "seo": {
-      "title": "About Us",
-      "description": "Meet the Cabana Data team. We're experts in data, development, and design who build software for companies and help businesses become data-driven."
-    }
   },
   "services": {
     "hero": {
@@ -2827,6 +2792,136 @@
     "cta": {
       "title": "Where does your company stand with AI?",
       "body": "In a 20-minute conversation with whoever decides the investment, we review the right starting point: Ruta IA, AI First Move or a custom project.",
+      "button": "Book a conversation"
+    }
+  },
+  "comoTrabajamos": {
+    "meta": {
+      "title": "How we work: a system for every project | Cabana Data",
+      "description": "Proprietary systems with phases, deliverables and verifiable exit criteria. From Ruta IA in 4 weeks to a use case in production in 10 weeks.",
+      "ogTitle": "How we work: a system for every project",
+      "ogDescription": "Defined phases, named deliverables and a clear condition for considering each phase complete.",
+      "breadcrumbHome": "Home"
+    },
+    "hero": {
+      "eyebrow": "How we work",
+      "title": "How we work: a system for every project, not improvisation",
+      "body": "Every service runs on a method of our own. Defined phases, named deliverables and a clear condition for considering each phase complete. Anyone on our team reaches the same result.",
+      "imageAlt": "A balance scale where a stack of data blocks outweighs a few empty speech bubbles, with two people at its base"
+    },
+    "systems": {
+      "title": "What every system includes",
+      "items": [
+        {
+          "title": "Phases in order",
+          "body": "Each one with what it needs and what it delivers."
+        },
+        {
+          "title": "Named deliverables",
+          "body": "You know what you will receive before we start."
+        },
+        {
+          "title": "Proven tools",
+          "body": "Templates and workshop scripts we use on every project."
+        },
+        {
+          "title": "Exit criteria",
+          "body": "A phase ends when something you can verify is met, not when the time runs out."
+        }
+      ]
+    },
+    "approval": {
+      "title": "You approve before we move on",
+      "body": "If a phase shapes what comes next, it stops until you approve it. Nothing is built on something you have not validated."
+    },
+    "journey": {
+      "title": "Two services, in order",
+      "items": [
+        {
+          "duration": "4 weeks",
+          "name": "Ruta IA",
+          "body": "Your top 5 opportunities and which ones your data supports today."
+        },
+        {
+          "duration": "10 weeks",
+          "name": "AI First Move",
+          "body": "A use case in production and the investment case."
+        }
+      ],
+      "note": "Ruta IA is not required. Fixed price and scope."
+    },
+    "notDo": {
+      "title": "What we don't do",
+      "items": [
+        {
+          "title": "Work nobody asked for",
+          "body": "Every output is used by the next phase or delivered to you."
+        },
+        {
+          "title": "Scope that grows without notice",
+          "body": "What is out of scope is stated from the start."
+        },
+        {
+          "title": "Deliverables that shut off when we finish",
+          "body": ""
+        }
+      ]
+    },
+    "team": {
+      "title": "The same team, from diagnosis to production",
+      "intro": "A single team in San José, Costa Rica, with no subcontractors.",
+      "proof": [
+        {
+          "value": "2018",
+          "label": "Since"
+        },
+        {
+          "value": "50+",
+          "label": "Data pipelines in production"
+        }
+      ],
+      "members": [
+        {
+          "name": "Walter",
+          "role": "Founder and technical lead"
+        },
+        {
+          "name": "Evelyn",
+          "role": "Administrative manager"
+        },
+        {
+          "name": "Thomas",
+          "role": "Data scientist"
+        },
+        {
+          "name": "Eduardo",
+          "role": "Data engineer"
+        },
+        {
+          "name": "Melissa",
+          "role": "Full-stack developer"
+        }
+      ],
+      "imageAlt": "Illustration of five people walking from a table with a magnifying glass to a working machine"
+    },
+    "founder": {
+      "quote": "A good result should not depend on who happens to be assigned to the project. That is why every service follows a system: anyone on our team reaches the same result.",
+      "name": "Walter Bonilla",
+      "role": "Founder and technical lead",
+      "imageAlt": "Walter Bonilla, founder of Cabana Data"
+    },
+    "cta": {
+      "title": "Where is your company today?",
+      "doors": [
+        {
+          "label": "I don't know where to start",
+          "service": "Ruta IA"
+        },
+        {
+          "label": "I already have the idea",
+          "service": "AI First Move"
+        }
+      ],
       "button": "Book a conversation"
     }
   }

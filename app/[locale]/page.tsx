@@ -47,7 +47,7 @@ const organizationSchema = {
   name: siteConfig.site_name,
   url: siteConfig.site_domain,
   logo: `${siteConfig.site_domain}/logo-horizontal-light.svg`,
-  foundingDate: "2021",
+  foundingDate: "2018",
   email: siteConfig.site_email,
   telephone: siteConfig.site_phone,
   address: {

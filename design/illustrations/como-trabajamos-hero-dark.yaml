@@ -1,0 +1,82 @@
+# Escena — Hero de Cómo trabajamos (tema dark)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Sustituye: /home/rocket.svg que usaba /about (story-section), página retirada en D-009.
+# Mensaje (comoTrabajamos.hero.title): "evidencia de su operación, no opiniones".
+#
+# Contenedor: hero dividido bg-section-dark (#0f172a), next/image object-cover.
+# Formato 1:1, todo lo importante en el 60% central, fondo opaco del mismo navy.
+
+style_ref: cabana-ink-doodle
+theme: dark
+background: solid
+composition: single
+aspect_ratio: "1:1"
+export:
+  size: "2000x2000"
+  format: webp
+  path: public/como-trabajamos/hero-balanza.webp
+safe_zone: "60% central; márgenes solo con destellos y flechas"
+accent_mode: selective
+
+objects:
+  - element: balanza
+    content: "balanza de dos platos de pie al centro, inclinada: el plato derecho abajo, el izquierdo arriba"
+    fill: empty
+    accent: false
+  - element: globos de diálogo
+    content: "tres o cuatro globos de diálogo vacíos y livianos, flotando sobre el plato izquierdo (el alto)"
+    fill: empty
+    accent: false
+  - element: bloques de datos
+    content: "pila sólida de bloques y un pequeño cilindro de base de datos sobre el plato derecho (el bajo)"
+    fill: hatch
+    accent: true
+    accent_target: "los bloques de datos de la pila (no el cilindro ni el plato)"
+  - element: personas
+    content: "dos figuras de palitos al pie de la balanza: una señala la pila, otra con portapapeles"
+    fill: empty
+    accent: false
+
+decor:
+  arrows: 2        # punteadas, color decor (#94a3b8): una de los globos hacia arriba, otra hacia la pila
+  sparkles: 4      # alrededor de la pila de bloques
+
+colors:
+  background: "#0f172a"
+  ink: "#f1f5f9"
+  hatch: "#cbd5e1"
+  decor: "#94a3b8"
+  accent: "#57ff8f"
+  interiors: "#0f172a"
+
+prompt: >
+  Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+  background, square 1:1 composition. In the center, a large two-pan balance
+  scale standing on a simple base, clearly tilted: the right pan sits low and the
+  left pan rides high. On the high left pan, three or four empty, light speech
+  bubbles float loosely, as if weightless. On the low right pan, a solid, neat
+  stack of square data blocks with a small database cylinder beside it, heavy
+  enough to tip the scale. At the foot of the scale, two simple stick figures: one
+  points at the stack of blocks, the other holds a clipboard. Thick, slightly
+  wobbly off-white #f1f5f9 lines with double-line contours, diagonal hatching in
+  light gray #cbd5e1. All object interiors are the same dark navy #0f172a as the
+  background. Two curved dotted arrows in muted slate #94a3b8, and small
+  four-point sparkles around the stack of blocks. Only the stacked data blocks
+  filled with flat neon green #57ff8f, outlined in off-white; everything else
+  monochrome. Keep all key objects inside the central 60% of the frame. No text,
+  no letters, no words, no labels, no numbers anywhere, speech bubbles are empty.
+  No gradients, no glow, no shading, no realistic 3D. Clean vector look, generous
+  margins.
+
+negative_prompt: >
+  text, letters, words, labels, numbers, typography, writing inside speech
+  bubbles, checkerboard, transparency grid, white background, black background,
+  cream, beige, paper texture, white fills, glow, neon glow, gradient, vignette,
+  photorealistic, 3d render, glossy, shadow, logos, blue, humanoid robot, justice
+  scale with blindfolded figure, multiple accent colors, background scenery,
+  objects cut at edges
+
+# Post-proceso
+# - uv run ./design/tools/match-navy.py "<original>" public/como-trabajamos/hero-balanza.webp
+#   (sin --crop: el hueco del hero es 1:1 con object-cover).
+# - alt (comoTrabajamos.hero.imageAlt, es/en) pasa por brand-guardian.

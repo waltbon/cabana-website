@@ -26,8 +26,8 @@ origen,destino,motivo
 /services/custom-ai-agents,/capacidades/agentes-ia-a-medida,Capacidad a medida (brief §5)
 /en/services/custom-ai-agents,/en/capabilities/custom-ai-agents,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
 /services/data-strategy,/capacidades/consultoria-de-datos,URL antigua (WordPress) con sesión orgánica en GA4; hoy 404
-/about,/como-trabajamos,No hay página Nosotros en la arquitectura objetivo; el método vive en Cómo trabajamos. Decidir si se conserva /about
-/en/about,/en/how-we-work,Igual que /about | slug en PROVISIONAL — pendiente keyword map en
+/about,/como-trabajamos,No hay página Nosotros en la arquitectura objetivo; el método vive en Cómo trabajamos. Decidido en D-009; aplicado en B-012
+/en/about,/en/how-we-work,Igual que /about; aplicado en B-012 | slug en PROVISIONAL — pendiente keyword map en
 /contact,/agendar,Contacto pasa a Agendar
 /contact/,/agendar,Variante con slash (hoy 308 a /contact) — evitar cadena
 /en/contact,/en/book-a-call,Contacto pasa a Agendar | slug en PROVISIONAL — pendiente keyword map en

@@ -3,7 +3,8 @@ import { ServiceLink } from "@/components/service-link";
 import { Section, Container } from "@/components/craft";
 import { siteConfig } from "@/site.config";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { localizedHref } from "@/lib/localized-paths";
 
 // Social media icons as SVG components
 const LinkedInIcon = ({ className }: { className?: string }) => (
@@ -24,7 +25,7 @@ const footerLinkKeys = [
   { key: "rutaIa", href: "/ruta-ia" },
   { key: "capabilities", href: "/capacidades" },
   // { key: "caseStudies", href: "/case-studies" },
-  { key: "about", href: "/about" },
+  { key: "about", href: "/como-trabajamos" },
   { key: "blog", href: "/posts" },
   { key: "contact", href: "/contact" },
 ];
@@ -40,6 +41,7 @@ const socialLinks = [
 
 export const Footer = () => {
   const t = useTranslations("footer");
+  const locale = useLocale();
   const currentYear = new Date().getFullYear();
   const mutedLink = "text-sm text-slate-300 transition-colors hover:text-white";
 
@@ -61,7 +63,7 @@ export const Footer = () => {
 
             <nav className="grid grid-cols-2 gap-x-4 gap-y-3 md:flex md:gap-8">
               {footerLinkKeys.map((link) => (
-                <ServiceLink key={link.href} href={link.href} className={mutedLink}>
+                <ServiceLink key={link.href} href={localizedHref(link.href, locale)} className={mutedLink}>
                   {t(`links.${link.key}`)}
                 </ServiceLink>
               ))}

@@ -27,7 +27,7 @@ Cabana Data helps businesses unlock the power of their data through expert data 
 ## Main Pages
 
 - [Home](${siteConfig.site_domain}): Overview of Cabana Data services and value proposition
-- [About](${siteConfig.site_domain}/about): Company mission, team, and values
+- [How we work](${siteConfig.site_domain}/en/how-we-work) ([Spanish](${siteConfig.site_domain}/como-trabajamos)): How we work: proprietary systems with defined phases, named deliverables and verifiable exit criteria; the team; the two services in order
 - [Capabilities](${siteConfig.site_domain}/capacidades): Data Consulting, Data Engineering, Digital Product and Custom AI Agents, quoted to scope
 - [Blog](${siteConfig.site_domain}/posts): Insights on data strategy and engineering
 - [Contact](${siteConfig.site_domain}/contact): Get in touch with our team

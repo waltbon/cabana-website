@@ -99,11 +99,12 @@ const OFFER_CATALOG_SERVICES = [
 
 // Team members with a confirmed public LinkedIn profile (sameAs for Person schema).
 // Only include people who have explicitly shared their profile URL — do not guess or scrape.
+// `member` is the first name in `comoTrabajamos.team.members`, which holds the
+// published role. Only people on the published team (D-010) are listed.
 const TEAM_MEMBERS_WITH_PROFILE = [
-  { name: "Walter Bonilla", roleKey: "techLead", sameAs: "https://www.linkedin.com/in/waltbon/" },
-  { name: "Evelyn Gabriela Bonilla", roleKey: "adminManager", sameAs: "https://www.linkedin.com/in/gabriela-bonilla-a3b0991b8/" },
-  { name: "Thomas Huber", roleKey: "dataEngineer", sameAs: "https://www.linkedin.com/in/thomas-huber-kelly-63885b31a/" },
-  { name: "Rebeca Viana", roleKey: "uxDesigner", sameAs: "https://www.linkedin.com/in/rebecaviana/" },
+  { name: "Walter Bonilla", member: "Walter", sameAs: "https://www.linkedin.com/in/waltbon/" },
+  { name: "Evelyn Gabriela Bonilla", member: "Evelyn", sameAs: "https://www.linkedin.com/in/gabriela-bonilla-a3b0991b8/" },
+  { name: "Thomas Huber", member: "Thomas", sameAs: "https://www.linkedin.com/in/thomas-huber-kelly-63885b31a/" },
 ] as const;
 
 // JSON-LD structured data (Organization + WebSite + OfferCatalog schemas)
@@ -116,13 +117,14 @@ function getJsonLd(
     { hero?: { name?: string }; meta?: { description?: string } }
   >;
 
-  const roleLabels = (messages.about as { team?: { roles?: Record<string, string> } })
-    ?.team?.roles;
+  const teamMembers = (
+    messages.comoTrabajamos as { team?: { members?: { name: string; role: string }[] } }
+  )?.team?.members;
 
-  const employee = TEAM_MEMBERS_WITH_PROFILE.map(({ name, roleKey, sameAs }) => ({
+  const employee = TEAM_MEMBERS_WITH_PROFILE.map(({ name, member, sameAs }) => ({
     "@type": "Person",
     name,
-    jobTitle: roleLabels?.[roleKey] ?? roleKey,
+    jobTitle: teamMembers?.find((m) => m.name === member)?.role ?? member,
     sameAs,
     worksFor: { "@id": `${siteConfig.site_domain}/#organization` },
   }));

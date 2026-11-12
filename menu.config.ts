@@ -10,7 +10,7 @@ export type MenuItem =
 
 export const mainMenu: Record<string, MenuItem> = {
   home: "/",
-  about: "/about",
+  about: "/como-trabajamos",
   capabilities: {
     href: "/capacidades",
     children: {

@@ -21,11 +21,14 @@ import {
 import { Separator } from "@/components/ui/separator";
 
 import { mainMenu, contentMenu } from "@/menu.config";
+import { useLocale } from "next-intl";
+import { localizedHref } from "@/lib/localized-paths";
 import { siteConfig } from "@/site.config";
 import { useContactDrawer } from "@/components/contact/contact-drawer-provider";
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false);
+  const locale = useLocale();
   const { openDrawer } = useContactDrawer();
 
   return (
@@ -75,7 +78,7 @@ export function MobileNav() {
                 }
 
                 return (
-                  <MobileLink key={key} href={item} onOpenChange={setOpen}>
+                  <MobileLink key={key} href={localizedHref(item, locale)} onOpenChange={setOpen}>
                     {key.charAt(0).toUpperCase() + key.slice(1)}
                   </MobileLink>
                 );

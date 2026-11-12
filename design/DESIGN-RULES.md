@@ -134,6 +134,7 @@ Frame `Components` del `.pen`:
 | `Card` | — (icono, título, descripción) | `components/ui/card.tsx` |
 | `Post Card` | — (imagen, categoría, título, extracto, fecha) | `components/posts/post-card.tsx` |
 | `Icon Wrapper` | `sm`, `md`, `lg`, `gradient` | utilidades `.icon-wrapper-*` en `globals.css` |
+| `Feature Item` | `Numbered` (línea con acento `cabana-green` + número en `primary`; el número se puede ocultar), `Icon` (icono lucide en recuadro con borde de 1 px junto al título) | `components/feature-item.tsx` |
 | `Nav` | — | `components/nav/*`, `menu.config.ts` |
 | `Section Header` | — (pretítulo, título, subtítulo) | `_components` de cada página |
 | `CTA Block` | — | `_components/cta-section.tsx` por página |
