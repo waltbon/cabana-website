@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Inicio",
-    "about": "Nosotros",
+    "about": "Cómo trabajamos",
     "services": "Servicios",
     "servicesOverview": "Todos los Servicios",
     "dataConsulting": "Data Consulting",
@@ -98,7 +98,7 @@
       "rutaIa": "Ruta IA",
       "services": "Servicios",
       "caseStudies": "Casos de Éxito",
-      "about": "Nosotros",
+      "about": "Cómo trabajamos",
       "blog": "Blog",
       "contact": "Contacto",
       "capabilities": "Capacidades"
@@ -114,41 +114,6 @@
     "copyright": "Derechos reservados",
     "location": "San José, Costa Rica",
     "privacy": "Política de Privacidad"
-  },
-  "about": {
-    "hero": {
-      "headline": "Especialistas en Ingeniería de Datos para",
-      "headlineHighlight": "Empresas del Mercado Medio",
-      "description": "Cabana Data es una firma de consultoría especializada que entrega soluciones de ingeniería de datos, arquitectura e IA a empresas en Costa Rica y LATAM desde 2021.",
-      "cta": "Hablar con Nuestro Equipo"
-    },
-    "team": {
-      "tagline": "Nuestro Equipo",
-      "headline": "Los Expertos Detrás de Tus Proyectos",
-      "description": "Somos un equipo de expertos en datos, desarrollo y diseño. Juntos, creamos soluciones audaces que conectan e inspiran.",
-      "roles": {
-        "techLead": "Líder Técnico",
-        "adminManager": "Gerente Administrativo",
-        "dataEngineer": "Ingeniero de Datos",
-        "developer": "Desarrollador",
-        "seniorDeveloper": "Desarrollador Senior",
-        "uxDesigner": "Diseñador UX/UI"
-      }
-    },
-    "story": {
-      "quote": "De un solo proyecto a una práctica especializada — construimos esta firma manteniéndonos cerca del trabajo de ingeniería.",
-      "quoteAuthor": "Walter Bonilla",
-      "quoteRole": "Fundador y Líder Técnico",
-      "headline": "Expertise profundo,",
-      "headlineHighlight": "Entrega real.",
-      "description": "Somos un equipo dedicado con propósito. Nuestro objetivo es ser el socio de ingeniería de datos más confiable para las empresas del mercado medio en Costa Rica y LATAM.",
-      "gotProject": "¿Tienes un proyecto?",
-      "cta": "Hablar con Nuestro Equipo"
-    },
-    "seo": {
-      "title": "Sobre Nosotros",
-      "description": "Conoce al equipo de Cabana Data. Somos expertos en datos, desarrollo y diseño que construyen software para empresas y ayudan a los negocios a volverse data-driven."
-    }
   },
   "services": {
     "hero": {
@@ -2827,6 +2792,136 @@
     "cta": {
       "title": "¿En qué punto está su empresa con la IA?",
       "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos cuál es el punto de partida correcto: Ruta IA, AI First Move o un proyecto a medida.",
+      "button": "Agendar una conversación"
+    }
+  },
+  "comoTrabajamos": {
+    "meta": {
+      "title": "Cómo trabajamos: un sistema para cada proyecto | Cabana Data",
+      "description": "Sistemas propios con fases, entregables y criterios de salida verificables. De Ruta IA en 4 semanas a un caso en producción en 10 semanas.",
+      "ogTitle": "Cómo trabajamos: un sistema para cada proyecto",
+      "ogDescription": "Fases definidas, entregables con nombre y una condición clara para dar cada fase por terminada.",
+      "breadcrumbHome": "Inicio"
+    },
+    "hero": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Cómo trabajamos: un sistema para cada proyecto, no improvisación",
+      "body": "Cada servicio se ejecuta con un método propio. Fases definidas, entregables con nombre y una condición clara para dar cada fase por terminada. Cualquier persona de nuestro equipo llega al mismo resultado.",
+      "imageAlt": "Balanza en la que una pila de bloques de datos pesa más que unos globos de diálogo vacíos, con dos personas al pie"
+    },
+    "systems": {
+      "title": "Lo que tiene cada sistema",
+      "items": [
+        {
+          "title": "Fases en orden",
+          "body": "Cada una con lo que necesita y lo que entrega."
+        },
+        {
+          "title": "Entregables con nombre",
+          "body": "Usted sabe qué recibe antes de empezar."
+        },
+        {
+          "title": "Herramientas probadas",
+          "body": "Plantillas y guiones de taller que usamos en cada proyecto."
+        },
+        {
+          "title": "Criterio de salida",
+          "body": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo."
+        }
+      ]
+    },
+    "approval": {
+      "title": "Usted aprueba antes de avanzar",
+      "body": "Si una fase condiciona lo que sigue, se detiene hasta su aprobación. Nada se construye sobre algo que usted no validó."
+    },
+    "journey": {
+      "title": "Dos servicios, en orden",
+      "items": [
+        {
+          "duration": "4 semanas",
+          "name": "Ruta IA",
+          "body": "Sus 5 mejores oportunidades y cuáles soportan hoy sus datos."
+        },
+        {
+          "duration": "10 semanas",
+          "name": "AI First Move",
+          "body": "Un caso en producción y el caso de inversión."
+        }
+      ],
+      "note": "Ruta IA no es obligatorio. Precio y alcance fijos."
+    },
+    "notDo": {
+      "title": "Lo que no hacemos",
+      "items": [
+        {
+          "title": "Trabajo que nadie pidió",
+          "body": "Cada resultado lo usa la fase siguiente o lo recibe usted."
+        },
+        {
+          "title": "Alcances que crecen sin avisar",
+          "body": "Lo que no entra se dice desde el inicio."
+        },
+        {
+          "title": "Entregables que se apagan al terminar",
+          "body": ""
+        }
+      ]
+    },
+    "team": {
+      "title": "El mismo equipo, del diagnóstico a producción",
+      "intro": "Un solo equipo en San José, Costa Rica, sin subcontrataciones.",
+      "proof": [
+        {
+          "value": "2018",
+          "label": "Desde"
+        },
+        {
+          "value": "50+",
+          "label": "Flujos de datos en producción"
+        }
+      ],
+      "members": [
+        {
+          "name": "Walter",
+          "role": "Fundador y líder técnico"
+        },
+        {
+          "name": "Evelyn",
+          "role": "Gerente administrativa"
+        },
+        {
+          "name": "Thomas",
+          "role": "Científico de datos"
+        },
+        {
+          "name": "Eduardo",
+          "role": "Ingeniero de datos"
+        },
+        {
+          "name": "Melissa",
+          "role": "Desarrolladora full-stack"
+        }
+      ],
+      "imageAlt": "Ilustración de cinco personas que caminan de una mesa con una lupa hacia una máquina en funcionamiento"
+    },
+    "founder": {
+      "quote": "Un buen resultado no debería depender de quién le toque en el proyecto. Por eso cada servicio sigue un sistema: cualquiera de nuestro equipo llega al mismo resultado.",
+      "name": "Walter Bonilla",
+      "role": "Fundador y líder técnico",
+      "imageAlt": "Walter Bonilla, fundador de Cabana Data"
+    },
+    "cta": {
+      "title": "¿En qué punto está su empresa?",
+      "doors": [
+        {
+          "label": "No sé por dónde empezar",
+          "service": "Ruta IA"
+        },
+        {
+          "label": "Ya tengo la idea",
+          "service": "AI First Move"
+        }
+      ],
       "button": "Agendar una conversación"
     }
   }

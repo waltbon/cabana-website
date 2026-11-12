@@ -774,6 +774,162 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "frame",
+              "id": "s27YM",
+              "name": "Feature Items",
+              "width": "fill_container",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K5lZ8u",
+                  "name": "Feature Item/Numbered",
+                  "reusable": true,
+                  "width": 400,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a7RtZ",
+                      "name": "Línea",
+                      "width": "fill_container",
+                      "height": 3,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "h3fUm",
+                          "name": "Acento",
+                          "width": 48,
+                          "height": 3,
+                          "fill": "$cabana-green"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cy7X1",
+                          "name": "Resto",
+                          "width": "fill_container",
+                          "height": 1,
+                          "fill": "$border"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x92gW",
+                      "name": "Sep",
+                      "width": 1,
+                      "height": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "M4oFcA",
+                      "name": "Número",
+                      "fill": "$primary",
+                      "content": "01",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "BR2b1",
+                      "name": "Título",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Fases en orden",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Izhpe",
+                      "name": "Texto",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cada una con lo que necesita y lo que entrega.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "upkBW",
+                  "name": "Feature Item/Icon",
+                  "reusable": true,
+                  "width": 400,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nSaF1",
+                      "name": "Cabecera",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "W5bMc",
+                          "name": "Icono",
+                          "width": 36,
+                          "height": 36,
+                          "cornerRadius": "$radius-md",
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "xgUwB",
+                              "name": "Glifo",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "file-check",
+                              "library": "lucide",
+                              "fill": "$primary"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "LF7h4",
+                          "name": "Título",
+                          "fill": "$foreground",
+                          "content": "Entregables con nombre",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "rBhjX",
+                      "name": "Texto",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usted sabe qué recibe antes de empezar.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -31321,6 +31477,3821 @@
                   "fontWeight": "normal"
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hCstK",
+      "x": 0,
+      "y": 40054,
+      "name": "CH-como-trabajamos: pantallas",
+      "gap": 120,
+      "children": [
+        {
+          "type": "frame",
+          "id": "c7hQup",
+          "name": "CH-como-trabajamos/Opciones ítems",
+          "width": 1100,
+          "fill": "$background",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 64,
+          "children": [
+            {
+              "type": "frame",
+              "id": "mHHDr",
+              "name": "OPCIÓN A · NUMERADA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xCXRW",
+                  "name": "Etiqueta",
+                  "fill": "$primary",
+                  "content": "OPCIÓN A · NUMERADA",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "G2lcnT",
+                  "name": "Descripción",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Sin iconos. Número fino en azul y una línea de 1 px arriba. Editorial y sobria.",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "A8x9R",
+                  "name": "Grid",
+                  "width": 882,
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Lk7Ft",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sOD81",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "stroke": "$border",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            20,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oAOKp",
+                              "name": "Número",
+                              "fill": "$primary",
+                              "content": "01",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "YHiKr",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Fases en orden",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "E0sEf",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cada una con lo que necesita y lo que entrega.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jFUVp",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "stroke": "$border",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            20,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bEcUq",
+                              "name": "Número",
+                              "fill": "$primary",
+                              "content": "02",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "CyNzH",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Entregables con nombre",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "e98QJ",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Usted sabe qué recibe antes de empezar.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N8rj6E",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vKtyF",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "stroke": "$border",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            20,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nxYfQ",
+                              "name": "Número",
+                              "fill": "$primary",
+                              "content": "03",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "R1Z592",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Herramientas probadas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ulyuh",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Plantillas y guiones de taller que usamos en cada proyecto.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "K7n0Yf",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "stroke": "$border",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            20,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bb8Ti",
+                              "name": "Número",
+                              "fill": "$primary",
+                              "content": "04",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "p9NGJh",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Criterio de salida",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "MXkbj",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XscV0",
+              "name": "OPCIÓN A1 · ACENTO VERDE EN LA LÍNEA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YGueX",
+                  "name": "Etiqueta",
+                  "fill": "$primary",
+                  "content": "OPCIÓN A1 · ACENTO VERDE EN LA LÍNEA",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "eZfIx",
+                  "name": "Descripción",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Igual que A, con un tramo verde de 48 px y 3 px de grosor al inicio de la línea. Número en azul.",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "L7XQ6",
+                  "name": "Grid",
+                  "width": 882,
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l02d1",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wHVa9",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "qaUcZ",
+                              "name": "Línea",
+                              "width": "fill_container",
+                              "height": 3,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "a4HNK5",
+                                  "name": "Acento",
+                                  "width": 48,
+                                  "height": 3,
+                                  "fill": "$cabana-green"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "emCtP",
+                                  "name": "Resto",
+                                  "width": "fill_container",
+                                  "height": 1,
+                                  "fill": "$border"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aYOyD",
+                              "name": "Sep",
+                              "width": 1,
+                              "height": 10
+                            },
+                            {
+                              "type": "text",
+                              "id": "S4S0B",
+                              "name": "Número",
+                              "fill": "$primary",
+                              "content": "01",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "GI00z",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Fases en orden",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "g481X",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cada una con lo que necesita y lo que entrega.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Zt02O",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kWkrl",
+                              "name": "Línea",
+                              "width": "fill_container",
+                              "height": 3,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "TI44m",
+                                  "name": "Acento",
+                                  "width": 48,
+                                  "height": 3,
+                                  "fill": "$cabana-green"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HZCFy",
+                                  "name": "Resto",
+                                  "width": "fill_container",
+                                  "height": 1,
+                                  "fill": "$border"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "nD7AQ",
+                              "name": "Sep",
+                              "width": 1,
+                              "height": 10
+                            },
+                            {
+                              "type": "text",
+                              "id": "zz4ZX",
+                              "name": "Número",
+                              "fill": "$primary",
+                              "content": "02",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "w7tDpn",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Entregables con nombre",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "M0x4QZ",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Usted sabe qué recibe antes de empezar.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lTNZx",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yq5CP",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "d1KEco",
+                              "name": "Línea",
+                              "width": "fill_container",
+                              "height": 3,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "B7Q5AS",
+                                  "name": "Acento",
+                                  "width": 48,
+                                  "height": 3,
+                                  "fill": "$cabana-green"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "h6cth",
+                                  "name": "Resto",
+                                  "width": "fill_container",
+                                  "height": 1,
+                                  "fill": "$border"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ZxyDZ",
+                              "name": "Sep",
+                              "width": 1,
+                              "height": 10
+                            },
+                            {
+                              "type": "text",
+                              "id": "m8r6n",
+                              "name": "Número",
+                              "fill": "$primary",
+                              "content": "03",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "ldIE9",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Herramientas probadas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Nkyid",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Plantillas y guiones de taller que usamos en cada proyecto.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xHTSJ",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "rk9Qf",
+                              "name": "Línea",
+                              "width": "fill_container",
+                              "height": 3,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "grKk1",
+                                  "name": "Acento",
+                                  "width": 48,
+                                  "height": 3,
+                                  "fill": "$cabana-green"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nFqSn",
+                                  "name": "Resto",
+                                  "width": "fill_container",
+                                  "height": 1,
+                                  "fill": "$border"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aBqbk",
+                              "name": "Sep",
+                              "width": 1,
+                              "height": 10
+                            },
+                            {
+                              "type": "text",
+                              "id": "X0cc2Z",
+                              "name": "Número",
+                              "fill": "$primary",
+                              "content": "04",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "F4ebbj",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Criterio de salida",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RJiPI",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SyE4b",
+              "name": "OPCIÓN A2 · NÚMERO EN PÍLDORA VERDE",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d3lNR",
+                  "name": "Etiqueta",
+                  "fill": "$primary",
+                  "content": "OPCIÓN A2 · NÚMERO EN PÍLDORA VERDE",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "sid4Z",
+                  "name": "Descripción",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Número dentro de una píldora verde con texto oscuro (como los pretítulos) y línea fina de 1 px.",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "VMdCa",
+                  "name": "Grid",
+                  "width": 882,
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "W1oiEJ",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "P4osa0",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "K2JnUJ",
+                              "name": "Cabecera",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "padding": [
+                                0,
+                                0,
+                                6,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "bXRHn",
+                                  "name": "Píldora",
+                                  "fill": "$cabana-green",
+                                  "cornerRadius": "$radius-full",
+                                  "padding": [
+                                    2,
+                                    10
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "w0Jwa",
+                                      "name": "Número",
+                                      "fill": "$cabana-dark",
+                                      "content": "01",
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Pu4qC",
+                                  "name": "Línea",
+                                  "width": "fill_container",
+                                  "height": 1,
+                                  "fill": "$border"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "WUgCW",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Fases en orden",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DTfgK",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cada una con lo que necesita y lo que entrega.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "D4r27",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "sJzMG",
+                              "name": "Cabecera",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "padding": [
+                                0,
+                                0,
+                                6,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "iS1ug",
+                                  "name": "Píldora",
+                                  "fill": "$cabana-green",
+                                  "cornerRadius": "$radius-full",
+                                  "padding": [
+                                    2,
+                                    10
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "iYr0K",
+                                      "name": "Número",
+                                      "fill": "$cabana-dark",
+                                      "content": "02",
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "f3Ccq",
+                                  "name": "Línea",
+                                  "width": "fill_container",
+                                  "height": 1,
+                                  "fill": "$border"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "vEj3H",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Entregables con nombre",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "L8nfJZ",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Usted sabe qué recibe antes de empezar.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vvPBr",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "e14RBN",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "gkTGd",
+                              "name": "Cabecera",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "padding": [
+                                0,
+                                0,
+                                6,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "i3xpw",
+                                  "name": "Píldora",
+                                  "fill": "$cabana-green",
+                                  "cornerRadius": "$radius-full",
+                                  "padding": [
+                                    2,
+                                    10
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "WW7zo",
+                                      "name": "Número",
+                                      "fill": "$cabana-dark",
+                                      "content": "03",
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "tDh7t",
+                                  "name": "Línea",
+                                  "width": "fill_container",
+                                  "height": 1,
+                                  "fill": "$border"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "B9hES",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Herramientas probadas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vEQgu",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Plantillas y guiones de taller que usamos en cada proyecto.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "y0n4Ss",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "sUn32",
+                              "name": "Cabecera",
+                              "width": "fill_container",
+                              "gap": 12,
+                              "padding": [
+                                0,
+                                0,
+                                6,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "p0wgJ",
+                                  "name": "Píldora",
+                                  "fill": "$cabana-green",
+                                  "cornerRadius": "$radius-full",
+                                  "padding": [
+                                    2,
+                                    10
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "d4V1X",
+                                      "name": "Número",
+                                      "fill": "$cabana-dark",
+                                      "content": "04",
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 12,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HxuC0",
+                                  "name": "Línea",
+                                  "width": "fill_container",
+                                  "height": 1,
+                                  "fill": "$border"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "yZ4Vr",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Criterio de salida",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 20,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FjpkR",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zaB4N",
+              "name": "OPCIÓN B · ICONO EN LÍNEA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tx8M8",
+                  "name": "Etiqueta",
+                  "fill": "$primary",
+                  "content": "OPCIÓN B · ICONO EN LÍNEA",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "m5f4n",
+                  "name": "Descripción",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Icono lineal pequeño junto al título, en un recuadro con borde de 1 px. Sin círculos rellenos.",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "AaMr1",
+                  "name": "Grid",
+                  "width": 882,
+                  "layout": "vertical",
+                  "gap": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "q2gPv",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "P5JoD",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "sDPEE",
+                              "name": "Cabecera",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "R06NF",
+                                  "name": "Icono",
+                                  "width": 36,
+                                  "height": 36,
+                                  "cornerRadius": "$radius-md",
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "ekeVa",
+                                      "name": "Glifo",
+                                      "width": 18,
+                                      "height": 18,
+                                      "icon": "list-ordered",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "GvGKY",
+                                  "name": "Título",
+                                  "fill": "$foreground",
+                                  "content": "Fases en orden",
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 18,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "Sxv8S",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cada una con lo que necesita y lo que entrega.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TcO2i",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "hLzsB",
+                              "name": "Cabecera",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "VZ1cM",
+                                  "name": "Icono",
+                                  "width": 36,
+                                  "height": 36,
+                                  "cornerRadius": "$radius-md",
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "UxWZl",
+                                      "name": "Glifo",
+                                      "width": 18,
+                                      "height": 18,
+                                      "icon": "file-check",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "AnAx7",
+                                  "name": "Título",
+                                  "fill": "$foreground",
+                                  "content": "Entregables con nombre",
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 18,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "lwnnP",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Usted sabe qué recibe antes de empezar.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cH8uq",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wHe9V",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "EbLjY",
+                              "name": "Cabecera",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Ruo1u",
+                                  "name": "Icono",
+                                  "width": 36,
+                                  "height": 36,
+                                  "cornerRadius": "$radius-md",
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "RtQOH",
+                                      "name": "Glifo",
+                                      "width": 18,
+                                      "height": 18,
+                                      "icon": "wrench",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "cRKN7",
+                                  "name": "Título",
+                                  "fill": "$foreground",
+                                  "content": "Herramientas probadas",
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 18,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "odz5H",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Plantillas y guiones de taller que usamos en cada proyecto.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NqTQV",
+                          "name": "Ítem",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "X0LF2",
+                              "name": "Cabecera",
+                              "gap": 12,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "YXVD3",
+                                  "name": "Icono",
+                                  "width": 36,
+                                  "height": 36,
+                                  "cornerRadius": "$radius-md",
+                                  "stroke": "$border",
+                                  "strokeWidth": 1,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "drVjG",
+                                      "name": "Glifo",
+                                      "width": 18,
+                                      "height": 18,
+                                      "icon": "circle-check",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "P6VJYd",
+                                  "name": "Título",
+                                  "fill": "$foreground",
+                                  "content": "Criterio de salida",
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 18,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "SrELJ",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ftE2S",
+              "name": "OPCIÓN C · LISTA CON DIVISORES",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GajCX",
+                  "name": "Etiqueta",
+                  "fill": "$primary",
+                  "content": "OPCIÓN C · LISTA CON DIVISORES",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "QijP5",
+                  "name": "Descripción",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Filas de lista: número + título a la izquierda, texto a la derecha, separadas por líneas finas. Se lee como un proceso.",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "HKcVA",
+                  "name": "Grid",
+                  "width": 882,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Tuzhn",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 32,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "q9CoS7",
+                          "name": "Izq",
+                          "width": 320,
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Q5fYF",
+                              "name": "Número",
+                              "fill": "$muted-foreground",
+                              "content": "01",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 13,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "rZk2r",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "content": "Fases en orden",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "hFSjo",
+                          "name": "Texto",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cada una con lo que necesita y lo que entrega.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f141S",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 32,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "siR2U",
+                          "name": "Izq",
+                          "width": 320,
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rdm55",
+                              "name": "Número",
+                              "fill": "$muted-foreground",
+                              "content": "02",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 13,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "b1nrR",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "content": "Entregables con nombre",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "b63Ht",
+                          "name": "Texto",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Usted sabe qué recibe antes de empezar.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vRxt0",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 32,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VyveS",
+                          "name": "Izq",
+                          "width": 320,
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qs6cV",
+                              "name": "Número",
+                              "fill": "$muted-foreground",
+                              "content": "03",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 13,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "xzuat",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "content": "Herramientas probadas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z0107v",
+                          "name": "Texto",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Plantillas y guiones de taller que usamos en cada proyecto.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UW8aI",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 32,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "U5rK3",
+                          "name": "Izq",
+                          "width": 320,
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "QGnEq",
+                              "name": "Número",
+                              "fill": "$muted-foreground",
+                              "content": "04",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 13,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "g1BOS5",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "content": "Criterio de salida",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "K1vZOF",
+                          "name": "Texto",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aX2O2",
+          "name": "CH-como-trabajamos/Página",
+          "clip": true,
+          "width": 1440,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "hYfTm",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "I7m8C",
+              "name": "Hero",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vdk52",
+                  "name": "Copy",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "id": "L6bSU",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "CÓMO TRABAJAMOS"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cG4Si",
+                      "name": "H1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "i0C1E",
+                          "name": "H1 · Brand",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cómo trabajamos: un sistema para cada proyecto, no improvisación",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 56,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "w006MJ",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cada servicio se ejecuta con un método propio. Fases definidas, entregables con nombre y una condición clara para dar cada fase por terminada. Cualquier persona de nuestro equipo llega al mismo resultado.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vns3v",
+                  "name": "Illustration",
+                  "width": 480,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/como-trabajamos-balanza.webp",
+                    "mode": "contain"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EDrp9",
+              "name": "Sistemas + Aprobación",
+              "width": "fill_container",
+              "fill": "$background",
+              "gap": 24,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yaPg3",
+                  "name": "Sistemas (3/4)",
+                  "width": 882,
+                  "layout": "vertical",
+                  "gap": 40,
+                  "padding": [
+                    8,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z27Cfy",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lo que tiene cada sistema",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QWzL0",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "id": "Eklwf",
+                          "type": "ref",
+                          "ref": "K5lZ8u",
+                          "name": "Feature Item",
+                          "width": "fill_container",
+                          "descendants": {
+                            "M4oFcA": {
+                              "content": "01"
+                            },
+                            "BR2b1": {
+                              "content": "Fases en orden"
+                            },
+                            "Izhpe": {
+                              "content": "Cada una con lo que necesita y lo que entrega."
+                            }
+                          }
+                        },
+                        {
+                          "id": "aJ1yB",
+                          "type": "ref",
+                          "ref": "K5lZ8u",
+                          "name": "Feature Item",
+                          "width": "fill_container",
+                          "descendants": {
+                            "M4oFcA": {
+                              "content": "02"
+                            },
+                            "BR2b1": {
+                              "content": "Entregables con nombre"
+                            },
+                            "Izhpe": {
+                              "content": "Usted sabe qué recibe antes de empezar."
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Y5nizs",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "id": "VFDyq",
+                          "type": "ref",
+                          "ref": "K5lZ8u",
+                          "name": "Feature Item",
+                          "width": "fill_container",
+                          "descendants": {
+                            "M4oFcA": {
+                              "content": "03"
+                            },
+                            "BR2b1": {
+                              "content": "Herramientas probadas"
+                            },
+                            "Izhpe": {
+                              "content": "Plantillas y guiones de taller que usamos en cada proyecto."
+                            }
+                          }
+                        },
+                        {
+                          "id": "x6V7wI",
+                          "type": "ref",
+                          "ref": "K5lZ8u",
+                          "name": "Feature Item",
+                          "width": "fill_container",
+                          "descendants": {
+                            "M4oFcA": {
+                              "content": "04"
+                            },
+                            "BR2b1": {
+                              "content": "Criterio de salida"
+                            },
+                            "Izhpe": {
+                              "content": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo."
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UR2dx",
+                  "name": "Aprobación (1/4, dark)",
+                  "width": "fill_container",
+                  "height": 402,
+                  "fill": "$cabana-dark",
+                  "cornerRadius": "$radius-xl",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AFpBU",
+                      "name": "Ilustración",
+                      "width": "fill_container",
+                      "height": 130,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/illustrations/como-trabajamos-aprobacion.webp",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "icon",
+                      "id": "o88uw",
+                      "x": 32,
+                      "y": 150,
+                      "name": "Icono",
+                      "enabled": false,
+                      "width": 32,
+                      "height": 32,
+                      "icon": "shield-check",
+                      "library": "lucide",
+                      "fill": "$cabana-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tA2DG",
+                      "name": "H3",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usted aprueba antes de avanzar",
+                      "lineHeight": 1.25,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jtrJd",
+                      "name": "Texto",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si una fase condiciona lo que sigue, se detiene hasta su aprobación. Nada se construye sobre algo que usted no validó.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TR63l",
+              "name": "Dos servicios",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HC57x",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Dos servicios, en orden",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "nLRGr",
+                  "name": "Pasos",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "j2KB4C",
+                      "name": "Servicio",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 24,
+                      "padding": [
+                        24,
+                        24,
+                        24,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PnL9n",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "QBISb",
+                              "name": "Plazo",
+                              "fill": "$primary",
+                              "content": "4 SEMANAS",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "G8kmV",
+                              "name": "Servicio",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ruta IA",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 24,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qfLbN",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sus 5 mejores oportunidades y cuáles soportan hoy sus datos.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GcCAH",
+                          "name": "Ilustración",
+                          "width": 240,
+                          "height": 170,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/illustrations/ruta-ia-roadmap.webp",
+                            "mode": "contain"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "FpWOF",
+                      "name": "Flecha",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LITLl",
+                      "name": "Servicio",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 24,
+                      "padding": [
+                        24,
+                        24,
+                        24,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "T5nSl",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LfI7S",
+                              "name": "Plazo",
+                              "fill": "$primary",
+                              "content": "10 SEMANAS",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "rOBDn",
+                              "name": "Servicio",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "AI First Move",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 24,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cVce6",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Un caso en producción y el caso de inversión.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WxnSG",
+                          "name": "Ilustración",
+                          "width": 240,
+                          "height": 170,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/illustrations/ai-first-move-roadmap.webp",
+                            "mode": "contain"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "cGZHO",
+                  "name": "Nota",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ruta IA no es obligatorio. Precio y alcance fijos.",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IxNx8",
+              "name": "Lo que no hacemos",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HuXOC",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lo que no hacemos",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "D1I0Bj",
+                  "name": "Ítems",
+                  "width": "fill_container",
+                  "gap": 48,
+                  "children": [
+                    {
+                      "id": "kgWKX",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "x92gW": {
+                          "enabled": false
+                        },
+                        "M4oFcA": {
+                          "content": "01",
+                          "enabled": false
+                        },
+                        "BR2b1": {
+                          "content": "Trabajo que nadie pidió"
+                        },
+                        "Izhpe": {
+                          "content": "Cada resultado lo usa la fase siguiente o lo recibe usted."
+                        }
+                      }
+                    },
+                    {
+                      "id": "xe5gn",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "x92gW": {
+                          "enabled": false
+                        },
+                        "M4oFcA": {
+                          "content": "02",
+                          "enabled": false
+                        },
+                        "BR2b1": {
+                          "content": "Alcances que crecen sin avisar"
+                        },
+                        "Izhpe": {
+                          "content": "Lo que no entra se dice desde el inicio."
+                        }
+                      }
+                    },
+                    {
+                      "id": "kOs4Q",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "x92gW": {
+                          "enabled": false
+                        },
+                        "M4oFcA": {
+                          "content": "03",
+                          "enabled": false
+                        },
+                        "BR2b1": {
+                          "content": "Entregables que se apagan al terminar"
+                        },
+                        "Izhpe": {
+                          "content": "Lo que construimos queda en producción, operado por su equipo.",
+                          "enabled": false
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IJync",
+              "name": "Equipo",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "gap": 64,
+              "padding": [
+                96,
+                120
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bn2XF",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "etgG7",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "El mismo equipo, del diagnóstico a producción",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p3kgAe",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Un solo equipo en San José, Costa Rica, sin subcontrataciones.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yrobg",
+                      "name": "Datos",
+                      "gap": 40,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "O0Mog",
+                          "name": "Dato",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OYWNW",
+                              "name": "Valor",
+                              "fill": "$primary",
+                              "content": "2018",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 36,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DNtIR",
+                              "name": "Label",
+                              "fill": "$muted-foreground",
+                              "content": "Desde",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KlzMe",
+                          "name": "Dato",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ijXnC",
+                              "name": "Valor",
+                              "fill": "$primary",
+                              "content": "50+",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 36,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "H5FSCH",
+                              "name": "Label",
+                              "fill": "$muted-foreground",
+                              "content": "Flujos de datos en producción",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ds5d2",
+                      "name": "Miembros",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aZmgT",
+                          "name": "Miembro",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "A2dRQ",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Walter",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "a2hqi",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "· Fundador y líder técnico",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rWRhv",
+                          "name": "Miembro",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ymID7",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Evelyn",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xGn0d",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "· Gerente administrativa",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Hdg90",
+                          "name": "Miembro",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mXtau",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Thomas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lo6fm",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "· Científico de datos",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "w3RJbr",
+                          "name": "Miembro",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uMwgq",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Eduardo",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OEcgY",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "· Ingeniero de datos",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hz00f",
+                          "name": "Miembro",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LhuEj",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Melissa",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "htUJr",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "· Desarrolladora full-stack",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Lq2Fs",
+                  "name": "Imagen equipo",
+                  "width": 480,
+                  "height": 640,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/como-trabajamos-equipo.webp",
+                    "mode": "contain"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ac8Za",
+              "name": "Fundador",
+              "width": "fill_container",
+              "fill": "$background",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "W6J00",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mAQPA",
+                      "name": "Acento",
+                      "width": 48,
+                      "height": 3,
+                      "fill": "$cabana-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F0GUZ9",
+                      "name": "Cita",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“Un buen resultado no debería depender de quién le toque en el proyecto. Por eso cada servicio sigue un sistema: cualquiera de nuestro equipo llega al mismo resultado.”",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tBvNf",
+                      "name": "Persona",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dN4dx",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Avatar",
+                          "enabled": false,
+                          "width": 64,
+                          "height": 64,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/illustrations/walter-bonilla.webp",
+                            "mode": "cover"
+                          },
+                          "cornerRadius": "$radius-full",
+                          "stroke": "$cabana-green",
+                          "strokeWidth": 2
+                        },
+                        {
+                          "type": "frame",
+                          "id": "W2tQbV",
+                          "name": "Datos",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jRuaX",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Walter Bonilla",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OtUVF",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "Fundador y líder técnico",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z7pPJt",
+                  "name": "Foto",
+                  "width": 360,
+                  "height": 450,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/walter-bonilla-retrato.webp",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": "$radius-xl"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eMakM",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "id": "h8BqzC",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿En qué punto está su empresa?"
+                    },
+                    "IvrLz": {
+                      "content": "No sé por dónde empezar → Ruta IA\nYa tengo la idea → AI First Move"
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Agendar una conversación"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b8u4MV",
+              "type": "ref",
+              "ref": "arSuf",
+              "name": "Footer",
+              "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CvSE1",
+          "name": "CH-como-trabajamos/Página (móvil)",
+          "clip": true,
+          "width": 390,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "MBMfw",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "LhFzR",
+              "name": "Hero",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                48,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NJe06",
+                  "name": "Illustration",
+                  "width": "fill_container",
+                  "height": 342,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/como-trabajamos-balanza.webp",
+                    "mode": "contain"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "abpY0",
+                  "name": "Copy",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "id": "RBcP0",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "CÓMO TRABAJAMOS"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q8mrI",
+                      "name": "H1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D5Voc",
+                          "name": "H1 · Brand",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cómo trabajamos: un sistema para cada proyecto, no improvisación",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tyC0i",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cada servicio se ejecuta con un método propio. Fases definidas, entregables con nombre y una condición clara para dar cada fase por terminada. Cualquier persona de nuestro equipo llega al mismo resultado.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LaXSk",
+              "name": "Sistemas + Aprobación",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LfqW1",
+                  "name": "Sistemas (3/4)",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "padding": [
+                    8,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jFKp7",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lo que tiene cada sistema",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y9ak4",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "id": "dPojF",
+                          "type": "ref",
+                          "ref": "K5lZ8u",
+                          "name": "Feature Item",
+                          "width": "fill_container",
+                          "descendants": {
+                            "M4oFcA": {
+                              "content": "01"
+                            },
+                            "BR2b1": {
+                              "content": "Fases en orden"
+                            },
+                            "Izhpe": {
+                              "content": "Cada una con lo que necesita y lo que entrega."
+                            }
+                          }
+                        },
+                        {
+                          "id": "x87Ki",
+                          "type": "ref",
+                          "ref": "K5lZ8u",
+                          "name": "Feature Item",
+                          "width": "fill_container",
+                          "descendants": {
+                            "M4oFcA": {
+                              "content": "02"
+                            },
+                            "BR2b1": {
+                              "content": "Entregables con nombre"
+                            },
+                            "Izhpe": {
+                              "content": "Usted sabe qué recibe antes de empezar."
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gfc1a",
+                      "name": "Fila",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 48,
+                      "children": [
+                        {
+                          "id": "z4gux6",
+                          "type": "ref",
+                          "ref": "K5lZ8u",
+                          "name": "Feature Item",
+                          "width": "fill_container",
+                          "descendants": {
+                            "M4oFcA": {
+                              "content": "03"
+                            },
+                            "BR2b1": {
+                              "content": "Herramientas probadas"
+                            },
+                            "Izhpe": {
+                              "content": "Plantillas y guiones de taller que usamos en cada proyecto."
+                            }
+                          }
+                        },
+                        {
+                          "id": "c2qC8Q",
+                          "type": "ref",
+                          "ref": "K5lZ8u",
+                          "name": "Feature Item",
+                          "width": "fill_container",
+                          "descendants": {
+                            "M4oFcA": {
+                              "content": "04"
+                            },
+                            "BR2b1": {
+                              "content": "Criterio de salida"
+                            },
+                            "Izhpe": {
+                              "content": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo."
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MHaPy",
+                  "name": "Aprobación (1/4, dark)",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark",
+                  "cornerRadius": "$radius-xl",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "u0lzUC",
+                      "name": "Ilustración",
+                      "width": "fill_container",
+                      "height": 158,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/illustrations/como-trabajamos-aprobacion.webp",
+                        "mode": "contain"
+                      }
+                    },
+                    {
+                      "type": "icon",
+                      "id": "jvDRu",
+                      "x": 32,
+                      "y": 206,
+                      "name": "Icono",
+                      "enabled": false,
+                      "width": 32,
+                      "height": 32,
+                      "icon": "shield-check",
+                      "library": "lucide",
+                      "fill": "$cabana-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O6qIjB",
+                      "name": "H3",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usted aprueba antes de avanzar",
+                      "lineHeight": 1.25,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hZhAQ",
+                      "name": "Texto",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si una fase condiciona lo que sigue, se detiene hasta su aprobación. Nada se construye sobre algo que usted no validó.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WH2kJ",
+              "name": "Dos servicios",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mhRQq",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Dos servicios, en orden",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "cr7kq",
+                  "name": "Pasos",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YZ9zr",
+                      "name": "Servicio",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VpL4z",
+                          "name": "Ilustración",
+                          "width": "fill_container",
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/illustrations/ruta-ia-roadmap.webp",
+                            "mode": "contain"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hbOGI",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "l2VTeS",
+                              "name": "Plazo",
+                              "fill": "$primary",
+                              "content": "4 SEMANAS",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "B1hbJ9",
+                              "name": "Servicio",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ruta IA",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 24,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "gK3qm",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sus 5 mejores oportunidades y cuáles soportan hoy sus datos.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "eofcw",
+                      "name": "Flecha",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "arrow-down",
+                      "library": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RQoaV",
+                      "name": "Servicio",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "euRWT",
+                          "name": "Ilustración",
+                          "width": "fill_container",
+                          "height": 150,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/illustrations/ai-first-move-roadmap.webp",
+                            "mode": "contain"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cXshx",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HeFLR",
+                              "name": "Plazo",
+                              "fill": "$primary",
+                              "content": "10 SEMANAS",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 12,
+                              "fontWeight": "600",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "TvoLw",
+                              "name": "Servicio",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "AI First Move",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 24,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "y8kXFX",
+                              "name": "Texto",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Un caso en producción y el caso de inversión.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "UaKls",
+                  "name": "Nota",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ruta IA no es obligatorio. Precio y alcance fijos.",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GgFI0",
+              "name": "Lo que no hacemos",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nWQuR",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lo que no hacemos",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "B9tyVd",
+                  "name": "Ítems",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 48,
+                  "children": [
+                    {
+                      "id": "njnIb",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "x92gW": {
+                          "enabled": false
+                        },
+                        "M4oFcA": {
+                          "content": "01",
+                          "enabled": false
+                        },
+                        "BR2b1": {
+                          "content": "Trabajo que nadie pidió"
+                        },
+                        "Izhpe": {
+                          "content": "Cada resultado lo usa la fase siguiente o lo recibe usted."
+                        }
+                      }
+                    },
+                    {
+                      "id": "KV5uu",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "x92gW": {
+                          "enabled": false
+                        },
+                        "M4oFcA": {
+                          "content": "02",
+                          "enabled": false
+                        },
+                        "BR2b1": {
+                          "content": "Alcances que crecen sin avisar"
+                        },
+                        "Izhpe": {
+                          "content": "Lo que no entra se dice desde el inicio."
+                        }
+                      }
+                    },
+                    {
+                      "id": "YTv3U",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "x92gW": {
+                          "enabled": false
+                        },
+                        "M4oFcA": {
+                          "content": "03",
+                          "enabled": false
+                        },
+                        "BR2b1": {
+                          "content": "Entregables que se apagan al terminar"
+                        },
+                        "Izhpe": {
+                          "content": "Lo que construimos queda en producción, operado por su equipo.",
+                          "enabled": false
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S3MXg",
+              "name": "Equipo",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xYmSO",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Lh003",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "El mismo equipo, del diagnóstico a producción",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o1cDF",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Un solo equipo en San José, Costa Rica, sin subcontrataciones.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u6Pr3q",
+                      "name": "Datos",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "XQ73p",
+                          "name": "Dato",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Y8VbF",
+                              "name": "Valor",
+                              "fill": "$primary",
+                              "content": "2018",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 30,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "V9Udc",
+                              "name": "Label",
+                              "fill": "$muted-foreground",
+                              "content": "Desde",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Z2niD",
+                          "name": "Dato",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "b314q",
+                              "name": "Valor",
+                              "fill": "$primary",
+                              "content": "50+",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 30,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KFIkg",
+                              "name": "Label",
+                              "fill": "$muted-foreground",
+                              "content": "Flujos de datos en producción",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QOUSr",
+                      "name": "Miembros",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cz2ZS",
+                          "name": "Miembro",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "juQ7Q",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Walter",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "nWy95",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "Fundador y líder técnico",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "u1buos",
+                          "name": "Miembro",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "B6aRZZ",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Evelyn",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vIRVO",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "Gerente administrativa",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eregT",
+                          "name": "Miembro",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lNIVa",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Thomas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "e14hw",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "Científico de datos",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "E6YZSj",
+                          "name": "Miembro",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "g4QCK",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Eduardo",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ixkKz",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "Ingeniero de datos",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VdqKm",
+                          "name": "Miembro",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "O8BYDm",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Melissa",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "k0lcb",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "Desarrolladora full-stack",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VFnA6",
+                  "name": "Imagen equipo",
+                  "width": "fill_container",
+                  "height": 440,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/como-trabajamos-equipo.webp",
+                    "mode": "contain"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j1min9",
+              "name": "Fundador",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JUwWB",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cIWKI",
+                      "name": "Acento",
+                      "width": 48,
+                      "height": 3,
+                      "fill": "$cabana-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dZNeK",
+                      "name": "Cita",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“Un buen resultado no debería depender de quién le toque en el proyecto. Por eso cada servicio sigue un sistema: cualquiera de nuestro equipo llega al mismo resultado.”",
+                      "lineHeight": 1.35,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 22,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c3brZA",
+                      "name": "Persona",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "m8WWX",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Avatar",
+                          "enabled": false,
+                          "width": 64,
+                          "height": 64,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "images/illustrations/walter-bonilla.webp",
+                            "mode": "cover"
+                          },
+                          "cornerRadius": "$radius-full",
+                          "stroke": "$cabana-green",
+                          "strokeWidth": 2
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TLeYk",
+                          "name": "Datos",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DttJC",
+                              "name": "Nombre",
+                              "fill": "$foreground",
+                              "content": "Walter Bonilla",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZoqYf",
+                              "name": "Rol",
+                              "fill": "$muted-foreground",
+                              "content": "Fundador y líder técnico",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KO3jX",
+                  "name": "Foto",
+                  "width": "fill_container",
+                  "height": 420,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/walter-bonilla-retrato.webp",
+                    "mode": "cover"
+                  },
+                  "cornerRadius": "$radius-xl"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AzA5o",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "padding": [
+                48,
+                24
+              ],
+              "children": [
+                {
+                  "id": "XOX4J",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "width": "fill_container",
+                  "padding": [
+                    48,
+                    24
+                  ],
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿En qué punto está su empresa?",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "fontSize": 30,
+                      "textAlign": "center"
+                    },
+                    "IvrLz": {
+                      "content": "No sé por dónde empezar → Ruta IA\nYa tengo la idea → AI First Move",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "textAlign": "center"
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Agendar una conversación"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "v0hxR",
+              "type": "ref",
+              "ref": "arSuf",
+              "name": "Footer",
+              "width": "fill_container"
             }
           ]
         }

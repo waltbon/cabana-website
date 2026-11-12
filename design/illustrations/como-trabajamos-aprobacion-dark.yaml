@@ -1,0 +1,84 @@
+# Escena — Tarjeta "Usted aprueba antes de avanzar" (tema dark)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Destino: /como-trabajamos, franja "Sistemas + Aprobación", tarjeta 1/4 bg-cabana-dark (#0f172a),
+#   arriba del icono y el título. next/image object-contain.
+# Mensaje (comoTrabajamos.approval): la fase se detiene hasta su aprobación;
+#   nada se construye sobre algo que usted no validó.
+
+style_ref: cabana-ink-doodle
+theme: dark
+background: solid
+composition: single
+aspect_ratio: "1:1"
+export:
+  size: "1600x1600"
+  format: webp
+  path: public/como-trabajamos/aprobacion-talanquera.webp
+safe_zone: "60% central; se ve a ~280 px de ancho: pocas piezas, trazos gruesos"
+accent_mode: selective
+
+objects:
+  - element: camino de bloques
+    content: "tres bloques de fase sólidos en fila sobre una línea de suelo, de izquierda al centro"
+    fill: hatch
+    accent: false
+  - element: talanquera
+    content: "barrera de paso cerrada (poste + brazo horizontal con franjas) justo después del tercer bloque"
+    fill: hatch
+    accent: false
+  - element: bloques pendientes
+    content: "dos bloques más allá de la barrera, dibujados solo con línea punteada, sin relleno"
+    fill: empty
+    accent: false
+  - element: persona
+    content: "figura de palitos con portapapeles junto a la barrera, estampando un sello sobre el tercer bloque"
+    fill: empty
+    accent: false
+  - element: sello
+    content: "sello circular con check sobre la cara del tercer bloque"
+    accent: true
+    accent_target: "relleno del sello con check"
+
+decor:
+  arrows: 1      # punteada, decor (#94a3b8), sobre los bloques pendientes, apuntando adelante
+  sparkles: 3    # alrededor del sello
+
+colors:
+  background: "#0f172a"
+  ink: "#f1f5f9"
+  hatch: "#cbd5e1"
+  decor: "#94a3b8"
+  accent: "#57ff8f"
+  interiors: "#0f172a"
+
+prompt: >
+  Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+  background, square 1:1 composition. A simple ground line runs left to right.
+  On it, three solid square blocks sit in a row from the left toward the center.
+  Right after the third block, a closed boom barrier gate: a short post with a
+  horizontal striped arm blocking the way. Beyond the barrier, two more blocks
+  drawn only with dashed outlines, empty, as if not built yet, with one curved
+  dotted arrow above them pointing forward. Next to the barrier, a simple stick
+  figure holding a clipboard presses a round stamp with a check mark onto the
+  face of the third block. Thick, slightly wobbly off-white #f1f5f9 lines with
+  double-line contours, diagonal hatching in light gray #cbd5e1 on the solid
+  blocks and the barrier arm stripes. All object interiors are the same dark
+  navy #0f172a as the background. Muted slate #94a3b8 for the dotted arrow and
+  three small four-point sparkles around the stamp. Only the round check stamp
+  filled with flat neon green #57ff8f, outlined in off-white; everything else
+  monochrome. Few elements, bold readable shapes, all key objects inside the
+  central 60% of the frame. No text, no letters, no words, no labels, no numbers
+  anywhere. No gradients, no glow, no shading, no realistic 3D. Clean vector
+  look, generous margins.
+
+negative_prompt: >
+  text, letters, words, labels, numbers, typography, checkerboard, transparency
+  grid, white background, black background, cream, beige, paper texture, white
+  fills, glow, neon glow, gradient, vignette, photorealistic, 3d render, glossy,
+  shadow, logos, blue, humanoid robot, traffic lights, cars, multiple accent
+  colors, background scenery, objects cut at edges, too many details
+
+# Post-proceso
+# - uv run ./design/tools/match-navy.py "<original>" public/como-trabajamos/aprobacion-talanquera.webp --crop
+# - Copiar a design/images/illustrations/ y ponerla en la tarjeta del .pen (CH-como-trabajamos).
+# - alt decorativo (alt=""): el título de la tarjeta ya dice lo mismo.

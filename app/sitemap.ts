@@ -10,7 +10,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticUrls: MetadataRoute.Sitemap = [
     // Spanish (default locale, no prefix)
     { url: `${domain}/`, changeFrequency: "monthly", priority: 1 },
-    { url: `${domain}/about`, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${domain}/como-trabajamos`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${domain}/services/data-analytics-use-case`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/services/data-health-check`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/capacidades`, changeFrequency: "monthly", priority: 0.9 },
@@ -27,7 +27,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${domain}/posts`, changeFrequency: "weekly", priority: 0.8 },
     // English locale (/en/ prefix)
     { url: `${domain}/en`, changeFrequency: "monthly", priority: 1 },
-    { url: `${domain}/en/about`, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${domain}/en/how-we-work`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${domain}/en/ai-first-move`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/services/data-analytics-use-case`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${domain}/en/services/data-health-check`, changeFrequency: "monthly", priority: 0.8 },

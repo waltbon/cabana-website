@@ -7,7 +7,8 @@ import { ThemeLogo } from "@/components/theme/theme-logo";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { cn } from "@/lib/utils";
 import { mainMenu } from "@/menu.config";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { localizedHref } from "@/lib/localized-paths";
 import { useContactDrawer } from "@/components/contact/contact-drawer-provider";
 import {
   NavigationMenu,
@@ -21,6 +22,7 @@ import {
 
 export const Nav = ({ className, children, id }: NavProps) => {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const { openDrawer } = useContactDrawer();
 
   return (
@@ -57,7 +59,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
                         asChild
                         className={navigationMenuTriggerStyle()}
                       >
-                        <Link href={item}>{t(key)}</Link>
+                        <Link href={localizedHref(item, locale)}>{t(key)}</Link>
                       </NavigationMenuLink>
                     </NavigationMenuItem>
                   );

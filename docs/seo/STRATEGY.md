@@ -46,8 +46,8 @@ Cada página responde una sola intención por idioma (GUIA-TONO, "SEO y visibili
 |---|---|---|---|---|
 | Inicio | `/` | consultoría de inteligencia artificial Costa Rica | `/en` | AI consulting for mid-market companies |
 | Ruta IA | `/ruta-ia` | diagnóstico de IA para empresas | `/en/ai-opportunity-assessment` (provisional) | AI opportunity assessment |
-| AI First Move | `/ai-first-move` | primer caso de IA en producción | `/en/ai-first-move` | first AI use case in production |
-| Cómo trabajamos | `/como-trabajamos` (pendiente) | IA con supervisión humana | `/en/how-we-work` (provisional) | human-in-the-loop AI implementation |
+| AI First Move | `/ai-first-move` | primer caso de IA en producción; secundario: IA con supervisión humana (D-011) | `/en/ai-first-move` | first AI use case in production; secondary: human-in-the-loop AI implementation |
+| Cómo trabajamos | `/como-trabajamos` (B-012) | cómo trabajamos, metodología de consultoría (D-011) | `/en/how-we-work` (provisional) | how we work, consulting methodology |
 | Capacidades | `/capacidades` | consultoría de datos e IA | `/en/capabilities` (provisional) | AI and data consulting services |
 | Casos | `/casos` (pendiente) | casos de éxito de IA | `/en/case-studies` | AI consulting case studies |
 

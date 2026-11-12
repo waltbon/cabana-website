@@ -1,0 +1,73 @@
+# Escena — Equipo de Cómo trabajamos (tema light)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Sustituye: /about/team.png (ilustración isométrica de otro estilo) en la sección Equipo.
+# Mensaje (comoTrabajamos.team): el mismo equipo, del diagnóstico a producción;
+#   un solo equipo, sin subcontrataciones.
+#
+# Contenedor: sección bg-section-light, columna derecha (~480x640 escritorio, ancho completo en móvil).
+# Formato vertical 3:4; white-to-alpha para que se funda con section-light.
+
+style_ref: cabana-ink-doodle
+theme: light
+background: white
+composition: single
+aspect_ratio: "3:4"
+export:
+  format: webp
+  path: public/como-trabajamos/equipo-camino.webp
+safe_zone: "contenido al centro; márgenes amplios"
+accent_mode: selective
+
+objects:
+  - element: camino
+    content: "sendero de doble línea que sube en S desde abajo a la izquierda hasta arriba a la derecha"
+    fill: empty
+    accent: false
+  - element: diagnóstico
+    content: "al inicio (abajo): una mesa pequeña con una lupa y unas hojas con líneas onduladas"
+    fill: hatch
+    accent: false
+  - element: equipo
+    content: "cinco figuras de palitos caminando juntas por el camino, en grupo, una lleva un bloque, otra un portapapeles, otra una llave inglesa"
+    fill: empty
+    accent: false
+  - element: producción
+    content: "al final (arriba): un panel de máquina con dos engranajes y una luz de encendido, funcionando (líneas de movimiento)"
+    fill: hatch
+    accent: true
+    accent_target: "el engranaje principal y la luz de encendido"
+
+decor:
+  arrows: 2      # punteadas, una de la mesa al grupo, otra del grupo a la máquina
+  sparkles: 3    # alrededor de la máquina
+
+prompt: >
+  Hand-drawn ink doodle illustration, vertical 3:4 composition. A winding road
+  drawn with double lines climbs in an S shape from the bottom left to the top
+  right. At the start of the road, at the bottom: a small table with a magnifying
+  glass and a few loose papers with squiggly lines. In the middle of the road, a
+  close group of five simple stick figures walking together in the same
+  direction: one carries a square block, one holds a clipboard, one holds a
+  wrench, two walk side by side. At the end of the road, at the top: a machine
+  panel with two interlocking gears, short curved motion lines and a small power
+  light, clearly running. Thick, slightly wobbly black marker lines with
+  double-line contours, solid ink fills and diagonal hatching. Two curved dotted
+  arrows, one from the table to the group and one from the group to the machine,
+  and three four-point sparkles around the machine. Isolated on a pure flat white
+  #ffffff background, all object interiors the same pure white, black #111111
+  ink. Only the main gear and the power light filled with flat neon green
+  #57ff8f, outlined in ink; everything else monochrome. No text, no letters, no
+  words, no labels, no numbers anywhere. No gradients, no shading, no realistic
+  3D. Clean vector, generous margins.
+
+negative_prompt: >
+  text, letters, words, labels, captions, numbers, typography, checkerboard,
+  transparency grid, beige, cream, paper texture, off-white fills, gradient,
+  photorealistic, 3d render, glossy, shadow, logos, faces, detailed people,
+  isometric office, desks with monitors, humanoid robot, multiple colors, blue,
+  multiple accent colors, background scenery
+
+# Post-proceso
+# - uv run ./design/tools/white-to-alpha.py "<original>" "<scratchpad>/equipo.png"; recortar bbox + margen; WebP q90
+#   -> public/como-trabajamos/equipo-camino.webp (nombre nuevo: next/image cachea por ruta).
+# - Vista previa sobre section-light; alt es/en con brand-guardian.
