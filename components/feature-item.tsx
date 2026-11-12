@@ -23,7 +23,7 @@ export function FeatureItem(props: FeatureItemProps) {
       {props.variant === "numbered" ? (
         <>
           <div aria-hidden className="mb-2.5 flex items-end">
-            <span className="h-[3px] w-12 bg-cabana-green" />
+            <span className="h-0.75 w-12 bg-cabana-green" />
             <span className="h-px flex-1 bg-border" />
           </div>
           {props.number && (
@@ -34,7 +34,7 @@ export function FeatureItem(props: FeatureItemProps) {
       ) : (
         <div className="flex items-center gap-3">
           <span className="flex size-9 shrink-0 items-center justify-center rounded-md border">
-            <props.icon className="size-[18px] text-primary" aria-hidden />
+            <props.icon className="size-4.5 text-primary" aria-hidden />
           </span>
           <h3 className="text-lg font-semibold text-foreground">{title}</h3>
         </div>

@@ -34174,8 +34174,8 @@
                   "type": "frame",
                   "id": "z7pPJt",
                   "name": "Foto",
-                  "width": 360,
-                  "height": 450,
+                  "width": 200,
+                  "height": 250,
                   "fill": {
                     "type": "image",
                     "enabled": true,
@@ -35231,8 +35231,8 @@
                   "type": "frame",
                   "id": "KO3jX",
                   "name": "Foto",
-                  "width": "fill_container",
-                  "height": 420,
+                  "width": 160,
+                  "height": 200,
                   "fill": {
                     "type": "image",
                     "enabled": true,

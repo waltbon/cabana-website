@@ -23,10 +23,10 @@ export async function HeroSection() {
           <Badge variant="pretitle" className="self-start">
             {t("eyebrow")}
           </Badge>
-          <h1 className="text-4xl text-white md:text-[56px] md:leading-[1.05]">
+          <h1 className="text-4xl text-white md:text-6xl md:leading-tight">
             {t("title")}
           </h1>
-          <p className="text-[17px] text-slate-300 md:text-lg">{t("body")}</p>
+          <p className="text-base text-slate-300 md:text-lg">{t("body")}</p>
         </div>
       </div>
     </section>

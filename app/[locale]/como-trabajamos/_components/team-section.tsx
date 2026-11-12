@@ -34,7 +34,7 @@ export async function TeamSection() {
             ))}
           </ul>
         </div>
-        <div className="w-full max-w-[480px] self-center lg:flex-1">
+        <div className="w-full max-w-120 self-center lg:flex-1">
           <Image
             src="/como-trabajamos/equipo-camino.webp"
             alt={t("imageAlt")}

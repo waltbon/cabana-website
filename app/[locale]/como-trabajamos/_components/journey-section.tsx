@@ -23,7 +23,7 @@ export async function JourneySection() {
           {items.map((item, i) => (
             <Fragment key={item.name}>
               <li className="flex flex-1 flex-col gap-6 rounded-xl border bg-card p-6 lg:flex-row lg:items-center lg:p-8">
-                <div className="relative h-[150px] w-full shrink-0 lg:order-last lg:h-[170px] lg:w-[240px]">
+                <div className="relative h-38 w-full shrink-0 lg:order-last lg:h-42 lg:w-60">
                   <Image
                     src={images[i].src}
                     alt=""
