@@ -141,11 +141,11 @@
         "title": "Data Consulting",
         "items": {
           "dhc": {
-            "subtitle": "DHC (Data Health Check)",
+            "subtitle": "Data diagnostic",
             "description": "We assess 6 dimensions of your data operation and calibrate the results as a team, to remove individual bias — 4 steps: assessment, scoring, calibration, delivery."
           },
           "duc": {
-            "subtitle": "DUC (Data Analytics Use Case)",
+            "subtitle": "Analytics use case definition",
             "description": "A 4-phase system (Workshop → Definition → Roadmap → Architecture) that turns business questions into a prioritized technical path."
           }
         }
@@ -176,7 +176,7 @@
         "items": {
           "rutaIa": {
             "subtitle": "Ruta IA",
-            "description": "AI maturity assessment across 6 dimensions, in 2 to 3 weeks, with an executable roadmap and board presentation."
+            "description": "Tells you which AI opportunities to start with and whether your data supports them, in 4 weeks plus 30 days of follow-up."
           },
           "agentDevelopment": {
             "subtitle": "Agent Development",
@@ -232,7 +232,7 @@
         },
         "ai": {
           "title": "AI and Machine Learning Solutions",
-          "description": "We activate your data with AI, automating processes and generating the predictive insights that let you make truly forward-looking decisions."
+          "description": "On a solid data foundation, we apply AI to automate processes and anticipate what comes next, so leadership decides with its own data."
         }
       },
       "cta": "Let's talk!",
@@ -241,7 +241,7 @@
     "why": {
       "headlineBlue": "Your Data Is Already Here.",
       "headlineDark": "You Just Aren't Using It.",
-      "description1": "Your most valuable insights are probably trapped right now inside the systems you use every day. Your ERP holds decades of operational history, your CRM stores every customer interaction, and your team keeps spending time on manual reports.",
+      "description1": "What your company needs to decide is probably already inside the systems you use every day. Your ERP holds decades of operational history, your CRM stores every customer interaction, and your team keeps spending time on manual reports.",
       "description2": "This data is the key to unlocking enormous value, but for many companies it remains a dormant asset — fragmented, inaccessible, and unused for critical decision-making. You have the raw materials, but not the factory to process them.",
       "cta": "Let's talk!",
       "imageAlt": "Data systems visualization"
@@ -256,7 +256,7 @@
         "tagline": "AI READINESS ASSESSMENT",
         "headline": "Is your company ready for AI?",
         "headlineHighlight": "Find out before you invest.",
-        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and gives you a clear action plan — in 2 to 3 weeks.",
+        "description": "Ruta IA is our technical assessment that identifies your top 5 AI opportunities, whether your data supports them and what to fix to enable the rest, in 4 weeks plus 30 days of follow-up.",
         "cta": "Get your assessment"
       },
       "problem": {
@@ -323,7 +323,7 @@
           },
           "roadmap": {
             "title": "Prioritized roadmap",
-            "description": "An action plan with quick wins and strategic steps, including the first recommended use case to implement."
+            "description": "A remediation roadmap: what to fix, in what order, by effort and impact, and the opportunity ready to start first."
           }
         }
       },
@@ -335,9 +335,9 @@
       },
       "timeline": {
         "headline": "Clear, fast, and no surprises",
-        "duration": "2 to 3 weeks",
+        "duration": "4 weeks + 30 days of follow-up",
         "durationLabel": "Full assessment",
-        "price": "Starting at $5,000 USD",
+        "price": "USD 12,000 + VAT",
         "priceLabel": "Introductory price",
         "description": "We work with your team in a non-invasive way. No disrupting operations, no unnecessary access to systems. Just the technical interviews and architecture reviews needed to give you an honest assessment."
       },
@@ -369,7 +369,7 @@
       },
       "seo": {
         "title": "AI Readiness Assessment",
-        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and gives you a clear action plan — in 2 to 3 weeks."
+        "description": "Ruta IA is our technical assessment that identifies your top 5 AI opportunities, whether your data supports them and what to fix to enable the rest, in 4 weeks plus 30 days of follow-up."
       }
     },
     "dataConsulting": {
@@ -409,14 +409,14 @@
         "headlineBlue": "it depends on what you already know",
         "items": {
           "dhc": {
-            "title": "Data Health Check (DHC)",
+            "title": "Data diagnostic",
             "whatIsIt": "Not sure if your data infrastructure can support what you want to build? We assess 6 dimensions of your operation and tell you, with evidence, where you stand.",
-            "link": "View DHC page →"
+            "link": "View the data diagnostic →"
           },
           "duc": {
-            "title": "Data Analytics Use Case (DUC)",
+            "title": "Analytics use case definition",
             "whatIsIt": "Already know you have data but not which questions to answer with it? We turn your real business questions into a prioritized, executable path.",
-            "link": "View DUC page →"
+            "link": "View the analytics use case definition →"
           }
         },
         "note": "Note: they're not sequential or mutually required — each company enters through whichever one fits."
@@ -441,7 +441,7 @@
         "items": {
           "duration": {
             "label": "Duration",
-            "description": "Varies by path (DHC and DUC each have their own 2- to 4+-week processes)."
+            "description": "Varies by path (the data diagnostic and the analytics use case definition each have their own 2- to 4+-week processes)."
           },
           "workMode": {
             "label": "Work mode",
@@ -484,11 +484,11 @@
           },
           "genericConsulting": {
             "question": "Is this the same as generic \"digital transformation\" consulting?",
-            "answer": "No. We don't deliver a PDF of abstract recommendations. DHC delivers an objective score across 6 dimensions with evidence, not opinion. DUC delivers a DUC-CARD for each use case, with a prioritized roadmap and technical path. Both are anchored in DAMA-DMBOK, the international data management standard — not an improvised framework."
+            "answer": "No. We don't deliver a PDF of abstract recommendations. The data diagnostic delivers an objective score across 6 dimensions with evidence, not opinion. The analytics use case definition delivers a use case sheet for each use case, with a prioritized roadmap and technical path. Both are anchored in DAMA-DMBOK, the international data management standard — not an improvised framework."
           },
           "bothServices": {
-            "question": "Do we need to do both services (DHC and DUC), or just one?",
-            "answer": "It depends on where you stand. If you already know your infrastructure is solid and just need to define what to build, you can go straight to DUC. If you're not sure about your data foundation, we start with DHC. We define it together in the first conversation — not before."
+            "question": "Do we need to do both services (data diagnostic and analytics use case definition), or just one?",
+            "answer": "It depends on where you stand. If you already know your infrastructure is solid and just need to define what to build, you can go straight to the analytics use case definition. If you're not sure about your data foundation, we start with the data diagnostic. We define it together in the first conversation — not before."
           },
           "howInvasive": {
             "question": "How invasive is the process for our team?",
@@ -500,7 +500,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on your organization's specific scope — we don't have a single list price. What we can give you on the first call is clarity on which path (DHC, DUC, or both) makes sense for your case."
+            "answer": "It's quoted to fit your organization. On the first call we give you clarity on which path (data diagnostic, analytics use case definition, or both) makes sense for your case."
           }
         }
       },
@@ -649,7 +649,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on your specific scope; we define it together after understanding your context."
+            "answer": "It's quoted case by case; we define it together after understanding your context."
           }
         }
       },
@@ -663,7 +663,7 @@
         "tagline": "DATA ANALYTICS USE CASES",
         "headlineDark": "You have the data.",
         "headlineBlue": "You're missing what to ask it.",
-        "description": "We turn your real business questions into a prioritized, executable path — with quick wins visible in weeks, not months.",
+        "description": "We turn your real business questions into a prioritized path your team can execute.",
         "cta": "Define your use cases",
         "imageAlt": "Data analytics use cases"
       },
@@ -695,19 +695,19 @@
         "headlineBlue": "to the technical path",
         "steps": {
           "workshop": {
-            "title": "DUC-01 — Workshop",
+            "title": "Workshop",
             "description": "A structured workshop to surface the real business questions your team needs answered, not the ones IT assumes."
           },
           "definition": {
-            "title": "DUC-02 — Definition",
+            "title": "Definition",
             "description": "We document each use case in a formal card, with business context, data requirements, and expected outcome — validated and approved by your team."
           },
           "roadmap": {
-            "title": "DUC-03 — Roadmap",
+            "title": "Roadmap",
             "description": "We prioritize objectively by impact and feasibility, guaranteeing at least one executable quick win in the first few weeks."
           },
           "architecture": {
-            "title": "DUC-04 — Architecture",
+            "title": "Architecture",
             "description": "We define the exact technical path: what stack, what effort, and what gaps need to close to build it."
           }
         }
@@ -717,7 +717,7 @@
         "headlineDark": "An executable path,",
         "headlineBlue": "not a list of ideas",
         "items": {
-          "card": "A DUC-CARD for each use case — a formal document with the business question, the data required, and the expected outcome.",
+          "card": "A use case sheet for each use case — a formal document with the business question, the data required, and the expected outcome.",
           "roadmap": "A prioritized roadmap — use cases classified as quick win, medium term, or strategic.",
           "architecture": "An architecture proposal — recommended stack, gap analysis, and estimated effort, ready to move into Data Engineering."
         },
@@ -771,7 +771,7 @@
         "items": {
           "needsDHC": {
             "question": "Do I need to have done a Data Health Check first?",
-            "answer": "It's not required. If you already know your infrastructure is solid, you can start here directly; if you're not sure, DUC-01 includes a quick validation."
+            "answer": "It's not required. If you already know your infrastructure is solid, you can start here directly; if you're not sure, the opening workshop includes a quick validation."
           },
           "replacesConsultant": {
             "question": "Does this replace a data strategy consultant?",
@@ -791,13 +791,13 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on how many use cases are prioritized and the complexity of your organization; we define it in the first conversation."
+            "answer": "It's quoted case by case, depending on how many use cases are prioritized; we define it in the first conversation."
           }
         }
       },
       "seo": {
         "title": "Data Analytics Use Cases",
-        "description": "We turn your real business questions into a prioritized, executable path — with quick wins visible in weeks, not months."
+        "description": "We turn your real business questions into a prioritized path your team can execute."
       }
     },
     "digitalProduct": {
@@ -854,7 +854,7 @@
             "link": "View Dashboards & Analytics Interfaces page →"
           }
         },
-        "note": "Note: Design & Discovery and Application Development usually go together as a flow; Dashboards requires having already defined your use cases with DUC (Data Consulting)."
+        "note": "Note: Design & Discovery and Application Development usually go together as a flow; Dashboards requires having already defined your use cases through the analytics use case definition (Data Consulting)."
       },
       "deliverables": {
         "tagline": "What you receive",
@@ -934,7 +934,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the project's specific scope; we give you clarity on the range in the first call."
+            "answer": "It's quoted case by case; we give you a clear number in the first call."
           }
         }
       },
@@ -1071,7 +1071,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the product's complexity and scope; we define it in the first conversation."
+            "answer": "It's quoted case by case; we define it in the first conversation."
           }
         }
       },
@@ -1203,7 +1203,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the specific technical scope; we define it after reviewing your business rules and requirements."
+            "answer": "It's quoted case by case; we define it after reviewing your business rules and requirements."
           }
         }
       },
@@ -1303,7 +1303,7 @@
         }
       },
       "cta": {
-        "headline": "Stop exporting reports by hand. Start seeing your data in real time.",
+        "headline": "Stop exporting reports by hand. Start seeing your data updated automatically.",
         "description": "",
         "cta": "Request your dashboard"
       },
@@ -1314,8 +1314,8 @@
         "description": "",
         "items": {
           "needsDUC": {
-            "question": "Do we need to have done DUC before this service?",
-            "answer": "Yes, it's a requirement — DUC (Data Analytics Use Case) defines the business questions and KPIs the dashboard will answer."
+            "question": "Do we need to have done the analytics use case definition before this service?",
+            "answer": "Yes, it's a requirement — the analytics use case definition sets the business questions and KPIs the dashboard will answer."
           },
           "buildsWarehouse": {
             "question": "Do you also build the data warehouse if it doesn't exist?",
@@ -1335,7 +1335,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the number of data sources and the complexity of the model; we define it in the first conversation."
+            "answer": "It's quoted case by case, depending on the number of data sources; we define it in the first conversation."
           }
         }
       },
@@ -1481,7 +1481,7 @@
         "description": "",
         "items": {
           "needsDHCorDUC": {
-            "question": "Do we need a Data Health Check or DUC before this service?",
+            "question": "Do we need a data diagnostic or an analytics use case definition before this service?",
             "answer": "It's not required. If you already know what you need to build, we can go straight to technical requirements gathering."
           },
           "includesDashboards": {
@@ -1502,7 +1502,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on data volume, number of sources to integrate, and whether it includes a Machine Learning component; we define it in the first conversation."
+            "answer": "It's quoted case by case, depending on the sources to integrate and whether it includes Machine Learning; we define it in the first conversation."
           }
         }
       },
@@ -1516,7 +1516,7 @@
         "tagline": "CUSTOM AI AGENTS",
         "headlineDark": "Generic AI has limits.",
         "headlineBlue": "AI that knows your business doesn't.",
-        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations.",
+        "description": "We design and build agents that carry out tasks defined with your team, with clear limits from the start, connected to your private data and answering from your own information.",
         "cta": "Tell us what you want to automate",
         "imageAlt": "Custom AI agents"
       },
@@ -1566,7 +1566,7 @@
         "headlineBlue": "not just responds",
         "items": {
           "roadmapOrAgent": "An AI adoption roadmap (if you go through Ruta IA) or a working agent in production (if you go through Agent Development).",
-          "realConnection": "Real connection to your data and systems — no hallucinations, with the tools needed to take action.",
+          "realConnection": "Real connection to your data and systems, with the tools needed to take action.",
           "referenceCases": "Real reference cases — like Dupla, the agent we built for MadGroup."
         }
       },
@@ -1579,7 +1579,7 @@
         "items": {
           "duration": {
             "label": "Duration",
-            "description": "Varies depending on whether it's assessment (Ruta IA: 2-3 weeks) or build (Agent Development: depends on complexity)."
+            "description": "Varies depending on whether it's assessment (Ruta IA: 4 weeks + 30 days of follow-up) or build (Agent Development: depends on complexity)."
           },
           "workMode": {
             "label": "Work mode",
@@ -1638,13 +1638,13 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It varies by format (Ruta IA starts at USD 4,000; Agent Development is quoted based on technical scope)."
+            "answer": "Ruta IA has a fixed price: USD 12,000 + VAT. Agent development is quoted case by case."
           }
         }
       },
       "seo": {
         "title": "Custom AI Agents",
-        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations."
+        "description": "We design and build agents that carry out tasks defined with your team, with clear limits from the start, connected to your private data and answering from your own information."
       }
     },
     "seo": {
@@ -2462,13 +2462,13 @@
     "digitalProduct": {
       "meta": {
         "title": "Digital Product · Custom applications | Cabana Data",
-        "description": "Custom application development in Costa Rica: web and mobile platforms built from your real process, ready for production.",
+        "description": "System modernization and custom applications in Costa Rica: specified from your real process, in production and documented for your team.",
         "serviceType": "Custom application development"
       },
       "hero": {
         "name": "Digital Product",
-        "term": "Custom application development",
-        "subtitle": "When the operation lives in emails, spreadsheets and key people, we build the platform your team needs, based on how it actually works.",
+        "term": "System modernization and custom applications",
+        "subtitle": "When your current system no longer keeps pace with the operation, or the operation lives in emails, spreadsheets and key people, we replace it with an application specified from how your team works, that your people can maintain.",
         "imageAlt": "Illustration of a person moving from a desk full of emails and spreadsheets to a tidy application.",
         "ctaSecondary": "See the case"
       },
@@ -2484,8 +2484,8 @@
             "body": "Templates that don't reflect the real logic of your business and only half fit."
           },
           {
-            "title": "Updating the system is a risk",
-            "body": "Manual deployments, with no test environments or monitoring."
+            "title": "A legacy system nobody dares to touch",
+            "body": "Every change is a risk: manual deployments, no test environments or monitoring, and business logic nobody documented."
           }
         ]
       },
@@ -2493,8 +2493,8 @@
         "title": "What we do",
         "items": [
           {
-            "title": "Discovery and design",
-            "body": "Feasibility study, Design Thinking workshops and UX/UI design, validated against your real process."
+            "title": "Specification before building",
+            "body": "We document the business logic and real workflows, with a feasibility study and UX/UI design validated with your team before writing code."
           },
           {
             "title": "Web and mobile build",
@@ -2506,7 +2506,7 @@
           }
         ]
       },
-      "proof": "We deliver in increments and validate with your team at every delivery, not at the end of months of work.",
+      "proof": "We deliver in increments and validate with your team at every delivery. At the end, what we build is in production and documented for your team to run.",
       "case": {
         "industry": "Case · Beverages and distribution",
         "body": "A custom platform to track the sales quota, with single sign-on and data synced every day.",
@@ -2616,7 +2616,7 @@
   },
   "inicio": {
     "meta": {
-      "title": "AI, software and data consulting in Costa Rica | Cabana Data",
+      "title": "AI, software and data consulting in Costa Rica",
       "description": "Custom software, data architecture and AI consulting in Costa Rica. We specify, build and deliver to production.",
       "ogTitle": "Cabana Data: a solid foundation first, then AI that works",
       "ogDescription": "Custom applications and reliable data to decide with. On that foundation, AI that reaches production."
@@ -2676,7 +2676,7 @@
           "body": "And in the meeting you argue about which figure is right instead of deciding."
         },
         {
-          "title": "The board wants progress on AI",
+          "title": "The board wants progress and nobody has a plan",
           "body": "And nobody knows whether the data is enough for any idea."
         }
       ]
@@ -2741,7 +2741,7 @@
       "body": "Every project starts with interviews with your people and a direct review of your systems. We document the business logic, build with your team and deliver in production. If something isn't ready, we tell you, along with what needs to be solved."
     },
     "principle": {
-      "title": "AI proposes, your team decides",
+      "title": "A person on your team approves every action",
       "body": "In the first use case, AI reads, recommends or drafts, and a person on your team approves before any action takes effect. That way it reaches production without opening a risk you'd later have to explain to the board.",
       "link": "See how we work"
     },
@@ -2752,7 +2752,7 @@
       "items": [
         {
           "industry": "Marketing and advertising",
-          "title": "AI agents that gather campaign history",
+          "title": "Custom agents that gather campaign history",
           "metric": "From 20 to 2 minutes",
           "metricLabel": "to gather campaign history before designing a new one"
         },

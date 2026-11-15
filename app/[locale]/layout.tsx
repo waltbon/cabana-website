@@ -13,6 +13,7 @@ import { Footer } from "@/components/footer";
 import { Nav } from "./_components/nav";
 import { ContactDrawerProvider } from "@/components/contact/contact-drawer-provider";
 import { LazyMotionProvider } from "@/components/animations/lazy-motion-provider";
+import { pickMessages, sharedClientNamespaces } from "@/lib/client-messages";
 
 import type { Metadata } from "next";
 
@@ -261,7 +262,7 @@ export default async function LocaleLayout({
         <noscript>
           <img height="1" width="1" style={{ display: "none" }} alt="" src="https://px.ads.linkedin.com/collect/?pid=10268489&fmt=gif" />
         </noscript>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={pickMessages(messages, sharedClientNamespaces)}>
           {/* Skip to content link for accessibility */}
           <a
             href="#main-content"

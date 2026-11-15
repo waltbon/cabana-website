@@ -120,16 +120,16 @@
       "tagline": "Nuestros servicios principales",
       "headline": "Todo lo que hacemos está",
       "headlineHighlight": "Basado en Datos",
-      "description": "Tenemos 5 niveles de servicios de datos para apoyar a tu empresa y permitirte tomar decisiones basadas en datos.",
+      "description": "Tenemos 5 niveles de servicios de datos para apoyar a su empresa y permitirle tomar decisiones basadas en datos.",
       "ctaTalk": "¡Hablemos!",
       "ctaView": "Ver niveles de servicio"
     },
     "grid": {
       "tagline": "La solución",
-      "headline": "Soluciones para Transformar Tu",
+      "headline": "Soluciones para Transformar Su",
       "headlineHighlight": "Negocio con Datos",
-      "description1": "Estás sentado sobre una mina de oro de datos. El desafío es convertirla en un activo estratégico que impulse el crecimiento, la eficiencia y la innovación.",
-      "description2": "Nuestros servicios están diseñados como un ecosistema de extremo a extremo para ayudarte en cada etapa de tu viaje de datos.",
+      "description1": "Usted está sentado sobre una mina de oro de datos. El desafío es convertirla en un activo estratégico que impulse el crecimiento, la eficiencia y la innovación.",
+      "description2": "Nuestros servicios están diseñados como un ecosistema de extremo a extremo para acompañarle en cada etapa de su camino con los datos.",
       "learnMore": "Ir a "
     },
     "process": {
@@ -141,18 +141,18 @@
         "title": "Consultoría de Datos",
         "items": {
           "dhc": {
-            "subtitle": "DHC (Data Health Check)",
-            "description": "Evaluamos 6 dimensiones de tu operación de datos y calibramos el resultado en equipo, para eliminar sesgo individual — 4 pasos: levantamiento, scoring, calibración, entrega."
+            "subtitle": "Diagnóstico de datos",
+            "description": "Evaluamos 6 dimensiones de su operación de datos y calibramos el resultado en equipo, para eliminar sesgo individual — 4 pasos: levantamiento, scoring, calibración, entrega."
           },
           "duc": {
-            "subtitle": "DUC (Data Analytics Use Case)",
-            "description": "Sistema de 4 fases (Workshop → Definition → Roadmap → Architecture) que convierte preguntas de negocio en una ruta técnica priorizada."
+            "subtitle": "Definición del caso de analítica",
+            "description": "Sistema de 4 fases (Taller → Definición → Roadmap → Arquitectura) que convierte preguntas de negocio en una ruta técnica priorizada."
           }
         }
       },
       "dataEngineering": {
         "title": "Ingeniería y Arquitectura de Datos",
-        "description": "Diseñamos la arquitectura de almacenamiento, construimos los pipelines de extracción y transformación, y — cuando el caso de uso lo requiere — desarrollamos y desplegamos modelos de Machine Learning en producción. Un solo servicio, alcance ajustado a lo que tu organización necesita."
+        "description": "Diseñamos la arquitectura de almacenamiento, construimos los pipelines de extracción y transformación, y — cuando el caso de uso lo requiere — desarrollamos y desplegamos modelos de Machine Learning en producción. Un solo servicio, alcance ajustado a lo que su organización necesita."
       },
       "appsDashboards": {
         "title": "Aplicaciones y Dashboards",
@@ -167,7 +167,7 @@
           },
           "dashboards": {
             "subtitle": "Dashboards & Analytics",
-            "description": "De tus fuentes de datos ya priorizadas a un dashboard interactivo, automatizado y con gobernanza de accesos."
+            "description": "De sus fuentes de datos ya priorizadas a un dashboard interactivo, automatizado y con gobernanza de accesos."
           }
         }
       },
@@ -176,11 +176,11 @@
         "items": {
           "rutaIa": {
             "subtitle": "Ruta IA",
-            "description": "Diagnóstico de madurez de IA en 6 dimensiones, en 2 a 3 semanas, con roadmap ejecutable y presentación a junta directiva."
+            "description": "Le dice por cuáles oportunidades de IA empezar y si sus datos las soportan, en 4 semanas más 30 días de seguimiento."
           },
           "agentDevelopment": {
             "subtitle": "Agent Development",
-            "description": "Construcción de agentes conectados a tus datos reales (RAG), capaces de colaborar entre sí (Swarm) y ejecutar acciones concretas (Tool Calling)."
+            "description": "Construcción de agentes conectados a sus datos reales (RAG), capaces de colaborar entre sí (Swarm) y ejecutar acciones concretas (Tool Calling)."
           }
         }
       }
@@ -189,15 +189,15 @@
       "tagline": "FAQ",
       "headline": "Preguntas",
       "headlineHighlight": "Frecuentes",
-      "description": "Obtén respuestas a preguntas comunes sobre nuestros servicios de datos y cómo podemos ayudar a tu negocio.",
+      "description": "Obtenga respuestas a preguntas comunes sobre nuestros servicios de datos y cómo podemos ayudar a su negocio.",
       "items": {
         "whatServices": {
           "question": "¿Qué servicios de datos ofrece Cabana Data?",
-          "answer": "Ofrecemos 4 líneas de servicio: Consultoría de Datos (diagnóstico y definición de casos de uso), Ingeniería y Arquitectura de Datos (infraestructura, pipelines y Machine Learning), Aplicaciones y Dashboards a la Medida (productos digitales y analítica visual), e IA y Sistemas Inteligentes (diagnóstico de madurez de IA y agentes a la medida). Cada uno puede contratarse de forma independiente, según en qué etapa esté tu organización."
+          "answer": "Ofrecemos 4 líneas de servicio: Consultoría de Datos (diagnóstico y definición de casos de uso), Ingeniería y Arquitectura de Datos (infraestructura, pipelines y Machine Learning), Aplicaciones y Dashboards a la Medida (productos digitales y analítica visual), e IA y Sistemas Inteligentes (diagnóstico de madurez de IA y agentes a la medida). Cada uno puede contratarse de forma independiente, según en qué etapa esté su organización."
         },
         "projectDuration": {
           "question": "¿Cuánto tiempo toma un proyecto típico de ingeniería de datos?",
-          "answer": "Varía según el alcance — si incluye solo arquitectura y pipelines, o también componente de Machine Learning. Lo definimos con precisión después de entender tus fuentes de datos y objetivos, generalmente en la primera conversación."
+          "answer": "Depende de qué incluye: solo arquitectura e integración de datos, o también un componente de Machine Learning. Le damos el plazo en semanas en la primera conversación, después de entender sus fuentes de datos y objetivos."
         },
         "cloudPlatforms": {
           "question": "¿Trabajan con plataformas en la nube como AWS, GCP y Azure?",
@@ -215,56 +215,56 @@
     },
     "getReady": {
       "headlineDark": "¿Listo para",
-      "headlineBlue": "Activar Tus Datos?",
-      "description": "Creamos una capa inteligente sobre tus sistemas existentes, desbloqueando el valor que ya tienes sin necesidad de reemplazar las herramientas que usas.",
+      "headlineBlue": "Activar Sus Datos?",
+      "description": "Creamos una capa inteligente sobre sus sistemas existentes, desbloqueando el valor que ya tiene sin necesidad de reemplazar las herramientas que usa.",
       "items": {
         "discovery": {
           "title": "Descubrimiento y Estrategia",
-          "description": "Comenzamos trazando una estrategia clara, asegurándonos de que cada paso técnico esté directamente vinculado a lograr tus objetivos de negocio más importantes."
+          "description": "Comenzamos trazando una estrategia clara, asegurándonos de que cada paso técnico esté directamente vinculado a lograr sus objetivos de negocio más importantes."
         },
         "engineering": {
           "title": "Ingeniería y Arquitectura",
-          "description": "Construimos la base técnica, conectando tus sistemas dispares y transformando la información fragmentada en una única fuente de verdad confiable."
+          "description": "Construimos la base técnica, conectando sus sistemas dispares y transformando la información fragmentada en una única fuente de verdad confiable."
         },
         "design": {
           "title": "Diseño y Desarrollo",
-          "description": "Desarrollamos las aplicaciones personalizadas que hacen que tus datos sean accesibles e interactivos para todo tu equipo — y, cuando ya tienes tus métricas priorizadas, los dashboards que las ponen en un solo lugar."
+          "description": "Desarrollamos las aplicaciones personalizadas que hacen que sus datos sean accesibles e interactivos para todo su equipo — y, cuando ya tiene sus métricas priorizadas, los dashboards que las ponen en un solo lugar."
         },
         "ai": {
           "title": "Soluciones de IA y Machine Learning",
-          "description": "Activamos tus datos con IA, automatizando procesos y generando los insights predictivos que permiten tomar decisiones verdaderamente orientadas al futuro."
+          "description": "Sobre una base de datos sólida, aplicamos IA para automatizar procesos y anticipar lo que viene, para que la dirección decida con datos propios."
         }
       },
       "cta": "¡Hablemos!",
       "imageAlt": "Equipo colaborando en análisis de datos"
     },
     "why": {
-      "headlineBlue": "Tus Datos Ya Están Aquí.",
-      "headlineDark": "Solo Que No Los Estás Usando.",
-      "description1": "Tus insights más valiosos probablemente están atrapados ahora mismo dentro de los sistemas que usas cada día. Tu ERP contiene décadas de historial operativo, tu CRM almacena cada interacción con clientes, y tu equipo sigue invirtiendo tiempo en reportes manuales.",
-      "description2": "Estos datos son la clave para desbloquear un valor inmenso, pero para muchas empresas permanecen como un activo dormido—fragmentado, inaccesible y sin usar para la toma de decisiones críticas. Tienes las materias primas, pero no la fábrica para procesarlas.",
+      "headlineBlue": "Sus Datos Ya Están Aquí.",
+      "headlineDark": "Solo Que No Los Está Usando.",
+      "description1": "Lo que su empresa necesita para decidir probablemente ya está dentro de los sistemas que usa cada día. Su ERP guarda años de historial operativo, su CRM registra cada interacción con clientes, y su equipo sigue invirtiendo tiempo en reportes manuales.",
+      "description2": "Estos datos son la clave para desbloquear un valor inmenso, pero para muchas empresas permanecen como un activo dormido—fragmentado, inaccesible y sin usar para la toma de decisiones críticas. Usted tiene las materias primas, pero no la fábrica para procesarlas.",
       "cta": "¡Hablemos!",
       "imageAlt": "Visualización de sistemas de datos"
     },
     "contactCta": {
-      "headline": "¿Listo para comenzar tu viaje de datos?",
-      "description": "Hablemos sobre cómo podemos ayudar a transformar tu negocio con datos.",
-      "cta": "Contáctanos"
+      "headline": "¿Listo para comenzar su camino con los datos?",
+      "description": "Hablemos sobre cómo podemos ayudar a su negocio a decidir con sus propios datos.",
+      "cta": "Contáctenos"
     },
     "rutaIA": {
       "hero": {
         "tagline": "DIAGNÓSTICO DE PREPARACIÓN PARA IA",
-        "headline": "¿Tu empresa está lista para la IA?",
+        "headline": "¿Su empresa está lista para la IA?",
         "headlineHighlight": "Descúbrelo antes de invertir.",
-        "description": "Ruta IA es nuestro diagnóstico técnico que evalúa tu infraestructura de datos, identifica los bloqueos reales para implementar IA, y te entrega un plan claro de acción — en 2 a 3 semanas.",
-        "cta": "Realiza tu diagnóstico"
+        "description": "Ruta IA es nuestro diagnóstico técnico que identifica sus 5 mejores oportunidades de IA, si sus datos las soportan y qué resolver para habilitar las demás, en 4 semanas más 30 días de seguimiento.",
+        "cta": "Realice su diagnóstico"
       },
       "problem": {
         "tagline": "El problema que nadie menciona",
         "headline": "La mayoría de las iniciativas de IA fallan antes de empezar",
         "body1": "No porque la tecnología no funcione. Sino porque la base de datos no está lista.",
         "body2": "Datos fragmentados, pipelines inconsistentes, sin gobernanza, sin documentación de procesos — estos son los bloqueos reales que hacen que los proyectos de IA no entreguen resultados.",
-        "conclusion": "Antes de invertir en IA, necesitas saber exactamente dónde estás parado."
+        "conclusion": "Antes de invertir en IA, necesita saber exactamente dónde está parado."
       },
       "dimensions": {
         "tagline": "Qué evaluamos",
@@ -273,26 +273,26 @@
           "quality": {
             "num": "01",
             "title": "Calidad e integridad de datos",
-            "question": "¿Tus datos son confiables, completos y consistentes?",
-            "description": "Evaluamos la cobertura, completitud y consistencia de tus fuentes de datos. Identificamos problemas de duplicación, valores nulos y discrepancias entre sistemas que afectan la calidad de cualquier modelo de IA."
+            "question": "¿Sus datos son confiables, completos y consistentes?",
+            "description": "Evaluamos la cobertura, completitud y consistencia de sus fuentes de datos. Identificamos problemas de duplicación, valores nulos y discrepancias entre sistemas que afectan la calidad de cualquier modelo de IA."
           },
           "infrastructure": {
             "num": "02",
             "title": "Infraestructura y pipelines",
-            "question": "¿Tu arquitectura soporta cargas de IA en producción?",
-            "description": "Revisamos tu stack de datos: almacenamiento, orquestación, latencia y escalabilidad. Un modelo de IA en producción requiere pipelines confiables y una infraestructura que soporte demanda variable."
+            "question": "¿Su arquitectura soporta cargas de IA en producción?",
+            "description": "Revisamos su stack de datos: almacenamiento, orquestación, latencia y escalabilidad. Un modelo de IA en producción requiere pipelines confiables y una infraestructura que soporte demanda variable."
           },
           "governance": {
             "num": "03",
             "title": "Gobernanza y privacidad",
-            "question": "¿Tienes control sobre quién accede y cómo se usan tus datos?",
+            "question": "¿Tiene control sobre quién accede y cómo se usan sus datos?",
             "description": "Auditamos controles de acceso, políticas de retención, cumplimiento regulatorio (GDPR, CCPA, leyes locales) y los mecanismos de trazabilidad que respaldan el uso ético y seguro de los datos."
           },
           "maturity": {
             "num": "04",
             "title": "Madurez de procesos",
-            "question": "¿Tus procesos están documentados y son reproducibles?",
-            "description": "Analizamos el nivel de documentación, automatización y reproducibilidad de tus flujos de trabajo. Los procesos manuales y no documentados son uno de los mayores obstáculos para escalar IA."
+            "question": "¿Sus procesos están documentados y son reproducibles?",
+            "description": "Analizamos el nivel de documentación, automatización y reproducibilidad de sus flujos de trabajo. Los procesos manuales y no documentados son uno de los mayores obstáculos para escalar IA."
           },
           "strategy": {
             "num": "05",
@@ -309,67 +309,67 @@
         }
       },
       "deliverables": {
-        "tagline": "Qué recibes",
-        "headline": "Tu Ruta IA:",
+        "tagline": "Qué recibe",
+        "headline": "Su Ruta IA:",
         "headlineHighlight": "un entregable concreto, no un deck de consultoría",
         "items": {
           "diagnosis": {
             "title": "Diagnóstico de madurez",
-            "description": "Un reporte visual con tu puntaje actual en cada dimensión evaluada, con hallazgos específicos y evidencia técnica."
+            "description": "Un reporte visual con su puntaje actual en cada dimensión evaluada, con hallazgos específicos y evidencia técnica."
           },
           "blockers": {
             "title": "Mapa de bloqueos",
-            "description": "Identificación clara de qué te impide implementar IA hoy, ordenado por impacto y urgencia."
+            "description": "Identificación clara de qué le impide implementar IA hoy, ordenado por impacto y urgencia."
           },
           "roadmap": {
             "title": "Hoja de ruta priorizada",
-            "description": "Un plan de acción con quick wins y pasos estratégicos, incluyendo el primer caso de uso recomendado para implementar."
+            "description": "Un roadmap de remediación: qué arreglar, en qué orden, según esfuerzo e impacto, y la oportunidad lista para arrancar primero."
           }
         }
       },
       "trustSignal": {
         "headline": "Construido sobre los estándares más rigurosos de IA",
         "body1": "Cabana Data está en proceso de certificación ISO 42001 — el estándar internacional para sistemas de gestión de IA. Esto significa que nuestra metodología de evaluación está alineada con los requisitos de gobernanza, transparencia y accountability que los reguladores y clientes empresariales exigirán en los próximos años.",
-        "body2": "Cuando contratas Ruta IA, no estás contratando un checklist. Estás contratando el rigor de un marco internacional adaptado a la realidad latinoamericana.",
+        "body2": "Cuando contrata Ruta IA, no está contratando un checklist. Está contratando el rigor de un marco internacional adaptado a la realidad latinoamericana.",
         "badge": "En proceso de certificación"
       },
       "timeline": {
         "headline": "Claro, rápido y sin sorpresas",
-        "duration": "2 a 3 semanas",
+        "duration": "4 semanas + 30 días de seguimiento",
         "durationLabel": "Diagnóstico completo",
-        "price": "Desde $5,000 USD",
+        "price": "USD 12,000 + IVA",
         "priceLabel": "Precio introductorio",
-        "description": "Trabajamos con tu equipo de forma no invasiva. Sin interrumpir operaciones, sin acceso innecesario a sistemas. Solo las entrevistas técnicas y revisiones de arquitectura necesarias para darte un diagnóstico honesto."
+        "description": "Trabajamos con su equipo de forma no invasiva. Sin interrumpir operaciones, sin acceso innecesario a sistemas. Solo las entrevistas técnicas y revisiones de arquitectura necesarias para darle un diagnóstico honesto."
       },
       "personas": {
         "tagline": "¿Para quién es Ruta IA?",
-        "headline": "Ruta IA es para ti si...",
+        "headline": "Ruta IA es para usted si...",
         "items": {
           "cto": {
             "badge": "CTO / Director de Tecnología",
-            "title": "Quieres implementar IA pero necesitas saber qué hay que resolver primero",
-            "description": "Quieres implementar IA pero necesitas saber qué hay que resolver primero en tu infraestructura de datos antes de comprometer presupuesto."
+            "title": "Quiere implementar IA pero necesita saber qué hay que resolver primero",
+            "description": "Quiere implementar IA pero necesita saber qué hay que resolver primero en su infraestructura de datos antes de comprometer presupuesto."
           },
           "coo": {
             "badge": "COO / Director de Operaciones",
-            "title": "Has escuchado sobre IA aplicada a operaciones pero no sabes si tu empresa tiene la base",
-            "description": "Has escuchado sobre IA aplicada a operaciones pero no sabes si tu empresa tiene la base para que funcione realmente."
+            "title": "Ha escuchado sobre IA aplicada a operaciones pero no sabe si su empresa tiene la base",
+            "description": "Ha escuchado sobre IA aplicada a operaciones pero no sabe si su empresa tiene la base para que funcione realmente."
           },
           "tech": {
             "badge": "Empresa de tecnología",
-            "title": "Quieres ofrecer capacidades de IA a tus clientes y necesitas un socio técnico",
-            "description": "Quieres ofrecer capacidades de IA a tus clientes y necesitas un socio técnico que valide y construya la infraestructura correcta desde el inicio."
+            "title": "Quiere ofrecer capacidades de IA a sus clientes y necesita un socio técnico",
+            "description": "Quiere ofrecer capacidades de IA a sus clientes y necesita un socio técnico que valide y construya la infraestructura correcta desde el inicio."
           }
         }
       },
       "cta": {
-        "headline": "Tu próximo paso en IA empieza con claridad, no con apuestas.",
-        "description": "Agenda una llamada de 30 minutos. Sin compromiso. Te decimos si Ruta IA tiene sentido para tu empresa.",
+        "headline": "Su próximo paso en IA empieza con claridad, no con apuestas.",
+        "description": "Agende una llamada de 30 minutos. Sin compromiso. Le decimos si Ruta IA tiene sentido para su empresa.",
         "button": "Solicitar un Diagnóstico"
       },
       "seo": {
         "title": "Diagnóstico de Preparación para IA",
-        "description": "Ruta IA es nuestro diagnóstico técnico que evalúa tu infraestructura de datos, identifica los bloqueos reales para implementar IA, y te entrega un plan claro de acción — en 2 a 3 semanas."
+        "description": "Ruta IA es nuestro diagnóstico técnico que identifica sus 5 mejores oportunidades de IA, si sus datos las soportan y qué resolver para habilitar las demás, en 4 semanas más 30 días de seguimiento."
       }
     },
     "dataConsulting": {
@@ -377,8 +377,8 @@
         "tagline": "CONSULTORÍA ESTRATÉGICA DE DATOS",
         "headlineDark": "La mayoría de las empresas no necesitan más datos.",
         "headlineBlue": "Necesitan saber qué hacer con los que ya tienen.",
-        "description": "Evaluamos dónde estás parado y definimos qué construir primero — con evidencia, no con opinión.",
-        "cta": "Conversemos sobre tus datos",
+        "description": "Evaluamos dónde está parado y definimos qué construir primero — con evidencia, no con opinión.",
+        "cta": "Conversemos sobre sus datos",
         "imageAlt": "Consultoría estratégica de datos"
       },
       "problem": {
@@ -404,54 +404,54 @@
         }
       },
       "offerings": {
-        "tagline": "Dos formas de traer claridad, según dónde estés",
+        "tagline": "Dos formas de traer claridad, según dónde esté",
         "headlineDark": "Diagnóstico o dirección —",
-        "headlineBlue": "depende de lo que ya sepas",
+        "headlineBlue": "depende de lo que ya sepa",
         "items": {
           "dhc": {
-            "title": "Data Health Check (DHC)",
-            "whatIsIt": "¿No sabes si tu infraestructura de datos aguanta lo que quieres construir? Evaluamos 6 dimensiones de tu operación y te decimos, con evidencia, dónde estás parado.",
-            "link": "Ver página DHC →"
+            "title": "Diagnóstico de datos",
+            "whatIsIt": "¿No sabe si su infraestructura de datos aguanta lo que quiere construir? Evaluamos 6 dimensiones de su operación y le decimos, con evidencia, dónde está parado.",
+            "link": "Ver el diagnóstico de datos →"
           },
           "duc": {
-            "title": "Data Analytics Use Case (DUC)",
-            "whatIsIt": "¿Ya sabes que tienes datos pero no qué preguntas responder con ellos? Convertimos tus preguntas de negocio reales en una ruta priorizada y ejecutable.",
-            "link": "Ver página DUC →"
+            "title": "Definición del caso de analítica",
+            "whatIsIt": "¿Ya sabe que tiene datos pero no qué preguntas responder con ellos? Convertimos sus preguntas de negocio reales en una ruta priorizada y ejecutable.",
+            "link": "Ver la definición del caso de analítica →"
           }
         },
         "note": "Nota: no son secuenciales ni obligatorios entre sí — cada empresa entra por el que le corresponde."
       },
       "deliverables": {
-        "tagline": "Qué recibes",
-        "headlineDark": "Un plan que puedes ejecutar,",
+        "tagline": "Qué recibe",
+        "headlineDark": "Un plan que puede ejecutar,",
         "headlineBlue": "no una opinión más",
         "items": {
           "diagnosis": "Diagnóstico o mapa de casos de uso, con evidencia y priorización.",
           "roadmap": "Roadmap ejecutable — qué construir primero y por qué.",
-          "engineering": "Ruta clara hacia Data Engineering, si decides avanzar a implementación."
+          "engineering": "Ruta clara hacia Data Engineering, si decide avanzar a implementación."
         },
         "imageAlt": "Entregables de la Consultoría de Datos"
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
-        "description": "No estás contratando una opinión técnica. Estás contratando un estándar internacional de gestión de datos, adaptado a la realidad centroamericana."
+        "description": "No está contratando una opinión técnica. Está contratando un estándar internacional de gestión de datos, adaptado a la realidad centroamericana."
       },
       "logistics": {
         "tagline": "Logística de fricción cero",
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según el camino (DHC y DUC tienen procesos propios de 2 a 4+ semanas)."
+            "description": "Varía según el camino (el diagnóstico de datos y la definición del caso de analítica tienen procesos propios de 2 a 4+ semanas)."
           },
           "workMode": {
             "label": "Modo de trabajo",
-            "description": "Entrevistas y talleres puntuales con tus stakeholders — no acceso invasivo ni permanente a sistemas críticos."
+            "description": "Entrevistas y talleres puntuales con sus stakeholders — no acceso invasivo ni permanente a sistemas críticos."
           }
         }
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "cto": {
             "title": "CTO / Head de Datos",
@@ -468,9 +468,9 @@
         }
       },
       "cta": {
-        "headline": "La claridad sobre tus datos no es un lujo, es el primer paso real.",
+        "headline": "La claridad sobre sus datos no es un lujo, es el primer paso real.",
         "description": "",
-        "cta": "Agenda 30 minutos, sin compromiso"
+        "cta": "Agende 30 minutos, sin compromiso"
       },
       "faq": {
         "tagline": "Preguntas frecuentes",
@@ -483,30 +483,30 @@
             "answer": "Podrían — y a veces es lo correcto. Pero si nunca han diagnosticado su infraestructura ni priorizado casos de uso, construir sin esa claridad casi siempre termina resolviendo el problema equivocado, o construyendo algo que nadie en el negocio termina usando."
           },
           "genericConsulting": {
-            "question": "¿Esto es lo mismo que una consultoría genérica de \"transformación digital\"?",
-            "answer": "No. No entregamos un PDF de recomendaciones abstractas. DHC entrega un scoring objetivo en 6 dimensiones con evidencia, no opinión. DUC entrega una DUC-CARD por cada caso de uso, con roadmap priorizado y ruta técnica. Ambos están anclados en DAMA-DMBOK, el estándar internacional de gestión de datos — no en un framework improvisado."
+            "question": "¿Esto es lo mismo que una consultoría genérica?",
+            "answer": "No. No entregamos un PDF de recomendaciones abstractas. El diagnóstico de datos entrega un scoring objetivo en 6 dimensiones con evidencia, no opinión. La definición del caso de analítica entrega una ficha del caso por cada caso de uso, con roadmap priorizado y ruta técnica. Ambos están anclados en DAMA-DMBOK, el estándar internacional de gestión de datos — no en un framework improvisado."
           },
           "bothServices": {
-            "question": "¿Necesitamos hacer los dos servicios (DHC y DUC), o solo uno?",
-            "answer": "Depende de dónde estén parados. Si ya saben que su infraestructura es sólida y solo necesitan definir qué construir, pueden ir directo a DUC. Si no están seguros de su fundación de datos, empezamos por DHC. Lo definimos juntos en la primera conversación — no antes."
+            "question": "¿Necesitamos hacer los dos servicios (diagnóstico de datos y definición del caso de analítica), o solo uno?",
+            "answer": "Depende de dónde estén parados. Si ya saben que su infraestructura es sólida y solo necesitan definir qué construir, pueden ir directo a la definición del caso de analítica. Si no están seguros de su fundación de datos, empezamos por el diagnóstico de datos. Lo definimos juntos en la primera conversación — no antes."
           },
           "howInvasive": {
             "question": "¿Qué tan invasivo es el proceso para nuestro equipo?",
-            "answer": "Trabajamos con entrevistas y talleres puntuales, no con acceso permanente a sistemas críticos. El tiempo que pedimos de tus stakeholders es acotado y se agenda con anticipación."
+            "answer": "Trabajamos con entrevistas y talleres puntuales, no con acceso permanente a sistemas críticos. El tiempo que pedimos de sus stakeholders es acotado y se agenda con anticipación."
           },
           "notReady": {
             "question": "¿Qué pasa si el diagnóstico revela que no estamos listos para lo que queríamos hacer?",
-            "answer": "Te lo decimos directamente, sin suavizarlo. Preferimos decirte la verdad sobre los bloqueadores reales que dejarte avanzar hacia un proyecto que va a fallar por una fundación que no estaba lista."
+            "answer": "Se lo decimos directamente, sin suavizarlo. Preferimos decirle la verdad sobre los bloqueadores reales que dejarle avanzar hacia un proyecto que va a fallar por una fundación que no estaba lista."
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
-            "answer": "Se cotiza según el alcance específico de tu organización — no tenemos un precio único de lista. Lo que sí podemos darte en la primera llamada es claridad sobre qué camino (DHC, DUC, o ambos) tiene sentido para tu caso."
+            "answer": "Se cotiza a medida para su organización. En la primera llamada le damos claridad sobre qué camino (diagnóstico de datos, definición del caso de analítica, o ambos) tiene sentido para su caso."
           }
         }
       },
       "seo": {
         "title": "Consultoría Estratégica de Datos",
-        "description": "Evaluamos dónde estás parado y definimos qué construir primero — con evidencia, no con opinión."
+        "description": "Evaluamos dónde está parado y definimos qué construir primero — con evidencia, no con opinión."
       }
     },
     "dataHealthCheck": {
@@ -514,8 +514,8 @@
         "tagline": "DIAGNÓSTICO DE SALUD DE DATOS",
         "headlineDark": "Construir sin diagnóstico",
         "headlineBlue": "es adivinar",
-        "description": "Evaluamos 6 dimensiones de tu infraestructura de datos y te decimos, con evidencia, qué tan lista está tu empresa para escalar.",
-        "cta": "Solicita tu Data Health Check",
+        "description": "Evaluamos 6 dimensiones de su infraestructura de datos y le decimos, con evidencia, qué tan lista está su empresa para escalar.",
+        "cta": "Solicite su diagnóstico de datos",
         "imageAlt": "Diagnóstico de salud de datos"
       },
       "problem": {
@@ -541,7 +541,7 @@
         }
       },
       "dimensions": {
-        "tagline": "6 dimensiones de tu operación de datos",
+        "tagline": "6 dimensiones de su operación de datos",
         "headline": "No es opinión, es evidencia",
         "items": {
           "sources": {
@@ -571,7 +571,7 @@
         }
       },
       "deliverables": {
-        "tagline": "Qué recibes",
+        "tagline": "Qué recibe",
         "headlineDark": "Un plan de acción,",
         "headlineBlue": "no un PDF de opiniones",
         "items": {
@@ -583,7 +583,7 @@
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
-        "description": "No estás contratando una opinión técnica. Estás contratando un estándar internacional de gestión de datos, adaptado a la realidad centroamericana."
+        "description": "No está contratando una opinión técnica. Está contratando un estándar internacional de gestión de datos, adaptado a la realidad centroamericana."
       },
       "logistics": {
         "tagline": "Logística de fricción cero",
@@ -594,13 +594,13 @@
           },
           "workMode": {
             "label": "Modo de trabajo",
-            "description": "Sin acceso invasivo a sistemas críticos — se trabaja con documentación existente y conversación directa con tu equipo."
+            "description": "Sin acceso invasivo a sistemas críticos — se trabaja con documentación existente y conversación directa con su equipo."
           }
         }
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "cto": {
             "title": "CTO / Head de Datos",
@@ -617,9 +617,9 @@
         }
       },
       "cta": {
-        "headline": "Construir sin diagnóstico es adivinar. Empieza con evidencia.",
+        "headline": "Construir sin diagnóstico es adivinar. Empiece con evidencia.",
         "description": "",
-        "cta": "Solicita tu Data Health Check"
+        "cta": "Solicite su diagnóstico de datos"
       },
       "faq": {
         "tagline": "Preguntas frecuentes",
@@ -633,7 +633,7 @@
           },
           "itAudit": {
             "question": "¿Esto es lo mismo que una auditoría de TI?",
-            "answer": "No. No evaluamos cumplimiento legal ni seguridad perimetral; evaluamos si tus datos pueden sostener las decisiones y proyectos que quieres construir."
+            "answer": "No. No evaluamos cumplimiento legal ni seguridad perimetral; evaluamos si sus datos pueden sostener las decisiones y proyectos que quiere construir."
           },
           "howInvasive": {
             "question": "¿Qué tan invasivo es para nuestro equipo?",
@@ -641,30 +641,30 @@
           },
           "notReady": {
             "question": "¿Qué pasa si el resultado es que no estamos listos?",
-            "answer": "Te lo decimos con evidencia, no con opinión, y te entregamos el plan exacto para llegar a estarlo."
+            "answer": "Se lo decimos con evidencia, no con opinión, y le entregamos el plan exacto para llegar a estarlo."
           },
           "duration": {
             "question": "¿Cuánto dura el proceso?",
-            "answer": "Varía según la complejidad de tu organización; se define en la primera conversación."
+            "answer": "Varía según la complejidad de su organización; se define en la primera conversación."
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
-            "answer": "Se cotiza según el alcance específico; lo definimos juntos después de entender tu contexto."
+            "answer": "Se cotiza a medida; lo definimos juntos después de entender su contexto."
           }
         }
       },
       "seo": {
         "title": "Diagnóstico de Salud de Datos",
-        "description": "Evaluamos 6 dimensiones de tu infraestructura de datos y te decimos, con evidencia, qué tan lista está tu empresa para escalar."
+        "description": "Evaluamos 6 dimensiones de su infraestructura de datos y le decimos, con evidencia, qué tan lista está su empresa para escalar."
       }
     },
     "dataAnalyticsUseCase": {
       "hero": {
         "tagline": "CASOS DE USO DE ANALÍTICA DE DATOS",
-        "headlineDark": "Tienes los datos.",
+        "headlineDark": "Usted tiene los datos.",
         "headlineBlue": "Falta saber qué preguntarles.",
-        "description": "Convertimos tus preguntas de negocio reales en una ruta priorizada y ejecutable — con quick wins visibles en semanas, no meses.",
-        "cta": "Define tus casos de uso",
+        "description": "Convertimos sus preguntas de negocio reales en una ruta priorizada y ejecutable para su equipo.",
+        "cta": "Defina sus casos de uso",
         "imageAlt": "Casos de uso de analítica de datos"
       },
       "problem": {
@@ -695,29 +695,29 @@
         "headlineBlue": "a la ruta técnica",
         "steps": {
           "workshop": {
-            "title": "DUC-01 — Workshop",
-            "description": "Taller estructurado para extraer las preguntas de negocio reales que tu equipo necesita responder, no las que asume el área de TI."
+            "title": "Taller",
+            "description": "Taller estructurado para extraer las preguntas de negocio reales que su equipo necesita responder, no las que asume el área de TI."
           },
           "definition": {
-            "title": "DUC-02 — Definition",
-            "description": "Documentamos cada caso de uso en una ficha formal, con contexto de negocio, requerimientos de datos y resultado esperado — validado y aprobado por tu equipo."
+            "title": "Definición",
+            "description": "Documentamos cada caso de uso en una ficha formal, con contexto de negocio, requerimientos de datos y resultado esperado — validado y aprobado por su equipo."
           },
           "roadmap": {
-            "title": "DUC-03 — Roadmap",
+            "title": "Roadmap",
             "description": "Priorizamos objetivamente por impacto y viabilidad, garantizando al menos un quick win ejecutable en las primeras semanas."
           },
           "architecture": {
-            "title": "DUC-04 — Architecture",
+            "title": "Arquitectura",
             "description": "Definimos la ruta técnica exacta: qué stack, qué esfuerzo y qué brechas hay que cerrar para construirlo."
           }
         }
       },
       "deliverables": {
-        "tagline": "Qué recibes",
+        "tagline": "Qué recibe",
         "headlineDark": "Una ruta ejecutable,",
         "headlineBlue": "no una lista de ideas",
         "items": {
-          "card": "DUC-CARD por cada caso de uso — documento formal con la pregunta de negocio, los datos necesarios y el resultado esperado.",
+          "card": "Ficha del caso por cada caso de uso — documento formal con la pregunta de negocio, los datos necesarios y el resultado esperado.",
           "roadmap": "Roadmap priorizado — casos de uso clasificados en quick win, mediano plazo y estratégico.",
           "architecture": "Propuesta de arquitectura — stack recomendado, gap analysis y esfuerzo estimado, lista para pasar a Data Engineering."
         },
@@ -725,7 +725,7 @@
       },
       "credibility": {
         "headline": "Prueba de rigor: DAMA-DMBOK",
-        "description": "No estás contratando una lluvia de ideas. Estás contratando un método alineado a un estándar internacional de gestión de datos, con priorización objetiva y trazable."
+        "description": "No está contratando una lluvia de ideas. Está contratando un método alineado a un estándar internacional de gestión de datos, con priorización objetiva y trazable."
       },
       "logistics": {
         "tagline": "Logística de fricción cero",
@@ -736,13 +736,13 @@
           },
           "workMode": {
             "label": "Modo de trabajo",
-            "description": "Basado en talleres con tus stakeholders de negocio — no requiere acceso permanente a sistemas ni interrumpe operaciones."
+            "description": "Basado en talleres con sus stakeholders de negocio — no requiere acceso permanente a sistemas ni interrumpe operaciones."
           }
         }
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "cto": {
             "title": "CTO / Head de Datos",
@@ -759,9 +759,9 @@
         }
       },
       "cta": {
-        "headline": "Deja de acumular datos sin dirección. Empieza con una pregunta de negocio real.",
+        "headline": "Deje de acumular datos sin dirección. Empiece con una pregunta de negocio real.",
         "description": "",
-        "cta": "Define tus casos de uso"
+        "cta": "Defina sus casos de uso"
       },
       "faq": {
         "tagline": "Preguntas frecuentes",
@@ -771,7 +771,7 @@
         "items": {
           "needsDHC": {
             "question": "¿Necesito haber hecho un Data Health Check antes?",
-            "answer": "No es obligatorio. Si ya sabes que tu infraestructura es sólida, puedes empezar directo aquí; si no estás seguro, DUC-01 incluye una validación rápida."
+            "answer": "No es obligatorio. Si ya sabe que su infraestructura es sólida, puede empezar directo aquí; si no está seguro, el taller inicial incluye una validación rápida."
           },
           "replacesConsultant": {
             "question": "¿Esto reemplaza a un consultor de estrategia de datos?",
@@ -787,26 +787,26 @@
           },
           "afterRoadmap": {
             "question": "¿Qué pasa después de recibir el roadmap?",
-            "answer": "Puedes avanzar directamente a Data Engineering con la ruta técnica ya definida, o tomarte el tiempo que necesites antes de decidir."
+            "answer": "Puede avanzar directamente a Data Engineering con la ruta técnica ya definida, o tomarse el tiempo que necesite antes de decidir."
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
-            "answer": "Se cotiza según cuántos casos de uso se prioricen y la complejidad de tu organización; lo definimos en la primera conversación."
+            "answer": "Se cotiza a medida, según cuántos casos de uso se prioricen; lo definimos en la primera conversación."
           }
         }
       },
       "seo": {
         "title": "Casos de Uso de Analítica de Datos",
-        "description": "Convertimos tus preguntas de negocio reales en una ruta priorizada y ejecutable — con quick wins visibles en semanas, no meses."
+        "description": "Convertimos sus preguntas de negocio reales en una ruta priorizada y ejecutable para su equipo."
       }
     },
     "digitalProduct": {
       "hero": {
         "tagline": "MODERNIZACIÓN DE PRODUCTOS DIGITALES",
-        "headlineDark": "Tu sistema legacy no necesita un parche más.",
+        "headlineDark": "Su sistema legacy no necesita un parche más.",
         "headlineBlue": "Necesita ser reconstruido bien.",
-        "description": "Del sistema que ya nadie quiere tocar al producto digital que tu operación necesita hoy — con el diseño y la arquitectura correctos desde el inicio.",
-        "cta": "Cuéntanos tu proyecto",
+        "description": "Del sistema que ya nadie quiere tocar al producto digital que su operación necesita hoy — con el diseño y la arquitectura correctos desde el inicio.",
+        "cta": "Cuéntenos su proyecto",
         "imageAlt": "Modernización de productos digitales"
       },
       "problem": {
@@ -840,24 +840,24 @@
         "items": {
           "design": {
             "title": "Product Design & Discovery",
-            "whatIsIt": "Validamos que estamos resolviendo el problema correcto antes de escribir una sola línea de código: investigación de usuarios, arquitectura de información y diseño visual sobre tu marca existente.",
+            "whatIsIt": "Validamos que estamos resolviendo el problema correcto antes de escribir una sola línea de código: investigación de usuarios, arquitectura de información y diseño visual sobre su marca existente.",
             "link": "Ver página Product Design & Discovery →"
           },
           "development": {
             "title": "Application Development",
-            "whatIsIt": "Construimos la aplicación web o móvil sobre una arquitectura cloud-native que sí escala, conectando el diseño validado con la lógica de negocio real de tu operación.",
+            "whatIsIt": "Construimos la aplicación web o móvil sobre una arquitectura cloud-native que sí escala, conectando el diseño validado con la lógica de negocio real de su operación.",
             "link": "Ver página Application Development →"
           },
           "dashboards": {
             "title": "Dashboards & Analytics Interfaces",
-            "whatIsIt": "Si ya tienes tus casos de uso de datos definidos, convertimos esa información en paneles visuales que tu equipo realmente usa para decidir.",
+            "whatIsIt": "Si ya tiene sus casos de uso de datos definidos, convertimos esa información en paneles visuales que su equipo realmente usa para decidir.",
             "link": "Ver página Dashboards & Analytics Interfaces →"
           }
         },
-        "note": "Nota: Design & Discovery y Application Development suelen ir juntos como flujo; Dashboards requiere haber definido antes tus casos de uso con DUC (Data Consulting)."
+        "note": "Nota: Design & Discovery y Application Development suelen ir juntos como flujo; Dashboards requiere haber definido antes sus casos de uso con la definición del caso de analítica (Data Consulting)."
       },
       "deliverables": {
-        "tagline": "Qué recibes",
+        "tagline": "Qué recibe",
         "headlineDark": "Un producto en producción,",
         "headlineBlue": "no un prototipo bonito",
         "items": {
@@ -868,24 +868,24 @@
       },
       "credibility": {
         "headline": "Prueba de rigor: Design Thinking como metodología, no como buzzword",
-        "description": "No diseñamos basados en gustos. Cada decisión visual y de flujo está respaldada por investigación real con tus usuarios, no por tendencias de diseño."
+        "description": "No diseñamos basados en gustos. Cada decisión visual y de flujo está respaldada por investigación real con sus usuarios, no por tendencias de diseño."
       },
       "logistics": {
         "tagline": "Logística de fricción cero",
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según si es diseño, desarrollo, o ambos — se estima en la primera conversación según el alcance real."
+            "description": "Depende de si es diseño, desarrollo o ambos. Le damos el plazo en semanas en la primera conversación."
           },
           "workMode": {
             "label": "Modo de trabajo",
-            "description": "Talleres de cocreación y validación con tu equipo — no un equipo externo trabajando a ciegas durante meses sin retroalimentación."
+            "description": "Talleres de cocreación y validación con su equipo — no un equipo externo trabajando a ciegas durante meses sin retroalimentación."
           }
         }
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "cto": {
             "title": "CTO con un sistema legacy crítico",
@@ -904,7 +904,7 @@
       "cta": {
         "headline": "Modernizar no es parchar. Es reconstruir bien, una sola vez.",
         "description": "",
-        "cta": "Cuéntanos tu proyecto"
+        "cta": "Cuéntenos su proyecto"
       },
       "faq": {
         "tagline": "Preguntas frecuentes",
@@ -922,34 +922,34 @@
           },
           "skipDesign": {
             "question": "¿Necesitamos el servicio de diseño si ya tenemos los wireframes listos?",
-            "answer": "No, puedes entrar directo a Application Development si ya tienes el diseño validado."
+            "answer": "No, puede entrar directo a Application Development si ya tiene el diseño validado."
           },
           "duration": {
             "question": "¿Cuánto tiempo toma modernizar un sistema legacy?",
-            "answer": "Varía mucho según la complejidad; lo definimos con precisión después de entender tu sistema actual."
+            "answer": "Varía mucho según la complejidad; lo definimos con precisión después de entender su sistema actual."
           },
           "worseThanExpected": {
             "question": "¿Qué pasa si durante el proyecto encontramos algo peor de lo esperado en el sistema actual?",
-            "answer": "Te lo decimos de inmediato y ajustamos el alcance con evidencia, no dejamos que sea una sorpresa al final."
+            "answer": "Se lo decimos de inmediato y ajustamos el alcance con evidencia, no dejamos que sea una sorpresa al final."
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
-            "answer": "Se cotiza según el alcance específico del proyecto; te damos claridad sobre el rango en la primera llamada."
+            "answer": "Se cotiza a medida; le damos claridad sobre el rango en la primera llamada."
           }
         }
       },
       "seo": {
         "title": "Modernización de Productos Digitales",
-        "description": "Del sistema que ya nadie quiere tocar al producto digital que tu operación necesita hoy — con el diseño y la arquitectura correctos desde el inicio."
+        "description": "Del sistema que ya nadie quiere tocar al producto digital que su operación necesita hoy — con el diseño y la arquitectura correctos desde el inicio."
       }
     },
     "productDesignDiscovery": {
       "hero": {
         "tagline": "DISEÑO DE PRODUCTOS DIGITALES",
-        "headlineDark": "El problema no es tu diseño.",
+        "headlineDark": "El problema no es su diseño.",
         "headlineBlue": "Es que nunca validaste el problema.",
         "description": "Investigación real con usuarios, arquitectura de información y diseño visual — antes de que se escriba una sola línea de código.",
-        "cta": "Inicia el descubrimiento de tu producto",
+        "cta": "Inicie el descubrimiento de su producto",
         "imageAlt": "Diseño de productos digitales"
       },
       "problem": {
@@ -989,12 +989,12 @@
           },
           "ui": {
             "title": "UI",
-            "description": "Sistema de diseño, diseño visual sobre tu marca, microinteracciones."
+            "description": "Sistema de diseño, diseño visual sobre su marca, microinteracciones."
           }
         }
       },
       "deliverables": {
-        "tagline": "Qué recibes",
+        "tagline": "Qué recibe",
         "headlineDark": "Prototipos listos para construir,",
         "headlineBlue": "no bocetos",
         "items": {
@@ -1005,7 +1005,7 @@
       },
       "credibility": {
         "headline": "Prueba de rigor: Design Thinking como metodología, no como buzzword",
-        "description": "No diseñamos basados en gustos. Cada decisión está respaldada por investigación real con tus usuarios."
+        "description": "No diseñamos basados en gustos. Cada decisión está respaldada por investigación real con sus usuarios."
       },
       "logistics": {
         "tagline": "Logística de fricción cero",
@@ -1016,17 +1016,17 @@
           },
           "workMode": {
             "label": "Modo de trabajo",
-            "description": "Talleres de cocreación con tu equipo y usuarios finales — no un diseñador trabajando aislado durante semanas."
+            "description": "Talleres de cocreación con su equipo y usuarios finales — no un diseñador trabajando aislado durante semanas."
           }
         }
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "newProduct": {
             "title": "Producto nuevo sin validar",
-            "description": "Tienes la idea de negocio pero no sabes si el flujo tiene sentido para el usuario real."
+            "description": "Tiene la idea de negocio pero no sabe si el flujo tiene sentido para el usuario real."
           },
           "redesign": {
             "title": "Rediseño de un producto que no se usa",
@@ -1034,14 +1034,14 @@
           },
           "noDesigner": {
             "title": "Equipo técnico sin diseñador interno",
-            "description": "Necesitas prototipos listos para construir, sin contratar un rol full-time."
+            "description": "Necesita prototipos listos para construir, sin contratar un rol full-time."
           }
         }
       },
       "cta": {
         "headline": "Diseñar bien no es opcional. Es lo que decide si el producto se usa o no.",
         "description": "",
-        "cta": "Inicia el descubrimiento de tu producto"
+        "cta": "Inicie el descubrimiento de su producto"
       },
       "faq": {
         "tagline": "Preguntas frecuentes",
@@ -1051,15 +1051,15 @@
         "items": {
           "alsoBuilds": {
             "question": "¿Ustedes también construyen el producto, o solo diseñan?",
-            "answer": "Podemos hacer ambos (ver Application Development), pero también puedes quedarte solo con el diseño y construir con tu propio equipo."
+            "answer": "Podemos hacer ambos (ver Application Development), pero también puede quedarse solo con el diseño y construir con su propio equipo."
           },
           "needsBrand": {
             "question": "¿Necesitamos tener una marca definida antes de empezar?",
-            "answer": "Sí, usamos tu manual de marca existente; no incluimos creación de marca desde cero."
+            "answer": "Sí, usamos su manual de marca existente; no incluimos creación de marca desde cero."
           },
           "duration": {
             "question": "¿Cuánto dura el proceso de diseño?",
-            "answer": "Depende de la complejidad del producto; te damos un estimado después de entender el alcance."
+            "answer": "Depende de la complejidad del producto; le damos un estimado después de entender el alcance."
           },
           "realUsers": {
             "question": "¿Validan con usuarios reales o solo con el equipo interno?",
@@ -1067,7 +1067,7 @@
           },
           "ideaDoesntWork": {
             "question": "¿Qué pasa si durante el descubrimiento nos damos cuenta de que la idea original no funciona?",
-            "answer": "Te lo decimos con evidencia de la investigación, y ajustamos la dirección antes de que se invierta en desarrollo."
+            "answer": "Se lo decimos con evidencia de la investigación, y ajustamos la dirección antes de que se invierta en desarrollo."
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
@@ -1085,8 +1085,8 @@
         "tagline": "DESARROLLO DE APLICACIONES A LA MEDIDA",
         "headlineDark": "El software que no escala",
         "headlineBlue": "es una deuda, no un activo",
-        "description": "Construimos aplicaciones web y móviles sobre arquitectura cloud-native, listas para crecer junto a tu operación.",
-        "cta": "Cuéntanos tu proyecto",
+        "description": "Construimos aplicaciones web y móviles sobre arquitectura cloud-native, listas para crecer junto a su operación.",
+        "cta": "Cuéntenos su proyecto",
         "imageAlt": "Desarrollo de aplicaciones a la medida"
       },
       "problem": {
@@ -1130,13 +1130,13 @@
         }
       },
       "deliverables": {
-        "tagline": "Qué recibes",
+        "tagline": "Qué recibe",
         "headlineDark": "Una aplicación en producción,",
         "headlineBlue": "no un demo",
         "items": {
           "application": "Aplicación funcionando en un entorno cloud real, no solo en un ambiente de prueba.",
           "cicd": "Pipeline de CI/CD configurado, para lanzar actualizaciones sin interrumpir el servicio.",
-          "monitoring": "Monitoreo y alertas activas, para detectar errores antes que tus usuarios."
+          "monitoring": "Monitoreo y alertas activas, para detectar errores antes que sus usuarios."
         }
       },
       "logistics": {
@@ -1144,7 +1144,7 @@
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según el alcance; se define tras recibir los prototipos y reglas de negocio."
+            "description": "Se define en semanas al recibir los prototipos y las reglas de negocio."
           },
           "workMode": {
             "label": "Modo de trabajo",
@@ -1154,7 +1154,7 @@
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "cto": {
             "title": "CTO con un sistema que ya no aguanta el crecimiento",
@@ -1173,7 +1173,7 @@
       "cta": {
         "headline": "Construye una sola vez, bien. No cinco veces, rápido.",
         "description": "",
-        "cta": "Cuéntanos tu proyecto"
+        "cta": "Cuéntenos su proyecto"
       },
       "faq": {
         "tagline": "Preguntas frecuentes",
@@ -1183,19 +1183,19 @@
         "items": {
           "needsDesign": {
             "question": "¿Necesitamos tener el diseño UX/UI listo antes de empezar?",
-            "answer": "Sí, o podemos conectarte con Product Design & Discovery primero si aún no lo tienes."
+            "answer": "Sí, o podemos conectarle con Product Design & Discovery primero si aún no lo tiene."
           },
           "onlyGCP": {
             "question": "¿Trabajan solo en Google Cloud?",
-            "answer": "GCP es nuestro estándar, con experiencia real también en AWS si tu empresa ya está ahí."
+            "answer": "GCP es nuestro estándar, con experiencia real también en AWS si su empresa ya está ahí."
           },
           "whoPaysHosting": {
             "question": "¿Quién paga el hosting y las licencias?",
-            "answer": "El costo de infraestructura cloud corre por cuenta del cliente, para que la propiedad de tu cuenta sea siempre tuya."
+            "answer": "El costo de infraestructura cloud corre por cuenta del cliente, para que la propiedad de su cuenta sea siempre suya."
           },
           "postLaunchSupport": {
             "question": "¿Incluye soporte después del lanzamiento?",
-            "answer": "No incluye soporte de nivel 1 (atención a usuarios); si necesitas mantenimiento continuo, lo conversamos aparte."
+            "answer": "No incluye soporte de nivel 1 (atención a usuarios); si necesita mantenimiento continuo, lo conversamos aparte."
           },
           "integrations": {
             "question": "¿Pueden integrar el sistema con nuestras herramientas actuales (CRM, pasarela de pago, etc.)?",
@@ -1203,13 +1203,13 @@
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
-            "answer": "Se cotiza según el alcance técnico específico; lo definimos después de revisar tus reglas de negocio y requerimientos."
+            "answer": "Se cotiza a medida; lo definimos después de revisar sus reglas de negocio y requerimientos."
           }
         }
       },
       "seo": {
         "title": "Desarrollo de Aplicaciones a la Medida",
-        "description": "Construimos aplicaciones web y móviles sobre arquitectura cloud-native, listas para crecer junto a tu operación."
+        "description": "Construimos aplicaciones web y móviles sobre arquitectura cloud-native, listas para crecer junto a su operación."
       }
     },
     "dashboardsAnalyticsInterfaces": {
@@ -1217,8 +1217,8 @@
         "tagline": "DASHBOARDS Y ANALÍTICA VISUAL",
         "headlineDark": "Los datos no tienen valor",
         "headlineBlue": "si no se pueden entender",
-        "description": "Convertimos tus métricas en dashboards interactivos y automatizados — Power BI o Looker, con la seguridad y gobernanza que tu operación necesita.",
-        "cta": "Solicita tu dashboard",
+        "description": "Convertimos sus métricas en dashboards interactivos y automatizados — Power BI o Looker, con la seguridad y gobernanza que su operación necesita.",
+        "cta": "Solicite su dashboard",
         "imageAlt": "Dashboards y analítica visual"
       },
       "problem": {
@@ -1262,13 +1262,13 @@
         }
       },
       "deliverables": {
-        "tagline": "Qué recibes",
+        "tagline": "Qué recibe",
         "headlineDark": "Un dashboard que",
-        "headlineBlue": "tu equipo realmente usa",
+        "headlineBlue": "su equipo realmente usa",
         "items": {
           "dashboard": "Dashboard interactivo publicado en Power BI Service o Looker, con actualización automática.",
           "rls": "Seguridad a nivel de fila configurada — cada usuario ve solo lo que le corresponde.",
-          "training": "Capacitación a tu equipo para que puedan explorar los datos por sí mismos."
+          "training": "Capacitación a su equipo para que puedan explorar los datos por sí mismos."
         }
       },
       "logistics": {
@@ -1280,13 +1280,13 @@
           },
           "workMode": {
             "label": "Modo de trabajo",
-            "description": "Requiere acceso de solo lectura a tus fuentes de datos — no acceso de escritura ni control sobre tus sistemas."
+            "description": "Requiere acceso de solo lectura a sus fuentes de datos — no acceso de escritura ni control sobre sus sistemas."
           }
         }
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "coo": {
             "title": "COO sin visibilidad en tiempo real",
@@ -1303,9 +1303,9 @@
         }
       },
       "cta": {
-        "headline": "Deja de exportar reportes a mano. Empieza a ver tus datos en tiempo real.",
+        "headline": "Deje de exportar reportes a mano. Empiece a ver sus datos actualizados de forma automática.",
         "description": "",
-        "cta": "Solicita tu dashboard"
+        "cta": "Solicite su dashboard"
       },
       "faq": {
         "tagline": "Preguntas frecuentes",
@@ -1314,12 +1314,12 @@
         "description": "",
         "items": {
           "needsDUC": {
-            "question": "¿Necesitamos haber hecho DUC antes de este servicio?",
-            "answer": "Sí, es un requisito — DUC (Data Analytics Use Case) define las preguntas de negocio y KPIs que el dashboard va a responder."
+            "question": "¿Necesitamos haber hecho la definición del caso de analítica antes de este servicio?",
+            "answer": "Sí, es un requisito — la definición del caso de analítica establece las preguntas de negocio y KPIs que el dashboard va a responder."
           },
           "buildsWarehouse": {
             "question": "¿Ustedes construyen también el data warehouse si no existe?",
-            "answer": "No como parte de este servicio; si tu infraestructura de datos no existe o es insuficiente, se coordina como un proyecto adicional de Data Engineering."
+            "answer": "No como parte de este servicio; si su infraestructura de datos no existe o es insuficiente, se coordina como un proyecto adicional de Data Engineering."
           },
           "licenseCost": {
             "question": "¿Qué pasa con la licencia de Power BI o Looker?",
@@ -1341,15 +1341,15 @@
       },
       "seo": {
         "title": "Dashboards y Analítica de Datos",
-        "description": "Convertimos tus métricas en dashboards interactivos y automatizados — Power BI o Looker, con la seguridad y gobernanza que tu operación necesita."
+        "description": "Convertimos sus métricas en dashboards interactivos y automatizados — Power BI o Looker, con la seguridad y gobernanza que su operación necesita."
       }
     },
     "dataEngineering": {
       "hero": {
         "tagline": "INGENIERÍA DE DATOS",
         "headlineDark": "Los datos aislados son un pasivo.",
-        "headlineBlue": "Los datos centralizados son tu mayor activo.",
-        "description": "Construimos la infraestructura que limpia, organiza y centraliza tu información — y sobre esa base, aplicamos Machine Learning para predecir en vez de solo mirar hacia atrás.",
+        "headlineBlue": "Los datos centralizados son su mayor activo.",
+        "description": "Construimos la infraestructura que limpia, organiza y centraliza su información — y sobre esa base, aplicamos Machine Learning para predecir en vez de solo mirar hacia atrás.",
         "cta": "Habla con nuestro equipo de datos",
         "imageAlt": "Ingeniería de datos"
       },
@@ -1395,7 +1395,7 @@
         "note": "Nota: estas 3 capas no se venden por separado — el alcance de cada proyecto varía, y muchas veces se necesitan las 3 en conjunto."
       },
       "deliverables": {
-        "tagline": "Qué recibes",
+        "tagline": "Qué recibe",
         "headlineDark": "Una fundación de datos",
         "headlineBlue": "que sostiene decisiones reales",
         "items": {
@@ -1443,17 +1443,17 @@
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según el alcance (arquitectura, pipelines, ML, o los 3); se define tras el levantamiento de requisitos."
+            "description": "Depende de qué incluye (arquitectura, integración de datos, Machine Learning o los tres). Se define en semanas tras el levantamiento de requisitos."
           },
           "workMode": {
             "label": "Modo de trabajo",
-            "description": "Acceso de lectura a tus fuentes de datos — no interrumpe tus sistemas transaccionales en producción mientras se construye la nueva infraestructura."
+            "description": "Acceso de lectura a sus fuentes de datos — no interrumpe sus sistemas transaccionales en producción mientras se construye la nueva infraestructura."
           }
         }
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "cto": {
             "title": "CTO con datos fragmentados entre sistemas",
@@ -1470,7 +1470,7 @@
         }
       },
       "cta": {
-        "headline": "Tu próxima decisión importante merece datos en los que puedas confiar.",
+        "headline": "Su próxima decisión importante merece datos en los que pueda confiar.",
         "description": "",
         "cta": "Habla con nuestro equipo de datos"
       },
@@ -1481,8 +1481,8 @@
         "description": "",
         "items": {
           "needsDHCorDUC": {
-            "question": "¿Necesitamos hacer un Data Health Check o DUC antes de este servicio?",
-            "answer": "No es obligatorio. Si ya sabes qué necesitas construir, podemos ir directo al levantamiento de requisitos técnicos."
+            "question": "¿Necesitamos hacer un diagnóstico de datos o una definición del caso de analítica antes de este servicio?",
+            "answer": "No es obligatorio. Si ya sabe qué necesita construir, podemos ir directo al levantamiento de requisitos técnicos."
           },
           "includesDashboards": {
             "question": "¿Esto incluye construir dashboards también?",
@@ -1494,11 +1494,11 @@
           },
           "whoPaysCloud": {
             "question": "¿Quién paga la infraestructura cloud?",
-            "answer": "El consumo de servidores, procesamiento y almacenamiento lo factura el proveedor cloud directamente a ti."
+            "answer": "El consumo de servidores, procesamiento y almacenamiento lo factura el proveedor cloud directamente a usted."
           },
           "migrateAllAtOnce": {
             "question": "¿Necesitamos migrar todos nuestros datos de una vez?",
-            "answer": "No necesariamente; se puede priorizar por caso de uso o por sistema, según lo que tenga más sentido para tu operación."
+            "answer": "No necesariamente; se puede priorizar por caso de uso o por sistema, según lo que tenga más sentido para su operación."
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
@@ -1508,25 +1508,25 @@
       },
       "seo": {
         "title": "Ingeniería de Datos",
-        "description": "Construimos la infraestructura que limpia, organiza y centraliza tu información — y sobre esa base, aplicamos Machine Learning para predecir en vez de solo mirar hacia atrás."
+        "description": "Construimos la infraestructura que limpia, organiza y centraliza su información — y sobre esa base, aplicamos Machine Learning para predecir en vez de solo mirar hacia atrás."
       }
     },
     "customAIAgents": {
       "hero": {
         "tagline": "AGENTES DE IA A LA MEDIDA",
         "headlineDark": "La IA genérica tiene límites.",
-        "headlineBlue": "La IA que conoce tu negocio, no.",
-        "description": "Diseñamos y construimos agentes que razonan, colaboran y ejecutan tareas reales — conectados a tus datos privados, sin alucinaciones.",
-        "cta": "Cuéntanos qué quieres automatizar",
+        "headlineBlue": "La IA que conoce su negocio, no.",
+        "description": "Diseñamos y construimos agentes que ejecutan tareas definidas con su equipo, con límites claros desde el inicio, conectados a sus datos privados y con respuestas basadas en su propia información.",
+        "cta": "Cuéntenos qué quiere automatizar",
         "imageAlt": "Agentes de IA a la medida"
       },
       "problem": {
         "tagline": "Por qué la IA genérica no resuelve problemas reales de negocio",
-        "headline": "ChatGPT no conoce tu empresa. Por eso no puede resolver tus problemas.",
+        "headline": "ChatGPT no conoce su empresa. Por eso no puede resolver sus problemas.",
         "items": {
           "dontKnowData": {
-            "title": "Herramientas de IA que no conocen tus datos",
-            "description": "Chatbots genéricos que no tienen acceso a tu información real, así que inventan respuestas o dan generalidades."
+            "title": "Herramientas de IA que no conocen sus datos",
+            "description": "Chatbots genéricos que no tienen acceso a su información real, así que inventan respuestas o dan generalidades."
           },
           "stopsAtResponse": {
             "title": "Automatización que se detiene en la respuesta",
@@ -1543,30 +1543,30 @@
         }
       },
       "offerings": {
-        "tagline": "Dos formas de avanzar, según dónde estés",
+        "tagline": "Dos formas de avanzar, según dónde esté",
         "headlineDark": "Diagnóstico o construcción —",
-        "headlineBlue": "tú decides por dónde empezar",
+        "headlineBlue": "usted decide por dónde empezar",
         "items": {
           "rutaIA": {
             "title": "Ruta IA",
-            "whatIsIt": "¿No sabes si tu empresa está lista para adoptar IA? Evaluamos tu madurez en 6 dimensiones y te entregamos un roadmap ejecutable.",
+            "whatIsIt": "¿No sabe si su empresa está lista para adoptar IA? Evaluamos su madurez en 6 dimensiones y le entregamos un roadmap ejecutable.",
             "link": "Ver Ruta IA →"
           },
           "agentDevelopment": {
             "title": "Agent Development",
-            "whatIsIt": "¿Ya sabes qué proceso quieres automatizar? Construimos el agente de IA a la medida, conectado a tus sistemas reales.",
+            "whatIsIt": "¿Ya sabe qué proceso quiere automatizar? Construimos el agente de IA a la medida, conectado a sus sistemas reales.",
             "link": "Ver página Agent Development →"
           }
         },
         "note": "Nota: son independientes entre sí — no es obligatorio pasar por Ruta IA antes de construir un agente."
       },
       "deliverables": {
-        "tagline": "Qué recibes",
+        "tagline": "Qué recibe",
         "headlineDark": "Un agente que ejecuta,",
         "headlineBlue": "no solo responde",
         "items": {
           "roadmapOrAgent": "Roadmap de adopción de IA (si entras por Ruta IA) o agente funcionando en producción (si entras por Agent Development).",
-          "realConnection": "Conexión real a tus datos y sistemas — sin alucinaciones, con las herramientas necesarias para actuar.",
+          "realConnection": "Conexión real a sus datos y sistemas, con las herramientas necesarias para actuar.",
           "referenceCases": "Casos de referencia reales — como Dupla, el agente que construimos para MadGroup."
         }
       },
@@ -1579,17 +1579,17 @@
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según si es diagnóstico (Ruta IA: 2-3 semanas) o construcción (Agent Development: según complejidad)."
+            "description": "Varía según si es diagnóstico (Ruta IA: 4 semanas + 30 días de seguimiento) o construcción (Agent Development: según complejidad)."
           },
           "workMode": {
             "label": "Modo de trabajo",
-            "description": "Se requiere acceso a tu base de conocimiento y sistemas relevantes — con guardrails claros definidos desde el inicio."
+            "description": "Se requiere acceso a su base de conocimiento y sistemas relevantes — con guardrails claros definidos desde el inicio."
           }
         }
       },
       "personas": {
         "tagline": "Para quién es",
-        "headline": "¿Te reconoces aquí?",
+        "headline": "¿Se reconoce aquí?",
         "items": {
           "cto": {
             "title": "CTO que ya evaluó IA genérica y no fue suficiente",
@@ -1606,9 +1606,9 @@
         }
       },
       "cta": {
-        "headline": "La IA que transforma tu negocio es la que conoce tu negocio.",
+        "headline": "La IA que transforma su negocio es la que conoce su negocio.",
         "description": "",
-        "cta": "Cuéntanos qué quieres automatizar"
+        "cta": "Cuéntenos qué quiere automatizar"
       },
       "faq": {
         "tagline": "Preguntas frecuentes",
@@ -1618,7 +1618,7 @@
         "items": {
           "needsRutaIA": {
             "question": "¿Necesitamos hacer Ruta IA antes de construir un agente?",
-            "answer": "No es obligatorio; si ya sabes exactamente qué proceso automatizar, podemos ir directo a Agent Development."
+            "answer": "No es obligatorio; si ya sabe exactamente qué proceso automatizar, podemos ir directo a Agent Development."
           },
           "hallucinationRisk": {
             "question": "¿Qué tan real es el riesgo de que la IA invente información?",
@@ -1638,13 +1638,13 @@
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
-            "answer": "Varía según el formato (Ruta IA tiene precios desde USD 4,000; Agent Development se cotiza según el alcance técnico)."
+            "answer": "Ruta IA tiene precio fijo: USD 12,000 + IVA. El desarrollo de agentes se cotiza a medida."
           }
         }
       },
       "seo": {
         "title": "Agentes de IA a la Medida",
-        "description": "Diseñamos y construimos agentes que razonan, colaboran y ejecutan tareas reales — conectados a tus datos privados, sin alucinaciones."
+        "description": "Diseñamos y construimos agentes que ejecutan tareas definidas con su equipo, con límites claros desde el inicio, conectados a sus datos privados y con respuestas basadas en su propia información."
       }
     },
     "seo": {
@@ -2462,13 +2462,13 @@
     "digitalProduct": {
       "meta": {
         "title": "Digital Product · Aplicaciones a la medida | Cabana Data",
-        "description": "Desarrollo de aplicaciones a la medida en Costa Rica: plataformas web y móviles construidas desde su proceso real, listas para producción.",
+        "description": "Modernización de sistemas y aplicaciones a la medida en Costa Rica: especificadas desde su proceso real, en producción y documentadas para su equipo.",
         "serviceType": "Desarrollo de aplicaciones a la medida"
       },
       "hero": {
         "name": "Digital Product",
-        "term": "Desarrollo de aplicaciones a la medida",
-        "subtitle": "Cuando la operación vive en correos, hojas de cálculo y personas clave, construimos la plataforma que su equipo necesita, a partir de cómo trabaja realmente.",
+        "term": "Modernización de sistemas y aplicaciones a la medida",
+        "subtitle": "Cuando su sistema actual ya no sigue el ritmo de la operación, o la operación vive en correos, hojas de cálculo y personas clave, lo reemplazamos con una aplicación especificada desde cómo trabaja su equipo, que su gente puede mantener.",
         "imageAlt": "Ilustración de una persona que pasa de un escritorio lleno de correos y hojas de cálculo a una aplicación ordenada.",
         "ctaSecondary": "Ver el caso"
       },
@@ -2484,8 +2484,8 @@
             "body": "Plantillas que no reflejan la lógica real de su negocio y se adaptan a medias."
           },
           {
-            "title": "Actualizar el sistema es un riesgo",
-            "body": "Despliegues manuales, sin entornos de prueba ni monitoreo."
+            "title": "Un sistema heredado que nadie se atreve a tocar",
+            "body": "Cada cambio es un riesgo: despliegues manuales, sin entornos de prueba ni monitoreo, y una lógica de negocio que nadie documentó."
           }
         ]
       },
@@ -2493,8 +2493,8 @@
         "title": "Qué hacemos",
         "items": [
           {
-            "title": "Descubrimiento y diseño",
-            "body": "Estudio de factibilidad, talleres de Design Thinking y diseño UX/UI, validados con su proceso real."
+            "title": "Especificación antes de construir",
+            "body": "Documentamos la lógica de negocio y los flujos reales, con estudio de factibilidad y diseño UX/UI validados con su equipo antes de escribir código."
           },
           {
             "title": "Construcción web y móvil",
@@ -2506,7 +2506,7 @@
           }
         ]
       },
-      "proof": "Entregamos por partes y validamos con su equipo en cada entrega, no al final de meses de trabajo.",
+      "proof": "Entregamos por partes y validamos con su equipo en cada entrega. Al final, lo construido queda en producción y documentado para que su equipo lo opere.",
       "case": {
         "industry": "Caso · Bebidas y distribución",
         "body": "Una plataforma a la medida para seguir la cuota de ventas, con inicio de sesión único y datos sincronizados cada día.",
@@ -2535,7 +2535,7 @@
       "hero": {
         "name": "Custom AI Agents",
         "term": "Agentes de IA a medida para empresas",
-        "subtitle": "Agentes que conocen sus datos y sus procesos. Reúnen la información, recomiendan y redactan; su equipo decide qué se ejecuta.",
+        "subtitle": "Agentes de IA personalizados que conocen sus datos y sus procesos. Reúnen la información, recomiendan y redactan; su equipo decide qué se ejecuta.",
         "imageAlt": "Ilustración de un agente que reúne documentos y redacta un borrador que una persona aprueba antes de enviarlo.",
         "ctaSecondary": "Ver el caso"
       },
@@ -2616,7 +2616,7 @@
   },
   "inicio": {
     "meta": {
-      "title": "Consultoría de IA, software y datos en Costa Rica | Cabana Data",
+      "title": "Consultoría de IA, software y datos en Costa Rica",
       "description": "Software a la medida, arquitectura de datos y consultoría de IA en Costa Rica. Especificamos, construimos y entregamos en producción.",
       "ogTitle": "Cabana Data: primero una base sólida, después IA que funciona",
       "ogDescription": "Aplicaciones a la medida y datos confiables para decidir. Sobre esa base, IA que llega a producción."
@@ -2676,7 +2676,7 @@
           "body": "Y en la reunión se discute cuál dato es el correcto en lugar de decidir."
         },
         {
-          "title": "La junta pide avanzar con IA",
+          "title": "La junta pide avanzar y nadie tiene un plan",
           "body": "Y nadie sabe si los datos dan para alguna idea."
         }
       ]
@@ -2741,7 +2741,7 @@
       "body": "Cada proyecto parte de entrevistas a su gente y de la revisión directa de sus sistemas. Documentamos la lógica de negocio, construimos con su equipo y entregamos en producción. Si algo no está listo, se lo decimos, con lo que hay que resolver."
     },
     "principle": {
-      "title": "La IA propone, su equipo decide",
+      "title": "Una persona de su equipo aprueba cada acción",
       "body": "En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción sin abrir un riesgo que después tenga que explicar en junta.",
       "link": "Ver cómo trabajamos"
     },
@@ -2752,7 +2752,7 @@
       "items": [
         {
           "industry": "Marketing y publicidad",
-          "title": "Agentes de IA que reúnen el historial de campañas",
+          "title": "Agentes a medida que reúnen el historial de campañas",
           "metric": "De 20 a 2 minutos",
           "metricLabel": "para reunir el historial de campañas antes de diseñar una nueva"
         },
