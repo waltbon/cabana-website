@@ -141,11 +141,11 @@
         "title": "Data Consulting",
         "items": {
           "dhc": {
-            "subtitle": "DHC (Data Health Check)",
+            "subtitle": "Data diagnostic",
             "description": "We assess 6 dimensions of your data operation and calibrate the results as a team, to remove individual bias — 4 steps: assessment, scoring, calibration, delivery."
           },
           "duc": {
-            "subtitle": "DUC (Data Analytics Use Case)",
+            "subtitle": "Analytics use case definition",
             "description": "A 4-phase system (Workshop → Definition → Roadmap → Architecture) that turns business questions into a prioritized technical path."
           }
         }
@@ -232,7 +232,7 @@
         },
         "ai": {
           "title": "AI and Machine Learning Solutions",
-          "description": "We activate your data with AI, automating processes and generating the predictive insights that let you make truly forward-looking decisions."
+          "description": "On a solid data foundation, we apply AI to automate processes and anticipate what comes next, so leadership decides with its own data."
         }
       },
       "cta": "Let's talk!",
@@ -241,7 +241,7 @@
     "why": {
       "headlineBlue": "Your Data Is Already Here.",
       "headlineDark": "You Just Aren't Using It.",
-      "description1": "Your most valuable insights are probably trapped right now inside the systems you use every day. Your ERP holds decades of operational history, your CRM stores every customer interaction, and your team keeps spending time on manual reports.",
+      "description1": "What your company needs to decide is probably already inside the systems you use every day. Your ERP holds decades of operational history, your CRM stores every customer interaction, and your team keeps spending time on manual reports.",
       "description2": "This data is the key to unlocking enormous value, but for many companies it remains a dormant asset — fragmented, inaccessible, and unused for critical decision-making. You have the raw materials, but not the factory to process them.",
       "cta": "Let's talk!",
       "imageAlt": "Data systems visualization"
@@ -409,14 +409,14 @@
         "headlineBlue": "it depends on what you already know",
         "items": {
           "dhc": {
-            "title": "Data Health Check (DHC)",
+            "title": "Data diagnostic",
             "whatIsIt": "Not sure if your data infrastructure can support what you want to build? We assess 6 dimensions of your operation and tell you, with evidence, where you stand.",
-            "link": "View DHC page →"
+            "link": "View the data diagnostic →"
           },
           "duc": {
-            "title": "Data Analytics Use Case (DUC)",
+            "title": "Analytics use case definition",
             "whatIsIt": "Already know you have data but not which questions to answer with it? We turn your real business questions into a prioritized, executable path.",
-            "link": "View DUC page →"
+            "link": "View the analytics use case definition →"
           }
         },
         "note": "Note: they're not sequential or mutually required — each company enters through whichever one fits."
@@ -441,7 +441,7 @@
         "items": {
           "duration": {
             "label": "Duration",
-            "description": "Varies by path (DHC and DUC each have their own 2- to 4+-week processes)."
+            "description": "Varies by path (the data diagnostic and the analytics use case definition each have their own 2- to 4+-week processes)."
           },
           "workMode": {
             "label": "Work mode",
@@ -484,11 +484,11 @@
           },
           "genericConsulting": {
             "question": "Is this the same as generic \"digital transformation\" consulting?",
-            "answer": "No. We don't deliver a PDF of abstract recommendations. DHC delivers an objective score across 6 dimensions with evidence, not opinion. DUC delivers a DUC-CARD for each use case, with a prioritized roadmap and technical path. Both are anchored in DAMA-DMBOK, the international data management standard — not an improvised framework."
+            "answer": "No. We don't deliver a PDF of abstract recommendations. The data diagnostic delivers an objective score across 6 dimensions with evidence, not opinion. The analytics use case definition delivers a use case sheet for each use case, with a prioritized roadmap and technical path. Both are anchored in DAMA-DMBOK, the international data management standard — not an improvised framework."
           },
           "bothServices": {
-            "question": "Do we need to do both services (DHC and DUC), or just one?",
-            "answer": "It depends on where you stand. If you already know your infrastructure is solid and just need to define what to build, you can go straight to DUC. If you're not sure about your data foundation, we start with DHC. We define it together in the first conversation — not before."
+            "question": "Do we need to do both services (data diagnostic and analytics use case definition), or just one?",
+            "answer": "It depends on where you stand. If you already know your infrastructure is solid and just need to define what to build, you can go straight to the analytics use case definition. If you're not sure about your data foundation, we start with the data diagnostic. We define it together in the first conversation — not before."
           },
           "howInvasive": {
             "question": "How invasive is the process for our team?",
@@ -500,7 +500,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on your organization's specific scope — we don't have a single list price. What we can give you on the first call is clarity on which path (DHC, DUC, or both) makes sense for your case."
+            "answer": "It's quoted to fit your organization. On the first call we give you clarity on which path (data diagnostic, analytics use case definition, or both) makes sense for your case."
           }
         }
       },
@@ -695,19 +695,19 @@
         "headlineBlue": "to the technical path",
         "steps": {
           "workshop": {
-            "title": "DUC-01 — Workshop",
+            "title": "Workshop",
             "description": "A structured workshop to surface the real business questions your team needs answered, not the ones IT assumes."
           },
           "definition": {
-            "title": "DUC-02 — Definition",
+            "title": "Definition",
             "description": "We document each use case in a formal card, with business context, data requirements, and expected outcome — validated and approved by your team."
           },
           "roadmap": {
-            "title": "DUC-03 — Roadmap",
+            "title": "Roadmap",
             "description": "We prioritize objectively by impact and feasibility, guaranteeing at least one executable quick win in the first few weeks."
           },
           "architecture": {
-            "title": "DUC-04 — Architecture",
+            "title": "Architecture",
             "description": "We define the exact technical path: what stack, what effort, and what gaps need to close to build it."
           }
         }
@@ -717,7 +717,7 @@
         "headlineDark": "An executable path,",
         "headlineBlue": "not a list of ideas",
         "items": {
-          "card": "A DUC-CARD for each use case — a formal document with the business question, the data required, and the expected outcome.",
+          "card": "A use case sheet for each use case — a formal document with the business question, the data required, and the expected outcome.",
           "roadmap": "A prioritized roadmap — use cases classified as quick win, medium term, or strategic.",
           "architecture": "An architecture proposal — recommended stack, gap analysis, and estimated effort, ready to move into Data Engineering."
         },
@@ -771,7 +771,7 @@
         "items": {
           "needsDHC": {
             "question": "Do I need to have done a Data Health Check first?",
-            "answer": "It's not required. If you already know your infrastructure is solid, you can start here directly; if you're not sure, DUC-01 includes a quick validation."
+            "answer": "It's not required. If you already know your infrastructure is solid, you can start here directly; if you're not sure, the opening workshop includes a quick validation."
           },
           "replacesConsultant": {
             "question": "Does this replace a data strategy consultant?",
@@ -854,7 +854,7 @@
             "link": "View Dashboards & Analytics Interfaces page →"
           }
         },
-        "note": "Note: Design & Discovery and Application Development usually go together as a flow; Dashboards requires having already defined your use cases with DUC (Data Consulting)."
+        "note": "Note: Design & Discovery and Application Development usually go together as a flow; Dashboards requires having already defined your use cases through the analytics use case definition (Data Consulting)."
       },
       "deliverables": {
         "tagline": "What you receive",
@@ -1314,8 +1314,8 @@
         "description": "",
         "items": {
           "needsDUC": {
-            "question": "Do we need to have done DUC before this service?",
-            "answer": "Yes, it's a requirement — DUC (Data Analytics Use Case) defines the business questions and KPIs the dashboard will answer."
+            "question": "Do we need to have done the analytics use case definition before this service?",
+            "answer": "Yes, it's a requirement — the analytics use case definition sets the business questions and KPIs the dashboard will answer."
           },
           "buildsWarehouse": {
             "question": "Do you also build the data warehouse if it doesn't exist?",
@@ -1481,7 +1481,7 @@
         "description": "",
         "items": {
           "needsDHCorDUC": {
-            "question": "Do we need a Data Health Check or DUC before this service?",
+            "question": "Do we need a data diagnostic or an analytics use case definition before this service?",
             "answer": "It's not required. If you already know what you need to build, we can go straight to technical requirements gathering."
           },
           "includesDashboards": {
