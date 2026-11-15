@@ -176,7 +176,7 @@
         "items": {
           "rutaIa": {
             "subtitle": "Ruta IA",
-            "description": "AI maturity assessment across 6 dimensions, in 2 to 3 weeks, with an executable roadmap and board presentation."
+            "description": "Tells you which AI opportunities to start with and whether your data supports them, in 4 weeks plus 30 days of follow-up."
           },
           "agentDevelopment": {
             "subtitle": "Agent Development",
@@ -256,7 +256,7 @@
         "tagline": "AI READINESS ASSESSMENT",
         "headline": "Is your company ready for AI?",
         "headlineHighlight": "Find out before you invest.",
-        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and gives you a clear action plan — in 2 to 3 weeks.",
+        "description": "Ruta IA is our technical assessment that identifies your top 5 AI opportunities, whether your data supports them and what to fix to enable the rest, in 4 weeks plus 30 days of follow-up.",
         "cta": "Get your assessment"
       },
       "problem": {
@@ -323,7 +323,7 @@
           },
           "roadmap": {
             "title": "Prioritized roadmap",
-            "description": "An action plan with quick wins and strategic steps, including the first recommended use case to implement."
+            "description": "A remediation roadmap: what to fix, in what order, by effort and impact, and the opportunity ready to start first."
           }
         }
       },
@@ -335,7 +335,7 @@
       },
       "timeline": {
         "headline": "Clear, fast, and no surprises",
-        "duration": "2 to 3 weeks",
+        "duration": "4 weeks + 30 days of follow-up",
         "durationLabel": "Full assessment",
         "price": "USD 12,000 + VAT",
         "priceLabel": "Introductory price",
@@ -369,7 +369,7 @@
       },
       "seo": {
         "title": "AI Readiness Assessment",
-        "description": "Ruta IA is our technical assessment that evaluates your data infrastructure, identifies the real blockers to implementing AI, and gives you a clear action plan — in 2 to 3 weeks."
+        "description": "Ruta IA is our technical assessment that identifies your top 5 AI opportunities, whether your data supports them and what to fix to enable the rest, in 4 weeks plus 30 days of follow-up."
       }
     },
     "dataConsulting": {
@@ -649,7 +649,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on your specific scope; we define it together after understanding your context."
+            "answer": "It's quoted case by case; we define it together after understanding your context."
           }
         }
       },
@@ -663,7 +663,7 @@
         "tagline": "DATA ANALYTICS USE CASES",
         "headlineDark": "You have the data.",
         "headlineBlue": "You're missing what to ask it.",
-        "description": "We turn your real business questions into a prioritized, executable path — with quick wins visible in weeks, not months.",
+        "description": "We turn your real business questions into a prioritized path your team can execute.",
         "cta": "Define your use cases",
         "imageAlt": "Data analytics use cases"
       },
@@ -791,13 +791,13 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on how many use cases are prioritized and the complexity of your organization; we define it in the first conversation."
+            "answer": "It's quoted case by case, depending on how many use cases are prioritized; we define it in the first conversation."
           }
         }
       },
       "seo": {
         "title": "Data Analytics Use Cases",
-        "description": "We turn your real business questions into a prioritized, executable path — with quick wins visible in weeks, not months."
+        "description": "We turn your real business questions into a prioritized path your team can execute."
       }
     },
     "digitalProduct": {
@@ -934,7 +934,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the project's specific scope; we give you clarity on the range in the first call."
+            "answer": "It's quoted case by case; we give you a clear number in the first call."
           }
         }
       },
@@ -1071,7 +1071,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the product's complexity and scope; we define it in the first conversation."
+            "answer": "It's quoted case by case; we define it in the first conversation."
           }
         }
       },
@@ -1203,7 +1203,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the specific technical scope; we define it after reviewing your business rules and requirements."
+            "answer": "It's quoted case by case; we define it after reviewing your business rules and requirements."
           }
         }
       },
@@ -1303,7 +1303,7 @@
         }
       },
       "cta": {
-        "headline": "Stop exporting reports by hand. Start seeing your data in real time.",
+        "headline": "Stop exporting reports by hand. Start seeing your data updated automatically.",
         "description": "",
         "cta": "Request your dashboard"
       },
@@ -1335,7 +1335,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on the number of data sources and the complexity of the model; we define it in the first conversation."
+            "answer": "It's quoted case by case, depending on the number of data sources; we define it in the first conversation."
           }
         }
       },
@@ -1502,7 +1502,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It's quoted based on data volume, number of sources to integrate, and whether it includes a Machine Learning component; we define it in the first conversation."
+            "answer": "It's quoted case by case, depending on the sources to integrate and whether it includes Machine Learning; we define it in the first conversation."
           }
         }
       },
@@ -1516,7 +1516,7 @@
         "tagline": "CUSTOM AI AGENTS",
         "headlineDark": "Generic AI has limits.",
         "headlineBlue": "AI that knows your business doesn't.",
-        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations.",
+        "description": "We design and build agents that carry out tasks defined with your team, with clear limits from the start, connected to your private data and answering from your own information.",
         "cta": "Tell us what you want to automate",
         "imageAlt": "Custom AI agents"
       },
@@ -1566,7 +1566,7 @@
         "headlineBlue": "not just responds",
         "items": {
           "roadmapOrAgent": "An AI adoption roadmap (if you go through Ruta IA) or a working agent in production (if you go through Agent Development).",
-          "realConnection": "Real connection to your data and systems — no hallucinations, with the tools needed to take action.",
+          "realConnection": "Real connection to your data and systems, with the tools needed to take action.",
           "referenceCases": "Real reference cases — like Dupla, the agent we built for MadGroup."
         }
       },
@@ -1579,7 +1579,7 @@
         "items": {
           "duration": {
             "label": "Duration",
-            "description": "Varies depending on whether it's assessment (Ruta IA: 2-3 weeks) or build (Agent Development: depends on complexity)."
+            "description": "Varies depending on whether it's assessment (Ruta IA: 4 weeks + 30 days of follow-up) or build (Agent Development: depends on complexity)."
           },
           "workMode": {
             "label": "Work mode",
@@ -1644,7 +1644,7 @@
       },
       "seo": {
         "title": "Custom AI Agents",
-        "description": "We design and build agents that reason, collaborate, and execute real tasks — connected to your private data, without hallucinations."
+        "description": "We design and build agents that carry out tasks defined with your team, with clear limits from the start, connected to your private data and answering from your own information."
       }
     },
     "seo": {

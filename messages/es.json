@@ -176,7 +176,7 @@
         "items": {
           "rutaIa": {
             "subtitle": "Ruta IA",
-            "description": "Diagnóstico de madurez de IA en 6 dimensiones, en 2 a 3 semanas, con roadmap ejecutable y presentación a junta directiva."
+            "description": "Le dice por cuáles oportunidades de IA empezar y si sus datos las soportan, en 4 semanas más 30 días de seguimiento."
           },
           "agentDevelopment": {
             "subtitle": "Agent Development",
@@ -197,7 +197,7 @@
         },
         "projectDuration": {
           "question": "¿Cuánto tiempo toma un proyecto típico de ingeniería de datos?",
-          "answer": "Varía según el alcance — si incluye solo arquitectura y pipelines, o también componente de Machine Learning. Lo definimos con precisión después de entender sus fuentes de datos y objetivos, generalmente en la primera conversación."
+          "answer": "Depende de qué incluye: solo arquitectura e integración de datos, o también un componente de Machine Learning. Le damos el plazo en semanas en la primera conversación, después de entender sus fuentes de datos y objetivos."
         },
         "cloudPlatforms": {
           "question": "¿Trabajan con plataformas en la nube como AWS, GCP y Azure?",
@@ -256,7 +256,7 @@
         "tagline": "DIAGNÓSTICO DE PREPARACIÓN PARA IA",
         "headline": "¿Su empresa está lista para la IA?",
         "headlineHighlight": "Descúbrelo antes de invertir.",
-        "description": "Ruta IA es nuestro diagnóstico técnico que evalúa su infraestructura de datos, identifica los bloqueos reales para implementar IA, y le entrega un plan claro de acción — en 2 a 3 semanas.",
+        "description": "Ruta IA es nuestro diagnóstico técnico que identifica sus 5 mejores oportunidades de IA, si sus datos las soportan y qué resolver para habilitar las demás, en 4 semanas más 30 días de seguimiento.",
         "cta": "Realice su diagnóstico"
       },
       "problem": {
@@ -323,7 +323,7 @@
           },
           "roadmap": {
             "title": "Hoja de ruta priorizada",
-            "description": "Un plan de acción con quick wins y pasos estratégicos, incluyendo el primer caso de uso recomendado para implementar."
+            "description": "Un roadmap de remediación: qué arreglar, en qué orden, según esfuerzo e impacto, y la oportunidad lista para arrancar primero."
           }
         }
       },
@@ -335,7 +335,7 @@
       },
       "timeline": {
         "headline": "Claro, rápido y sin sorpresas",
-        "duration": "2 a 3 semanas",
+        "duration": "4 semanas + 30 días de seguimiento",
         "durationLabel": "Diagnóstico completo",
         "price": "USD 12,000 + IVA",
         "priceLabel": "Precio introductorio",
@@ -369,7 +369,7 @@
       },
       "seo": {
         "title": "Diagnóstico de Preparación para IA",
-        "description": "Ruta IA es nuestro diagnóstico técnico que evalúa su infraestructura de datos, identifica los bloqueos reales para implementar IA, y le entrega un plan claro de acción — en 2 a 3 semanas."
+        "description": "Ruta IA es nuestro diagnóstico técnico que identifica sus 5 mejores oportunidades de IA, si sus datos las soportan y qué resolver para habilitar las demás, en 4 semanas más 30 días de seguimiento."
       }
     },
     "dataConsulting": {
@@ -663,7 +663,7 @@
         "tagline": "CASOS DE USO DE ANALÍTICA DE DATOS",
         "headlineDark": "Usted tiene los datos.",
         "headlineBlue": "Falta saber qué preguntarles.",
-        "description": "Convertimos sus preguntas de negocio reales en una ruta priorizada y ejecutable — con quick wins visibles en semanas, no meses.",
+        "description": "Convertimos sus preguntas de negocio reales en una ruta priorizada y ejecutable para su equipo.",
         "cta": "Defina sus casos de uso",
         "imageAlt": "Casos de uso de analítica de datos"
       },
@@ -797,7 +797,7 @@
       },
       "seo": {
         "title": "Casos de Uso de Analítica de Datos",
-        "description": "Convertimos sus preguntas de negocio reales en una ruta priorizada y ejecutable — con quick wins visibles en semanas, no meses."
+        "description": "Convertimos sus preguntas de negocio reales en una ruta priorizada y ejecutable para su equipo."
       }
     },
     "digitalProduct": {
@@ -875,7 +875,7 @@
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según si es diseño, desarrollo, o ambos — se estima en la primera conversación según el alcance real."
+            "description": "Depende de si es diseño, desarrollo o ambos. Le damos el plazo en semanas en la primera conversación."
           },
           "workMode": {
             "label": "Modo de trabajo",
@@ -1144,7 +1144,7 @@
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según el alcance; se define tras recibir los prototipos y reglas de negocio."
+            "description": "Se define en semanas al recibir los prototipos y las reglas de negocio."
           },
           "workMode": {
             "label": "Modo de trabajo",
@@ -1303,7 +1303,7 @@
         }
       },
       "cta": {
-        "headline": "Deje de exportar reportes a mano. Empiece a ver sus datos en tiempo real.",
+        "headline": "Deje de exportar reportes a mano. Empiece a ver sus datos actualizados de forma automática.",
         "description": "",
         "cta": "Solicite su dashboard"
       },
@@ -1443,7 +1443,7 @@
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según el alcance (arquitectura, pipelines, ML, o los 3); se define tras el levantamiento de requisitos."
+            "description": "Depende de qué incluye (arquitectura, integración de datos, Machine Learning o los tres). Se define en semanas tras el levantamiento de requisitos."
           },
           "workMode": {
             "label": "Modo de trabajo",
@@ -1516,7 +1516,7 @@
         "tagline": "AGENTES DE IA A LA MEDIDA",
         "headlineDark": "La IA genérica tiene límites.",
         "headlineBlue": "La IA que conoce su negocio, no.",
-        "description": "Diseñamos y construimos agentes que razonan, colaboran y ejecutan tareas reales — conectados a sus datos privados, sin alucinaciones.",
+        "description": "Diseñamos y construimos agentes que ejecutan tareas definidas con su equipo, con límites claros desde el inicio, conectados a sus datos privados y con respuestas basadas en su propia información.",
         "cta": "Cuéntenos qué quiere automatizar",
         "imageAlt": "Agentes de IA a la medida"
       },
@@ -1566,7 +1566,7 @@
         "headlineBlue": "no solo responde",
         "items": {
           "roadmapOrAgent": "Roadmap de adopción de IA (si entras por Ruta IA) o agente funcionando en producción (si entras por Agent Development).",
-          "realConnection": "Conexión real a sus datos y sistemas — sin alucinaciones, con las herramientas necesarias para actuar.",
+          "realConnection": "Conexión real a sus datos y sistemas, con las herramientas necesarias para actuar.",
           "referenceCases": "Casos de referencia reales — como Dupla, el agente que construimos para MadGroup."
         }
       },
@@ -1579,7 +1579,7 @@
         "items": {
           "duration": {
             "label": "Duración",
-            "description": "Varía según si es diagnóstico (Ruta IA: 2-3 semanas) o construcción (Agent Development: según complejidad)."
+            "description": "Varía según si es diagnóstico (Ruta IA: 4 semanas + 30 días de seguimiento) o construcción (Agent Development: según complejidad)."
           },
           "workMode": {
             "label": "Modo de trabajo",
@@ -1644,7 +1644,7 @@
       },
       "seo": {
         "title": "Agentes de IA a la Medida",
-        "description": "Diseñamos y construimos agentes que razonan, colaboran y ejecutan tareas reales — conectados a sus datos privados, sin alucinaciones."
+        "description": "Diseñamos y construimos agentes que ejecutan tareas definidas con su equipo, con límites claros desde el inicio, conectados a sus datos privados y con respuestas basadas en su propia información."
       }
     },
     "seo": {
