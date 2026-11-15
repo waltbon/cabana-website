@@ -10,11 +10,11 @@ Fecha: 25 oct 2026 · Fases 1 y 2 · Solo investigación (no es copy final)
 
 | Página (slug) | Término principal | Secundarios | Intención | Tipo de página que muestra el SERP | Recomendación |
 |---|---|---|---|---|---|
-| **Inicio** `/` | consultoría de inteligencia artificial Costa Rica | consultoría de IA para empresas; ingeniería de datos y consultoría de IA; consultoría de IA Latinoamérica | Comercial / navegacional de categoría | Mixto: noticias de ecosistema, directorios (Clutch, Consultancy.org, ensun), páginas de consultores individuales. Ninguna consultora local domina | Mantener en Inicio el término de categoría + país (el title actual ya lo usa). Es el único término comercial con geografía donde un sitio local puede competir. Variantes MX y CO no merecen páginas propias hoy (ver §6) |
+| **Inicio** `/` | consultoría de IA, software y datos en Costa Rica (GUIA-TONO v2, 2026-11-15) | consultoría de IA para empresas; software a la medida Costa Rica; arquitectura de datos; consultoría de IA Latinoamérica | Comercial / navegacional de categoría | Mixto: noticias de ecosistema, directorios (Clutch, Consultancy.org, ensun), páginas de consultores individuales. Ninguna consultora local domina | Mantener en Inicio el término de categoría + país (el title actual ya lo usa). Es el único término comercial con geografía donde un sitio local puede competir. Variantes MX y CO no merecen páginas propias hoy (ver §6) |
 | **Ruta IA** `/ruta-ia` | diagnóstico de IA para empresas | evaluación de preparación para IA; diagnóstico de datos para IA; hoja de ruta de IA; por dónde empezar con IA (puente desde blog) | Comercial (evaluar un servicio) | Mixto: páginas de servicio de consultoras (RSM Colombia "estrategia de datos e IA", gend.co, yourdevs, nordflux, Oracle) + artículos/glosarios ("modelo de madurez de IA") | Página de servicio con el término "diagnóstico de IA". "por dónde empezar con IA" es informativo: va al blog con enlace a Ruta IA. Evitar "madurez" como término principal: el SERP lo asocia a niveles tipo CMMI y Ruta IA no entrega un nivel de madurez |
 | **AI First Move** `/ai-first-move` | llevar IA a producción | IA en producción (con contexto de empresa); primer caso de IA en producción; caso de inversión de IA; implementación de IA en empresas | Comercial | "IA en producción" a secas devuelve **manufactura / plantas** (Rockwell, Capgemini, INESEM): fuera de perfil (OT). "Piloto a producción" devuelve artículos (mayoría en inglés) | Página de servicio con "llevar IA a producción" / "primer caso de IA en producción". El término comparativo "piloto vs producción" va al blog (contiene "piloto/PoC", prohibidos en la página) |
 | **Cómo trabajamos** `/como-trabajamos` | cómo implementar IA en una empresa (metodología) | la IA propone, una persona decide; IA con supervisión humana; método de implementación de IA | Informativa / evaluación de proveedor | Artículos y guías ("cómo implementar IA en tu empresa": itsitio, cyberclick, Vodafone) | No pelear el head term informativo con esta página. Optimizarla para marca + método ("cómo trabajamos con IA", "IA con supervisión humana") y dejar "cómo implementar IA en tu empresa" al artículo pilar del blog |
-| **Capacidades** `/capacidades` (+4) | consultoría de datos e IA | ingeniería de datos Costa Rica; consultoría de datos; desarrollo de agentes de IA a medida; desarrollo de producto digital | Comercial | Páginas de servicio y noticias de empresas (Hakkoda, Altimetrik, Databricks, Rootstack). Agentes: listados "mejores agencias" + páginas de servicio | Hub con 4 subpáginas: cada subpágina toma su término ("ingeniería de datos" + Costa Rica, "consultoría de datos", "agentes de IA a medida", "desarrollo de producto digital"). Sin precio |
+| **Capacidades** `/capacidades` (+4) | consultoría de datos y software a la medida (GUIA-TONO v2: sin "IA" en el hub) | ingeniería de datos Costa Rica; consultoría de datos; desarrollo de agentes de IA a medida; desarrollo de producto digital | Comercial | Páginas de servicio y noticias de empresas (Hakkoda, Altimetrik, Databricks, Rootstack). Agentes: listados "mejores agencias" + páginas de servicio | Hub con 4 subpáginas: cada subpágina toma su término ("ingeniería de datos" + Costa Rica, "consultoría de datos", "agentes de IA a medida", "desarrollo de producto digital"). Sin precio |
 | **Casos** `/casos` | casos de éxito de inteligencia artificial en empresas | casos de IA en Latinoamérica; resultados de proyectos de datos | Informativa / prueba | Inventarios grandes (EY "100 casos rentables", Google Cloud "90 casos") y notas de prensa | No se puede ganar el head term con pocos casos. Optimizar cada caso como página propia con long tail (industria + problema + resultado), y la página índice como respaldo |
 
 ---
@@ -79,9 +79,9 @@ Coincidencias de 2-3 dominios entre pares → "interlink" (no fusionar). Ningún
 
 ### Cluster C · Capacidades (hub: /capacidades)
 - /capacidades/data-engineering ← ingeniería de datos Costa Rica
-- /capacidades/data-consulting ← consultoría de datos
+- /capacidades/data-consulting ← consultoría de datos / arquitectura y gobierno de datos
 - /capacidades/custom-ai-agents ← agentes de IA a medida (con el límite "la IA propone, una persona decide")
-- /capacidades/digital-product ← desarrollo de producto digital / aplicaciones a la medida
+- /capacidades/digital-product ← modernización de sistemas / aplicaciones a la medida (GUIA-TONO v2: página completa con momento, método y casos)
 - Slugs de subpáginas: proponer; el brief no los fija. Los nombres de capacidad van en inglés por regla de la guía, pero el término de búsqueda es en español: ver conflicto C3.
 
 ### Cluster D · Prueba (hub: /casos)
@@ -97,7 +97,7 @@ Coincidencias de 2-3 dominios entre pares → "interlink" (no fusionar). Ningún
 | /como-trabajamos | ambos servicios | nombres de servicio |
 | /capacidades | 4 subpáginas + ambos servicios | nombre de capacidad |
 | Cada caso | servicio o capacidad que lo produjo | nombre del servicio |
-| Inicio | ambos servicios + /capacidades + /casos | las dos puertas |
+| Inicio | ambos servicios + /capacidades + 4 fichas + /casos | las tres puertas (modernizar un sistema, ordenar mis datos, empezar con IA) |
 
 ---
 

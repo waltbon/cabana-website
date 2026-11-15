@@ -44,14 +44,16 @@ Cada página responde una sola intención por idioma (GUIA-TONO, "SEO y visibili
 
 | Página | Ruta es | Término principal es | Ruta en | Término principal en-US |
 |---|---|---|---|---|
-| Inicio | `/` | consultoría de inteligencia artificial Costa Rica | `/en` | AI consulting for mid-market companies |
+| Inicio | `/` | consultoría de IA, software y datos en Costa Rica (GUIA-TONO v2); secundarios: software a la medida, arquitectura de datos | `/en` | AI, software and data consulting for mid-market companies (Q15: la guía v2 aplica en inglés) |
 | Ruta IA | `/ruta-ia` | diagnóstico de IA para empresas | `/en/ai-opportunity-assessment` (provisional) | AI opportunity assessment |
 | AI First Move | `/ai-first-move` | primer caso de IA en producción; secundario: IA con supervisión humana (D-011) | `/en/ai-first-move` | first AI use case in production; secondary: human-in-the-loop AI implementation |
-| Cómo trabajamos | `/como-trabajamos` (B-012) | cómo trabajamos, metodología de consultoría (D-011) | `/en/how-we-work` (provisional) | how we work, consulting methodology |
-| Capacidades | `/capacidades` | consultoría de datos e IA | `/en/capabilities` (provisional) | AI and data consulting services |
+| Cómo trabajamos | `/como-trabajamos` (B-012) | cómo trabajamos, metodología de consultoría (D-011; sin secundario de IA por Q14) | `/en/how-we-work` (provisional) | how we work, consulting methodology |
+| Capacidades | `/capacidades` (hub) + 4 fichas | hub: consultoría de datos y software a la medida; fichas: modernización de sistemas / aplicaciones a la medida (Digital Product), arquitectura de datos (Data Consulting), ingeniería de datos (Data Engineering), agentes de IA a medida (Custom AI Agents) | `/en/capabilities` (provisional) | AI and data consulting services |
 | Casos | `/casos` (pendiente) | casos de éxito de IA | `/en/case-studies` | AI consulting case studies |
 
-Los términos informativos ("por dónde empezar con IA", "AI readiness assessment", "casos de uso de IA", "ROI de IA", "piloto vs producción") van al **blog**, con enlace a la página de servicio. Nunca a la página de servicio.
+**Dosis de IA (GUIA-TONO v2).** "IA" va en el title solo en Inicio, Ruta IA, AI First Move, Custom AI Agents y artículos sobre IA. En Cómo trabajamos, Data Consulting, Data Engineering y Digital Product el término principal no lleva "IA" (ni en title ni en primer párrafo). Por Q14 (2026-11-15) se quita el secundario "IA con supervisión humana" de Cómo trabajamos (D-011). La regla aplica igual en inglés (Q15).
+
+Los términos informativos ("por dónde empezar con IA", "AI readiness assessment", "casos de uso de IA", "ROI de IA", "piloto vs producción") van al **blog**, con enlace a la página de servicio. Nunca a la página de servicio. El blog suma un cluster de software y datos ("cuándo modernizar un sistema", "arquitectura de datos para empresas medianas", "gobierno de datos") que enlaza a las capacidades.
 
 ## 4 · Reglas que el ciclo no puede cambiar
 

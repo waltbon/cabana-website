@@ -124,6 +124,24 @@
       "use": "evidencia de su operación"
     },
     {
+      "id": "relleno-corporativo",
+      "pattern": "transformación digital|soluciones integrales|data-driven|insights|nuevo petróleo",
+      "locales": ["es"],
+      "namespaces": ["*", "blog"],
+      "severity": "warning",
+      "reason": "Usar 'aplicación a la medida', 'modernización de sistemas', 'arquitectura de datos', 'decidir con datos propios' (GUIA-TONO v2, glosario).",
+      "use": "modernización de sistemas / arquitectura de datos"
+    },
+    {
+      "id": "ia-relleno",
+      "pattern": "potenciad[oa]s? (por|con) IA|transformación con IA|agencia de IA|AI-powered|AI agency",
+      "locales": ["es", "en"],
+      "namespaces": ["*", "blog"],
+      "severity": "error",
+      "reason": "IA nunca como adjetivo de relleno (GUIA-TONO v2, Dosis de IA).",
+      "use": "IA aplicada sobre una base sólida"
+    },
+    {
       "id": "voseo",
       "pattern": "sabés|querés|tenés|podés|estás|sos|hacé|hacés|mirá|escribí|escribinos|agendá|empezá|contá|contanos|decinos|conocé|descubrí|necesitás|buscás|evaluás|pensá|probá|vení|dejá|elegí|pedí|solicitá|completá|fijate|imaginá|contactanos|comunicate",
       "locales": ["es"],

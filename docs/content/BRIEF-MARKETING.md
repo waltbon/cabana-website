@@ -1,6 +1,6 @@
 # **Brief para Marketing · Web y plan digital de los servicios de Cabana Data**
 
-**v1.0 · 25 oct 2026 · Preparado desde el proyecto de Modelo de Oferta**
+**v1.1 · 15 nov 2026 · Preparado desde el proyecto de Modelo de Oferta**
 
 Fuentes: Constitución · Modelo de Oferta v1.8, Constitución de Servicios Comerciales v1.7, ficha de Ruta IA v2.0 y ficha de AI First Move v1.9. Si este brief y esas fichas difieren, mandan las fichas. Ante una duda de contenido, se pregunta antes de publicar.
 
@@ -38,6 +38,19 @@ Ya hay una idea elegida por quien firma ─────────────�
 Cada servicio tiene **un solo precio** y no tiene tiers (básico, estándar, premium). Es una regla de la firma: el precio se dice en la primera conversación, sin "depende". Si el cliente necesita más, es otro trabajo con su propio número, no una versión ampliada del mismo servicio.
 
 No diseñar tablas de planes, comparadores de tiers ni calculadoras de precio.
+
+---
+
+### 1.4 La marca se ordena por los fundamentos
+
+Cabana es una consultoría de IA con una base de ingeniería real. Diseña software a la medida (incluida la modernización de sistemas legacy) y arquitecturas de datos con gobierno, y sobre esa base aplica IA que llega a producción.
+
+* **Lo que lleva el peso de la marca:** el oficio. Especificación antes de construir, lógica de negocio, entrega en producción y documentación para que el equipo del cliente opere lo construido.
+* **Dónde entra la IA:** como resultado de esa base. Sigue siendo un fuerte de la firma y "consultoría de IA" se mantiene como término SEO de Inicio, pero no se repite en cada título.
+* **Ruta IA y AI First Move** conservan precio y plazo fijos y son la puerta de IA. Hablan de IA en primer plano, anclados en los datos y sistemas del cliente.
+* **Las capacidades** (Data Consulting, Data Engineering, Digital Product, Custom AI Agents) dejan de ser solo respaldo: tienen voz propia y profundidad, aunque se sigan cotizando a medida y sin precio.
+
+La regla de dosis de IA, el glosario y los pilares de voz que aplican esta decisión viven en la Guía de comunicación y tono.
 
 ---
 
@@ -179,11 +192,11 @@ Es una propuesta de contenido; la arquitectura final la decide Marketing.
 
 | Página | Función | CTA principal |
 | :---- | :---- | :---- |
-| **Inicio** | Plantear el problema ("todos quieren hacer algo con IA; pocos saben por dónde") y mostrar el recorrido de §1.2 | Dos entradas: "No sé por dónde empezar" → Ruta IA · "Ya tengo la idea" → AI First Move |
+| **Inicio** | Presentar la base (software a la medida y datos confiables) y la IA como resultado (§1.4); mostrar el recorrido de §1.2 en una sección propia | Tres entradas: "Modernizar un sistema" → Digital Product · "Ordenar mis datos" → Data Consulting / Data Engineering · "Empezar con IA" → Ruta IA o AI First Move |
 | **Ruta IA** | Página de servicio completa (§3) | Agendar conversación |
 | **AI First Move** | Página de servicio completa (§4) | Agendar conversación |
-| **Cómo trabajamos** | El recorrido, el método con evidencia de los sistemas del cliente, el principio "la IA propone, una persona decide" | Hacia los dos servicios |
-| **Capacidades / proyectos a medida** | Respaldo: Data Consulting, Data Engineering, Digital Product, Custom AI Agents. Para quien ya tiene decisión y presupuesto | Contacto para cotización |
+| **Cómo trabajamos** | El método de ingeniería (especificar, construir, dejar operando), el recorrido, el principio "la IA propone, una persona decide" | Hacia las capacidades y los dos servicios |
+| **Capacidades / proyectos a medida** | Núcleo del oficio: Data Consulting, Data Engineering, Digital Product, Custom AI Agents. Cada una con el momento del cliente, el método y casos; se cotizan a medida | Contacto para cotización |
 | **Casos y contenido** | Evidencia y educación (ver §7) | Hacia los servicios |
 
 Cada página de servicio debería tener, en este orden: el momento del cliente → la promesa → qué se lleva → cómo funciona → duración y precio → para quién no es → preguntas frecuentes → CTA.
@@ -259,3 +272,11 @@ Consecuencia para marketing: **el objetivo es pocos leads bien calificados, no v
 | La IA propone, tu equipo decide | Agente autónomo, automatización total |
 | Caso de inversión (AI First Move) | Business case o ROI (en Ruta IA) |
 | Sponsor / quien decide | — |
+
+---
+
+## **Cambios**
+
+| Versión | Fecha | Qué cambió | Por qué |
+| :---- | :---- | :---- | :---- |
+| v1.1 | 15 nov 2026 | Nueva §1.4: la marca se ordena por los fundamentos (software a la medida y arquitectura de datos) y la IA se presenta como resultado. §5: Inicio con tres entradas; Capacidades pasa de respaldo a núcleo del oficio; Cómo trabajamos incluye el método de ingeniería. Se reemplaza la decisión vigente "los servicios tienen prioridad en toda la comunicación" | La comunicación se percibía como una agencia de IA forzada y repetitiva, y escondía el fuerte de la firma: ejecución sistemática, ingeniería de software y de datos. Decisión de dirección |
