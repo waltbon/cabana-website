@@ -21603,7 +21603,7 @@
             },
             {
               "type": "frame",
-              "id": "e7pnn",
+              "id": "KKzGW",
               "name": "Hero",
               "clip": true,
               "width": 1440,
@@ -21613,7 +21613,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "nN6le",
+                  "id": "OVDUO",
                   "x": 0,
                   "y": 0,
                   "name": "Banda",
@@ -21625,7 +21625,7 @@
                   "children": [
                     {
                       "type": "path",
-                      "id": "YrMti",
+                      "id": "Rtcve",
                       "x": 0,
                       "y": 400,
                       "name": "Deco diagonal 1",
@@ -21643,7 +21643,7 @@
                     },
                     {
                       "type": "path",
-                      "id": "glsQu",
+                      "id": "aLVf5",
                       "x": 0,
                       "y": 570,
                       "name": "Deco diagonal 2",
@@ -21661,27 +21661,27 @@
                     },
                     {
                       "type": "frame",
-                      "id": "u27ZT",
-                      "x": 900,
-                      "y": 0,
+                      "id": "D9PLX",
+                      "x": 940,
+                      "y": 56,
                       "name": "Hero photo",
-                      "width": 540,
-                      "height": 530,
+                      "width": 500,
+                      "height": 500,
                       "fill": [
                         "$cabana-dark",
                         {
                           "type": "image",
                           "enabled": true,
-                          "url": "images/illustrations/home-hero-compass.webp",
+                          "url": "images/illustrations/home-hero-faro.webp",
                           "mode": "cover"
                         }
                       ]
                     },
                     {
                       "type": "path",
-                      "id": "un4Y1",
-                      "x": 900,
-                      "y": 0,
+                      "id": "pDZfN",
+                      "x": 940,
+                      "y": 56,
                       "name": "Photo edge",
                       "geometry": "M0 0l120 0-120 680z",
                       "viewBox": [
@@ -21692,11 +21692,11 @@
                       ],
                       "fill": "$cabana-dark",
                       "width": 120,
-                      "height": 530
+                      "height": 500
                     },
                     {
                       "type": "frame",
-                      "id": "flIpC",
+                      "id": "jKCR0",
                       "x": 120,
                       "y": 64,
                       "name": "Contenido",
@@ -21706,14 +21706,14 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "qgTzN",
+                          "id": "drbcE",
                           "name": "Texto",
                           "width": 760,
                           "layout": "vertical",
                           "gap": 24,
                           "children": [
                             {
-                              "id": "jmv57",
+                              "id": "ep9rj",
                               "type": "ref",
                               "ref": "hn4I4",
                               "name": "Eyebrow",
@@ -21725,14 +21725,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "oHGM4",
+                              "id": "g3cz4b",
                               "name": "H1",
                               "width": "fill_container",
                               "layout": "vertical",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "s41Tg",
+                                  "id": "jdsBF",
                                   "name": "H1 línea 1",
                                   "fill": "#ffffff",
                                   "textGrowth": "fixed-width",
@@ -21745,7 +21745,7 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "nNfuP",
+                                  "id": "nFQJh",
                                   "name": "H1 línea 2",
                                   "fill": {
                                     "type": "gradient",
@@ -21778,7 +21778,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "WarGO",
+                              "id": "pljm8",
                               "name": "Subtítulo",
                               "fill": "$cabana-light",
                               "textGrowth": "fixed-width",
@@ -21793,14 +21793,14 @@
                         },
                         {
                           "type": "frame",
-                          "id": "RMn5u",
+                          "id": "gR3xI",
                           "name": "Puertas",
-                          "width": "fill_container",
+                          "width": 780,
                           "gap": 20,
                           "children": [
                             {
                               "type": "frame",
-                              "id": "D1lICG",
+                              "id": "uhaaj",
                               "name": "Puerta: Modernizar un sistema",
                               "width": "fill_container",
                               "fill": "#ffffff0f",
@@ -21814,11 +21814,11 @@
                               },
                               "layout": "vertical",
                               "gap": 20,
-                              "padding": 28,
+                              "padding": 22,
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "BAZXF",
+                                  "id": "Lw1D5",
                                   "name": "Icono",
                                   "width": 52,
                                   "height": 52,
@@ -21829,7 +21829,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "QDJrv",
+                                      "id": "Bnwir",
                                       "name": "Icon",
                                       "width": 24,
                                       "height": 24,
@@ -21841,7 +21841,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "BIRQV",
+                                  "id": "JUQVY",
                                   "name": "Texto",
                                   "width": "fill_container",
                                   "layout": "vertical",
@@ -21849,7 +21849,7 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "Mdcxw",
+                                      "id": "EGkyx",
                                       "name": "Etiqueta",
                                       "fill": "#ffffff",
                                       "textGrowth": "fixed-width",
@@ -21857,12 +21857,12 @@
                                       "content": "Modernizar un sistema",
                                       "lineHeight": 1.2,
                                       "fontFamily": "$font-sans",
-                                      "fontSize": 22,
+                                      "fontSize": 20,
                                       "fontWeight": "700"
                                     },
                                     {
                                       "type": "text",
-                                      "id": "sCPNX",
+                                      "id": "G5bRZ6",
                                       "name": "Pista",
                                       "fill": "$cabana-light",
                                       "textGrowth": "fixed-width",
@@ -21879,7 +21879,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "ryuq5",
+                              "id": "fnzaw",
                               "name": "Puerta: Ordenar mis datos",
                               "width": "fill_container",
                               "fill": "#ffffff0f",
@@ -21893,11 +21893,11 @@
                               },
                               "layout": "vertical",
                               "gap": 20,
-                              "padding": 28,
+                              "padding": 22,
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "NpXmX",
+                                  "id": "ysmVk",
                                   "name": "Icono",
                                   "width": 52,
                                   "height": 52,
@@ -21908,7 +21908,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "swqIC",
+                                      "id": "q5uSq",
                                       "name": "Icon",
                                       "width": 24,
                                       "height": 24,
@@ -21920,7 +21920,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "ndNzz",
+                                  "id": "TXMD2",
                                   "name": "Texto",
                                   "width": "fill_container",
                                   "layout": "vertical",
@@ -21928,7 +21928,7 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "IRuH5",
+                                      "id": "OhFiZ",
                                       "name": "Etiqueta",
                                       "fill": "#ffffff",
                                       "textGrowth": "fixed-width",
@@ -21936,12 +21936,12 @@
                                       "content": "Ordenar mis datos",
                                       "lineHeight": 1.2,
                                       "fontFamily": "$font-sans",
-                                      "fontSize": 22,
+                                      "fontSize": 20,
                                       "fontWeight": "700"
                                     },
                                     {
                                       "type": "text",
-                                      "id": "cpRiP",
+                                      "id": "oM4Ni",
                                       "name": "Pista",
                                       "fill": "$cabana-light",
                                       "textGrowth": "fixed-width",
@@ -21958,7 +21958,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "r1eVV",
+                              "id": "A964S",
                               "name": "Puerta: Empezar con IA",
                               "width": "fill_container",
                               "fill": "#ffffff0f",
@@ -21972,11 +21972,11 @@
                               },
                               "layout": "vertical",
                               "gap": 20,
-                              "padding": 28,
+                              "padding": 22,
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "A1ytah",
+                                  "id": "Ik6kL",
                                   "name": "Icono",
                                   "width": 52,
                                   "height": 52,
@@ -21987,7 +21987,7 @@
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "ocWwF",
+                                      "id": "d8D0J2",
                                       "name": "Icon",
                                       "width": 24,
                                       "height": 24,
@@ -21999,7 +21999,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "Je425",
+                                  "id": "IPtmg",
                                   "name": "Texto",
                                   "width": "fill_container",
                                   "layout": "vertical",
@@ -22007,7 +22007,7 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "empyJ",
+                                      "id": "fdAKY",
                                       "name": "Etiqueta",
                                       "fill": "#ffffff",
                                       "textGrowth": "fixed-width",
@@ -22015,12 +22015,12 @@
                                       "content": "Empezar con IA",
                                       "lineHeight": 1.2,
                                       "fontFamily": "$font-sans",
-                                      "fontSize": 22,
+                                      "fontSize": 20,
                                       "fontWeight": "700"
                                     },
                                     {
                                       "type": "text",
-                                      "id": "vl3Gj",
+                                      "id": "JsQlc",
                                       "name": "Pista",
                                       "fill": "$cabana-light",
                                       "textGrowth": "fixed-width",
@@ -22043,7 +22043,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "hwUyf",
+                  "id": "F3KhE",
                   "x": 120,
                   "y": 586,
                   "name": "Stats bar",
@@ -22060,7 +22060,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "gGloU",
+                      "id": "SwKeY",
                       "name": "Stat",
                       "width": 280,
                       "layout": "vertical",
@@ -22069,7 +22069,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "IMHDL",
+                          "id": "KYBTh",
                           "name": "Valor",
                           "fill": "#ffffff",
                           "content": "50+",
@@ -22080,7 +22080,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "yFVYP",
+                          "id": "F1mlH1",
                           "name": "Etiqueta",
                           "fill": "$cabana-light",
                           "textGrowth": "fixed-width",
@@ -22096,7 +22096,7 @@
                     },
                     {
                       "type": "rectangle",
-                      "id": "JZdsC",
+                      "id": "tRCKP",
                       "name": "Separador",
                       "fill": "#ffffff40",
                       "width": 1,
@@ -22104,7 +22104,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "RJKos",
+                      "id": "K0Fsi",
                       "name": "Stat",
                       "width": 280,
                       "layout": "vertical",
@@ -22113,7 +22113,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "b8iKWe",
+                          "id": "G3tccg",
                           "name": "Valor",
                           "fill": "#ffffff",
                           "content": "20→2 min",
@@ -22124,7 +22124,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "FtXkn",
+                          "id": "JTcDd",
                           "name": "Etiqueta",
                           "fill": "$cabana-light",
                           "textGrowth": "fixed-width",
@@ -22140,7 +22140,7 @@
                     },
                     {
                       "type": "rectangle",
-                      "id": "YGB2Y",
+                      "id": "p18X3",
                       "name": "Separador",
                       "fill": "#ffffff40",
                       "width": 1,
@@ -22148,7 +22148,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "xKOlS",
+                      "id": "r0M8wF",
                       "name": "Stat",
                       "width": 280,
                       "layout": "vertical",
@@ -22157,7 +22157,7 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "V2ha2b",
+                          "id": "QG7HF",
                           "name": "Valor",
                           "fill": "#ffffff",
                           "content": "45",
@@ -22168,7 +22168,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "uJPct",
+                          "id": "H2dFR",
                           "name": "Etiqueta",
                           "fill": "$cabana-light",
                           "textGrowth": "fixed-width",
@@ -24576,7 +24576,7 @@
             },
             {
               "type": "frame",
-              "id": "Mlf0f",
+              "id": "kGeow",
               "name": "Hero",
               "clip": true,
               "width": 390,
@@ -24585,7 +24585,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "rsd4Q",
+                  "id": "x3Dy5",
                   "name": "Banda",
                   "width": "fill_container",
                   "fill": "$cabana-dark",
@@ -24599,7 +24599,7 @@
                   ],
                   "children": [
                     {
-                      "id": "AqhoO",
+                      "id": "AH9rs",
                       "type": "ref",
                       "ref": "hn4I4",
                       "name": "Eyebrow",
@@ -24611,14 +24611,14 @@
                     },
                     {
                       "type": "frame",
-                      "id": "dcDju",
+                      "id": "NZvMN",
                       "name": "H1",
                       "width": "fill_container",
                       "layout": "vertical",
                       "children": [
                         {
                           "type": "text",
-                          "id": "yOfL9",
+                          "id": "zzJSm",
                           "name": "H1 línea 1",
                           "fill": "#ffffff",
                           "textGrowth": "fixed-width",
@@ -24631,7 +24631,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "AgodU",
+                          "id": "tWuM3",
                           "name": "H1 línea 2",
                           "fill": {
                             "type": "gradient",
@@ -24664,7 +24664,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "c7w3U",
+                      "id": "jRAFM",
                       "name": "Subtítulo",
                       "fill": "$cabana-light",
                       "textGrowth": "fixed-width",
@@ -24677,7 +24677,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "fDuVx",
+                      "id": "xHbVP",
                       "name": "Puertas",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -24685,7 +24685,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "QmIHL",
+                          "id": "QJLQY",
                           "name": "Puerta: Modernizar un sistema",
                           "width": "fill_container",
                           "fill": "#ffffff0f",
@@ -24703,7 +24703,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "u11owy",
+                              "id": "fqGyB",
                               "name": "Icono",
                               "width": 44,
                               "height": 44,
@@ -24714,7 +24714,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "b8Asb",
+                                  "id": "CA5tm",
                                   "name": "Icon",
                                   "width": 20,
                                   "height": 20,
@@ -24726,7 +24726,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "HlyA2",
+                              "id": "QFewS",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -24734,7 +24734,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "sKzwy",
+                                  "id": "Q6A8F",
                                   "name": "Etiqueta",
                                   "fill": "#ffffff",
                                   "textGrowth": "fixed-width",
@@ -24747,7 +24747,7 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "gl5b9",
+                                  "id": "aIuI7",
                                   "name": "Pista",
                                   "fill": "$cabana-light",
                                   "textGrowth": "fixed-width",
@@ -24764,7 +24764,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "WiaBH",
+                          "id": "mSWkE",
                           "name": "Puerta: Ordenar mis datos",
                           "width": "fill_container",
                           "fill": "#ffffff0f",
@@ -24782,7 +24782,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "k0YMw",
+                              "id": "U2FhRb",
                               "name": "Icono",
                               "width": 44,
                               "height": 44,
@@ -24793,7 +24793,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "h3E0Z",
+                                  "id": "t5RwQO",
                                   "name": "Icon",
                                   "width": 20,
                                   "height": 20,
@@ -24805,7 +24805,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "C65yva",
+                              "id": "tfEkh",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -24813,7 +24813,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "DGq9E",
+                                  "id": "Y5Dzt7",
                                   "name": "Etiqueta",
                                   "fill": "#ffffff",
                                   "textGrowth": "fixed-width",
@@ -24826,7 +24826,7 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "vl4xW",
+                                  "id": "ikQe2",
                                   "name": "Pista",
                                   "fill": "$cabana-light",
                                   "textGrowth": "fixed-width",
@@ -24843,7 +24843,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "d5Vt7",
+                          "id": "s0IXu",
                           "name": "Puerta: Empezar con IA",
                           "width": "fill_container",
                           "fill": "#ffffff0f",
@@ -24861,7 +24861,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "jaHJW",
+                              "id": "ht2uI",
                               "name": "Icono",
                               "width": 44,
                               "height": 44,
@@ -24872,7 +24872,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "pEhvv",
+                                  "id": "W21SpB",
                                   "name": "Icon",
                                   "width": 20,
                                   "height": 20,
@@ -24884,7 +24884,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "eRKae",
+                              "id": "evv4v",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -24892,7 +24892,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "IdWzZ",
+                                  "id": "rFrWE",
                                   "name": "Etiqueta",
                                   "fill": "#ffffff",
                                   "textGrowth": "fixed-width",
@@ -24905,7 +24905,7 @@
                                 },
                                 {
                                   "type": "text",
-                                  "id": "RoyKf",
+                                  "id": "ofriY",
                                   "name": "Pista",
                                   "fill": "$cabana-light",
                                   "textGrowth": "fixed-width",
@@ -24926,7 +24926,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "k6t31G",
+                  "id": "Ujqpl",
                   "name": "Hero photo",
                   "width": 390,
                   "height": 340,
@@ -24935,14 +24935,14 @@
                     {
                       "type": "image",
                       "enabled": true,
-                      "url": "images/illustrations/home-hero-compass.webp",
+                      "url": "images/illustrations/home-hero-faro.webp",
                       "mode": "cover"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "pJdSN",
+                  "id": "Pjd2p",
                   "name": "Stats wrap",
                   "width": "fill_container",
                   "layout": "vertical",
@@ -24950,7 +24950,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "LESRU",
+                      "id": "NSjdn",
                       "name": "Stats bar",
                       "width": "fill_container",
                       "fill": "$cabana-blue",
@@ -24965,7 +24965,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "JCEMl",
+                          "id": "q0RvyD",
                           "name": "Stat",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -24974,7 +24974,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "MZt5I",
+                              "id": "uPTdu",
                               "name": "Valor",
                               "fill": "#ffffff",
                               "content": "50+",
@@ -24985,7 +24985,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "i29XF8",
+                              "id": "NyKLt",
                               "name": "Etiqueta",
                               "fill": "$cabana-light",
                               "textGrowth": "fixed-width",
@@ -25001,7 +25001,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "LanlX",
+                          "id": "dYLxC",
                           "name": "Stat",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -25010,7 +25010,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "T7y2f",
+                              "id": "CIMhj",
                               "name": "Valor",
                               "fill": "#ffffff",
                               "content": "20→2 min",
@@ -25021,7 +25021,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "W4B0s",
+                              "id": "sKzDV",
                               "name": "Etiqueta",
                               "fill": "$cabana-light",
                               "textGrowth": "fixed-width",
@@ -25037,7 +25037,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "mTk7n",
+                          "id": "IsaGZ",
                           "name": "Stat",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -25046,7 +25046,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "gQIQn",
+                              "id": "lJtJw",
                               "name": "Valor",
                               "fill": "#ffffff",
                               "content": "45",
@@ -25057,7 +25057,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "Okz22",
+                              "id": "YeTkF",
                               "name": "Etiqueta",
                               "fill": "$cabana-light",
                               "textGrowth": "fixed-width",
@@ -31457,8 +31457,8 @@
                     {
                       "type": "image",
                       "enabled": true,
-                      "url": "images/illustrations/home-hero-compass.webp",
-                      "mode": "contain"
+                      "url": "images/illustrations/home-hero-faro.webp",
+                      "mode": "cover"
                     }
                   ],
                   "cornerRadius": 12
@@ -31468,7 +31468,7 @@
                   "id": "pNICJ",
                   "name": "Name",
                   "fill": "$foreground",
-                  "content": "Home · hero (dark)",
+                  "content": "Home · hero (dark): faro sobre roca",
                   "fontFamily": "Reddit Sans",
                   "fontSize": 16,
                   "fontWeight": "600"
