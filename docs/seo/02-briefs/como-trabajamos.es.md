@@ -5,7 +5,7 @@
 ## Objetivo
 - **URL:** /como-trabajamos
 - **Término principal:** cómo trabajamos con IA (marca + método); la página no compite por el head term informativo.
-- **Secundarios:** IA con supervisión humana · metodología de implementación de IA · evidencia de sus sistemas
+- **Secundarios:** metodología de implementación de IA · evidencia de sus sistemas
 - **Intención:** evaluación de proveedor (el visitante ya está considerando a Cabana).
 - **SXO:** "cómo implementar IA en una empresa" muestra solo artículos (itsitio, cyberclick, Vodafone, gend.co). Ese término va al **blog pilar A**, que enlaza aquí. Si esta página apunta a ese término, hay mismatch de tipo de página y canibaliza al blog.
 

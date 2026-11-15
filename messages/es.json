@@ -232,7 +232,7 @@
         },
         "ai": {
           "title": "Soluciones de IA y Machine Learning",
-          "description": "Activamos tus datos con IA, automatizando procesos y generando los insights predictivos que permiten tomar decisiones verdaderamente orientadas al futuro."
+          "description": "Sobre una base de datos sólida, aplicamos IA para automatizar procesos y anticipar lo que viene, para que la dirección decida con datos propios."
         }
       },
       "cta": "¡Hablemos!",
@@ -241,7 +241,7 @@
     "why": {
       "headlineBlue": "Tus Datos Ya Están Aquí.",
       "headlineDark": "Solo Que No Los Estás Usando.",
-      "description1": "Tus insights más valiosos probablemente están atrapados ahora mismo dentro de los sistemas que usas cada día. Tu ERP contiene décadas de historial operativo, tu CRM almacena cada interacción con clientes, y tu equipo sigue invirtiendo tiempo en reportes manuales.",
+      "description1": "Lo que su empresa necesita para decidir probablemente ya está dentro de los sistemas que usa cada día. Su ERP guarda años de historial operativo, su CRM registra cada interacción con clientes, y su equipo sigue invirtiendo tiempo en reportes manuales.",
       "description2": "Estos datos son la clave para desbloquear un valor inmenso, pero para muchas empresas permanecen como un activo dormido—fragmentado, inaccesible y sin usar para la toma de decisiones críticas. Tienes las materias primas, pero no la fábrica para procesarlas.",
       "cta": "¡Hablemos!",
       "imageAlt": "Visualización de sistemas de datos"
@@ -483,7 +483,7 @@
             "answer": "Podrían — y a veces es lo correcto. Pero si nunca han diagnosticado su infraestructura ni priorizado casos de uso, construir sin esa claridad casi siempre termina resolviendo el problema equivocado, o construyendo algo que nadie en el negocio termina usando."
           },
           "genericConsulting": {
-            "question": "¿Esto es lo mismo que una consultoría genérica de \"transformación digital\"?",
+            "question": "¿Esto es lo mismo que una consultoría genérica?",
             "answer": "No. No entregamos un PDF de recomendaciones abstractas. DHC entrega un scoring objetivo en 6 dimensiones con evidencia, no opinión. DUC entrega una DUC-CARD por cada caso de uso, con roadmap priorizado y ruta técnica. Ambos están anclados en DAMA-DMBOK, el estándar internacional de gestión de datos — no en un framework improvisado."
           },
           "bothServices": {
@@ -2535,7 +2535,7 @@
       "hero": {
         "name": "Custom AI Agents",
         "term": "Agentes de IA a medida para empresas",
-        "subtitle": "Agentes que conocen sus datos y sus procesos. Reúnen la información, recomiendan y redactan; su equipo decide qué se ejecuta.",
+        "subtitle": "Agentes de IA personalizados que conocen sus datos y sus procesos. Reúnen la información, recomiendan y redactan; su equipo decide qué se ejecuta.",
         "imageAlt": "Ilustración de un agente que reúne documentos y redacta un borrador que una persona aprueba antes de enviarlo.",
         "ctaSecondary": "Ver el caso"
       },
@@ -2676,7 +2676,7 @@
           "body": "Y en la reunión se discute cuál dato es el correcto en lugar de decidir."
         },
         {
-          "title": "La junta pide avanzar con IA",
+          "title": "La junta pide avanzar y nadie tiene un plan",
           "body": "Y nadie sabe si los datos dan para alguna idea."
         }
       ]
@@ -2741,7 +2741,7 @@
       "body": "Cada proyecto parte de entrevistas a su gente y de la revisión directa de sus sistemas. Documentamos la lógica de negocio, construimos con su equipo y entregamos en producción. Si algo no está listo, se lo decimos, con lo que hay que resolver."
     },
     "principle": {
-      "title": "La IA propone, su equipo decide",
+      "title": "Una persona de su equipo aprueba cada acción",
       "body": "En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción sin abrir un riesgo que después tenga que explicar en junta.",
       "link": "Ver cómo trabajamos"
     },
@@ -2752,7 +2752,7 @@
       "items": [
         {
           "industry": "Marketing y publicidad",
-          "title": "Agentes de IA que reúnen el historial de campañas",
+          "title": "Agentes a medida que reúnen el historial de campañas",
           "metric": "De 20 a 2 minutos",
           "metricLabel": "para reunir el historial de campañas antes de diseñar una nueva"
         },

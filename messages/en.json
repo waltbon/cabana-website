@@ -2676,7 +2676,7 @@
           "body": "And in the meeting you argue about which figure is right instead of deciding."
         },
         {
-          "title": "The board wants progress on AI",
+          "title": "The board wants progress and nobody has a plan",
           "body": "And nobody knows whether the data is enough for any idea."
         }
       ]
@@ -2741,7 +2741,7 @@
       "body": "Every project starts with interviews with your people and a direct review of your systems. We document the business logic, build with your team and deliver in production. If something isn't ready, we tell you, along with what needs to be solved."
     },
     "principle": {
-      "title": "AI proposes, your team decides",
+      "title": "A person on your team approves every action",
       "body": "In the first use case, AI reads, recommends or drafts, and a person on your team approves before any action takes effect. That way it reaches production without opening a risk you'd later have to explain to the board.",
       "link": "See how we work"
     },
@@ -2752,7 +2752,7 @@
       "items": [
         {
           "industry": "Marketing and advertising",
-          "title": "AI agents that gather campaign history",
+          "title": "Custom agents that gather campaign history",
           "metric": "From 20 to 2 minutes",
           "metricLabel": "to gather campaign history before designing a new one"
         },
