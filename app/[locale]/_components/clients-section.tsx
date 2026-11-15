@@ -14,7 +14,7 @@ export async function ClientsSection() {
   const t = await getTranslations("inicio.clients");
 
   return (
-    <section className="bg-section-light py-10 md:py-14">
+    <section className="bg-background py-10 md:py-14">
       <div className="container flex flex-col items-center gap-8">
         <h2 className="text-sm font-semibold text-muted-foreground">
           {t("title")}

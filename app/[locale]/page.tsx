@@ -74,13 +74,13 @@ export default function Home() {
     <>
       <JsonLd schemas={[organizationSchema]} />
       <HeroSection />
-      <ClientsSection />
       <SymptomsSection />
+      <CapabilitiesSection />
       <JourneySection />
       <ServicesSection />
       <MethodSection />
       <CasesSection />
-      <CapabilitiesSection />
+      <ClientsSection />
       <CTASection namespace="inicio.cta" className="bg-section-light" />
     </>
   );

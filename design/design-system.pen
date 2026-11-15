@@ -33618,6 +33618,3646 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "h5IyWY",
+      "x": 0,
+      "y": 46314,
+      "name": "CH-inicio: pantallas",
+      "fill": "#e5e7eb",
+      "layout": "vertical",
+      "gap": 96,
+      "padding": 80,
+      "children": [
+        {
+          "type": "frame",
+          "id": "t6DG4",
+          "name": "Opción A: Editorial oscuro",
+          "gap": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "cBEpC",
+              "name": "CH-inicio/Síntomas A",
+              "clip": true,
+              "width": 1440,
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "path",
+                  "id": "XL9Dk",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Diagonal",
+                  "geometry": "M1440 0l0 100-1440 0z",
+                  "viewBox": [
+                    0,
+                    0,
+                    1440,
+                    100
+                  ],
+                  "fill": "#16364d8c",
+                  "width": 1440,
+                  "height": 640
+                },
+                {
+                  "type": "frame",
+                  "id": "GgIB1",
+                  "name": "Contenido",
+                  "width": "fill_container",
+                  "gap": 96,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FuOav",
+                      "name": "Encabezado",
+                      "width": 520,
+                      "layout": "vertical",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "id": "N78eT",
+                          "type": "ref",
+                          "ref": "hn4I4",
+                          "name": "Pretitle",
+                          "descendants": {
+                            "xmZiN": {
+                              "content": "TRES SÍNTOMAS, UN PROBLEMA DE FONDO"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DuOfy",
+                          "name": "Título",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CwfBH",
+                              "name": "Título línea 1",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Las decisiones dependen de sistemas que",
+                              "lineHeight": 1.1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 40,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "m1v8m8",
+                              "name": "Título énfasis",
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 270,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "$cabana-lime",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "$cabana-green",
+                                    "position": 1
+                                  }
+                                ]
+                              },
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "ya no dan abasto",
+                              "lineHeight": 1.1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 40,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "TcyUi",
+                          "name": "Intro",
+                          "fill": "$cabana-light",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Antes de cualquier tecnología nueva, conviene que sus sistemas y sus datos sostengan la operación.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wXeB7",
+                      "name": "Síntomas",
+                      "width": "fill_container",
+                      "stroke": "#ffffff26",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "u1RyAV",
+                          "name": "Síntoma 01",
+                          "width": "fill_container",
+                          "stroke": "#ffffff26",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 32,
+                          "padding": [
+                            32,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "arg8S",
+                              "name": "Número",
+                              "fill": "$cabana-green",
+                              "content": "01",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 56,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "a1J5F",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "y1Y4Pc",
+                                  "name": "Título",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Su sistema ya no sigue el ritmo de la operación",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 24,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "I6N3Wb",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Y cada cambio cuesta más que el anterior, porque nadie documentó cómo funciona.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "o1i7F",
+                              "name": "Icono",
+                              "width": 48,
+                              "height": 48,
+                              "cornerRadius": "$radius-full",
+                              "stroke": "#ffffff40",
+                              "strokeWidth": 1,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "bG8lb",
+                                  "name": "Icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "server-crash",
+                                  "library": "lucide",
+                                  "fill": "$cabana-green"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jspA1",
+                          "name": "Síntoma 02",
+                          "width": "fill_container",
+                          "stroke": "#ffffff26",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 32,
+                          "padding": [
+                            32,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "x2X34n",
+                              "name": "Número",
+                              "fill": "$cabana-green",
+                              "content": "02",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 56,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TXC1f",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "TCzhq",
+                                  "name": "Título",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Cada área tiene su propia versión de los números",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 24,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "HV2kw",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Y en la reunión se discute cuál dato es el correcto en lugar de decidir.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "x7iODD",
+                              "name": "Icono",
+                              "width": 48,
+                              "height": 48,
+                              "cornerRadius": "$radius-full",
+                              "stroke": "#ffffff40",
+                              "strokeWidth": 1,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "c5HQE",
+                                  "name": "Icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "database",
+                                  "library": "lucide",
+                                  "fill": "$cabana-green"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Fk3NR",
+                          "name": "Síntoma 03",
+                          "width": "fill_container",
+                          "stroke": "#ffffff26",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 32,
+                          "padding": [
+                            32,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "P09Fh",
+                              "name": "Número",
+                              "fill": "$cabana-green",
+                              "content": "03",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 56,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "EjIXw",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Z2yLUl",
+                                  "name": "Título",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "La junta pide avanzar con IA",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 24,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "cyWxb",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Y nadie sabe si los datos dan para alguna idea.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ZzBgb",
+                              "name": "Icono",
+                              "width": 48,
+                              "height": 48,
+                              "cornerRadius": "$radius-full",
+                              "stroke": "#ffffff40",
+                              "strokeWidth": 1,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "FhDXW",
+                                  "name": "Icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "sparkles",
+                                  "library": "lucide",
+                                  "fill": "$cabana-green"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "M5ItW",
+              "name": "CH-inicio/Síntomas A (móvil)",
+              "clip": true,
+              "width": 390,
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "path",
+                  "id": "QD4fW",
+                  "layoutPosition": "absolute",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Diagonal",
+                  "geometry": "M390 0l0 100-390 0z",
+                  "viewBox": [
+                    0,
+                    0,
+                    390,
+                    100
+                  ],
+                  "fill": "#16364d8c",
+                  "width": 390,
+                  "height": 420
+                },
+                {
+                  "type": "frame",
+                  "id": "J9eOFT",
+                  "name": "Contenido",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z4tkVu",
+                      "name": "Encabezado",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "id": "idYbP",
+                          "type": "ref",
+                          "ref": "hn4I4",
+                          "name": "Pretitle",
+                          "descendants": {
+                            "xmZiN": {
+                              "content": "TRES SÍNTOMAS, UN PROBLEMA DE FONDO"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AsTzp",
+                          "name": "Título",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aB2K2",
+                              "name": "Título línea 1",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Las decisiones dependen de sistemas que",
+                              "lineHeight": 1.1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 32,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q4bsjK",
+                              "name": "Título énfasis",
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 270,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "$cabana-lime",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "$cabana-green",
+                                    "position": 1
+                                  }
+                                ]
+                              },
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "ya no dan abasto",
+                              "lineHeight": 1.1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 32,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "PvglS",
+                          "name": "Intro",
+                          "fill": "$cabana-light",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Antes de cualquier tecnología nueva, conviene que sus sistemas y sus datos sostengan la operación.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TAxrY",
+                      "name": "Síntomas",
+                      "width": "fill_container",
+                      "stroke": "#ffffff26",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Xs6Yn",
+                          "name": "Síntoma 01",
+                          "width": "fill_container",
+                          "stroke": "#ffffff26",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 16,
+                          "padding": [
+                            24,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qY0Nt",
+                              "name": "Número",
+                              "fill": "$cabana-green",
+                              "content": "01",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 32,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "uc0pC",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "wyfhv",
+                                  "name": "Título",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Su sistema ya no sigue el ritmo de la operación",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "kC3ZV",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Y cada cambio cuesta más que el anterior, porque nadie documentó cómo funciona.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wfhws",
+                          "name": "Síntoma 02",
+                          "width": "fill_container",
+                          "stroke": "#ffffff26",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 16,
+                          "padding": [
+                            24,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "z3vBpc",
+                              "name": "Número",
+                              "fill": "$cabana-green",
+                              "content": "02",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 32,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "bRib6",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "pVsFG",
+                                  "name": "Título",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Cada área tiene su propia versión de los números",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "sSNKj",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Y en la reunión se discute cuál dato es el correcto en lugar de decidir.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TtXIP",
+                          "name": "Síntoma 03",
+                          "width": "fill_container",
+                          "stroke": "#ffffff26",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 16,
+                          "padding": [
+                            24,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ELWAE",
+                              "name": "Número",
+                              "fill": "$cabana-green",
+                              "content": "03",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 32,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Ox5xm",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "rYIRh",
+                                  "name": "Título",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "La junta pide avanzar con IA",
+                                  "lineHeight": 1.3,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "IeL7r",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Y nadie sabe si los datos dan para alguna idea.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FJl9A",
+          "name": "Opción B: Bento claro",
+          "gap": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "EGz8m",
+              "name": "CH-inicio/Síntomas B",
+              "clip": true,
+              "width": 1440,
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 56,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "om32n",
+                  "name": "Encabezado",
+                  "width": "fill_container",
+                  "gap": 80,
+                  "justifyContent": "space_between",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TltFn",
+                      "name": "Título y pretítulo",
+                      "width": 680,
+                      "layout": "vertical",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "id": "njKSC",
+                          "type": "ref",
+                          "ref": "hn4I4",
+                          "name": "Pretitle",
+                          "descendants": {
+                            "xmZiN": {
+                              "content": "TRES SÍNTOMAS, UN PROBLEMA DE FONDO"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "VBLTF",
+                          "name": "Título",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Las decisiones dependen de sistemas que ya no dan abasto",
+                          "lineHeight": 1.1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tPZbl",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "Antes de cualquier tecnología nueva, conviene que sus sistemas y sus datos sostengan la operación.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hzVuN",
+                  "name": "Bento",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IyBpp",
+                      "name": "Síntoma 01",
+                      "clip": true,
+                      "width": 600,
+                      "height": 460,
+                      "fill": "$cabana-blue",
+                      "cornerRadius": "$radius-xl",
+                      "layout": "vertical",
+                      "padding": 44,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "hO3Wm",
+                          "layoutPosition": "absolute",
+                          "x": 340,
+                          "y": 220,
+                          "name": "Anillo",
+                          "innerRadius": 0.82,
+                          "fill": "#57ff8f26",
+                          "width": 380,
+                          "height": 380
+                        },
+                        {
+                          "type": "frame",
+                          "id": "h8E1P2",
+                          "name": "Cabecera",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "X5sem",
+                              "name": "Icono",
+                              "width": 64,
+                              "height": 64,
+                              "fill": "#ffffff26",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "ATmwX",
+                                  "name": "Icon",
+                                  "width": 28,
+                                  "height": 28,
+                                  "icon": "server-crash",
+                                  "library": "lucide",
+                                  "fill": "#ffffff"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "r0lqJO",
+                              "name": "Número",
+                              "fill": "#ffffff40",
+                              "content": "01",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 72,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rlJei",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "J13QZo",
+                              "name": "Título",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Su sistema ya no sigue el ritmo de la operación",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 36,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "x2RSn",
+                              "name": "Cuerpo",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Y cada cambio cuesta más que el anterior, porque nadie documentó cómo funciona.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F1nYd",
+                      "name": "Columna",
+                      "width": "fill_container",
+                      "height": 460,
+                      "layout": "vertical",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zesBH",
+                          "name": "Síntoma 02",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "#ffffff",
+                          "cornerRadius": "$radius-xl",
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "gap": 20,
+                          "padding": 32,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "cGdFw",
+                              "name": "Cabecera",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "pYqIM",
+                                  "name": "Icono",
+                                  "width": 48,
+                                  "height": 48,
+                                  "fill": "$cabana-light",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "pymLu",
+                                      "name": "Icon",
+                                      "width": 22,
+                                      "height": 22,
+                                      "icon": "database",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "k4SOp",
+                                  "name": "Número",
+                                  "fill": "$cabana-light",
+                                  "content": "02",
+                                  "lineHeight": 1,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 40,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "UCrbH",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Pe7Tv",
+                                  "name": "Título",
+                                  "fill": "$foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Cada área tiene su propia versión de los números",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 24,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Lj9ph",
+                                  "name": "Cuerpo",
+                                  "fill": "$muted-foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Y en la reunión se discute cuál dato es el correcto en lugar de decidir.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PNuKV",
+                          "name": "Síntoma 03",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$cabana-dark",
+                          "cornerRadius": "$radius-xl",
+                          "layout": "vertical",
+                          "gap": 20,
+                          "padding": 32,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "rYyQk",
+                              "name": "Cabecera",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "J04Zd",
+                                  "name": "Icono",
+                                  "width": 48,
+                                  "height": 48,
+                                  "fill": "#57ff8f26",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "g2jcA",
+                                      "name": "Icon",
+                                      "width": 22,
+                                      "height": 22,
+                                      "icon": "sparkles",
+                                      "library": "lucide",
+                                      "fill": "$cabana-green"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LOhsa",
+                                  "name": "Número",
+                                  "fill": "#ffffff33",
+                                  "content": "03",
+                                  "lineHeight": 1,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 40,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lC2AM",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 12,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aSBEf",
+                                  "name": "Título",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "La junta pide avanzar con IA",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 24,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "r1QBE",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Y nadie sabe si los datos dan para alguna idea.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UMAnO",
+              "name": "CH-inicio/Síntomas B (móvil)",
+              "clip": true,
+              "width": 390,
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MsBw2",
+                  "name": "Encabezado",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kG6I9",
+                      "name": "Título y pretítulo",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "children": [
+                        {
+                          "id": "Pu8Vz",
+                          "type": "ref",
+                          "ref": "hn4I4",
+                          "name": "Pretitle",
+                          "descendants": {
+                            "xmZiN": {
+                              "content": "TRES SÍNTOMAS, UN PROBLEMA DE FONDO"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "x8cBqa",
+                          "name": "Título",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Las decisiones dependen de sistemas que ya no dan abasto",
+                          "lineHeight": 1.1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 32,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "RBnuP",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Antes de cualquier tecnología nueva, conviene que sus sistemas y sus datos sostengan la operación.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AxVQE",
+                  "name": "Bento",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eiqY0",
+                      "name": "Síntoma 01",
+                      "clip": true,
+                      "width": "fill_container",
+                      "fill": "$cabana-blue",
+                      "cornerRadius": "$radius-xl",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FoyGR",
+                          "name": "Cabecera",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "O5yCfL",
+                              "name": "Icono",
+                              "width": 64,
+                              "height": 64,
+                              "fill": "#ffffff26",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "myCS5",
+                                  "name": "Icon",
+                                  "width": 28,
+                                  "height": 28,
+                                  "icon": "server-crash",
+                                  "library": "lucide",
+                                  "fill": "#ffffff"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "AYpRY",
+                              "name": "Número",
+                              "fill": "#ffffff40",
+                              "content": "01",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 72,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dovrZ",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "b0Ji0T",
+                              "name": "Título",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Su sistema ya no sigue el ritmo de la operación",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 24,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "t7q3wE",
+                              "name": "Cuerpo",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Y cada cambio cuesta más que el anterior, porque nadie documentó cómo funciona.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qxJkx",
+                      "name": "Síntoma 02",
+                      "clip": true,
+                      "width": "fill_container",
+                      "fill": "#ffffff",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MxaDS",
+                          "name": "Cabecera",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "g6SZIp",
+                              "name": "Icono",
+                              "width": 48,
+                              "height": 48,
+                              "fill": "$cabana-light",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "gBX3X",
+                                  "name": "Icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "database",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "XqwR2",
+                              "name": "Número",
+                              "fill": "$cabana-light",
+                              "content": "02",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 40,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sKRna",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "v36OCl",
+                              "name": "Título",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cada área tiene su propia versión de los números",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 24,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bCNeE",
+                              "name": "Cuerpo",
+                              "fill": "$muted-foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Y en la reunión se discute cuál dato es el correcto en lugar de decidir.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WwE3c",
+                      "name": "Síntoma 03",
+                      "clip": true,
+                      "width": "fill_container",
+                      "fill": "$cabana-dark",
+                      "cornerRadius": "$radius-xl",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "d44bm",
+                          "name": "Cabecera",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "pHfKy",
+                              "name": "Icono",
+                              "width": 48,
+                              "height": 48,
+                              "fill": "#57ff8f26",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Rg1Jv",
+                                  "name": "Icon",
+                                  "width": 22,
+                                  "height": 22,
+                                  "icon": "sparkles",
+                                  "library": "lucide",
+                                  "fill": "$cabana-green"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "dgGa1",
+                              "name": "Número",
+                              "fill": "#ffffff33",
+                              "content": "03",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 40,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zE37u",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qnMYc",
+                              "name": "Título",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "La junta pide avanzar con IA",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 24,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "LOkWL",
+                              "name": "Cuerpo",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Y nadie sabe si los datos dan para alguna idea.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BiuCb",
+          "name": "Hero: 3 puertas",
+          "gap": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z8X19B",
+              "name": "CH-inicio/Hero",
+              "clip": true,
+              "width": 1440,
+              "height": 736,
+              "fill": "#ffffff",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AYKev",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Banda",
+                  "clip": true,
+                  "width": 1440,
+                  "height": 642,
+                  "fill": "$cabana-dark",
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "fYuSu",
+                      "x": 0,
+                      "y": 400,
+                      "name": "Deco diagonal 1",
+                      "opacity": 0.55,
+                      "geometry": "M0 0l760 380-760 0z",
+                      "viewBox": [
+                        0,
+                        0,
+                        760,
+                        380
+                      ],
+                      "fill": "#16364d",
+                      "width": 760,
+                      "height": 380
+                    },
+                    {
+                      "type": "path",
+                      "id": "SBys8",
+                      "x": 0,
+                      "y": 570,
+                      "name": "Deco diagonal 2",
+                      "opacity": 0.8,
+                      "geometry": "M0 210l560 0-560-170z",
+                      "viewBox": [
+                        0,
+                        0,
+                        560,
+                        210
+                      ],
+                      "fill": "#1e212b",
+                      "width": 560,
+                      "height": 210
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N4IHq",
+                      "x": 900,
+                      "y": 0,
+                      "name": "Hero photo",
+                      "width": 540,
+                      "height": 530,
+                      "fill": [
+                        "$cabana-dark",
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "images/illustrations/home-hero-compass.webp",
+                          "mode": "cover"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "path",
+                      "id": "ZOMO5",
+                      "x": 900,
+                      "y": 0,
+                      "name": "Photo edge",
+                      "geometry": "M0 0l120 0-120 680z",
+                      "viewBox": [
+                        0,
+                        0,
+                        120,
+                        680
+                      ],
+                      "fill": "$cabana-dark",
+                      "width": 120,
+                      "height": 530
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fEyyy",
+                      "x": 120,
+                      "y": 64,
+                      "name": "Contenido",
+                      "width": 1200,
+                      "layout": "vertical",
+                      "gap": 56,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "YFx8M",
+                          "name": "Texto",
+                          "width": 760,
+                          "layout": "vertical",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "lsq9E",
+                              "type": "ref",
+                              "ref": "hn4I4",
+                              "name": "Eyebrow",
+                              "descendants": {
+                                "xmZiN": {
+                                  "content": "INGENIERÍA DE SOFTWARE Y DATOS PARA EMPRESAS"
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O94V5N",
+                              "name": "H1",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "A0zt7b",
+                                  "name": "H1 línea 1",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Primero una base sólida.",
+                                  "lineHeight": 1.05,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 56,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "bql3p",
+                                  "name": "H1 línea 2",
+                                  "fill": {
+                                    "type": "gradient",
+                                    "gradientType": "linear",
+                                    "enabled": true,
+                                    "rotation": 270,
+                                    "size": {
+                                      "height": 1
+                                    },
+                                    "colors": [
+                                      {
+                                        "color": "$cabana-lime",
+                                        "position": 0
+                                      },
+                                      {
+                                        "color": "$cabana-green",
+                                        "position": 1
+                                      }
+                                    ]
+                                  },
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Después, IA que funciona.",
+                                  "lineHeight": 1.05,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 56,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "FQMGC",
+                              "name": "Subtítulo",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": 600,
+                              "content": "Somos una consultoría de IA, software y datos en Costa Rica. Diseñamos aplicaciones a la medida y arquitecturas de datos profesionales y, sobre esa base, llevamos la IA a producción.",
+                              "lineHeight": 1.55,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jh9Vs",
+                          "name": "Puertas",
+                          "width": "fill_container",
+                          "gap": 20,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "k5vNfS",
+                              "name": "Puerta: Modernizar un sistema",
+                              "width": "fill_container",
+                              "fill": "#ffffff0f",
+                              "cornerRadius": "$radius-xl",
+                              "stroke": "#ffffff2e",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "effect": {
+                                "type": "background_blur",
+                                "radius": 12
+                              },
+                              "layout": "vertical",
+                              "gap": 20,
+                              "padding": 28,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "NZHDz",
+                                  "name": "Icono",
+                                  "width": 52,
+                                  "height": 52,
+                                  "fill": "#57ff8f26",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "hQSja",
+                                      "name": "Icon",
+                                      "width": 24,
+                                      "height": 24,
+                                      "icon": "blocks",
+                                      "library": "lucide",
+                                      "fill": "$cabana-green"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "WgVUK",
+                                  "name": "Texto",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "b0Px1x",
+                                      "name": "Etiqueta",
+                                      "fill": "#ffffff",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Modernizar un sistema",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 22,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "f6U8n",
+                                      "name": "Pista",
+                                      "fill": "$cabana-light",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Aplicaciones a la medida",
+                                      "lineHeight": 1.4,
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dqU9h",
+                              "name": "Puerta: Ordenar mis datos",
+                              "width": "fill_container",
+                              "fill": "#ffffff0f",
+                              "cornerRadius": "$radius-xl",
+                              "stroke": "#ffffff2e",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "effect": {
+                                "type": "background_blur",
+                                "radius": 12
+                              },
+                              "layout": "vertical",
+                              "gap": 20,
+                              "padding": 28,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "jbvAq",
+                                  "name": "Icono",
+                                  "width": 52,
+                                  "height": 52,
+                                  "fill": "#57ff8f26",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "Cheyb",
+                                      "name": "Icon",
+                                      "width": 24,
+                                      "height": 24,
+                                      "icon": "database",
+                                      "library": "lucide",
+                                      "fill": "$cabana-green"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "b3ys6f",
+                                  "name": "Texto",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "hzJ50",
+                                      "name": "Etiqueta",
+                                      "fill": "#ffffff",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Ordenar mis datos",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 22,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "JPNPf",
+                                      "name": "Pista",
+                                      "fill": "$cabana-light",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Arquitectura e ingeniería de datos",
+                                      "lineHeight": 1.4,
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hufWR",
+                              "name": "Puerta: Empezar con IA",
+                              "width": "fill_container",
+                              "fill": "#ffffff0f",
+                              "cornerRadius": "$radius-xl",
+                              "stroke": "#ffffff2e",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "effect": {
+                                "type": "background_blur",
+                                "radius": 12
+                              },
+                              "layout": "vertical",
+                              "gap": 20,
+                              "padding": 28,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "kbAN3",
+                                  "name": "Icono",
+                                  "width": 52,
+                                  "height": 52,
+                                  "fill": "#57ff8f26",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "NxpvF",
+                                      "name": "Icon",
+                                      "width": 24,
+                                      "height": 24,
+                                      "icon": "sparkles",
+                                      "library": "lucide",
+                                      "fill": "$cabana-green"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "dnbUO",
+                                  "name": "Texto",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "S8Rccr",
+                                      "name": "Etiqueta",
+                                      "fill": "#ffffff",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Empezar con IA",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 22,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Mptof",
+                                      "name": "Pista",
+                                      "fill": "$cabana-light",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Ruta IA y AI First Move",
+                                      "lineHeight": 1.4,
+                                      "fontFamily": "$font-sans",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vIyvM",
+                  "x": 120,
+                  "y": 586,
+                  "name": "Stats bar",
+                  "width": 1200,
+                  "height": 130,
+                  "fill": "$cabana-blue",
+                  "cornerRadius": "$radius-xl",
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "da9Hf",
+                      "name": "Stat",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UMl5M",
+                          "name": "Valor",
+                          "fill": "#ffffff",
+                          "content": "50+",
+                          "lineHeight": 1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 44,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IJeOc",
+                          "name": "Etiqueta",
+                          "fill": "$cabana-light",
+                          "textGrowth": "fixed-width",
+                          "width": 220,
+                          "content": "pipelines de BigQuery en producción",
+                          "lineHeight": 1.4,
+                          "textAlign": "center",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "z2cI9Z",
+                      "name": "Separador",
+                      "fill": "#ffffff40",
+                      "width": 1,
+                      "height": 56
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wINwb",
+                      "name": "Stat",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cMxoJ",
+                          "name": "Valor",
+                          "fill": "#ffffff",
+                          "content": "20→2 min",
+                          "lineHeight": 1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 44,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "b3XhI",
+                          "name": "Etiqueta",
+                          "fill": "$cabana-light",
+                          "textGrowth": "fixed-width",
+                          "width": 220,
+                          "content": "para reunir el historial de campañas",
+                          "lineHeight": 1.4,
+                          "textAlign": "center",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "q1Vla",
+                      "name": "Separador",
+                      "fill": "#ffffff40",
+                      "width": 1,
+                      "height": 56
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bgJpp",
+                      "name": "Stat",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PMvzq",
+                          "name": "Valor",
+                          "fill": "#ffffff",
+                          "content": "45",
+                          "lineHeight": 1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 44,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lseZ0",
+                          "name": "Etiqueta",
+                          "fill": "$cabana-light",
+                          "textGrowth": "fixed-width",
+                          "width": 220,
+                          "content": "entidades de 8 plataformas, automatizadas",
+                          "lineHeight": 1.4,
+                          "textAlign": "center",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "meGLs",
+              "name": "CH-inicio/Hero (móvil)",
+              "clip": true,
+              "width": 390,
+              "fill": "#ffffff",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vvsce",
+                  "name": "Banda",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    56,
+                    24,
+                    40,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "id": "kHlG3",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "INGENIERÍA DE SOFTWARE Y DATOS PARA EMPRESAS"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VgLlx",
+                      "name": "H1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EPZTU",
+                          "name": "H1 línea 1",
+                          "fill": "#ffffff",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Primero una base sólida.",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HNsh5",
+                          "name": "H1 línea 2",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 270,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "$cabana-lime",
+                                "position": 0
+                              },
+                              {
+                                "color": "$cabana-green",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Después, IA que funciona.",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 36,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "d1TCz",
+                      "name": "Subtítulo",
+                      "fill": "$cabana-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Somos una consultoría de IA, software y datos en Costa Rica. Diseñamos aplicaciones a la medida y arquitecturas de datos profesionales y, sobre esa base, llevamos la IA a producción.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jeYqb",
+                      "name": "Puertas",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "S46RM6",
+                          "name": "Puerta: Modernizar un sistema",
+                          "width": "fill_container",
+                          "fill": "#ffffff0f",
+                          "cornerRadius": "$radius-xl",
+                          "stroke": "#ffffff2e",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "effect": {
+                            "type": "background_blur",
+                            "radius": 12
+                          },
+                          "gap": 16,
+                          "padding": 20,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "bujGV",
+                              "name": "Icono",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#57ff8f26",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "AuebM",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "blocks",
+                                  "library": "lucide",
+                                  "fill": "$cabana-green"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yclGY",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "KIHp1",
+                                  "name": "Etiqueta",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Modernizar un sistema",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "AkLxi",
+                                  "name": "Pista",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Aplicaciones a la medida",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ji3I0",
+                          "name": "Puerta: Ordenar mis datos",
+                          "width": "fill_container",
+                          "fill": "#ffffff0f",
+                          "cornerRadius": "$radius-xl",
+                          "stroke": "#ffffff2e",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "effect": {
+                            "type": "background_blur",
+                            "radius": 12
+                          },
+                          "gap": 16,
+                          "padding": 20,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Jwot4",
+                              "name": "Icono",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#57ff8f26",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "m77zDV",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "database",
+                                  "library": "lucide",
+                                  "fill": "$cabana-green"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TorJM",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "fS1up",
+                                  "name": "Etiqueta",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Ordenar mis datos",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "cBtTV",
+                                  "name": "Pista",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Arquitectura e ingeniería de datos",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "J3Svc2",
+                          "name": "Puerta: Empezar con IA",
+                          "width": "fill_container",
+                          "fill": "#ffffff0f",
+                          "cornerRadius": "$radius-xl",
+                          "stroke": "#ffffff2e",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "effect": {
+                            "type": "background_blur",
+                            "radius": 12
+                          },
+                          "gap": 16,
+                          "padding": 20,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "UWfbG",
+                              "name": "Icono",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#57ff8f26",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "O0COI",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "sparkles",
+                                  "library": "lucide",
+                                  "fill": "$cabana-green"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YeTXN",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "iDFye",
+                                  "name": "Etiqueta",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Empezar con IA",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Jvkwi",
+                                  "name": "Pista",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Ruta IA y AI First Move",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t6HezX",
+                  "name": "Hero photo",
+                  "width": 390,
+                  "height": 340,
+                  "fill": [
+                    "$cabana-dark",
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "images/illustrations/home-hero-compass.webp",
+                      "mode": "cover"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W9lVQl",
+                  "name": "Stats wrap",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EUPop",
+                      "name": "Stats bar",
+                      "width": "fill_container",
+                      "fill": "$cabana-blue",
+                      "cornerRadius": "$radius-xl",
+                      "layout": "vertical",
+                      "gap": 24,
+                      "padding": [
+                        32,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CD2Kv",
+                          "name": "Stat",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jrD3j",
+                              "name": "Valor",
+                              "fill": "#ffffff",
+                              "content": "50+",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 40,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jGWQ3",
+                              "name": "Etiqueta",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": 260,
+                              "content": "pipelines de BigQuery en producción",
+                              "lineHeight": 1.4,
+                              "textAlign": "center",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wUL4q",
+                          "name": "Stat",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XPFE6",
+                              "name": "Valor",
+                              "fill": "#ffffff",
+                              "content": "20→2 min",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 40,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vICaP",
+                              "name": "Etiqueta",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": 260,
+                              "content": "para reunir el historial de campañas",
+                              "lineHeight": 1.4,
+                              "textAlign": "center",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mWI1b",
+                          "name": "Stat",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "VQz05",
+                              "name": "Valor",
+                              "fill": "#ffffff",
+                              "content": "45",
+                              "lineHeight": 1,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 40,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "B96JIe",
+                              "name": "Etiqueta",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": 260,
+                              "content": "entidades de 8 plataformas, automatizadas",
+                              "lineHeight": 1.4,
+                              "textAlign": "center",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ilunq",
+          "name": "Capacidades: 4 tarjetas",
+          "gap": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "sxD58",
+              "name": "CH-inicio/Capacidades",
+              "clip": true,
+              "width": 1440,
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 56,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F6n1ho",
+                  "name": "Encabezado",
+                  "width": "fill_container",
+                  "gap": 80,
+                  "justifyContent": "space_between",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "J3KlnJ",
+                      "name": "Título e intro",
+                      "width": 720,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oK6X3",
+                          "name": "Título",
+                          "fill": "$foreground",
+                          "content": "Lo que construimos",
+                          "lineHeight": 1.1,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 48,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Yv1a8",
+                          "name": "Intro",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Proyectos de software y datos especificados desde su proceso real, entregados en producción y documentados para que su equipo los opere. Se cotizan a medida.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "cEa04",
+                      "type": "ref",
+                      "ref": "QCuy5",
+                      "name": "CTA Ver capacidades",
+                      "descendants": {
+                        "U4otP": {
+                          "content": "Ver capacidades"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MaFBk",
+                  "name": "Tarjetas",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AAbaj",
+                      "name": "Fila 1",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Q4wl1",
+                          "name": "Capacidad: Digital Product",
+                          "width": "fill_container",
+                          "fill": "$cabana-dark",
+                          "cornerRadius": "$radius-xl",
+                          "stroke": "$border",
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kLofj",
+                              "name": "Ilustración",
+                              "clip": true,
+                              "width": "fill_container",
+                              "height": 240,
+                              "fill": [
+                                "$cabana-dark",
+                                {
+                                  "type": "image",
+                                  "enabled": true,
+                                  "url": "images/illustrations/capacidades-producto-digital.webp",
+                                  "mode": "cover"
+                                }
+                              ],
+                              "cornerRadius": "$radius-lg",
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "JpT5r",
+                                  "layoutPosition": "absolute",
+                                  "x": 496,
+                                  "y": 16,
+                                  "name": "Flecha",
+                                  "width": 44,
+                                  "height": 44,
+                                  "fill": "#ffffffe6",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "o0ZhdC",
+                                      "name": "Icon",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "arrow-up-right",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BL9HV",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 10,
+                              "padding": [
+                                28,
+                                20,
+                                20,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "t1Zfd",
+                                  "name": "Nombre",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Digital Product",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 40,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aztm5",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Aplicaciones a la medida con la lógica de su negocio. Ideal para reemplazar sistemas legacy sin perder lo que ya funciona.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Njwfg",
+                          "name": "Capacidad: Data Consulting",
+                          "width": "fill_container",
+                          "fill": "$cabana-dark",
+                          "cornerRadius": "$radius-xl",
+                          "stroke": "$border",
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "T095P",
+                              "name": "Ilustración",
+                              "clip": true,
+                              "width": "fill_container",
+                              "height": 240,
+                              "fill": [
+                                "$cabana-dark",
+                                {
+                                  "type": "image",
+                                  "enabled": true,
+                                  "url": "images/illustrations/capacidades-consultoria-de-datos.webp",
+                                  "mode": "cover"
+                                }
+                              ],
+                              "cornerRadius": "$radius-lg",
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Sufvn",
+                                  "layoutPosition": "absolute",
+                                  "x": 496,
+                                  "y": 16,
+                                  "name": "Flecha",
+                                  "width": 44,
+                                  "height": 44,
+                                  "fill": "#ffffffe6",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "YaT3v",
+                                      "name": "Icon",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "arrow-up-right",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "a6IyvT",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 10,
+                              "padding": [
+                                28,
+                                20,
+                                20,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "N4FaE",
+                                  "name": "Nombre",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Data Consulting",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 40,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "W2DCCL",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Arquitectura y gobierno de datos para que la dirección decida con información propia y confiable.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "psaTO",
+                      "name": "Fila 2",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zVMQk",
+                          "name": "Capacidad: Data Engineering",
+                          "width": "fill_container",
+                          "fill": "$cabana-dark",
+                          "cornerRadius": "$radius-xl",
+                          "stroke": "$border",
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "YbIMk",
+                              "name": "Ilustración",
+                              "clip": true,
+                              "width": "fill_container",
+                              "height": 240,
+                              "fill": [
+                                "$cabana-dark",
+                                {
+                                  "type": "image",
+                                  "enabled": true,
+                                  "url": "images/illustrations/capacidades-ingenieria-de-datos.webp",
+                                  "mode": "cover"
+                                }
+                              ],
+                              "cornerRadius": "$radius-lg",
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "V09xD",
+                                  "layoutPosition": "absolute",
+                                  "x": 496,
+                                  "y": 16,
+                                  "name": "Flecha",
+                                  "width": 44,
+                                  "height": 44,
+                                  "fill": "#ffffffe6",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "RiWhU",
+                                      "name": "Icon",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "arrow-up-right",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wCM3p",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 10,
+                              "padding": [
+                                28,
+                                20,
+                                20,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "b2FZK",
+                                  "name": "Nombre",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Data Engineering",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 40,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "nMill",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Integramos sus sistemas en un data warehouse y lo convertimos en dashboards que su equipo usa a diario.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cQNpt",
+                          "name": "Capacidad: Custom AI Agents",
+                          "width": "fill_container",
+                          "fill": "$cabana-dark",
+                          "cornerRadius": "$radius-xl",
+                          "stroke": "$border",
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "feoly",
+                              "name": "Ilustración",
+                              "clip": true,
+                              "width": "fill_container",
+                              "height": 240,
+                              "fill": [
+                                "$cabana-dark",
+                                {
+                                  "type": "image",
+                                  "enabled": true,
+                                  "url": "images/illustrations/capacidades-agentes-ia-a-medida.webp",
+                                  "mode": "cover"
+                                }
+                              ],
+                              "cornerRadius": "$radius-lg",
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "l69byM",
+                                  "layoutPosition": "absolute",
+                                  "x": 496,
+                                  "y": 16,
+                                  "name": "Flecha",
+                                  "width": 44,
+                                  "height": 44,
+                                  "fill": "#ffffffe6",
+                                  "cornerRadius": "$radius-full",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "oGZmC",
+                                      "name": "Icon",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "arrow-up-right",
+                                      "library": "lucide",
+                                      "fill": "$primary"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "WfDLj",
+                              "name": "Texto",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 10,
+                              "padding": [
+                                28,
+                                20,
+                                20,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "q2GYh",
+                                  "name": "Nombre",
+                                  "fill": "#ffffff",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Custom AI Agents",
+                                  "lineHeight": 1.2,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 40,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "doP8I",
+                                  "name": "Cuerpo",
+                                  "fill": "$cabana-light",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Agentes de IA a medida, conectados a sus datos y con aprobación de su equipo.",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-sans",
+                                  "fontSize": 16,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "M5lVz",
+              "name": "CH-inicio/Capacidades (móvil)",
+              "clip": true,
+              "width": 390,
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "o4XTPh",
+                  "name": "Encabezado",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q5fiz",
+                      "name": "Título",
+                      "fill": "$foreground",
+                      "content": "Lo que construimos",
+                      "lineHeight": 1.1,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eFuIx",
+                      "name": "Intro",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Proyectos de software y datos especificados desde su proceso real, entregados en producción y documentados para que su equipo los opere. Se cotizan a medida.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "v6NsZe",
+                      "type": "ref",
+                      "ref": "QCuy5",
+                      "name": "CTA Ver capacidades",
+                      "descendants": {
+                        "U4otP": {
+                          "content": "Ver capacidades"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ChOin",
+                  "name": "Tarjetas",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aD6TM",
+                      "name": "Capacidad: Digital Product",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Ca5QJ",
+                          "name": "Ilustración",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 180,
+                          "fill": [
+                            "$cabana-dark",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "images/illustrations/capacidades-producto-digital.webp",
+                              "mode": "cover"
+                            }
+                          ],
+                          "cornerRadius": "$radius-lg",
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "NF9z6",
+                              "layoutPosition": "absolute",
+                              "x": 234,
+                              "y": 16,
+                              "name": "Flecha",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#ffffffe6",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "C1ERQ1",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q7diG",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            24,
+                            12,
+                            16,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jMekL",
+                              "name": "Nombre",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Digital Product",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 30,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "w0JGq",
+                              "name": "Cuerpo",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Aplicaciones a la medida con la lógica de su negocio. Ideal para reemplazar sistemas legacy sin perder lo que ya funciona.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SZmm8",
+                      "name": "Capacidad: Data Consulting",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "f7b77m",
+                          "name": "Ilustración",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 180,
+                          "fill": [
+                            "$cabana-dark",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "images/illustrations/capacidades-consultoria-de-datos.webp",
+                              "mode": "cover"
+                            }
+                          ],
+                          "cornerRadius": "$radius-lg",
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mcIhk",
+                              "layoutPosition": "absolute",
+                              "x": 234,
+                              "y": 16,
+                              "name": "Flecha",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#ffffffe6",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "vebly",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UAKM7",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            24,
+                            12,
+                            16,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "T19OvZ",
+                              "name": "Nombre",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Data Consulting",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 30,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QZEhb",
+                              "name": "Cuerpo",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Arquitectura y gobierno de datos para que la dirección decida con información propia y confiable.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gzdnX",
+                      "name": "Capacidad: Data Engineering",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "N3uF8q",
+                          "name": "Ilustración",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 180,
+                          "fill": [
+                            "$cabana-dark",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "images/illustrations/capacidades-ingenieria-de-datos.webp",
+                              "mode": "cover"
+                            }
+                          ],
+                          "cornerRadius": "$radius-lg",
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "MJQyw",
+                              "layoutPosition": "absolute",
+                              "x": 234,
+                              "y": 16,
+                              "name": "Flecha",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#ffffffe6",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "KR4Ue",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qPGoC",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            24,
+                            12,
+                            16,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GugTI",
+                              "name": "Nombre",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Data Engineering",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 30,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "UVjKe",
+                              "name": "Cuerpo",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Integramos sus sistemas en un data warehouse y lo convertimos en dashboards que su equipo usa a diario.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vfdPh",
+                      "name": "Capacidad: Custom AI Agents",
+                      "width": "fill_container",
+                      "fill": "$cabana-dark",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "y4gvxc",
+                          "name": "Ilustración",
+                          "clip": true,
+                          "width": "fill_container",
+                          "height": 180,
+                          "fill": [
+                            "$cabana-dark",
+                            {
+                              "type": "image",
+                              "enabled": true,
+                              "url": "images/illustrations/capacidades-agentes-ia-a-medida.webp",
+                              "mode": "cover"
+                            }
+                          ],
+                          "cornerRadius": "$radius-lg",
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "A356tJ",
+                              "layoutPosition": "absolute",
+                              "x": 234,
+                              "y": 16,
+                              "name": "Flecha",
+                              "width": 44,
+                              "height": 44,
+                              "fill": "#ffffffe6",
+                              "cornerRadius": "$radius-full",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "gCzUV",
+                                  "name": "Icon",
+                                  "width": 20,
+                                  "height": 20,
+                                  "icon": "arrow-up-right",
+                                  "library": "lucide",
+                                  "fill": "$primary"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rfvWQ",
+                          "name": "Texto",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            24,
+                            12,
+                            16,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RdGHt",
+                              "name": "Nombre",
+                              "fill": "#ffffff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Custom AI Agents",
+                              "lineHeight": 1.2,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 30,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ix3pp",
+                              "name": "Cuerpo",
+                              "fill": "$cabana-light",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Agentes de IA a medida, conectados a sus datos y con aprobación de su equipo.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {

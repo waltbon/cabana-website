@@ -2616,26 +2616,31 @@
   },
   "inicio": {
     "meta": {
-      "title": "AI consulting in Costa Rica | Cabana Data",
-      "description": "AI consulting for mid-sized companies in Costa Rica and Latin America: know where to start with AI in 4 weeks and take your first use case to production.",
-      "ogTitle": "Cabana Data: know where to start with AI, and start right",
-      "ogDescription": "Ruta IA tells you where to start. AI First Move puts your first AI use case in production. With evidence from your operation, not opinions."
+      "title": "AI, software and data consulting in Costa Rica | Cabana Data",
+      "description": "Custom software, data architecture and AI consulting in Costa Rica. We specify, build and deliver to production.",
+      "ogTitle": "Cabana Data: a solid foundation first, then AI that works",
+      "ogDescription": "Custom applications and reliable data to decide with. On that foundation, AI that reaches production."
     },
     "hero": {
-      "eyebrow": "AI consulting for mid-sized companies",
-      "title": "Know where to start with AI. And start right.",
-      "subtitle": "We are an artificial intelligence consultancy in Costa Rica for mid-sized companies in Latin America. We help you choose where to start, with evidence from your operation, and put the first use case in production.",
+      "eyebrow": "Software and data engineering for companies",
+      "title": "A solid foundation first. Then, AI that works.",
+      "subtitle": "We are an AI, software and data consultancy in Costa Rica. We design custom applications and professional data architectures and, on that foundation, take AI to production.",
       "imageAlt": "Illustration of a compass among scattered data pointing to a single opportunity ready to start.",
       "doors": [
         {
-          "label": "I don't know where to start",
-          "hint": "Ruta IA · 4 weeks",
-          "href": "/ruta-ia"
+          "label": "Modernize a system",
+          "hint": "Custom applications",
+          "href": "/capacidades/producto-digital"
         },
         {
-          "label": "I already have the idea",
-          "hint": "AI First Move · 10 weeks",
-          "href": "/ai-first-move"
+          "label": "Organize my data",
+          "hint": "Data architecture and engineering",
+          "href": "/capacidades/consultoria-de-datos"
+        },
+        {
+          "label": "Start with AI",
+          "hint": "Ruta IA and AI First Move",
+          "href": "#ia"
         }
       ],
       "statsLabel": "Results from client projects",
@@ -2659,25 +2664,25 @@
     },
     "symptoms": {
       "eyebrow": "Three symptoms, one underlying problem",
-      "title": "The problem is rarely a lack of AI ideas",
-      "intro": "What's missing is knowing which one comes first, whether your data supports it and how to take it to production.",
+      "title": "Decisions depend on systems that can no longer keep up",
+      "intro": "Before any new technology, your systems and data need to hold up the operation.",
       "items": [
         {
-          "title": "Every area has its own AI idea",
-          "body": "And nobody knows which comes first or whether the data is enough for any of them."
+          "title": "Your system no longer keeps pace with the operation",
+          "body": "And every change costs more than the last, because nobody documented how it works."
+        },
+        {
+          "title": "Every area has its own version of the numbers",
+          "body": "And in the meeting you argue about which figure is right instead of deciding."
         },
         {
           "title": "The board wants progress on AI",
-          "body": "And in the meeting, the answer to \"where do we start?\" is an opinion."
-        },
-        {
-          "title": "AI initiatives never reach production",
-          "body": "And without something running in your operation, nobody approves budget for what's next."
+          "body": "And nobody knows whether the data is enough for any idea."
         }
       ]
     },
     "journey": {
-      "title": "One journey, two entry points",
+      "title": "When the foundation is ready, AI with a fixed price and timeline",
       "intro": "First you know where to start. Then you start, with a use case in production.",
       "steps": [
         {
@@ -2732,8 +2737,8 @@
       ]
     },
     "method": {
-      "title": "An AI consultancy in Costa Rica that works with evidence",
-      "body": "Every recommendation comes from interviews with your people and a direct review of your systems, not a generic benchmark. If an idea isn't ready, we tell you, along with what needs to be solved."
+      "title": "We specify before we build",
+      "body": "Every project starts with interviews with your people and a direct review of your systems. We document the business logic, build with your team and deliver in production. If something isn't ready, we tell you, along with what needs to be solved."
     },
     "principle": {
       "title": "AI proposes, your team decides",
@@ -2767,20 +2772,20 @@
       "cta": "See all cases"
     },
     "capabilities": {
-      "title": "If you already have a decision and budget",
-      "intro": "We quote custom projects with the same team that delivers Ruta IA and AI First Move.",
+      "title": "What we build",
+      "intro": "Software and data projects specified from your real process, delivered in production and documented so your team can run them. Quoted as custom projects.",
       "items": [
         {
-          "name": "Data Engineering",
-          "body": "System integration, data warehouse and dashboards."
+          "name": "Digital Product",
+          "body": "Custom applications built around your business logic. Ideal for replacing legacy systems without losing what already works."
         },
         {
           "name": "Data Consulting",
-          "body": "Governance, quality and architecture of your data."
+          "body": "Data architecture and governance so leadership decides with its own reliable information."
         },
         {
-          "name": "Digital Product",
-          "body": "Custom web and mobile applications for your operation."
+          "name": "Data Engineering",
+          "body": "We integrate your systems into a data warehouse and turn it into dashboards your team uses every day."
         },
         {
           "name": "Custom AI Agents",
@@ -2790,8 +2795,8 @@
       "cta": "See capabilities"
     },
     "cta": {
-      "title": "Where does your company stand with AI?",
-      "body": "In a 20-minute conversation with whoever decides the investment, we review the right starting point: Ruta IA, AI First Move or a custom project.",
+      "title": "What do you need to solve first?",
+      "body": "In a 20-minute conversation with whoever decides the investment, we review where to start: a system, your data or AI.",
       "button": "Book a conversation"
     }
   },

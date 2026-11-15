@@ -13,7 +13,7 @@ export async function JourneySection() {
   const steps = t.raw("steps") as Step[];
 
   return (
-    <section className="bg-section-light py-16 md:py-24">
+    <section id="ia" className="scroll-mt-20 bg-section-light py-16 md:py-24">
       <div className="container flex flex-col gap-10 md:gap-12">
         <div className="flex flex-col gap-4">
           <h2 className="text-foreground">{t("title")}</h2>
