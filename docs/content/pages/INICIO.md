@@ -1,67 +1,75 @@
-# Copy web · Inicio (v1 borrador)
+# Copy web · Inicio (v2 borrador)
 
 Oct 25, 2026 · @Walter Bonilla
 
 ## Cómo leer este borrador
 
-Este es el copy completo de la página `/`, con la misma estructura y convención de claves que Ruta IA y AI First Move (`inicio.<seccion>.<elemento>`).
+Este es el copy completo de la página /, con la misma estructura y convención de claves que Ruta IA y AI First Move (inicio.<seccion>.<elemento>).
 
-- **Fuentes:** brief de Marketing v1.0, guía de comunicación y tono, keyword map `es`, brief SEO `inicio.es.md`, copys aprobados de Ruta IA y AI First Move, y el sitio actual.
-- **Término principal SEO:** "consultoría de inteligencia artificial Costa Rica". Aparece en title, primer párrafo y un H2. El H1 lleva la promesa, no el término.
-- En cada tabla, la columna "Texto" es lo que se publica; la columna "Clave" no se ve en la página.
+Fuentes: brief de Marketing v1.1, guía de comunicación y tono, keyword map es, brief SEO inicio.es.md, copys aprobados de Ruta IA y AI First Move, y el sitio actual.
+
+Término principal SEO: "consultoría de IA", acompañado de software y datos. Aparece en el title, el meta description y el primer párrafo del hero. El H1 lleva la promesa de fundamentos, no el término.
+
+En cada tabla, la columna "Texto" es lo que se publica; la columna "Clave" no se ve en la página.
+
+Orden de la página: hero → síntomas → capacidades → sección de IA (recorrido y servicios, ancla #ia) → método y principio → casos → logos de clientes → CTA final. Las secciones de este documento no siguen ese orden; manda esta línea.
 
 ## Metadatos SEO
 
 | Clave | Texto | Nota |
 | --- | --- | --- |
-| `inicio.meta.title` | Consultoría de inteligencia artificial en Costa Rica \| Cabana Data | 66 caracteres; mismo criterio que AI First Move: si se corta, quitar "\| Cabana Data" |
-| `inicio.meta.description` | Consultoría de IA para empresas medianas en Costa Rica y Latinoamérica: sepa por dónde empezar con IA en 4 semanas y lleve su primer caso a producción. | 152 caracteres. Usa "inteligencia artificial" en el title e "IA" aquí, para cubrir ambas formas |
-| `inicio.meta.ogTitle` | Cabana Data: sepa por dónde empezar con IA y empiece bien | Para LinkedIn y redes |
-| `inicio.meta.ogDescription` | Ruta IA le dice por dónde empezar. AI First Move pone su primer caso de IA en producción. Con evidencia de su operación, no opiniones. |  |
-| Slug | `/` | Sin cambio. 301 desde `/es` (hoy 307) |
-| H1 | Sepa por dónde empezar con IA. Y empiece bien. | Ver Hero. El término SEO va en el primer párrafo y en el H2 de Método |
+| `inicio.meta.title` | Consultoría de IA, software y datos en Costa Rica \| Cabana Data | 61 caracteres. Término principal en su forma corta, acompañado de software y datos (guía, Dosis de IA) |
+| `inicio.meta.description` | Software a la medida, arquitectura de datos y consultoría de IA en Costa Rica. Especificamos, construimos y entregamos en producción. | Nombra las tres líneas de trabajo: software, datos e IA |
+| `inicio.meta.ogTitle` | Cabana Data: primero una base sólida, después IA que funciona | Para LinkedIn y redes |
+| `inicio.meta.ogDescription` | Aplicaciones a la medida y datos confiables para decidir. Sobre esa base, IA que llega a producción. |  |
+| Slug | / | Sin cambio. 301 desde /es (hoy 307) |
+| H1 | Primero una base sólida. Después, IA que funciona. | Ver Hero. "Consultoría de IA" va en el title, el meta description y el primer párrafo |
 
 ## Hero, síntomas y recorrido
 
-### Hero con las dos puertas
+### Hero con las tres puertas
 
-Las dos puertas tienen el mismo peso visual: mismo tamaño, mismo estilo de botón. Ninguna es la "principal".
+Las tres puertas tienen el mismo peso visual: mismo tamaño, mismo estilo de botón. Ninguna es la "principal". La tercera lleva a la sección de IA de esta misma página, donde se elige entre Ruta IA y AI First Move. La tira de cifras del hero se mantiene.
 
 | Clave | Texto |
 | --- | --- |
-| `inicio.hero.eyebrow` | Consultoría de IA para empresas medianas |
-| `inicio.hero.title` | Sepa por dónde empezar con IA. Y empiece bien. |
-| `inicio.hero.subtitle` | Somos una consultoría de inteligencia artificial en Costa Rica para empresas medianas de Latinoamérica. Le ayudamos a elegir por dónde empezar, con evidencia de su operación, y a poner el primer caso en producción. |
-| `inicio.hero.doors[0].label` | No sé por dónde empezar |
-| `inicio.hero.doors[0].hint` | Ruta IA · 4 semanas |
-| `inicio.hero.doors[0].href` | `/ruta-ia` |
-| `inicio.hero.doors[1].label` | Ya tengo la idea |
-| `inicio.hero.doors[1].hint` | AI First Move · 10 semanas |
-| `inicio.hero.doors[1].href` | `/ai-first-move` |
+| `inicio.hero.eyebrow` | Ingeniería de software y datos para empresas |
+| `inicio.hero.title` | Primero una base sólida. Después, IA que funciona. |
+| `inicio.hero.subtitle` | Somos una consultoría de IA, software y datos en Costa Rica. Diseñamos aplicaciones a la medida y arquitecturas de datos profesionales y, sobre esa base, llevamos la IA a producción. |
+| `inicio.hero.doors[0].label` | Modernizar un sistema |
+| `inicio.hero.doors[0].hint` | Aplicaciones a la medida |
+| `inicio.hero.doors[0].href` | /capacidades/producto-digital |
+| `inicio.hero.doors[1].label` | Ordenar mis datos |
+| `inicio.hero.doors[1].hint` | Arquitectura e ingeniería de datos |
+| `inicio.hero.doors[1].href` | /capacidades/consultoria-de-datos |
+| `inicio.hero.doors[2].label` | Empezar con IA |
+| `inicio.hero.doors[2].hint` | Ruta IA y AI First Move |
+| `inicio.hero.doors[2].href` | #ia |
 
 ### Síntomas
 
-Se conserva la estructura problema → consecuencia del sitio actual, apuntando al problema que resuelven los servicios.
+Se conserva la estructura problema → consecuencia del sitio actual. Un síntoma por cada puerta: el sistema, los datos y la IA.
 
 | Clave | Texto |
 | --- | --- |
 | `inicio.symptoms.eyebrow` | Tres síntomas, un problema de fondo |
-| `inicio.symptoms.title` | El problema casi nunca es la falta de ideas de IA |
-| `inicio.symptoms.intro` | Lo que falta es saber cuál conviene primero, si sus datos la soportan y cómo llevarla a producción. |
-| `inicio.symptoms.items[0].title` | Cada área tiene su idea de IA |
-| `inicio.symptoms.items[0].body` | Y nadie sabe cuál conviene primero ni si los datos alcanzan para alguna. |
-| `inicio.symptoms.items[1].title` | La junta pide avanzar con IA |
-| `inicio.symptoms.items[1].body` | Y en la reunión, la respuesta a "¿por dónde empezamos?" es una opinión. |
-| `inicio.symptoms.items[2].title` | Las iniciativas de IA no llegan a producción |
-| `inicio.symptoms.items[2].body` | Y sin algo funcionando en su operación, nadie aprueba presupuesto para lo siguiente. |
+| `inicio.symptoms.title` | Las decisiones dependen de sistemas que ya no dan abasto |
+| `inicio.symptoms.intro` | Antes de cualquier tecnología nueva, conviene que sus sistemas y sus datos sostengan la operación. |
+| `inicio.symptoms.items[0].title` | Su sistema ya no sigue el ritmo de la operación |
+| `inicio.symptoms.items[0].body` | Y cada cambio cuesta más que el anterior, porque nadie documentó cómo funciona. |
+| `inicio.symptoms.items[1].title` | Cada área tiene su propia versión de los números |
+| `inicio.symptoms.items[1].body` | Y en la reunión se discute cuál dato es el correcto en lugar de decidir. |
+| `inicio.symptoms.items[2].title` | La junta pide avanzar con IA |
+| `inicio.symptoms.items[2].body` | Y nadie sabe si los datos dan para alguna idea. |
 
-### El recorrido
+### Sección de IA: recorrido
 
-Se muestra como diagrama horizontal de cuatro pasos. La nota de entrada directa va visible, no en letra pequeña.
+Va después de Capacidades, con el ancla #ia. Se muestra como diagrama horizontal de cuatro pasos. La nota de entrada directa va visible, no en letra pequeña.
 
 | Clave | Texto |
 | --- | --- |
-| `inicio.journey.title` | Un recorrido con dos puntos de entrada |
+| `inicio.ai.eyebrow` | Consultoría de IA |
+| `inicio.journey.title` | Cuando la base está lista, IA con precio y plazo fijos |
 | `inicio.journey.intro` | Primero se sabe por dónde empezar. Después se empieza, con un caso en producción. |
 | `inicio.journey.steps[0].label` | Punto de partida |
 | `inicio.journey.steps[0].title` | Ideas sueltas |
@@ -79,13 +87,12 @@ Se muestra como diagrama horizontal de cuatro pasos. La nota de entrada directa 
 
 ## Servicios, método, casos y capacidades
 
-### Los dos servicios
+### Sección de IA: servicios
 
-Dos tarjetas del mismo tamaño. Sin cifra de precio en Inicio: el precio completo vive en cada página de servicio (ver Pendientes).
+Dos tarjetas del mismo tamaño, debajo del recorrido. Sin cifra de precio en Inicio: el precio completo vive en cada página de servicio. El título de la sección es journey.title.
 
 | Clave | Texto |
 | --- | --- |
-| `inicio.services.title` | Dos servicios, cada uno con precio y plazo fijos |
 | `inicio.services.items[0].door` | No sé por dónde empezar |
 | `inicio.services.items[0].name` | Ruta IA |
 | `inicio.services.items[0].summary` | El diagnóstico que le dice por cuáles oportunidades de IA empezar y si sus datos las soportan. |
@@ -101,19 +108,19 @@ Dos tarjetas del mismo tamaño. Sin cifra de precio en Inicio: el precio complet
 
 ### Método y principio
 
-El H2 lleva el término SEO. El principio se presenta como criterio de calidad, con el mismo texto base de AI First Move.
+El H2 habla del método de ingeniería. El principio se presenta como criterio de calidad, con el mismo texto base de AI First Move.
 
 | Clave | Texto |
 | --- | --- |
-| `inicio.method.title` | Una consultoría de IA en Costa Rica que trabaja con evidencia |
-| `inicio.method.body` | Cada recomendación sale de entrevistas a su gente y de la revisión directa de sus sistemas, no de un benchmark genérico. Si una idea no está lista, se lo decimos, con lo que hay que resolver. |
+| `inicio.method.title` | Especificamos antes de construir |
+| `inicio.method.body` | Cada proyecto parte de entrevistas a su gente y de la revisión directa de sus sistemas. Documentamos la lógica de negocio, construimos con su equipo y entregamos en producción. Si algo no está listo, se lo decimos, con lo que hay que resolver. |
 | `inicio.principle.title` | La IA propone, su equipo decide |
 | `inicio.principle.body` | En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción sin abrir un riesgo que después tenga que explicar en junta. |
 | `inicio.principle.link` | Ver cómo trabajamos |
 
 ### Casos
 
-Se conserva el hilo del sitio actual. Tres tarjetas anónimas con la cifra grande. Mientras los casos no estén publicados, cada una enlaza a la sección de caso de su capacidad (agentes → Custom AI Agents, reportería → Data Engineering, cuota de ventas → Digital Product); después, a su página en `/casos`.
+Se conserva el hilo del sitio actual. Tres tarjetas anónimas con la cifra grande. Mientras los casos no estén publicados, cada una enlaza a la sección de caso de su capacidad (agentes → Custom AI Agents, reportería → Data Engineering, cuota de ventas → Digital Product); después, a su página en /casos.
 
 | Clave | Texto |
 | --- | --- |
@@ -133,20 +140,20 @@ Se conserva el hilo del sitio actual. Tres tarjetas anónimas con la cifra grand
 | `inicio.cases.items[2].metricLabel` | un único modelo de datos para agentes, supervisores y gerencia |
 | `inicio.cases.cta` | Ver todos los casos |
 
-### Capacidades (respaldo)
+### Capacidades: lo que construimos
 
-Más abajo y con menos peso visual que los servicios: lista compacta, sin íconos grandes ni imágenes.
+Va justo después de Síntomas. Cuatro tarjetas del mismo tamaño que las de servicio, cada una con enlace a su página. Se cotizan a medida, sin precio.
 
 | Clave | Texto |
 | --- | --- |
-| `inicio.capabilities.title` | Si ya tiene decisión y presupuesto |
-| `inicio.capabilities.intro` | Cotizamos proyectos a medida con el mismo equipo que entrega Ruta IA y AI First Move. |
-| `inicio.capabilities.items[0].name` | Data Engineering |
-| `inicio.capabilities.items[0].body` | Ingeniería de datos: integración de sistemas, data warehouse y dashboards. |
+| `inicio.capabilities.title` | Lo que construimos |
+| `inicio.capabilities.intro` | Proyectos de software y datos especificados desde su proceso real, entregados en producción y documentados para que su equipo los opere. Se cotizan a medida. |
+| `inicio.capabilities.items[0].name` | Digital Product |
+| `inicio.capabilities.items[0].body` | Aplicaciones a la medida con la lógica de su negocio. Ideal para reemplazar sistemas legacy sin perder lo que ya funciona. |
 | `inicio.capabilities.items[1].name` | Data Consulting |
-| `inicio.capabilities.items[1].body` | Consultoría de datos: gobierno, calidad y arquitectura de sus datos. |
-| `inicio.capabilities.items[2].name` | Digital Product |
-| `inicio.capabilities.items[2].body` | Aplicaciones a la medida de su operación, web y móvil. |
+| `inicio.capabilities.items[1].body` | Arquitectura y gobierno de datos para que la dirección decida con información propia y confiable. |
+| `inicio.capabilities.items[2].name` | Data Engineering |
+| `inicio.capabilities.items[2].body` | Integramos sus sistemas en un data warehouse y lo convertimos en dashboards que su equipo usa a diario. |
 | `inicio.capabilities.items[3].name` | Custom AI Agents |
 | `inicio.capabilities.items[3].body` | Agentes de IA a medida, conectados a sus datos y con aprobación de su equipo. |
 | `inicio.capabilities.cta` | Ver capacidades |
@@ -163,59 +170,52 @@ Más abajo y con menos peso visual que los servicios: lista compacta, sin ícono
 
 | Clave | Texto |
 | --- | --- |
-| `inicio.cta.title` | ¿En qué punto está su empresa con la IA? |
-| `inicio.cta.body` | En una conversación de 20 minutos con quien decide la inversión, revisamos cuál es el punto de partida correcto: Ruta IA, AI First Move o un proyecto a medida. |
+| `inicio.cta.title` | ¿Qué necesita resolver primero? |
+| `inicio.cta.body` | En una conversación de 20 minutos con quien decide la inversión, revisamos por dónde empezar: un sistema, sus datos o la IA. |
 | `inicio.cta.button` | Agendar una conversación |
 
 ### Datos estructurados (JSON-LD)
 
-Prioridad alta: hoy "Cabana Data Costa Rica" no se reconoce como entidad. La `description` usa la frase de definición en tercera persona, que no va en el cuerpo de la página (ver Pendientes).
+Prioridad alta: hoy "Cabana Data Costa Rica" no se reconoce como entidad. La description usa la frase de definición en tercera persona, que no va en el cuerpo de la página (ver Pendientes).
 
-```json
-{
-  "@context": "https://schema.org",
-  "@type": ["Organization", "ProfessionalService"],
-  "name": "Cabana Data",
-  "url": "https://cabanadata.com",
-  "logo": "https://cabanadata.com/logo-horizontal-light.svg",
-  "description": "<footer.tagline>",
-  "foundingDate": "2021",
-  "email": "info@cabanadata.com",
-  "telephone": "+506 8511-5245",
-  "address": { "@type": "PostalAddress", "addressLocality": "San José", "addressCountry": "CR" },
-  "areaServed": ["Costa Rica", "Latinoamérica"],
-  "sameAs": ["https://linkedin.com/company/cabanadata"],
-  "makesOffer": [
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ruta IA", "url": "https://cabanadata.com/ruta-ia" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI First Move", "url": "https://cabanadata.com/ai-first-move" } }
-  ]
-}
-```
+{  "@context": "https://schema.org",  "@type": ["Organization", "ProfessionalService"],  "name": "Cabana Data",  "url": "https://cabanadata.com",  "logo": "https://cabanadata.com/logo-horizontal-light.svg",  "description": "<footer.tagline>",  "foundingDate": "2021",  "email": "info@cabanadata.com",  "telephone": "+506 8511-5245",  "address": { "@type": "PostalAddress", "addressLocality": "San José", "addressCountry": "CR" },  "areaServed": ["Costa Rica", "Latinoamérica"],  "sameAs": ["https://linkedin.com/company/cabanadata"],  "makesOffer": [    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ruta IA", "url": "https://cabanadata.com/ruta-ia" } },    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI First Move", "url": "https://cabanadata.com/ai-first-move" } }  ]}
 
-Además: un bloque `WebSite` con `name` y `url`. Cuando existan perfiles en Clutch o Consultancy.org, se agregan a `sameAs`.
+Además: un bloque WebSite con name y url. Cuando existan perfiles en Clutch o Consultancy.org, se agregan a sameAs. En makesOffer se agregan también las cuatro capacidades como Service con su URL: /capacidades/producto-digital, /capacidades/consultoria-de-datos, /capacidades/ingenieria-de-datos y /capacidades/agentes-ia-a-medida.
 
 ## Qué cambia respecto al Inicio actual
 
 | Hoy en el sitio | Qué pasa |
 | --- | --- |
-| Hero "Modernizamos la forma en que las organizaciones operan…" | Se reemplaza por la promesa y las dos puertas |
-| "Servicios que ofrecemos": 5 capacidades al mismo nivel | Dos servicios arriba; las 4 capacidades abajo, como respaldo |
-| Sección de Ruta IA con 6 dimensiones, "2 a 3 semanas" y enlace a `ruta-ai.cabanadata.com` | Se elimina. La tarjeta de Ruta IA enlaza a `/ruta-ia` |
-| "Socios Tecnológicos Clave" (logos de tecnologías) | Sale de Inicio. Pasa a `/capacidades` como "Las tecnologías con que trabajamos" |
-| Bloque de equipo | Sale de Inicio. Pasa a Cómo trabajamos o a Nosotros, según decida dirección |
-| Casos en tercera persona ("Cabana Data redujo…") | Tarjetas anónimas con cifra; el detalle vive en `/casos` |
-| Síntomas de datos, procesos e IA | Se conserva la estructura; se reorientan al problema de los servicios |
-| Tuteo ("¿Tu empresa está lista?", "Descúbrelo") | Usted en toda la página |
-| Meta keywords en inglés | Se eliminan |
-| "Agendar Consulta", "¡Conversemos! Habla con un experto hoy" | "Agendar una conversación" |
+
+Hero "Modernizamos la forma en que las organizaciones operan…" | Se reemplaza por la promesa de fundamentos y las tres puertas
+
+"Servicios que ofrecemos": 5 capacidades al mismo nivel | Capacidades arriba, con voz propia; los dos servicios en la sección de IA
+
+Sección de Ruta IA con 6 dimensiones, "2 a 3 semanas" y enlace a ruta-ai.cabanadata.com | Se elimina. La tarjeta de Ruta IA enlaza a /ruta-ia
+
+"Socios Tecnológicos Clave" (logos de tecnologías) | Sale de Inicio. Pasa a /capacidades como "Las tecnologías con que trabajamos"
+
+Bloque de equipo | Sale de Inicio. Pasa a Cómo trabajamos o a Nosotros, según decida dirección
+
+Casos en tercera persona ("Cabana Data redujo…") | Tarjetas anónimas con cifra; el detalle vive en /casos
+
+Síntomas de datos, procesos e IA | Se conserva la estructura; un síntoma por puerta: sistema, datos e IA
+
+Tuteo ("¿Tu empresa está lista?", "Descúbrelo") | Usted en toda la página
+
+Meta keywords en inglés | Se eliminan
+
+"Agendar Consulta", "¡Conversemos! Habla con un experto hoy" | "Agendar una conversación"
 
 ## Pendientes para dirección
 
-- [x] **Logos de clientes:** DECIDIDO, se mantienen. La anonimidad aplica al texto de los casos: ningún caso lleva el nombre ni la marca del cliente.
-- [x] **Métrica del caso de reportería:** DECIDIDO, se quita "40 horas" y se usa "45 entidades de 8 plataformas", que es más realista.
-- [x] **Precio en Inicio:** DECIDIDO, sin precios. El precio es exclusivo de las páginas de servicio.
-- [x] **Enlaces de los casos:** DECIDIDO, hay un caso por capacidad. Inicio va primero; los casos se trabajan después y, mientras tanto, las tarjetas enlazan a la sección de caso de cada capacidad.
-- [ ] **Frase de definición (GEO):** "Cabana Data es una consultoría de datos e IA en Costa Rica…" está en tercera persona, que la guía evita en el cuerpo. Se propone usarla solo en footer, schema y meta.
-- [ ] **Title de 66 caracteres:** mismo caso que AI First Move. Confirmar si se acepta o se quita "| Cabana Data".
+- [x] Logos de clientes: DECIDIDO, se mantienen. La anonimidad aplica al texto de los casos: ningún caso lleva el nombre ni la marca del cliente.
+- [x] Métrica del caso de reportería: DECIDIDO, se quita "40 horas" y se usa "45 entidades de 8 plataformas", que es más realista.
+- [x] Precio en Inicio: DECIDIDO, sin precios. El precio es exclusivo de las páginas de servicio.
+- [x] Enlaces de los casos: DECIDIDO, hay un caso por capacidad. Inicio va primero; los casos se trabajan después y, mientras tanto, las tarjetas enlazan a la sección de caso de cada capacidad.
+- [ ] Frase de definición (GEO): se propone "Cabana Data es una consultoría de IA, software y datos en Costa Rica". Está en tercera persona, que la guía evita en el cuerpo, así que se usa solo en footer, schema y meta.
+- [x] Title: RESUELTO. El nuevo title tiene 61 caracteres y se publica completo.
+- [ ] Destino de "Ordenar mis datos": se propone Data Consulting por ser la puerta de entrada. Confirmar o cambiar a Data Engineering.
+- [ ] Keyword map: el término principal pasa de "consultoría de inteligencia artificial Costa Rica" a "consultoría de IA" con software y datos. Revisar contra el brief SEO de Drive antes de publicar.
+Revisado contra el checklist de la guía: usted en todo el texto; "oportunidades" para Ruta IA y "caso de uso" solo para AI First Move; sin business case, ROI, PoC, piloto ni agentes autónomos; sin precio parcial ni "desde"; sin códigos internos ni nombres de clientes en los casos; cada sección abre con su punto; una sola intención de búsqueda; "IA" solo en el title, el hero, el síntoma 3, la sección de IA, Custom AI Agents y un caso.
 
-Revisado contra el checklist de la guía: usted en todo el texto; "oportunidades" para Ruta IA y "caso de uso" solo para AI First Move; sin business case, ROI, PoC, piloto ni agentes autónomos; sin precio parcial ni "desde"; sin códigos internos ni nombres de clientes en los casos; cada sección abre con su punto; una sola intención de búsqueda, con enlaces a ambos servicios.
