@@ -80,6 +80,54 @@ function excerpt(text, index, length) {
 // content: glossary terms, meta lengths, es/en parity
 // ---------------------------------------------------------------------------
 
+// Dosis de IA (GUIA-TONO v2, B-039): config in rules.aiDose.
+function checkAiDose(tree, file, locale) {
+  const cfg = rules.aiDose;
+  if (!cfg?.pattern?.[locale]) return;
+  const word = termRegex({ pattern: cfg.pattern[locale], caseSensitive: true });
+  const products = (cfg.productNames ?? []).map((p) =>
+    termRegex({ pattern: p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), caseSensitive: true })
+  );
+  const mentions = (text) => {
+    const clean = products.reduce((t, re) => t.replace(re, ""), text);
+    return [...clean.matchAll(word)].length > 0;
+  };
+  const resolve = (path) => path.split(".").reduce((o, k) => o?.[k], tree);
+  const isHeading = (key) => (cfg.headingKeys ?? []).includes(key.split(".").pop());
+  const warn = (rule, key, message, text) =>
+    report("content", cfg.severity ?? "warning", message, { rule, file, locale, key, excerpt: text });
+
+  for (const { path, sections } of cfg.budget ?? []) {
+    const node = resolve(path);
+    if (!node) continue;
+    const hits = new Map();
+    for (const [key, text] of leaves(node, path)) {
+      if (!isHeading(key) || !mentions(text)) continue;
+      const section = key.slice(path.length + 1).split(".")[0];
+      hits.set(section, [...(hits.get(section) ?? []), [key, text]]);
+    }
+    for (const [section, list] of hits) {
+      const max = section in sections ? sections[section] : 0;
+      if (max === null || list.length <= max) continue;
+      for (const [key, text] of list.slice(max)) {
+        warn("ia-dosis-encabezados", key, `"${cfg.pattern[locale]}" en un encabezado de ${path}.${section} (máx. ${max} en esa sección). Los demás títulos hablan de sistemas, datos y método (GUIA-TONO v2, Dosis de IA).`, text);
+      }
+    }
+  }
+
+  for (const { path, keys } of cfg.restricted ?? []) {
+    for (const rel of keys) {
+      const full = `${path}.${rel}`;
+      const node = resolve(full);
+      if (node === undefined) continue;
+      for (const [key, text] of leaves(node, full)) {
+        if (!mentions(text)) continue;
+        warn("ia-dosis-title-hero", key, `"${cfg.pattern[locale]}" en el title o el hero de ${path}: aquí la IA entra al final, como lo que la base hace posible (GUIA-TONO v2, Dosis de IA).`, text);
+      }
+    }
+  }
+}
+
 function checkContent() {
   const locales = ["es", "en"];
   const messages = Object.fromEntries(
@@ -137,6 +185,8 @@ function checkContent() {
         }
       }
     }
+
+    checkAiDose(messages[locale], file, locale);
 
     for (const [title, keys] of titles) {
       if (keys.length > 1) {
