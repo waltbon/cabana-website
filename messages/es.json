@@ -2462,13 +2462,13 @@
     "digitalProduct": {
       "meta": {
         "title": "Digital Product · Aplicaciones a la medida | Cabana Data",
-        "description": "Desarrollo de aplicaciones a la medida en Costa Rica: plataformas web y móviles construidas desde su proceso real, listas para producción.",
+        "description": "Modernización de sistemas y aplicaciones a la medida en Costa Rica: especificadas desde su proceso real, en producción y documentadas para su equipo.",
         "serviceType": "Desarrollo de aplicaciones a la medida"
       },
       "hero": {
         "name": "Digital Product",
-        "term": "Desarrollo de aplicaciones a la medida",
-        "subtitle": "Cuando la operación vive en correos, hojas de cálculo y personas clave, construimos la plataforma que su equipo necesita, a partir de cómo trabaja realmente.",
+        "term": "Modernización de sistemas y aplicaciones a la medida",
+        "subtitle": "Cuando su sistema actual ya no sigue el ritmo de la operación, o la operación vive en correos, hojas de cálculo y personas clave, lo reemplazamos con una aplicación especificada desde cómo trabaja su equipo, que su gente puede mantener.",
         "imageAlt": "Ilustración de una persona que pasa de un escritorio lleno de correos y hojas de cálculo a una aplicación ordenada.",
         "ctaSecondary": "Ver el caso"
       },
@@ -2484,8 +2484,8 @@
             "body": "Plantillas que no reflejan la lógica real de su negocio y se adaptan a medias."
           },
           {
-            "title": "Actualizar el sistema es un riesgo",
-            "body": "Despliegues manuales, sin entornos de prueba ni monitoreo."
+            "title": "Un sistema heredado que nadie se atreve a tocar",
+            "body": "Cada cambio es un riesgo: despliegues manuales, sin entornos de prueba ni monitoreo, y una lógica de negocio que nadie documentó."
           }
         ]
       },
@@ -2493,8 +2493,8 @@
         "title": "Qué hacemos",
         "items": [
           {
-            "title": "Descubrimiento y diseño",
-            "body": "Estudio de factibilidad, talleres de Design Thinking y diseño UX/UI, validados con su proceso real."
+            "title": "Especificación antes de construir",
+            "body": "Documentamos la lógica de negocio y los flujos reales, con estudio de factibilidad y diseño UX/UI validados con su equipo antes de escribir código."
           },
           {
             "title": "Construcción web y móvil",
@@ -2506,7 +2506,7 @@
           }
         ]
       },
-      "proof": "Entregamos por partes y validamos con su equipo en cada entrega, no al final de meses de trabajo.",
+      "proof": "Entregamos por partes y validamos con su equipo en cada entrega. Al final, lo construido queda en producción y documentado para que su equipo lo opere.",
       "case": {
         "industry": "Caso · Bebidas y distribución",
         "body": "Una plataforma a la medida para seguir la cuota de ventas, con inicio de sesión único y datos sincronizados cada día.",

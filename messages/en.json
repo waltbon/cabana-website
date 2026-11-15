@@ -2462,13 +2462,13 @@
     "digitalProduct": {
       "meta": {
         "title": "Digital Product · Custom applications | Cabana Data",
-        "description": "Custom application development in Costa Rica: web and mobile platforms built from your real process, ready for production.",
+        "description": "System modernization and custom applications in Costa Rica: specified from your real process, in production and documented for your team.",
         "serviceType": "Custom application development"
       },
       "hero": {
         "name": "Digital Product",
-        "term": "Custom application development",
-        "subtitle": "When the operation lives in emails, spreadsheets and key people, we build the platform your team needs, based on how it actually works.",
+        "term": "System modernization and custom applications",
+        "subtitle": "When your current system no longer keeps pace with the operation, or the operation lives in emails, spreadsheets and key people, we replace it with an application specified from how your team works, that your people can maintain.",
         "imageAlt": "Illustration of a person moving from a desk full of emails and spreadsheets to a tidy application.",
         "ctaSecondary": "See the case"
       },
@@ -2484,8 +2484,8 @@
             "body": "Templates that don't reflect the real logic of your business and only half fit."
           },
           {
-            "title": "Updating the system is a risk",
-            "body": "Manual deployments, with no test environments or monitoring."
+            "title": "A legacy system nobody dares to touch",
+            "body": "Every change is a risk: manual deployments, no test environments or monitoring, and business logic nobody documented."
           }
         ]
       },
@@ -2493,8 +2493,8 @@
         "title": "What we do",
         "items": [
           {
-            "title": "Discovery and design",
-            "body": "Feasibility study, Design Thinking workshops and UX/UI design, validated against your real process."
+            "title": "Specification before building",
+            "body": "We document the business logic and real workflows, with a feasibility study and UX/UI design validated with your team before writing code."
           },
           {
             "title": "Web and mobile build",
@@ -2506,7 +2506,7 @@
           }
         ]
       },
-      "proof": "We deliver in increments and validate with your team at every delivery, not at the end of months of work.",
+      "proof": "We deliver in increments and validate with your team at every delivery. At the end, what we build is in production and documented for your team to run.",
       "case": {
         "industry": "Case · Beverages and distribution",
         "body": "A custom platform to track the sales quota, with single sign-on and data synced every day.",
