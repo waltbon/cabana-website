@@ -39,7 +39,7 @@ Estados: `abierta` · `decidida` · `descartada`.
 | C12 | `/about`, `/careers`, `/privacidad` fuera de la arquitectura objetivo | `/about`: D-009 (se retira, 301 a `/como-trabajamos`). `/careers` y `/privacidad` siguen sin decidir | abierta |
 | C13 | GUIA-TONO v2 (2026-11-15): "IA" no va en title ni primer párrafo de Cómo trabajamos, Data Consulting, Data Engineering ni Digital Product, pero D-011 fija "IA con supervisión humana" como secundario de `/como-trabajamos` y `/capacidades` apuntaba a "consultoría de datos e IA" | Guía: se quita el secundario (Q14, 2026-11-15) | decidida |
 | C14 | GUIA-TONO v2 no cubre inglés: ¿la dosis de IA y el término de Inicio ("AI, software and data consulting") aplican a `/en`? | Sí, se aplica igual en inglés (Q15, 2026-11-15) | decidida |
-| C15 | GUIA-TONO v2 cita el brief de Marketing v1.1; el repo tiene `BRIEF-MARKETING.md` v1.0 | — | abierta |
+| C15 | GUIA-TONO v2 cita el brief de Marketing v1.1; el repo tenía `BRIEF-MARKETING.md` v1.0 | Brief v1.1 (15 nov 2026) incorporado al repo (Q16) | decidida |
 
 ## Preguntas abiertas para dirección (`03-resumen.md` §3)
 
@@ -60,4 +60,4 @@ Estados: `abierta` · `decidida` · `descartada`.
 | Q13 | `/services/dashboards-analytics-interfaces` ya responde 301 → `/capacidades/ingenieria-de-datos` en producción (lint `redirects` 2026-11-03, estado `applied`), pero Q10 lo lista como "por confirmar" y `redirects.csv` dice "alternativa: Digital Product; confirmar". ¿Se ratifica el destino Data Engineering o se cambia a Digital Product? Relacionada con Q6 (dónde queda "Dashboards y analítica"). Registrado el 2026-11-03 | Q10 (parte), Q6 | abierta |
 | Q14 | ¿Se quita "IA con supervisión humana" como secundario de `/como-trabajamos` (D-011) para cumplir la dosis de IA de GUIA-TONO v2? | C13, B-038 | decidida 2026-11-15: sí, se quita |
 | Q15 | ¿Se aplica GUIA-TONO v2 (tesis software + datos, dosis de IA) al sitio en inglés? | C14 | decidida 2026-11-15: sí |
-| Q16 | Compartir el brief de Marketing v1.1 para reemplazar `docs/content/BRIEF-MARKETING.md` | C15 | abierta: en Drive solo aparece "6M-01.2 - Brief para Marketing" v1.0 (25 oct); falta confirmar |
+| Q16 | Compartir el brief de Marketing v1.1 para reemplazar `docs/content/BRIEF-MARKETING.md` | C15 | decidida 2026-11-15: v1.1 compartida por dirección e incorporada |
