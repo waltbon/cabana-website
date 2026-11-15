@@ -1,0 +1,398 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "cabana ai"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 20.0,
+      "position": 7.8,
+      "query": "cabana ai"
+    },
+    {
+      "keys": [
+        "agencias de agentes ia a medida"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 56,
+      "query": "agencias de agentes ia a medida"
+    },
+    {
+      "keys": [
+        "agente ia a medida"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8,
+      "query": "agente ia a medida"
+    },
+    {
+      "keys": [
+        "agente ia personalizado"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 64.3,
+      "query": "agente ia personalizado"
+    },
+    {
+      "keys": [
+        "agentes de ia personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 47.8,
+      "query": "agentes de ia personalizados"
+    },
+    {
+      "keys": [
+        "agentes ia personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 51.5,
+      "query": "agentes ia personalizados"
+    },
+    {
+      "keys": [
+        "agentes personalizados"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 59,
+      "query": "agentes personalizados"
+    },
+    {
+      "keys": [
+        "ai agent op eigen data"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 93.5,
+      "query": "ai agent op eigen data"
+    },
+    {
+      "keys": [
+        "cabana"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8,
+      "query": "cabana"
+    },
+    {
+      "keys": [
+        "cabana app"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 61,
+      "query": "cabana app"
+    },
+    {
+      "keys": [
+        "cabana consultores"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 11.2,
+      "query": "cabana consultores"
+    },
+    {
+      "keys": [
+        "cabana software"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 33,
+      "query": "cabana software"
+    },
+    {
+      "keys": [
+        "consultoria data analytics"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 68,
+      "query": "consultoria data analytics"
+    },
+    {
+      "keys": [
+        "consultoria data centers"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "query": "consultoria data centers"
+    },
+    {
+      "keys": [
+        "consultoria de arquitectura de datos"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 61.1,
+      "query": "consultoria de arquitectura de datos"
+    },
+    {
+      "keys": [
+        "consultoria de calidad de datos"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 33.8,
+      "query": "consultoria de calidad de datos"
+    },
+    {
+      "keys": [
+        "consultoria de datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37,
+      "query": "consultoria de datos"
+    },
+    {
+      "keys": [
+        "consultoria de ingenieria de datos"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 38.7,
+      "query": "consultoria de ingenieria de datos"
+    },
+    {
+      "keys": [
+        "consultoria de pipelines de datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 59,
+      "query": "consultoria de pipelines de datos"
+    },
+    {
+      "keys": [
+        "consultoria en datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38,
+      "query": "consultoria en datos"
+    },
+    {
+      "keys": [
+        "consultor\u00eda bases de datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 71,
+      "query": "consultor\u00eda bases de datos"
+    },
+    {
+      "keys": [
+        "consultor\u00eda de datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28,
+      "query": "consultor\u00eda de datos"
+    },
+    {
+      "keys": [
+        "consultor\u00eda en ciencia de datos"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 79.8,
+      "query": "consultor\u00eda en ciencia de datos"
+    },
+    {
+      "keys": [
+        "consultor\u00eda en ingenier\u00eda de datos"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 65.6,
+      "query": "consultor\u00eda en ingenier\u00eda de datos"
+    },
+    {
+      "keys": [
+        "custom ia"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.3,
+      "query": "custom ia"
+    },
+    {
+      "keys": [
+        "data architecture consulting"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 68.6,
+      "query": "data architecture consulting"
+    },
+    {
+      "keys": [
+        "data consulting"
+      ],
+      "clicks": 0,
+      "impressions": 27,
+      "ctr": 0,
+      "position": 19.7,
+      "query": "data consulting"
+    },
+    {
+      "keys": [
+        "data consulting services"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27,
+      "query": "data consulting services"
+    },
+    {
+      "keys": [
+        "data engineering consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13,
+      "query": "data engineering consulting"
+    },
+    {
+      "keys": [
+        "data infrastructure consulting"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 89,
+      "query": "data infrastructure consulting"
+    },
+    {
+      "keys": [
+        "data modeling and architecture consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 85,
+      "query": "data modeling and architecture consulting"
+    },
+    {
+      "keys": [
+        "database consulting"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 84.2,
+      "query": "database consulting"
+    },
+    {
+      "keys": [
+        "database consulting solutions"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 83,
+      "query": "database consulting solutions"
+    },
+    {
+      "keys": [
+        "dataconsulting"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.7,
+      "query": "dataconsulting"
+    },
+    {
+      "keys": [
+        "ruta ia"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5,
+      "query": "ruta ia"
+    },
+    {
+      "keys": [
+        "servicio de visualizaci\u00f3n de datos y dashboards"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 82,
+      "query": "servicio de visualizaci\u00f3n de datos y dashboards"
+    },
+    {
+      "keys": [
+        "servicios de consultoria de arquitectura de datos"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 62.5,
+      "query": "servicios de consultoria de arquitectura de datos"
+    },
+    {
+      "keys": [
+        "servicios de consultoria de ingenieria de datos"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 48.2,
+      "query": "servicios de consultoria de ingenieria de datos"
+    }
+  ],
+  "totals": {
+    "clicks": 1,
+    "impressions": 163,
+    "ctr": 0.61,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 38,
+  "error": null,
+  "date_range": {
+    "start": "2026-11-06",
+    "end": "2026-11-12"
+  }
+}

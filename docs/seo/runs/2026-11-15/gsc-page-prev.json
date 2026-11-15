@@ -1,0 +1,268 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "https://cabanadata.com/en"
+      ],
+      "clicks": 3,
+      "impressions": 28,
+      "ctr": 10.71,
+      "position": 5.7,
+      "page": "https://cabanadata.com/en"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/"
+      ],
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 6.67,
+      "position": 17.7,
+      "page": "https://cabanadata.com/"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/ai-first-move"
+      ],
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 33.33,
+      "position": 7,
+      "page": "https://cabanadata.com/ai-first-move"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/about"
+      ],
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 18.9,
+      "page": "https://cabanadata.com/about"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 68.4,
+      "page": "https://cabanadata.com/capacidades"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/agentes-ia-a-medida"
+      ],
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 32.5,
+      "page": "https://cabanadata.com/capacidades/agentes-ia-a-medida"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/consultoria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 36,
+      "ctr": 0,
+      "position": 38.6,
+      "page": "https://cabanadata.com/capacidades/consultoria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/ingenieria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 39.3,
+      "page": "https://cabanadata.com/capacidades/ingenieria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/producto-digital"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "page": "https://cabanadata.com/capacidades/producto-digital"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/contact"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "page": "https://cabanadata.com/contact"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/ai-first-move"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3.5,
+      "page": "https://cabanadata.com/en/ai-first-move"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 8.2,
+      "page": "https://cabanadata.com/en/capacidades"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/agentes-ia-a-medida"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 41.8,
+      "page": "https://cabanadata.com/en/capacidades/agentes-ia-a-medida"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/consultoria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 89,
+      "ctr": 0,
+      "position": 78.9,
+      "page": "https://cabanadata.com/en/capacidades/consultoria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/ingenieria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/en/capacidades/ingenieria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/producto-digital"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 7.5,
+      "page": "https://cabanadata.com/en/capacidades/producto-digital"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/posts?category=ai"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/en/posts?category=ai"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/data-analytics-use-case"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/en/services/data-analytics-use-case"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/posts"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/posts"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/posts/metodologia-aer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "page": "https://cabanadata.com/posts/metodologia-aer"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/privacidad"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "page": "https://cabanadata.com/privacidad"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/ruta-ia"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 6.4,
+      "page": "https://cabanadata.com/ruta-ia"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 14.6,
+      "page": "https://cabanadata.com/services"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services/dashboards-analytics-interfaces"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6,
+      "page": "https://cabanadata.com/services/dashboards-analytics-interfaces"
+    },
+    {
+      "keys": [
+        "https://ruta-ai.cabanadata.com/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5,
+      "page": "https://ruta-ai.cabanadata.com/"
+    }
+  ],
+  "totals": {
+    "clicks": 5,
+    "impressions": 288,
+    "ctr": 1.74,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 25,
+  "error": null,
+  "date_range": {
+    "start": "2026-10-30",
+    "end": "2026-11-05"
+  }
+}
