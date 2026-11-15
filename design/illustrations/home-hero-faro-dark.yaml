@@ -1,0 +1,90 @@
+# Escena — Hero del home "faro sobre roca" (tema dark)
+# Estilo: ../illustration-style-doodle.yaml (cabana-ink-doodle v1)
+# Sustituye: public/home/hero-compass.webp (app/[locale]/_components/hero-section.tsx)
+# Mensaje: "Primero una base sólida. Después, IA que funciona."
+#
+# Contenedor: bg-cabana-dark (#0f172a), next/image con object-cover.
+#   - Desktop: ~38% del ancho, ~520-620 px de alto -> casi cuadrado, recortado por el borde diagonal.
+#   - Mobile: cuadrado a ancho completo.
+# Por eso: formato 1:1, fondo opaco del mismo navy (sin recorte), todo lo importante
+# dentro del 60% central; márgenes solo con olas, destellos y flechas.
+
+style_ref: cabana-ink-doodle
+theme: dark
+background: solid          # #0f172a, idéntico al contenedor: se funde sin bordes
+composition: single
+aspect_ratio: "1:1"
+export:
+  size: "2000x2000"
+  format: webp
+  path: public/home/hero-faro.webp
+safe_zone: "60% central; márgenes solo con olas, destellos y flechas"
+accent_mode: highlight-one
+
+objects:
+  - element: roca
+    content: "base de roca grande abajo al centro, hecha de bloques de piedra cuadrados apilados en trama diagonal gruesa, con doble contorno; en tres bloques frontales, grabados en contorno simple, un cilindro de base de datos, un engranaje y una ventana de aplicación"
+    fill: hatch
+    accent: false
+  - element: mar
+    content: "olas como líneas onduladas de doble trazo a ambos lados de la roca, bajas, que no tapan los bloques"
+    fill: empty
+    accent: false
+  - element: faro
+    content: "torre del faro cónica sobre la roca, con doble contorno, dos franjas anchas en trama diagonal, una puerta y una ventana pequeña, galería con baranda y cabina de linterna arriba"
+    fill: hatch
+    accent: false
+  - element: haz de luz
+    content: "haz de luz que sale de la linterna y se abre en cuña curva hacia la derecha y hacia arriba, con contorno de tinta y 2-3 destellos de cuatro puntas dentro y alrededor"
+    fill: solid
+    accent: true
+    accent_target: "el relleno del haz de luz (única pieza en verde); la linterna y la torre quedan sin verde"
+
+decor:
+  arrows: 2        # punteadas, color decor (#94a3b8), suben desde la base hacia la linterna, una con bucle
+  sparkles: 4      # junto al haz de luz y uno junto a la roca
+  badge: none
+
+colors:
+  background: "#0f172a"
+  ink: "#f1f5f9"
+  hatch: "#cbd5e1"
+  decor: "#94a3b8"
+  accent: "#57ff8f"
+  interiors: "#0f172a"   # interiores = fondo, nunca blanco ni crema
+
+prompt: >
+  Hand-drawn chalk-style doodle illustration on a flat solid dark navy #0f172a
+  background, square 1:1 composition. A lighthouse standing on a large rock
+  foundation made of stacked square stone blocks with thick diagonal hatching and
+  double-line contours; on three of the front blocks, simple engraved outlines of
+  a database cylinder, a gear and an application window. Low wavy double-line sea
+  waves on both sides of the rock. The lighthouse is a tall tapered tower with a
+  double-line contour, two wide diagonal-hatched stripes, a small door and a
+  small window, a railed gallery and a lantern room on top. A beam of light fans
+  out from the lantern as a curved wedge toward the upper right, outlined in
+  off-white, with two or three four-point sparkles inside and around it. Thick,
+  slightly wobbly off-white #f1f5f9 lines with double-line contours, diagonal
+  hatching in light gray #cbd5e1. All object interiors are the same dark navy
+  #0f172a as the background. Two curved dotted arrows in muted slate #94a3b8 rise
+  from the base toward the lantern, one with a small loop. Only the beam of light
+  filled with flat neon green #57ff8f, outlined in off-white; everything else
+  monochrome. Keep all key objects inside the central 60% of the frame. No text,
+  no letters, no words, no labels, no numbers anywhere. No gradients, no glow, no
+  shading, no realistic 3D, no people, no humanoid robot. Clean vector look,
+  generous margins.
+
+negative_prompt: >
+  text, letters, words, labels, numbers, typography, white background, black
+  background, cream, beige, paper texture, white fills, glow, neon glow, gradient,
+  vignette, light rays blur, photorealistic, 3d render, glossy, shadow, logos,
+  blue, multiple accent colors, green tower, green rock, green sea, background
+  scenery, clouds, birds, boats, perfect geometric lines, objects cut at edges,
+  people, humanoid robot
+
+# Post-proceso (dark)
+# - uv run ./design/tools/match-navy.py "<original>" "public/home/hero-faro.webp"
+#   (sin --crop: el formato debe quedar 1:1). Usar el archivo ORIGINAL, no una versión -transparent.
+# - Nombre nuevo (hero-faro.webp), no sobrescribir hero-compass.webp: next/image cachea por ruta.
+# - Actualizar alt (inicio.hero.imageAlt) en es y en: debe describir un faro sobre una roca de bloques con símbolos de datos, con un haz de luz que sale de arriba.
+# - Ojo: el haz verde es lo único con verde; si el generador pinta también la linterna o las olas, regenerar.
