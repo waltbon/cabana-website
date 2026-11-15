@@ -23,7 +23,7 @@ export async function generateMetadata({
   const url = `${siteConfig.site_domain}${localePath(locale)}`;
 
   return {
-    // The copy's title already ends in "| Cabana Data"; skip the layout template
+    // Home title is the guide's term alone (GUIA-TONO v2, <= 60 chars); skip the layout template
     title: { absolute: t("title") },
     description: t("description"),
     alternates: {

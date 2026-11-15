@@ -337,7 +337,7 @@
         "headline": "Claro, rápido y sin sorpresas",
         "duration": "2 a 3 semanas",
         "durationLabel": "Diagnóstico completo",
-        "price": "Desde $5,000 USD",
+        "price": "USD 12,000 + IVA",
         "priceLabel": "Precio introductorio",
         "description": "Trabajamos con su equipo de forma no invasiva. Sin interrumpir operaciones, sin acceso innecesario a sistemas. Solo las entrevistas técnicas y revisiones de arquitectura necesarias para darle un diagnóstico honesto."
       },
@@ -1638,7 +1638,7 @@
           },
           "cost": {
             "question": "¿Cuánto cuesta?",
-            "answer": "Varía según el formato (Ruta IA tiene precios desde USD 4,000; Agent Development se cotiza a medida)."
+            "answer": "Ruta IA tiene precio fijo: USD 12,000 + IVA. El desarrollo de agentes se cotiza a medida."
           }
         }
       },
@@ -2616,7 +2616,7 @@
   },
   "inicio": {
     "meta": {
-      "title": "Consultoría de IA, software y datos en Costa Rica | Cabana Data",
+      "title": "Consultoría de IA, software y datos en Costa Rica",
       "description": "Software a la medida, arquitectura de datos y consultoría de IA en Costa Rica. Especificamos, construimos y entregamos en producción.",
       "ogTitle": "Cabana Data: primero una base sólida, después IA que funciona",
       "ogDescription": "Aplicaciones a la medida y datos confiables para decidir. Sobre esa base, IA que llega a producción."

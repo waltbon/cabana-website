@@ -337,7 +337,7 @@
         "headline": "Clear, fast, and no surprises",
         "duration": "2 to 3 weeks",
         "durationLabel": "Full assessment",
-        "price": "Starting at $5,000 USD",
+        "price": "USD 12,000 + VAT",
         "priceLabel": "Introductory price",
         "description": "We work with your team in a non-invasive way. No disrupting operations, no unnecessary access to systems. Just the technical interviews and architecture reviews needed to give you an honest assessment."
       },
@@ -1638,7 +1638,7 @@
           },
           "cost": {
             "question": "How much does it cost?",
-            "answer": "It varies by format (Ruta IA starts at USD 4,000; Agent Development is quoted based on technical scope)."
+            "answer": "Ruta IA has a fixed price: USD 12,000 + VAT. Agent development is quoted case by case."
           }
         }
       },
@@ -2616,7 +2616,7 @@
   },
   "inicio": {
     "meta": {
-      "title": "AI, software and data consulting in Costa Rica | Cabana Data",
+      "title": "AI, software and data consulting in Costa Rica",
       "description": "Custom software, data architecture and AI consulting in Costa Rica. We specify, build and deliver to production.",
       "ogTitle": "Cabana Data: a solid foundation first, then AI that works",
       "ogDescription": "Custom applications and reliable data to decide with. On that foundation, AI that reaches production."
