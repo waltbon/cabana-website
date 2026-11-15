@@ -14,7 +14,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 | Frame | Archivo | Estado | Commit | Deuda |
 |---|---|---|---|---|
-| `PG/index` | `app/[locale]/page.tsx` | dibujado | `0ff1f25` | Enlaces subrayados del hero y de las tarjetas de servicios hechos a mano: falta la variante `Button/link` en el DS (`.pen` y código). Diagonales decorativas con `clip-path` arbitrario en código. Logos de clientes en escala de grises (`grayscale`) en código, a color en el `.pen`. Títulos de `capabilities` y `cases` (`text-2xl`, `text-lg`) fuera de la escala global de headings. |
+| `PG/index` | `app/[locale]/page.tsx` | dibujado | `b74f088` | Hero (tres puertas), síntomas (bento) y capacidades (tarjetas con ilustración) dibujados a mano: aún no son componentes del DS. Enlaces subrayados de las tarjetas de servicios hechos a mano: falta la variante `Button/link` en el DS (`.pen` y código). Diagonales decorativas con `clip-path` arbitrario en código. Logos de clientes en escala de grises (`grayscale`) en código, a color en el `.pen`. Título de `cases` (`text-2xl`) fuera de la escala global de headings. Ilustración del hero (brújula) pendiente de rehacer para "base sólida → IA". |
 | `PG/como-trabajamos` | `app/[locale]/como-trabajamos/page.tsx` (y `how-we-work` en en) | dibujado | `5bc0bbb` | Usa `Feature Item` (Numbered). Foto del fundador más pequeña en código (`f4384b0`) ya reflejada. `/about` retirado con 301 (D-009): sin baseline. |
 | `PG/contact` | `app/[locale]/contact/page.tsx` | pendiente | — | Dibujar estados del formulario: base, enviando, enviado, error. |
 | `PG/careers` | `app/[locale]/careers/page.tsx` | pendiente | — | — |
