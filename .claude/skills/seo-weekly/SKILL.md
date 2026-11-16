@@ -48,15 +48,15 @@ done
 **Drift** de las páginas objetivo contra su última baseline:
 
 ```bash
-for p in / /en /ruta-ia /ai-first-move /en/ai-first-move /capacidades /en/capacidades; do
+for p in / /en /ruta-ia /ai-first-move /en/ai-first-move /capacidades /en/capacidades /como-trabajamos /en/how-we-work; do
   $PY "$SEO/scripts/drift_compare.py" "https://cabanadata.com$p" --skip-cwv
 done > "$RUN/drift.txt" 2>&1
 ```
 
-**URL Inspection** de las páginas objetivo de STRATEGY §3 que existen hoy. Cuando se publique una ruta pendiente de §3 (`/como-trabajamos`, `/casos`, slugs propios en inglés), agrégala a esta lista y a la de drift. Son 7 consultas; la cuota es de 2000 por día y propiedad.
+**URL Inspection** de las páginas objetivo de STRATEGY §3 que existen hoy. Cuando se publique una ruta pendiente de §3 (`/casos`, slugs propios en inglés), agrégala a esta lista y a la de drift. Son 9 consultas; la cuota es de 2000 por día y propiedad.
 
 ```bash
-printf 'https://cabanadata.com%s\n' / /en /ruta-ia /ai-first-move /en/ai-first-move /capacidades /en/capacidades > "$RUN/inspect-urls.txt"
+printf 'https://cabanadata.com%s\n' / /en /ruta-ia /ai-first-move /en/ai-first-move /capacidades /en/capacidades /como-trabajamos /en/how-we-work > "$RUN/inspect-urls.txt"
 $PY "$SEO/scripts/gsc_inspect.py" --batch "$RUN/inspect-urls.txt" --site-url sc-domain:cabanadata.com --json > "$RUN/gsc-inspect.json"
 ```
 
