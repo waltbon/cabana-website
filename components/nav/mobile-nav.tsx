@@ -5,7 +5,7 @@ import * as React from "react";
 import { Link } from "@/i18n/navigation";
 
 // Utility Imports
-import { Menu, ArrowRightSquare } from "lucide-react";
+import { Menu, ArrowRightSquare, Mail, Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // Component Imports
@@ -21,7 +21,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 
 import { mainMenu, contentMenu } from "@/menu.config";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { localizedHref } from "@/lib/localized-paths";
 import { siteConfig } from "@/site.config";
 import { useContactDrawer } from "@/components/contact/contact-drawer-provider";
@@ -29,6 +29,7 @@ import { useContactDrawer } from "@/components/contact/contact-drawer-provider";
 export function MobileNav() {
   const [open, setOpen] = React.useState(false);
   const locale = useLocale();
+  const t = useTranslations("nav");
   const { openDrawer } = useContactDrawer();
 
   return (
@@ -141,6 +142,24 @@ export function MobileNav() {
                 </div>
               );
             })}
+            <h3 className="text-small pt-6">{t("writeUs")}</h3>
+            <Separator />
+            <a
+              href={`mailto:${siteConfig.site_email}`}
+              className="flex min-h-11 items-center gap-3 text-base font-medium text-primary"
+              aria-label={t("emailLabel")}
+            >
+              <Mail className="size-5" aria-hidden="true" />
+              {siteConfig.site_email}
+            </a>
+            <a
+              href={`tel:${siteConfig.site_phone.replace(/[^+\d]/g, "")}`}
+              className="flex min-h-11 items-center gap-3 text-base"
+              aria-label={t("phoneLabel")}
+            >
+              <Phone className="size-5" aria-hidden="true" />
+              {siteConfig.site_phone}
+            </a>
             <h3 className="text-small pt-6">Blog Menu</h3>
             <Separator />
             {Object.entries(contentMenu).map(([key, href]) => (

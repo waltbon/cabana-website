@@ -13,6 +13,6 @@ export const siteConfig: SiteConfig = {
     "Specialized Data Engineering and AI consulting for mid-market companies in Costa Rica and LATAM.",
   site_domain: "https://cabanadata.com",
   site_twitter: "@cabanadata",
-  site_email: "info@cabanadata.com",
+  site_email: "service@cabanadata.com",
   site_phone: "+506 8511-5245",
 };
