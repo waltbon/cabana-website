@@ -3,7 +3,7 @@ import type { AbstractIntlMessages } from "next-intl";
 // Namespaces that client components read on every page (nav, contact drawer,
 // blog search and sidebar). Server components read messages on the server, so
 // they are not sent to the browser.
-export const sharedClientNamespaces = ["nav", "footer", "common", "contact", "blog"] as const;
+export const sharedClientNamespaces = ["nav", "footer", "copy", "common", "contact", "blog"] as const;
 
 export function pickMessages(
   messages: AbstractIntlMessages,

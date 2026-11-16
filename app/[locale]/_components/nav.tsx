@@ -5,6 +5,7 @@ import { MobileNav } from "@/components/nav/mobile-nav";
 import { Button } from "@/components/ui/button";
 import { ThemeLogo } from "@/components/theme/theme-logo";
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { ContactLink } from "@/components/contact-link";
 import { Mail, Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/site.config";
@@ -34,22 +35,24 @@ export const Nav = ({ className, children, id }: NavProps) => {
     >
       <div className="hidden bg-cabana-dark md:block">
         <div className="container flex h-9 items-center justify-end gap-6 text-xs">
-          <a
-            href={`mailto:${siteConfig.site_email}`}
+          <ContactLink
+            kind="email"
+            value={siteConfig.site_email}
+            label={t("emailLabel")}
             className="flex items-center gap-2 font-medium text-white transition-colors hover:text-cabana-green"
-            aria-label={t("emailLabel")}
           >
             <Mail className="size-3.5 text-cabana-green" aria-hidden="true" />
             {siteConfig.site_email}
-          </a>
-          <a
-            href={`tel:${siteConfig.site_phone.replace(/[^+\d]/g, "")}`}
+          </ContactLink>
+          <ContactLink
+            kind="phone"
+            value={siteConfig.site_phone}
+            label={t("phoneLabel")}
             className="flex items-center gap-2 text-slate-300 transition-colors hover:text-white"
-            aria-label={t("phoneLabel")}
           >
             <Phone className="size-3.5 text-cabana-green" aria-hidden="true" />
             {siteConfig.site_phone}
-          </a>
+          </ContactLink>
         </div>
       </div>
       <div

@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/navigation";
+import { ContactLink } from "@/components/contact-link";
 import { ServiceLink } from "@/components/service-link";
 import { Section, Container } from "@/components/craft";
 import { siteConfig } from "@/site.config";
@@ -71,20 +72,22 @@ export const Footer = () => {
 
             <div className="flex items-center justify-between gap-6 md:justify-end">
               <div className="flex flex-col gap-1 md:flex-row md:gap-6">
-                <a
-                  href={`mailto:${siteConfig.site_email}`}
+                <ContactLink
+            kind="email"
+                  value={siteConfig.site_email}
+                  label={t("email")}
                   className={mutedLink}
-                  aria-label={t("email")}
                 >
                   {siteConfig.site_email}
-                </a>
-                <a
-                  href={`tel:${siteConfig.site_phone.replace(/[^+\d]/g, "")}`}
+                </ContactLink>
+                <ContactLink
+            kind="phone"
+                  value={siteConfig.site_phone}
+                  label={t("phone")}
                   className={mutedLink}
-                  aria-label={t("phone")}
                 >
                   {siteConfig.site_phone}
-                </a>
+                </ContactLink>
               </div>
               {socialLinks.map((social) => (
                 <a

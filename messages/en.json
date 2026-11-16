@@ -96,6 +96,10 @@
       }
     }
   },
+  "copy": {
+    "hint": "Copy to clipboard",
+    "done": "Copied!"
+  },
   "footer": {
     "links": {
       "rutaIa": "Ruta IA",
