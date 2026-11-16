@@ -1275,6 +1275,16 @@
                           "fontWeight": "normal"
                         },
                         {
+                          "type": "icon",
+                          "id": "DDWjM",
+                          "name": "copiar",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "#ffffffb3"
+                        },
+                        {
                           "type": "text",
                           "id": "WaLE2",
                           "fill": "#cbd5e1",
@@ -1282,6 +1292,16 @@
                           "fontFamily": "$font-sans",
                           "fontSize": 14,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "LNeEH",
+                          "name": "copiar",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "copy",
+                          "library": "lucide",
+                          "fill": "#ffffffb3"
                         },
                         {
                           "type": "icon",
@@ -34917,6 +34937,16 @@
                   "fontFamily": "$font-sans",
                   "fontSize": 12,
                   "fontWeight": "500"
+                },
+                {
+                  "type": "icon",
+                  "id": "WhbOe",
+                  "name": "copiar",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "copy",
+                  "library": "lucide",
+                  "fill": "#ffffffb3"
                 }
               ]
             },
@@ -34946,6 +34976,16 @@
                   "fontFamily": "$font-sans",
                   "fontSize": 12,
                   "fontWeight": "normal"
+                },
+                {
+                  "type": "icon",
+                  "id": "h1AlTm",
+                  "name": "copiar",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "copy",
+                  "library": "lucide",
+                  "fill": "#ffffffb3"
                 }
               ]
             }
@@ -34956,6 +34996,44 @@
           "type": "ref",
           "ref": "T4uoY9",
           "width": "fill_container"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "f9bvEU",
+      "x": 0,
+      "y": 8148,
+      "name": "Tooltip",
+      "reusable": true,
+      "fill": "$background",
+      "cornerRadius": 6,
+      "stroke": "$border",
+      "strokeWidth": 1,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#0000001a",
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "blur": 8
+      },
+      "padding": [
+        6,
+        12
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "RSvGp",
+          "name": "Texto",
+          "fill": "$foreground",
+          "content": "Copiar en portapapeles",
+          "fontFamily": "$font-sans",
+          "fontSize": 12,
+          "fontWeight": "normal"
         }
       ]
     }
