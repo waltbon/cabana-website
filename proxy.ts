@@ -19,7 +19,6 @@ export const config = {
     // - static files (with extensions)
     // - llms.txt files
     // - ruta-ia (standalone landing page, outside next-intl routing)
-    // - generated icon routes (app/icon.tsx, app/apple-icon.tsx)
-    "/((?!api|_next|.*\\.[^/]+$|llms\\.txt|llms-full\\.txt|ruta-ia|icon$|apple-icon$).*)",
+    "/((?!api|_next|.*\\.[^/]+$|llms\\.txt|llms-full\\.txt|ruta-ia).*)",
   ],
 };
