@@ -43583,6 +43583,305 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "nwZ0r",
+          "x": 2200,
+          "y": 5800,
+          "name": "CH-web-v2/AI First Move · Plazo y alcance",
+          "width": 1440,
+          "fill": "$background",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "sjU0k",
+              "name": "H2",
+              "fill": "$foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Plazo y alcance claros",
+              "lineHeight": 1.11,
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "N842qf",
+              "name": "Items",
+              "width": 820,
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PCnLg",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "height": 170,
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RaN7J",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "xj2Jw",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "calendar-range",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dm6WA",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "10 semanas, en dos ciclos",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MSUd2",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "height": 170,
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Zz7Sg",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "UHJTA",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "box",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yNTsG",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Un caso de uso de tamaño pequeño o mediano, con datos que ya existen y son accesibles",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Zzp9m",
+          "x": 3760,
+          "y": 5800,
+          "name": "CH-web-v2/AI First Move · Plazo y alcance (móvil)",
+          "width": 390,
+          "fill": "$background",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            64,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "iJrkF",
+              "name": "H2",
+              "fill": "$foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Plazo y alcance claros",
+              "lineHeight": 1.11,
+              "fontFamily": "$font-sans",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "gs53a",
+              "name": "Items",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jxVCA",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Zr4jX",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ELOUK",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "calendar-range",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "JSfhU",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "10 semanas, en dos ciclos",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c7r1pE",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EkQms",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Rq57E",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "box",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "itjwt",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Un caso de uso de tamaño pequeño o mediano, con datos que ya existen y son accesibles",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

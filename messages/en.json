@@ -2078,7 +2078,7 @@
       "subtitle": "In 10 weeks you have the first use case running and the investment case to take the rest to the board, built with your team and with numbers from your own operation.",
       "facts": [
         "10 weeks, in two cycles",
-        "USD 24,500 + VAT, fixed price",
+        "Built with your team, with data that already exists",
         "Ends in production, run by your team"
       ],
       "ctaPrimary": "Book a conversation",
@@ -2089,7 +2089,7 @@
       "title": "When you know where to start, but approval is missing",
       "body": [
         "The decision-maker has already chosen the idea and there's conviction to move forward. What's missing is approval for a big project, and a document won't get it.",
-        "The board approves what it sees working. AI First Move gives you that evidence: a real use case in your operation and the numbers to fund the next ones."
+        "The board approves what it sees working. AI First Move gives you that evidence: a real use case in your operation, such as automating the analysis behind a decision that is made by hand today, and the numbers to fund the next ones."
       ],
       "bridge": "Ruta IA tells you where to start. AI First Move is starting."
     },
@@ -2151,20 +2151,16 @@
       "body": "One technical person, a few hours a week. Our team does the build, and your technical person takes part so they can operate the use case."
     },
     "pricing": {
-      "title": "One price, one use case, no surprises",
-      "price": "USD 24,500",
-      "tax": "+ VAT · fixed price",
+      "title": "Clear timeline and scope",
       "duration": "10 weeks, in two cycles",
-      "scope": "One small or medium use case, with data that already exists and is accessible",
-      "payment": "30% at the start, 40% at the end of cycle 1 and 30% at the end of cycle 2",
-      "cta": "Book a conversation"
+      "scope": "One small or medium use case, with data that already exists and is accessible"
     },
     "notFor": {
       "title": "When AI First Move isn't the starting point",
       "items": [
         "If the decision-maker hasn't chosen an idea yet, or there are several unranked ones, the starting point is Ruta IA.",
         "If you already have the decision, budget and mandate, a direct project is a better fit.",
-        "If your data isn't accessible today, a Data Engineering project should come first.",
+        "If your data isn't accessible today, a Data modernization project should come first.",
         "If you need a large use case or several at once, we quote it separately."
       ]
     },
@@ -2189,7 +2185,7 @@
         },
         {
           "question": "Do you need to build data infrastructure?",
-          "answer": "No. The use case uses data that already exists and is accessible. If your data isn't ready, a Data Engineering project should come first."
+          "answer": "No. The use case uses data that already exists and is accessible. If your data isn't ready, a Data modernization project should come first."
         },
         {
           "question": "Why does a person approve what the AI proposes?",

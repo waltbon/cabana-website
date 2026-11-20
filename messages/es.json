@@ -2062,7 +2062,7 @@
       "subtitle": "En 10 semanas tiene el primer caso funcionando y el caso de inversión para llevar el resto a junta, construido con su equipo y con números de su propia operación.",
       "facts": [
         "10 semanas, en dos ciclos",
-        "USD 24,500 + IVA, precio fijo",
+        "Construido con su equipo, con datos que ya existen",
         "Termina en producción, operado por su equipo"
       ],
       "ctaPrimary": "Agendar una conversación",
@@ -2073,7 +2073,7 @@
       "title": "Cuando ya saben por dónde empezar, pero falta la aprobación",
       "body": [
         "Quien decide ya eligió la idea y hay convicción de avanzar. Lo que no hay es aprobación para un proyecto grande, y un documento no la va a conseguir.",
-        "La junta aprueba lo que ve funcionando. AI First Move le da esa evidencia: un caso real en su operación y los números para financiar los siguientes."
+        "La junta aprueba lo que ve funcionando. AI First Move le da esa evidencia: un caso real en su operación, como automatizar el análisis de una decisión que hoy se toma a mano, y los números para financiar los siguientes."
       ],
       "bridge": "Ruta IA le dice por dónde empezar. AI First Move es empezar."
     },
@@ -2135,20 +2135,16 @@
       "body": "Una persona técnica, unas horas por semana. La construcción la hace nuestro equipo, y su persona técnica participa para quedar capaz de operar el caso."
     },
     "pricing": {
-      "title": "Un precio, un caso, sin sorpresas",
-      "price": "USD 24,500",
-      "tax": "+ IVA · precio fijo",
+      "title": "Plazo y alcance claros",
       "duration": "10 semanas, en dos ciclos",
-      "scope": "Un caso de uso de tamaño pequeño o mediano, con datos que ya existen y son accesibles",
-      "payment": "30 % al inicio, 40 % al cierre del ciclo 1 y 30 % al cierre del ciclo 2",
-      "cta": "Agendar una conversación"
+      "scope": "Un caso de uso de tamaño pequeño o mediano, con datos que ya existen y son accesibles"
     },
     "notFor": {
       "title": "Cuándo AI First Move no es el punto de partida",
       "items": [
         "Si todavía no hay una idea elegida por quien decide, o hay varias sin ordenar, el punto de partida es Ruta IA.",
         "Si ya tiene decisión, presupuesto y mandato, conviene un proyecto directo.",
-        "Si sus datos no son accesibles hoy, primero conviene un proyecto de Data Engineering.",
+        "Si sus datos no son accesibles hoy, primero conviene un proyecto de Modernización de datos.",
         "Si necesita un caso grande o varios a la vez, lo cotizamos a medida."
       ]
     },
@@ -2173,7 +2169,7 @@
         },
         {
           "question": "¿Necesitan construir infraestructura de datos?",
-          "answer": "No. El caso usa datos que ya existen y son accesibles. Si sus datos no están listos, primero conviene un proyecto de Data Engineering."
+          "answer": "No. El caso usa datos que ya existen y son accesibles. Si sus datos no están listos, primero conviene un proyecto de Modernización de datos."
         },
         {
           "question": "¿Por qué una persona aprueba lo que propone la IA?",
