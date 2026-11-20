@@ -3040,5 +3040,579 @@
       "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos por dónde conviene empezar.",
       "button": "Agendar una conversación"
     }
+  },
+  "areasImpacto": {
+    "modernizacion-de-datos": {
+      "hero": {
+        "eyebrow": "Modernización de datos",
+        "title": "Modernización de datos: decida con datos al día, no con los de la semana pasada",
+        "subtitle": "Llevamos sus datos a una sola fuente confiable en la nube, con integraciones automáticas y analítica que se actualiza sola, operada por su equipo.",
+        "facts": [
+          "Data warehouse en la nube",
+          "Integraciones automáticas entre sus sistemas",
+          "Gobierno de datos y documentación"
+        ],
+        "cta": "Agendar una conversación"
+      },
+      "moment": {
+        "title": "Cuando cada área llega con su propio número",
+        "body": [
+          "Los reportes se arman a mano en hojas de cálculo. Los sistemas no se hablan y cada área llega a la reunión con una cifra distinta.",
+          "La dirección decide con datos de la semana pasada, y el equipo pasa más tiempo juntando información que analizándola."
+        ]
+      },
+      "change": {
+        "title": "Lo que cambia en su empresa",
+        "items": [
+          "Una sola fuente de datos confiable para toda la empresa.",
+          "Integraciones que corren solas, sin copiar y pegar entre sistemas.",
+          "Reportes y tableros que se actualizan sin intervención.",
+          "Reglas claras sobre de dónde sale cada número y quién puede verlo.",
+          "Una base que acelera la IA que venga después, sin ser condición para empezar."
+        ]
+      },
+      "services": {
+        "title": "Qué construimos",
+        "items": [
+          {
+            "title": "Data warehouse en la nube",
+            "body": "Centralizamos sus datos en Google BigQuery o en la plataforma que mejor se ajuste a su operación."
+          },
+          {
+            "title": "Integraciones automáticas",
+            "body": "Conectamos sus sistemas (ERP, CRM, plataformas digitales) para que los datos lleguen solos y a tiempo."
+          },
+          {
+            "title": "Modelo y gobierno de datos",
+            "body": "Definimos cómo se calcula cada métrica, quién es dueño de cada dato y quién tiene acceso."
+          },
+          {
+            "title": "Tableros para la dirección",
+            "body": "Convertimos los datos en tableros (dashboards) que su equipo usa a diario para decidir."
+          }
+        ]
+      },
+      "process": {
+        "title": "Cómo lo hacemos",
+        "steps": [
+          {
+            "title": "Entendemos",
+            "body": "Revisamos sus sistemas y conversamos con quienes usan los datos para decidir."
+          },
+          {
+            "title": "Especificamos",
+            "body": "Documentamos fuentes, métricas y reglas antes de construir."
+          },
+          {
+            "title": "Construimos con su equipo",
+            "body": "Montamos el data warehouse, las integraciones y los tableros, con su área de tecnología adentro."
+          },
+          {
+            "title": "Dejamos operando",
+            "body": "Entregamos en producción y documentado. Su equipo queda capaz de mantenerlo y extenderlo."
+          }
+        ]
+      },
+      "case": {
+        "eyebrow": "Caso",
+        "industry": "Medios y publicidad digital",
+        "title": "Toda la analítica en una sola fuente",
+        "metric": "45 entidades de 8 plataformas",
+        "metricLabel": "digitales, automatizadas en Google BigQuery",
+        "body": "Llevamos toda su estructura analítica a Google BigQuery y automatizamos la integración de datos esencial de su cadena de valor."
+      },
+      "bridge": {
+        "title": "¿Y la IA?",
+        "body": "No necesita terminar este proyecto para empezar con IA. Puede avanzar en paralelo.",
+        "items": [
+          "Si quiere saber qué hacer con IA, Ruta IA lo define en 4 semanas.",
+          "Si ya tiene una idea elegida, AI First Move la pone en producción en 10 semanas."
+        ],
+        "ctaRutaIa": "Ver Ruta IA",
+        "ctaAiFirstMove": "Ver AI First Move"
+      },
+      "faq": [
+        {
+          "question": "¿Tenemos que migrar todo de una vez?",
+          "answer": "No. Empezamos por las fuentes y métricas que más pesan en sus decisiones, y sumamos el resto por etapas."
+        },
+        {
+          "question": "¿Solo trabajan con Google BigQuery?",
+          "answer": "Es la plataforma que más usamos. Elegimos la que mejor se ajuste a su operación y a lo que su área de tecnología puede mantener."
+        },
+        {
+          "question": "¿Quién mantiene la solución después?",
+          "answer": "Su equipo. La dejamos documentada para que pueda operarla y extenderla."
+        },
+        {
+          "question": "¿Necesito esto antes de aplicar IA?",
+          "answer": "No. Tiene valor propio: decidir con datos al día. Si ya hay una idea de IA lista, puede avanzar en paralelo."
+        }
+      ],
+      "cta": {
+        "title": "¿Cuánto tiempo pierde hoy su equipo juntando datos?",
+        "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos sus fuentes y por dónde conviene empezar.",
+        "button": "Agendar una conversación"
+      }
+    },
+    "conocimiento-empresarial": {
+      "hero": {
+        "eyebrow": "Conocimiento empresarial disponible",
+        "title": "Conocimiento empresarial disponible: respuestas con fuente, sin interrumpir a nadie",
+        "subtitle": "Conectamos un asistente de IA a sus documentos internos y sistemas para que su gente consulte lo que la empresa sabe en lenguaje natural, con la fuente citada y los permisos de cada persona respetados.",
+        "facts": [
+          "Asistentes internos con IA",
+          "Respuestas que citan la fuente",
+          "Acceso según los permisos de cada persona"
+        ],
+        "cta": "Agendar una conversación"
+      },
+      "moment": {
+        "title": "Cuando lo que la empresa sabe vive en pocas cabezas",
+        "body": [
+          "Las políticas, los procedimientos y los contratos están repartidos en carpetas, correos y sistemas. Encontrar una respuesta exige saber a quién preguntar.",
+          "Cada consulta interrumpe a alguien con experiencia, y una persona nueva tarda meses en ser productiva."
+        ]
+      },
+      "change": {
+        "title": "Lo que cambia en su empresa",
+        "items": [
+          "Su gente pregunta en lenguaje natural y recibe la respuesta, sin buscar carpeta por carpeta.",
+          "Cada respuesta cita el documento del que sale, para que se pueda verificar.",
+          "Cada persona ve solo lo que sus permisos le permiten ver.",
+          "Quienes más saben dejan de responder las mismas preguntas todos los días.",
+          "Las personas nuevas se ponen al día más rápido."
+        ]
+      },
+      "services": {
+        "title": "Qué construimos",
+        "items": [
+          {
+            "title": "Asistentes internos",
+            "body": "Un asistente conectado a sus documentos y sistemas, que responde las consultas de su equipo en lenguaje natural."
+          },
+          {
+            "title": "Control de acceso",
+            "body": "El asistente respeta los permisos que ya existen: nadie recibe información que no debería ver."
+          },
+          {
+            "title": "Evaluación de las respuestas",
+            "body": "Medimos qué tan precisas y completas son las respuestas antes de ponerlo en producción y mientras opera."
+          },
+          {
+            "title": "Mejora continua",
+            "body": "Sumamos fuentes nuevas y ajustamos el asistente con lo que su equipo reporta."
+          }
+        ]
+      },
+      "process": {
+        "title": "Cómo lo hacemos",
+        "steps": [
+          {
+            "title": "Entendemos",
+            "body": "Identificamos qué consultas se repiten, quién las responde hoy y dónde está la información."
+          },
+          {
+            "title": "Especificamos",
+            "body": "Definimos las fuentes, los permisos y los criterios de calidad de las respuestas antes de construir."
+          },
+          {
+            "title": "Construimos con su equipo",
+            "body": "Conectamos el asistente a sus documentos y sistemas con su área de tecnología adentro."
+          },
+          {
+            "title": "Dejamos operando",
+            "body": "Entregamos en producción, con la calidad medida y documentado. Su equipo queda capaz de operarlo y sumar fuentes."
+          }
+        ]
+      },
+      "case": {
+        "eyebrow": "Caso",
+        "industry": "Consultoría de marketing",
+        "title": "Cientos de estudios de marca, consultables en segundos",
+        "metric": "De 90 minutos a 30 segundos",
+        "metricLabel": "para encontrar y sintetizar una respuesta en cientos de estudios de marca y de mercado",
+        "body": "Construimos un asistente de IA que ubica la información relevante en cientos de estudios de la firma y sintetiza la respuesta, citando el estudio y la diapositiva de donde sale. Lo usan 130 personas cada día."
+      },
+      "bridge": {
+        "title": "¿Por dónde empezar?",
+        "body": "Si es su primer proyecto con IA, hay dos formas de arrancar.",
+        "items": [
+          "Si quiere saber qué hacer con IA, Ruta IA lo define en 4 semanas.",
+          "Si ya tiene una idea elegida, AI First Move la pone en producción en 10 semanas."
+        ],
+        "ctaRutaIa": "Ver Ruta IA",
+        "ctaAiFirstMove": "Ver AI First Move"
+      },
+      "faq": [
+        {
+          "question": "¿El asistente actúa por su cuenta?",
+          "answer": "No. Responde y cita la fuente. Las decisiones y las acciones siguen en manos de su equipo."
+        },
+        {
+          "question": "¿Qué pasa con la información confidencial?",
+          "answer": "El asistente respeta los permisos de cada persona. La arquitectura y la seguridad se definen y se aprueban con su área de tecnología."
+        },
+        {
+          "question": "¿Qué tan confiables son las respuestas?",
+          "answer": "Cada respuesta cita su fuente para que se pueda verificar, y medimos la calidad antes de producción y mientras opera. Si la información no está en sus documentos, el asistente lo indica y puede derivar la consulta a la persona que corresponde."
+        },
+        {
+          "question": "¿Tenemos que ordenar los documentos antes de empezar?",
+          "answer": "No. Empezamos con las fuentes que más se consultan, y lo que haga falta organizar se resuelve en el camino."
+        }
+      ],
+      "cta": {
+        "title": "¿Cuántas veces al día alguien interrumpe a su experto para preguntar lo mismo?",
+        "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué conocimiento conviene poner a disposición primero.",
+        "button": "Agendar una conversación"
+      }
+    },
+    "ciencia-de-datos-y-machine-learning": {
+      "hero": {
+        "eyebrow": "Ciencia de datos y machine learning",
+        "title": "Ciencia de datos y machine learning: decisiones con predicción, no con intuición",
+        "subtitle": "Llevamos modelos predictivos y alertas a su operación, enfocados en decisiones concretas y monitoreados en el tiempo. Del problema de negocio al modelo en producción.",
+        "facts": [
+          "Pronóstico y modelos predictivos",
+          "Detección de anomalías y riesgo",
+          "Modelos en producción, monitoreados"
+        ],
+        "cta": "Agendar una conversación"
+      },
+      "moment": {
+        "title": "Cuando decisiones importantes dependen de la intuición",
+        "body": [
+          "Cuánto producir, qué cliente está por irse, dónde hay un riesgo o un error que nadie ve. Son decisiones que se toman con análisis manual o con la experiencia de pocas personas.",
+          "La información para anticiparlas suele existir, pero nadie alcanza a analizarla a tiempo."
+        ]
+      },
+      "change": {
+        "title": "Lo que cambia en su empresa",
+        "items": [
+          "Predicciones integradas en la operación, en el momento en que se toma la decisión.",
+          "Alertas tempranas sobre riesgos, errores o cambios que antes se veían tarde.",
+          "Cada modelo atado a una decisión concreta y a quien la toma.",
+          "El modelo predice y recomienda; su equipo decide.",
+          "Modelos monitoreados: si su desempeño baja, se detecta y se ajusta."
+        ]
+      },
+      "services": {
+        "title": "Qué construimos",
+        "items": [
+          {
+            "title": "Pronóstico",
+            "body": "Anticipe demanda, ventas o inventario para decidir cuánto producir o comprar."
+          },
+          {
+            "title": "Detección de anomalías y riesgo",
+            "body": "Identifique transacciones, registros o comportamientos fuera de lo normal antes de que cuesten."
+          },
+          {
+            "title": "Clasificación y scoring",
+            "body": "Priorice clientes, solicitudes o casos según su probabilidad de comprar, irse o incumplir."
+          },
+          {
+            "title": "Optimización",
+            "body": "Asigne recursos, rutas o turnos con el mejor balance entre costo y servicio."
+          },
+          {
+            "title": "Visión por computadora",
+            "body": "Revise imágenes o video para detectar defectos, contar o clasificar sin hacerlo a ojo."
+          }
+        ]
+      },
+      "process": {
+        "title": "Cómo lo hacemos",
+        "steps": [
+          {
+            "title": "Entendemos",
+            "body": "Partimos de la decisión de negocio que se quiere mejorar y de quién la toma."
+          },
+          {
+            "title": "Especificamos",
+            "body": "Definimos qué debe predecir el modelo, con qué datos y cómo se medirá su acierto antes de construir."
+          },
+          {
+            "title": "Construimos con su equipo",
+            "body": "Entrenamos y validamos el modelo con sus datos, con su área de tecnología adentro."
+          },
+          {
+            "title": "Dejamos operando",
+            "body": "Lo integramos en la operación, monitoreado y documentado, con el proceso para reentrenarlo. Su equipo puede operarlo, o lo acompañamos nosotros."
+          }
+        ]
+      },
+      "case": {
+        "eyebrow": "Caso",
+        "industry": "Mercadeo digital",
+        "title": "Ajustar campañas con predicción, no a ojo",
+        "metric": "De 12-25% a 3-5%",
+        "metricLabel": "de desviación al anticipar el resultado de una campaña en curso",
+        "body": "Construimos un modelo que predice cómo se comportará una campaña al ajustar sus variables, con base en su histórico y un modelo de datos enriquecido. Sus analistas deciden cada ajuste con esa predicción."
+      },
+      "bridge": {
+        "title": "¿Por dónde empezar?",
+        "body": "Si es su primer proyecto con IA, hay dos formas de arrancar.",
+        "items": [
+          "Si tiene varias decisiones candidatas, Ruta IA define en 4 semanas cuál conviene mejorar primero.",
+          "Si ya eligió la decisión, AI First Move pone su análisis y su recomendación en producción en 10 semanas."
+        ],
+        "ctaRutaIa": "Ver Ruta IA",
+        "ctaAiFirstMove": "Ver AI First Move"
+      },
+      "faq": [
+        {
+          "question": "¿Necesitamos muchos datos para empezar?",
+          "answer": "No necesariamente. Al inicio revisamos qué datos existen y si alcanzan para la decisión que quiere mejorar. Si falta algo, se resuelve como parte del plan."
+        },
+        {
+          "question": "¿El modelo decide por nosotros?",
+          "answer": "No. Predice, alerta y recomienda; su equipo decide."
+        },
+        {
+          "question": "¿Cómo sabemos si el modelo funciona?",
+          "answer": "Antes de construir acordamos cómo se mide su acierto, y lo monitoreamos en producción para detectar si su desempeño baja."
+        },
+        {
+          "question": "¿Quién mantiene el modelo después?",
+          "answer": "Su equipo puede hacerlo: lo dejamos documentado, con monitoreo y el proceso para reentrenarlo. Si lo prefiere, lo acompañamos en la operación y el reentrenamiento como parte de un servicio."
+        }
+      ],
+      "cta": {
+        "title": "¿Qué decisión de su empresa todavía depende de la intuición?",
+        "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué decisión conviene mejorar primero y con qué datos.",
+        "button": "Agendar una conversación"
+      }
+    },
+    "automatizacion-con-agentes-de-ia": {
+      "hero": {
+        "eyebrow": "Automatización con agentes de IA",
+        "title": "Automatización con agentes de IA: menos horas preparando decisiones, más tiempo para tomarlas",
+        "subtitle": "Diseñamos agentes de IA que leen, analizan y cruzan la información de sus sistemas para preparar cada decisión. Su equipo revisa y aprueba.",
+        "facts": [
+          "Rediseño del flujo de trabajo",
+          "Agentes conectados a sus sistemas",
+          "Aprobación de su equipo antes de cada acción"
+        ],
+        "cta": "Agendar una conversación"
+      },
+      "moment": {
+        "title": "Cuando su equipo pasa el día revisando, clasificando y conciliando",
+        "body": [
+          "Revisar solicitudes, clasificar documentos, conciliar información entre sistemas, preparar respuestas. Son tareas repetitivas, pero exigen criterio, y por eso siguen haciéndose a mano.",
+          "Las personas que mejor conocen el negocio pasan horas reuniendo información, y les queda poco tiempo para analizarla y decidir."
+        ]
+      },
+      "change": {
+        "title": "Lo que cambia en su empresa",
+        "items": [
+          "El análisis y la recomendación de cada caso llegan listos para revisar.",
+          "La información que hoy se busca en varios sistemas se reúne sola.",
+          "La IA propone, su equipo decide: cada recomendación pasa por una persona antes de actuar.",
+          "El proceso se rediseña, no solo se acelera: menos pasos y menos traspasos.",
+          "Cada recomendación y cada aprobación quedan registradas."
+        ]
+      },
+      "services": {
+        "title": "Qué construimos",
+        "items": [
+          {
+            "title": "Rediseño del flujo de trabajo",
+            "body": "Revisamos el proceso con quienes lo ejecutan y definimos qué prepara la IA y qué decide su equipo."
+          },
+          {
+            "title": "Agentes conectados a sus sistemas",
+            "body": "Los agentes leen y cruzan información de sus sistemas y documentos, con los permisos que su área de tecnología aprueba."
+          },
+          {
+            "title": "Puntos de aprobación",
+            "body": "Ninguna acción con efecto, como enviar, modificar registros o mover dinero, ocurre sin que una persona la apruebe."
+          },
+          {
+            "title": "Monitoreo y mejora",
+            "body": "Medimos la calidad de las recomendaciones y ajustamos los agentes con lo que su equipo corrige."
+          }
+        ]
+      },
+      "process": {
+        "title": "Cómo lo hacemos",
+        "steps": [
+          {
+            "title": "Entendemos",
+            "body": "Acompañamos el proceso como ocurre hoy y medimos dónde se va el tiempo."
+          },
+          {
+            "title": "Especificamos",
+            "body": "Documentamos el flujo rediseñado, las reglas de negocio y los puntos de aprobación antes de construir."
+          },
+          {
+            "title": "Construimos con su equipo",
+            "body": "Conectamos los agentes a sus sistemas con su área de tecnología adentro."
+          },
+          {
+            "title": "Dejamos operando",
+            "body": "Entregamos en producción, monitoreado y documentado. Su equipo queda capaz de operarlo y ajustarlo."
+          }
+        ]
+      },
+      "case": {
+        "eyebrow": "Caso",
+        "industry": "Marketing y publicidad",
+        "title": "El historial de campañas, listo en minutos",
+        "metric": "De 20 a 2 minutos",
+        "metricLabel": "para reunir el historial de campañas antes de diseñar una nueva",
+        "body": "Antes de diseñar una campaña, el equipo reunía a mano el historial de las anteriores. Ahora un agente de IA lo prepara y el equipo arranca con el contexto completo."
+      },
+      "bridge": {
+        "title": "¿Por dónde empezar?",
+        "body": "Si es su primer proyecto con agentes de IA, hay dos formas de arrancar.",
+        "items": [
+          "Si tiene varios procesos candidatos, Ruta IA define en 4 semanas cuál conviene automatizar primero.",
+          "Si ya eligió el proceso, AI First Move pone su análisis y su recomendación en producción en 10 semanas."
+        ],
+        "ctaRutaIa": "Ver Ruta IA",
+        "ctaAiFirstMove": "Ver AI First Move"
+      },
+      "faq": [
+        {
+          "question": "¿El agente toma decisiones por su cuenta?",
+          "answer": "No. Lee, analiza y recomienda. Una persona de su equipo aprueba antes de cualquier acción con efecto, como enviar, modificar registros o mover dinero."
+        },
+        {
+          "question": "¿Qué procesos conviene automatizar?",
+          "answer": "Los que se repiten y exigen criterio: revisar solicitudes, clasificar documentos, conciliar información entre sistemas o preparar respuestas. En la primera conversación revisamos cuál conviene primero."
+        },
+        {
+          "question": "¿Tenemos que cambiar nuestros sistemas?",
+          "answer": "No. Los agentes se conectan a los sistemas que ya usa, con los permisos que su área de tecnología aprueba."
+        },
+        {
+          "question": "¿Quién mantiene la solución después?",
+          "answer": "Su equipo. La dejamos monitoreada y documentada para que pueda operarla y ajustarla."
+        }
+      ],
+      "cta": {
+        "title": "¿Cuántas horas dedica su equipo a preparar decisiones?",
+        "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué proceso conviene automatizar primero.",
+        "button": "Agendar una conversación"
+      }
+    },
+    "productos-digitales": {
+      "hero": {
+        "eyebrow": "Productos digitales con IA integrada",
+        "title": "Productos digitales con IA integrada: software a la medida, especificado desde sus procesos",
+        "subtitle": "Construimos la aplicación que su operación necesita, o modernizamos el sistema que hoy la frena, con la IA como parte del diseño y no como un parche posterior.",
+        "facts": [
+          "Especificación antes de construir",
+          "Desarrollo web a la medida",
+          "Modernización de sistemas legacy"
+        ],
+        "cta": "Agendar una conversación"
+      },
+      "moment": {
+        "title": "Cuando el sistema frena la operación",
+        "body": [
+          "Un sistema antiguo obliga a su equipo a trabajar alrededor de él: datos en hojas de cálculo, pasos a mano y cambios que nadie se atreve a hacer.",
+          "O la empresa quiere lanzar un producto digital nuevo, y agregar la IA al final sale caro y funciona mal."
+        ]
+      },
+      "change": {
+        "title": "Lo que cambia en su empresa",
+        "items": [
+          "Una aplicación hecha para sus procesos reales, no al revés.",
+          "La IA integrada desde el diseño, donde aporta valor.",
+          "Un solo modelo de datos para todas las personas que usan el sistema.",
+          "El sistema antiguo se reemplaza por etapas, sin detener la operación.",
+          "Código y documentación que su equipo puede mantener y extender."
+        ]
+      },
+      "services": {
+        "title": "Qué construimos",
+        "items": [
+          {
+            "title": "Especificación y diseño de producto",
+            "body": "Documentamos procesos, reglas de negocio y pantallas antes de escribir código, para que lo construido sea lo que su operación necesita."
+          },
+          {
+            "title": "Desarrollo web a la medida",
+            "body": "Construimos la aplicación con tecnologías estándar que su área de tecnología puede mantener."
+          },
+          {
+            "title": "Modernización de sistemas legacy",
+            "body": "Reemplazamos el sistema que frena su operación sin perder la lógica de negocio que ya funciona."
+          },
+          {
+            "title": "IA en el núcleo del producto",
+            "body": "Integramos la IA donde es parte real del flujo de trabajo: recomendar, clasificar, redactar o responder consultas."
+          }
+        ]
+      },
+      "process": {
+        "title": "Cómo lo hacemos",
+        "steps": [
+          {
+            "title": "Entendemos",
+            "body": "Conversamos con quienes usan el sistema y revisamos los procesos y datos que lo alimentan."
+          },
+          {
+            "title": "Especificamos",
+            "body": "Definimos la lógica de negocio, el diseño y los criterios de aceptación antes de construir."
+          },
+          {
+            "title": "Construimos con su equipo",
+            "body": "Desarrollamos por entregas, con su área de tecnología revisando la arquitectura."
+          },
+          {
+            "title": "Dejamos operando",
+            "body": "Entregamos en producción y documentado. Su equipo queda capaz de mantenerlo y extenderlo."
+          }
+        ]
+      },
+      "case": {
+        "eyebrow": "Caso",
+        "industry": "Bebidas y distribución",
+        "title": "Una sola vista de la cuota de ventas",
+        "metric": "De 3 fuentes a 1",
+        "metricLabel": "para dar seguimiento a la cuota de ventas",
+        "body": "Construimos una aplicación con un único modelo de datos para agentes de ventas, supervisores y gerencia. Todos ven el mismo número, desde un solo lugar."
+      },
+      "bridge": {
+        "title": "¿Y la IA?",
+        "body": "Si todavía no sabe dónde aporta valor la IA en su producto o en su operación, hay dos formas de empezar.",
+        "items": [
+          "Si quiere saber qué hacer con IA, Ruta IA lo define en 4 semanas.",
+          "Si ya tiene una idea elegida, AI First Move la pone en producción en 10 semanas, sobre los sistemas que ya tiene."
+        ],
+        "ctaRutaIa": "Ver Ruta IA",
+        "ctaAiFirstMove": "Ver AI First Move"
+      },
+      "faq": [
+        {
+          "question": "¿Tenemos que reemplazar todo el sistema de una vez?",
+          "answer": "No. Empezamos por los procesos que más frenan la operación y reemplazamos el resto por etapas."
+        },
+        {
+          "question": "¿Todo lo que construyen lleva IA?",
+          "answer": "No. La integramos donde aporta valor real. Si una función se resuelve mejor sin IA, se construye sin IA."
+        },
+        {
+          "question": "¿Con qué tecnologías trabajan?",
+          "answer": "Con tecnologías web estándar y ampliamente usadas. La arquitectura se define y se aprueba con su área de tecnología."
+        },
+        {
+          "question": "¿Quién mantiene la aplicación después?",
+          "answer": "Su equipo. La entregamos documentada para que pueda operarla y extenderla."
+        }
+      ],
+      "cta": {
+        "title": "¿Qué sistema frena hoy a su equipo?",
+        "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos su situación y por dónde conviene empezar.",
+        "button": "Agendar una conversación"
+      }
+    },
+    "common": {
+      "faqTitle": "Preguntas frecuentes"
+    }
   }
 }

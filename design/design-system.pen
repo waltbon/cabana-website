@@ -35043,8 +35043,8 @@
       "x": 12690,
       "y": -858,
       "name": "CH-web-v2: pantallas",
-      "width": 2110,
-      "height": 7900,
+      "width": 4250,
+      "height": 8080,
       "fill": "#FFFFFF00",
       "layout": "none",
       "children": [
@@ -37559,7 +37559,7 @@
           "name": "CH-web-v2/Lo que hacemos (móvil)",
           "clip": true,
           "width": 390,
-          "height": 7740,
+          "height": 7920,
           "fill": "$background",
           "layout": "vertical",
           "children": [
@@ -39639,11 +39639,3540 @@
               ]
             },
             {
-              "id": "d6HcOB",
+              "type": "frame",
+              "id": "p7iN7X",
+              "name": "Footer",
+              "clip": true,
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                32,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qnYRo",
+                  "name": "Logo",
+                  "fill": "#ffffff",
+                  "content": "Cabana Data",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "xPjWJ",
+                  "name": "Links",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "P4jIAF",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Utlre",
+                          "fill": "#cbd5e1",
+                          "content": "Lo que hacemos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "a8guuB",
+                          "fill": "#cbd5e1",
+                          "content": "Cómo trabajamos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FRS2d",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OG4cS",
+                          "fill": "#cbd5e1",
+                          "content": "Blog",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PAguu",
+                          "fill": "#cbd5e1",
+                          "content": "Contacto",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E1lfFM",
+                  "name": "Contacto",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zOMvq",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m5IRc",
+                          "fill": "#cbd5e1",
+                          "content": "service@cabanadata.com",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l9Dil",
+                          "fill": "#cbd5e1",
+                          "content": "+506 8511-5245",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "eSiVX",
+                      "name": "linkedin",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "linkedin",
+                      "library": "lucide",
+                      "fill": "#ffffff"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "JScMc",
+                  "name": "Divider",
+                  "fill": "#ffffff1f",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "JwhP2",
+                  "name": "Franja legal",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CymUD",
+                      "fill": "#94a3b8",
+                      "content": "© 2026 cabanadata.com · San José, Costa Rica 🇨🇷",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "B1gxCR",
+                      "fill": "#94a3b8",
+                      "content": "Política de Privacidad",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AkQEb",
+          "x": 2200,
+          "y": 80,
+          "name": "CH-web-v2/Área · Modernización de datos",
+          "clip": true,
+          "width": 1440,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "YogCA",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container",
+              "descendants": {
+                "LOqM9": {
+                  "content": "Inicio"
+                },
+                "UtFss": {
+                  "content": "Cómo trabajamos"
+                },
+                "M85Al6": {
+                  "content": "Lo que hacemos"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "RwQRp",
+              "name": "Hero",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wS87f",
+                  "name": "Copy",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KlVQ0",
+                      "name": "Breadcrumb",
+                      "fill": "#94A3B8",
+                      "content": "Inicio  /  Lo que hacemos  /  Modernización de datos",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "O6HxS",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "MODERNIZACIÓN DE DATOS"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "xXpnx",
+                      "name": "H1",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Modernización de datos: decida con datos al día, no con los de la semana pasada",
+                      "lineHeight": 1.08,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 52,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lk8lF",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Llevamos sus datos a una sola fuente confiable en la nube, con integraciones automáticas y analítica que se actualiza sola, operada por su equipo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UwcCx",
+                      "name": "Facts",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "pKiqB",
+                          "name": "Fact",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "vg9U5",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$cabana-green"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zsopn",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Data warehouse en la nube",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aCv51",
+                          "name": "Fact",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "us0nI",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$cabana-green"
+                            },
+                            {
+                              "type": "text",
+                              "id": "udVSd",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Integraciones automáticas entre sus sistemas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Zas0Y",
+                          "name": "Fact",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "PDzRi",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$cabana-green"
+                            },
+                            {
+                              "type": "text",
+                              "id": "f6dwN9",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "content": "Gobierno de datos y documentación",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I0YqwW",
+                      "name": "CTAs",
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "id": "NRAi0",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "CTA primary",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "Agendar una conversación"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h2jR4I",
+                  "name": "Ilustración · capacidades-ingenieria-de-datos",
+                  "width": 480,
+                  "height": 468,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-ingenieria-de-datos.webp",
+                    "mode": "contain"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fGjJc",
+              "name": "Moment",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TUfjF",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": 440,
+                  "content": "Cuando cada área llega con su propio número",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "vzDpl",
+                  "name": "Body",
+                  "width": "fill_container",
+                  "stroke": "$cabana-green",
+                  "strokeWidth": {
+                    "left": 3
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZzHdA",
+                      "name": "P",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Los reportes se arman a mano en hojas de cálculo. Los sistemas no se hablan y cada área llega a la reunión con una cifra distinta.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sLtoa",
+                      "name": "P",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La dirección decide con datos de la semana pasada, y el equipo pasa más tiempo juntando información que analizándola.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nSWqn",
+              "name": "Change",
+              "width": "fill_container",
+              "fill": "$background",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K01oE",
+                  "name": "Left",
+                  "width": 440,
+                  "layout": "vertical",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q1kKAy",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": 440,
+                      "content": "Lo que cambia en su empresa",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "P9Te5",
+                      "name": "Ilustración · ai-first-move-deliverable-machine",
+                      "width": "fill_container",
+                      "height": 266,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/illustrations/ai-first-move-deliverable-machine.webp",
+                        "mode": "contain"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KoJxj",
+                  "name": "List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t986ux",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hYsUb",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "n0cyO",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "gDVQv",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Una sola fuente de datos confiable para toda la empresa.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DR3eo",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "gY8dY",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "bBoNS",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "tSUtu",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Integraciones que corren solas, sin copiar y pegar entre sistemas.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jjgiX",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "fyFzk",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "cuMN8",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "h6h3wA",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reportes y tableros que se actualizan sin intervención.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "D47JMg",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "n3cjg1",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "xGNjH",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "uPntk",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reglas claras sobre de dónde sale cada número y quién puede verlo.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wIJoY",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1,
+                        "bottom": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MqSwo",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "czhF7",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "X4CSHU",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Una base que acelera la IA que venga después, sin ser condición para empezar.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AUmWi",
+              "name": "Services",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AYZQn",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Qué construimos",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "RMftg",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FyW2K",
+                      "name": "Service",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 32,
+                      "padding": [
+                        28,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HiwqG",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "01",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "owV6c",
+                          "name": "Title",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": 360,
+                          "content": "Data warehouse en la nube",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Mvvyg",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Centralizamos sus datos en Google BigQuery o en la plataforma que mejor se ajuste a su operación.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Dk8Ui",
+                      "name": "Service",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 32,
+                      "padding": [
+                        28,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e4g2pN",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "02",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zEVHe",
+                          "name": "Title",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": 360,
+                          "content": "Integraciones automáticas",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oD0IT",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Conectamos sus sistemas (ERP, CRM, plataformas digitales) para que los datos lleguen solos y a tiempo.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cH8h8",
+                      "name": "Service",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 32,
+                      "padding": [
+                        28,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Nojr5",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "03",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "K4wIN",
+                          "name": "Title",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": 360,
+                          "content": "Modelo y gobierno de datos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "swfMi",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Definimos cómo se calcula cada métrica, quién es dueño de cada dato y quién tiene acceso.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i41vM",
+                      "name": "Service",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 32,
+                      "padding": [
+                        28,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yboYK",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "04",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xylnO",
+                          "name": "Title",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": 360,
+                          "content": "Tableros para la dirección",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "f6zuaw",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Convertimos los datos en tableros (dashboards) que su equipo usa a diario para decidir.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s0kJGy",
+              "name": "Process",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Znoms",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cómo lo hacemos",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "O6tKEz",
+                  "name": "Steps",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "id": "OIvcG",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Paso 1",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "01"
+                        },
+                        "BR2b1": {
+                          "content": "Entendemos"
+                        },
+                        "Izhpe": {
+                          "content": "Revisamos sus sistemas y conversamos con quienes usan los datos para decidir."
+                        }
+                      }
+                    },
+                    {
+                      "id": "AUvxo",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Paso 2",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "02"
+                        },
+                        "BR2b1": {
+                          "content": "Especificamos"
+                        },
+                        "Izhpe": {
+                          "content": "Documentamos fuentes, métricas y reglas antes de construir."
+                        }
+                      }
+                    },
+                    {
+                      "id": "g0KStw",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Paso 3",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "03"
+                        },
+                        "BR2b1": {
+                          "content": "Construimos con su equipo"
+                        },
+                        "Izhpe": {
+                          "content": "Montamos el data warehouse, las integraciones y los tableros, con su área de tecnología adentro."
+                        }
+                      }
+                    },
+                    {
+                      "id": "S6ojm",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Paso 4",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "04"
+                        },
+                        "BR2b1": {
+                          "content": "Dejamos operando"
+                        },
+                        "Izhpe": {
+                          "content": "Entregamos en producción y documentado. Su equipo queda capaz de mantenerlo y extenderlo."
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GzqLj",
+              "name": "Case",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uvULq",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "s8cZAP",
+                      "name": "Tags",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "V8sfF6",
+                          "type": "ref",
+                          "ref": "hn4I4",
+                          "name": "Eyebrow",
+                          "descendants": {
+                            "xmZiN": {
+                              "content": "CASO"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "nkgNt",
+                          "name": "Industry",
+                          "fill": "#94A3B8",
+                          "content": "Medios y publicidad digital",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "OLn45",
+                      "name": "Title",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Toda la analítica en una sola fuente",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dENwa",
+                      "name": "Body",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Llevamos toda su estructura analítica a Google BigQuery y automatizamos la integración de datos esencial de su cadena de valor.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pyTRI",
+                  "name": "Metric",
+                  "width": 440,
+                  "fill": "$cabana-dark-2",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$cabana-navy",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LfrKv",
+                      "name": "Accent",
+                      "width": 32,
+                      "height": 3,
+                      "fill": "$cabana-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tMdET",
+                      "name": "Value",
+                      "fill": "$cabana-green",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "45 entidades de 8 plataformas",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S6PiE",
+                      "name": "Label",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "digitales, automatizadas en Google BigQuery",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wrOc1",
+              "name": "Bridge",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XIcFd",
+                  "name": "Left",
+                  "width": 440,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n74rL",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "¿Y la IA?",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Igf7J",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No necesita terminar este proyecto para empezar con IA. Puede avanzar en paralelo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CcHfD",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ONw25",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "height": 175,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 28,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "F1V57",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Si quiere saber qué hacer con IA, Ruta IA lo define en 4 semanas.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ghPut",
+                          "name": "Link",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LWxs7",
+                              "name": "Label",
+                              "fill": "$cabana-blue",
+                              "content": "Ver Ruta IA",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "J63p8",
+                              "name": "Arrow",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cGf7j",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "height": 175,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 28,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "r5lIKP",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Si ya tiene una idea elegida, AI First Move la pone en producción en 10 semanas.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Qgr6t",
+                          "name": "Link",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lfnOF",
+                              "name": "Label",
+                              "fill": "$cabana-blue",
+                              "content": "Ver AI First Move",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "aHbnc",
+                              "name": "Arrow",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZcfFo",
+              "name": "FAQ",
+              "width": "fill_container",
+              "fill": "$background",
+              "gap": 80,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Nx5Qw",
+                  "name": "Left",
+                  "width": 400,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OXtlm",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Preguntas frecuentes",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H3sJt4",
+                  "name": "Accordion",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CFGtr",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Y9Lt9Z",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hUkIG",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Tenemos que migrar todo de una vez?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "ULUa5",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-up",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "bschF",
+                          "name": "Text",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "No. Empezamos por las fuentes y métricas que más pesan en sus decisiones, y sumamos el resto por etapas.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XTYN0",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rT1E4",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kiwBD",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Solo trabajan con Google BigQuery?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "MuX3X",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dJHjZ",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FC6AX",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M6zWR",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Quién mantiene la solución después?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "rpS0T",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "I97Cu",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "oPpq4",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "R4yvU",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Necesito esto antes de aplicar IA?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "JrH7e",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i0qx8",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "id": "QQjkX",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿Cuánto tiempo pierde hoy su equipo juntando datos?"
+                    },
+                    "IvrLz": {
+                      "content": "En una conversación de 20 minutos con quien decide la inversión, revisamos sus fuentes y por dónde conviene empezar."
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Agendar una conversación"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "t9FKN",
               "type": "ref",
               "ref": "arSuf",
               "name": "Footer",
               "width": "fill_container"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tcMD2",
+          "x": 3760,
+          "y": 80,
+          "name": "CH-web-v2/Área · Modernización de datos (móvil)",
+          "clip": true,
+          "width": 390,
+          "height": 6995,
+          "fill": "$background",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "POpIl",
+              "type": "ref",
+              "ref": "T4uoY9",
+              "name": "Nav",
+              "width": "fill_container"
+            },
+            {
+              "type": "frame",
+              "id": "HKkcQ",
+              "name": "Hero",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ECHv8",
+                  "name": "Copy",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e9lPF",
+                      "name": "Breadcrumb",
+                      "fill": "#94A3B8",
+                      "content": "Inicio  /  Lo que hacemos  /  Modernización de datos",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "ZRfFO",
+                      "type": "ref",
+                      "ref": "hn4I4",
+                      "name": "Eyebrow",
+                      "descendants": {
+                        "xmZiN": {
+                          "content": "MODERNIZACIÓN DE DATOS"
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "ccsdQ",
+                      "name": "H1",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Modernización de datos: decida con datos al día, no con los de la semana pasada",
+                      "lineHeight": 1.12,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 34,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZAsKC",
+                      "name": "Subtitle",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Llevamos sus datos a una sola fuente confiable en la nube, con integraciones automáticas y analítica que se actualiza sola, operada por su equipo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oEgRB",
+                      "name": "Facts",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZOPvp",
+                          "name": "Fact",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "yjdh6",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$cabana-green"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TEikI",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Data warehouse en la nube",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BzdaG",
+                          "name": "Fact",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "OvTSc",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$cabana-green"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xqKIQ",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Integraciones automáticas entre sus sistemas",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hVDZq",
+                          "name": "Fact",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "fFsL0",
+                              "name": "Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "circle-check",
+                              "library": "lucide",
+                              "fill": "$cabana-green"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SLuIv",
+                              "name": "Label",
+                              "fill": "#FFFFFF",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Gobierno de datos y documentación",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vPhGG",
+                      "name": "CTAs",
+                      "padding": [
+                        8,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "id": "UjlPs",
+                          "type": "ref",
+                          "ref": "BIJEs",
+                          "name": "CTA primary",
+                          "descendants": {
+                            "biwyZ": {
+                              "content": "Agendar una conversación"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lV9jl",
+                  "name": "Ilustración · capacidades-ingenieria-de-datos",
+                  "width": "fill_container",
+                  "height": 334,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/capacidades-ingenieria-de-datos.webp",
+                    "mode": "contain"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kF1nF",
+              "name": "Moment",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "m5cg8",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cuando cada área llega con su propio número",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "Q9C9rr",
+                  "name": "Body",
+                  "width": "fill_container",
+                  "stroke": "$cabana-green",
+                  "strokeWidth": {
+                    "left": 3
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qT88x",
+                      "name": "P",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Los reportes se arman a mano en hojas de cálculo. Los sistemas no se hablan y cada área llega a la reunión con una cifra distinta.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UvPh0",
+                      "name": "P",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La dirección decide con datos de la semana pasada, y el equipo pasa más tiempo juntando información que analizándola.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O2yGF",
+              "name": "Change",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yvlC9",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lo que cambia en su empresa",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "t3QOcC",
+                  "name": "List",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l8Pf5",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UErcd",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "oNVDV",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "uwQKH",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Una sola fuente de datos confiable para toda la empresa.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qpgSL",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yiKBb",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "TE4FE",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "sEoNq",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Integraciones que corren solas, sin copiar y pegar entre sistemas.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tc8qW",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "AUFj6",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "wbyA0",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "NWO2Q",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reportes y tableros que se actualizan sin intervención.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BhFD3",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZddR8",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "fgZsK",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "tjfkx",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reglas claras sobre de dónde sale cada número y quién puede verlo.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d2ZiZ3",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "strokeWidth": {
+                        "top": 1,
+                        "bottom": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LUDgR",
+                          "name": "Check wrap",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$cabana-green",
+                          "cornerRadius": "$radius-full",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "MyRxW",
+                              "name": "Check",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$cabana-dark"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "CwCaB",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Una base que acelera la IA que venga después, sin ser condición para empezar.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oEfSj",
+                  "name": "Ilustración · ai-first-move-deliverable-machine",
+                  "width": "fill_container",
+                  "height": 206,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/ai-first-move-deliverable-machine.webp",
+                    "mode": "contain"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K3COn",
+              "name": "Services",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NMSl1",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Qué construimos",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "s51cj1",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ImHdJ",
+                      "name": "Service",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uVssV",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "01",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xAKoR",
+                          "name": "Title",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Data warehouse en la nube",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nNqfB",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Centralizamos sus datos en Google BigQuery o en la plataforma que mejor se ajuste a su operación.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "toBBl",
+                      "name": "Service",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "u8O9u",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "02",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "q3vRO1",
+                          "name": "Title",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Integraciones automáticas",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tsU4Y",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Conectamos sus sistemas (ERP, CRM, plataformas digitales) para que los datos lleguen solos y a tiempo.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z919vG",
+                      "name": "Service",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lKcYJ",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "03",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DU18A",
+                          "name": "Title",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Modelo y gobierno de datos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JF9y7",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Definimos cómo se calcula cada métrica, quién es dueño de cada dato y quién tiene acceso.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dUPel",
+                      "name": "Service",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xayi9",
+                          "name": "Number",
+                          "fill": "$cabana-blue",
+                          "textGrowth": "fixed-width",
+                          "width": 44,
+                          "content": "04",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DKY5y",
+                          "name": "Title",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tableros para la dirección",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LJx5s",
+                          "name": "Body",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Convertimos los datos en tableros (dashboards) que su equipo usa a diario para decidir.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hNyAq",
+              "name": "Process",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SM4Eg",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cómo lo hacemos",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "P1hTf8",
+                  "name": "Steps",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 28,
+                  "children": [
+                    {
+                      "id": "b0rwzo",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Paso 1",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "01"
+                        },
+                        "BR2b1": {
+                          "content": "Entendemos"
+                        },
+                        "Izhpe": {
+                          "content": "Revisamos sus sistemas y conversamos con quienes usan los datos para decidir."
+                        }
+                      }
+                    },
+                    {
+                      "id": "t2BbJ",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Paso 2",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "02"
+                        },
+                        "BR2b1": {
+                          "content": "Especificamos"
+                        },
+                        "Izhpe": {
+                          "content": "Documentamos fuentes, métricas y reglas antes de construir."
+                        }
+                      }
+                    },
+                    {
+                      "id": "c9bgTl",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Paso 3",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "03"
+                        },
+                        "BR2b1": {
+                          "content": "Construimos con su equipo"
+                        },
+                        "Izhpe": {
+                          "content": "Montamos el data warehouse, las integraciones y los tableros, con su área de tecnología adentro."
+                        }
+                      }
+                    },
+                    {
+                      "id": "akO87",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Paso 4",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "04"
+                        },
+                        "BR2b1": {
+                          "content": "Dejamos operando"
+                        },
+                        "Izhpe": {
+                          "content": "Entregamos en producción y documentado. Su equipo queda capaz de mantenerlo y extenderlo."
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VFEMg",
+              "name": "Case",
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "G7DGCs",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WmTJF",
+                      "name": "Tags",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "AClEM",
+                          "type": "ref",
+                          "ref": "hn4I4",
+                          "name": "Eyebrow",
+                          "descendants": {
+                            "xmZiN": {
+                              "content": "CASO"
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "L5eyld",
+                          "name": "Industry",
+                          "fill": "#94A3B8",
+                          "content": "Medios y publicidad digital",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "X7miy",
+                      "name": "Title",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Toda la analítica en una sola fuente",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DJFZf",
+                      "name": "Body",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Llevamos toda su estructura analítica a Google BigQuery y automatizamos la integración de datos esencial de su cadena de valor.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YDEsS",
+                  "name": "Metric",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark-2",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$cabana-navy",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AhKXL",
+                      "name": "Accent",
+                      "width": 32,
+                      "height": 3,
+                      "fill": "$cabana-green"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sQijO",
+                      "name": "Value",
+                      "fill": "$cabana-green",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "45 entidades de 8 plataformas",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "alpZw",
+                      "name": "Label",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "digitales, automatizadas en Google BigQuery",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GV90o",
+              "name": "Bridge",
+              "width": "fill_container",
+              "fill": "$section-light",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CfmWq",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IwlQw",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "¿Y la IA?",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YV0S7",
+                      "name": "Body",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No necesita terminar este proyecto para empezar con IA. Puede avanzar en paralelo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IrBJ4",
+                  "name": "Items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dPKT9",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 28,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MCOAG",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Si quiere saber qué hacer con IA, Ruta IA lo define en 4 semanas.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ieQSn",
+                          "name": "Link",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qtbgp",
+                              "name": "Label",
+                              "fill": "$cabana-blue",
+                              "content": "Ver Ruta IA",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "q7jKi",
+                              "name": "Arrow",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uRnqX",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "fill": "$card",
+                      "cornerRadius": "$radius-xl",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 28,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R5OSA",
+                          "name": "Text",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Si ya tiene una idea elegida, AI First Move la pone en producción en 10 semanas.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YghBQ",
+                          "name": "Link",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "F0ocb",
+                              "name": "Label",
+                              "fill": "$cabana-blue",
+                              "content": "Ver AI First Move",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "SYuLj",
+                              "name": "Arrow",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "arrow-right",
+                              "library": "lucide",
+                              "fill": "$cabana-blue"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XOU97",
+              "name": "FAQ",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                64,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dR257",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gPdJi",
+                      "name": "H2",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Preguntas frecuentes",
+                      "lineHeight": 1.11,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s3KALV",
+                  "name": "Accordion",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qbuHO",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "t4Y7Xw",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "E6Ub0Q",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Tenemos que migrar todo de una vez?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "YCnxm",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-up",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "p0r4s",
+                          "name": "Text",
+                          "fill": "$muted-foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "No. Empezamos por las fuentes y métricas que más pesan en sus decisiones, y sumamos el resto por etapas.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cp8wW",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LmkWV",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "x8pcm",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Solo trabajan con Google BigQuery?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "sUfwL",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kuavV",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xXHXa",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dQZwj",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Quién mantiene la solución después?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "Y9kq2",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rOCAL",
+                      "name": "Item",
+                      "width": "fill_container",
+                      "stroke": "$border",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PmjVg",
+                          "name": "Question",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BDaoG",
+                              "name": "Q",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Necesito esto antes de aplicar IA?",
+                              "fontFamily": "$font-sans",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "DtgI4",
+                              "name": "Chevron",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uKPBL",
+              "name": "CTA wrap",
+              "width": "fill_container",
+              "fill": "$background",
+              "layout": "vertical",
+              "padding": [
+                48,
+                16
+              ],
+              "children": [
+                {
+                  "id": "jefmU",
+                  "type": "ref",
+                  "ref": "j5VAN4",
+                  "name": "CTA Block",
+                  "padding": [
+                    64,
+                    24
+                  ],
+                  "descendants": {
+                    "alChT": {
+                      "content": "¿Cuánto tiempo pierde hoy su equipo juntando datos?",
+                      "width": "fill_container",
+                      "fontSize": 30
+                    },
+                    "IvrLz": {
+                      "content": "En una conversación de 20 minutos con quien decide la inversión, revisamos sus fuentes y por dónde conviene empezar.",
+                      "width": "fill_container",
+                      "fontSize": 16
+                    },
+                    "YhB4k/biwyZ": {
+                      "content": "Agendar una conversación"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LLF2w",
+              "name": "Footer",
+              "clip": true,
+              "width": "fill_container",
+              "fill": "$cabana-dark",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                32,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Np4tP",
+                  "name": "Logo",
+                  "fill": "#ffffff",
+                  "content": "Cabana Data",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "DgQ5m",
+                  "name": "Links",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MLovF",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Vqk08",
+                          "fill": "#cbd5e1",
+                          "content": "Lo que hacemos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BU3wU",
+                          "fill": "#cbd5e1",
+                          "content": "Cómo trabajamos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tSJ5D",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XUT1n",
+                          "fill": "#cbd5e1",
+                          "content": "Blog",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Dnqpb",
+                          "fill": "#cbd5e1",
+                          "content": "Contacto",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rUZY3",
+                  "name": "Contacto",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BD7g7",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "M7G45X",
+                          "fill": "#cbd5e1",
+                          "content": "service@cabanadata.com",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MliTC",
+                          "fill": "#cbd5e1",
+                          "content": "+506 8511-5245",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "D0xpY",
+                      "name": "linkedin",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "linkedin",
+                      "library": "lucide",
+                      "fill": "#ffffff"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "AfyZw",
+                  "name": "Divider",
+                  "fill": "#ffffff1f",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "lyqVF",
+                  "name": "Franja legal",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O0eJO",
+                      "fill": "#94a3b8",
+                      "content": "© 2026 cabanadata.com · San José, Costa Rica 🇨🇷",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xjwsJ",
+                      "fill": "#94a3b8",
+                      "content": "Política de Privacidad",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

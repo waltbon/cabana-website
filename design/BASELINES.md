@@ -40,7 +40,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 | Contenedor | Qué propone | Estado |
 |---|---|---|
-| `CH-web-v2: pantallas` | Reajuste web v2 (copy en `docs/copy-web-v2/`). `Lo que hacemos` (escritorio y móvil) aprobado e implementado en `app/[locale]/lo-que-hacemos/`; siguen las cinco páginas de área, Ruta IA, AI First Move, Cómo trabajamos e Inicio. | En curso; al mergear, crear `PG/lo-que-hacemos` y borrar el `CH`. |
+| `CH-web-v2: pantallas` | Reajuste web v2 (copy en `docs/copy-web-v2/`). `Lo que hacemos` (escritorio y móvil) aprobado e implementado en `app/[locale]/lo-que-hacemos/`. Plantilla de área (`Área · Modernización de datos`, escritorio y móvil) implementada en `app/[locale]/lo-que-hacemos/[area]/` para las cinco áreas; siguen Ruta IA, AI First Move, Cómo trabajamos e Inicio. | En curso; al mergear, crear `PG/lo-que-hacemos` y borrar el `CH`. |
 | `CH-posts-slug: pantallas` | Encabezado del post dividido (texto a la izquierda, imagen a la derecha) y barra lateral genérica en lugar del formulario de Ruta IA. Propuesta A (formulario compacto, en la página completa), B (solo CTA) y C (nombre y correo). El encabezado dividido ya está en código; falta elegir la barra lateral. | Propuestas dibujadas; al elegir y mergear, actualizar `PG/posts/[slug]` y borrar el `CH`. |
 
 ## Sin baseline
