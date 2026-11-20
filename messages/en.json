@@ -2819,80 +2819,79 @@
     },
     "hero": {
       "eyebrow": "How we work",
-      "title": "How we work: a system for every project, not improvisation",
-      "body": "Every service runs on a method of our own. Defined phases, named deliverables and a clear condition for considering each phase complete. Anyone on our team reaches the same result.",
+      "title": "How we work with AI: with a method, with your team and in production",
+      "body": [
+        "Every project follows the same method: we specify before we build, we build with your team involved and we leave it in production, documented so your people can run it.",
+        "Every recommendation comes from your people and your systems, not from a generic benchmark. And every solution ends up working in your operation, not in a presentation."
+      ],
       "imageAlt": "A balance scale where a stack of data blocks outweighs a few empty speech bubbles, with two people at its base"
     },
-    "systems": {
-      "title": "What every system includes",
-      "items": [
-        {
-          "title": "Phases in order",
-          "body": "Each one with what it needs and what it delivers."
-        },
-        {
-          "title": "Named deliverables",
-          "body": "You know what you will receive before we start."
-        },
-        {
-          "title": "Proven tools",
-          "body": "Templates and workshop scripts we use on every project."
-        },
-        {
-          "title": "Exit criteria",
-          "body": "A phase ends when something you can verify is met, not when the time runs out."
-        }
-      ]
-    },
-    "approval": {
-      "title": "You approve before we move on",
-      "body": "If a phase shapes what comes next, it stops until you approve it. Nothing is built on something you have not validated."
-    },
     "journey": {
-      "title": "Two services, in order",
-      "items": [
+      "title": "Clarity, implementation and an ally who stays",
+      "intro": "Our work is a journey, not a catalog. Each stage answers a different question from leadership.",
+      "steps": [
         {
-          "duration": "4 weeks",
-          "name": "Ruta IA",
-          "body": "Your top 5 opportunities and which ones your data supports today."
+          "stage": "Clarity",
+          "service": "Ruta IA",
+          "question": "\"What do we do with AI and where do we start?\"",
+          "answer": "In 4 weeks, your top 5 opportunities ranked, which ones can start now and the plan to get started."
         },
         {
-          "duration": "10 weeks",
-          "name": "AI First Move",
-          "body": "A use case in production and the investment case."
+          "stage": "Immediate implementation",
+          "service": "AI First Move",
+          "question": "\"We know what. We want to see it working.\"",
+          "answer": "In 10 weeks, a use case in production and the investment case to fund the next ones."
+        },
+        {
+          "stage": "Technology ally",
+          "service": "What we do",
+          "question": "\"How do we continue after the first result?\"",
+          "answer": "We keep building with your team in five areas: data, enterprise knowledge, data science, automation with agents and digital products."
         }
       ],
-      "note": "Ruta IA is not required. Fixed price and scope."
-    },
-    "notDo": {
-      "title": "What we don't do",
-      "items": [
-        {
-          "title": "Work nobody asked for",
-          "body": "Every output is used by the next phase or delivered to you."
-        },
-        {
-          "title": "Scope that grows without notice",
-          "body": "What is out of scope is stated from the start."
-        },
-        {
-          "title": "Deliverables that shut off when we finish",
-          "body": ""
-        }
+      "rules": [
+        "Ruta IA is not required. If the decision-maker has already chosen the idea, you start directly with AI First Move.",
+        "The journey is sequential: one service ends before the next one starts.",
+        "You don't need your data in order to start. Whatever is missing is solved along the way or in parallel.",
+        "If you already have a specific data, knowledge, automation or software need, you can start with a What we do project."
       ]
     },
-    "team": {
-      "title": "The same team, from diagnosis to production",
-      "intro": "A single team in San José, Costa Rica, with no subcontractors.",
-      "proof": [
+    "method": {
+      "title": "Specify, build with your team, leave it running",
+      "intro": "Software and data engineering is our reason to trust that AI will work in your operation, and yours to trust us.",
+      "items": [
         {
-          "value": "2018",
-          "label": "Since"
+          "title": "We start from your operation",
+          "body": "We listen to the people who know the operation and review your systems directly, with read access or in screen-sharing sessions. In Ruta IA that means up to 8 interviews, with no self-assessment surveys."
         },
         {
-          "value": "50+",
-          "label": "Data pipelines in production"
+          "title": "We specify before we build",
+          "body": "We document the business decision, the rules, the data and the acceptance criteria. You approve what will be built before we write any code."
+        },
+        {
+          "title": "We build with your team involved",
+          "body": "A technical person from your company takes part a few hours a week, and your technology department approves the architecture."
+        },
+        {
+          "title": "We leave it running",
+          "body": "We deliver in production and documented. Your people are able to run and extend what we built."
+        },
+        {
+          "title": "We tell you what isn't ready",
+          "body": "If an idea can't start yet, we tell you, along with what needs to be prepared and in what order. It's part of the evidence, not bad news."
         }
+      ],
+      "closing": "That's why the AI First Move investment case is calculated on the use case already built, not on assumptions.",
+      "imageAlt": ""
+    },
+    "team": {
+      "eyebrow": "Our team",
+      "title": "The same team, from the first conversation to production",
+      "intro": "A single data and development team in San José, Costa Rica. The same people who understand your operation are the ones who build. No subcontractors or intermediaries.",
+      "proof": [
+        "Since 2018 with companies in Costa Rica and Latin America.",
+        "More than 50 data pipelines running in production.",
+        "Data and development in one team: nothing gets lost between vendors."
       ],
       "members": [
         {
@@ -2916,27 +2915,53 @@
           "role": "Full-stack developer"
         }
       ],
-      "imageAlt": "Illustration of five people walking from a table with a magnifying glass to a working machine"
+      "quote": "\"A good result shouldn't depend on who happens to be on the project.\"",
+      "quoteAuthor": "Walter Bonilla, founder and technical lead",
+      "imageAlt": "Illustration of five people walking from a table with a magnifying glass to a working machine",
+      "founderImageAlt": "Walter Bonilla, founder of Cabana Data"
     },
-    "founder": {
-      "quote": "A good result should not depend on who happens to be assigned to the project. That is why every service follows a system: anyone on our team reaches the same result.",
-      "name": "Walter Bonilla",
-      "role": "Founder and technical lead",
-      "imageAlt": "Walter Bonilla, founder of Cabana Data"
+    "techAlly": {
+      "eyebrow": "For the technology department",
+      "title": "You set the strategy; we take it to production with your team",
+      "body": "We are your technology department's ally, not its replacement. We work with the architecture you approve and leave everything documented so your people can run it.",
+      "items": [
+        "Architecture and security are defined and approved with you.",
+        "We work on the systems and data you already have.",
+        "Your team takes part in the build; it doesn't receive a black box.",
+        "Every delivery is documented: what was built, how it works and how it's run.",
+        "After the first result, we keep building with your team in the areas you prioritize."
+      ]
+    },
+    "principle": {
+      "eyebrow": "AI with human oversight",
+      "title": "AI proposes, your team decides",
+      "body": "AI reads, analyzes, recommends or drafts. A person on your team approves before any action takes effect. That way it reaches production in weeks without opening a risk you'd later have to explain to the board.",
+      "items": [
+        "A person approves before sending, changing records or moving money.",
+        "Automating a decision means automating its analysis and recommendation. The decision is still your team's.",
+        "In the first use case with AI First Move, the solution is used by people in your company, not by customers or third parties."
+      ],
+      "link": "See Automation with AI agents"
+    },
+    "notDo": {
+      "title": "What we don't do",
+      "items": [
+        "We don't recommend from a generic benchmark. Everything comes from your operation.",
+        "We don't deliver something that shuts down when we finish. What we build stays in production, run by your team.",
+        "We don't let AI act on its own on your customers, your records or your money.",
+        "We don't ask you to put your data in order before starting with AI.",
+        "We don't replace your technology department: we work with it."
+      ]
     },
     "cta": {
-      "title": "Where is your company today?",
+      "title": "Where is your company right now?",
       "doors": [
-        {
-          "label": "I don't know where to start",
-          "service": "Ruta IA"
-        },
-        {
-          "label": "I already have the idea",
-          "service": "AI First Move"
-        }
+        "We have several ideas and don't know which one → Ruta IA",
+        "We have an idea chosen by leadership → AI First Move",
+        "We have a specific data, knowledge, automation or software need → What we do"
       ],
-      "button": "Book a conversation"
+      "body": "If you're not sure, we'll review it in a 20-minute conversation with whoever decides the investment.",
+      "button": "Schedule a conversation"
     }
   },
   "loQueHacemos": {

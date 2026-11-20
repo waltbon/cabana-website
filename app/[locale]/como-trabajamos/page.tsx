@@ -6,11 +6,12 @@ import { localePath } from "@/components/capacidades/config";
 import { localizedHref } from "@/lib/localized-paths";
 import {
   HeroSection,
-  SystemsApprovalSection,
   JourneySection,
-  NotDoSection,
+  MethodSection,
   TeamSection,
-  FounderSection,
+  TechAllySection,
+  PrincipleSection,
+  NotDoSection,
   CTASection,
 } from "./_components";
 
@@ -88,11 +89,12 @@ export default async function ComoTrabajamosPage({
     <>
       <JsonLd schemas={schemas} />
       <HeroSection />
-      <SystemsApprovalSection />
       <JourneySection />
-      <NotDoSection />
+      <MethodSection />
       <TeamSection />
-      <FounderSection />
+      <TechAllySection />
+      <PrincipleSection />
+      <NotDoSection />
       <CTASection />
     </>
   );

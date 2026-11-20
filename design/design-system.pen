@@ -46784,6 +46784,2174 @@
           "width": "fill_container"
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "wklBU",
+      "x": 18780,
+      "y": -858,
+      "name": "CH-web-v2/Cómo trabajamos",
+      "clip": true,
+      "width": 1440,
+      "height": 6442,
+      "fill": "$background",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "VURww",
+          "type": "ref",
+          "ref": "T4uoY9",
+          "name": "Nav",
+          "width": "fill_container",
+          "descendants": {
+            "LOqM9": {
+              "content": "Inicio"
+            },
+            "UtFss": {
+              "content": "Cómo trabajamos"
+            },
+            "M85Al6": {
+              "content": "Lo que hacemos"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "s2KhN",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "$cabana-dark",
+          "gap": 48,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "KJddr",
+              "name": "Copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "tEcGp",
+                  "type": "ref",
+                  "ref": "hn4I4",
+                  "name": "Eyebrow",
+                  "descendants": {
+                    "xmZiN": {
+                      "content": "CÓMO TRABAJAMOS"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "zbTUj",
+                  "name": "H1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T6PeT",
+                      "name": "H1 · Brand",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cómo trabajamos con IA: con método, con su equipo y en producción",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 56,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "fPQL4",
+                  "name": "Subtitle",
+                  "fill": "#CBD5E1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cada proyecto sigue el mismo método: especificamos antes de construir, construimos con su equipo adentro y lo dejamos en producción, documentado para que su gente lo opere.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "bj6js",
+                  "name": "Subtitle 2",
+                  "fill": "#CBD5E1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cada recomendación sale de su gente y de sus sistemas, no de un benchmark genérico. Y cada solución queda funcionando en su operación, no en una presentación.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x9h4Hv",
+              "name": "Illustration",
+              "width": 480,
+              "height": 480,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/illustrations/como-trabajamos-balanza.webp",
+                "mode": "contain"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mDZoe",
+          "name": "Recorrido",
+          "width": "fill_container",
+          "fill": "$section-light",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            96,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "U8wGd",
+              "name": "Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R6cCg",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Claridad, implementación y un aliado que se queda",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "H2R2Kj",
+                  "name": "Intro",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Nuestro trabajo es un recorrido, no un catálogo. Cada etapa responde una pregunta distinta de la dirección.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "F7L6b",
+              "name": "Etapas",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gxWyS",
+                  "name": "Etapa 1",
+                  "width": "fill_container",
+                  "height": 309,
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bDudS",
+                      "name": "Etapa",
+                      "fill": "$cabana-blue",
+                      "content": "01 · CLARIDAD",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ph16O",
+                      "name": "Servicio",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ruta IA",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 26,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FlZL7",
+                      "name": "Pregunta",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“¿Qué hacemos con IA y por dónde empezamos?”",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eZa92",
+                      "name": "Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$border"
+                    },
+                    {
+                      "type": "text",
+                      "id": "D13uCW",
+                      "name": "Respuesta",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "En 4 semanas, sus 5 mejores oportunidades ordenadas, cuáles pueden arrancar ya y el plan para arrancar.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HgQp6",
+                  "name": "Etapa 2",
+                  "width": "fill_container",
+                  "height": 309,
+                  "fill": "$cabana-dark",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "#00000000",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CisDK",
+                      "name": "Etapa",
+                      "fill": "$cabana-green",
+                      "content": "02 · IMPLEMENTACIÓN INMEDIATA",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "mfNcy",
+                      "name": "Servicio",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AI First Move",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 26,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dAJkh",
+                      "name": "Pregunta",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“Ya sabemos qué. Queremos verlo funcionando.”",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PNHfW",
+                      "name": "Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$cabana-navy"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zCT4f",
+                      "name": "Respuesta",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "En 10 semanas, un caso de uso en producción y el caso de inversión para financiar los siguientes.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dgNQj",
+                  "name": "Etapa 3",
+                  "width": "fill_container",
+                  "height": 309,
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vnZiR",
+                      "name": "Etapa",
+                      "fill": "$cabana-blue",
+                      "content": "03 · ALIADO DE TECNOLOGÍA",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "d406x",
+                      "name": "Servicio",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lo que hacemos",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 26,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a6JTH",
+                      "name": "Pregunta",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“¿Cómo seguimos después del primer resultado?”",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OYJnJ",
+                      "name": "Divider",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$border"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yGv1o",
+                      "name": "Respuesta",
+                      "fill": "$muted-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Seguimos construyendo con su equipo en cinco áreas: datos, conocimiento empresarial, ciencia de datos, automatización con agentes y productos digitales.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z534J",
+              "name": "Reglas",
+              "width": "fill_container",
+              "fill": "$cabana-light",
+              "cornerRadius": "$radius-xl",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                24,
+                28
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zPojX",
+                  "name": "Regla",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "hPdZH",
+                      "name": "Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "corner-down-right",
+                      "library": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YSgHL",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ruta IA no es obligatorio. Si quien decide ya eligió la idea, se empieza directo con AI First Move.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sxYWh",
+                  "name": "Regla",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "S5hjIz",
+                      "name": "Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "corner-down-right",
+                      "library": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VooNN",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "El recorrido es secuencial: un servicio termina antes de que empiece el otro.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "herfB",
+                  "name": "Regla",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "LK1Em",
+                      "name": "Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "corner-down-right",
+                      "library": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kIPIL",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No necesita tener sus datos ordenados para empezar. Lo que haga falta se resuelve en el camino o en paralelo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ScvMv",
+                  "name": "Regla",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "iQ7Fp",
+                      "name": "Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "corner-down-right",
+                      "library": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g7qf0r",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si ya tiene un tema concreto de datos, conocimiento, automatización o software, puede empezar con un proyecto de Lo que hacemos.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "L8LWD",
+          "name": "El método",
+          "width": "fill_container",
+          "fill": "$background",
+          "gap": 24,
+          "padding": [
+            96,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "QsBDq",
+              "name": "Sistemas (3/4)",
+              "width": 882,
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                8,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K9YynX",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Especificar, construir con su equipo, dejar operando",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "cK0Ah",
+                  "name": "Intro",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "La ingeniería de software y datos es nuestra razón para confiar en que la IA va a funcionar en su operación, y la suya para confiar en nosotros.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "LieTU",
+                  "name": "Fila",
+                  "width": "fill_container",
+                  "gap": 48,
+                  "children": [
+                    {
+                      "id": "ExER6",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "01"
+                        },
+                        "BR2b1": {
+                          "content": "Partimos de su operación"
+                        },
+                        "Izhpe": {
+                          "content": "Escuchamos a quienes conocen la operación y revisamos sus sistemas directamente, con acceso de lectura o en sesiones de pantalla compartida. En Ruta IA son hasta 8 entrevistas, sin encuestas de autoevaluación.",
+                          "enabled": true
+                        }
+                      }
+                    },
+                    {
+                      "id": "Tcf9J",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "02"
+                        },
+                        "BR2b1": {
+                          "content": "Especificamos antes de construir"
+                        },
+                        "Izhpe": {
+                          "content": "Documentamos la decisión de negocio, las reglas, los datos y los criterios de aceptación. Usted aprueba qué se va a construir antes de que escribamos código.",
+                          "enabled": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rhDpx",
+                  "name": "Fila",
+                  "width": "fill_container",
+                  "gap": 48,
+                  "children": [
+                    {
+                      "id": "ddxP1",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "03"
+                        },
+                        "BR2b1": {
+                          "content": "Construimos con su equipo adentro"
+                        },
+                        "Izhpe": {
+                          "content": "Una persona técnica de su empresa participa unas horas por semana, y su área de tecnología aprueba la arquitectura.",
+                          "enabled": true
+                        }
+                      }
+                    },
+                    {
+                      "id": "Z5eKsY",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "04"
+                        },
+                        "BR2b1": {
+                          "content": "Lo dejamos operando"
+                        },
+                        "Izhpe": {
+                          "content": "Entregamos en producción y documentado. Su gente queda capaz de operar y extender lo que construimos.",
+                          "enabled": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oR34B",
+                  "name": "Fila",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "id": "JILXo",
+                      "type": "ref",
+                      "ref": "K5lZ8u",
+                      "name": "Feature Item",
+                      "width": "fill_container",
+                      "descendants": {
+                        "M4oFcA": {
+                          "content": "05"
+                        },
+                        "BR2b1": {
+                          "content": "Le decimos lo que no está listo"
+                        },
+                        "Izhpe": {
+                          "content": "Si una idea no puede arrancar ya, se lo decimos, con lo que hay que preparar y en qué orden. Es parte de la evidencia, no una mala noticia."
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cEG4v",
+                      "name": "Hueco",
+                      "width": "fill_container",
+                      "height": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k7wQf",
+              "name": "Aprobación (1/4, dark)",
+              "width": "fill_container",
+              "height": 402,
+              "fill": "$cabana-dark",
+              "cornerRadius": "$radius-xl",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 32,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Epg5q",
+                  "name": "Ilustración",
+                  "width": "fill_container",
+                  "height": 130,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "images/illustrations/como-trabajamos-aprobacion.webp",
+                    "mode": "contain"
+                  }
+                },
+                {
+                  "type": "icon",
+                  "id": "AatLZ",
+                  "x": 32,
+                  "y": 150,
+                  "name": "Icono",
+                  "enabled": false,
+                  "width": 32,
+                  "height": 32,
+                  "icon": "shield-check",
+                  "library": "lucide",
+                  "fill": "$cabana-green"
+                },
+                {
+                  "type": "text",
+                  "id": "i8tCh",
+                  "x": 32,
+                  "y": 188,
+                  "name": "H3",
+                  "enabled": false,
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container(230)",
+                  "content": "Usted aprueba antes de avanzar",
+                  "lineHeight": 1.25,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 24,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "T5U6f",
+                  "name": "Texto",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Por eso el caso de inversión de AI First Move se calcula sobre el caso ya construido, no sobre supuestos.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bCXiD",
+          "name": "Equipo",
+          "width": "fill_container",
+          "fill": "$section-light",
+          "gap": 64,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "czQDk",
+              "name": "Texto",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "JaEJ9",
+                  "type": "ref",
+                  "ref": "hn4I4",
+                  "name": "Eyebrow",
+                  "descendants": {
+                    "xmZiN": {
+                      "content": "NUESTRO EQUIPO"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "lzEcX",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "El mismo equipo, de la primera conversación a producción",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "kUtMF",
+                  "name": "Intro",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Un solo equipo de datos y desarrollo en San José, Costa Rica. Las mismas personas que entienden su operación son las que construyen. Sin subcontrataciones ni intermediarios.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "i14zlP",
+                  "name": "Pruebas",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a11DB",
+                      "name": "Prueba",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "MM7xb",
+                          "name": "Check",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "circle-check",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oxajF",
+                          "name": "Texto",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Desde 2018 con empresas de Costa Rica y Latinoamérica.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "r1kx8P",
+                      "name": "Prueba",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "RE2bh",
+                          "name": "Check",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "circle-check",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FkdvW",
+                          "name": "Texto",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Más de 50 flujos de datos funcionando en producción.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Yk94M",
+                      "name": "Prueba",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "bHlij",
+                          "name": "Check",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "circle-check",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YVZnj",
+                          "name": "Texto",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Datos y desarrollo en un solo equipo: nada se pierde entre proveedores.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zZig3",
+                  "name": "Miembros",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lKuUD",
+                      "name": "Miembro",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wDAJ2",
+                          "name": "Nombre",
+                          "fill": "$foreground",
+                          "content": "Walter",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VyyJd",
+                          "name": "Rol",
+                          "fill": "$muted-foreground",
+                          "content": "· Fundador y líder técnico",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vuPJr",
+                      "name": "Miembro",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Pt5Cx",
+                          "name": "Nombre",
+                          "fill": "$foreground",
+                          "content": "Evelyn",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LUIIg",
+                          "name": "Rol",
+                          "fill": "$muted-foreground",
+                          "content": "· Gerente administrativa",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UI6on",
+                      "name": "Miembro",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a7LYII",
+                          "name": "Nombre",
+                          "fill": "$foreground",
+                          "content": "Thomas",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JgS4U",
+                          "name": "Rol",
+                          "fill": "$muted-foreground",
+                          "content": "· Científico de datos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NakDW",
+                      "name": "Miembro",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SWay7",
+                          "name": "Nombre",
+                          "fill": "$foreground",
+                          "content": "Eduardo",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "N6QT5i",
+                          "name": "Rol",
+                          "fill": "$muted-foreground",
+                          "content": "· Ingeniero de datos",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n2VEL",
+                      "name": "Miembro",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iHFbU",
+                          "name": "Nombre",
+                          "fill": "$foreground",
+                          "content": "Melissa",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TThTS",
+                          "name": "Rol",
+                          "fill": "$muted-foreground",
+                          "content": "· Desarrolladora full-stack",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d983sG",
+              "name": "Imagen equipo",
+              "width": 480,
+              "height": 640,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/illustrations/como-trabajamos-equipo.webp",
+                "mode": "contain"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M3lIl",
+          "name": "Fundador",
+          "width": "fill_container",
+          "fill": "$background",
+          "gap": 80,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XKC0u",
+              "name": "Texto",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BDv2H",
+                  "name": "Acento",
+                  "width": 48,
+                  "height": 3,
+                  "fill": "$cabana-green"
+                },
+                {
+                  "type": "text",
+                  "id": "kZwS5",
+                  "name": "Cita",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "“Un buen resultado no debería depender de quién le toque en el proyecto.”",
+                  "lineHeight": 1.35,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 28,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "w9FSV9",
+                  "name": "Persona",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VBtei",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Avatar",
+                      "enabled": false,
+                      "width": 64,
+                      "height": 64,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/illustrations/walter-bonilla.webp",
+                        "mode": "cover"
+                      },
+                      "cornerRadius": "$radius-full",
+                      "stroke": "$cabana-green",
+                      "strokeWidth": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JnqwE",
+                      "name": "Datos",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FyiMd",
+                          "name": "Nombre",
+                          "fill": "$foreground",
+                          "content": "Walter Bonilla, fundador y líder técnico",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pbJuO",
+                          "x": 0,
+                          "y": 23,
+                          "name": "Rol",
+                          "enabled": false,
+                          "fill": "$muted-foreground",
+                          "content": "Fundador y líder técnico",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WXG6i",
+              "name": "Foto",
+              "width": 200,
+              "height": 250,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/illustrations/walter-bonilla-retrato.webp",
+                "mode": "cover"
+              },
+              "cornerRadius": "$radius-xl"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q5dvn",
+          "name": "Área de tecnología",
+          "width": "fill_container",
+          "fill": "$background",
+          "gap": 80,
+          "padding": [
+            96,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "E9Z5vX",
+              "name": "Left",
+              "width": 520,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "bUV6w",
+                  "type": "ref",
+                  "ref": "hn4I4",
+                  "name": "Eyebrow",
+                  "descendants": {
+                    "xmZiN": {
+                      "content": "PARA EL ÁREA DE TECNOLOGÍA"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "z09rfB",
+                  "name": "H2",
+                  "fill": "$foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Usted define la estrategia; nosotros la llevamos a producción con su equipo",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "FgDbP",
+                  "name": "Body",
+                  "fill": "$muted-foreground",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Somos el aliado de su área de tecnología, no su reemplazo. Trabajamos con la arquitectura que usted aprueba y lo dejamos todo documentado para que su gente lo opere.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QGYmU",
+              "name": "Lista",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Neug9",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 20,
+                  "padding": [
+                    18,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "B8oYnP",
+                      "name": "Check wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-green",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "rLWaO",
+                          "name": "Check",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "check",
+                          "library": "lucide",
+                          "fill": "$cabana-dark"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "d7gCL",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "La arquitectura y la seguridad se definen y se aprueban con usted.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IB4oM",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 20,
+                  "padding": [
+                    18,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "P8QH7n",
+                      "name": "Check wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-green",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "O5EH0",
+                          "name": "Check",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "check",
+                          "library": "lucide",
+                          "fill": "$cabana-dark"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "EMUku",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Trabajamos sobre los sistemas y los datos que ya tiene.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NnBR7",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 20,
+                  "padding": [
+                    18,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cQ29k",
+                      "name": "Check wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-green",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "OffzM",
+                          "name": "Check",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "check",
+                          "library": "lucide",
+                          "fill": "$cabana-dark"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LG7DY",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Su equipo participa en la construcción; no recibe una caja negra.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hMvvk",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 20,
+                  "padding": [
+                    18,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Rbg1O",
+                      "name": "Check wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-green",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "H3p0V",
+                          "name": "Check",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "check",
+                          "library": "lucide",
+                          "fill": "$cabana-dark"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "XEkF6",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cada entrega queda documentada: qué se construyó, cómo funciona y cómo se opera.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P8OBkh",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "stroke": "$border",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "gap": 20,
+                  "padding": [
+                    18,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rnW6b",
+                      "name": "Check wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-green",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "k8T7C",
+                          "name": "Check",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "check",
+                          "library": "lucide",
+                          "fill": "$cabana-dark"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "BXTbO",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Después del primer resultado, seguimos construyendo con su equipo en las áreas que usted priorice.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uJSW2",
+          "name": "Principio",
+          "width": "fill_container",
+          "fill": "$cabana-dark",
+          "gap": 80,
+          "padding": [
+            96,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "uigqH",
+              "name": "Left",
+              "width": 520,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "ei60A",
+                  "type": "ref",
+                  "ref": "hn4I4",
+                  "name": "Eyebrow",
+                  "descendants": {
+                    "xmZiN": {
+                      "content": "IA CON SUPERVISIÓN HUMANA"
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "D9O85i",
+                  "name": "H2",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "La IA propone, su equipo decide",
+                  "lineHeight": 1.11,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "gylr8",
+                  "name": "Body",
+                  "fill": "#CBD5E1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "La IA lee, analiza, recomienda o redacta. Una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción en semanas sin abrir un riesgo que después tenga que explicar en junta.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "sPKnZ",
+                  "name": "Link",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A2L9O",
+                      "name": "Label",
+                      "fill": "$cabana-green",
+                      "content": "Ver Automatización con agentes de IA",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "AZ8pV",
+                      "name": "Arrow",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$cabana-green"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Xi5pL",
+              "name": "Items",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kXaQI",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark-2",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$cabana-navy",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "a9Em4Y",
+                      "name": "N",
+                      "fill": "$cabana-green",
+                      "content": "01",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u7KWS",
+                      "name": "Text",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Una persona aprueba antes de enviar, modificar registros o mover dinero.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yrdBN",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark-2",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$cabana-navy",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KL16S",
+                      "name": "N",
+                      "fill": "$cabana-green",
+                      "content": "02",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FMTPd",
+                      "name": "Text",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Automatizar una decisión significa automatizar su análisis y su recomendación. La decisión sigue siendo de su equipo.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Wt0JD",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "fill": "$cabana-dark-2",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$cabana-navy",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C5m0s",
+                      "name": "N",
+                      "fill": "$cabana-green",
+                      "content": "03",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XOvet",
+                      "name": "Text",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "En el primer caso con AI First Move, la solución la usan personas de su empresa, no clientes ni terceros.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NMWZc",
+          "name": "Lo que no hacemos",
+          "width": "fill_container",
+          "fill": "$section-light",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            96,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "j8eAs",
+              "name": "H2",
+              "fill": "$foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Lo que no hacemos",
+              "lineHeight": 1.1,
+              "fontFamily": "$font-sans",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "Rj8Ma",
+              "name": "Ítems",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U8Tct",
+                  "name": "Ítem",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dbZur",
+                      "name": "X wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-light",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "VW7g1",
+                          "name": "X",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "a7mTm",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No recomendamos desde un benchmark genérico. Todo sale de su operación.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lLWYG",
+                  "name": "Ítem",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xeYgm",
+                      "name": "X wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-light",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "lNT89",
+                          "name": "X",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yXhrT",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No entregamos algo que se apaga al terminar. Lo que construimos queda en producción, operado por su equipo.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tDrLa",
+                  "name": "Ítem",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RTP5v",
+                      "name": "X wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-light",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "AQCgn",
+                          "name": "X",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "nINtd",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No ponemos a la IA a actuar sola sobre sus clientes, sus registros o su dinero.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "O75Xw",
+                  "name": "Ítem",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "iwkMr",
+                      "name": "X wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-light",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "TvjqA",
+                          "name": "X",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "DHffe",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No le pedimos que ordene sus datos antes de empezar con IA.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K0AZ7U",
+                  "name": "Ítem",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 16,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EjlwB",
+                      "name": "X wrap",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$cabana-light",
+                      "cornerRadius": "$radius-full",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "aqT2O",
+                          "name": "X",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "x",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "OhFts",
+                      "name": "Texto",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No reemplazamos a su área de tecnología: trabajamos con ella.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PBXys",
+          "name": "CTA wrap",
+          "width": "fill_container",
+          "fill": "$background",
+          "layout": "vertical",
+          "padding": [
+            96,
+            120
+          ],
+          "children": [
+            {
+              "id": "Adx1R",
+              "type": "ref",
+              "ref": "j5VAN4",
+              "name": "CTA Block",
+              "descendants": {
+                "alChT": {
+                  "content": "¿En qué punto está su empresa?"
+                },
+                "IvrLz": {
+                  "content": "Tenemos varias ideas y no sabemos cuál → Ruta IA\nTenemos una idea elegida por la dirección → AI First Move\nTenemos un tema concreto de datos, conocimiento, automatización o software → Lo que hacemos\n\nSi no está seguro, lo revisamos en una conversación de 20 minutos con quien decide la inversión."
+                },
+                "YhB4k/biwyZ": {
+                  "content": "Agendar una conversación"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "nUS0R",
+          "type": "ref",
+          "ref": "arSuf",
+          "name": "Footer",
+          "width": "fill_container"
+        }
+      ]
     }
   ],
   "themes": {

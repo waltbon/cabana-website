@@ -26,7 +26,11 @@ export async function HeroSection() {
           <h1 className="text-4xl text-white md:text-6xl md:leading-tight">
             {t("title")}
           </h1>
-          <p className="text-base text-slate-300 md:text-lg">{t("body")}</p>
+          {(t.raw("body") as string[]).map((p) => (
+            <p key={p} className="text-base text-slate-300 md:text-lg">
+              {p}
+            </p>
+          ))}
         </div>
       </div>
     </section>
