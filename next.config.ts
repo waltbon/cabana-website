@@ -13,16 +13,22 @@ const securityHeaders = [
 
 // [old path, new path] — applied to "/" and "/en"
 const SERVICES_REDIRECTS: [string, string][] = [
-  ["/services", "/capacidades"],
-  ["/services/data-consulting", "/capacidades/consultoria-de-datos"],
-  ["/services/data-strategy", "/capacidades/consultoria-de-datos"],
-  ["/services/data-engineering", "/capacidades/ingenieria-de-datos"],
-  ["/services/dashboards-analytics-interfaces", "/capacidades/ingenieria-de-datos"],
-  ["/services/digital-product", "/capacidades/producto-digital"],
-  ["/services/application-development", "/capacidades/producto-digital"],
-  ["/services/product-design-discovery", "/capacidades/producto-digital"],
-  ["/services/custom-ai-agents", "/capacidades/agentes-ia-a-medida"],
+  ["/services", "/lo-que-hacemos"],
+  ["/services/data-consulting", "/lo-que-hacemos/modernizacion-de-datos"],
+  ["/services/data-strategy", "/lo-que-hacemos/modernizacion-de-datos"],
+  ["/services/data-engineering", "/lo-que-hacemos/modernizacion-de-datos"],
+  ["/services/dashboards-analytics-interfaces", "/lo-que-hacemos/modernizacion-de-datos"],
+  ["/services/digital-product", "/lo-que-hacemos/productos-digitales"],
+  ["/services/application-development", "/lo-que-hacemos/productos-digitales"],
+  ["/services/product-design-discovery", "/lo-que-hacemos/productos-digitales"],
+  ["/services/custom-ai-agents", "/lo-que-hacemos/automatizacion-con-agentes-de-ia"],
   ["/services/ai-readiness-assessment", "/ruta-ia"],
+  // /capacidades was replaced by /lo-que-hacemos (web v2, copy 6M-02.3)
+  ["/capacidades", "/lo-que-hacemos"],
+  ["/capacidades/consultoria-de-datos", "/lo-que-hacemos/modernizacion-de-datos"],
+  ["/capacidades/ingenieria-de-datos", "/lo-que-hacemos/modernizacion-de-datos"],
+  ["/capacidades/producto-digital", "/lo-que-hacemos/productos-digitales"],
+  ["/capacidades/agentes-ia-a-medida", "/lo-que-hacemos/automatizacion-con-agentes-de-ia"],
 ];
 
 const nextConfig: NextConfig = {
@@ -46,7 +52,16 @@ const nextConfig: NextConfig = {
         destination: "https://cabanadata.com/:path*",
         permanent: true,
       },
-      // /services was replaced by /capacidades (docs/seo/redirects.csv).
+      // The old Ruta IA subdomain consolidates into the main site (only
+      // effective while ruta-ai.cabanadata.com points at this project).
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "ruta-ai.cabanadata.com" }],
+        destination: "https://cabanadata.com/ruta-ia",
+        permanent: true,
+      },
+      // /services and /capacidades were replaced by /lo-que-hacemos
+      // (docs/seo/redirects.csv).
       // Slugs stay in Spanish for /en until the English keyword map lands.
       ...SERVICES_REDIRECTS.flatMap(([source, destination]) => [
         { source, destination, statusCode: 301 },

@@ -80,17 +80,6 @@ export default async function AIFirstMovePage({
       },
       areaServed: ["Costa Rica", "Latinoamérica"],
       url: pageUrl,
-      offers: {
-        "@type": "Offer",
-        price: "24500",
-        priceCurrency: "USD",
-        priceSpecification: {
-          "@type": "PriceSpecification",
-          price: "24500",
-          priceCurrency: "USD",
-          valueAddedTaxIncluded: false,
-        },
-      },
     },
     {
       "@context": "https://schema.org",

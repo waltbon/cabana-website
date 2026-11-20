@@ -1890,11 +1890,11 @@
   },
   "rutaIa": {
     "meta": {
-      "title": "Ruta IA: diagnóstico de IA para empresas | Cabana Data",
-      "description": "Sepa en 4 semanas por cuáles oportunidades de IA empezar y si sus datos las soportan. Precio fijo: USD 12,000 + IVA.",
-      "ogTitle": "Ruta IA: sepa por dónde empezar con IA",
-      "ogDescription": "Sus 5 mejores oportunidades de IA, ordenadas y contrastadas contra sus datos, en 4 semanas.",
-      "serviceType": "Diagnóstico de IA para empresas",
+      "title": "Ruta IA: estrategia de IA para empresas | Cabana Data",
+      "description": "En 4 semanas, sepa qué soluciones de IA pueden aportar valor pronto en su empresa, en qué orden y con qué plan arrancar.",
+      "ogTitle": "Ruta IA: sepa qué hacer con IA y por dónde empezar",
+      "ogDescription": "Sus 5 mejores oportunidades de IA, priorizadas con usted y con el plan para arrancar, en 4 semanas.",
+      "serviceType": "Estrategia de IA para empresas",
       "breadcrumbHome": "Inicio"
     },
     "nav": {
@@ -2049,8 +2049,8 @@
   },
   "aiFirstMove": {
     "meta": {
-      "title": "AI First Move: primer caso de IA en producción | Cabana Data",
-      "description": "En 10 semanas, su primer caso de IA en producción y el caso de inversión para llevar el resto a junta. Precio fijo: USD 24,500 + IVA.",
+      "title": "AI First Move: lleve su primer caso de IA a producción | Cabana Data",
+      "description": "En 10 semanas, su primer caso de IA en producción y el caso de inversión para llevar el resto a junta, construido con su equipo.",
       "ogTitle": "AI First Move: su primer caso de IA, funcionando",
       "ogDescription": "Un caso de IA en producción, construido con su equipo, y la evidencia para financiar los siguientes.",
       "serviceType": "Primer caso de IA en producción",
@@ -2605,10 +2605,10 @@
   },
   "inicio": {
     "meta": {
-      "title": "Consultoría de IA, software y datos en Costa Rica",
-      "description": "Software a la medida, arquitectura de datos y consultoría de IA en Costa Rica. Especificamos, construimos y entregamos en producción.",
-      "ogTitle": "Cabana Data: primero una base sólida, después IA que funciona",
-      "ogDescription": "Aplicaciones a la medida y datos confiables para decidir. Sobre esa base, IA que llega a producción."
+      "title": "Consultoría de IA en Costa Rica | Cabana Data",
+      "description": "Consultoría de IA en Costa Rica: elegimos con usted qué hacer con IA, la llevamos a producción en semanas y la dejamos operando con su equipo.",
+      "ogTitle": "Cabana Data: consultoría de IA con método y resultados en producción",
+      "ogDescription": "Claridad sobre qué hacer con IA, el primer resultado en producción en semanas y un aliado para su equipo de tecnología."
     },
     "hero": {
       "eyebrow": "Estrategia, implementación y acompañamiento",
@@ -2795,10 +2795,10 @@
   },
   "comoTrabajamos": {
     "meta": {
-      "title": "Cómo trabajamos: un sistema para cada proyecto | Cabana Data",
-      "description": "Sistemas propios con fases, entregables y criterios de salida verificables. De Ruta IA en 4 semanas a un caso en producción en 10 semanas.",
-      "ogTitle": "Cómo trabajamos: un sistema para cada proyecto",
-      "ogDescription": "Fases definidas, entregables con nombre y una condición clara para dar cada fase por terminada.",
+      "title": "Cómo trabajamos con IA: con método y su equipo | Cabana Data",
+      "description": "Especificamos antes de construir, construimos con su equipo y lo dejamos en producción. La IA propone, su equipo decide.",
+      "ogTitle": "Cómo trabajamos: del plan de IA a producción, con su equipo",
+      "ogDescription": "Un método de ingeniería, un aliado para su área de tecnología y un principio: la IA propone, su equipo decide.",
       "breadcrumbHome": "Inicio"
     },
     "hero": {
@@ -3048,6 +3048,12 @@
       "title": "¿Qué cambio necesita su empresa primero?",
       "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos por dónde conviene empezar.",
       "button": "Agendar una conversación"
+    },
+    "meta": {
+      "title": "Soluciones de IA y datos para empresas | Cabana Data",
+      "description": "Modernización de datos, conocimiento empresarial, machine learning, agentes de IA y productos digitales, llevados a producción con su equipo.",
+      "ogTitle": "Lo que hacemos: cinco cambios que llevamos a producción",
+      "ogDescription": "Cómo opera su empresa antes y después de trabajar con nosotros, en cinco áreas."
     }
   },
   "areasImpacto": {
@@ -3162,6 +3168,12 @@
         "title": "¿Cuánto tiempo pierde hoy su equipo juntando datos?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos sus fuentes y por dónde conviene empezar.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Modernización de datos para empresas | Cabana Data",
+        "description": "Una sola fuente de datos confiable en la nube, con integraciones automáticas y reportes que se actualizan solos. Lo construimos con su equipo.",
+        "ogTitle": "Modernización de datos: decida con datos al día",
+        "ogDescription": "Sus datos en una sola fuente confiable, con analítica que se actualiza sola y operada por su equipo."
       }
     },
     "conocimiento-empresarial": {
@@ -3275,6 +3287,12 @@
         "title": "¿Cuántas veces al día alguien interrumpe a su experto para preguntar lo mismo?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué conocimiento conviene poner a disposición primero.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Conocimiento empresarial disponible con IA | Cabana Data",
+        "description": "Un asistente de IA conectado a sus documentos internos: su equipo consulta en lenguaje natural, con la fuente citada y los permisos de cada persona.",
+        "ogTitle": "Lo que su empresa sabe, disponible para todo su equipo",
+        "ogDescription": "Respuestas en lenguaje natural sobre políticas, procedimientos y contratos, con la fuente citada y los permisos respetados."
       }
     },
     "ciencia-de-datos-y-machine-learning": {
@@ -3392,6 +3410,12 @@
         "title": "¿Qué decisión de su empresa todavía depende de la intuición?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué decisión conviene mejorar primero y con qué datos.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Ciencia de datos y machine learning | Cabana Data",
+        "description": "Modelos predictivos y alertas integrados en su operación para decidir cuánto producir, qué cliente cuidar y dónde está el riesgo, en producción.",
+        "ogTitle": "Ciencia de datos y machine learning: decida con predicción",
+        "ogDescription": "Predicciones y alertas atadas a decisiones concretas de su operación, en producción y monitoreadas."
       }
     },
     "automatizacion-con-agentes-de-ia": {
@@ -3505,6 +3529,12 @@
         "title": "¿Cuántas horas dedica su equipo a preparar decisiones?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué proceso conviene automatizar primero.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Automatización con agentes de IA | Cabana Data",
+        "description": "Agentes de IA que leen, analizan y preparan cada decisión en sus procesos. Su equipo revisa y aprueba. Lo dejamos en producción y documentado.",
+        "ogTitle": "Automatización con agentes de IA: la IA propone, su equipo decide",
+        "ogDescription": "Menos horas reuniendo información y más tiempo para decidir, con agentes de IA conectados a sus sistemas."
       }
     },
     "productos-digitales": {
@@ -3618,6 +3648,12 @@
         "title": "¿Qué sistema frena hoy a su equipo?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos su situación y por dónde conviene empezar.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Productos digitales con IA integrada | Cabana Data",
+        "description": "Software a la medida y modernización de sistemas legacy, con IA donde aporta valor. Especificamos desde sus procesos y lo dejamos operando con su equipo.",
+        "ogTitle": "Productos digitales con IA integrada desde el diseño",
+        "ogDescription": "Aplicaciones a la medida, especificadas desde sus procesos reales y mantenibles por su equipo."
       }
     },
     "common": {

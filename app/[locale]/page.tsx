@@ -59,6 +59,12 @@ const organizationSchema = {
   makesOffer: [
     { name: "Ruta IA", path: "/ruta-ia" },
     { name: "AI First Move", path: "/ai-first-move" },
+    // The five impact areas of /lo-que-hacemos (copy 6M-02.0)
+    { name: "Modernización de datos", path: "/lo-que-hacemos/modernizacion-de-datos" },
+    { name: "Conocimiento empresarial disponible", path: "/lo-que-hacemos/conocimiento-empresarial" },
+    { name: "Ciencia de datos y machine learning", path: "/lo-que-hacemos/ciencia-de-datos-y-machine-learning" },
+    { name: "Automatización con agentes de IA", path: "/lo-que-hacemos/automatizacion-con-agentes-de-ia" },
+    { name: "Productos digitales con IA integrada", path: "/lo-que-hacemos/productos-digitales" },
   ].map(({ name, path }) => ({
     "@type": "Offer",
     itemOffered: {

@@ -2065,9 +2065,9 @@
   },
   "aiFirstMove": {
     "meta": {
-      "title": "AI First Move: first AI use case in production | Cabana Data",
-      "description": "In 10 weeks, your first AI use case in production and the investment case to take the rest to the board. Fixed price: USD 24,500 + VAT.",
-      "ogTitle": "AI First Move: your first AI use case, up and running",
+      "title": "AI First Move: take your first AI use case to production | Cabana Data",
+      "description": "In 10 weeks, your first AI use case in production and the investment case to take the rest to the board, built with your team.",
+      "ogTitle": "AI First Move: your first AI use case, working",
       "ogDescription": "An AI use case in production, built with your team, and the evidence to fund the next ones.",
       "serviceType": "First AI use case in production",
       "breadcrumbHome": "Home"
@@ -2621,10 +2621,10 @@
   },
   "inicio": {
     "meta": {
-      "title": "AI, software and data consulting in Costa Rica",
-      "description": "Custom software, data architecture and AI consulting in Costa Rica. We specify, build and deliver to production.",
-      "ogTitle": "Cabana Data: a solid foundation first, then AI that works",
-      "ogDescription": "Custom applications and reliable data to decide with. On that foundation, AI that reaches production."
+      "title": "AI consulting in Costa Rica | Cabana Data",
+      "description": "AI consulting in Costa Rica: we choose with you what to do with AI, take it to production in weeks and leave it running with your team.",
+      "ogTitle": "Cabana Data: AI consulting with a method and results in production",
+      "ogDescription": "Clarity on what to do with AI, the first result in production in weeks and an ally for your technology team."
     },
     "hero": {
       "eyebrow": "Strategy, implementation and support",
@@ -2811,10 +2811,10 @@
   },
   "comoTrabajamos": {
     "meta": {
-      "title": "How we work: a system for every project | Cabana Data",
-      "description": "Proprietary systems with phases, deliverables and verifiable exit criteria. From Ruta IA in 4 weeks to a use case in production in 10 weeks.",
-      "ogTitle": "How we work: a system for every project",
-      "ogDescription": "Defined phases, named deliverables and a clear condition for considering each phase complete.",
+      "title": "How we work with AI: with a method and your team | Cabana Data",
+      "description": "We specify before we build, build with your team and leave it in production. AI proposes, your team decides.",
+      "ogTitle": "How we work: from the AI plan to production, with your team",
+      "ogDescription": "An engineering method, an ally for your technology department and a principle: AI proposes, your team decides.",
       "breadcrumbHome": "Home"
     },
     "hero": {
@@ -3030,7 +3030,7 @@
     "method": {
       "title": "The same method in every project",
       "items": [
-        "We specify before we build, starting from your real processes.",
+        "We specify before we build, based on your real processes.",
         "We build with your team, with the architecture your technology department approves.",
         "We deliver in production, documented so your people can run it.",
         "AI proposes, your team decides."
@@ -3064,6 +3064,12 @@
       "title": "What change does your company need first?",
       "body": "In a 20-minute conversation with whoever decides the investment, we review where it makes sense to start.",
       "button": "Schedule a conversation"
+    },
+    "meta": {
+      "title": "AI and data solutions for companies | Cabana Data",
+      "description": "Data modernization, enterprise knowledge, machine learning, AI agents and digital products, taken to production with your team.",
+      "ogTitle": "What we do: five changes we take to production",
+      "ogDescription": "How your company operates before and after working with us, in five areas."
     }
   },
   "areasImpacto": {
@@ -3178,6 +3184,12 @@
         "title": "How much time does your team lose today gathering data?",
         "body": "In a 20-minute conversation with whoever makes the investment decision, we review your sources and where it makes sense to start.",
         "button": "Schedule a conversation"
+      },
+      "meta": {
+        "title": "Data modernization for companies | Cabana Data",
+        "description": "A single reliable data source in the cloud, with automatic integrations and reports that update on their own. We build it with your team.",
+        "ogTitle": "Data modernization: decide with up-to-date data",
+        "ogDescription": "Your data in a single reliable source, with analytics that update on their own, run by your team."
       }
     },
     "conocimiento-empresarial": {
@@ -3186,7 +3198,7 @@
         "title": "Enterprise knowledge, available: answers with sources, without interrupting anyone",
         "subtitle": "We connect an AI assistant to your internal documents and systems so your people can query what the company knows in natural language, with the source cited and each person's permissions respected.",
         "facts": [
-          "AI-powered internal assistants",
+          "Internal AI assistants",
           "Answers that cite the source",
           "Access based on each person's permissions"
         ],
@@ -3291,6 +3303,12 @@
         "title": "How many times a day does someone interrupt your expert to ask the same thing?",
         "body": "In a 20-minute conversation with whoever makes the investment decision, we review which knowledge makes sense to make available first.",
         "button": "Schedule a conversation"
+      },
+      "meta": {
+        "title": "Enterprise knowledge, available with AI | Cabana Data",
+        "description": "An AI assistant connected to your internal documents: your team asks in natural language, with the source cited and each person's permissions respected.",
+        "ogTitle": "What your company knows, available to your whole team",
+        "ogDescription": "Natural-language answers about policies, procedures and contracts, with the source cited and permissions respected."
       }
     },
     "ciencia-de-datos-y-machine-learning": {
@@ -3408,6 +3426,12 @@
         "title": "Which decision in your company still depends on intuition?",
         "body": "In a 20-minute conversation with whoever makes the investment decision, we review which decision makes sense to improve first and with what data.",
         "button": "Schedule a conversation"
+      },
+      "meta": {
+        "title": "Data science and machine learning | Cabana Data",
+        "description": "Predictive models and alerts built into your operation to decide how much to produce, which customer to keep and where the risk is, in production.",
+        "ogTitle": "Data science and machine learning: decide with prediction",
+        "ogDescription": "Predictions and alerts tied to specific decisions in your operation, in production and monitored."
       }
     },
     "automatizacion-con-agentes-de-ia": {
@@ -3521,6 +3545,12 @@
         "title": "How many hours does your team spend preparing decisions?",
         "body": "In a 20-minute conversation with whoever makes the investment decision, we review which process makes sense to automate first.",
         "button": "Schedule a conversation"
+      },
+      "meta": {
+        "title": "Automation with AI agents | Cabana Data",
+        "description": "AI agents that read, analyze and prepare each decision in your processes. Your team reviews and approves. We leave it in production and documented.",
+        "ogTitle": "Automation with AI agents: AI proposes, your team decides",
+        "ogDescription": "Fewer hours gathering information and more time to decide, with AI agents connected to your systems."
       }
     },
     "productos-digitales": {
@@ -3634,6 +3664,12 @@
         "title": "Which system is holding your team back today?",
         "body": "In a 20-minute conversation with whoever makes the investment decision, we review your situation and where it makes sense to start.",
         "button": "Schedule a conversation"
+      },
+      "meta": {
+        "title": "Digital products with built-in AI | Cabana Data",
+        "description": "Custom software and legacy system modernization, with AI where it adds value. We specify from your processes and leave it running with your team.",
+        "ogTitle": "Digital products with AI built in from the design",
+        "ogDescription": "Custom applications, specified from your real processes and maintainable by your team."
       }
     },
     "common": {

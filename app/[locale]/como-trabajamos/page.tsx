@@ -73,7 +73,14 @@ export default async function ComoTrabajamosPage({
         { name: "Ruta IA", path: "/ruta-ia" },
         { name: "AI First Move", path: localePath(locale, "/ai-first-move") },
       ].map(({ name, path }) => ({ "@type": "Service", name, url: `${domain}${path}` })),
-      publisher: { "@type": "Organization", "@id": `${domain}/#organization`, name: siteConfig.site_name },
+      publisher: {
+        "@type": "Organization",
+        "@id": `${domain}/#organization`,
+        name: siteConfig.site_name,
+        url: domain,
+        // Definition sentence from the brief (copy 6M-02.4)
+        description: "Cabana Data es una consultoría de IA en Costa Rica que lleva la IA a producción con método",
+      },
     },
     {
       "@context": "https://schema.org",
