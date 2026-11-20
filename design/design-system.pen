@@ -43175,6 +43175,414 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "h61m5",
+          "x": 2200,
+          "y": 5200,
+          "name": "CH-web-v2/Ruta IA · Plazo y alcance",
+          "width": 1440,
+          "fill": "$background",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XZneu",
+              "name": "H2",
+              "fill": "$foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Plazo y alcance claros",
+              "lineHeight": 1.11,
+              "textAlign": "center",
+              "fontFamily": "$font-sans",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "W7NS5D",
+              "name": "Items",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gKcOM",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "height": 187,
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fupOd",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "JimF5",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "calendar-clock",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "laRhl",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "4 semanas + 30 días de seguimiento",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N6IIG",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "height": 187,
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rOacR",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "iDWyT",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "building-2",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "W3B7Vv",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Para 1 o 2 unidades de negocio",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DCb8e",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "height": 187,
+                  "fill": "$cabana-light",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "#00000000",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eyreG",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "dTUHe",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "badge-percent",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "lGgEJ",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si contrata un proyecto de implementación en los 90 días siguientes, le acreditamos la mitad de lo invertido en Ruta IA.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FFKf8",
+          "x": 3760,
+          "y": 5200,
+          "name": "CH-web-v2/Ruta IA · Plazo y alcance (móvil)",
+          "width": 390,
+          "fill": "$background",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            64,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "z5LPR",
+              "name": "H2",
+              "fill": "$foreground",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Plazo y alcance claros",
+              "lineHeight": 1.11,
+              "fontFamily": "$font-sans",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "LNQGo",
+              "name": "Items",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JBfDI",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "B9NPr",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "cTVGo",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "calendar-clock",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "cPaf9",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "4 semanas + 30 días de seguimiento",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N0af5u",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "fill": "$card",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eQBjt",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "fIfHv",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "building-2",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "urkJn",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Para 1 o 2 unidades de negocio",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dc8zu",
+                  "name": "Item",
+                  "width": "fill_container",
+                  "fill": "$cabana-light",
+                  "cornerRadius": "$radius-xl",
+                  "stroke": "#00000000",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LzeF2",
+                      "name": "Icon box",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "cRiZM",
+                          "name": "Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "badge-percent",
+                          "library": "lucide",
+                          "fill": "$primary"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "j2UKz",
+                      "name": "Text",
+                      "fill": "$foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si contrata un proyecto de implementación en los 90 días siguientes, le acreditamos la mitad de lo invertido en Ruta IA.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

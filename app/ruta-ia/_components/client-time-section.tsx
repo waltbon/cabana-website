@@ -1,10 +1,17 @@
 import { getRutaIaTranslations } from "../lib/i18n";
 
-type Item = { role: string; body: string };
+/** Each item reads "Rol: detalle" in the copy; the role is bolded in place
+ * so the published text stays identical to it. */
+function splitRole(item: string) {
+  const i = item.indexOf(": ");
+  return i === -1
+    ? { role: "", body: item }
+    : { role: item.slice(0, i + 1), body: item.slice(i + 1) };
+}
 
 export async function ClientTimeSection() {
   const t = await getRutaIaTranslations("clientTime");
-  const items = t.raw("items") as Item[];
+  const items = (t.raw("items") as string[]).map(splitRole);
 
   return (
     <section className="bg-section-slate py-16 md:py-24">
@@ -13,19 +20,14 @@ export async function ClientTimeSection() {
           <h2 className="text-foreground">{t("title")}</h2>
           <p className="text-lg text-muted-foreground">{t("intro")}</p>
         </div>
-        <dl className="divide-y">
-          {items.map((item) => (
-            <div
-              key={item.role}
-              className="flex flex-col gap-1 py-5 md:flex-row md:gap-8"
-            >
-              <dt className="font-semibold text-foreground md:w-60 md:shrink-0">
-                {item.role}
-              </dt>
-              <dd className="text-muted-foreground">{item.body}</dd>
-            </div>
+        <ul className="divide-y">
+          {items.map(({ role, body }) => (
+            <li key={role + body} className="py-5 text-muted-foreground">
+              <strong className="font-semibold text-foreground">{role}</strong>
+              {body}
+            </li>
           ))}
-        </dl>
+        </ul>
       </div>
     </section>
   );
