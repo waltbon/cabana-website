@@ -9374,7 +9374,7 @@
           "name": "PG/index",
           "clip": true,
           "width": 1440,
-          "height": 6118,
+          "height": 6004,
           "fill": "$background",
           "layout": "vertical",
           "children": [
@@ -9402,7 +9402,7 @@
               "name": "Hero",
               "clip": true,
               "width": 1440,
-              "height": 972,
+              "height": 858,
               "fill": "#ffffff",
               "layout": "none",
               "children": [
@@ -9845,6 +9845,7 @@
                   "x": 120,
                   "y": 802,
                   "name": "Stats bar",
+                  "enabled": false,
                   "width": 1200,
                   "height": 130,
                   "fill": "$cabana-blue",
@@ -12272,7 +12273,7 @@
           "name": "PG/index (móvil)",
           "clip": true,
           "width": 390,
-          "height": 10250,
+          "height": 9888,
           "fill": "$background",
           "layout": "vertical",
           "children": [
@@ -12652,8 +12653,11 @@
                 {
                   "type": "frame",
                   "id": "Q6o0wU",
+                  "x": 0,
+                  "y": 1188,
                   "name": "Stats wrap",
-                  "width": "fill_container",
+                  "enabled": false,
+                  "width": "fill_container(390)",
                   "layout": "vertical",
                   "padding": 16,
                   "children": [

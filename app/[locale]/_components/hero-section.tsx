@@ -12,13 +12,13 @@ const pillarIcons = [Compass, Rocket, Handshake];
 
 /**
  * Split hero: copy on a dark band with diagonal accents and the illustration on
- * the right (below on mobile). Three equal pillars sit under the copy, and a
- * stats bar overlaps the band's bottom edge.
+ * the right (below on mobile). Three equal pillars sit under the copy. The
+ * stats bar is temporarily hidden.
  */
 export async function HeroSection() {
   const t = await getTranslations("inicio.hero");
   const pillars = t.raw("pillars") as Pillar[];
-  const stats = t.raw("stats") as Stat[];
+  // const stats = t.raw("stats") as Stat[]; // stats bar hidden, see below
   const [firstLine, secondLine] = t("title").split(/(?<=[.,])\s+/);
 
   return (
@@ -91,25 +91,30 @@ export async function HeroSection() {
         </div>
       </div>
 
-      {/* Stats bar: overlaps the dark band's bottom edge on desktop */}
-      <div className="container relative mt-4 lg:-mt-14">
-        <dl
-          aria-label={t("statsLabel")}
-          className="flex flex-col items-center gap-6 rounded-xl bg-cabana-blue px-6 py-8 sm:flex-row sm:justify-center sm:gap-0 sm:divide-x sm:divide-white/25 lg:py-8"
-        >
-          {stats.map((stat) => (
-            <div
-              key={stat.label}
-              className="flex flex-col-reverse items-center gap-1.5 px-4 text-center sm:w-56 lg:w-70"
-            >
-              <dt className="max-w-56 text-sm text-cabana-light">{stat.label}</dt>
-              <dd className="whitespace-nowrap text-4xl font-bold leading-none text-white lg:text-5xl">
-                {stat.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </div>
+      {/*
+        Stats bar hidden for now (2026-11-20): the figures need to be rethought.
+        Texts stay in messages under inicio.hero.stats / statsLabel.
+
+        Stats bar: overlaps the dark band's bottom edge on desktop.
+        <div className="container relative mt-4 lg:-mt-14">
+          <dl
+            aria-label={t("statsLabel")}
+            className="flex flex-col items-center gap-6 rounded-xl bg-cabana-blue px-6 py-8 sm:flex-row sm:justify-center sm:gap-0 sm:divide-x sm:divide-white/25 lg:py-8"
+          >
+            {stats.map((stat) => (
+              <div
+                key={stat.label}
+                className="flex flex-col-reverse items-center gap-1.5 px-4 text-center sm:w-56 lg:w-70"
+              >
+                <dt className="max-w-56 text-sm text-cabana-light">{stat.label}</dt>
+                <dd className="whitespace-nowrap text-4xl font-bold leading-none text-white lg:text-5xl">
+                  {stat.value}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      */}
     </section>
   );
 }
