@@ -73,6 +73,9 @@ const nextConfig: NextConfig = {
           statusCode: 301,
         },
       ]),
+      // Ruta IA is Spanish-only (outside [locale]); the language switcher's
+      // EN link would otherwise 404.
+      { source: "/en/ruta-ia", destination: "/ruta-ia", statusCode: 301 },
       // Spanish is unprefixed; make /es a permanent redirect instead of
       // next-intl's 307 so search engines consolidate on "/".
       { source: "/es", destination: "/", statusCode: 301 },

@@ -64,3 +64,4 @@ https://ruta-ai.cabanadata.com/:path*,https://cabanadata.com/ruta-ia,Comodín pa
 /capacidades/ingenieria-de-datos,/lo-que-hacemos/modernizacion-de-datos,Web v2: Data Engineering pasa a Modernización de datos (copy 6M-02.3.1)
 /capacidades/producto-digital,/lo-que-hacemos/productos-digitales,Web v2: Digital Product pasa a Productos digitales (copy 6M-02.3.5)
 /capacidades/agentes-ia-a-medida,/lo-que-hacemos/automatizacion-con-agentes-de-ia,Web v2: Custom AI Agents pasa a Automatización con agentes (copy 6M-02.3.4)
+/en/ruta-ia,/ruta-ia,Ruta IA solo existe en español; el selector de idioma llevaba a un 404 (web v2)
