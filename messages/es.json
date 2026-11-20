@@ -28,7 +28,8 @@
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence",
     "capabilities": "Capacidades",
     "capabilitiesOverview": "Todas las capacidades",
-    "customAiAgents": "Custom AI Agents"
+    "customAiAgents": "Custom AI Agents",
+    "whatWeDo": "Lo que hacemos"
   },
   "solution": {
     "tagline": "NUESTRO ENFOQUE",
@@ -108,6 +109,7 @@
       "about": "Cómo trabajamos",
       "blog": "Blog",
       "contact": "Contacto",
+      "whatWeDo": "Lo que hacemos",
       "capabilities": "Capacidades"
     },
     "followUs": "Síganos",
@@ -2934,6 +2936,108 @@
           "service": "AI First Move"
         }
       ],
+      "button": "Agendar una conversación"
+    }
+  },
+  "loQueHacemos": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumb": "Lo que hacemos",
+    "hero": {
+      "eyebrow": "Lo que hacemos",
+      "title": "Lo que hacemos: cinco cambios que llevamos a producción en su empresa",
+      "subtitle": "Cada área describe cómo opera su empresa antes y después. Todo termina en producción, documentado y operado por su equipo.",
+      "cta": "Agendar una conversación"
+    },
+    "areas": {
+      "title": "Cinco áreas, un mismo criterio: que funcione en su operación",
+      "items": [
+        {
+          "name": "Modernización de datos",
+          "moment": "Los reportes se arman a mano y cada área llega con su propio número.",
+          "change": "Una sola fuente de datos confiable, con analítica que se actualiza sola.",
+          "metric": "45 entidades de 8 plataformas, automatizadas en Google BigQuery",
+          "href": "/lo-que-hacemos/modernizacion-de-datos"
+        },
+        {
+          "name": "Conocimiento empresarial disponible",
+          "moment": "El conocimiento vive en documentos, correos y en la cabeza de pocas personas.",
+          "change": "Su gente consulta políticas, procesos y datos en lenguaje natural, con la fuente citada.",
+          "metric": "De 90 minutos a 30 segundos para encontrar una respuesta en cientos de estudios",
+          "href": "/lo-que-hacemos/conocimiento-empresarial"
+        },
+        {
+          "name": "Ciencia de datos y machine learning",
+          "moment": "Decisiones importantes dependen de análisis manual o de la intuición.",
+          "change": "Predicciones y alertas integradas en la operación, que mejoran decisiones concretas.",
+          "metric": "De 12-25% a 3-5% de desviación al anticipar el resultado de una campaña",
+          "href": "/lo-que-hacemos/ciencia-de-datos-y-machine-learning"
+        },
+        {
+          "name": "Automatización con agentes de IA",
+          "moment": "Su equipo dedica horas a tareas repetitivas que exigen criterio.",
+          "change": "Agentes de IA que analizan y preparan la decisión. Su equipo revisa y aprueba.",
+          "metric": "De 20 a 2 minutos para reunir el historial de campañas",
+          "href": "/lo-que-hacemos/automatizacion-con-agentes-de-ia"
+        },
+        {
+          "name": "Productos digitales con IA integrada",
+          "moment": "Un sistema antiguo frena la operación, o quiere lanzar un producto digital nuevo.",
+          "change": "Una aplicación a la medida, especificada desde sus procesos, con IA donde aporta valor.",
+          "metric": "De 3 fuentes a 1 para dar seguimiento a la cuota de ventas",
+          "href": "/lo-que-hacemos/productos-digitales"
+        }
+      ],
+      "cardCta": "Ver cómo lo hacemos"
+    },
+    "start": {
+      "title": "¿No sabe cuál le conviene primero?",
+      "items": [
+        {
+          "body": "Ruta IA lo define en 4 semanas: sus 5 mejores oportunidades de IA, priorizadas, y el plan para arrancar.",
+          "cta": "Ver Ruta IA"
+        },
+        {
+          "body": "Si ya tiene una idea elegida, AI First Move la pone en producción en 10 semanas.",
+          "cta": "Ver AI First Move"
+        }
+      ]
+    },
+    "method": {
+      "title": "El mismo método en cada proyecto",
+      "items": [
+        "Especificamos antes de construir, desde sus procesos reales.",
+        "Construimos con su equipo, con la arquitectura que su área de tecnología aprueba.",
+        "Entregamos en producción, documentado para que su gente lo opere.",
+        "La IA propone, su equipo decide."
+      ],
+      "link": "Ver cómo trabajamos"
+    },
+    "stack": {
+      "title": "Las tecnologías con que trabajamos",
+      "intro": "Elegimos la tecnología según su operación y lo que su equipo puede mantener."
+    },
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "question": "¿Tengo que ordenar mis datos antes de empezar con IA?",
+        "answer": "No. Si algo de sus datos hay que resolver, lo hacemos en el camino o en paralelo, como parte del plan."
+      },
+      {
+        "question": "¿Cómo se cotiza un proyecto en estas áreas?",
+        "answer": "A medida, según el alcance que definimos juntos en la primera conversación. Para empezar con IA con alcance y plazo definidos están Ruta IA y AI First Move."
+      },
+      {
+        "question": "¿Trabajan con nuestro equipo de tecnología?",
+        "answer": "Sí. Construimos con su equipo, con la arquitectura que su área de tecnología aprueba, y lo dejamos documentado para que lo operen."
+      },
+      {
+        "question": "¿Puedo combinar varias áreas?",
+        "answer": "Sí. Muchas empresas empiezan por una y suman otra cuando la primera ya da resultados. Le ayudamos a definir el orden."
+      }
+    ],
+    "cta": {
+      "title": "¿Qué cambio necesita su empresa primero?",
+      "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos por dónde conviene empezar.",
       "button": "Agendar una conversación"
     }
   }

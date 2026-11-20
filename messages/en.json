@@ -28,7 +28,8 @@
     "caseStudiesPersonalytics": "Personalytics - Marketing Intelligence",
     "capabilities": "Capabilities",
     "capabilitiesOverview": "All capabilities",
-    "customAiAgents": "Custom AI Agents"
+    "customAiAgents": "Custom AI Agents",
+    "whatWeDo": "What we do"
   },
   "solution": {
     "tagline": "OUR APPROACH",
@@ -108,6 +109,7 @@
       "about": "How we work",
       "blog": "Blog",
       "contact": "Contact",
+      "whatWeDo": "What we do",
       "capabilities": "Capabilities"
     },
     "followUs": "Follow Us",
@@ -2935,6 +2937,108 @@
         }
       ],
       "button": "Book a conversation"
+    }
+  },
+  "loQueHacemos": {
+    "breadcrumbHome": "Home",
+    "breadcrumb": "What we do",
+    "hero": {
+      "eyebrow": "What we do",
+      "title": "What we do: five changes we take to production in your company",
+      "subtitle": "Each area describes how your company operates before and after. Everything ends in production, documented and run by your team.",
+      "cta": "Schedule a conversation"
+    },
+    "areas": {
+      "title": "Five areas, one criterion: that it works in your operation",
+      "items": [
+        {
+          "name": "Data modernization",
+          "moment": "Reports are put together by hand and each department arrives with its own number.",
+          "change": "A single reliable data source, with analytics that update on their own.",
+          "metric": "45 entities from 8 platforms, automated in Google BigQuery",
+          "href": "/lo-que-hacemos/modernizacion-de-datos"
+        },
+        {
+          "name": "Enterprise knowledge, available",
+          "moment": "Knowledge lives in documents, emails and in the heads of a few people.",
+          "change": "Your people query policies, processes and data in natural language, with the source cited.",
+          "metric": "From 90 minutes to 30 seconds to find an answer across hundreds of studies",
+          "href": "/lo-que-hacemos/conocimiento-empresarial"
+        },
+        {
+          "name": "Data science and machine learning",
+          "moment": "Important decisions depend on manual analysis or intuition.",
+          "change": "Predictions and alerts built into the operation that improve specific decisions.",
+          "metric": "From 12-25% to 3-5% deviation when forecasting a campaign's result",
+          "href": "/lo-que-hacemos/ciencia-de-datos-y-machine-learning"
+        },
+        {
+          "name": "Automation with AI agents",
+          "moment": "Your team spends hours on repetitive tasks that require judgment.",
+          "change": "AI agents that analyze and prepare the decision. Your team reviews and approves.",
+          "metric": "From 20 to 2 minutes to gather the campaign history",
+          "href": "/lo-que-hacemos/automatizacion-con-agentes-de-ia"
+        },
+        {
+          "name": "Digital products with built-in AI",
+          "moment": "A legacy system slows down the operation, or you want to launch a new digital product.",
+          "change": "A custom application, specified from your processes, with AI where it adds value.",
+          "metric": "From 3 sources to 1 to track the sales quota",
+          "href": "/lo-que-hacemos/productos-digitales"
+        }
+      ],
+      "cardCta": "See how we do it"
+    },
+    "start": {
+      "title": "Not sure which one fits you first?",
+      "items": [
+        {
+          "body": "Ruta IA defines it in 4 weeks: your 5 best AI opportunities, prioritized, and the plan to get started.",
+          "cta": "See Ruta IA"
+        },
+        {
+          "body": "If you already have an idea chosen, AI First Move takes it to production in 10 weeks.",
+          "cta": "See AI First Move"
+        }
+      ]
+    },
+    "method": {
+      "title": "The same method in every project",
+      "items": [
+        "We specify before we build, starting from your real processes.",
+        "We build with your team, with the architecture your technology department approves.",
+        "We deliver in production, documented so your people can run it.",
+        "AI proposes, your team decides."
+      ],
+      "link": "See how we work"
+    },
+    "stack": {
+      "title": "The technologies we work with",
+      "intro": "We choose technology based on your operation and what your team can maintain."
+    },
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "question": "Do I have to organize my data before starting with AI?",
+        "answer": "No. If something in your data needs fixing, we do it along the way or in parallel, as part of the plan."
+      },
+      {
+        "question": "How is a project in these areas quoted?",
+        "answer": "Custom, based on the scope we define together in the first conversation. To start with AI with a defined scope and timeline, there are Ruta IA and AI First Move."
+      },
+      {
+        "question": "Do you work with our technology team?",
+        "answer": "Yes. We build with your team, with the architecture your technology department approves, and we leave it documented so they can run it."
+      },
+      {
+        "question": "Can I combine several areas?",
+        "answer": "Yes. Many companies start with one and add another once the first is delivering results. We help you define the order."
+      }
+    ],
+    "cta": {
+      "title": "What change does your company need first?",
+      "body": "In a 20-minute conversation with whoever decides the investment, we review where it makes sense to start.",
+      "button": "Schedule a conversation"
     }
   }
 }
