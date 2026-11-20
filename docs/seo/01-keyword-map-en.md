@@ -1,5 +1,7 @@
 # Mapa de keywords · en-US (Estados Unidos)
 
+> **2026-11-20 (Q17):** el copy web v2 reemplaza la "Dosis de IA" de GUIA-TONO v2. Este mapa en inglés sigue siendo el de la investigación del 25 oct 2026 y está pendiente de actualizar a la arquitectura v2 (B-050).
+
 Fecha: 25 oct 2026 · Alcance: Fase 1 de `docs/instructions/01-investigacion-seo.md`, solo inglés (EE. UU.) · Mercado tratado como propio, no como traducción del español.
 
 ## 0. Calidad de los datos (leer primero)

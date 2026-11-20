@@ -4,17 +4,19 @@ Fecha: 25 oct 2026 · Fases 1 y 2 · Solo investigación (no es copy final)
 
 > **Calidad de datos, leer primero.** No hubo acceso a DataForSEO ni a Google Ads Keyword Planner (el script `keyword_planner.py` falla: falta la librería `google-ads` y no hay developer token confirmado). No hay volúmenes, dificultad ni tendencia medidos. Todo lo que dice "volumen" o "dificultad" en este documento es **estimado, sin DataForSEO**, cualitativo (alto / medio / bajo / casi nulo) e inferido de la composición de los SERPs. La herramienta de búsqueda disponible devuelve resultados **localizados en EE. UU.** aunque la consulta esté en español; los SERPs reales de Costa Rica, México y Colombia pueden diferir. No fue posible observar AI Overviews, ChatGPT ni Perplexity directamente. Ver §8.
 
+> **Actualización 2026-11-20 (Q17, web v2).** Dirección decidió que el copy web v2 (`docs/copy-web-v2/`) reemplaza la "Dosis de IA" de GUIA-TONO v2, D-011 y Q14. Los términos de Inicio, Ruta IA, Cómo trabajamos y Lo que hacemos (§1, Cluster C, matriz de enlaces y §4) siguen el copy v2. El resto (semillas, SERPs, competidores) es la investigación original del 25 oct 2026 y no se reescribió. Sigue abierta B-051: el post pilar sobre "estrategia de IA para empresas" compite con Ruta IA por el mismo término.
+
 ---
 
 ## 1. Resumen por página
 
 | Página (slug) | Término principal | Secundarios | Intención | Tipo de página que muestra el SERP | Recomendación |
 |---|---|---|---|---|---|
-| **Inicio** `/` | consultoría de IA, software y datos en Costa Rica (GUIA-TONO v2, 2026-11-15) | consultoría de IA para empresas; software a la medida Costa Rica; arquitectura de datos; consultoría de IA Latinoamérica | Comercial / navegacional de categoría | Mixto: noticias de ecosistema, directorios (Clutch, Consultancy.org, ensun), páginas de consultores individuales. Ninguna consultora local domina | Mantener en Inicio el término de categoría + país (el title actual ya lo usa). Es el único término comercial con geografía donde un sitio local puede competir. Variantes MX y CO no merecen páginas propias hoy (ver §6) |
-| **Ruta IA** `/ruta-ia` | diagnóstico de IA para empresas | evaluación de preparación para IA; diagnóstico de datos para IA; hoja de ruta de IA; por dónde empezar con IA (puente desde blog) | Comercial (evaluar un servicio) | Mixto: páginas de servicio de consultoras (RSM Colombia "estrategia de datos e IA", gend.co, yourdevs, nordflux, Oracle) + artículos/glosarios ("modelo de madurez de IA") | Página de servicio con el término "diagnóstico de IA". "por dónde empezar con IA" es informativo: va al blog con enlace a Ruta IA. Evitar "madurez" como término principal: el SERP lo asocia a niveles tipo CMMI y Ruta IA no entrega un nivel de madurez |
+| **Inicio** `/` | consultoría de IA en Costa Rica (copy web v2, Q17, 2026-11-20) | consultoría de IA para empresas; software a la medida Costa Rica; arquitectura de datos; consultoría de IA Latinoamérica | Comercial / navegacional de categoría | Mixto: noticias de ecosistema, directorios (Clutch, Consultancy.org, ensun), páginas de consultores individuales. Ninguna consultora local domina | Mantener en Inicio el término de categoría + país (el title actual ya lo usa). Es el único término comercial con geografía donde un sitio local puede competir. Variantes MX y CO no merecen páginas propias hoy (ver §6) |
+| **Ruta IA** `/ruta-ia` | estrategia de IA para empresas (copy web v2, Q17; antes: diagnóstico de IA para empresas) | evaluación de preparación para IA; diagnóstico de datos para IA; hoja de ruta de IA; por dónde empezar con IA (puente desde blog) | Comercial (evaluar un servicio) | Mixto: páginas de servicio de consultoras (RSM Colombia "estrategia de datos e IA", gend.co, yourdevs, nordflux, Oracle) + artículos/glosarios ("modelo de madurez de IA") | Página de servicio con el término "diagnóstico de IA". "por dónde empezar con IA" es informativo: va al blog con enlace a Ruta IA. Evitar "madurez" como término principal: el SERP lo asocia a niveles tipo CMMI y Ruta IA no entrega un nivel de madurez |
 | **AI First Move** `/ai-first-move` | llevar IA a producción | IA en producción (con contexto de empresa); primer caso de IA en producción; caso de inversión de IA; implementación de IA en empresas | Comercial | "IA en producción" a secas devuelve **manufactura / plantas** (Rockwell, Capgemini, INESEM): fuera de perfil (OT). "Piloto a producción" devuelve artículos (mayoría en inglés) | Página de servicio con "llevar IA a producción" / "primer caso de IA en producción". El término comparativo "piloto vs producción" va al blog (contiene "piloto/PoC", prohibidos en la página) |
-| **Cómo trabajamos** `/como-trabajamos` | cómo implementar IA en una empresa (metodología) | la IA propone, una persona decide; método de implementación de IA | Informativa / evaluación de proveedor | Artículos y guías ("cómo implementar IA en tu empresa": itsitio, cyberclick, Vodafone) | No pelear el head term informativo con esta página. Optimizarla para marca + método ("cómo trabajamos con IA", "IA con supervisión humana") y dejar "cómo implementar IA en tu empresa" al artículo pilar del blog |
-| **Capacidades** `/capacidades` (+4) | consultoría de datos y software a la medida (GUIA-TONO v2: sin "IA" en el hub) | ingeniería de datos Costa Rica; consultoría de datos; desarrollo de agentes de IA a medida; desarrollo de producto digital | Comercial | Páginas de servicio y noticias de empresas (Hakkoda, Altimetrik, Databricks, Rootstack). Agentes: listados "mejores agencias" + páginas de servicio | Hub con 4 subpáginas: cada subpágina toma su término ("ingeniería de datos" + Costa Rica, "consultoría de datos", "agentes de IA a medida", "desarrollo de producto digital"). Sin precio |
+| **Cómo trabajamos** `/como-trabajamos` | cómo trabajamos con IA (copy web v2, Q17) | la IA propone, una persona decide; método de implementación de IA | Informativa / evaluación de proveedor | Artículos y guías ("cómo implementar IA en tu empresa": itsitio, cyberclick, Vodafone) | No pelear el head term informativo con esta página. Optimizarla para marca + método ("cómo trabajamos con IA", "IA con supervisión humana"; Q17 revierte Q14: la IA vuelve al title y al H1) y dejar "cómo implementar IA en tu empresa" al artículo pilar del blog |
+| **Lo que hacemos** `/lo-que-hacemos` (+5 áreas; reemplaza a `/capacidades`, 301) | soluciones de IA y datos para empresas (copy web v2, Q17) | ingeniería de datos Costa Rica; consultoría de datos; desarrollo de agentes de IA a medida; desarrollo de producto digital | Comercial | Páginas de servicio y noticias de empresas (Hakkoda, Altimetrik, Databricks, Rootstack). Agentes: listados "mejores agencias" + páginas de servicio | Hub con 4 subpáginas: cada subpágina toma su término ("ingeniería de datos" + Costa Rica, "consultoría de datos", "agentes de IA a medida", "desarrollo de producto digital"). Sin precio |
 | **Casos** `/casos` | casos de éxito de inteligencia artificial en empresas | casos de IA en Latinoamérica; resultados de proyectos de datos | Informativa / prueba | Inventarios grandes (EY "100 casos rentables", Google Cloud "90 casos") y notas de prensa | No se puede ganar el head term con pocos casos. Optimizar cada caso como página propia con long tail (industria + problema + resultado), y la página índice como respaldo |
 
 ---
@@ -77,11 +79,13 @@ Coincidencias de 2-3 dominios entre pares → "interlink" (no fusionar). Ningún
   - Qué significa poner IA en producción en una empresa mediana
 - Página de dinero: **/ai-first-move** (llevar IA a producción)
 
-### Cluster C · Capacidades (hub: /capacidades)
-- /capacidades/data-engineering ← ingeniería de datos Costa Rica
-- /capacidades/data-consulting ← consultoría de datos / arquitectura y gobierno de datos
-- /capacidades/custom-ai-agents ← agentes de IA a medida (con el límite "la IA propone, una persona decide")
-- /capacidades/digital-product ← modernización de sistemas / aplicaciones a la medida (GUIA-TONO v2: página completa con momento, método y casos)
+### Cluster C · Lo que hacemos (hub: /lo-que-hacemos; Q17, copy web v2)
+- /lo-que-hacemos/modernizacion-de-datos ← modernización de datos; absorbe arquitectura, ingeniería y consultoría de datos (B-049)
+- /lo-que-hacemos/conocimiento-empresarial ← conocimiento empresarial disponible con IA
+- /lo-que-hacemos/ciencia-de-datos-y-machine-learning ← ciencia de datos y machine learning
+- /lo-que-hacemos/automatizacion-con-agentes-de-ia ← automatización con agentes de IA (con el límite "la IA propone, una persona decide")
+- /lo-que-hacemos/productos-digitales ← productos digitales con IA integrada; modernización de sistemas / aplicaciones a la medida
+- Las URLs `/capacidades/*` y `/services/*` hacen 301 a estas áreas.
 - Slugs de subpáginas: proponer; el brief no los fija. Los nombres de capacidad van en inglés por regla de la guía, pero el término de búsqueda es en español: ver conflicto C3.
 
 ### Cluster D · Prueba (hub: /casos)
@@ -95,9 +99,9 @@ Coincidencias de 2-3 dominios entre pares → "interlink" (no fusionar). Ningún
 | /ruta-ia | /ai-first-move | "AI First Move" (puente "Ruta IA le dijo por dónde empezar...") |
 | /ai-first-move | /ruta-ia | "si aún no hay una idea elegida" (para quién no es) |
 | /como-trabajamos | ambos servicios | nombres de servicio |
-| /capacidades | 4 subpáginas + ambos servicios | nombre de capacidad |
+| /lo-que-hacemos | 5 áreas + ambos servicios | nombre del área |
 | Cada caso | servicio o capacidad que lo produjo | nombre del servicio |
-| Inicio | ambos servicios + /capacidades + 4 fichas + /casos | las tres puertas (modernizar un sistema, ordenar mis datos, empezar con IA) |
+| Inicio | ambos servicios + /lo-que-hacemos + 5 áreas + /casos | nombre del servicio o del área |
 
 ---
 
@@ -106,9 +110,9 @@ Coincidencias de 2-3 dominios entre pares → "interlink" (no fusionar). Ningún
 | Término | Tipo dominante observado | Página propuesta | ¿Encaja? |
 |---|---|---|---|
 | consultoría de inteligencia artificial Costa Rica | Fragmentado (noticias, directorios, empleo) | Inicio | **Sí, con oportunidad**: no hay una página de servicio local dominante |
-| diagnóstico de IA para empresas | Mixto servicio + glosario | Servicio (Ruta IA) | Sí |
+| estrategia de IA para empresas | Guías de grandes marcas | Servicio (Ruta IA, Q17) | **Parcial**: el SERP son guías informativas; ver B-051 (canibalización con el post pilar) |
+| diagnóstico de IA para empresas | Mixto servicio + glosario | Secundario de Ruta IA | Sí |
 | por dónde empezar con IA | Artículos | Blog | Sí (no usar como principal de Ruta IA) |
-| estrategia de IA para empresas | Guías de grandes marcas | Blog | Sí (blog); servicio no ranquearía |
 | llevar IA a producción | Artículos (en inglés mayormente) | Servicio (AI First Move) | **Parcial**: el SERP es informativo. Riesgo de mismatch; reforzar la página con una sección explicativa breve y apoyarla con el pilar B |
 | IA en producción | Manufactura | — | **No**: intención OT, fuera de perfil |
 | piloto vs producción | Artículos | Blog | Sí |

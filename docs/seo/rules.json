@@ -161,23 +161,6 @@
     "titleSuffix": " | Cabana Data"
   },
 
-  "aiDose": {
-    "$comment": "Dosis de IA (GUIA-TONO v2, B-039). Todo sale como warning. 'pattern' es la palabra por locale; 'productNames' se quitan antes de buscar (el nombre de un servicio no cuenta como mención). 'headingKeys': últimos segmentos de clave que cuentan como encabezado. 'budget': página donde la IA tiene cupo; cada sección lista su máximo de encabezados con IA (null = sin límite) y el resto de secciones tiene 0. 'restricted': páginas donde la IA no va en las claves listadas (prefijos relativos a la ruta del namespace).",
-    "severity": "warning",
-    "pattern": { "es": "IA", "en": "AI" },
-    "productNames": ["Ruta IA", "AI First Move", "Custom AI Agents"],
-    "headingKeys": ["title", "name", "term", "eyebrow"],
-    "budget": [
-      { "path": "inicio", "sections": { "meta": null, "hero": 1, "services": null, "journey": null } }
-    ],
-    "restricted": [
-      { "path": "comoTrabajamos", "keys": ["meta.title", "meta.ogTitle", "hero"] },
-      { "path": "capacidades.dataConsulting", "keys": ["meta.title", "meta.ogTitle", "hero"] },
-      { "path": "capacidades.dataEngineering", "keys": ["meta.title", "meta.ogTitle", "hero"] },
-      { "path": "capacidades.digitalProduct", "keys": ["meta.title", "meta.ogTitle", "hero"] }
-    ]
-  },
-
   "exceptions": [
     {
       "$comment": "La FAQ cita la objeción del brief §3.6 para negarla ('¿Me dan el business case?' → No).",
