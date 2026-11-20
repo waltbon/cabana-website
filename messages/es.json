@@ -102,6 +102,7 @@
     "done": "¡Copiado!"
   },
   "footer": {
+    "tagline": "Cabana Data es una consultoría de IA en Costa Rica que lleva la IA a producción con método.",
     "links": {
       "rutaIa": "Ruta IA",
       "services": "Servicios",

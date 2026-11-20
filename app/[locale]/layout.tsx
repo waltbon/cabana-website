@@ -127,6 +127,8 @@ function getJsonLd(
     { hero?: { eyebrow?: string }; meta?: { description?: string } }
   >;
 
+  const tagline = (messages.footer as { tagline?: string })?.tagline;
+
   const teamMembers = (
     messages.comoTrabajamos as { team?: { members?: { name: string; role: string }[] } }
   )?.team?.members;
@@ -163,7 +165,7 @@ function getJsonLd(
         "@type": "Organization",
         "@id": `${siteConfig.site_domain}/#organization`,
         name: siteConfig.site_name,
-        description: siteConfig.site_description,
+        description: tagline ?? siteConfig.site_description,
         url: siteConfig.site_domain,
         logo: {
           "@type": "ImageObject",

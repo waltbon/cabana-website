@@ -102,6 +102,7 @@
     "done": "Copied!"
   },
   "footer": {
+    "tagline": "Cabana Data is an AI consultancy in Costa Rica that takes AI to production with a method.",
     "links": {
       "rutaIa": "Ruta IA",
       "services": "Services",

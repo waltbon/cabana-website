@@ -1,11 +1,12 @@
 # **Guía de comunicación y tono · cabanadata.com**
 
-Oct 25, 2026 · @Walter Bonilla · sincronizada con el Google Doc el 2026-11-15
+Oct 25, 2026 · @Walter Bonilla · actualizada el 2026-11-20 al copy web v2 (Q17). El Google Doc sigue en la versión del 2026-11-15: hay que reflejar allí estos cambios
 
 ## **Propósito y alcance**
 
 Esta guía define cómo suena cabanadata.com en todas sus páginas, para que cualquier persona que escriba copy, anuncios o artículos produzca un texto coherente. Aplica al sitio en español, a la pauta y al contenido orgánico de LinkedIn.
 
+* **Copy web v2:** desde la decisión Q17 (2026-11-20), el copy aprobado en `docs/copy-web-v2/` manda sobre las versiones anteriores de esta guía en posicionamiento y uso de IA. Reemplaza la "Dosis de IA", D-011 y Q14.  
 * **Qué manda sobre qué:** las fichas de servicio (Ruta IA v2.0, AI First Move v1.9) y el brief de Marketing v1.1 definen el contenido. Esta guía define la forma. Si hay conflicto de contenido, mandan las fichas.  
 * **Qué no cubre:** identidad visual (la define la guía de marca y el sistema de diseño) ni la versión en inglés, que se trabajará aparte.  
 * **Ante una duda de contenido:** se pregunta a dirección antes de publicar.
@@ -18,21 +19,21 @@ La tesis tiene tres capas:
 
 * **Promesa al comprador (qué obtiene):** sistemas que funcionan como opera su empresa y datos en los que la dirección puede confiar para decidir. Sobre esa base, saber por dónde empezar con IA (Ruta IA) y empezar bien (AI First Move).  
 * **Posición de marca (por qué Cabana):** ejecución sistemática y especificada. Especificamos antes de construir, entregamos en producción y documentamos para que su equipo opere lo construido. La evidencia sigue siendo la prueba: cifras, plazos y entregables.  
-* **La IA como resultado:** seguimos siendo consultoría de IA, y es uno de nuestros fuertes. Se presenta como el resultado de una base de software y datos bien hecha, no como una promesa aislada.
+* **La IA al frente, con método:** somos una consultoría de IA y se dice sin rodeos. Se presenta junto al método que la lleva a producción (especificar, construir con su equipo y dejar operando), no como una promesa aislada.
 
 El caso de inversión para la junta no es la idea de marca. Es un argumento dentro de AI First Move.
 
 | Página | Qué lleva el peso | Qué es "evidencia" en esa página |
 | :---- | :---- | :---- |
-| Inicio | Fundamentos: software a la medida y datos confiables, con la IA como resultado | Casos con cifras como respaldo |
+| Inicio | Consultoría de IA con método: elegir qué hacer, llevarla a producción y dejarla operando | Casos con cifras como respaldo |
 | Ruta IA | Saber por dónde empezar | Entrevistas a su gente y revisión directa de sus sistemas |
 | AI First Move | Empezar bien | Un caso en producción y números de su operación |
 | Cómo trabajamos | Posición de marca completa | El método de ingeniería y "la IA propone, una persona decide" |
-| Capacidades | Oficio: modernización de sistemas y arquitectura de datos | Método, especificación y casos con cifras |
+| Lo que hacemos y sus cinco áreas | Cómo opera su empresa antes y después de cada cambio | Método, especificación y casos con cifras |
 | Casos | Posición de marca demostrada | Resultados medibles |
 | Blog y anuncios | Promesa, en lenguaje de búsqueda | Temas que responden las preguntas del comprador |
 
-**Riesgo a vigilar:** "evidencia" puede sonar fría o académica. Siempre se aterriza con algo concreto: una cifra, un entregable o un plazo. El segundo riesgo es repetir "IA" en cada título; la regla de dosis está en Reglas de escritura.
+**Riesgo a vigilar:** "evidencia" puede sonar fría o académica. Siempre se aterriza con algo concreto: una cifra, un entregable o un plazo. El segundo riesgo es usar "IA" como relleno; la regla está en Reglas de escritura.
 
 ## **A quién le escribimos**
 
@@ -81,7 +82,7 @@ La voz es la misma en todo el sitio; cambian la densidad, el largo y cuánto pes
 | Inicio | Directo, orientado a la decisión | Medio; el oficio a la vista | Frases cortas, bloques escaneables | Las tres puertas: "modernizar un sistema", "ordenar mis datos" y "empezar con IA" |
 | Páginas de servicio | Consultivo y preciso | Medio | Orden fijo: momento → promesa → qué se lleva → cómo funciona → duración y precio → para quién no es → FAQ → CTA | Precio completo (USD \+ IVA), plazo y entregables |
 | Cómo trabajamos | Explicativo, con convicción | Medio | Prosa breve con el recorrido visual | El método de ingeniería (especificar, construir y dejar operando) y "la IA propone, una persona decide" como criterio de calidad |
-| Capacidades | Experto y concreto | Alto | Momento del cliente → qué resolvemos → cómo lo construimos → casos → CTA | Que se cotizan a medida, sin precio |
+| Lo que hacemos y áreas | Experto y concreto | Alto | Momento del cliente → qué resolvemos → cómo lo construimos → casos → CTA | Que se cotizan a medida, sin precio |
 | Casos | Narrativo y factual | Medio | Situación → qué hicimos → resultado con cifras | Al menos una cifra verificable; nombre del cliente solo con autorización escrita |
 | Blog | Educativo, cercano | Variable según tema | Responde la pregunta en el primer párrafo | Enlace a la página de servicio que corresponde |
 | Anuncios | Directo, una sola idea | Ninguno | Gatillo del comprador \+ promesa | Sin precio; CTA a la página de servicio |
@@ -98,7 +99,7 @@ La voz es la misma en todo el sitio; cambian la densidad, el largo y cuánto pes
 **Nombres e idioma**
 
 * Servicios: **Ruta IA** y **AI First Move**, siempre escritos así, sin traducir ni abreviar.  
-* Capacidades: Data Consulting, Data Engineering, Digital Product, Custom AI Agents, con su nombre en inglés.  
+* Áreas de Lo que hacemos: Modernización de datos, Conocimiento empresarial, Ciencia de datos y machine learning, Automatización con agentes de IA y Productos digitales, con su nombre en español.  
 * Todo lo demás en español. Si un término técnico tiene equivalente claro, se usa el español ("canalización" no; "integración de datos" sí). Si no lo tiene, se explica la primera vez.  
 * Nunca se publican códigos internos (DHC, DUC, RIA, AIF, WBS, matrices).
 
@@ -122,15 +123,14 @@ La voz es la misma en todo el sitio; cambian la densidad, el largo y cuánto pes
 * El término principal va en el título, el primer párrafo y un subtítulo, escrito como lo diría el comprador.  
 * Los datos clave (plazo, precio, entregables) se escriben como hechos explícitos y verificables, no implícitos en un diseño.  
 * Las FAQ responden las objeciones reales del brief con respuestas de 2 o 3 frases.  
-* Inicio mantiene "consultoría de IA" como término principal, acompañado de software y datos en el título. Ejemplo: "Consultoría de IA, software y datos en Costa Rica".
+* Inicio tiene "consultoría de IA en Costa Rica" como término principal. Ruta IA apunta a "estrategia de IA para empresas", AI First Move a llevar el primer caso de IA a producción, Lo que hacemos a "soluciones de IA y datos para empresas" y Cómo trabajamos a "cómo trabajamos con IA" (copy web v2).
 
-**Dosis de IA**
+**Uso de IA**
 
-* La IA se nombra donde es el tema: Ruta IA, AI First Move, Custom AI Agents y los artículos sobre IA. Ahí va en primer plano.  
-* En Inicio aparece en el título de la página, una vez en el hero como resultado de la base y en una sección propia para Ruta IA y AI First Move. Los demás títulos hablan de sistemas, datos y método.  
-* En Cómo trabajamos, Data Consulting, Data Engineering y Digital Product, la IA entra al final, como lo que la base hace posible. No va en el título ni en el primer párrafo.  
+* Reemplaza a la "Dosis de IA" de la versión del 2026-11-15 (Q17). La IA puede ir en el title, el hero y los encabezados donde describe lo que se entrega.  
+* Siempre se acompaña de lo concreto: el método, el plazo, el entregable o el resultado en producción.  
 * Nunca como adjetivo de relleno: "potenciado por IA", "con IA" agregado a un servicio que no la usa.  
-* Prueba rápida: si una frase sigue funcionando al quitarle "IA", la palabra sobraba.
+* Prueba rápida: si "IA" se puede quitar sin cambiar lo que promete la frase, sobraba.
 
 ## **Glosario**
 
@@ -148,8 +148,8 @@ La regla más importante: **Ruta IA entrega oportunidades, nunca casos de uso.**
 | Precio fijo, USD X \+ IVA | Desde, según alcance, depende, planes | Todo el sitio |
 | Quien decide la inversión | Sponsor (en texto público) | Todo el sitio |
 | Evidencia de su operación | Benchmark, mejores prácticas genéricas | Todo el sitio |
-| Aplicación a la medida, modernización de sistemas | Transformación digital, soluciones integrales | Digital Product, Inicio y Cómo trabajamos |
-| Arquitectura de datos, gobierno de datos, decidir con datos propios | Data-driven, insights, "los datos son el nuevo petróleo" | Data Consulting, Data Engineering e Inicio |
+| Aplicación a la medida, modernización de sistemas | Transformación digital, soluciones integrales | Productos digitales, Inicio y Cómo trabajamos |
+| Arquitectura de datos, gobierno de datos, decidir con datos propios | Data-driven, insights, "los datos son el nuevo petróleo" | Modernización de datos e Inicio |
 | IA aplicada sobre una base sólida | Potenciado por IA, transformación con IA, agencia de IA | Todo el sitio |
 
 "Sponsor" se usa internamente; en el sitio se escribe "quien decide" o "la dirección".
@@ -160,17 +160,16 @@ Tomado de cabanadata.com tal como está hoy.
 
 | Hoy en el sitio | Por qué se va | Qué lo reemplaza |
 | :---- | :---- | :---- |
-| Hero abstracto ("Modernizamos la forma en que las organizaciones operan, deciden y compiten…") | Podría ser de cualquier consultora; no nombra un problema ni una salida | Una promesa concreta de software y datos, con las tres puertas |
+| Hero abstracto ("Modernizamos la forma en que las organizaciones operan, deciden y compiten…") | Podría ser de cualquier consultora; no nombra un problema ni una salida | Una promesa concreta: consultoría de IA con método y resultados en producción |
 | Tratamiento mezclado ("su organización", "tu equipo", "descúbrelo") | Rompe la consistencia | Usted en todo el sitio |
 | Ruta IA presentada en "2 a 3 semanas" | Contradice la ficha vigente | 4 semanas más 30 días de seguimiento |
 | Ruta IA como auditoría técnica de seis dimensiones | Habla al CTO, no a quien decide; oculta la promesa | "Saber por dónde empezar y si sus datos lo soportan" |
 | "Casos de uso" dentro de Ruta IA | Rompe la regla principal del glosario | "Oportunidades" |
 | Ruta IA en el subdominio ruta-ai.cabanadata.com | Divide la autoridad SEO y usa "ai" en vez de "ia" | cabanadata.com/ruta-ia con redirect 301 |
-| Bloque de logos de tecnologías titulado "Socios Tecnológicos Clave" | No son alianzas y no le dicen nada al comprador | Stack como respaldo en Capacidades, con su nombre correcto |
-| Capacidades presentadas solo para quien ya tiene decisión y presupuesto | Esconde el oficio que sostiene a los servicios y a la IA | Software y datos como base de la marca; servicios de precio fijo como puerta de IA |
+| Bloque de logos de tecnologías titulado "Socios Tecnológicos Clave" | No son alianzas y no le dicen nada al comprador | Stack como respaldo en las áreas de Lo que hacemos, con su nombre correcto |
+| Capacidades presentadas solo para quien ya tiene decisión y presupuesto | Esconde el oficio que sostiene a los servicios y a la IA | Lo que hacemos: cinco áreas, cada una con su antes y después |
 | Meta keywords en inglés en una página en español | Google no las usa y no coinciden con el idioma | Título, descripción y encabezados con términos del comprador |
-| "IA" en el título, el hero y casi todos los encabezados de Inicio | Se percibe forzado y repetitivo; las pruebas que mostramos son de ingeniería | IA dosificada según la regla de Reglas de escritura |
-| Digital Product descrito en una línea | Esconde la modernización de sistemas, la especificación y la lógica de negocio | Página de capacidad con el momento del cliente, el método y casos |
+| Digital Product descrito en una línea | Esconde la modernización de sistemas, la especificación y la lógica de negocio | Área Productos digitales con el momento del cliente, el método y casos |
 
 **Lo que se conserva:** el hilo "en producción, no en presentaciones", los casos con cifras concretas y la estructura de problema → consecuencia de la sección de síntomas.
 
@@ -190,5 +189,5 @@ Todo texto (página, anuncio o artículo) pasa esta revisión antes de salir.
 * ☐ Las frases clave se entienden solas  
 * ☐ La página responde una sola intención de búsqueda y enlaza a su servicio  
 * ☐ El contenido coincide con las fichas vigentes de Ruta IA y AI First Move  
-* ☐ "IA" aparece solo donde es el tema y nunca como adjetivo de relleno  
-* ☐ En Inicio y en las capacidades, el software y los datos llevan el peso; la IA aparece como resultado
+* ☐ "IA" nunca es adjetivo de relleno y va acompañada de algo concreto  
+* ☐ En Inicio y en las áreas, la IA se presenta con la base y el método que la lleva a producción
