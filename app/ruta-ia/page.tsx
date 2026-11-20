@@ -44,7 +44,7 @@ export default async function RutaIAPage() {
       isPartOf: { "@id": WEBSITE_ID },
       about: { "@id": SERVICE_ID },
       datePublished: "2026-03-30",
-      dateModified: "2026-10-25",
+      dateModified: "2026-11-20",
       author: { "@id": AUTHOR_ID },
     },
     {
@@ -57,17 +57,6 @@ export default async function RutaIAPage() {
       provider: { "@id": ORGANIZATION_ID },
       areaServed: ["Costa Rica", "Latinoamérica"],
       url: SITE_URL,
-      offers: {
-        "@type": "Offer",
-        price: "12000",
-        priceCurrency: "USD",
-        priceSpecification: {
-          "@type": "PriceSpecification",
-          price: "12000",
-          priceCurrency: "USD",
-          valueAddedTaxIncluded: false,
-        },
-      },
     },
     {
       "@context": "https://schema.org",

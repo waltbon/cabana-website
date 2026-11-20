@@ -1890,11 +1890,11 @@
   },
   "rutaIa": {
     "meta": {
-      "title": "Ruta IA: diagnóstico de IA para empresas | Cabana Data",
-      "description": "Sepa en 4 semanas por cuáles oportunidades de IA empezar y si sus datos las soportan. Precio fijo: USD 12,000 + IVA.",
-      "ogTitle": "Ruta IA: sepa por dónde empezar con IA",
-      "ogDescription": "Sus 5 mejores oportunidades de IA, ordenadas y contrastadas contra sus datos, en 4 semanas.",
-      "serviceType": "Diagnóstico de IA para empresas",
+      "title": "Ruta IA: estrategia de IA para empresas | Cabana Data",
+      "description": "En 4 semanas, sepa qué soluciones de IA pueden aportar valor pronto en su empresa, en qué orden y con qué plan arrancar.",
+      "ogTitle": "Ruta IA: sepa qué hacer con IA y por dónde empezar",
+      "ogDescription": "Sus 5 mejores oportunidades de IA, priorizadas con usted y con el plan para arrancar, en 4 semanas.",
+      "serviceType": "Estrategia de IA para empresas",
       "breadcrumbHome": "Inicio"
     },
     "nav": {
@@ -2049,8 +2049,8 @@
   },
   "aiFirstMove": {
     "meta": {
-      "title": "AI First Move: primer caso de IA en producción | Cabana Data",
-      "description": "En 10 semanas, su primer caso de IA en producción y el caso de inversión para llevar el resto a junta. Precio fijo: USD 24,500 + IVA.",
+      "title": "AI First Move: lleve su primer caso de IA a producción | Cabana Data",
+      "description": "En 10 semanas, su primer caso de IA en producción y el caso de inversión para llevar el resto a junta, construido con su equipo.",
       "ogTitle": "AI First Move: su primer caso de IA, funcionando",
       "ogDescription": "Un caso de IA en producción, construido con su equipo, y la evidencia para financiar los siguientes.",
       "serviceType": "Primer caso de IA en producción",
@@ -2605,10 +2605,10 @@
   },
   "inicio": {
     "meta": {
-      "title": "Consultoría de IA, software y datos en Costa Rica",
-      "description": "Software a la medida, arquitectura de datos y consultoría de IA en Costa Rica. Especificamos, construimos y entregamos en producción.",
-      "ogTitle": "Cabana Data: primero una base sólida, después IA que funciona",
-      "ogDescription": "Aplicaciones a la medida y datos confiables para decidir. Sobre esa base, IA que llega a producción."
+      "title": "Consultoría de IA en Costa Rica | Cabana Data",
+      "description": "Consultoría de IA en Costa Rica: elegimos con usted qué hacer con IA, la llevamos a producción en semanas y la dejamos operando con su equipo.",
+      "ogTitle": "Cabana Data: consultoría de IA con método y resultados en producción",
+      "ogDescription": "Claridad sobre qué hacer con IA, el primer resultado en producción en semanas y un aliado para su equipo de tecnología."
     },
     "hero": {
       "eyebrow": "Estrategia, implementación y acompañamiento",
@@ -2795,88 +2795,87 @@
   },
   "comoTrabajamos": {
     "meta": {
-      "title": "Cómo trabajamos: un sistema para cada proyecto | Cabana Data",
-      "description": "Sistemas propios con fases, entregables y criterios de salida verificables. De Ruta IA en 4 semanas a un caso en producción en 10 semanas.",
-      "ogTitle": "Cómo trabajamos: un sistema para cada proyecto",
-      "ogDescription": "Fases definidas, entregables con nombre y una condición clara para dar cada fase por terminada.",
+      "title": "Cómo trabajamos con IA: con método y su equipo | Cabana Data",
+      "description": "Especificamos antes de construir, construimos con su equipo y lo dejamos en producción. La IA propone, su equipo decide.",
+      "ogTitle": "Cómo trabajamos: del plan de IA a producción, con su equipo",
+      "ogDescription": "Un método de ingeniería, un aliado para su área de tecnología y un principio: la IA propone, su equipo decide.",
       "breadcrumbHome": "Inicio"
     },
     "hero": {
       "eyebrow": "Cómo trabajamos",
-      "title": "Cómo trabajamos: un sistema para cada proyecto, no improvisación",
-      "body": "Cada servicio se ejecuta con un método propio. Fases definidas, entregables con nombre y una condición clara para dar cada fase por terminada. Cualquier persona de nuestro equipo llega al mismo resultado.",
+      "title": "Cómo trabajamos con IA: con método, con su equipo y en producción",
+      "body": [
+        "Cada proyecto sigue el mismo método: especificamos antes de construir, construimos con su equipo adentro y lo dejamos en producción, documentado para que su gente lo opere.",
+        "Cada recomendación sale de su gente y de sus sistemas, no de un benchmark genérico. Y cada solución queda funcionando en su operación, no en una presentación."
+      ],
       "imageAlt": "Balanza en la que una pila de bloques de datos pesa más que unos globos de diálogo vacíos, con dos personas al pie"
     },
-    "systems": {
-      "title": "Lo que tiene cada sistema",
-      "items": [
-        {
-          "title": "Fases en orden",
-          "body": "Cada una con lo que necesita y lo que entrega."
-        },
-        {
-          "title": "Entregables con nombre",
-          "body": "Usted sabe qué recibe antes de empezar."
-        },
-        {
-          "title": "Herramientas probadas",
-          "body": "Plantillas y guiones de taller que usamos en cada proyecto."
-        },
-        {
-          "title": "Criterio de salida",
-          "body": "Una fase termina cuando se cumple algo que usted puede verificar, no cuando se acaba el tiempo."
-        }
-      ]
-    },
-    "approval": {
-      "title": "Usted aprueba antes de avanzar",
-      "body": "Si una fase condiciona lo que sigue, se detiene hasta su aprobación. Nada se construye sobre algo que usted no validó."
-    },
     "journey": {
-      "title": "Dos servicios, en orden",
-      "items": [
+      "title": "Claridad, implementación y un aliado que se queda",
+      "intro": "Nuestro trabajo es un recorrido, no un catálogo. Cada etapa responde una pregunta distinta de la dirección.",
+      "steps": [
         {
-          "duration": "4 semanas",
-          "name": "Ruta IA",
-          "body": "Sus 5 mejores oportunidades y cuáles soportan hoy sus datos."
+          "stage": "Claridad",
+          "service": "Ruta IA",
+          "question": "\"¿Qué hacemos con IA y por dónde empezamos?\"",
+          "answer": "En 4 semanas, sus 5 mejores oportunidades ordenadas, cuáles pueden arrancar ya y el plan para arrancar."
         },
         {
-          "duration": "10 semanas",
-          "name": "AI First Move",
-          "body": "Un caso en producción y el caso de inversión."
+          "stage": "Implementación inmediata",
+          "service": "AI First Move",
+          "question": "\"Ya sabemos qué. Queremos verlo funcionando.\"",
+          "answer": "En 10 semanas, un caso de uso en producción y el caso de inversión para financiar los siguientes."
+        },
+        {
+          "stage": "Aliado de tecnología",
+          "service": "Lo que hacemos",
+          "question": "\"¿Cómo seguimos después del primer resultado?\"",
+          "answer": "Seguimos construyendo con su equipo en cinco áreas: datos, conocimiento empresarial, ciencia de datos, automatización con agentes y productos digitales."
         }
       ],
-      "note": "Ruta IA no es obligatorio. Precio y alcance fijos."
-    },
-    "notDo": {
-      "title": "Lo que no hacemos",
-      "items": [
-        {
-          "title": "Trabajo que nadie pidió",
-          "body": "Cada resultado lo usa la fase siguiente o lo recibe usted."
-        },
-        {
-          "title": "Alcances que crecen sin avisar",
-          "body": "Lo que no entra se dice desde el inicio."
-        },
-        {
-          "title": "Entregables que se apagan al terminar",
-          "body": ""
-        }
+      "rules": [
+        "Ruta IA no es obligatorio. Si quien decide ya eligió la idea, se empieza directo con AI First Move.",
+        "El recorrido es secuencial: un servicio termina antes de que empiece el otro.",
+        "No necesita tener sus datos ordenados para empezar. Lo que haga falta se resuelve en el camino o en paralelo.",
+        "Si ya tiene un tema concreto de datos, conocimiento, automatización o software, puede empezar con un proyecto de Lo que hacemos."
       ]
     },
-    "team": {
-      "title": "El mismo equipo, del diagnóstico a producción",
-      "intro": "Un solo equipo en San José, Costa Rica, sin subcontrataciones.",
-      "proof": [
+    "method": {
+      "title": "Especificar, construir con su equipo, dejar operando",
+      "intro": "La ingeniería de software y datos es nuestra razón para confiar en que la IA va a funcionar en su operación, y la suya para confiar en nosotros.",
+      "items": [
         {
-          "value": "2018",
-          "label": "Desde"
+          "title": "Partimos de su operación",
+          "body": "Escuchamos a quienes conocen la operación y revisamos sus sistemas directamente, con acceso de lectura o en sesiones de pantalla compartida. En Ruta IA son hasta 8 entrevistas, sin encuestas de autoevaluación."
         },
         {
-          "value": "50+",
-          "label": "Flujos de datos en producción"
+          "title": "Especificamos antes de construir",
+          "body": "Documentamos la decisión de negocio, las reglas, los datos y los criterios de aceptación. Usted aprueba qué se va a construir antes de que escribamos código."
+        },
+        {
+          "title": "Construimos con su equipo adentro",
+          "body": "Una persona técnica de su empresa participa unas horas por semana, y su área de tecnología aprueba la arquitectura."
+        },
+        {
+          "title": "Lo dejamos operando",
+          "body": "Entregamos en producción y documentado. Su gente queda capaz de operar y extender lo que construimos."
+        },
+        {
+          "title": "Le decimos lo que no está listo",
+          "body": "Si una idea no puede arrancar ya, se lo decimos, con lo que hay que preparar y en qué orden. Es parte de la evidencia, no una mala noticia."
         }
+      ],
+      "closing": "Por eso el caso de inversión de AI First Move se calcula sobre el caso ya construido, no sobre supuestos.",
+      "imageAlt": ""
+    },
+    "team": {
+      "eyebrow": "Nuestro equipo",
+      "title": "El mismo equipo, de la primera conversación a producción",
+      "intro": "Un solo equipo de datos y desarrollo en San José, Costa Rica. Las mismas personas que entienden su operación son las que construyen. Sin subcontrataciones ni intermediarios.",
+      "proof": [
+        "Desde 2018 con empresas de Costa Rica y Latinoamérica.",
+        "Más de 50 flujos de datos funcionando en producción.",
+        "Datos y desarrollo en un solo equipo: nada se pierde entre proveedores."
       ],
       "members": [
         {
@@ -2900,26 +2899,52 @@
           "role": "Desarrolladora full-stack"
         }
       ],
-      "imageAlt": "Ilustración de cinco personas que caminan de una mesa con una lupa hacia una máquina en funcionamiento"
+      "quote": "\"Un buen resultado no debería depender de quién le toque en el proyecto.\"",
+      "quoteAuthor": "Walter Bonilla, fundador y líder técnico",
+      "imageAlt": "Ilustración de cinco personas que caminan de una mesa con una lupa hacia una máquina en funcionamiento",
+      "founderImageAlt": "Walter Bonilla, fundador de Cabana Data"
     },
-    "founder": {
-      "quote": "Un buen resultado no debería depender de quién le toque en el proyecto. Por eso cada servicio sigue un sistema: cualquiera de nuestro equipo llega al mismo resultado.",
-      "name": "Walter Bonilla",
-      "role": "Fundador y líder técnico",
-      "imageAlt": "Walter Bonilla, fundador de Cabana Data"
+    "techAlly": {
+      "eyebrow": "Para el área de tecnología",
+      "title": "Usted define la estrategia; nosotros la llevamos a producción con su equipo",
+      "body": "Somos el aliado de su área de tecnología, no su reemplazo. Trabajamos con la arquitectura que usted aprueba y lo dejamos todo documentado para que su gente lo opere.",
+      "items": [
+        "La arquitectura y la seguridad se definen y se aprueban con usted.",
+        "Trabajamos sobre los sistemas y los datos que ya tiene.",
+        "Su equipo participa en la construcción; no recibe una caja negra.",
+        "Cada entrega queda documentada: qué se construyó, cómo funciona y cómo se opera.",
+        "Después del primer resultado, seguimos construyendo con su equipo en las áreas que usted priorice."
+      ]
+    },
+    "principle": {
+      "eyebrow": "IA con supervisión humana",
+      "title": "La IA propone, su equipo decide",
+      "body": "La IA lee, analiza, recomienda o redacta. Una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción en semanas sin abrir un riesgo que después tenga que explicar en junta.",
+      "items": [
+        "Una persona aprueba antes de enviar, modificar registros o mover dinero.",
+        "Automatizar una decisión significa automatizar su análisis y su recomendación. La decisión sigue siendo de su equipo.",
+        "En el primer caso con AI First Move, la solución la usan personas de su empresa, no clientes ni terceros."
+      ],
+      "link": "Ver Automatización con agentes de IA"
+    },
+    "notDo": {
+      "title": "Lo que no hacemos",
+      "items": [
+        "No recomendamos desde un benchmark genérico. Todo sale de su operación.",
+        "No entregamos algo que se apaga al terminar. Lo que construimos queda en producción, operado por su equipo.",
+        "No ponemos a la IA a actuar sola sobre sus clientes, sus registros o su dinero.",
+        "No le pedimos que ordene sus datos antes de empezar con IA.",
+        "No reemplazamos a su área de tecnología: trabajamos con ella."
+      ]
     },
     "cta": {
       "title": "¿En qué punto está su empresa?",
       "doors": [
-        {
-          "label": "No sé por dónde empezar",
-          "service": "Ruta IA"
-        },
-        {
-          "label": "Ya tengo la idea",
-          "service": "AI First Move"
-        }
+        "Tenemos varias ideas y no sabemos cuál → Ruta IA",
+        "Tenemos una idea elegida por la dirección → AI First Move",
+        "Tenemos un tema concreto de datos, conocimiento, automatización o software → Lo que hacemos"
       ],
+      "body": "Si no está seguro, lo revisamos en una conversación de 20 minutos con quien decide la inversión.",
       "button": "Agendar una conversación"
     }
   },
@@ -3023,6 +3048,12 @@
       "title": "¿Qué cambio necesita su empresa primero?",
       "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos por dónde conviene empezar.",
       "button": "Agendar una conversación"
+    },
+    "meta": {
+      "title": "Soluciones de IA y datos para empresas | Cabana Data",
+      "description": "Modernización de datos, conocimiento empresarial, machine learning, agentes de IA y productos digitales, llevados a producción con su equipo.",
+      "ogTitle": "Lo que hacemos: cinco cambios que llevamos a producción",
+      "ogDescription": "Cómo opera su empresa antes y después de trabajar con nosotros, en cinco áreas."
     }
   },
   "areasImpacto": {
@@ -3137,6 +3168,12 @@
         "title": "¿Cuánto tiempo pierde hoy su equipo juntando datos?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos sus fuentes y por dónde conviene empezar.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Modernización de datos para empresas | Cabana Data",
+        "description": "Una sola fuente de datos confiable en la nube, con integraciones automáticas y reportes que se actualizan solos. Lo construimos con su equipo.",
+        "ogTitle": "Modernización de datos: decida con datos al día",
+        "ogDescription": "Sus datos en una sola fuente confiable, con analítica que se actualiza sola y operada por su equipo."
       }
     },
     "conocimiento-empresarial": {
@@ -3250,6 +3287,12 @@
         "title": "¿Cuántas veces al día alguien interrumpe a su experto para preguntar lo mismo?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué conocimiento conviene poner a disposición primero.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Conocimiento empresarial disponible con IA | Cabana Data",
+        "description": "Un asistente de IA conectado a sus documentos internos: su equipo consulta en lenguaje natural, con la fuente citada y los permisos de cada persona.",
+        "ogTitle": "Lo que su empresa sabe, disponible para todo su equipo",
+        "ogDescription": "Respuestas en lenguaje natural sobre políticas, procedimientos y contratos, con la fuente citada y los permisos respetados."
       }
     },
     "ciencia-de-datos-y-machine-learning": {
@@ -3367,6 +3410,12 @@
         "title": "¿Qué decisión de su empresa todavía depende de la intuición?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué decisión conviene mejorar primero y con qué datos.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Ciencia de datos y machine learning | Cabana Data",
+        "description": "Modelos predictivos y alertas integrados en su operación para decidir cuánto producir, qué cliente cuidar y dónde está el riesgo, en producción.",
+        "ogTitle": "Ciencia de datos y machine learning: decida con predicción",
+        "ogDescription": "Predicciones y alertas atadas a decisiones concretas de su operación, en producción y monitoreadas."
       }
     },
     "automatizacion-con-agentes-de-ia": {
@@ -3480,6 +3529,12 @@
         "title": "¿Cuántas horas dedica su equipo a preparar decisiones?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos qué proceso conviene automatizar primero.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Automatización con agentes de IA | Cabana Data",
+        "description": "Agentes de IA que leen, analizan y preparan cada decisión en sus procesos. Su equipo revisa y aprueba. Lo dejamos en producción y documentado.",
+        "ogTitle": "Automatización con agentes de IA: la IA propone, su equipo decide",
+        "ogDescription": "Menos horas reuniendo información y más tiempo para decidir, con agentes de IA conectados a sus sistemas."
       }
     },
     "productos-digitales": {
@@ -3593,6 +3648,12 @@
         "title": "¿Qué sistema frena hoy a su equipo?",
         "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos su situación y por dónde conviene empezar.",
         "button": "Agendar una conversación"
+      },
+      "meta": {
+        "title": "Productos digitales con IA integrada | Cabana Data",
+        "description": "Software a la medida y modernización de sistemas legacy, con IA donde aporta valor. Especificamos desde sus procesos y lo dejamos operando con su equipo.",
+        "ogTitle": "Productos digitales con IA integrada desde el diseño",
+        "ogDescription": "Aplicaciones a la medida, especificadas desde sus procesos reales y mantenibles por su equipo."
       }
     },
     "common": {

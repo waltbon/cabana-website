@@ -6,11 +6,12 @@ import { localePath } from "@/components/capacidades/config";
 import { localizedHref } from "@/lib/localized-paths";
 import {
   HeroSection,
-  SystemsApprovalSection,
   JourneySection,
-  NotDoSection,
+  MethodSection,
   TeamSection,
-  FounderSection,
+  TechAllySection,
+  PrincipleSection,
+  NotDoSection,
   CTASection,
 } from "./_components";
 
@@ -72,7 +73,14 @@ export default async function ComoTrabajamosPage({
         { name: "Ruta IA", path: "/ruta-ia" },
         { name: "AI First Move", path: localePath(locale, "/ai-first-move") },
       ].map(({ name, path }) => ({ "@type": "Service", name, url: `${domain}${path}` })),
-      publisher: { "@type": "Organization", "@id": `${domain}/#organization`, name: siteConfig.site_name },
+      publisher: {
+        "@type": "Organization",
+        "@id": `${domain}/#organization`,
+        name: siteConfig.site_name,
+        url: domain,
+        // Definition sentence from the brief (copy 6M-02.4)
+        description: "Cabana Data es una consultoría de IA en Costa Rica que lleva la IA a producción con método",
+      },
     },
     {
       "@context": "https://schema.org",
@@ -88,11 +96,12 @@ export default async function ComoTrabajamosPage({
     <>
       <JsonLd schemas={schemas} />
       <HeroSection />
-      <SystemsApprovalSection />
       <JourneySection />
-      <NotDoSection />
+      <MethodSection />
       <TeamSection />
-      <FounderSection />
+      <TechAllySection />
+      <PrincipleSection />
+      <NotDoSection />
       <CTASection />
     </>
   );

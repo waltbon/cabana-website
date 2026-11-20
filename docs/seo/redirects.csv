@@ -3,7 +3,7 @@ origen,destino,motivo
 /en,/en,Inicio en: sin cambio de URL (no redirect)
 /es,/,301 en lugar del 307 actual de next-intl; /es tiene 12 clics y 66 impresiones en GSC
 /es/:path*,/:path*,301 en lugar del 307 actual; locale por defecto sin prefijo
-/services,/capacidades,Hub de servicios pasa a Capacidades
+/services,/lo-que-hacemos,Hub de servicios pasa a Lo que hacemos (web v2)
 /en/services,/en/capabilities,Hub de servicios pasa a Capacidades | slug en PROVISIONAL — pendiente keyword map en
 /services/ai-readiness-assessment,/ruta-ia,Servicio reemplazado por Ruta IA (el CTA actual ya enlaza a /ruta-ia)
 /en/services/ai-readiness-assessment,/en/ai-opportunity-assessment,Servicio reemplazado por Ruta IA (el CTA actual ya enlaza a /ruta-ia) | slug en PROVISIONAL — pendiente keyword map en
@@ -11,21 +11,21 @@ origen,destino,motivo
 /en/services/data-health-check,/en/ai-opportunity-assessment,Diagnóstico de datos absorbido por Ruta IA ('si los datos soportan las oportunidades'); confirmar con dirección | slug en PROVISIONAL — pendiente keyword map en
 /services/data-analytics-use-case,/ai-first-move,Un caso llevado a producción = AI First Move; confirmar con dirección
 /en/services/data-analytics-use-case,/en/ai-first-move,Un caso llevado a producción = AI First Move; confirmar con dirección | slug en PROVISIONAL — pendiente keyword map en
-/services/data-consulting,/capacidades/consultoria-de-datos,Capacidad a medida (brief §5)
+/services/data-consulting,/lo-que-hacemos/modernizacion-de-datos,Capacidad a medida (brief §5)
 /en/services/data-consulting,/en/capabilities/data-consulting,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
-/services/data-engineering,/capacidades/ingenieria-de-datos,Capacidad a medida (brief §5)
+/services/data-engineering,/lo-que-hacemos/modernizacion-de-datos,Capacidad a medida (brief §5)
 /en/services/data-engineering,/en/capabilities/data-engineering,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
-/services/digital-product,/capacidades/producto-digital,Capacidad a medida (brief §5)
+/services/digital-product,/lo-que-hacemos/productos-digitales,Capacidad a medida (brief §5)
 /en/services/digital-product,/en/capabilities/digital-product,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
-/services/application-development,/capacidades/producto-digital,Consolidado en Digital Product
+/services/application-development,/lo-que-hacemos/productos-digitales,Consolidado en Digital Product
 /en/services/application-development,/en/capabilities/digital-product,Consolidado en Digital Product | slug en PROVISIONAL — pendiente keyword map en
-/services/product-design-discovery,/capacidades/producto-digital,Consolidado en Digital Product
+/services/product-design-discovery,/lo-que-hacemos/productos-digitales,Consolidado en Digital Product
 /en/services/product-design-discovery,/en/capabilities/digital-product,Consolidado en Digital Product | slug en PROVISIONAL — pendiente keyword map en
-/services/dashboards-analytics-interfaces,/capacidades/ingenieria-de-datos,Consolidado en Data Engineering (alternativa: Digital Product); confirmar
+/services/dashboards-analytics-interfaces,/lo-que-hacemos/modernizacion-de-datos,Consolidado en Data Engineering (alternativa: Digital Product); confirmar
 /en/services/dashboards-analytics-interfaces,/en/capabilities/data-engineering,Consolidado en Data Engineering (alternativa: Digital Product); confirmar | slug en PROVISIONAL — pendiente keyword map en
-/services/custom-ai-agents,/capacidades/agentes-ia-a-medida,Capacidad a medida (brief §5)
+/services/custom-ai-agents,/lo-que-hacemos/automatizacion-con-agentes-de-ia,Capacidad a medida (brief §5)
 /en/services/custom-ai-agents,/en/capabilities/custom-ai-agents,Capacidad a medida (brief §5) | slug en PROVISIONAL — pendiente keyword map en
-/services/data-strategy,/capacidades/consultoria-de-datos,URL antigua (WordPress) con sesión orgánica en GA4; hoy 404
+/services/data-strategy,/lo-que-hacemos/modernizacion-de-datos,URL antigua (WordPress) con sesión orgánica en GA4; hoy 404
 /about,/como-trabajamos,No hay página Nosotros en la arquitectura objetivo; el método vive en Cómo trabajamos. Decidido en D-009; aplicado en B-012
 /en/about,/en/how-we-work,Igual que /about; aplicado en B-012 | slug en PROVISIONAL — pendiente keyword map en
 /contact,/agendar,Contacto pasa a Agendar
@@ -59,3 +59,9 @@ http://cabanadata.com/:path*,https://cabanadata.com/:path*,Ya existe (308 a http
 https://ruta-ai.cabanadata.com/,https://cabanadata.com/ruta-ia,Subdominio duplica la landing (canonical propio); 20 clics/217 impr. en 16 meses — consolidar en el dominio principal
 https://ruta-ai.cabanadata.com/evaluation,https://cabanadata.com/ruta-ia,Checklist de madurez; alternativa: migrarlo a /blog o a un recurso descargable enlazado desde /ruta-ia. Confirmar
 https://ruta-ai.cabanadata.com/:path*,https://cabanadata.com/ruta-ia,Comodín para el resto del subdominio
+/capacidades,/lo-que-hacemos,Web v2: Capacidades pasa a Lo que hacemos (copy 6M-02.3)
+/capacidades/consultoria-de-datos,/lo-que-hacemos/modernizacion-de-datos,Web v2: Data Consulting pasa a Modernización de datos (copy 6M-02.3.1)
+/capacidades/ingenieria-de-datos,/lo-que-hacemos/modernizacion-de-datos,Web v2: Data Engineering pasa a Modernización de datos (copy 6M-02.3.1)
+/capacidades/producto-digital,/lo-que-hacemos/productos-digitales,Web v2: Digital Product pasa a Productos digitales (copy 6M-02.3.5)
+/capacidades/agentes-ia-a-medida,/lo-que-hacemos/automatizacion-con-agentes-de-ia,Web v2: Custom AI Agents pasa a Automatización con agentes (copy 6M-02.3.4)
+/en/ruta-ia,/ruta-ia,Ruta IA solo existe en español; el selector de idioma llevaba a un 404 (web v2)

@@ -98,12 +98,13 @@ export async function generateMetadata({
   };
 }
 
-// Capability pages included in the homepage OfferCatalog (path + messages key under "capacidades")
-const OFFER_CATALOG_SERVICES = [
-  { path: "/capacidades/consultoria-de-datos", msgKey: "dataConsulting" },
-  { path: "/capacidades/ingenieria-de-datos", msgKey: "dataEngineering" },
-  { path: "/capacidades/producto-digital", msgKey: "digitalProduct" },
-  { path: "/capacidades/agentes-ia-a-medida", msgKey: "customAiAgents" },
+// Impact areas included in the OfferCatalog (slug = messages key under "areasImpacto")
+const OFFER_CATALOG_AREAS = [
+  "modernizacion-de-datos",
+  "conocimiento-empresarial",
+  "ciencia-de-datos-y-machine-learning",
+  "automatizacion-con-agentes-de-ia",
+  "productos-digitales",
 ] as const;
 
 // Team members with a confirmed public LinkedIn profile (sameAs for Person schema).
@@ -121,9 +122,9 @@ function getJsonLd(
   locale: string,
   messages: Awaited<ReturnType<typeof getMessages>>
 ) {
-  const capabilitiesMessages = messages.capacidades as unknown as Record<
+  const areaMessages = messages.areasImpacto as unknown as Record<
     string,
-    { hero?: { name?: string }; meta?: { description?: string } }
+    { hero?: { eyebrow?: string }; meta?: { description?: string } }
   >;
 
   const teamMembers = (
@@ -141,15 +142,15 @@ function getJsonLd(
   const hasOfferCatalog = {
     "@type": "OfferCatalog",
     name: locale === "es" ? "Servicios de Cabana Data" : "Cabana Data Services",
-    itemListElement: OFFER_CATALOG_SERVICES.map(({ path, msgKey }) => {
-      const capability = capabilitiesMessages[msgKey];
+    itemListElement: OFFER_CATALOG_AREAS.map((slug) => {
+      const area = areaMessages[slug];
       return {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: capability?.hero?.name ?? msgKey,
-          description: capability?.meta?.description ?? "",
-          url: `${siteConfig.site_domain}${path}`,
+          name: area?.hero?.eyebrow ?? slug,
+          description: area?.meta?.description ?? "",
+          url: `${siteConfig.site_domain}${locale === "es" ? "" : `/${locale}`}/lo-que-hacemos/${slug}`,
         },
       };
     }),
@@ -187,12 +188,9 @@ function getJsonLd(
         areaServed: "Worldwide",
         hasOfferCatalog,
         employee,
-        serviceType: [
-          "Data Strategy & Consulting",
-          "Data Engineering & Architecture",
-          "Custom Application Development",
-          "AI & Machine Learning Solutions",
-        ],
+        serviceType: OFFER_CATALOG_AREAS.map(
+          (slug) => areaMessages[slug]?.hero?.eyebrow ?? slug,
+        ),
       },
       {
         "@type": "WebSite",
