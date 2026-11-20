@@ -2,7 +2,6 @@ import { getTranslations } from "next-intl/server";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/badge";
-import { capabilityPath, type CapabilityKey } from "@/components/capacidades/config";
 
 type Case = {
   industry: string;
@@ -11,12 +10,12 @@ type Case = {
   metricLabel: string;
 };
 
-// Until /casos exists, each card links to its capability's case section.
+// Until /casos exists, each card links to its impact area (copy 6M-02.0).
 // "Ver todos los casos" (inicio.cases.cta) stays hidden until then.
-const caseCapabilities: CapabilityKey[] = [
-  "customAiAgents",
-  "dataEngineering",
-  "digitalProduct",
+const caseAreas = [
+  "/lo-que-hacemos/automatizacion-con-agentes-de-ia",
+  "/lo-que-hacemos/modernizacion-de-datos",
+  "/lo-que-hacemos/productos-digitales",
 ];
 
 export async function CasesSection() {
@@ -36,7 +35,7 @@ export async function CasesSection() {
           {items.map((item, i) => (
             <li key={item.title}>
               <Link
-                href={`${capabilityPath(caseCapabilities[i])}#caso`}
+                href={caseAreas[i]}
                 className="group flex h-full flex-col gap-3.5 rounded-xl bg-section-dark-2 p-6 md:p-8 focus-visible:ring-2 focus-visible:ring-ring"
               >
                 <span className="text-xs font-semibold uppercase text-cabana-green">
@@ -50,7 +49,6 @@ export async function CasesSection() {
                 </span>
                 <span className="text-slate-300">{item.metricLabel}</span>
                 <span className="mt-auto inline-flex items-center gap-2 pt-2 text-sm font-semibold text-white">
-                  {t("link")}
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" aria-hidden />
                 </span>
               </Link>

@@ -24,7 +24,7 @@ const LinkedInIcon = ({ className }: { className?: string }) => (
 // Footer navigation link keys
 const footerLinkKeys = [
   { key: "rutaIa", href: "/ruta-ia" },
-  { key: "capabilities", href: "/capacidades" },
+  { key: "whatWeDo", href: "/lo-que-hacemos" },
   // { key: "caseStudies", href: "/case-studies" },
   { key: "about", href: "/como-trabajamos" },
   { key: "blog", href: "/posts" },

@@ -1,5 +1,3 @@
-import { Navbar } from "./_components/navbar";
-import { Footer } from "./_components/footer";
 import { HeroSection } from "./_components/hero-section";
 import { MomentSection } from "./_components/moment-section";
 import { PromiseSection } from "./_components/promise-section";
@@ -19,9 +17,8 @@ const WEBSITE_ID = `${SITE_URL}/#website`;
 const WEBPAGE_ID = `${SITE_URL}/#webpage`;
 
 export default async function RutaIAPage() {
-  const [tMeta, tNav, tFaq] = await Promise.all([
+  const [tMeta, tFaq] = await Promise.all([
     getRutaIaTranslations("meta"),
-    getRutaIaTranslations("nav"),
     getRutaIaTranslations("faq"),
   ]);
   const faqItems = tFaq.raw("items") as FaqItem[];
@@ -106,26 +103,16 @@ export default async function RutaIAPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       ))}
-      <Navbar
-        labels={{
-          cta: tNav("cta"),
-          contact: tNav("contact"),
-          toggleMenu: tNav("toggleMenu"),
-        }}
-      />
-      <main>
-        <HeroSection />
-        <MomentSection />
-        <PromiseSection />
-        <DeliverablesSection />
-        <ProcessSection />
-        <ClientTimeSection />
-        <PricingSection />
-        <NotForSection />
-        <FaqSection />
-        <FinalCTASection />
-      </main>
-      <Footer />
+      <HeroSection />
+      <MomentSection />
+      <PromiseSection />
+      <DeliverablesSection />
+      <ProcessSection />
+      <ClientTimeSection />
+      <PricingSection />
+      <NotForSection />
+      <FaqSection />
+      <FinalCTASection />
     </>
   );
 }

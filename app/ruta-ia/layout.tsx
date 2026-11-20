@@ -3,7 +3,14 @@ import { Reddit_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
 import { cn } from "@/lib/utils";
-import { getRutaIaTranslations } from "./lib/i18n";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { Footer } from "@/components/footer";
+import { Nav } from "@/app/[locale]/_components/nav";
+import { ContactDrawerProvider } from "@/components/contact/contact-drawer-provider";
+import { LazyMotionProvider } from "@/components/animations/lazy-motion-provider";
+import { pickMessages, sharedClientNamespaces } from "@/lib/client-messages";
+import { getRutaIaTranslations, RUTA_IA_LOCALE } from "./lib/i18n";
 
 const font = Reddit_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -84,11 +91,15 @@ const authorSchema = {
   worksFor: { "@id": ORGANIZATION_ID },
 };
 
-export default function RutaIALayout({
+export default async function RutaIALayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  // Same header and footer as the [locale] pages, fixed to Spanish.
+  setRequestLocale(RUTA_IA_LOCALE);
+  const messages = await getMessages({ locale: RUTA_IA_LOCALE });
+
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
@@ -114,15 +125,26 @@ export default function RutaIALayout({
             __html: JSON.stringify(authorSchema),
           }}
         />
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem={false}
-          disableTransitionOnChange
+        <NextIntlClientProvider
+          locale={RUTA_IA_LOCALE}
+          messages={pickMessages(messages, sharedClientNamespaces)}
         >
-          {children}
-        </ThemeProvider>
-        <Analytics />
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem={false}
+            disableTransitionOnChange
+          >
+            <LazyMotionProvider>
+              <ContactDrawerProvider>
+                <Nav />
+                <main id="main-content">{children}</main>
+                <Footer />
+              </ContactDrawerProvider>
+            </LazyMotionProvider>
+          </ThemeProvider>
+          <Analytics />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -1,3 +1,4 @@
+import { Badge } from "@/components/ui/badge";
 import { Fragment } from "react";
 import { getTranslations } from "next-intl/server";
 import { ArrowDown, ArrowRight, CornerDownRight } from "lucide-react";
@@ -9,13 +10,19 @@ type Step = { label: string; title: string; body: string };
 const highlighted = [false, true, true, false];
 
 export async function JourneySection() {
-  const t = await getTranslations("inicio.journey");
+  const [t, tAi] = await Promise.all([
+    getTranslations("inicio.journey"),
+    getTranslations("inicio.ai"),
+  ]);
   const steps = t.raw("steps") as Step[];
 
   return (
     <section id="ia" className="scroll-mt-20 bg-section-light py-16 md:py-24">
       <div className="container flex flex-col gap-10 md:gap-12">
         <div className="flex flex-col gap-4">
+          <Badge variant="pretitle" className="self-start">
+            {tAi("eyebrow")}
+          </Badge>
           <h2 className="text-foreground">{t("title")}</h2>
           <p className="text-lg text-muted-foreground">{t("intro")}</p>
         </div>

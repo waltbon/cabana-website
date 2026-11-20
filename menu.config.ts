@@ -11,15 +11,7 @@ export type MenuItem =
 export const mainMenu: Record<string, MenuItem> = {
   home: "/",
   about: "/como-trabajamos",
-  capabilities: {
-    href: "/capacidades",
-    children: {
-      dataConsulting: "/capacidades/consultoria-de-datos",
-      dataEngineering: "/capacidades/ingenieria-de-datos",
-      digitalProduct: "/capacidades/producto-digital",
-      customAiAgents: "/capacidades/agentes-ia-a-medida",
-    },
-  },
+  whatWeDo: "/lo-que-hacemos",
   // caseStudies: "/case-studies",
   // careers: "/careers",
   blog: "/posts",

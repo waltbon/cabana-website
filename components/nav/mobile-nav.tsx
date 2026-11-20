@@ -74,21 +74,21 @@ export function MobileNav() {
                         openDrawer();
                       }}
                     >
-                      {key.charAt(0).toUpperCase() + key.slice(1)}
+                      {t(key)}
                     </button>
                   );
                 }
 
                 return (
                   <MobileLink key={key} href={localizedHref(item, locale)} onOpenChange={setOpen}>
-                    {key.charAt(0).toUpperCase() + key.slice(1)}
+                    {t(key)}
                   </MobileLink>
                 );
               }
               return (
                 <div key={key} className="flex flex-col gap-1">
                   <MobileLink href={item.href} onOpenChange={setOpen}>
-                    {key.charAt(0).toUpperCase() + key.slice(1)}
+                    {t(key)}
                   </MobileLink>
                   <div className="flex flex-col gap-1 pl-4 border-l border-border ml-1">
                     {Object.entries(item.children).map(
