@@ -14,8 +14,10 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 | Frame | Archivo | Estado | Commit | Deuda |
 |---|---|---|---|---|
-| `PG/index` | `app/[locale]/page.tsx` | dibujado | `b74f088` | Hero (tres puertas), síntomas (bento) y capacidades (tarjetas con ilustración) dibujados a mano: aún no son componentes del DS. Enlaces subrayados de las tarjetas de servicios hechos a mano: falta la variante `Button/link` en el DS (`.pen` y código). Diagonales decorativas con `clip-path` arbitrario en código. Logos de clientes en escala de grises (`grayscale`) en código, a color en el `.pen`. Título de `cases` (`text-2xl`) fuera de la escala global de headings. Hero con el faro (`home-hero-faro`): puertas al 65 % del ancho para no tapar la base de la ilustración. |
-| `PG/como-trabajamos` | `app/[locale]/como-trabajamos/page.tsx` (y `how-we-work` en en) | dibujado | `5bc0bbb` | Usa `Feature Item` (Numbered). Foto del fundador más pequeña en código (`f4384b0`) ya reflejada. `/about` retirado con 301 (D-009): sin baseline. |
+| `PG/index` | `app/[locale]/page.tsx` | dibujado | `web-v2` | Web v2 (copy 6M-02.0): hero con tres pilares, sección de IA (recorrido + servicios), Lo que hacemos (cinco áreas), casos, método, clientes. Pilares y tarjetas de área dibujados a mano: aún no son componentes del DS. Logos de clientes en escala de grises en código, a color en el `.pen`. Diagonales decorativas con `clip-path` arbitrario en código. |
+| `PG/como-trabajamos` | `app/[locale]/como-trabajamos/page.tsx` (y `how-we-work` en en) | dibujado | `web-v2` | Web v2 (copy 6M-02.4): recorrido de tres etapas, método, equipo, área de tecnología, principio, lo que no hacemos y CTA de tres puertas. Usa `Feature Item` (Numbered). El frame móvil se derivó del de escritorio. `/about` retirado con 301 (D-009). |
+| `PG/lo-que-hacemos` | `app/[locale]/lo-que-hacemos/page.tsx` | dibujado | `web-v2` | Tarjetas de área en fila (número, momento → cambio, panel oscuro con la cifra) dibujadas a mano. Bloque de tecnologías con la lista de `/capacidades` hasta la decisión de logos (LEEME 5). |
+| `PG/lo-que-hacemos/[area]` | `app/[locale]/lo-que-hacemos/[area]/page.tsx` | dibujado | `web-v2` | Un solo frame para las cinco áreas (dibujado con Modernización de datos). Ciencia de datos no tiene ilustración en el hero; producto digital repite la del hero de Lo que hacemos. Las imágenes viven en `public/capacidades/` y `public/ai-first-move/`. |
 | `PG/contact` | `app/[locale]/contact/page.tsx` | pendiente | — | Dibujar estados del formulario: base, enviando, enviado, error. |
 | `PG/careers` | `app/[locale]/careers/page.tsx` | pendiente | — | — |
 | `PG/careers/[id]` | `app/[locale]/careers/[id]/page.tsx` | pendiente | — | — |
@@ -33,14 +35,13 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | `PG/services/data-engineering` | `app/[locale]/services/data-engineering/page.tsx` | pendiente | — | — |
 | `PG/services/custom-ai-agents` | `app/[locale]/services/custom-ai-agents/page.tsx` | pendiente | — | — |
 | `PG/services/ai-readiness-assessment` | `app/[locale]/services/ai-readiness-assessment/page.tsx` | pendiente | — | Hex sueltos en `_components`. |
-| `PG/ruta-ia` | `app/ruta-ia/page.tsx` | pendiente | — | Fuera de `[locale]` (solo español). Hex y gradientes en línea en 5 archivos: migrar a `.text-gradient-cabana` / tokens. Las pantallas de `CH-ruta-ia` no tienen el hero dividido ni las ilustraciones (hero, Promise, card destacado de Deliverables); referencia en el frame `Ilustraciones`. |
-| `PG/ai-first-move` | `app/[locale]/ai-first-move/page.tsx` | pendiente | — | Las pantallas de `CH-ai-first-move` no tienen el hero dividido ni las ilustraciones (hero, Promise, card destacado de Deliverables); referencia en el frame `Ilustraciones`. |
+| `PG/ruta-ia` | `app/ruta-ia/page.tsx` | pendiente | — | Fuera de `[locale]` (solo español; `/en/ruta-ia` 301 a `/ruta-ia`). Desde web v2 usa el Nav y Footer compartidos. La sección de precio pasó a "Plazo y alcance claros" (tres tarjetas); el frame de ese cambio vive en el historial de git (`CH-web-v2`). Las pantallas viejas `CH-ruta-ia` muestran precio: no usarlas como referencia. Hex y gradientes en línea en 5 archivos. |
+| `PG/ai-first-move` | `app/[locale]/ai-first-move/page.tsx` | pendiente | — | Desde web v2, "Plazo y alcance claros" con dos tarjetas, sin precio (frame en el historial de git, `CH-web-v2`). Las pantallas viejas `CH-ai-first-move` muestran precio: no usarlas como referencia. |
 
 ## Cambios en curso
 
 | Contenedor | Qué propone | Estado |
 |---|---|---|
-| `CH-web-v2: pantallas` | Reajuste web v2 (copy en `docs/copy-web-v2/`). `Lo que hacemos` (escritorio y móvil) aprobado e implementado en `app/[locale]/lo-que-hacemos/`. Plantilla de área (`Área · Modernización de datos`, escritorio y móvil) implementada en `app/[locale]/lo-que-hacemos/[area]/` para las cinco áreas; siguen Ruta IA, AI First Move, Cómo trabajamos e Inicio. | En curso; al mergear, crear `PG/lo-que-hacemos` y borrar el `CH`. |
 | `CH-posts-slug: pantallas` | Encabezado del post dividido (texto a la izquierda, imagen a la derecha) y barra lateral genérica en lugar del formulario de Ruta IA. Propuesta A (formulario compacto, en la página completa), B (solo CTA) y C (nombre y correo). El encabezado dividido ya está en código; falta elegir la barra lateral. | Propuestas dibujadas; al elegir y mergear, actualizar `PG/posts/[slug]` y borrar el `CH`. |
 
 ## Sin baseline
@@ -55,7 +56,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 Frame `Ilustraciones` del `.pen`: las ilustraciones del home, Ruta IA, AI First Move y las cuatro capacidades, con su uso. Las imágenes del `.pen` apuntan a `design/images/illustrations/` (copias de las de `public/`, incluido el hero del home); si se regenera una, se reemplazan ambas. Estilo y prompts: `design/illustration-style-doodle.yaml` y `design/illustrations/*.yaml`.
 
-Las pantallas `CH-capacidades/*` (escritorio y móvil) ya tienen el hero dividido con la ilustración de cada capacidad (`components/capacidades/capability-hero.tsx`). En los frames móviles de Data Consulting, Digital Product y Custom AI Agents, el `Header` de `Services` aparece recortado; es previo a este cambio.
+`/capacidades` se retiró en web v2 (301 a `/lo-que-hacemos`) y su contenedor `CH-capacidades` se eliminó del `.pen`. Sus ilustraciones siguen en `public/capacidades/` porque las usan las páginas de área.
 
 ## Deuda global
 
@@ -64,8 +65,9 @@ Afecta a todo el sitio. Se resuelve con un cambio propio, no al dibujar baseline
 - `h4` usa `--heading-sm-size` / `--heading-sm-line-height`, que no están definidos en `globals.css`.
 - Footer compacto (fondo `cabana-dark`): textos en `slate-300`/`slate-400` y divisor `white/10` sin token en el `.pen` (hex sueltos).
 - El logo en el `.pen` es texto; falta la imagen del logo real.
+- `Nav` y `Footer` del DS actualizados en web v2 (Inicio, Cómo trabajamos, Lo que hacemos, Blog, Contacto; footer con Ruta IA). Falta una variante móvil de `Nav` como componente; los frames móviles usan una instancia recortada.
 - Componentes del código sin par en el `.pen`: `Accordion`, `Carousel`, `Drawer`, `Sheet`, `Pagination`, `NavigationMenu`, `DropdownMenu`, `Stat`.
 
 ---
 
-Último repaso del registro: commit `82016ec` (2026-10-24).
+Último repaso del registro: web v2 (2026-11-20).
