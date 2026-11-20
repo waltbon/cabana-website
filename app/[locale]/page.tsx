@@ -11,7 +11,7 @@ import { JourneySection } from "./_components/journey-section";
 import { ServicesSection } from "./_components/services-section";
 import { MethodSection } from "./_components/method-section";
 import { CasesSection } from "./_components/cases-section";
-import { CapabilitiesSection } from "./_components/capabilities-section";
+import { WhatWeDoSection } from "./_components/what-we-do-section";
 
 export async function generateMetadata({
   params,
@@ -75,11 +75,11 @@ export default function Home() {
       <JsonLd schemas={[organizationSchema]} />
       <HeroSection />
       <SymptomsSection />
-      <CapabilitiesSection />
       <JourneySection />
       <ServicesSection />
-      <MethodSection />
+      <WhatWeDoSection />
       <CasesSection />
+      <MethodSection />
       <ClientsSection />
       <CTASection namespace="inicio.cta" className="bg-section-light" />
     </>

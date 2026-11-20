@@ -1,25 +1,25 @@
 import Image from "next/image";
-import { Blocks, Database, Sparkles } from "lucide-react";
+import { Compass, Handshake, Rocket } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Badge } from "@/components/ui/badge";
 import { ServiceLink } from "@/components/service-link";
 
-type Door = { label: string; hint: string; href: string };
+type Pillar = { title: string; body: string; href: string };
 type Stat = { value: string; label: string };
 
-// Order matches `inicio.hero.doors`: system, data, AI
-const doorIcons = [Blocks, Database, Sparkles];
+// Order matches `inicio.hero.pillars`: clarity, implementation, ally
+const pillarIcons = [Compass, Rocket, Handshake];
 
 /**
  * Split hero: copy on a dark band with diagonal accents and the illustration on
- * the right (below on mobile). Three equal "doors" sit under the copy, and a
+ * the right (below on mobile). Three equal pillars sit under the copy, and a
  * stats bar overlaps the band's bottom edge.
  */
 export async function HeroSection() {
   const t = await getTranslations("inicio.hero");
-  const doors = t.raw("doors") as Door[];
+  const pillars = t.raw("pillars") as Pillar[];
   const stats = t.raw("stats") as Stat[];
-  const [firstLine, secondLine] = t("title").split(/(?<=\.)\s+/);
+  const [firstLine, secondLine] = t("title").split(/(?<=[.,])\s+/);
 
   return (
     <section className="relative bg-background pb-5">
@@ -63,14 +63,14 @@ export async function HeroSection() {
               <p className="max-w-150 text-base text-slate-300 md:text-lg">{t("subtitle")}</p>
             </div>
 
-            {/* Three equal doors: same size, same style, none is "the main one" */}
+            {/* Three pillars with the same visual weight */}
             <ul className="mt-4 grid gap-3 md:grid-cols-3 md:gap-5 lg:mt-4 lg:w-[65%]">
-              {doors.map((door, i) => {
-                const Icon = doorIcons[i];
+              {pillars.map((pillar, i) => {
+                const Icon = pillarIcons[i];
                 return (
-                  <li key={door.href} className="flex">
+                  <li key={pillar.href} className="flex">
                     <ServiceLink
-                      href={door.href}
+                      href={pillar.href}
                       className="flex w-full items-center gap-4 rounded-xl border border-white/20 bg-white/5 p-5 backdrop-blur-md transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring md:flex-col md:items-start md:gap-4 md:p-6 lg:p-5"
                     >
                       <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-cabana-green/15 text-cabana-green md:size-13">
@@ -78,9 +78,9 @@ export async function HeroSection() {
                       </span>
                       <span className="flex flex-1 flex-col gap-1.5">
                         <span className="text-lg font-bold leading-tight text-white md:text-2xl lg:text-xl">
-                          {door.label}
+                          {pillar.title}
                         </span>
-                        <span className="text-sm text-cabana-light">{door.hint}</span>
+                        <span className="text-sm text-cabana-light">{pillar.body}</span>
                       </span>
                     </ServiceLink>
                   </li>

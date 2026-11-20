@@ -2611,27 +2611,10 @@
       "ogDescription": "Aplicaciones a la medida y datos confiables para decidir. Sobre esa base, IA que llega a producción."
     },
     "hero": {
-      "eyebrow": "Ingeniería de software y datos para empresas",
-      "title": "Primero una base sólida. Después, IA que funciona.",
-      "subtitle": "Somos una consultoría de IA, software y datos en Costa Rica. Diseñamos aplicaciones a la medida y arquitecturas de datos profesionales y, sobre esa base, llevamos la IA a producción.",
+      "eyebrow": "Estrategia, implementación y acompañamiento",
+      "title": "Consultoría de IA con método, que entrega resultados en producción.",
+      "subtitle": "Le ayudamos a elegir qué hacer con IA, la ponemos a funcionar en semanas y la dejamos operando con su equipo, documentada y bajo su control.",
       "imageAlt": "Ilustración de un faro sobre una roca de bloques con símbolos de datos, engranaje y aplicación. De su linterna sale un haz de luz verde.",
-      "doors": [
-        {
-          "label": "Modernizar un sistema",
-          "hint": "Aplicaciones a la medida",
-          "href": "/capacidades/producto-digital"
-        },
-        {
-          "label": "Ordenar mis datos",
-          "hint": "Arquitectura e ingeniería de datos",
-          "href": "/capacidades/consultoria-de-datos"
-        },
-        {
-          "label": "Empezar con IA",
-          "hint": "Ruta IA y AI First Move",
-          "href": "#ia"
-        }
-      ],
       "statsLabel": "Resultados en proyectos de clientes",
       "stats": [
         {
@@ -2646,33 +2629,50 @@
           "value": "45",
           "label": "entidades de 8 plataformas, automatizadas"
         }
+      ],
+      "pillars": [
+        {
+          "title": "Claridad",
+          "body": "Sepa qué soluciones de IA implementar primero y con qué plan.",
+          "href": "/ruta-ia"
+        },
+        {
+          "title": "Implementación inmediata",
+          "body": "Su primer caso de IA en producción en 10 semanas.",
+          "href": "/ai-first-move"
+        },
+        {
+          "title": "Un aliado para su equipo de tecnología",
+          "body": "Construimos con su equipo, con la arquitectura que usted aprueba.",
+          "href": "/como-trabajamos"
+        }
       ]
     },
     "clients": {
       "title": "Empresas que ya trabajan con nosotros"
     },
     "symptoms": {
-      "eyebrow": "Tres síntomas, un problema de fondo",
-      "title": "Las decisiones dependen de sistemas que ya no dan abasto",
-      "intro": "Antes de cualquier tecnología nueva, conviene que sus sistemas y sus datos sostengan la operación.",
+      "eyebrow": "Tres frenos que vemos a menudo",
+      "title": "La presión por resultados con IA llega antes que la claridad",
+      "intro": "Las empresas quieren aportar valor con IA, y pronto. Esto es lo que suele frenarlas.",
       "items": [
         {
-          "title": "Su sistema ya no sigue el ritmo de la operación",
-          "body": "Y cada cambio cuesta más que el anterior, porque nadie documentó cómo funciona."
+          "title": "La junta pide resultados con IA",
+          "body": "Y cada área tiene una idea distinta, sin forma de saber cuál conviene primero."
         },
         {
           "title": "Cada área tiene su propia versión de los números",
           "body": "Y en la reunión se discute cuál dato es el correcto en lugar de decidir."
         },
         {
-          "title": "La junta pide avanzar y nadie tiene un plan",
-          "body": "Y nadie sabe si los datos dan para alguna idea."
+          "title": "Las pruebas de IA no llegan a producción",
+          "body": "Y sin un caso funcionando, no hay evidencia para aprobar el siguiente."
         }
       ]
     },
     "journey": {
-      "title": "Cuando la base está lista, IA con precio y plazo fijos",
-      "intro": "Primero se sabe por dónde empezar. Después se empieza, con un caso en producción.",
+      "title": "Claridad primero, resultados enseguida",
+      "intro": "En 4 semanas sabe qué hacer con IA. En 10 semanas tiene el primer caso funcionando.",
       "steps": [
         {
           "label": "Punto de partida",
@@ -2682,7 +2682,7 @@
         {
           "label": "4 semanas",
           "title": "Ruta IA",
-          "body": "Sus 5 mejores oportunidades de IA, ordenadas, y cuáles soportan hoy sus datos."
+          "body": "Sus 5 mejores oportunidades de IA, priorizadas, y el plan para arrancar."
         },
         {
           "label": "10 semanas",
@@ -2698,16 +2698,14 @@
       "directEntry": "Si quien decide ya eligió la idea, puede entrar directo a AI First Move. Ruta IA no es un paso obligatorio."
     },
     "services": {
-      "pretitle": "Servicios",
-      "title": "Dos servicios, cada uno con precio y plazo fijos",
       "items": [
         {
           "door": "No sé por dónde empezar",
           "name": "Ruta IA",
-          "summary": "El diagnóstico que le dice por cuáles oportunidades de IA empezar y si sus datos las soportan.",
+          "summary": "Sepa qué soluciones de IA implementar primero y con qué plan arrancar.",
           "facts": [
             "4 semanas + 30 días de seguimiento",
-            "Precio fijo, sin \"depende\""
+            "Plazo y entregables definidos"
           ],
           "cta": "Ver Ruta IA",
           "href": "/ruta-ia"
@@ -2718,7 +2716,7 @@
           "summary": "El primer caso de IA en producción, con el caso de inversión que financia los siguientes.",
           "facts": [
             "10 semanas, en dos ciclos",
-            "Precio fijo, sin \"depende\""
+            "Plazo y entregables definidos"
           ],
           "cta": "Ver AI First Move",
           "href": "/ai-first-move"
@@ -2730,18 +2728,17 @@
       "body": "Cada proyecto parte de entrevistas a su gente y de la revisión directa de sus sistemas. Documentamos la lógica de negocio, construimos con su equipo y entregamos en producción. Si algo no está listo, se lo decimos, con lo que hay que resolver."
     },
     "principle": {
-      "title": "Una persona de su equipo aprueba cada acción",
+      "title": "La IA propone, su equipo decide",
       "body": "En el primer caso, la IA lee, recomienda o redacta, y una persona de su equipo aprueba antes de cualquier acción con efecto. Así llega a producción sin abrir un riesgo que después tenga que explicar en junta.",
       "link": "Ver cómo trabajamos"
     },
     "cases": {
       "eyebrow": "En producción, no en presentaciones",
       "title": "Resultados medibles en la operación de nuestros clientes",
-      "link": "Ver el caso",
       "items": [
         {
           "industry": "Marketing y publicidad",
-          "title": "Agentes a medida que reúnen el historial de campañas",
+          "title": "Agentes de IA que reúnen el historial de campañas",
           "metric": "De 20 a 2 minutos",
           "metricLabel": "para reunir el historial de campañas antes de diseñar una nueva"
         },
@@ -2760,33 +2757,40 @@
       ],
       "cta": "Ver todos los casos"
     },
-    "capabilities": {
-      "title": "Lo que construimos",
-      "intro": "Proyectos de software y datos especificados desde su proceso real, entregados en producción y documentados para que su equipo los opere. Se cotizan a medida.",
+    "cta": {
+      "title": "¿Qué quiere lograr con IA?",
+      "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos por dónde empezar y qué resultado puede ver en semanas.",
+      "button": "Agendar una conversación"
+    },
+    "ai": {
+      "eyebrow": "Consultoría de IA"
+    },
+    "whatWeDo": {
+      "title": "Lo que hacemos",
+      "intro": "Cinco cambios que producimos en una empresa, en producción y operados por su equipo. Se cotizan a medida.",
       "items": [
         {
-          "name": "Digital Product",
-          "body": "Aplicaciones a la medida con la lógica de su negocio. Ideal para reemplazar sistemas legacy sin perder lo que ya funciona."
+          "name": "Modernización de datos",
+          "body": "Una sola fuente de datos confiable en la nube, con analítica que se actualiza sola."
         },
         {
-          "name": "Data Consulting",
-          "body": "Arquitectura y gobierno de datos para que la dirección decida con información propia y confiable."
+          "name": "Conocimiento empresarial disponible",
+          "body": "Su gente consulta políticas, procesos y datos en lenguaje natural, con respuestas que citan la fuente."
         },
         {
-          "name": "Data Engineering",
-          "body": "Integramos sus sistemas en un data warehouse y lo convertimos en dashboards que su equipo usa a diario."
+          "name": "Ciencia de datos y machine learning",
+          "body": "Predicciones y alertas que mejoran decisiones concretas de su operación."
         },
         {
-          "name": "Custom AI Agents",
-          "body": "Agentes de IA a medida, conectados a sus datos y con aprobación de su equipo."
+          "name": "Automatización con agentes de IA",
+          "body": "Agentes que analizan y preparan la decisión; su equipo revisa y aprueba."
+        },
+        {
+          "name": "Productos digitales con IA integrada",
+          "body": "Aplicaciones a la medida, especificadas desde sus procesos, con IA donde aporta valor."
         }
       ],
-      "cta": "Ver capacidades"
-    },
-    "cta": {
-      "title": "¿Qué necesita resolver primero?",
-      "body": "En una conversación de 20 minutos con quien decide la inversión, revisamos por dónde empezar: un sistema, sus datos o la IA.",
-      "button": "Agendar una conversación"
+      "cta": "Ver lo que hacemos"
     }
   },
   "comoTrabajamos": {

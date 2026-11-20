@@ -2627,27 +2627,10 @@
       "ogDescription": "Custom applications and reliable data to decide with. On that foundation, AI that reaches production."
     },
     "hero": {
-      "eyebrow": "Software and data engineering for companies",
-      "title": "A solid foundation first. Then, AI that works.",
-      "subtitle": "We are an AI, software and data consultancy in Costa Rica. We design custom applications and professional data architectures and, on that foundation, take AI to production.",
+      "eyebrow": "Strategy, implementation and support",
+      "title": "AI consulting with a method, delivering results in production.",
+      "subtitle": "We help you choose what to do with AI, get it working in weeks and leave it running with your team, documented and under your control.",
       "imageAlt": "Illustration of a lighthouse on a rock of blocks marked with data, gear and application symbols. A green beam of light shines from its lantern.",
-      "doors": [
-        {
-          "label": "Modernize a system",
-          "hint": "Custom applications",
-          "href": "/capacidades/producto-digital"
-        },
-        {
-          "label": "Organize my data",
-          "hint": "Data architecture and engineering",
-          "href": "/capacidades/consultoria-de-datos"
-        },
-        {
-          "label": "Start with AI",
-          "hint": "Ruta IA and AI First Move",
-          "href": "#ia"
-        }
-      ],
       "statsLabel": "Results from client projects",
       "stats": [
         {
@@ -2662,33 +2645,50 @@
           "value": "45",
           "label": "entities from 8 platforms, automated"
         }
+      ],
+      "pillars": [
+        {
+          "title": "Clarity",
+          "body": "Know which AI solutions to implement first and with what plan.",
+          "href": "/ruta-ia"
+        },
+        {
+          "title": "Immediate implementation",
+          "body": "Your first AI use case in production in 10 weeks.",
+          "href": "/ai-first-move"
+        },
+        {
+          "title": "An ally for your technology team",
+          "body": "We build with your team, with the architecture you approve.",
+          "href": "/como-trabajamos"
+        }
       ]
     },
     "clients": {
       "title": "Companies already working with us"
     },
     "symptoms": {
-      "eyebrow": "Three symptoms, one underlying problem",
-      "title": "Decisions depend on systems that can no longer keep up",
-      "intro": "Before any new technology, your systems and data need to hold up the operation.",
+      "eyebrow": "Three blockers we see often",
+      "title": "The pressure for AI results arrives before clarity",
+      "intro": "Companies want to deliver value with AI, and soon. This is what usually holds them back.",
       "items": [
         {
-          "title": "Your system no longer keeps pace with the operation",
-          "body": "And every change costs more than the last, because nobody documented how it works."
+          "title": "The board wants results with AI",
+          "body": "And every area has a different idea, with no way to know which one should come first."
         },
         {
           "title": "Every area has its own version of the numbers",
           "body": "And in the meeting you argue about which figure is right instead of deciding."
         },
         {
-          "title": "The board wants progress and nobody has a plan",
-          "body": "And nobody knows whether the data is enough for any idea."
+          "title": "AI trials never reach production",
+          "body": "And without a working use case, there is no evidence to approve the next one."
         }
       ]
     },
     "journey": {
-      "title": "When the foundation is ready, AI with a fixed price and timeline",
-      "intro": "First you know where to start. Then you start, with a use case in production.",
+      "title": "Clarity first, results right after",
+      "intro": "In 4 weeks you know what to do with AI. In 10 weeks you have the first use case working.",
       "steps": [
         {
           "label": "Starting point",
@@ -2698,7 +2698,7 @@
         {
           "label": "4 weeks",
           "title": "Ruta IA",
-          "body": "Your top 5 AI opportunities, ranked, and which ones your data supports today."
+          "body": "Your top 5 AI opportunities, prioritized, and the plan to get started."
         },
         {
           "label": "10 weeks",
@@ -2714,16 +2714,14 @@
       "directEntry": "If the decision-maker has already chosen the idea, you can go straight to AI First Move. Ruta IA is not a required step."
     },
     "services": {
-      "pretitle": "Services",
-      "title": "Two services, each with a fixed price and timeline",
       "items": [
         {
           "door": "I don't know where to start",
           "name": "Ruta IA",
-          "summary": "The assessment that tells you which AI opportunities to start with and whether your data supports them.",
+          "summary": "Know which AI solutions to implement first and with what plan to start.",
           "facts": [
             "4 weeks + 30 days of follow-up",
-            "Fixed price, no \"it depends\""
+            "Defined timeline and deliverables"
           ],
           "cta": "See Ruta IA",
           "href": "/ruta-ia"
@@ -2734,7 +2732,7 @@
           "summary": "Your first AI use case in production, with the investment case that funds the next ones.",
           "facts": [
             "10 weeks, in two cycles",
-            "Fixed price, no \"it depends\""
+            "Defined timeline and deliverables"
           ],
           "cta": "See AI First Move",
           "href": "/ai-first-move"
@@ -2746,18 +2744,17 @@
       "body": "Every project starts with interviews with your people and a direct review of your systems. We document the business logic, build with your team and deliver in production. If something isn't ready, we tell you, along with what needs to be solved."
     },
     "principle": {
-      "title": "A person on your team approves every action",
+      "title": "AI proposes, your team decides",
       "body": "In the first use case, AI reads, recommends or drafts, and a person on your team approves before any action takes effect. That way it reaches production without opening a risk you'd later have to explain to the board.",
       "link": "See how we work"
     },
     "cases": {
       "eyebrow": "In production, not in slide decks",
       "title": "Measurable results in our clients' operations",
-      "link": "See the case",
       "items": [
         {
           "industry": "Marketing and advertising",
-          "title": "Custom agents that gather campaign history",
+          "title": "AI agents that gather the campaign history",
           "metric": "From 20 to 2 minutes",
           "metricLabel": "to gather campaign history before designing a new one"
         },
@@ -2776,33 +2773,40 @@
       ],
       "cta": "See all cases"
     },
-    "capabilities": {
-      "title": "What we build",
-      "intro": "Software and data projects specified from your real process, delivered in production and documented so your team can run them. Quoted as custom projects.",
+    "cta": {
+      "title": "What do you want to achieve with AI?",
+      "body": "In a 20-minute conversation with whoever decides the investment, we review where to start and what result you can see in weeks.",
+      "button": "Book a conversation"
+    },
+    "ai": {
+      "eyebrow": "AI consulting"
+    },
+    "whatWeDo": {
+      "title": "What we do",
+      "intro": "Five changes we bring to a company, in production and run by your team. Quoted to scope.",
       "items": [
         {
-          "name": "Digital Product",
-          "body": "Custom applications built around your business logic. Ideal for replacing legacy systems without losing what already works."
+          "name": "Data modernization",
+          "body": "A single reliable data source in the cloud, with analytics that update on their own."
         },
         {
-          "name": "Data Consulting",
-          "body": "Data architecture and governance so leadership decides with its own reliable information."
+          "name": "Enterprise knowledge, available",
+          "body": "Your people query policies, processes and data in natural language, with answers that cite the source."
         },
         {
-          "name": "Data Engineering",
-          "body": "We integrate your systems into a data warehouse and turn it into dashboards your team uses every day."
+          "name": "Data science and machine learning",
+          "body": "Predictions and alerts that improve specific decisions in your operation."
         },
         {
-          "name": "Custom AI Agents",
-          "body": "Custom AI agents, connected to your data and approved by your team."
+          "name": "Automation with AI agents",
+          "body": "Agents that analyze and prepare the decision; your team reviews and approves."
+        },
+        {
+          "name": "Digital products with built-in AI",
+          "body": "Custom applications, specified from your processes, with AI where it adds value."
         }
       ],
-      "cta": "See capabilities"
-    },
-    "cta": {
-      "title": "What do you need to solve first?",
-      "body": "In a 20-minute conversation with whoever decides the investment, we review where to start: a system, your data or AI.",
-      "button": "Book a conversation"
+      "cta": "See what we do"
     }
   },
   "comoTrabajamos": {

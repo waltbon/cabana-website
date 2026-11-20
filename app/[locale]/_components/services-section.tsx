@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import { ArrowRight, ArrowUpRight, BadgeDollarSign, CalendarRange } from "lucide-react";
+import { ArrowRight, ArrowUpRight, CalendarRange, ClipboardCheck } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ServiceLink } from "@/components/service-link";
 import { cn } from "@/lib/utils";
@@ -14,7 +14,7 @@ type Service = {
   href: string;
 };
 
-const factIcons = [CalendarRange, BadgeDollarSign];
+const factIcons = [CalendarRange, ClipboardCheck];
 
 /** Card themes, in item order: light for Ruta IA, brand blue for AI First Move. */
 const themes = [
@@ -39,18 +39,10 @@ export async function ServicesSection() {
   const items = t.raw("items") as Service[];
 
   return (
-    <section className="relative overflow-hidden bg-cabana-dark py-16 md:py-24">
-      <div
-        aria-hidden
-        className="absolute inset-0 bg-cabana-navy/35 [clip-path:polygon(100%_0,100%_100%,0_100%)]"
-      />
-      <div className="container relative flex flex-col gap-8 md:gap-12">
-        <div className="flex flex-col gap-5">
-          <Badge variant="pretitle" className="self-start">
-            {t("pretitle")}
-          </Badge>
-          <h2 className="text-white text-3xl md:text-5xl">{t("title")}</h2>
-        </div>
+    // Continues the AI section (#ia) right under the journey; the section
+    // title is journey.title, so no header of its own.
+    <section className="bg-section-light pb-16 md:pb-24">
+      <div className="container flex flex-col">
         <div className="grid gap-6 md:grid-cols-2">
           {items.map((item, idx) => {
             const theme = themes[idx % themes.length];
