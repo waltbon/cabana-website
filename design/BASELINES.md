@@ -35,8 +35,8 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | `PG/services/data-engineering` | `app/[locale]/services/data-engineering/page.tsx` | pendiente | — | — |
 | `PG/services/custom-ai-agents` | `app/[locale]/services/custom-ai-agents/page.tsx` | pendiente | — | — |
 | `PG/services/ai-readiness-assessment` | `app/[locale]/services/ai-readiness-assessment/page.tsx` | pendiente | — | Hex sueltos en `_components`. |
-| `PG/ruta-ia` | `app/ruta-ia/page.tsx` | pendiente | — | Fuera de `[locale]` (solo español; `/en/ruta-ia` 301 a `/ruta-ia`). Desde web v2 usa el Nav y Footer compartidos. La sección de precio pasó a "Plazo y alcance claros" (tres tarjetas); el frame de ese cambio vive en el historial de git (`CH-web-v2`). Las pantallas viejas `CH-ruta-ia` muestran precio: no usarlas como referencia. Hex y gradientes en línea en 5 archivos. |
-| `PG/ai-first-move` | `app/[locale]/ai-first-move/page.tsx` | pendiente | — | Desde web v2, "Plazo y alcance claros" con dos tarjetas, sin precio (frame en el historial de git, `CH-web-v2`). Las pantallas viejas `CH-ai-first-move` muestran precio: no usarlas como referencia. |
+| `PG/ruta-ia` | `app/ruta-ia/page.tsx` | dibujado | `web-v2` | Fuera de `[locale]` (solo español; `/en/ruta-ia` 301 a `/ruta-ia`). Usa el Nav y Footer compartidos. Copy web v2 (6M-02.1) con "Plazo y alcance claros" (tres tarjetas, sin precio) y "Cuánto tiempo pide a su equipo" con el rol en línea. Deuda: el frame no tiene el hero dividido ni las ilustraciones (hero, Promise, card destacado de Deliverables) que sí están en código; referencia en el frame `Ilustraciones`. Hex y gradientes en línea en 5 archivos. |
+| `PG/ai-first-move` | `app/[locale]/ai-first-move/page.tsx` | dibujado | `web-v2` | Copy web v2 (6M-02.2) con "Plazo y alcance claros" (dos tarjetas, sin precio). Deuda: el frame no tiene el hero dividido ni las ilustraciones (hero, Promise, card destacado de Deliverables) que sí están en código; referencia en el frame `Ilustraciones`. |
 
 ## Cambios en curso
 
