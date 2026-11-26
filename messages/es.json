@@ -3088,7 +3088,7 @@
         ]
       },
       "services": {
-        "title": "Qué construimos",
+        "title": "Construimos su arquitectura de datos y la ingeniería que la sostiene",
         "items": [
           {
             "title": "Data warehouse en la nube",
@@ -3096,7 +3096,7 @@
           },
           {
             "title": "Integraciones automáticas",
-            "body": "Conectamos sus sistemas (ERP, CRM, plataformas digitales) para que los datos lleguen solos y a tiempo."
+            "body": "Conectamos sus sistemas (ERP, CRM, plataformas digitales) para que los datos lleguen solos, a tiempo y con controles de calidad de datos."
           },
           {
             "title": "Modelo y gobierno de datos",
@@ -3113,7 +3113,7 @@
         "steps": [
           {
             "title": "Entendemos",
-            "body": "Revisamos sus sistemas y conversamos con quienes usan los datos para decidir."
+            "body": "Primero hacemos consultoría de datos: revisamos sus sistemas y conversamos con quienes usan los datos para decidir."
           },
           {
             "title": "Especificamos",

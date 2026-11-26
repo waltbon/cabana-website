@@ -3104,7 +3104,7 @@
         ]
       },
       "services": {
-        "title": "What we build",
+        "title": "We build your data architecture and the engineering that supports it",
         "items": [
           {
             "title": "Cloud data warehouse",
@@ -3112,7 +3112,7 @@
           },
           {
             "title": "Automated integrations",
-            "body": "We connect your systems (ERP, CRM, digital platforms) so data arrives on its own and on time."
+            "body": "We connect your systems (ERP, CRM, digital platforms) so data arrives on its own, on time and with data quality checks."
           },
           {
             "title": "Data model and governance",
@@ -3129,7 +3129,7 @@
         "steps": [
           {
             "title": "We understand",
-            "body": "We review your systems and talk with the people who use the data to make decisions."
+            "body": "First, we act as data consultants: we review your systems and talk with the people who use the data to make decisions."
           },
           {
             "title": "We specify",
