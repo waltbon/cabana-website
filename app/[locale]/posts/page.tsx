@@ -21,7 +21,7 @@ export async function generateMetadata({
   const isEn = locale !== "es";
   return {
     title: isEn
-      ? "Blog | Data Engineering & AI Insights"
+      ? "Blog | Data Engineering and AI"
       : "Blog | Ingeniería de Datos e IA",
     description: isEn
       ? "Articles on data engineering, AI adoption, and architecture from the Cabana Data team."
