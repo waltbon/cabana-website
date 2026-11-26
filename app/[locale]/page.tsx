@@ -40,11 +40,12 @@ export async function generateMetadata({
 }
 
 // Extends the layout's Organization node (same @id) with the home entity data
-const organizationSchema = {
+const buildOrganizationSchema = (description: string) => ({
   "@context": "https://schema.org",
   "@type": ["Organization", "ProfessionalService"],
   "@id": `${siteConfig.site_domain}/#organization`,
   name: siteConfig.site_name,
+  description,
   url: siteConfig.site_domain,
   logo: `${siteConfig.site_domain}/logo-horizontal-light.svg`,
   foundingDate: "2018",
@@ -73,12 +74,19 @@ const organizationSchema = {
       url: `${siteConfig.site_domain}${path}`,
     },
   })),
-};
+});
 
-export default function Home() {
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const tFooter = await getTranslations({ locale, namespace: "footer" });
+
   return (
     <>
-      <JsonLd schemas={[organizationSchema]} />
+      <JsonLd schemas={[buildOrganizationSchema(tFooter("tagline"))]} />
       <HeroSection />
       <SymptomsSection />
       <JourneySection />
