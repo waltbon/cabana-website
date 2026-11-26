@@ -5,7 +5,7 @@ export const routing = defineRouting({
   locales,
   defaultLocale,
   localePrefix: "as-needed",
-  // ES is the primary market/language — don't let the browser's
-  // Accept-Language header bounce visitors to /en.
-  localeDetection: false,
+  // Q21 (2026-11-25): redirect first-time visitors to /en when the browser
+  // prefers English. The NEXT_LOCALE cookie keeps a manual language choice.
+  localeDetection: true,
 });

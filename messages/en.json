@@ -102,7 +102,7 @@
     "done": "Copied!"
   },
   "footer": {
-    "tagline": "Cabana Data is an AI consultancy in Costa Rica that takes AI to production with a method.",
+    "tagline": "Cabana Data is an AI consultancy in Costa Rica that takes AI into production with a clear method.",
     "links": {
       "rutaIa": "Ruta IA",
       "services": "Services",
@@ -2622,8 +2622,8 @@
   },
   "inicio": {
     "meta": {
-      "title": "AI consulting in Costa Rica | Cabana Data",
-      "description": "AI consulting in Costa Rica: we choose with you what to do with AI, take it to production in weeks and leave it running with your team.",
+      "title": "AI, software and data consulting | Cabana Data",
+      "description": "AI consulting in Costa Rica: in 4 weeks, know where to start with AI. Then take your first use case to production, run by your own team.",
       "ogTitle": "Cabana Data: AI consulting with a method and results in production",
       "ogDescription": "Clarity on what to do with AI, the first result in production in weeks and an ally for your technology team."
     },
@@ -3104,7 +3104,7 @@
         ]
       },
       "services": {
-        "title": "What we build",
+        "title": "We build your data architecture and the engineering that supports it",
         "items": [
           {
             "title": "Cloud data warehouse",
@@ -3112,7 +3112,7 @@
           },
           {
             "title": "Automated integrations",
-            "body": "We connect your systems (ERP, CRM, digital platforms) so data arrives on its own and on time."
+            "body": "We connect your systems (ERP, CRM, digital platforms) so data arrives on its own, on time and with data quality checks."
           },
           {
             "title": "Data model and governance",
@@ -3129,7 +3129,7 @@
         "steps": [
           {
             "title": "We understand",
-            "body": "We review your systems and talk with the people who use the data to make decisions."
+            "body": "First, we act as data consultants: we review your systems and talk with the people who use the data to make decisions."
           },
           {
             "title": "We specify",
@@ -3439,7 +3439,7 @@
       "hero": {
         "eyebrow": "Automation with AI agents",
         "title": "Automation with AI agents: fewer hours preparing decisions, more time to make them",
-        "subtitle": "We design AI agents that read, analyze and cross-check the information in your systems to prepare each decision. Your team reviews and approves.",
+        "subtitle": "We design custom AI agents that read, analyze and cross-check the information in your systems to prepare each decision. Your team reviews and approves.",
         "facts": [
           "Workflow redesign",
           "Agents connected to your systems",

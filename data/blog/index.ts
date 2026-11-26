@@ -54,8 +54,8 @@ export const POSTS: Post[] = [
         author: "Walter Bonilla",
         category: "ai",
         type: "deep-dive",
-        title: "¿Por dónde empezar con IA en su empresa?",
-        excerpt: "Para empezar con IA, primero ordene las ideas que ya tiene y revise si sus datos las soportan. Después elija una sola y llévela a producción.",
+        title: "IA en la empresa mediana: por dónde empezar",
+        excerpt: "Para empezar con IA en una empresa mediana, ordene las ideas que ya tiene y revise si sus datos las soportan. Después elija una y llévela a producción.",
         featuredMediaSourceUrl: null,
         service: "ruta-ia",
     }, {
@@ -76,8 +76,8 @@ export const POSTS: Post[] = [
         author: "Walter Bonilla",
         category: "ai",
         type: "opinion",
-        title: "Piloto vs. producción: por qué fallan los PoC",
-        excerpt: "Un PoC de IA demuestra que algo puede funcionar; la junta pregunta si funciona en su operación. Así se pasa de piloto a producción.",
+        title: "Por qué su piloto de IA no llega a producción",
+        excerpt: "Un piloto de IA en su empresa demuestra que algo puede funcionar; la junta pregunta si funciona en su operación. Así se pasa de piloto a producción.",
         featuredMediaSourceUrl: null,
         service: "ai-first-move",
     }, {
