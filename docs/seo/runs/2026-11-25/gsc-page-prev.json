@@ -1,0 +1,288 @@
+{
+  "property": "sc-domain:cabanadata.com",
+  "rows": [
+    {
+      "keys": [
+        "https://cabanadata.com/"
+      ],
+      "clicks": 2,
+      "impressions": 15,
+      "ctr": 13.33,
+      "position": 28.9,
+      "page": "https://cabanadata.com/"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en"
+      ],
+      "clicks": 2,
+      "impressions": 32,
+      "ctr": 6.25,
+      "position": 8.1,
+      "page": "https://cabanadata.com/en"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/about"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 8.2,
+      "page": "https://cabanadata.com/about"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/ai-first-move"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.7,
+      "page": "https://cabanadata.com/ai-first-move"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades"
+      ],
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 62.8,
+      "page": "https://cabanadata.com/capacidades"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/agentes-ia-a-medida"
+      ],
+      "clicks": 0,
+      "impressions": 61,
+      "ctr": 0,
+      "position": 47.7,
+      "page": "https://cabanadata.com/capacidades/agentes-ia-a-medida"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/consultoria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 110,
+      "ctr": 0,
+      "position": 37.7,
+      "page": "https://cabanadata.com/capacidades/consultoria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/ingenieria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 23.7,
+      "page": "https://cabanadata.com/capacidades/ingenieria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/capacidades/producto-digital"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/capacidades/producto-digital"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/contact"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 6.8,
+      "page": "https://cabanadata.com/contact"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/ai-first-move"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9,
+      "page": "https://cabanadata.com/en/ai-first-move"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 4.7,
+      "page": "https://cabanadata.com/en/capacidades"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/capacidades/consultoria-de-datos"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 56.3,
+      "page": "https://cabanadata.com/en/capacidades/consultoria-de-datos"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/contact"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "page": "https://cabanadata.com/en/contact"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/posts?category=ai"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6,
+      "page": "https://cabanadata.com/en/posts?category=ai"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/application-development"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "page": "https://cabanadata.com/en/services/application-development"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/dashboards-analytics-interfaces"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.7,
+      "page": "https://cabanadata.com/en/services/dashboards-analytics-interfaces"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/data-analytics-use-case"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4,
+      "page": "https://cabanadata.com/en/services/data-analytics-use-case"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/data-consulting"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "page": "https://cabanadata.com/en/services/data-consulting"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/data-engineering"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6,
+      "page": "https://cabanadata.com/en/services/data-engineering"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/en/services/data-health-check"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8,
+      "page": "https://cabanadata.com/en/services/data-health-check"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/posts"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7,
+      "page": "https://cabanadata.com/posts"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/ruta-ia"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5,
+      "page": "https://cabanadata.com/ruta-ia"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 10.8,
+      "page": "https://cabanadata.com/services"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services/ai-readiness-assessment"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5,
+      "page": "https://cabanadata.com/services/ai-readiness-assessment"
+    },
+    {
+      "keys": [
+        "https://cabanadata.com/services/dashboards-analytics-interfaces"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5,
+      "page": "https://cabanadata.com/services/dashboards-analytics-interfaces"
+    },
+    {
+      "keys": [
+        "https://ruta-ai.cabanadata.com/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5,
+      "page": "https://ruta-ai.cabanadata.com/"
+    }
+  ],
+  "totals": {
+    "clicks": 4,
+    "impressions": 313,
+    "ctr": 1.28,
+    "position": 0
+  },
+  "quick_wins": [],
+  "row_count": 27,
+  "error": null,
+  "date_range": {
+    "start": "2026-11-09",
+    "end": "2026-11-15"
+  }
+}
