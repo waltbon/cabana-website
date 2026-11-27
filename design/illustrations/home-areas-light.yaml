@@ -1,0 +1,69 @@
+# Ilustraciones de las tarjetas "Lo que hacemos" (home, CH-home-areas)
+# Una imagen por área. Estilo: design/illustration-style-doodle.yaml, tema light.
+# Contenedor: pozo blanco (bg-background, rounded-lg) dentro de cada tarjeta.
+# Tarjetas chicas: 3:2. Tarjeta destacada (01, escritorio): pozo vertical ~380x384,
+# usar la misma imagen con object-contain.
+style_ref: design/illustration-style-doodle.yaml
+theme: light
+background: "#ffffff"   # luego white-to-alpha (design/tools/white-to-alpha.py)
+aspect_ratio: "3:2"
+export:
+  dir: public/home/areas/   # <slug>.webp
+
+common_suffix: >
+  Hand-drawn ink doodle illustration, thick slightly wobbly black marker lines with
+  double-line contours, solid ink fills and diagonal hatching, curved dotted arrows
+  and small four-point sparkles as decoration. Isolated on a pure flat white #ffffff
+  background, all object interiors the same pure white, black #111111 ink.
+  {ACCENT} filled with flat neon green #57ff8f, outlined in ink; everything else
+  monochrome black and white. No text, no letters, no words, no labels, no numbers
+  anywhere. No gradients, no shading, no realistic 3D, no humanoid robots. Simple
+  single-object composition, clean vector, generous margins, 3:2 landscape.
+
+negative_prompt: >
+  text, letters, words, labels, captions, numbers, typography, checkerboard,
+  transparency grid, beige, cream, paper texture, off-white fills, gradient,
+  photorealistic, 3d render, glossy, shadow, logos, multiple colors, blue,
+  humanoid robot, background scenery, perfect geometric lines
+
+areas:
+  - slug: modernizacion-de-datos
+    message: muchas fuentes sueltas pasan a una sola fuente confiable en la nube
+    accent: "Only the top disc of the database cylinder is"
+    subject: >
+      Several loose spreadsheets and paper sheets with squiggly lines on the left,
+      connected by curved dotted arrows flowing into one single database cylinder
+      sitting on a small cloud on the right, with a tiny line chart floating above it.
+
+  - slug: conocimiento-empresarial
+    message: preguntar en lenguaje natural y recibir respuesta que cita la fuente
+    accent: "Only the speech bubble is"
+    subject: >
+      An open binder of documents on the left connected by a dotted line to a large
+      rounded speech bubble on the right; inside the bubble three squiggly text lines
+      and a small paper icon with a link chain showing the cited source.
+
+  - slug: ciencia-de-datos-y-machine-learning
+    message: predicción hacia adelante y alerta que apoya una decisión
+    accent: "Only the dashed forecast segment's end dot and the bell are"
+    subject: >
+      A simple line chart on a sheet: a solid line rising, then continuing ahead as a
+      dashed forecast segment, with a small bell with motion lines above the last
+      point of the forecast.
+
+  - slug: automatizacion-con-agentes-de-ia
+    message: el agente prepara, la persona revisa y aprueba (la IA propone, su equipo decide)
+    accent: "Only the round check stamp is"
+    subject: >
+      A small abstract helper made of gears and sparkles (not a robot) sliding a
+      prepared document across a desk toward a simple stick figure person who holds a
+      round approval stamp with a check mark.
+
+  - slug: productos-digitales
+    message: aplicación a medida con la IA en un módulo puntual, no en todo
+    accent: "Only the sparkle module is"
+    subject: >
+      A browser window wireframe with a sidebar, a few content blocks and a small
+      chart; one rounded module in the window has a sparkle star inside it.
+
+# Prompt final = subject + common_suffix (con {ACCENT} reemplazado por accent).
