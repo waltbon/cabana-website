@@ -1873,6 +1873,12 @@
       "description": "Descubre cómo Cabana Data ha ayudado a empresas en América Latina a resolver desafíos complejos de datos — de pipelines reactivos a arquitecturas listas para IA."
     }
   },
+  "languageSuggestion": {
+    "message": "Esta página también está disponible en español.",
+    "accept": "Ver en español",
+    "dismiss": "Seguir en inglés",
+    "close": "Cerrar"
+  },
   "languageSwitcher": {
     "english": "English",
     "spanish": "Español"

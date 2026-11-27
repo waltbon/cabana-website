@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
@@ -10,6 +10,7 @@ import Script from "next/script";
 import { siteConfig } from "@/site.config";
 import { locales, type Locale } from "@/i18n/config";
 import { Footer } from "@/components/footer";
+import { LanguageSuggestion } from "@/components/language-suggestion";
 import { Nav } from "./_components/nav";
 import { ContactDrawerProvider } from "@/components/contact/contact-drawer-provider";
 import { LazyMotionProvider } from "@/components/animations/lazy-motion-provider";
@@ -239,6 +240,10 @@ export default async function LocaleLayout({
 
   const jsonLd = getJsonLd(locale, messages);
 
+  // Q22 (C): Spanish pages suggest the English version to English-preferring
+  // browsers, so the suggestion is written in English.
+  const suggestion = await getTranslations({ locale: "en", namespace: "languageSuggestion" });
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
@@ -289,6 +294,15 @@ export default async function LocaleLayout({
                 <Nav />
                 <main id="main-content">{children}</main>
                 <Footer />
+                <LanguageSuggestion
+                  target="en"
+                  labels={{
+                    message: suggestion("message"),
+                    accept: suggestion("accept"),
+                    dismiss: suggestion("dismiss"),
+                    close: suggestion("close"),
+                  }}
+                />
               </ContactDrawerProvider>
             </LazyMotionProvider>
           </ThemeProvider>
