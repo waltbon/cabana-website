@@ -45,11 +45,11 @@ for dims in query page; do
 done
 ```
 
-**Drift** de las páginas objetivo contra su última baseline:
+**Drift** de las páginas objetivo contra su última baseline. Usa siempre `scripts/seo-drift.py`, no `drift_compare.py` directo: el plugin envía `Accept-Language: en-US` fijo y, desde Q21, el sitio redirige esas peticiones a `/en/...`. El script manda `es` o `en` según la URL (B-056) y avisa en stderr si una URL redirigió:
 
 ```bash
 for p in / /en /ruta-ia /ai-first-move /en/ai-first-move /lo-que-hacemos /en/lo-que-hacemos /lo-que-hacemos/modernizacion-de-datos /lo-que-hacemos/automatizacion-con-agentes-de-ia /lo-que-hacemos/conocimiento-empresarial /lo-que-hacemos/ciencia-de-datos-y-machine-learning /lo-que-hacemos/productos-digitales /como-trabajamos /en/how-we-work; do
-  $PY "$SEO/scripts/drift_compare.py" "https://cabanadata.com$p" --skip-cwv
+  SEO="$SEO" $PY scripts/seo-drift.py compare "https://cabanadata.com$p" --skip-cwv
 done > "$RUN/drift.txt" 2>&1
 ```
 
@@ -66,7 +66,7 @@ El script termina con código 0 aunque fallen las consultas: revisa `summary.err
 
 1. **GSC y no-marca:** no calcules a mano. Corre `node scripts/gsc-summary.mjs "$RUN"` (con `--json > "$RUN/gsc-summary.json"` si quieres guardarlo). Da, para las dos ventanas, clics e impresiones del sitio (de `gsc-page.json`), la posición media ponderada por impresiones de las consultas visibles (la API devuelve `totals.position = 0`) y el desglose marca / no-marca (no-marca excluye `cabana`, `ruta ia`, `ruta ai`, `ai first move`). En `metrics.csv`, `gsc_avg_position_7d` es la posición de consultas visibles. Si el script dice "sin datos", la métrica queda vacía.
 2. **Drift con contexto:** cruza cada hallazgo de drift con los merges desde la última corrida (`git log --merges --since=<fecha de la corrida anterior> --oneline` y los PR que citan `B-0xx`).
-   - Si el cambio vino de un PR intencional, es **esperado**. Al final de la corrida, captura una baseline nueva de esa URL: `$PY "$SEO/scripts/drift_baseline.py" <url> --skip-cwv`.
+   - Si el cambio vino de un PR intencional, es **esperado**. Al final de la corrida, captura una baseline nueva de esa URL: `SEO="$SEO" $PY scripts/seo-drift.py baseline <url> --skip-cwv`.
    - Si no hay PR que lo explique, es una **regresión**: va al reporte y al backlog como P0.
 3. **Lint:** compara `summary` y los hallazgos con el `lint.json` de la corrida anterior: nuevos, resueltos y persistentes. Cuenta las páginas del sitemap con hreflang (`pages[].hreflang`) y los redirects `applied`.
 4. **Indexación de páginas objetivo** (`gsc-inspect.json`):
