@@ -16,7 +16,16 @@ RUN=docs/seo/runs/$(date +%F)
 mkdir -p "$RUN"
 SEO=$(ls -d ~/.claude/plugins/cache/agricidaniel-claude-seo/claude-seo/*/ | tail -1)
 PY=~/.cache/claude-seo/venv/bin/python
+PREV=$(ls -d docs/seo/runs/20*/ | sed 's#.*/runs/##; s#/##' | grep -v "^$(date +%F)$" | tail -1)
+DAYS=$(( ( $(date +%s) - $(date -j -f %F "$PREV" +%s) ) / 86400 ))
+echo "Corrida anterior: $PREV (hace $DAYS días)"
 ```
+
+**Corrida solapada (B-059).** Si `DAYS` es menor que 7, la ventana de GSC comparte días con la de `$PREV` y sus cifras no son una semana nueva. La corrida sigue (lint, drift e indexación sí miden el estado de hoy), pero:
+
+- la línea de estado del reporte lo dice primero: "Corrida solapada: comparte N de 7 días de ventana GSC con la de `$PREV`";
+- la columna "anterior" de los KPIs de GSC sale de la última fila de `metrics.csv` con al menos 7 días de antigüedad, no de `$PREV`; dilo bajo la tabla;
+- la nota de la fila en `metrics.csv` empieza con `SOLAPADA con $PREV;`. Esas filas no cuentan como semana para el criterio de salida de etapa (STRATEGY §2).
 
 Si `$PY` no existe, crea el venv una sola vez:
 
@@ -80,7 +89,7 @@ El script termina con código 0 aunque fallen las consultas: revisa `summary.err
 
 **`$RUN/report.md`**, en este orden y en español:
 
-1. Una línea de estado: etapa actual y si va mejor, igual o peor que la semana anterior.
+1. Una línea de estado: etapa actual y si va mejor, igual o peor que la semana anterior. Si la corrida es solapada (§0), empieza por eso.
 2. Tabla de KPIs (columnas de `metrics.csv`) con el valor anterior, el actual y la meta.
 3. Regresiones (drift sin PR, errores nuevos de lint, páginas que dejaron de responder 200, páginas objetivo que dejaron de estar indexadas).
 4. Indexación de páginas objetivo: tabla con URL, `verdict`, `coverage_state`, último rastreo y si Google respeta la canónica.
@@ -88,7 +97,7 @@ El script termina con código 0 aunque fallen las consultas: revisa `summary.err
 6. Oportunidades de GSC.
 7. Fuentes sin datos y por qué.
 
-**Una fila en `docs/seo/metrics.csv`** con las mismas columnas del encabezado. Deja vacío lo que no se midió.
+**Una fila en `docs/seo/metrics.csv`** con las mismas columnas del encabezado. Deja vacío lo que no se midió. Si la corrida es solapada, la nota empieza con `SOLAPADA con <fecha>;`.
 
 ## 4 · Backlog
 
