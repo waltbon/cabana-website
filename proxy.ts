@@ -13,14 +13,26 @@ const spanishOnlyMiddleware = createMiddleware({
 });
 const SPANISH_ONLY = /^\/posts\/[^/]+\/?$/;
 
+// Q22 (C): the language is never chosen from Accept-Language, only from the
+// NEXT_LOCALE cookie, so every URL answers the same to crawlers and people.
+// English-preferring visitors get a suggestion instead (LanguageSuggestion).
+// The header is pinned to the default locale rather than removed: without it
+// next-intl negotiates "en" and would set NEXT_LOCALE=es on every first visit.
+function withoutAcceptLanguage(request: NextRequest) {
+  const headers = new Headers(request.headers);
+  headers.set("accept-language", routing.defaultLocale);
+  return new NextRequest(request, { headers });
+}
+
 export function proxy(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith("/ruta-ia")) {
     return;
   }
+  const intlRequest = withoutAcceptLanguage(request);
   if (SPANISH_ONLY.test(request.nextUrl.pathname)) {
-    return spanishOnlyMiddleware(request);
+    return spanishOnlyMiddleware(intlRequest);
   }
-  return intlMiddleware(request);
+  return intlMiddleware(intlRequest);
 }
 
 export const config = {

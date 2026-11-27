@@ -5,7 +5,8 @@ export const routing = defineRouting({
   locales,
   defaultLocale,
   localePrefix: "as-needed",
-  // Q21 (2026-11-25): redirect first-time visitors to /en when the browser
-  // prefers English. The NEXT_LOCALE cookie keeps a manual language choice.
+  // Q22 (C, 2026-11-26): detection only follows the NEXT_LOCALE cookie
+  // (a manual choice). proxy.ts strips Accept-Language before this runs, so
+  // nobody is redirected by browser language; see LanguageSuggestion.
   localeDetection: true,
 });
