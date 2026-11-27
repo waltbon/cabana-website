@@ -1,6 +1,8 @@
-import { ArrowDown, ArrowRight } from "lucide-react";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { AREAS } from "../[area]/_components/areas";
 
 type Area = {
   name: string;
@@ -10,6 +12,10 @@ type Area = {
   href: string;
 };
 
+/**
+ * One card per impact area: illustration, before → after, and the dark
+ * metric panel (design: CH-lqh-areas). Order matches `AREAS`.
+ */
 export async function AreasSection() {
   const t = await getTranslations("loQueHacemos.areas");
   const items = t.raw("items") as Area[];
@@ -23,41 +29,48 @@ export async function AreasSection() {
             <li key={area.href}>
               <Link
                 href={area.href}
-                className="group flex h-full flex-col overflow-hidden rounded-xl border bg-card transition-colors hover:border-primary lg:flex-row"
+                className="group flex h-full flex-col gap-2 overflow-hidden rounded-xl border bg-card p-2 transition-colors hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 lg:min-h-65 lg:flex-row"
               >
-                <div className="flex flex-1 flex-col justify-center gap-5 px-6 py-7 md:px-10 md:py-9">
-                  <div className="flex flex-col gap-2 md:flex-row md:items-center md:gap-5">
+                <div className="relative h-48 shrink-0 rounded-lg bg-section-light p-4 lg:h-auto lg:w-75">
+                  <div className="relative size-full">
+                    <Image
+                      src={`/home/areas/${AREAS[i].slug}.webp`}
+                      alt=""
+                      fill
+                      sizes="(min-width: 1024px) 300px, 100vw"
+                      className="object-contain transition-transform duration-300 motion-safe:group-hover:scale-105"
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-1 flex-col justify-center gap-4 px-3 pt-4 pb-3 md:px-8 md:py-7">
+                  <div className="flex flex-col gap-1.5">
                     <span className="text-sm font-semibold tracking-wide text-primary">
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <h3 className="text-2xl font-bold text-foreground md:text-3xl">
+                    <h3 className="text-2xl font-bold leading-tight text-foreground md:text-3xl">
                       {area.name}
                     </h3>
                   </div>
-                  <span aria-hidden className="h-px w-full bg-border" />
-                  <div className="flex flex-col gap-3 md:flex-row md:items-center md:gap-5">
-                    <p className="text-muted-foreground md:flex-1">{area.moment}</p>
+                  <p className="text-muted-foreground">{area.moment}</p>
+                  <div className="flex items-start gap-3">
                     <span
                       aria-hidden
-                      className="flex size-8 shrink-0 items-center justify-center rounded-full bg-cabana-green text-cabana-dark md:size-10"
+                      className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-cabana-green text-cabana-dark"
                     >
-                      <ArrowDown className="size-4 md:hidden" />
-                      <ArrowRight className="hidden size-4.5 md:block" />
+                      <ArrowRight className="size-4" />
                     </span>
-                    <p className="text-lg font-semibold text-foreground md:flex-1">
-                      {area.change}
-                    </p>
+                    <p className="text-lg font-semibold text-foreground">{area.change}</p>
                   </div>
                 </div>
-                <div className="flex flex-col justify-between gap-5 bg-cabana-dark px-6 py-6 md:px-8 md:py-9 lg:w-[340px] lg:shrink-0">
-                  <div className="flex flex-col gap-3.5">
+                <div className="flex flex-col justify-between gap-5 rounded-lg bg-cabana-dark p-6 md:p-7 lg:w-80 lg:shrink-0">
+                  <div className="flex flex-col gap-4">
                     <span aria-hidden className="h-0.75 w-8 bg-cabana-green" />
-                    <p className="text-lg font-semibold text-white">{area.metric}</p>
+                    <p className="text-xl font-bold leading-snug text-white">{area.metric}</p>
                   </div>
                   <span className="flex items-center gap-1.5 font-semibold text-cabana-green">
                     {t("cardCta")}
                     <ArrowRight
-                      className="size-4 transition-transform group-hover:translate-x-0.5"
+                      className="size-4 transition-transform motion-safe:group-hover:translate-x-0.5"
                       aria-hidden
                     />
                   </span>

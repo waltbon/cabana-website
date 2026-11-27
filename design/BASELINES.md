@@ -43,6 +43,8 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 | Contenedor | Qué propone | Estado |
 |---|---|---|
 | `CH-posts-slug: pantallas` | Encabezado del post dividido (texto a la izquierda, imagen a la derecha) y barra lateral genérica en lugar del formulario de Ruta IA. Propuesta A (formulario compacto, en la página completa), B (solo CTA) y C (nombre y correo). El encabezado dividido ya está en código; falta elegir la barra lateral. | Propuestas dibujadas; al elegir y mergear, actualizar `PG/posts/[slug]` y borrar el `CH`. |
+| `CH-home-areas: pantallas` | Home, Lo que hacemos: bento (01 destacada en azul, 02 a su lado, 03–05 abajo) con ilustración doodle por área y estado hover dibujado en la 04. | Implementado en la rama `feat/home-areas-cards`; al mergear, actualizar `PG/index` y borrar el `CH`. |
+| `CH-lqh-areas: pantallas` | `/lo-que-hacemos`, tarjetas de área: ilustración a la izquierda, momento → cambio al centro y panel oscuro con la cifra a la derecha. Hover dibujado en la 02. | Implementado en la rama `feat/home-areas-cards`; al mergear, actualizar `PG/lo-que-hacemos` y borrar el `CH`. |
 
 ## Sin baseline
 
@@ -54,7 +56,7 @@ Cada fila es una ruta pública del sitio. Un baseline se dibuja **al tocar** la 
 
 ## Ilustraciones
 
-Frame `Ilustraciones` del `.pen`: las ilustraciones del home, Ruta IA, AI First Move y las cuatro capacidades, con su uso. Las imágenes del `.pen` apuntan a `design/images/illustrations/` (copias de las de `public/`, incluido el hero del home); si se regenera una, se reemplazan ambas. Estilo y prompts: `design/illustration-style-doodle.yaml` y `design/illustrations/*.yaml`.
+Frame `Ilustraciones` del `.pen`: las ilustraciones del home, Ruta IA, AI First Move, las cuatro capacidades y las cinco áreas (`public/home/areas/`, usadas en el home y en `/lo-que-hacemos`; prompts en `design/illustrations/home-areas-light.yaml`), con su uso. Las imágenes del `.pen` apuntan a `design/images/illustrations/` (copias de las de `public/`, incluido el hero del home); si se regenera una, se reemplazan ambas. Estilo y prompts: `design/illustration-style-doodle.yaml` y `design/illustrations/*.yaml`.
 
 `/capacidades` se retiró en web v2 (301 a `/lo-que-hacemos`) y su contenedor `CH-capacidades` se eliminó del `.pen`. Sus ilustraciones siguen en `public/capacidades/` porque las usan las páginas de área.
 
